@@ -1,7 +1,7 @@
 body {
     background-size:cover;
     background-repeat:no-repeat;
-    background-image:url(image/background.jpg)
+    background-image: url(../Images/loginpage.jpg);
     
 }
 .title{
