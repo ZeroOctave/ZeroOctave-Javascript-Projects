@@ -1,0 +1,41 @@
+body {
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image:url(image/background.jpg)
+    
+}
+.title{
+    
+    font-weight:bold;
+    font-family:cursive;
+    padding-block: 50px;
+    text-indent: 10cm;
+    font-size:50px;
+    
+}
+.formtitle{
+    font-weight:normal;
+    font-variant: inherit;
+    font-variant: small-caps;
+    text-align: center;
+}
+.form {
+    border:1px solid;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    box-sizing: border-box;
+    margin-left: 300px;
+    
+}
+.pass{
+    margin-left:100px;
+}
+.button{
+    margin-left: 50%;
+   
+}
+.text{
+    font-size: 50px;
+}
+
