@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+         <meta charset="utf-8">
+         <title> ASTRO Javascript Clock UI Dark</title>
+        <link rel="stylesheet" href="../assets/css/Analog_clock.css">
+</head>
+<body>
+          <div class="clock">
+               <div class="hour">
+                    <div class="hr" id="hr"></div>
+               </div>
+               <div class="min">
+                   <div class="mn" id="mn"></div>
+               </div>
+               <div class="sec">
+                    <div class="sc" id="sc"></div>
+               </div>
+        </div>
+        <script type="text/javascript">
+                const deg = 6;
+                const hr = document.querySelector('#hr');
+                const mn = document.querySelector('#mn');
+                const sc = document.querySelector('#sc');
+
+                setInterval(() => {
+                    let day = new Date();
+                    let hh = day.getHours() * 30;
+                    let mm = day.getMinutes() * deg;
+                    let ss = day.getSeconds() *deg;
+
+                    hr.style.transform = `rotateZ(${(hh)+(mm/12)}deg)`;
+                    mn.style.transform = `rotateZ(${mm}deg)`;
+                    sc.style.transform = `rotateZ(${ss}deg)`;
+                });
+            </script>
+         <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" 
+                data-id="Astrodevil" data-description="Support me on Buy me a coffee!" 
+                data-message="" data-color="#40DCA5"
+                data-position="Right"
+                data-x_margin="50" data-y_margin="50">
+            </script>
+</body>
+</html>
