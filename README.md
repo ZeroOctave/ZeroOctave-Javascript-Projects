@@ -1,8 +1,9 @@
 # ZeroOctave-JavaScript-Projects
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-orange.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
+![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+![Begginers Friendly](https://img.shields.io/badge/Begginer%20Friendly%20-Yes-orange)
 
 [![GitHub issues](https://img.shields.io/github/issues/ZeroOctave/ZeroOctave-JavaScript-Projects)](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/issues)
 [![GitHub forks](https://img.shields.io/github/forks/ZeroOctave/ZeroOctave-JavaScript-Projects)](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/network)
