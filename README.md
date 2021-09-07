@@ -4,7 +4,8 @@
     <img src="assets/Images/ZeroOctave.png" height="200px"  align="center"/>
 
 <div align="center">
-  
+
+![Hactoberfest](https://img.shields.io/badge/Hactoberfest-%E2%9D%A4-red)    
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-orange.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square) 
 ![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red)
