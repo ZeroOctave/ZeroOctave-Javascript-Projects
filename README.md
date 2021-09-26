@@ -102,7 +102,7 @@ git push -u origin <your_branch_name>
 **14.** Click on `Create Pull Request`.
 
 
-**15** Woohoo! You have made a PR to the ZeroOctave-Javascript-Projects :boom: . Wait for your submission to be accepted and your PR to be merged.
+**15.** Woohoo! You have made a PR to the ZeroOctave-Javascript-Projects :boom: . Wait for your submission to be accepted and your PR to be merged.
 
 **Thank you for your interest in contributing to our Repo!🏼**
 
