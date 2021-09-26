@@ -1,4 +1,4 @@
-# ZeroOctave-JavaScript-Projects
+# <h1 align="center">ZeroOctave-JavaScript-Projects</h1>
 <!-- PROJECT LOGO -->
 <p align="center">
     <img src="assets/Images/ZeroOctave.png" height="200px"  align="center"/>
@@ -17,8 +17,17 @@
 
 </div>
 
-[# About❓
-Are You a Newbie? If yes! You are at right place😄. The collection of some mini javascript projects aare here.]:#
+# About❓
+Are You a Newbie in Web Development? Want to Contribute some javascript projects to showwcase your web development skills?
+
+If yes! You are at right place😄.
+
+ZeroOctave Javascript Projects contains some javascript projects which is good for understanding concepts of javascript.
+
+The motive🎯 of this project is to help you and others to learn and practice their web development skills. 
+
+**So, What are you waiting for?**
+
 # Tech-Stack🎓
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 
