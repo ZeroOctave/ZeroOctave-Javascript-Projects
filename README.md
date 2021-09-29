@@ -1,4 +1,5 @@
 [![Hacktoberfest 2021](./assets/Images/hacktober.png)](https://hacktoberfest.digitalocean.com/)
+## [Hactoberfest FAQs](https://hacktoberfest.digitalocean.com/faq)
 # <h1 align="center">ZeroOctave-JavaScript-Projects</h1>
 <!-- PROJECT LOGO -->
 <p align="center">
