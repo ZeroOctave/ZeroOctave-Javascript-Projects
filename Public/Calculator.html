@@ -1,51 +1,37 @@
-<html>
-  <head>
-     <link rel="stylesheet" type="text/css" href="../assets/css/Calculator.css">
-     <title>A simple calculator</title>
-  </head>
-  <body>
-    <div id="container">
-      <div id="calculator">
-        <div id="result">
-          <div id="history">
-            <p id="history-value">
-            </p>
-          </div>
-          <div id="output">
-            <p id="output-value">
-
-            </p>
-          </div>
-          
-        </div>
-        <div id="keyboard">
-          <button class="operator" id="clear">C</button>
-					<button class="operator" id="backspace">CE</button>
-					<button class="operator" id="%">%</button>
-					<button class="operator" id="/">&#247;</button>
-					<button class="number" id="7">7</button>
-					<button class="number" id="8">8</button>
-					<button class="number" id="9">9</button>
-					<button class="operator" id="*">&times;</button>
-					<button class="number" id="4">4</button>
-					<button class="number" id="5">5</button>
-					<button class="number" id="6">6</button>
-					<button class="operator" id="-">-</button>
-					<button class="number" id="1">1</button>
-					<button class="number" id="2">2</button>
-					<button class="number" id="3">3</button>
-					<button class="operator" id="+">+</button>
-					<button class="empty" id="empty"></button>
-					<button class="number" id="0">0</button>
-					<button class="empty" id="empty"></button>
-					<button class="operator" id="=">=</button>
-
-        </div>
-
-      </div>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link href="../assets/css/calculator.css" rel="stylesheet">
+  <script src="../assets/js/calculator.js" defer></script>
+</head>
+<body>
+  <div class="calculator-grid">
+    <div class="output">
+      <div data-previous-operand class="previous-operand"></div>
+      <div data-current-operand class="current-operand"></div>
     </div>
-    <script src="../assets/js/Calculator.js"></script>
-
-  </body>
+    <button data-all-clear class="span-two">AC</button>
+    <button data-delete>DEL</button>
+    <button data-operation>÷</button>
+    <button data-number>1</button>
+    <button data-number>2</button>
+    <button data-number>3</button>
+    <button data-operation>*</button>
+    <button data-number>4</button>
+    <button data-number>5</button>
+    <button data-number>6</button>
+    <button data-operation>+</button>
+    <button data-number>7</button>
+    <button data-number>8</button>
+    <button data-number>9</button>
+    <button data-operation>-</button>
+    <button data-number>.</button>
+    <button data-number>0</button>
+    <button data-equals class="span-two">=</button>
+  </div>
+</body>
 </html>
