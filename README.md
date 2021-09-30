@@ -20,15 +20,23 @@
 </div>
 
 # About❓
-Are You a Newbie in Web Development? Want to Contribute some javascript projects to showwcase your web development skills?
+Getting started with web development? What else would be better than practising it.
 
-If yes! You are at right place😄.
+So welcome developer. You are at right place.😊
 
-ZeroOctave Javascript Projects contains some javascript projects which is good for understanding concepts of javascript.
+ZeroOctave Javascript Projects provide some awesome web development projects to work upon and enhance your skills.
 
-The motive🎯 of this project is to help you and others to learn and practice their web development skills. 
+The motive🎯 of this project is to help new learners like you to get familiar with web development skills.
+
+Happy coding.👍
 
 **So, What are you waiting for?**
+
+# Before you begin💻
+
+We would request you to go through the contributing guidelines throughly so that you know what you are doing.
+
+Little knowledge of Github would be benificial for you so that you know what you are doing.
 
 # Tech-Stack🎓
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
@@ -109,6 +117,8 @@ git push -u origin <your_branch_name>
 **Thank you for your interest in contributing to our Repo!🏼**
 
 **Kudos to you🎈**
+
+**Best of luck for your development carrer👍😊 **
 
 
 # Our valuable Contributors👩‍💻👨‍💻 :
