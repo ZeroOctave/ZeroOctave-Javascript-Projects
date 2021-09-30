@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body
+{
+    background-color: dimgray;
+    line-height:1.6 ;
+    color: #fff;
+
+}
+
+.slider
+{
+    position: relative;
+    overflow: inherit;
+    height: 100vh;
+    width: 100vw;
+}
+.slide
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  
+    opacity: 0;
+    transition: opacity 0.4s ease
+
+}
+.slide.current
+{
+    opacity: 1;
+}
+.slide .content
+{
+    position: absolute;
+    bottom: 20px;
+    left: -600px;
+    width: 600px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.4);;
+    color: black;
+    padding: 35px;
+   
+}
+.slide .content h1{
+    margin-bottom: 10px;
+}
+.slide.current .content
+{
+    opacity: 1;
+    transform: translateX(600px);
+   
+    transition: all  0.7s ease-in-out 0.3s;
+}
+/* .slide.current .content:hover
+{
+    width:300px;
+    height: 300px;
+    transition: width 1s height;
+
+} */
+
+.buttons button#next
+{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+} 
+.buttons button#prev
+{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+} 
+.buttons button
+{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 13px 15px;
+    border-radius: 50%;
+}
+.buttons button:hover{
+    background-color: white;
+    color: black;
+}
+@media (max-width: 500px) {
+    .slide .content {
+      bottom: -300px;
+      left: 0;
+      width: 100%;
+    }
+}
+  
+  
+
+.slide:first-child
+{
+    background: url('./images/pexels-sebastiaan-stam-1097456.jpg') no-repeat center center/cover;
+    
+}
+.slide:nth-child(2)
+{
+    background: url('./images/pexels-junior-teixeira-2047905.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(3)
+{
+    background: url('./images/pexels-oleg-magni-1040499.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(4)
+{
+    background: url('./images/pexels-pixabay-36717.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(5)
+{
+    background: url('./images/pexels-rahul-716398.jpg')no-repeat center center/cover;
+}
+.slide:nth-child(6)
+{
+    background: url('./images/pexels-roberto-shumski-1903702.jpg')no-repeat center center/cover;
+}
