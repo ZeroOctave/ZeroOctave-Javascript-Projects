@@ -118,7 +118,7 @@ git push -u origin <your_branch_name>
 
 **Kudos to you🎈**
 
-**Best of luck for your development carrer👍😊 **
+**Best of luck for your development carrer👍😊**
 
 
 # Our valuable Contributors👩‍💻👨‍💻 :
