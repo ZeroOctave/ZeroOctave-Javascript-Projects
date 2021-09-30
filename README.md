@@ -24,7 +24,7 @@ Getting started with web development? What else would be better than practising 
 
 So welcome developer. You are at right place.😊
 
-ZeroOctave Javascript projects provide some awesome web development projects to work uopn and enhance your skills.
+ZeroOctave Javascript Projects provide some awesome web development projects to work uopn and enhance your skills.
 
 The motive🎯 of this project is to help new learners like you to get familiar with web development skills.
 
