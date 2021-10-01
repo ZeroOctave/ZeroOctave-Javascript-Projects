@@ -5,17 +5,33 @@
         <title>Word length calculator</title>
         <meta name="description" content="word length calculator">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="../assets/css/word-count-calculator.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     </head>
 
     <body>
 
-			<h1> Type a word in the box below </h1>
-			<input id="str" value="" type="text">
-			<div id="output"></div>
-			<button id="btn"><h2>Click to calculate word length</h2></button>
+        <nav class="navbar navbar-expand-lg navbar-light bg-success " style="background-color: rgb(230, 21, 21);">
+            <div class="container-fluid">
+              <a class="navbar-brand mx-5 text-white" href="#">Live word Counter</a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               
+              </div>
+            </div>
+          </nav>
+          <div class="input-group">
+            <div class="input-group-prepend">
+            
+            </div>
+            <textarea class="form-control mx-5 my-5 text-success"  id="textcontent"  aria-label="Large"></textarea>
+          </div>
+          <div class="container text-secondary">
+              Count of following parameters is displayed here-
+              <div id="countWord"></div>
+              <div id="countcharacter"></div>
+              <div id="countalphabets"></div>
 
+          </div>
 
 	    <script src="../assets/Js/word-count-calculator.js"></script>
 
