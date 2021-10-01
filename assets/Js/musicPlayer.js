@@ -25,11 +25,7 @@ form.addEventListener("submit", async (e) => {
     `https://deezerdevs-deezer.p.rapidapi.com/search?q=${song}`,
     headers
   );
-  // console.log(res);
-  // var data = res.data.data[0].preview;
-  // console.log(data);
-  // audio.src = `${data}`;
-  // audio.play();
+  
 
   (function reset() {
     if (musicContainer.classList.contains("play")) {
@@ -40,19 +36,9 @@ form.addEventListener("submit", async (e) => {
       playBtn.querySelector("i.fas").classList.add("fa-play");
       audio.pause();
     }
-    // if (musicInfo.classList.contains("pause")) {
-    //   musicContainer.classList.add("play");
-
-    //   musicInfo.classList.remove("pause");
-
-    //   playBtn.querySelector("i.fas").classList.remove("fa-play");
-
-    //   playBtn.querySelector("i.fas").classList.add("fa-pause");
-
-    //   audio.play();
-    // }
+    
   })();
-  // copied  from other file
+  
   const songs = res.data.data;
 
   let songIndex = 0;
@@ -65,29 +51,7 @@ form.addEventListener("submit", async (e) => {
     cover.src = `${res.data.data[songIndex].artist.picture_medium}`;
   }
 
-  // function playSong() {
-  //   musicContainer.classList.add("play");
-
-  //   musicInfo.classList.remove("pause");
-
-  //   playBtn.querySelector("i.fas").classList.remove("fa-play");
-
-  //   playBtn.querySelector("i.fas").classList.add("fa-pause");
-
-  //   audio.play();
-  // }
-  // function pauseSong() {
-  //   musicContainer.classList.remove("play");
-
-  //   musicInfo.classList.add("pause");
-
-  //   playBtn.querySelector("i.fas").classList.remove("fa-pause");
-
-  //   playBtn.querySelector("i.fas").classList.add("fa-play");
-
-  //   audio.pause();
-  // }
-
+  
   function prevSong() {
     songIndex--;
     if (songIndex < 0) {
@@ -103,7 +67,7 @@ form.addEventListener("submit", async (e) => {
     }
     loadSong(songs[songIndex]);
     playSong();
-    //   console.log(songIndex);
+    
   }
 
   function updateProgress(e) {
@@ -119,17 +83,7 @@ form.addEventListener("submit", async (e) => {
     audio.currentTime = (clickX / width) * duration;
   }
 
-  // playBtn.addEventListener("click", () => {
-  //   const isPlaying = musicContainer.classList.contains("play");
-
-  //   if (isPlaying) {
-  //     pauseSong();
-  //     console.log("pause");
-  //   } else {
-  //     playSong();
-  //     console.log("play");
-  //   }
-  // });
+  
 
   prevBtn.addEventListener("click", prevSong);
   nextBtn.addEventListener("click", nextSong);
@@ -137,7 +91,7 @@ form.addEventListener("submit", async (e) => {
   progressContainer.addEventListener("click", setProgress);
   audio.addEventListener("ended", nextSong);
 
-  // form event end
+  
   form.elements.query.value = "";
 });
 
