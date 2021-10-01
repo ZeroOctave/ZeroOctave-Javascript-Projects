@@ -1,0 +1,129 @@
+*{
+    background-color:azure;
+}
+h1 {color:gold;
+    
+    margin-left: 12%;
+    margin-right: 12%;
+    text-align: center;
+
+    font-size:200%;}
+
+    .one {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 30%;
+        width:100%;
+        height: 100%;
+        
+      }
+      nav
+      {
+        text-align: center;
+        padding-left: 5px;
+        font-size: medium;
+        
+        
+      }
+      #main{
+        width:100%;
+        height:30vh;
+        position: relative;
+      
+      
+      }
+      ul{
+        list-style: none;
+        display: flex;
+      }
+      .menu li a{
+
+        height: 40px;
+        line-height: 43px;
+        margin:3px;
+        padding: 0px 22px;
+        display:flex;
+        font-size:0.8em;
+        text-transform:uppercase;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color:grey;
+      }
+      .menu li a:hover{
+        background-color: #34adbf;
+        color:white;
+        box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
+        transition:all ease 0.2s;
+      
+      }
+      h2{
+        text-align: center;
+        color: chartreuse;
+      }
+      
+      
+      hr
+      {
+        margin-top: 2.5cm;
+        
+      }
+      .aboutus{
+        padding-bottom:150px;
+        padding-left:100px;
+        padding-right:100px;
+        padding-top:50px;
+         
+      }
+      
+      .aboutdetail{
+        padding-top:40px;
+        padding-left:20px;
+        font-size: larger;
+        
+      }
+      .fa {
+        padding: 20px;
+        font-size: 50px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        
+      }
+      
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.5;
+      }
+      
+      .fa-google {
+        background: #dd4b39;
+        color: white;
+        margin-right: 30px;
+      }
+    
+      .fa-instagram {
+        
+          background: #125688;
+          color: white;
+          margin-left: 30px;
+        }
+      .Contact{
+        padding-bottom:150px;
+        padding-left:100px;
+        padding-right:100px;
+        padding-top:50px;
+        text-align: center;
+      }
+      .activity {
+
+        padding-top:40px;
+        padding-left:20px;
+        font-size: larger;
+        text-align: center;
+      }
+      .created{
+        
+        text-align: center;
+      }
