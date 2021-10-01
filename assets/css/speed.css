@@ -1,0 +1,90 @@
+body { 
+background: #ff6e7f;  
+background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);  
+background: linear-gradient(to right, #bfe9ff, #ff6e7f); 
+
+color: black; 
+text-align: center; 
+} 
+
+.container { 
+display: flex; 
+flex-direction: column; 
+align-items: center; 
+} 
+
+.heading { 
+margin-bottom: 20px; 
+font-size: 3rem; 
+color: black; 
+} 
+
+.header { 
+display: flex; 
+align-items: center; 
+} 
+
+.timer, .errors, .accuracy, 
+.cpm, .wpm { 
+background-color: #ccda46; 
+height: 60px; 
+width: 70px; 
+margin: 8px; 
+padding: 12px; 
+border-radius: 20%; 
+box-shadow: black 5px 8px 5px; 
+} 
+
+.cpm, .wpm { 
+display: none; 
+} 
+
+.header_text { 
+text-transform: uppercase; 
+font-size: 0.6rem; 
+font-weight: 600; 
+} 
+
+.curr_time, .curr_errors, 
+.curr_accuracy, .curr_cpm, 
+.curr_wpm { 
+font-size: 2.75rem; 
+} 
+
+.quote { 
+background-color: #ccda46; 
+font-size: 1.5rem; 
+margin: 10px; 
+padding: 25px; 
+box-shadow: black 5px 8px 5px; 
+} 
+
+.input_area { 
+background-color: #f5f5c6; 
+height: 80px; 
+width: 40%; 
+font-size: 1.5rem; 
+font-weight: 600; 
+margin: 15px; 
+padding: 20px; 
+border: 0px; 
+box-shadow: black 5px 8px 5px; 
+} 
+
+.restart_btn { 
+display: none; 
+background-color: #326765; 
+font-size: 1.5rem; 
+padding: 10px; 
+border: 0px; 
+box-shadow: black 5px 8px 5px; 
+} 
+
+.incorrect_char { 
+color: red; 
+text-decoration: underline; 
+} 
+
+.correct_char { 
+color: darkgreen; 
+} 
