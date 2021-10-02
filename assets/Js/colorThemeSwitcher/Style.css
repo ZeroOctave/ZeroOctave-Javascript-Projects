@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  font-size: 1.3vw;
+}
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f7fc;
+  transition: background-color 0.55s;
+  will-change: background-color;
+  margin: 0;
+}
+.menu__item {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 12.5rem;
+  display: inline-block;
+  margin-left: 2.1rem;
+  animation-name: close;
+  animation-duration: 0s;
+  will-change: width background-color;
+  transition: background 0.55s;
+  vertical-align: top;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu__item:first-child {
+  margin-left: 0;
+  background: #fabe2b;
+}
+.menu__item:nth-child(2) {
+  background: #f43768;
+}
+.menu__item:nth-child(3) {
+  background: #45e1a3;
+}
+.menu__item:nth-child(4) {
+  background: #c152da;
+}
+.menu__item--animate {
+  animation-duration: 0.5s;
+}
+.menu__item--active {
+  width: 17rem;
+  animation-name: open;
+}
+
+.menu__item--active.menu__item--yellow {
+  background: #fabe2b;
+}
+.menu__item--active.menu__item--red {
+  background: #f43768;
+}
+.menu__item--active.menu__item--green {
+  background: #45e1a3;
+}
+.menu__item--active.menu__item--purple {
+  background: #c152da;
+}
