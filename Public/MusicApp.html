@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
 </head>
     
@@ -161,5 +161,93 @@ img {
         </div>
     </div>
 </body>
-<script src="./scripts.js">
+<script >
+       const image = document.querySelector('img')
+const music = document.querySelector('.music')
+const play = document.getElementById('play')
+const artist = document.getElementById('artist')
+const title = document.getElementById('title')
+const prev = document.getElementById('prev')
+const next = document.getElementById('next')
+
+
+const songs = [{
+    name: "Freeverse",
+    title: "Freeverse Feast",
+    artist: "Emiway Bantai"
+
+}, {
+    name: "Rap",
+    title: "Rap-God",
+    artist: "Eminem",
+}, {
+    name: "Nas-Is-Like",
+    title: "Nas Is Like",
+    artist: "Nas",
+}, {
+    name: "Eminem",
+    title: "Lose yourself",
+    artist: "Eminem",
+}, ]
+
+
+
+
+
+
+let isPlaying = false;
+
+const playMusic = () => {
+    isPlaying = true;
+    music.play()
+    play.classList.replace('fa-play', 'fa-pause')
+    image.classList.add('anime')
+}
+const pauseMusic = () => {
+    isPlaying = false;
+    music.pause()
+    play.classList.replace('fa-pause', 'fa-play')
+    image.classList.remove('anime')
+
+}
+
+play.addEventListener('click', () => {
+    if (isPlaying) {
+        pauseMusic()
+    } else {
+        playMusic()
+    }
+})
+
+
+//changing the music data
+
+const loadSong = (songs) => {
+    title.textContent = songs.title;
+    artist.textContent = songs.artist;
+    music.src = `${songs.name}.mp3`
+    image.src = `${songs.name}.jpg`
+
+}
+
+
+let songIndex = 0;
+const nextSong = () => {
+    songIndex = (songIndex + 1) % songs.length;
+    loadSong(songs[songIndex]);
+    playMusic()
+
+}
+const prevSong = () => {
+    songIndex = (songIndex - 1) % songs.length;
+    loadSong(songs[songIndex]);
+    playMusic()
+
+
+}
+
+next.addEventListener('click', nextSong)
+prev.addEventListener('click', prevSong)
+       
+       </script>
 </script>
