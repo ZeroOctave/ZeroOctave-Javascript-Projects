@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #2a2a72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    height: 85vh;
+    width: 80vw;
+    background-color: black;
+    border-radius: 14px;
+}
+
+.ball {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: fixed;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    color: red;
+}
+
+.ball_effect {
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    animation: spinBall 0.1s linear infinite;
+    background-color: red;
+}
+
+@keyframes spinBall {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.bat {
+    width: 1.3vw;
+    height: 13vh;
+    position: fixed;
+}
+
+#bat1 {
+    top: 44%;
+    left: 13%;
+    background-color: white;
+}
+
+#bat2 {
+    top: 44%;
+    right: 13%;
+    background-color: white;
+}
+
+.player1Score {
+    height: 50px;
+    width: 50px;
+    color: white;
+    position: fixed;
+    margin-top: 30px;
+    font-family: 'Press Start 2P', cursive;
+    left: 20%;
+    font-size: 127%;
+}
+
+.player2Score {
+    height: 50px;
+    width: 50px;
+    color: white;
+    position: fixed;
+    margin-top: 30px;
+    font-family: 'Press Start 2P', cursive;
+    left: 78%;
+    font-size: 127%;
+}
+
+.message {
+    position: fixed;
+    height: 10vh;
+    width: 34vw;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 100%;
+    padding: 2%;
+    left: 32%;
+}
