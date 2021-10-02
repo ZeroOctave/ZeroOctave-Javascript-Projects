@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-weight: 500;
+    font-size: 14px;
+}
+body{
+    background:linear-gradient(135deg, #E3E3E3 0%,#9a9a9a 100%);
+    display: grid;
+    place-items: center;
+    font-weight: 450;
+    opacity: 1;
+}
+
+.none
+{
+    display: none;
+}
+.resume
+{
+    margin-top: 20px;
+    width: 800px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+#print
+{
+    background-color: #fff;
+    padding: 30px 50px;
+    height: 1120px;
+    
+}
+
+.head
+{
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+}
+.head .main .name
+{
+    font-size: 55px;
+    font-family: 'Raleway', sans-serif;
+}
+.head .main  span:nth-child(2)
+{
+    color: rgb(100, 100, 100);
+    font-size: 55px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 5px;
+}
+.head .main .post
+{
+font-family: 'Barlow', sans-serif;
+}
+.head .contacts
+{
+    text-align: right;
+    padding-top: 7px;
+}
+.head .contacts .content
+{
+    font-weight: 500;
+    padding-right: 5px;
+}
+.head .contacts .symbol
+{
+    margin-right: 5px;
+    font-size: 15px;
+    width: 17px;
+    height: 17px;
+}
+.line
+{
+    height: 0.5px;
+    background-color: rgb(87, 87, 87);
+    margin: 25px 0;
+    margin-bottom: 50px;
+}
+.mainbody
+{
+    display: grid;
+    grid-template-columns: 10fr 1fr 17fr;
+    height: 900px;
+}
+.mainbody .border
+{
+    background-color: rgb(87, 87, 87);
+    width: 3px;
+    opacity: 2;
+}
+.mainbody .rightside
+{
+    padding-left: 15px;
+}
+.title
+{
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    padding-bottom: 3px;
+    border-bottom: 2px greenyellow solid;
+}
+.skill
+{
+    margin-bottom: 6px;
+}
+button
+{
+    margin: 15px 0;
+}
+.language
+{
+    margin-bottom:6px;
+}
+.language span:nth-child(odd)
+{
+    font-weight: 700;
+}
+#education
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.edublock .head
+{
+    font-weight: 700;
+    font-size: 17px;
+}
+
+/*-----------------------------------------*/
+
+.navbtn
+{
+position: fixed;
+top: 40%;
+left: 4%;
+transform: translate(-40%,-4%);
+height: 60px;
+width: 60px;
+border-radius: 50%;
+border:#fff 2px solid;
+transition: 300ms ease-in-out;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.navbtn:nth-child(2)
+{
+top: 50%;
+left: 4.4%;
+transform: translate(-50%,-4.4%);
+}
+.navbtn:nth-child(3)
+{
+top: 60%;
+left: 4.8%;
+transform: translate(-60%,-4.8%);
+}
+.navbtn:hover
+{
+    background-color: black;
+    color: #fff;
+    border: #000 2px solid;
+    height: 65px;
+    width: 65px;
+}
