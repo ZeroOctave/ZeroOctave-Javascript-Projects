@@ -1,0 +1,16 @@
+/* This css file is a copy of digital_clock.css.I have made minor changes to display digital clock on landing page */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+body {
+    background: black;
+}
+
+.clock1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 40px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
