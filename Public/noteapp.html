@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dark Dronzer Notes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" id="searchtext" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+    <div class="container my-3">
+
+        <h1> hello take your note</h1>
+
+
+
+
+
+        <div class="card  my-2 mx-2">
+            <div class="card-body">
+                <h5 class="card-title">Add notes</h5>
+
+
+                <div class="form-group">
+                    <textarea class="form-control" placeholder=" write your note here" id="addtxt" rows="4"></textarea>
+
+                </div>
+
+                <a class="btn btn-primary  my-3" id="addbtn">Add note</a>
+            </div>
+        </div>
+
+
+        <hr>
+        <h1> Your notes</h1>
+
+        <hr>
+
+        <div class="row container-fluid" id="notes">
+
+            
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+
+    <script>
+        // if user adds notes
+
+shownotes();
+
+let addbtn = document.getElementById('addbtn');
+
+
+addbtn.addEventListener('click', function (e) {
+
+    let adddtxt = document.getElementById('addtext')
+
+    let notes = localStorage.getItem('notes');
+
+    if (notes == null) {
+        notesobj = [];
+    } else {
+        notesobj = JSON.parse(notes)
+    }
+
+    notesobj.push(addtxt.value)
+    localStorage.setItem('notes', JSON.stringify(notesobj));
+
+    addtxt.value = "";
+
+    console.log(notesobj)
+
+    shownotes();
+
+})
+
+
+function shownotes() {
+    let notes = localStorage.getItem('notes');
+
+    if (notes == null) {
+        notesobj = [];
+    } else {
+        notesobj = JSON.parse(notes)
+    }
+
+    let html = "";
+
+    notesobj.forEach(function (element, index) {
+        html += `
+<div class=" notecard card my-2 mx-2" style="width: 18rem;">
+
+<div class="card-body">
+    <h5 class="card-title">Note ${index+1}</h5>
+    <p class="card-text">  ${element}</p>
+    <button id="${index} " class="btn btn-primary" onclick="deletenotes(this.id)">Delete</button>
+</div>
+</div>
+
+
+
+`;
+
+    })
+
+    let noteselem = document.getElementById('notes');
+
+    if (notesobj.length != 0) {
+        noteselem.innerHTML = html;
+    }
+    else{
+
+        noteselem.innerHTML= `<h6> Nothing to show please Add notes </h6>`;
+    }
+}
+
+
+
+// deleting
+
+
+function deletenotes(index){
+
+    let notes = localStorage.getItem('notes');
+
+    if (notes == null) {
+        notesobj = [];
+    } else {
+        notesobj = JSON.parse(notes)
+    }
+
+notesobj.splice(index,1);
+localStorage.setItem('notes', JSON.stringify(notesobj));
+shownotes();
+
+}
+
+
+
+
+let search=document.getElementById('searchtext');
+
+
+search.addEventListener("input",function(){
+    let inputval=search.value;
+
+    console.log(inputval);
+let notecards= document.getElementsByClassName('notecard');
+
+Array.from(notecards).forEach(function(element){
+
+
+    let cardtxt= element.getElementsByTagName('p')[0].innerText;
+
+    if(cardtxt.includes(inputval)){
+
+        element.style.display="block";
+
+    }
+    else{
+        element.style.display="none";
+
+    }
+})
+
+})
+    </script>
+
+</html>
