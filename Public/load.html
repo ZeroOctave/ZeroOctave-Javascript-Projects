@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+body
+	{
+		background-image: url(bg_game.jpg);
+		background-size: 1350px 760px;
+	}
+#myProgress {
+width: 50%;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  position: relative;
+  top: 50px;
+  left: 320px;
+}
+h1{
+  position: relative;
+  top: 50px;
+  left: 580px;
+  font-family: 'Indie Flower',cursive;
+  font-size: 50px;
+
+}
+
+</style>
+<body onload="move()">
+<img src="../assets/Images/i3.png" style="display: block;margin-left: auto;margin-right: auto;height: 300px;">
+<h1>LOADING...</h1>
+<div id="myProgress">
+  <div id="myBar">1%</div>
+</div>
+<br>
+<script>
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 5;
+  var id = setInterval(frame, 100);
+  function frame() {
+    if (width >= 100) 
+    {
+      clearInterval(id);
+      window.location="play.html";
+    } 
+    else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
+</script>
+
+</body>
+</html>

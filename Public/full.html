@@ -1,0 +1,35 @@
+<html>
+
+	<!-- <form>
+	input type="button"  value="Full screen" onclick="GoInFullscreen()" id="button-one"> --> 
+	<!-- <input type="button"  value="Exit" onclick="GoInOutscreen()" id="button-two"> -->
+	<!-- </form> -->
+	
+
+	<img src="../assets/Images/2.jpg" onclick="GoInFullscreen()" id="button-one" width="65" height="45">
+	<img src="../assets/Images/1.jpg" onclick="GoInOutscreen()" id="button-two" width="65" height="45">
+	<script>
+	var element = document.documentElement;
+	document.querySelector("#button-two").style.display = "none";
+	
+	function GoInFullscreen() {
+	
+	document.querySelector("#button-two").style.display = "none";
+	if(element.requestFullscreen){
+		element.requestFullscreen();
+		document.querySelector("#button-one").style.display = "none";
+		document.querySelector("#button-two").style.display = "block";
+	}
+}
+
+	function GoInOutscreen() {
+	 
+	if(document.exitFullscreen){
+		document.exitFullscreen();
+		document.querySelector("#button-two").style.display = "none";
+		document.querySelector("#button-one").style.display = "block";
+	}
+}
+	</script>
+</html>
+
