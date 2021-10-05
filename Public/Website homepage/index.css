@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.main{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./pic.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style: none;
+}
+
+ul li{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 7px 35px;
+    border: 2px  solid transparent;
+    display: block;
+    border-radius: 10px;
+    margin-right: 10px ;
+    transition: 0.6s ease;
+}
+
+#home a{
+    color: #000;
+    background-color: #ffff;
+}
+
+ul li a:hover{
+    color: #000;
+    background-color: #ffff;
+    text-align: center;
+}
+
+#title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#title h1{
+    color: #ffff;
+    font-size: 85px;
+    text-shadow: 30px 22px 10px black,30px 22px 10px white;
+    transform: skew(5deg);
+}
+
+.button{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.button a{
+    color: #ffff;
+    padding: 8px 40px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+    transition: 0.6s ease;
+}
+
+.button a:hover{
+    color: black;
+    background: white;
+
+}
