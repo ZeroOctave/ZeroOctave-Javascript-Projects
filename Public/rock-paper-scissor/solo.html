@@ -6,7 +6,7 @@
 <style type="text/css">
 @import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
 body{
-		background-image: url(../assets/Images/bg_game.jpg);
+		background-image: url(../../assets/Images/bg_game.jpg);
 	}
 .disabled{
 	display: none;
@@ -284,7 +284,7 @@ load();
 choice="rock";
 computerChoice=Math.random();
 var ele=document.getElementById("show1");
-ele.innerHTML="<img src=\'../assets/Images/p1-rock.png\'>"
+ele.innerHTML="<img src=\'../../assets/Images/p1-rock.png\'>"
 if (computerChoice < 0.34) {
             computerChoice = "rock";
         } else if(computerChoice <= 0.67) {
@@ -296,20 +296,20 @@ if (computerChoice < 0.34) {
    				document.getElementById("win").innerHTML="";
    				document.getElementById("tie").innerHTML="Tie!";
                 var ele2=document.getElementById("show2");
-                ele2.innerHTML="<img src=\'../assets/Images/p2-rock.png\'>"
+                ele2.innerHTML="<img src=\'../../assets/Images/p2-rock.png\'>"
             }
     else{
                 if (computerChoice === "scissors") {
                 document.getElementById("tie").innerHTML="";
                 document.getElementById("win").innerHTML="Rock Won!";
                 var ele2=document.getElementById("show2");
-                ele2.innerHTML="<img src=\'../assets/Images/p2-scissors.png\'>"
+                ele2.innerHTML="<img src=\'../../assets/Images/p2-scissors.png\'>"
                     c++;
                 } else {
                 document.getElementById("tie").innerHTML="";
                 document.getElementById("win").innerHTML="Paper Won!";
                 var ele2=document.getElementById("show2");
-                ele2.innerHTML="<img src=\'../assets/Images/p2-paper.png\'>"                
+                ele2.innerHTML="<img src=\'../../assets/Images/p2-paper.png\'>"                
                     c1++;
                }
            }
@@ -321,7 +321,7 @@ load();
 choice="paper";
 computerChoice=Math.random();
 var ele=document.getElementById("show1");
-ele.innerHTML="<img src=\'../assets/Images/p1-paper.png\'>"
+ele.innerHTML="<img src=\'../../assets/Images/p1-paper.png\'>"
 if (computerChoice < 0.34) {
             computerChoice = "rock";
         } else if(computerChoice <= 0.67) {
@@ -333,21 +333,21 @@ if (computerChoice < 0.34) {
          	document.getElementById("win").innerHTML="";
          	document.getElementById("tie").innerHTML="Tie!";
 			var ele2=document.getElementById("show2");
-			ele2.innerHTML="<img src=\'../assets/Images/p2-paper.png\'>"         
+			ele2.innerHTML="<img src=\'../../assets/Images/p2-paper.png\'>"         
             }
          else{
             if (computerChoice === "rock") {
             document.getElementById("tie").innerHTML="";
             document.getElementById("win").innerHTML="Paper Won!";
             var ele2=document.getElementById("show2");
-			ele2.innerHTML="<img src=\'../assets/Images/p2-rock.png\'>"   
+			ele2.innerHTML="<img src=\'../../assets/Images/p2-rock.png\'>"   
                     c++;
                 } 
             else {
             document.getElementById("tie").innerHTML="";
             document.getElementById("win").innerHTML="Scissor Won!";
 			var ele2=document.getElementById("show2");
-			ele2.innerHTML="<img src=\'../assets/Images/p2-scissors.png\'>"   
+			ele2.innerHTML="<img src=\'../../assets/Images/p2-scissors.png\'>"   
                     c1++;
                 }
       }
@@ -360,7 +360,7 @@ load();
 choice="scissors";
 computerChoice=Math.random();
 var ele=document.getElementById("show1");
-ele.innerHTML="<img src=\'../assets/Images/p1-scissors.png\'>"   
+ele.innerHTML="<img src=\'../../assets/Images/p1-scissors.png\'>"   
 if (computerChoice < 0.34) {
             computerChoice = "rock";
         } else if(computerChoice <= 0.67) {
@@ -372,19 +372,19 @@ if (computerChoice < 0.34) {
        		document.getElementById("win").innerHTML="";
        		document.getElementById("tie").innerHTML="Tie!";
 			var ele2=document.getElementById("show2");
-			ele2.innerHTML="<img src=\'../assets/Images/p2-scissors.png\'>"   
+			ele2.innerHTML="<img src=\'../../assets/Images/p2-scissors.png\'>"   
             }    
                else{ if (computerChoice === "rock") {
                	document.getElementById("tie").innerHTML="";
                	document.getElementById("win").innerHTML="Rock Won!";
                 var ele2=document.getElementById("show2");
-				ele2.innerHTML="<img src=\'../assets/Images/p2-rock.png\'>"   
+				ele2.innerHTML="<img src=\'../../assets/Images/p2-rock.png\'>"   
                     c1++;
                 } else {
                 document.getElementById("tie").innerHTML="";
                 document.getElementById("win").innerHTML="Scissor Won!";
                 var ele2=document.getElementById("show2");
-				ele2.innerHTML="<img src=\'../assets/Images/p2-paper.png\'>"   
+				ele2.innerHTML="<img src=\'../../assets/Images/p2-paper.png\'>"   
                     c++;
                 }}
     document.getElementById("po1").innerHTML= c;
@@ -414,25 +414,25 @@ if(v == 's')
 }
 </script>
 <body onload="countdown(1);" onkeypress="key(event)">
-<img src="../assets/Images/game-section.png" class="sec">
-<img src="../assets/Images/rock-throw.png" id="rock" onclick="p1()">
-<img src="../assets/Images/paper-throw.png" id="paper" onclick="p2()">
-<img src="../assets/Images/scissors-throw.png" id="scissor" onclick="p3()">
-<img src="../assets/Images/player1-box.png" class="p1">
-<img src="../assets/Images/player2-box.png" class="p2">
-<img src="../assets/Images/record-box.png" id="box"><p id="demo"></p>
-<img src="../assets/Images/but_exit.png" width="80" height="90" style="cursor: pointer; position: absolute;left: 1270px;" onclick="myFunction()">
+<img src="../../assets/Images/game-section.png" class="sec">
+<img src="../../assets/Images/rock-throw.png" id="rock" onclick="p1()">
+<img src="../../assets/Images/paper-throw.png" id="paper" onclick="p2()">
+<img src="../../assets/Images/scissors-throw.png" id="scissor" onclick="p3()">
+<img src="../../assets/Images/player1-box.png" class="p1">
+<img src="../../assets/Images/player2-box.png" class="p2">
+<img src="../../assets/Images/record-box.png" id="box"><p id="demo"></p>
+<img src="../../assets/Images/but_exit.png" width="80" height="90" style="cursor: pointer; position: absolute;left: 1270px;" onclick="myFunction()">
 <h1 id="h11">YOU</h1>
 <h1 class="h12">You</h1>
 <h1 class="h13">Computer</h1>
 <p id="po1">0</p>
 <p id="po2">0</p>
-<img src="../assets/Images/record-box.png" id="fight">
+<img src="../../assets/Images/record-box.png" id="fight">
 <p id="win"></p>
 <p id="tie"></p>
 <p id="show1"></p>
 <p id="show2"></p>
 <p id="over"></p>
-<img src="../assets/Images/icon.png" width="80" height="90" style="cursor: pointer;" onclick="fun()"> 
+<img src="../../assets/Images/icon.png" width="80" height="90" style="cursor: pointer;" onclick="fun()"> 
 </body>
 </html>
