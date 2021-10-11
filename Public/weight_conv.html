@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/weight_conv.css">
+    <title>Weight Convertor</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-6 offset-sm-6 col-md-8 offset-md-2 col-xl-6 offset-xl-3">
+                <h1 class="display-4 text-center mb-3" style="color:blue;font-weight:bold">Weight Convertor</h1>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <form id='mainForm'>
+                            <div class="form-group">
+                                <input id="weightInput" type="number" class="form-control" class="form-control-lg" placeholder="Enter Weight...">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-4">
+                        <select class="form-control" id="firOpt">
+                    <option selected>Select an Option</option>
+                    <option>Grams</option>                    
+                    <option>Ounces</option>
+                    <option>Milligrams</option>
+                    <option>Kilograms</option>
+                    <option>Pounds</option>
+                  </select>
+                    </div>
+                    <div class="col-sm-1">-</div>
+                    <div class="col-sm-3">
+                        <select class="form-control" id="secOpt">
+                      <option selected>Select</option>
+                      <option>Pounds</option>
+                      <option>Grams</option>
+                      <option>Milligrams</option>
+                      <option>Kilograms</option>
+                      <option>Ounces</option>
+                  </select>
+                    </div>
+                </div>
+                <div id="output" class="row">
+                    <div class="col-sm-5">
+                        <div class="card">
+                            <div class="card-block card-primary">
+                                <h3 id="weightName" class="card-title"></h3>
+                                <p id="weightOutput" class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="card">
+                            <div class="card-block card-danger">
+                                <h3 id="convertedWeightName" class="card-title"></h3>
+                                <p id="finalOutput" class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <button id="resetButton" type="button" class="btn btn-outline-warning">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../assets/js/weight_conv.js"></script>
+</body>
+
+</html>
