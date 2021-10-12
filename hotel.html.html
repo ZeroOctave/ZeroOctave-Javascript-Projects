@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel website</title>
+    <link rel="stylesheet" href="final.css">
+    
+    <!-- <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/442dffe68b.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="head-top">
+            <div class="site-name">
+                <span>RAINBOW</span>
+            </div>
+            <div class="site-nav">
+                <span id="nav-btn">MENU <i class="fas fa-bars"></i></span>
+            </div>
+        </div>
+
+        <div class="head-bottom flex">
+        <h2>Hotel for the elite passionate about luxury</h2>
+        <p>Discover the perfect blend of convenience, stylish comfort, legendary service and timeless Indian style in an iconic landmark. <br>
+            Dedicated to growing its footprint in the future,
+            Rainbow Hotels has a series of lavish and comfortable
+            hotels and residences in the pipeline. </p>
+            <button type="button" class="head-btn" id="reserve" >Reserve now</button>
+        </div>
+    </header>
+    <!-- END OF HEADER -->
+
+    
+
+    <!-- SIDE NAV-BAR -->
+    <div class="side-nav" id="side-nav">
+        <span class="cancel-btn" id="cancel-btn">
+            <i class="fas fa-times"></i>
+        </span>
+
+        <ul class="nav-bar">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#place">Rooms</a></li>
+            <li><a href="#customers">Customers</a></li>
+        </ul>
+        <button class="btn sign-up" ><a href="login.html">Log-In</a></button>
+        <button class="btn log-in"><a href="registration.html"> Register</a></button>
+    </div>
+    <!-- END OF SIDE NAV-BAR -->
+
+    <!-- Full screen modal -->
+    <div id="modal"></div>
+    <!-- End of fullscreen modal -->
+
+    <!-- BODY CONTENT-->
+    
+    <div class="book" id="book">
+        <form class="book-form" action="http://localhost/book.php"  method="POST">
+            <div class="form-item">
+                <label for="name">NAME</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+        <div class="form-item">
+            <label for="checkin-date">Check In Date</label>
+            <input type="date" id="checkin-date" name="checkin" required>
+        </div>
+        <div class = "form-item">
+            <label for = "checkout-date">Check Out Date: </label>
+            <input type = "date" id = "chekout-date" name="checkout" required>
+        </div>
+        <div class = "form-item">
+            <label for = "adult">Adults: </label>
+            <input type = "number" min = "1" value = "1" id = "adult" name="adults" required>
+        </div>
+       <!-- <div class = "form-item">
+            <label for = "children">Children: </label>
+            <input type = "number"  value = "1" id = "children" name="children" required>
+        </div>-->
+        <div class="form-item">
+            <label for="roomtype">Room_type</label>
+            <select name="roomtype" id="roomtype">
+                <option value="select">----Select----</option>
+                <option value="standard">standard</option>
+                <option value="superior">superior</option>
+                <option value="luxury">luxury</option>
+                <option value="Executive">Executive</option>
+            </select>
+        </div>
+        <div class = "form-item">
+            <label for = "rooms">Rooms: </label>
+            <input type = "number" min = "1" value = "1" id = "rooms" name="rooms" required>
+        </div>
+        <div class = "form-item">
+            <input type = "submit" class = "btn" value = "Book Now" >
+        </div>
+    </form>
+    </div>
+
+    <section class="services sec-width" id="services">
+        <div class="title">
+            <h2>Services</h2>
+        </div>
+
+        <div class="services-container">
+            <!-- single service -->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <!-- <i class="fas fa-utensils"></i> -->
+                        <i class="fas fa-concierge-bell"></i>
+                    </span>
+                </div>
+
+                <div class="service-content">
+                    <h2>Reception and Concierge services</h2>
+                    <p>Our professional and international staff is available 24/7 and delighted to advise and assist you in organizing your stay (price by request)
+                       <ul>
+                           <li>
+                            Transportation
+                           </li>
+                           <li>
+                            Ticket Office 
+                           </li>
+                           <li>
+                            Tour reservations
+                           </li>
+                           <li>
+                            Personalized welcome upon arrival 
+                           </li>
+                           <li>
+                               Restaurants
+                           </li>
+                           <li>
+                               Massages
+                           </li>
+                       </ul>
+                    </p>
+                        <button type="button" class="btn"><a href="#wifi"> More </a></button>
+                </div>
+            </article>
+            <!-- end of single service -->
+
+            <!-- single service -->
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class="fas fa-cocktail"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2>Honesty Bar</h2>
+                    <p>
+                        Enjoy a pleasant evening in the hotel lounge, a place of relaxation, encounters, sharing, where you will feel right at home. The Honesty Bar is an unusual concept based on trust: the bar is yours, serve yourself as if you were at home.  <br> <br>
+
+We offer a wide selection of beverages (Nespresso, sodas, fruit juice, gin, vodka, whiskies, pre-dinner drinks, liqueurs, etc.). Personally host your friends or business partners and enjoy a peaceful moment at "home" to chat, have a drink, enjoy a light lunch, cup of tea or gourmet coffee.
+                    </p>
+                    <button type = "button" class = "btn"><a href="#wifi"> More </a></button>
+                </div>
+            </article>
+            <!-- end of single service -->
+
+                <!-- single service -->
+             <article class="service" id="wifi">
+                <div class = "service-icon">
+                    <span>
+                        <i class="fas fa-wifi"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Internet Access</h2>
+                    <p>
+                     
+                         
+                            Free Wi-Fi throughout the entire hotel, 
+                         
+                         
+                            Internet hotspot in the lobby (iMac with printer), 
+                         
+                         
+                            iPad available at the front desk (you can borrow it by request)
+                        
+                     
+                    </p>
+                    <button type = "button" class = "btn"><a href="#other"> More </a></button>
+                </div>
+             </article>  
+             <!-- End of single service  -->
+
+            
+
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class="fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Room Service</h2>
+                        <p>
+                            Room service is available from 7am to 10:30pm and offers a concise menu and a selection of wines to peacefully enjoy in the comfort and privacy of your own room. Room Service Menu.
+                        </p>
+                        <button type = "button" class = "btn"><a href="#other"> More </a></button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+
+                
+
+                <!-- single service -->
+                <article class = "service" id="other">
+                    <div class = "service-icon">
+                        <span>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Other Services</h2>
+                        <p>
+                            Porter, Left-Luggage Office, International Press, Laundry, International TV Channels, Radio, iPod Docks, Wake-Up Calls on request, Iron and Ironing Board on request, Bathrobes and Slippers in all rooms and "Hermès" Toiletries.
+                        </p>
+                       <!-- <button type = "button" class = "btn"><a href="#services"> More </a></button>-->
+                    </div>
+                </article>
+                <!-- end of single service -->
+        </div>
+    </section>
+
+    
+
+    <section class = "rooms sec-width" id="place">
+        <div class = "title">
+            <h2>Rooms</h2>
+        </div>
+        <div class = "rooms-container">
+            <!-- single room -->
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "images/img1.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>Standard Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-bed"></i>
+                            1 double bed (140 x 190)
+                        </li>
+                        <li>
+                            <i class="fas fa-user"></i>
+                            2 people
+                        </li>
+                        <li>
+                            <i class="fas fa-vector-square"></i>
+                            16m²
+                        </li>
+                    </ul>
+                    <p>We pay special attention to the decor in order to give each room a unique character and an exceptional atmosphere that guarantees peace and relaxation. Perfect for a short romantic stay or business trip.</p>
+                    <p class = "rate">
+                        <span>$149.00 /</span> Per Night
+                    </p>
+                    <!--<button type = "button" onclick="book" class = "btn"> <a href="#book">book now</a></button>
+                    -->       </div>
+            </article>
+            <!-- end of single room -->
+
+            <!-- single room -->
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "images/img2.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>Superior Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-bed"></i>
+
+                            1 queen size double bed (160 x 200) or 2 twin beds (90 x 200) 
+                        </li>
+                        <li>
+                            <i class="fas fa-user"></i>
+                            2 people
+                        </li>
+                        <li>
+                            <i class="fas fa-vector-square"></i>
+                            20m²
+                        </li>
+                    </ul>
+                    <p>
+                        A cozy room with a sophisticated and personalized decor, decorated with beautiful fabrics created by the most prestigious designers (Pierre Frey, Manuel Canovas), high-end furniture and paintings, providing a warm, elegant and comfortable setting.
+                    </p>
+                    <p class = "rate">
+                        <span>$199.00 /</span> Per Night
+                    </p>
+                   <!-- <button type = "button" class = "btn"><a href="#book">book now</a></button>-->
+                </div>
+            </article>
+            <!-- end of single room -->
+            <!-- single room -->
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "images/img3.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>Executive Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-bed"></i>
+                            1 queen size double bed (160 x 200) or 2 twin beds (90 x 200)                        </li>
+                        <li>
+                            <i class="fas fa-user"></i>
+                            4 people                        </li>
+                        <li>
+                            <i class="fas fa-vector-square"></i>
+                            25m²                        </li>
+                    </ul>
+                    <p>
+                        The room offers a lovely, discreet and luxurious atmosphere for your stays in Paris.  With its classic setting, guests will be seduced by the room's pleasant decor and enjoy the cozy intimate setting.
+                    </p>
+                    <p class = "rate">
+                        <span>$249.00 /</span> Per Night
+                    </p>
+                   <!-- <button type = "button" class = "btn"><a href="#book">book now</a></button>-->
+                </div>
+            </article>
+            <!-- end of single room -->
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "images/hotel_feture_3.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>Luxury Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-bed"></i>
+                            1 queen size double bed (160 x 200) or 2 twin beds (90 x 200)                        </li>
+                        <li>
+                            <i class="fas fa-user"></i>
+                        4 people                        </li>
+                        <li>
+                            <i class="fas fa-vector-square"></i>
+
+                            30m²                        </li>
+                    </ul>
+                    <p>
+                        Spacious rooms, the chic and sophisticated decor will remind you of pure Parisian elegance and the French "art de vivre". Particularly recommended for a long stay by yourself, as a couple, with the family or with friends.
+                    </p>
+                    <p class = "rate">
+                        <span>$299.00 /</span> Per Night
+                    </p>
+                   <!--<button type = "button" class = "btn"><a href="#book">book now</a></button>--> 
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class = "customers" id = "customers">
+        <div class = "sec-width">
+            <div class = "title">
+                <h2>customers</h2>
+            </div>
+            <div class = "customers-container">
+                <!-- single customer -->
+                <div class = "customer">
+                    <div class = "rating">
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "far fa-star"></i></span>
+                    </div>
+                    <h3>We Loved it</h3>
+                    <p>
+                        “Me and my wife had a delightful weekend get away here, the staff were so friendly and attentive. Highly Recommended”
+                    </p>
+                    <img src = "images/cus1.jpg" alt = "customer image">
+                    <span>Johny Depp</span>
+                </div>
+                <!-- end of single customer -->
+                <!-- single customer -->
+                <div class = "customer">
+                    <div class = "rating">
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "far fa-star"></i></span>
+                    </div>
+                    <h3>Comfortable Living</h3>
+                    <p>
+                        “If you’re looking for a top quality hotel look no further. We were upgraded free of charge to the Premium Suite, thanks so much”
+                    </p>
+                    <img src = "images/cus2.jpg" alt = "customer image">
+                    <span>Emma Watson</span>
+                </div>
+                <!-- end of single customer -->
+                <!-- single customer -->
+                <div class = "customer">
+                    <div class = "rating">
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "far fa-star"></i></span>
+                    </div>
+                    <h3>Nice Place</h3>
+                    <p>
+                        I enjoyed my stay at your hotel. The breakfast was excellent. I must comment on your director of rooms -Romana. I had a small problem and she handled it with grace, charm and professionalism.. She is a credit to your organization
+                    </p>
+                    <img src = "images/cus3.jpg" alt = "customer image">
+                    <span>Tom Cruise</span>
+                </div>
+                <!-- end of single customer -->
+            </div>
+        </div>
+    </section>
+    <!-- END OF BODY CONTENT -->
+
+    <!-- FOOTER -->
+    <footer class = "footer">
+        <div class = "footer-container">
+            <div>
+                <h2>About Us </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente mollitia doloribus provident? Eos quisquam aliquid vel dolorum, impedit culpa.</p>
+                <ul class = "social-icons">
+                    <li class = "flex">
+                       <a href="https://twitter.com/"><i class = "fa fa-twitter fa-2x"></i></a> 
+                    </li>
+                    <li class = "flex">
+                       <a href="https://www.facebook.com/"><i class = "fa fa-facebook fa-2x"></i></a> 
+                    </li>
+                    <li class = "flex">
+                        <a href="https://www.instagram.com/"> <i class = "fa fa-instagram fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Useful Links</h2>
+                <a href = "#header">home</a>
+                <a href = "#place">Rooms</a>
+                <a href = "#services">Services</a>
+                <a href = "#customers">customers</a>
+            </div>
+
+            <!--<div>
+                <h2>Privacy</h2>
+                <a href = "#">Career</a>
+                <a href = "#">About Us</a>
+                <a href = "#">Contact Us</a>
+                <a href = "#">Services</a>
+            </div>-->
+
+            <div>
+                <h2>Have A Question</h2>
+                <div class = "contact-item">
+                    <span>
+                        <i class = "fas fa-map-marker-alt"></i>
+                    </span>
+                    <span>
+                        Gharuan , kharar , mohali .
+                    </span>
+                </div>
+                <div class = "contact-item">
+                    <span>
+                        <i class = "fas fa-phone-alt"></i>
+                    </span>
+                    <span>
+                        +91 3678463839
+                    </span>
+                </div>
+                <div class = "contact-item">
+                    <span>
+                        <i class = "fas fa-envelope"></i>
+                    </span>
+                    <span>
+                        info@domain.com
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="final.js"></script>
+
+    <script src="book.js"></script>
+
+</body>
+</html>
+    
