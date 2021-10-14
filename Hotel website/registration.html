@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="register.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="title">
+      Registration Form
+    </div>
+    <form action="http://localhost/registration.php" method="POST">
+    <div class="form">
+       <div class="inputfield">
+          <label for="name"> Name</label>
+          <input type="text"  id="name" class="input" name="name" required>
+       </div>  
+        <!--<div class="inputfield">
+          <label>Last Name</label>
+          <input type="text" class="input" name="lastname">
+       </div>  -->
+       <div class="inputfield">
+          <label>Password</label>
+          <input type="password" class="input" name="password" required>
+       </div>  
+      <div class="inputfield">
+          <label>Confirm Password</label>
+          <input type="password" class="input"  name="confirmpassword" required>
+       </div> 
+       
+        <div class="inputfield">
+          <label>Email Address</label>
+          <input type="email" class="input" name="emailadress" required>
+       </div> 
+      <div class="inputfield">
+          <label>Phone Number</label>
+          <input type="tel" pattern="[0-9]{10}" class="input" name="phonenumber" required>
+       </div> 
+      <div class="inputfield">
+          <label>Address</label>
+          
+          <textarea class="textarea" name="adress" required></textarea>
+       </div> 
+      <div class="inputfield">
+          <label>Postal Code</label>
+          <input type="text" pattern="[0-9]{6}" class="input" name="postalcode" required>
+       </div> 
+      <div class="inputfield terms">
+          <label class="check">
+            <input type="checkbox" >
+            <span class="checkmark" aria-required="true"></span>
+          </label>
+          <p>Agreed to terms and conditions</p>
+       </div> 
+      <div class="inputfield">
+        <input type="submit" value="Register" class="btn">
+      </div>
+    </div>
+</form>
+</div>	
+	
+</body>
+</html>
