@@ -120,7 +120,7 @@ git push -u origin <your_branch_name>
 
 **Best of luck for your development career👍😊**
 
-## Project Admin 😃
+# Project Admin🕵🏼‍♂️
 
 <div align="center">
      <td align="center"><a href="https://github.com/Astrodevil"><img alt="" src="https://avatars.githubusercontent.com/u/73425223?v=4" width="130px;"><br><sub><b> Mr. Ånand </b></sub></a><br><a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/commits?author=Astrodevil" title="Code">🌝💻 </a></td> </a></td>
