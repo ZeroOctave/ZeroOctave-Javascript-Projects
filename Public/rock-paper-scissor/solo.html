@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+body{
+		background-image: url(../../assets/Images/bg_game.jpg);
+	}
+.disabled{
+	display: none;
+}	
+.sec{
+	position: absolute;
+	top: 50px;
+	left:190px;
+	height: 300px;
+}
+#rock{
+	position: absolute;
+	top: 170px;
+	left:320px;
+	height: 110px;
+	cursor: pointer;
+}
+#paper{
+	position: absolute;
+	top: 170px;
+	left:620px;
+	height: 110px;
+	cursor: pointer;
+}
+#scissor{
+	position: absolute;
+	top: 170px;
+	left:920px;
+	height: 110px;
+	cursor: pointer;
+}
+#h11{
+	position: absolute;
+	left: 300px;
+	top: 60px;
+	font-family: 'Chilanka',cursive;
+	color: white;
+	font-size: 50px;
+}
+#key{
+	position: absolute;
+	top: 50px;
+	left:10px;
+	height: 250px;
+	width: 200px;
+}
+.h12{
+    position: absolute;
+	left: 100px;
+	top: 360px;
+	font-family: 'Chilanka',cursive;
+	color: white;
+	font-size: 30px;
+}
+#po1{
+    position: absolute;
+	left: 120px;
+	top: 400px;
+	font-family: 'Chilanka',cursive;
+	color: white;
+	font-size: 30px;
+}
+.h13{
+	position: absolute;
+	right: 70px;
+	top: 360px;
+	font-family: 'Chilanka',cursive;
+	color: white;
+	font-size: 30px;
+}
+#po2{
+	position: absolute;
+	right: 130px;
+	top: 400px;
+	font-family: 'Chilanka',cursive;
+	color: white;
+	font-size: 30px;
+}
+.p1{
+	position: absolute;
+	top: 360px;
+	left: 10px;
+	height: 260px;
+	width: 250px;
+}
+.p2{
+	position: absolute;
+	top: 360px;
+	right: 10px;
+	height: 260px;
+	width: 250px;
+}
+#box{
+	position: absolute;
+	top: 60px;
+	right:620px;
+	height: 70px;
+	width: 130px;
+	color: white;
+}
+#demo{
+	position: absolute;
+	top: 30px;
+	right:610px;
+	height: 40px;
+	width: 120px;
+	color: white;
+	font-size: 50px;
+	font-family: 'Chilanka',cursive;
+}
+#show1{
+	position: absolute;
+	top: 450px;
+	left:360px;
+	height: 110px;
+	width: 	50px;
+}
+#show2{
+	position: absolute;
+	top: 430px;
+	right:560px;
+	height: 110px;
+	width: 50px;	
+}
+#fight{
+	position: absolute;
+	top: 380px;
+	left: 320px;
+	width: 700px;
+	height: 240px;
+}
+#tie{
+	position: absolute;
+	top:380px;
+	left: 630px;
+	font-family: 'Chilanka',cursive;
+	font-size: 30px;
+	color: white;	
+}
+#win{
+	position: absolute;
+	top:380px;
+	left: 580px;
+	font-family: 'Chilanka',cursive;
+	font-size: 30px;
+	color: white;
+}
+#over{
+	position: absolute;
+	top: 50px;
+	left: 370px;
+	font-size: 100px;
+	font-family: 'Chilanka',cursive;
+	color: white;
+}
+</style>
+<script type="text/javascript">
+var computerChoice;
+var choice; 
+var c=0,c1=0;
+function load(){
+	if(c == 10)
+	{
+		document.getElementById("h11").innerHTML="";
+		var p1= document.getElementById('rock');
+		p1.className = "disabled";
+		var p2= document.getElementById('paper');
+		p2.className = "disabled";
+		var p3= document.getElementById('scissor');
+		p3.className = "disabled";
+		var p4= document.getElementById('demo');
+		p4.className = "disabled";
+		var p5= document.getElementById('box');
+		p5.className = "disabled";
+		document.getElementById("over").innerHTML="YOU WON!!!!";		
+	}
+	else if(c1 == 10)
+	{
+		document.getElementById("h11").innerHTML="";
+		var p1= document.getElementById('rock');
+		p1.className = "disabled";
+		var p2= document.getElementById('paper');
+		p2.className = "disabled";
+		var p3= document.getElementById('scissor');
+		p3.className = "disabled";
+		var p4= document.getElementById('demo');
+		p4.className = "disabled";
+		var p5= document.getElementById('box');
+		p5.className = "disabled";
+		document.getElementById("over").innerHTML="YOU LOSE!!!";
+	}
+	else{
+
+	}
+}
+function countdown(minutes) {
+	load();
+    var seconds = 60;
+    var mins = minutes;
+    function tick() {
+        var box = document.getElementById("demo");
+        var current_minutes = mins-1;
+        seconds--;
+        box.innerHTML = current_minutes.toString() + ":" + (seconds < 10 ? "0" : "") + String(seconds);
+        if( seconds > 0 ) {
+            setTimeout(tick, 1000);
+        } else {
+            if(mins > 1){
+                countdown(mins-1);           
+            }
+            else{
+            	over();
+            }
+        }
+    }
+    tick();
+}
+function myFunction() {
+
+  var r = confirm("Are u sure?");
+  if (r == true) {
+    window.location="rock-paper-scissor.html";
+  } else {
+  }}
+function over(){
+	if(c>c1)
+	{
+		document.getElementById("h11").innerHTML="";
+		var p1= document.getElementById('rock');
+		p1.className = "disabled";
+		var p2= document.getElementById('paper');
+		p2.className = "disabled";
+		var p3= document.getElementById('scissor');
+		p3.className = "disabled";
+		var p4= document.getElementById('demo');
+		p4.className = "disabled";
+		var p5= document.getElementById('box');
+		p5.className = "disabled";
+		document.getElementById("over").innerHTML="YOU WON!!!!";
+	}
+	else if(c1>c)
+	{
+		document.getElementById("h11").innerHTML="";
+		var p1= document.getElementById('rock');
+		p1.className = "disabled";
+		var p2= document.getElementById('paper');
+		p2.className = "disabled";
+		var p3= document.getElementById('scissor');
+		p3.className = "disabled";
+		var p4= document.getElementById('demo');
+		p4.className = "disabled";
+		var p5= document.getElementById('box');
+		p5.className = "disabled";
+		document.getElementById("over").innerHTML="YOU LOSE!!!";
+	
+	}
+	else{
+		document.getElementById("h11").innerHTML="";
+		var p1= document.getElementById('rock');
+		p1.className = "disabled";
+		var p2= document.getElementById('paper');
+		p2.className = "disabled";
+		var p3= document.getElementById('scissor');
+		p3.className = "disabled";
+		var p4= document.getElementById('demo');
+		p4.className = "disabled";
+		var p5= document.getElementById('box');
+		p5.className = "disabled";
+		document.getElementById("over").innerHTML="IT'S A TIE!!";
+	
+	}
+}
+function p1(){
+load();
+choice="rock";
+computerChoice=Math.random();
+var ele=document.getElementById("show1");
+ele.innerHTML="<img src=\'../../assets/Images/p1-rock.png\'>"
+if (computerChoice < 0.34) {
+            computerChoice = "rock";
+        } else if(computerChoice <= 0.67) {
+            computerChoice = "paper";
+        } else {
+            computerChoice = "scissors";
+        }
+   if (choice === computerChoice) {
+   				document.getElementById("win").innerHTML="";
+   				document.getElementById("tie").innerHTML="Tie!";
+                var ele2=document.getElementById("show2");
+                ele2.innerHTML="<img src=\'../../assets/Images/p2-rock.png\'>"
+            }
+    else{
+                if (computerChoice === "scissors") {
+                document.getElementById("tie").innerHTML="";
+                document.getElementById("win").innerHTML="Rock Won!";
+                var ele2=document.getElementById("show2");
+                ele2.innerHTML="<img src=\'../../assets/Images/p2-scissors.png\'>"
+                    c++;
+                } else {
+                document.getElementById("tie").innerHTML="";
+                document.getElementById("win").innerHTML="Paper Won!";
+                var ele2=document.getElementById("show2");
+                ele2.innerHTML="<img src=\'../../assets/Images/p2-paper.png\'>"                
+                    c1++;
+               }
+           }
+    document.getElementById("po1").innerHTML= c;
+    document.getElementById("po2").innerHTML= c1;
+}
+function p2(){
+load();
+choice="paper";
+computerChoice=Math.random();
+var ele=document.getElementById("show1");
+ele.innerHTML="<img src=\'../../assets/Images/p1-paper.png\'>"
+if (computerChoice < 0.34) {
+            computerChoice = "rock";
+        } else if(computerChoice <= 0.67) {
+            computerChoice = "paper";
+        } else {
+            computerChoice = "scissors";
+        }
+         if (choice === computerChoice) {
+         	document.getElementById("win").innerHTML="";
+         	document.getElementById("tie").innerHTML="Tie!";
+			var ele2=document.getElementById("show2");
+			ele2.innerHTML="<img src=\'../../assets/Images/p2-paper.png\'>"         
+            }
+         else{
+            if (computerChoice === "rock") {
+            document.getElementById("tie").innerHTML="";
+            document.getElementById("win").innerHTML="Paper Won!";
+            var ele2=document.getElementById("show2");
+			ele2.innerHTML="<img src=\'../../assets/Images/p2-rock.png\'>"   
+                    c++;
+                } 
+            else {
+            document.getElementById("tie").innerHTML="";
+            document.getElementById("win").innerHTML="Scissor Won!";
+			var ele2=document.getElementById("show2");
+			ele2.innerHTML="<img src=\'../../assets/Images/p2-scissors.png\'>"   
+                    c1++;
+                }
+      }
+    document.getElementById("po1").innerHTML= c;
+    document.getElementById("po2").innerHTML= c1;
+         
+}
+function p3(){
+load();
+choice="scissors";
+computerChoice=Math.random();
+var ele=document.getElementById("show1");
+ele.innerHTML="<img src=\'../../assets/Images/p1-scissors.png\'>"   
+if (computerChoice < 0.34) {
+            computerChoice = "rock";
+        } else if(computerChoice <= 0.67) {
+            computerChoice = "paper";
+        } else {
+            computerChoice = "scissors";
+        }
+       if (choice === computerChoice) {
+       		document.getElementById("win").innerHTML="";
+       		document.getElementById("tie").innerHTML="Tie!";
+			var ele2=document.getElementById("show2");
+			ele2.innerHTML="<img src=\'../../assets/Images/p2-scissors.png\'>"   
+            }    
+               else{ if (computerChoice === "rock") {
+               	document.getElementById("tie").innerHTML="";
+               	document.getElementById("win").innerHTML="Rock Won!";
+                var ele2=document.getElementById("show2");
+				ele2.innerHTML="<img src=\'../../assets/Images/p2-rock.png\'>"   
+                    c1++;
+                } else {
+                document.getElementById("tie").innerHTML="";
+                document.getElementById("win").innerHTML="Scissor Won!";
+                var ele2=document.getElementById("show2");
+				ele2.innerHTML="<img src=\'../../assets/Images/p2-paper.png\'>"   
+                    c++;
+                }}
+    document.getElementById("po1").innerHTML= c;
+    document.getElementById("po2").innerHTML= c1;            
+}
+function fun(){
+	alert("Use R as Rock ,P as Paper ,S for Scissor for shortcut keys");
+}
+function key(e){
+var keynum;
+if(window.event) {                    
+      keynum = e.keyCode;
+    } 
+var v = String.fromCharCode(keynum);
+if(v == 'r')
+{
+	p1();
+}
+if(v == 'p')
+{
+	p2();
+}
+if(v == 's')
+{
+	p3();
+}
+}
+</script>
+<body onload="countdown(1);" onkeypress="key(event)">
+<img src="../../assets/Images/game-section.png" class="sec">
+<img src="../../assets/Images/rock-throw.png" id="rock" onclick="p1()">
+<img src="../../assets/Images/paper-throw.png" id="paper" onclick="p2()">
+<img src="../../assets/Images/scissors-throw.png" id="scissor" onclick="p3()">
+<img src="../../assets/Images/player1-box.png" class="p1">
+<img src="../../assets/Images/player2-box.png" class="p2">
+<img src="../../assets/Images/record-box.png" id="box"><p id="demo"></p>
+<img src="../../assets/Images/but_exit.png" width="80" height="90" style="cursor: pointer; position: absolute;left: 1270px;" onclick="myFunction()">
+<h1 id="h11">YOU</h1>
+<h1 class="h12">You</h1>
+<h1 class="h13">Computer</h1>
+<p id="po1">0</p>
+<p id="po2">0</p>
+<img src="../../assets/Images/record-box.png" id="fight">
+<p id="win"></p>
+<p id="tie"></p>
+<p id="show1"></p>
+<p id="show2"></p>
+<p id="over"></p>
+<img src="../../assets/Images/icon.png" width="80" height="90" style="cursor: pointer;" onclick="fun()"> 
+</body>
+</html>
