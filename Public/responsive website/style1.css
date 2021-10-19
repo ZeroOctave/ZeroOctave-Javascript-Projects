@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.toggle
+{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url(menu.png);
+    background-repeat:no-repeat;
+    background-size:30px;
+    background-position:center;
+    cursor:pointer;
+}
+.toggle.active
+{
+background: url(close.png);
+background-repeat:no-repeat;
+background-size: 25px;
+background-position: center;
+cursor: pointer;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:#3475ca;
+    display: flex;
+    align-items: center;
+}
+.banner.active
+{
+    right:300px;
+}
+.banner video
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.overlay
+{
+    position:absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(to left,#00f,#f00);
+    mix-blend-mode: overlay;
+}
+.content
+{
+    position: relative;
+    z-index: 10;
+
+}
+.content h2
+{
+    font-size:6em;
+    font-weight:800;
+    color:#fff;
+    line-height:1em;
+   
+}
+.content h3
+{
+    font-size:4em;
+    font-weight:600;
+    color:#fff;
+    line-height:1em;
+}
+.menu
+{
+    position: absolute;
+    top:0;
+    right:0;
+    width:300px;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#111;
+}
+.menu ul
+{
+position:relative;
+}
+.menu ul li
+{
+    position:relative;
+    list-style:none;
+    text-align:center;
+}
+.menu ul li a
+{
+    text-decoration:none;
+    font-size:24px;
+    color:#fff;
+    display: block;
+    padding:10px;
+    box-sizing: border-box;
+    font-weight: 700;
+    transition: 0.5s;
+
+}
+.menu ul li a:hover
+{
+    transform: translate(10px);
+    color:#ff0;
+}
+ header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+ header .logo
+{
+    color:#fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+ header .toggle
+{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url(menu.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+}
+.about
+{
+    position: relative;
+    width:100%;
+    display:flex;
+}
+.about .contentBx
+{
+    background:#531522;
+    padding:100px;
+    width:50%;
+}
+.heading
+{
+    color:#fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.text
+{
+    color:#fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.about .imgBx
+{
+    background: url(compress-3.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.services
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #16384c;
+    text-align: center;
+}
+.services .container
+{
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.services .container .serviceBx
+{
+    position: relative;
+    max-width: 350px;
+    height: 215px;
+    background: #fff;
+    margin:-10px 20px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+.services .container .serviceBx:hover
+{
+    height: 570px;
+}
+.services .container .serviceBx .imgbox1
+{
+    position: relative;
+    width: 260px;
+    height: 215px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.services .container .serviceBx .imgbox1 img
+{
+    max-width:100%;
+    border-radius:4px;
+}
+.services .container .serviceBx .content1
+{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.services .container .serviceBx:hover .content1
+{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+.pricehead
+{
+    padding: 100px;
+    background: #162c3b;
+    text-align: center;
+    color:#fff;
+}
+.price
+{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px;
+    background: #162c3b;
+}
+.price .shapecon
+{
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    background: rgb(49, 43, 53);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+.price .shapecon .layer
+{
+    position: absolute;
+    top: calc(100% - 2px);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background: linear-gradient(#032ff4, #e91e9b);
+    z-index: 1;
+    transition: 0.5s;
+}
+.price .shapecon:hover .layer
+{
+    top:0;
+}
+.price .shapecon .shape
+{
+    z-index: 2;
+    position: relative;
+}
+.price .shapecon .shape p
+{
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+}
+.contact
+{
+    padding: 100px;
+    background: #162c3b;
+    text-align: center;
+}
+.imgBx2
+{
+    background: url(bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+.redbg
+{
+    background: url(red.jpg) !important;
+    background-size: cover;
+    background-position: center;
+}
+.form .inputbx
+{
+    margin-bottom: 40px;
+}
+.form .inputbx input
+{
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    border-bottom:2px solid #fff;
+}
+.form .inputbx input::placeholder
+{
+    color:#fff;
+}
+.form .inputbx textarea
+{
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    min-height: 150px;
+    border-bottom:2px solid #fff;
+}
+.form .inputbx textarea::placeholder
+{
+    color:#fff;
+}
+.form .inputbx input[type="submit"]
+{
+    width: 150px;
+    background: #fff;
+    color: #111;
+    cursor: pointer;
+    font-weight: 400;
+}

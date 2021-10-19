@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <meta charset ="UTF-8">
+        <title> Responsive website </title>
+        <link rel="stylesheet" href="style1.css">
+        </head>
+        <body>
+            <div class="menu">
+                <ul>
+                    <li><a href="#" onclick="togglemenu()" >Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#price">Price</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    </div>
+            <div class="banner">
+                <header>
+                    <a href="#" class="logo"><h1>Gym Title</h1></a>
+                    <div class="toggle" onclick="togglemenu()"></div> 
+                </header>
+                <video src="fitness.mp4" autoplay muted loop type="mp4"></video>
+                <div class="overlay"></div>
+                <div class="content">
+                    <h2> Be Stronger</h2>
+                <h3> Never give up</h3>
+                </div>
+                </div>
+                <script type="text/javascript">
+                function togglemenu()
+                {
+                    var menuToggle=document.querySelector('.toggle');
+                    menuToggle.classList.toggle('active');
+                    var banner=document.querySelector('.banner');
+                    banner.classList.toggle('active');
+                }
+                function about()
+                {
+                    document.getElementById("about").innerHTML
+
+                }
+        </script>
+    
+    
+            
+
+            <section class="about" id="about">
+                <div class="contentBx">
+                    <h2 class="heading">About us</h2>
+                    <p class="text"> gym in Breach Candy, Mumbai actually pumps out extra oxygen from their AC, which in turn helps to keep energy levels up and increases your stamina. Beat that? The ambiance has a nightclub vibe to it with purple velvet walls, gold fashioned iron frames with huge mirrors (for the self-obsessed) and a huge disco ball themed DJ booth. Nitrro is SoBo's largest gym in 20,000 sq ft.<br><br>The gym offers aerobics, dance, yoga, spinning, sports rehab, nutrition, physiotherapy, and personal training. A Crèche facility is also available for moms or dads who do not have help at home and need to get their kids along to the gym.</p>
+                </div>
+                <div class="imgBx"> </div>
+            </section>
+
+
+            <div class="pricehead" id="services">
+                <h1>Our services</h1>
+              </div>
+            <section class="services" >
+               
+                <div class="container">
+                    <div class="serviceBx"> 
+                         <div class="imgbox1"> <img src="bodyweight.jpg"></div>
+                         <div class="content1">
+                        <h2>Best bodyweight Exercise</h2>
+                        <p>The Resistance Studio offers an extensive range of single station machines and free-weight including multi hip, leg extension, abductor, leg curl, leg press for lower body; shoulder press, pec deck, chest / tricep press, lat pulldown, seated cable row, weighted ab crunch, preacher curl etc. for upper body; bench press with Olympic bar and plates, 2 full sets of dumbbells, power rack / cage with Olympic bar, punch bag & mitts, etc. for free-weight.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="container">
+                        <div class="serviceBx"> 
+                             <div class="imgbox1"> <img src="cardio.jpg"></div>
+                             <div class="content1">
+                            <h2>Best cardio Exercise</h2>
+                            <p>Our state-of-the-art Cardio Studio is equipped with technically advanced equipment including the finest of treadmills, cross trainers, steppers, recumbent / upright / spinning bikes, rowers and upper body ergo meters for effective upper and lower body cardio workouts. Special attention is given to the maintenance of each and every machine to ensure you a trouble free workout.
+                        </p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="container">
+                            <div class="serviceBx"> 
+                                 <div class="imgbox1"> <img src="yoga1.jpg"></div>
+                                 <div class="content1">
+                                <h2>Best Yoga Exercise</h2>
+                                <p>Testimony to our holistic approach towards achieving complete fitness is our special Yoga classes,Yoga has proved to be the ultimate bridge in attaining mental&physical harmony.It brings peace to your soul like no other helps you stay fit over a longer period oftime. Our Yoga teachers teach you the various‘aasans’ aimed at revitalizing your senses and reducing stress, thus energising your mind and body. The best part is, you are never too young or too old to reap the health benefits.</p>
+                                </div>
+                            </div>
+                            </div>
+                      </section>
+
+
+
+                      <div class="pricehead" id="price">
+                        <h1>Pricising Package</h1>
+                      </div>
+               <section class="price" >
+                   <div class="shapecon">
+                    <div class="layer"></div>
+                       <div class="shape">
+                           <h1>2500</h1>
+                           <h2>Quarterly</h2>
+                           <p>6 Days of the week
+                            Professional Trainer
+                            Bodybuilding
+                            Weight Training
+                            Fitness & Burn Fat
+                            Muscle Build
+                            Aerobics & Cardio
+                            Nutrition & Diet Schedule
+                            Air Condition Gym</p>
+
+                       </div>
+                   </div>
+                   <div class="shapecon">
+                       <div class="layer"></div>
+                    <div class="shape">
+                        <h1>4500</h1>
+                        <h2>Half Yearly</h2>
+                        <p>6 Days of the week
+                            Professional Trainer
+                            Bodybuilding
+                            Weight Training
+                            Fitness & Burn Fat
+                            Muscle Build
+                            Aerobics & Cardio
+                            Nutrition & Diet Schedule
+                            Air Condition Gym</p>
+
+                    </div>
+                </div>
+                <div class="shapecon">
+                    <div class="layer"></div>
+                    <div class="shape">
+                        <h1>8000</h1>
+                           <h2>Yearly</h2>
+                         <p>6 Days of the week
+                            Professional Trainer
+                            Bodybuilding
+                            Weight Training
+                            Fitness & Burn Fat
+                            Muscle Build
+                            Aerobics & Cardio
+                            Nutrition & Diet Schedule
+                            Air Condition Gym</p>
+
+                    </div>
+                </div>
+               </section>     
+               
+               
+               <section class="contact" id="contact">
+                <h1 class="heading"> Contact Us</h1>
+                <p class="text">Contact is for furthur information, just fill in following contact form and you can easily contact us. stay safe stay happy</p>
+                      </section>
+
+                      <section class="about">
+                        <div class="contentBx redbg">
+                            <div class="form">
+                                <div class="inputbx">
+                                    <input type="text" name="name" placeholder="Full name">
+                                </div>
+                                <div class="inputbx">
+                                 <input type="text" name="email" placeholder="Email adress">
+                             </div>
+                             <div class="inputbx">
+                                 <input type="text" name="mobileno" placeholder="Mobile number">
+                             </div>
+                             <div class="inputbx">
+                                 <textarea name="message" placeholder="Write your message here"></textarea>
+                                     </div>
+                                     <div class="inputbx">
+                                         <input type="submit" name="register" value="send">
+                                     </div>
+                                     </div>
+                        </div>
+                        <div class="imgBx2"> </div>
+                    </section>
+
+              
+        </body>
+        </html>
