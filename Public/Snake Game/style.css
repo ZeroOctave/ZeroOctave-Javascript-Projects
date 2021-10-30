@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.body
+{
+   
+    background: url(./bg.jpg) no-repeat;
+    min-height: 100vh;
+     background-size: 100vw 100vh ;
+     display: flex;
+      justify-content: center ; 
+     align-items: center;
+}
+#levelform
+{
+    position: absolute;
+    top: 9px;
+    top: 9px;
+    font :bold ;
+    right: 20px;
+    width: 80px;
+    font-family: 'Stick No Bills', sans-serif;
+    background-color: rgb(223, 85, 43);
+    border: solid;
+    border-radius: 4px;
+}
+#highscore
+{
+    position: absolute;
+    top: 30px;
+    font :bold ;
+    right: 20px;
+    width: 80px;
+    font-family: 'Stick No Bills', sans-serif;
+    background-color: rgb(223, 85, 43);
+    border: solid;
+    border-radius: 4px;
+
+}
+#scorebar
+{
+    position: absolute;
+    top: 51px;
+    right: 20px;
+    width: 80px;
+    font-family: 'Stick No Bills', sans-serif;
+    background-color: rgb(223, 85, 43);
+    border: solid;
+    border-radius: 4px;
+}
+#board
+{
+    width: 95vmin;
+    height: 95vmin;
+    background: linear-gradient(rgb(9, 129, 226) , rgb(12, 235, 149));
+    border: solid;
+    border-color: crimson;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+}
+.head
+{
+    background-color: red;
+ border: solid blanchedalmond;
+}
+.snake
+{
+    background-color: purple;
+    border-radius: 2px ;
+}
+.food
+{
+    background-color: yellow;
+    border: solid black;
+    border-radius: 3px;
+}
