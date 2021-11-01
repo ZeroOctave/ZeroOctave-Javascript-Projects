@@ -2,7 +2,10 @@
 # <h1 align="center">ZeroOctave-JavaScript-Projects</h1>
 <!-- PROJECT LOGO -->
 <p align="center">
-    <img src="assets/Images/ZeroOctave.png" height="200px"  align="center"/>
+  <a href="https://github.com/ZeroOctave"  target="_blank"> 
+  <img src="assets/Images/ZeroOctave.png" alt="ZeroOctave" width="200"/>
+</a>
+ </p>
 
 <div align="center">
 
@@ -30,6 +33,15 @@ The motive🎯 of this project is to help new learners like you to get familiar 
 Happy coding.👍
 
 **So, What are you waiting for?**
+
+# This Project is a part of the following Open Source Program❤️
+<p align="center">
+<a href="https://hacktoberfest.digitalocean.com/"  target="_blank"> 
+  <img src="assets/Images/hacktober.png" alt="Hacktoberfest" width="350"/>
+</a>
+    &nbsp;&nbsp;
+</p>
+
 
 # Before you begin💻
 
@@ -121,11 +133,17 @@ git push -u origin <your_branch_name>
 
 **Best of luck for your development career👍😊**
 
-# Project Admin🕵🏼‍♂️
 
-<div align="center">
-     <td align="center"><a href="https://github.com/Astrodevil"><img alt="" src="https://avatars.githubusercontent.com/u/73425223?v=4" width="130px;"><br><sub><b> Mr. Ånand </b></sub></a><br><a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/commits?author=Astrodevil" title="Code">🌝💻 </a></td> </a></td>
-</div>
+# Project Maintainers🕵🏼‍♂
+
+<table>
+<tbody><tr>
+<td align="center"><a href="https://github.com/Astrodevil"><img alt="" src="https://avatars.githubusercontent.com/u/73425223?v=4" width="130px;"><br><sub><b> Mr. Ånand </b></sub></a><br><a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/commits?author=Astrodevil" title="Code">🌝💻 </a></td> </a></td>
+
+<td align="center"><a href="https://github.com/NOiR-07"><img alt="" src="https://avatars.githubusercontent.com/u/73756334?v=4" width="130px;"><br><sub><b> NOiR-07 </b></sub></a><br><a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projecs/commits?author=NOiR-07" title="Code">🌝💻 </a></td> </a></td>
+</tr>
+</tbody></table>
+
 
 # Our valuable Contributors👩‍💻👨‍💻 :
 <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/graphs/contributors">
