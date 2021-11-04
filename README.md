@@ -49,6 +49,8 @@ We would request you to go through the contributing guidelines throughly so that
 
 Little knowledge of Github would be benificial for you so that you know what you are doing.
 
+**[How NOT to contribute to Open Source on GitHub](https://astrodevil.hashnode.dev/how-not-to-contribute-to-open-source-on-github-tips-for-beginners)**
+
 **Don't put files here & there, Always follow proper directory. Follow proper naming pattern while pushing new files (eg: if a project name is ```Gym Website``` then their file name should be ```Gym-Website.html, Gym-website.css, Gym-Website.js``` similar for all files.) Don't mix the files or make new folders if not necessary.**
 
 # Tech-Stack🎓
