@@ -40,6 +40,9 @@ Happy coding.👍
   <img src="assets/Images/hacktober.png" alt="Hacktoberfest" width="350"/>
 </a>
     &nbsp;&nbsp;
+<a href="https://dwoc.io/"  target="_blank"> 
+  <img src="assets/Images/dwoc.png" alt="DWoC21" width="200"/>
+</a>
 </p>
 
 
