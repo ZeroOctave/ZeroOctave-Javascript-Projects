@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+<style>
+    .label {
+    font-family: 'Allison', cursive;
+    font-size: 3vw;
+    background-color: rgb(44, 177, 230);
+    padding-left: 2%;
+    color: white;
+    
+    
+    
+}
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #bedfe8;
+}
+.accordian {
+    margin: 1%;
+}
+.contentbox {
+    margin: 10%;
+}
+.content {
+    background-color: white;
+    height: 0;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+    
+}
+.label::before {
+    content: '+';
+position: relative;
+left: 95%;
+    
+}
+.active .label::before {
+    content: '-';
+position: relative;
+left: 95%;
+    
+}
+.active .content {
+    background-color: white;
+    height: 100%;
+    padding: 5%;
+    font-size: 1vw;
+    transition: 1s;
+    
+}
+footer {
+    position: fixed;
+    bottom: 2px;
+    left: 2px;
+    
+}
+.atag {
+    font-size: 1vw;
+    background: none;
+    position: relative;
+    left: -1%;
+    letter-spacing: normal;
+}
+p {
+    font-size: 1vw;
+    color: rgb(255, 0, 0);
+}
+.date {
+    font-size: 1vw;
+    color: rgb(255, 0, 0);
+}
+</style>
+</head>
+<body>
+    <div class="accordion">
+        <div class="contentbox">
+            <div class="label">List One</div>
+            <div class="content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe necessitatibus laboriosam architecto tempore a dicta quod sunt doloribus perspiciatis!</p></div>
+        </div>  <div class="contentbox">
+            <div class="label">List Two</div>
+            <div class="content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe necessitatibus laboriosam architecto tempore a dicta quod sunt doloribus perspiciatis!</p></div>
+        </div>  <div class="contentbox">
+            <div class="label">List Three</div>
+            <div class="content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe necessitatibus laboriosam architecto tempore a dicta quod sunt doloribus perspiciatis!</p></div>
+        </div>
+        <div class="contentbox">
+            <div class="label">List Four</div>
+            <div class="content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe necessitatibus laboriosam architecto tempore a dicta quod sunt doloribus perspiciatis!</p></div>
+        </div>
+    </div>
+    <footer>
+        <div><p>Credit:- <a href="https://github.com/Palaksharma23" class="atag" >Palak Sharma</a></p></div>
+        <div class="date">Date:- 11-09-2021</div>
+    </footer>
+</body>
+<script>
+    const accordion = document.getElementsByClassName('contentbox');
+for(i = 0;i<accordion.length;i++){
+    accordion[i].addEventListener('click',function(){
+        this.classList.toggle("active");
+    })
+}
+</script>
+</html>
