@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+<style>
+.label {
+    font-family: 'Allison', cursive;
+    font-size: 3vw;
+    background-color: rgb(44, 177, 230);
+    padding-left: 2%;
+    color: white;    
+}
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #bedfe8;
+}
+.accordian {
+    margin: 1%;
+}
+.contentbox {
+    margin: 10%;
+}
+.content {
+    background-color: white;
+    height: 0;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;   
+}
+.label::before {
+    content: '+';
+position: relative;
+left: 95%;   
+}
+.active .label::before {
+    content: '-';
+position: relative;
+left: 95%;   
+}
+.active .content {
+    background-color: white;
+    height: 100%;
+    padding: 5%;
+    font-size: 1vw;
+    transition: 1s;   
+}
+</style>
+</head>
+<body>
+    <div class="accordion">
+        <div class="contentbox">
+            <div class="label">Quote One</div>
+            <div class="content"><p>The eye sees only what the mind is prepared to comprehend</p></div>
+        </div>  <div class="contentbox">
+            <div class="label">Quote Two</div>
+            <div class="content"><p>Do not try to dance better than anyone else, try to dance better than yourself</p></div>
+        </div>  <div class="contentbox">
+            <div class="label">Quote Three</div>
+            <div class="content"><p>Don't give up at half time, Concentrate on winning the second half</p></div>
+        </div>
+        <div class="contentbox">
+            <div class="label">Quote Four</div>
+            <div class="content">The best way to predict the future is to invent it</p></div>
+        </div>
+    </div>
+</body>
+<script>
+    const accordion = document.getElementsByClassName('contentbox');
+for(i = 0;i<accordion.length;i++){
+    accordion[i].addEventListener('click',function(){
+        this.classList.toggle("active");
+    })
+}
+</script>
+</html>
