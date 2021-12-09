@@ -9,15 +9,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
 <style>
-    .label {
+.label {
     font-family: 'Allison', cursive;
     font-size: 3vw;
     background-color: rgb(44, 177, 230);
     padding-left: 2%;
-    color: white;
-    
-    
-    
+    color: white;    
 }
 body {
     display: flex;
@@ -37,28 +34,24 @@ body {
     height: 0;
     position: relative;
     overflow: hidden;
-    transition: 1s;
-    
+    transition: 1s;   
 }
 .label::before {
     content: '+';
 position: relative;
-left: 95%;
-    
+left: 95%;   
 }
 .active .label::before {
     content: '-';
 position: relative;
-left: 95%;
-    
+left: 95%;   
 }
 .active .content {
     background-color: white;
     height: 100%;
     padding: 5%;
     font-size: 1vw;
-    transition: 1s;
-    
+    transition: 1s;   
 }
 </style>
 </head>
