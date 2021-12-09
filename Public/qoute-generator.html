@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aquamarine;display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <div  class="qoutes" style=" background-color: black; padding: 10px 20px; height: 30vh; width: 60vw; margin-top:10%; color: white;">
+        <h2 id="qoutes"></h2>
+        <p id="author"></p>
+            
+    </div>
+    <button id="newQ"  style="padding: 10px 200px; background-color: blue; color: white; border: tomato 2px solid;">Next Qoute</button>
+
+    <script>
+        let data = "";
+        const qoutes = document.getElementById("qoutes");
+        const author = document.getElementById("author");
+        const newQ = document.getElementById('newQ');
+        
+
+       
+        const getRandomQoute = ()=>{
+            let rnum = Math.floor(Math.random()*10);
+            qoutes.innerText = `${data[rnum].text}`;
+            author.innerText = `${data[rnum].author}`;
+        }
+        
+        const getQoute = async ()=>{
+            const api = "https://type.fit/api/quotes";
+            try {
+                let res = await fetch(api);
+                 data = await res.json();
+             getRandomQoute()
+                
+            } catch (error) {
+                console.error(error);
+            }   
+        }
+        newQ.addEventListener('click',getRandomQoute);
+        getQoute();
+    </script>
+</body>
+</html>
