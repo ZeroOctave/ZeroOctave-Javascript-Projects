@@ -1,25 +1,25 @@
 const data = [
     {
         designation : "Teacher",
-        content : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum exercitationem quis eius fuga numquam neque ut laborum aut corrupti sit.",
+        content : "A hardworking and dedicated Teacher. I believe in creating a healthy environment which can help each one of us to grow.",
         Name : "Joy Spencer",
         image : "person1"
     },
     {
         designation : "Manager",
-        content : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum exercitationem quis eius fuga numquam neque ut laborum aut corrupti sit.",
+        content : "A hardworking and dedicated Manager. I believe in creating a healthy environment which can help each one of us to grow.",
         Name : "Naudette Harvay",
         image : "person2"
     },
     {
         designation : "Director",
-        content : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum exercitationem quis eius fuga numquam neque ut laborum aut corrupti sit.",
+        content : "A hardworking and dedicated Director. I believe in creating a healthy environment which can help each one of us to grow..",
         Name : "Jennifer Spencer",
         image : "person3"
     },
     {
         designation : "UI/UX Designer",
-        content : "IIILorem ipsum dolor sit amet consectetur, adipisicing elit. Eum exercitationem quis eius fuga numquam neque ut laborum aut corrupti sit.III",
+        content : "A hardworking and dedicated UI/UX Designer. I believe in creating a healthy environment which can help each one of us to grow.",
         Name : "Harley Spencer",
         image : "person4"
     }
