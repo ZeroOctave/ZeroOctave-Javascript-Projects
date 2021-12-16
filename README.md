@@ -43,6 +43,11 @@ Happy coding.👍
 <a href="https://dwoc.io/"  target="_blank"> 
   <img src="assets/Images/dwoc.png" alt="DWoC21" width="200"/>
 </a>
+   &nbsp;&nbsp;
+<a href="https://icc-techsahead.netlify.app/"  target="_blank"> 
+  <img src="assets/Images/icc.png" alt="ICC" width="300"/>
+</a>
+  
 </p>
 
 
@@ -54,7 +59,7 @@ Little knowledge of Github would be benificial for you so that you know what you
 
 **[How NOT to contribute to Open Source on GitHub](https://astrodevil.hashnode.dev/how-not-to-contribute-to-open-source-on-github-tips-for-beginners)**
 
-**Don't put files here & there, Always follow proper directory. Follow proper naming pattern while pushing new files (eg: if a project name is ```Gym Website``` then their file name should be ```Gym-Website.html, Gym-website.css, Gym-Website.js``` similar for all files.) Don't mix the files or make new folders if not necessary.**
+**Don't put files here & there, Always follow proper directory. Follow proper naming pattern while pushing new files (eg: if a project name is ```Gym Website``` then their file name should be ```gym-website.html, gym-website.css, gym-website.js``` similar for all files.) Don't mix the files or make new folders if not necessary.**
 
 # Tech-Stack🎓
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
@@ -136,7 +141,7 @@ git push -u origin <your_branch_name>
 
 **Kudos to you🎈**
 
-**Best of luck for your development career👍😊**
+
 
 
 # Project Maintainers🕵🏼‍♂
@@ -150,7 +155,10 @@ git push -u origin <your_branch_name>
 </tbody></table>
 
 
-# Our valuable Contributors👩‍💻👨‍💻 :
+[# Our valuable Contributors👩‍💻👨‍💻 :
 <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=ZeroOctave/ZeroOctave-JavaScript-Projects" />
-</a>
+</a>]: #
+
+
+### Best of luck for your development career👍😊

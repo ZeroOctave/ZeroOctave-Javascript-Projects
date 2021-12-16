@@ -9,15 +9,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
 <style>
-    .label {
+.label {
     font-family: 'Allison', cursive;
     font-size: 3vw;
     background-color: rgb(44, 177, 230);
     padding-left: 2%;
-    color: white;
-    
-    
-    
+    color: white;    
 }
 body {
     display: flex;
@@ -37,73 +34,44 @@ body {
     height: 0;
     position: relative;
     overflow: hidden;
-    transition: 1s;
-    
+    transition: 1s;   
 }
 .label::before {
     content: '+';
 position: relative;
-left: 95%;
-    
+left: 95%;   
 }
 .active .label::before {
     content: '-';
 position: relative;
-left: 95%;
-    
+left: 95%;   
 }
 .active .content {
     background-color: white;
     height: 100%;
     padding: 5%;
     font-size: 1vw;
-    transition: 1s;
-    
-}
-footer {
-    position: fixed;
-    bottom: 2px;
-    left: 2px;
-    
-}
-.atag {
-    font-size: 1vw;
-    background: none;
-    position: relative;
-    left: -1%;
-    letter-spacing: normal;
-}
-p {
-    font-size: 1vw;
-    color: rgb(255, 0, 0);
-}
-.date {
-    font-size: 1vw;
-    color: rgb(255, 0, 0);
+    transition: 1s;   
 }
 </style>
 </head>
 <body>
     <div class="accordion">
         <div class="contentbox">
-            <div class="label">List One</div>
-            <div class="content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe necessitatibus laboriosam architecto tempore a dicta quod sunt doloribus perspiciatis!</p></div>
+            <div class="label">Quote One</div>
+            <div class="content"><p>The eye sees only what the mind is prepared to comprehend</p></div>
         </div>  <div class="contentbox">
-            <div class="label">List Two</div>
-            <div class="content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe necessitatibus laboriosam architecto tempore a dicta quod sunt doloribus perspiciatis!</p></div>
+            <div class="label">Quote Two</div>
+            <div class="content"><p>Do not try to dance better than anyone else, try to dance better than yourself</p></div>
         </div>  <div class="contentbox">
-            <div class="label">List Three</div>
-            <div class="content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe necessitatibus laboriosam architecto tempore a dicta quod sunt doloribus perspiciatis!</p></div>
+            <div class="label">Quote Three</div>
+            <div class="content"><p>Don't give up at half time, Concentrate on winning the second half</p></div>
         </div>
         <div class="contentbox">
-            <div class="label">List Four</div>
-            <div class="content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe necessitatibus laboriosam architecto tempore a dicta quod sunt doloribus perspiciatis!</p></div>
+            <div class="label">Quote Four</div>
+            <div class="content">The best way to predict the future is to invent it</p></div>
         </div>
     </div>
-    <footer>
-        <div><p>Credit:- <a href="https://github.com/Palaksharma23" class="atag" >Palak Sharma</a></p></div>
-        <div class="date">Date:- 11-09-2021</div>
-    </footer>
 </body>
 <script>
     const accordion = document.getElementsByClassName('contentbox');
