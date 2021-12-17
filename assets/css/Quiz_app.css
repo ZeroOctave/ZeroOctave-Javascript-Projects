@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.maindiv {
+    background-color: rgb(166, 243, 224);
+   height: 100vh;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-height: 100vh;
+ 
+
+}
+.middiv{
+    height: 80% ;
+    width: 60%;
+    margin-top: 5%;background: linear-gradient(315deg, #f0efec, #585458);
+}
+.middiv::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(315deg, #f7f6f3, #5a5659);
+    filter: blur(25px);
+    transform: translateY(30px) scale(0.9);
+}
+.maindiv .middiv ul li {
+    list-style-type : none;
+    margin: 1%;
+    margin-right: 50%;
+    
+}
+h1 {
+    font-size: 3vw;
+    color: rgb(14, 12, 17);
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+}
+label {
+    color: black;
+    font-size: 2vw;
+}ul li:hover{
+    color: white;
+    border-color: white;
+    box-shadow: 0px 2px 23px -3px rgb(181, 229, 243), 
+                inset 1px 2px 23px -3px rgb(181, 229, 243);
+                font-size: larger;
+                
+                
+}
+#submit {
+    
+
+    margin: 1.5vw;
+    border: 2px solid black;
+    padding: 1vw;
+    color: black;
+    font-weight: bolder;
+    font-size: smaller;
+    background-color: #fdfeff;
+    text-transform: uppercase;
+    letter-spacing: 0.5vw;
+    font-size: 2vw;
+  
+
+}
+#submit:hover {
+    font-size: larger ;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0px 2px 20px -3px rgb(181, 229, 243), 
+                inset 1px 2px 15px -3px rgb(181, 229, 243);
+                font-size: larger;
+                background-color: rgb(104, 101, 101);
+    }
+
+    #playagain {
+        margin: 1.5vw;
+        border: 2px solid black;
+        padding: 1vw;
+        color: black;
+        font-weight: bolder;
+        font-size: smaller;
+        background-color: #fdfeff;
+        text-transform: uppercase;
+        letter-spacing: 0.5vw;
+        font-size: 2vw;
+      
+    
+    }
+    #playagain:hover {
+        
+            color: rgb(0, 0, 0);
+            border-color: rgb(0, 0, 0);
+            box-shadow: 0px 2px 20px -3px rgb(181, 229, 243), 
+                        inset 1px 2px 15px -3px rgb(181, 229, 243);
+                        font-size: larger;
+                        background-color: rgb(104, 101, 101);
+    }
+    #showlist {
+        position: fixed;
+        top: 30%;
+        background-color: black;
+        max-width: 50%;
+        margin-left: 5%;
+    }
+    p {
+        font-size: 4vw;
+        font-family: 'Times New Roman', Times, serif;
+        position: relative;
+        color: white;
+        
+    } 
