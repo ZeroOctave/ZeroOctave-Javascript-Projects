@@ -1,0 +1,19 @@
+body
+{
+    background-color: pink;
+}
+
+form
+{
+    margin: 10%;
+}
+
+form input
+{
+    margin: 4%;
+}
+
+button
+{
+    padding: 2%;
+}
