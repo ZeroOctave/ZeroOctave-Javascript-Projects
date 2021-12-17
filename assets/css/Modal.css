@@ -1,0 +1,22 @@
+.main button {
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 20%;
+  height: 10vh;
+  font-size: 3vw;
+  box-shadow: 2px 2px 10px rgb(235, 243, 243);
+  color: red;
+}
+
+#Modal {
+  background-color: rgb(235, 243, 243, 0.5);
+  line-height: 10vh;
+  padding-left: 4vw;
+}
+
+#Modal button {
+  background-color: transparent;
+  float: right;
+  margin-right: 5vw;
+  margin-top: 1.5vw;
+}
