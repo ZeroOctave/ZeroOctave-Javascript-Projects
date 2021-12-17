@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.second {
+  background-color: rgb(15, 153, 50);
+  height: 55%;
+  width: 60%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 1px 1px 10px white;
+  overflow: hidden;
+}
+.left {
+  background-color: rgb(15, 153, 50);
+  height: 90%;
+  width: 30%;
+  font-size: 1.5rem;
+  font-family: "Merriweather", serif;
+}
+p {
+  position: relative;
+  top: 20%;
+  letter-spacing: 4px;
+}
+.right {
+  background-color: rgb(15, 153, 50);
+  height: 90%;
+  width: 70%;
+}
+div.right form {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+}
+div.right form input {
+  margin: 1%;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 4px;
+}
+div.right p {
+  position: relative;
+  top: 2%;
+
+  letter-spacing: 1px;
+}
