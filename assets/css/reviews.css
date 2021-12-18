@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(127, 228, 228);
+}
+
+#main {
+    margin-left: 30%;
+    margin-top: 5%;
+    background-color: cyan;
+    width: 40%;
+    height: fit-content;
+    border-radius: 4%;
+    box-shadow: inset 2px 2px 20px white;
+}
+
+#image {
+    margin-left: 25%;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 50%;
+    box-shadow: 2px 2px white;
+}
+
+#Name {
+    margin-left: 37%;
+}
+
+#designation {
+    margin-left: 44%;
+}
+
+#content {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#prev {
+    background-color: white;
+    border: 2px solid white;
+    padding-top: 1%;
+    color: cyan;
+    font-weight: 700;
+    font-size: 2vw;
+    border-radius: 50%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    font-size: 2vw;
+}
+
+#next {
+    background-color: white;
+    border: 2px solid white;
+    padding-top: 1%;
+    color: cyan;
+    font-weight: 700;
+    font-size: 2vw;
+    border-radius: 50%;
+    margin-bottom: 5%;
+    font-size: 2vw;
+    float: right;
+    margin-right: 30%;
+}
+
