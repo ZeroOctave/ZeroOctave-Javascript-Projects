@@ -1,11 +1,11 @@
 
-# <h1 align="center">ZeroOctave-JavaScript-Projects</h1>
-<!-- PROJECT LOGO -->
+<h1 align="center">ZeroOctave-JavaScript-Projects</h1>
+
 <p align="center">
-  <a href="https://github.com/ZeroOctave"  target="_blank"> 
-  <img src="assets/Images/ZeroOctave.png" alt="ZeroOctave" width="200"/>
-</a>
- </p>
+  <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/"> 
+  <img alt="zerooctave" src="../assets/Images/zer.png" />
+  </a>
+</p>
 
 <div align="center">
 
