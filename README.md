@@ -144,8 +144,8 @@ git push -u origin <your_branch_name>
 
 # This Will Help🌩️
 
-- *Why to clone everything to the machine? Just press "." (dot) after opening the fork repo in browser. See the Magic!🎉*
-- *Want to preview your live changes? Copy and paste the project.html URL into [GitHack](https://raw.githack.com/). You will get 2 URLs for production and development, copy and paste them into a new tab. See the Magic🎉*
+- *Why clone everything to the machine? Just press "." (dot) after opening the forked repo in a browser tab. See the Magic!🎉*
+- *Want to preview your live changes? Copy and paste the project.html URL into [GitHack](https://raw.githack.com/). You will get 2 URLs for production and development, copy and paste them into a new tab. See the Magic!🎉*
 
 
 
