@@ -142,6 +142,11 @@ git push -u origin <your_branch_name>
 **Kudos to you🎈**
 
 
+# This Will Help🌩️
+
+- *Why to clone everything to the machine? Just press "." (dot) after opening the fork repo in browser. See the Magic!🎉*
+- *Want to preview your live changes? Copy and paste the project.html URL into [GitHack](https://raw.githack.com/). You will get 2 URLs for production and development, copy and paste them into a new tab. See the Magic🎉*
+
 
 
 # Project Maintainers🕵🏼‍♂
@@ -159,6 +164,7 @@ git push -u origin <your_branch_name>
 <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=ZeroOctave/ZeroOctave-JavaScript-Projects" />
 </a>]: #
+
 
 
 ### Best of luck for your development career👍😊
