@@ -1,11 +1,9 @@
-
 <h1 align="center">ZeroOctave-JavaScript-Projects</h1>
-
 <p align="center">
-  <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/"> 
-  <img alt="zerooctave" src="../assets/Images/zer.png" />
+ <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects">
+    <img alt="ZeroOctave-Javascript-Projects" src="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/blob/main/assets/Images/zer.png" />
   </a>
-</p>
+ </p>
 
 <div align="center">
 
