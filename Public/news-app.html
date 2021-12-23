@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+
+<title>Daily News</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging whena phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- *************** LOAD A GOOGLE FONT ****************** -->
+<link href="https://fonts.googleapis.com/css?family=Lato:100,400,700" rel="stylesheet">
+
+<!-- STYLE SHEETS -->
+<link href="../assets/css/news-app.css" rel="stylesheet">
+
+<!-- removes the browser interface -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="mobile-web-app-capable" content="yes">
+<!--<link rel="manifest" href="manifest.webmanifest">-->
+
+<meta name="apple-mobile-web-app-title" content="News">
+<link href="icon/i120.png" rel="apple-touch-icon" />
+<link href="icon/i152.png" rel="apple-touch-icon" sizes="152x152" />
+<link href="icon/i167.png" rel="apple-touch-icon" sizes="167x167" />
+<link href="icon/i180.png" rel="apple-touch-icon" sizes="180x180" />
+<link href="icon/a192.png" rel="icon" sizes="192x192" />
+<link href="icon/a128.png" rel="icon" sizes="128x128" />
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+     
+</head>
+<body>
+	<div id="wrapper">
+        
+    <div id="header-container">
+	<header>
+    <h1>Daily News</h1>
+    </header>
+        
+    <div id="navWrapper" class="scrollmenu">
+    <nav>
+        <a href="#top" id="nav1" onclick="loadNews(1)">Featured</a>
+        <a href="#top" id="nav2" onclick="loadNews(2)">Technology</a>
+        <a href="#top" id="nav3" onclick="loadNews(3)">Business</a>
+        <a href="#top" id="nav4" onclick="loadNews(4)">Entertainment</a>
+        <a href="#top" id="nav5" onclick="loadNews(5)">Health</a>
+        <a href="#top" id="nav6" onclick="loadNews(6)">Science</a>
+        <a href="#top" id="nav7" onclick="loadNews(7)">Sports</a>
+    </nav>
+        
+    <div class="keepOpen"></div>
+    </div>
+        </div>
+    
+<!-- page content here -->
+<main>
+    <div id=main-body>
+<section id="left">
+    <div class="card" onclick="clickCard(0)">
+	<img class="headline-image" id="headline-0-image">
+        <div class="container">
+        <div class="headline" id="headline-0"></div>
+        <div class="description" id="description-0"></div>
+        <div class="source" id="source-0"></div>
+        <div class="time" id="time-0"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(1)">
+	<img class="headline-image" id="headline-1-image">
+        <div class="container">
+        <div class="headline" id="headline-1"></div>
+        <div class="description" id="description-1"></div>
+        <div class="source" id="source-1"></div>
+        <div class="time" id="time-1"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(2)">
+	<img class="headline-image" id="headline-2-image">
+        <div class="container">
+        <div class="headline" id="headline-2"></div>
+        <div class="description" id="description-2"></div>
+        <div class="source" id="source-2"></div>
+        <div class="time" id="time-2"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(3)">
+	<img class="headline-image" id="headline-3-image">
+        <div class="container">
+        <div class="headline" id="headline-3"></div>
+        <div class="description" id="description-3"></div>
+        <div class="source" id="source-3"></div>
+        <div class="time" id="time-3"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(4)">
+	<img class="headline-image" id="headline-4-image">
+        <div class="container">
+        <div class="headline" id="headline-4"></div>
+        <div class="description" id="description-4"></div>
+        <div class="source" id="source-4"></div>
+        <div class="time" id="time-4"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(5)">
+	<img class="headline-image" id="headline-5-image">
+        <div class="container">
+        <div class="headline" id="headline-5"></div>
+        <div class="description" id="description-5"></div>
+        <div class="source" id="source-5"></div>
+        <div class="time" id="time-5"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(6)">
+	<img class="headline-image" id="headline-6-image">
+        <div class="container">
+        <div class="headline" id="headline-6"></div>
+        <div class="description" id="description-6"></div>
+        <div class="source" id="source-6"></div>
+        <div class="time" id="time-6"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(7)">
+	<img class="headline-image" id="headline-7-image">
+        <div class="container">
+        <div class="headline" id="headline-7"></div>
+        <div class="description" id="description-7"></div>
+        <div class="source" id="source-7"></div>
+        <div class="time" id="time-7"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(8)">
+	<img class="headline-image" id="headline-8-image">
+        <div class="container">
+        <div class="headline" id="headline-8"></div>
+        <div class="description" id="description-8"></div>
+        <div class="source" id="source-8"></div>
+        <div class="time" id="time-8"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(9)">
+	<img class="headline-image" id="headline-9-image">
+        <div class="container">
+        <div class="headline" id="headline-9"></div>
+        <div class="description" id="description-9"></div>
+        <div class="source" id="source-9"></div>
+        <div class="time" id="time-9"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+	</section>
+
+<section id="right">
+    <div class="card" onclick="clickCard(10)">
+	<img class="headline-image" id="headline-10-image">
+        <div class="container">
+        <div class="headline" id="headline-10"></div>
+        <div class="description" id="description-10"></div>
+        <div class="source" id="source-10"></div>
+        <div class="time" id="time-10"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(11)">
+	<img class="headline-image" id="headline-11-image">
+        <div class="container">
+        <div class="headline" id="headline-11"></div>
+        <div class="description" id="description-11"></div>
+        <div class="source" id="source-11"></div>
+        <div class="time" id="time-11"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(12)">
+	<img class="headline-image" id="headline-12-image">
+        <div class="container">
+        <div class="headline" id="headline-12"></div>
+        <div class="description" id="description-12"></div>
+        <div class="source" id="source-12"></div>
+        <div class="time" id="time-12"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(13)">
+	<img class="headline-image" id="headline-13-image">
+        <div class="container">
+        <div class="headline" id="headline-13"></div>
+        <div class="description" id="description-13"></div>
+        <div class="source" id="source-13"></div>
+        <div class="time" id="time-13"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(14)">
+	<img class="headline-image" id="headline-14-image">
+        <div class="container">
+        <div class="headline" id="headline-14"></div>
+        <div class="description" id="description-14"></div>
+        <div class="source" id="source-14"></div>
+        <div class="time" id="time-14"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(15)">
+	<img class="headline-image" id="headline-15-image">
+        <div class="container">
+        <div class="headline" id="headline-15"></div>
+        <div class="description" id="description-15"></div>
+        <div class="source" id="source-15"></div>
+        <div class="time" id="time-15"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(16)">
+	<img class="headline-image" id="headline-16-image">
+        <div class="container">
+        <div class="headline" id="headline-16"></div>
+        <div class="description" id="description-16"></div>
+        <div class="source" id="source-16"></div>
+        <div class="time" id="time-16"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(17)">
+	<img class="headline-image" id="headline-17-image">
+        <div class="container">
+        <div class="headline" id="headline-17"></div>
+        <div class="description" id="description-17"></div>
+        <div class="source" id="source-17"></div>
+        <div class="time" id="time-17"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(18)">
+	<img class="headline-image" id="headline-18-image">
+        <div class="container">
+        <div class="headline" id="headline-18"></div>
+        <div class="description" id="description-18"></div>
+        <div class="source" id="source-18"></div>
+        <div class="time" id="time-18"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="clickCard(19)">
+	<img class="headline-image" id="headline-19-image">
+        <div class="container">
+        <div class="headline" id="headline-19"></div>
+        <div class="description" id="description-19"></div>
+        <div class="source" id="source-19"></div>
+        <div class="time" id="time-19"></div>
+        <div id="clear"></div>
+        </div>
+    </div>
+</section>
+    
+    
+    
+    <footer>
+        <p><a href="https://newsapi.org/">News Api</a> &ensp; | &ensp; Landon Hatch</p>
+    </footer>
+    
+    </div>
+
+    </main><!-- end content -->
+    
+    
+    
+		</div> <!-- end wrapper -->
+</body>
+	<script type="text/javascript" src="../assets/Js/news-app.js"></script>
+</html>
