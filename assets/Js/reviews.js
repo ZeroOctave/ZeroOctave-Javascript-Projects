@@ -3,25 +3,25 @@ const data = [
         designation : "Teacher",
         content : "A hardworking and dedicated Teacher. I believe in creating a healthy environment which can help each one of us to grow.",
         Name : "Joy Spencer",
-        image : "person1"
+        image : "/assets/Images/person1"
     },
     {
         designation : "Manager",
         content : "A hardworking and dedicated Manager. I believe in creating a healthy environment which can help each one of us to grow.",
         Name : "Naudette Harvay",
-        image : "person2"
+        image : "/assets/Images/person2"
     },
     {
         designation : "Director",
         content : "A hardworking and dedicated Director. I believe in creating a healthy environment which can help each one of us to grow..",
         Name : "Jennifer Spencer",
-        image : "person3"
+        image : "/assets/Images/person3"
     },
     {
         designation : "UI/UX Designer",
         content : "A hardworking and dedicated UI/UX Designer. I believe in creating a healthy environment which can help each one of us to grow.",
         Name : "Harley Spencer",
-        image : "person4"
+        image : "/assets/Images/person4"
     }
 ]
 
