@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="/assets/css/tip_calculator.css">
+  </head>
+  <body>
+    <section class="container">
+      <div class="content">
+        <h2>Tip calculation</h2>
+        <input id="amount" type="number" placeholder="amount" />
+        <button>Calculate</button>
+        <p id="amountText"></p>
+      </div>
+    </section>
+    <script>
+      const amount = document.getElementById('amount');
+      const button = document.querySelector('button');
+      const amountText = document.getElementById('amountText');
+
+      button.addEventListener('click', () => {
+        let amt = Number(amount.value);
+        calculateTip(amt);
+      });
+
+      const calculateTip = amt => {
+        let tipAmount = amt * (12.6 / 100);
+        calculateTotalAmout(tipAmount, amt);
+      };
+
+      const calculateTotalAmout = (tipAmount, amt) => {
+        const payableAmount = amt + tipAmount;
+        let finaltext = `Tip payable is ${tipAmount} by taking 10% of total bill and total amount to be paid ${payableAmount}`;
+        amountText.innerHTML = finaltext;
+      };
+    </script>
+  </body>
+</html>
