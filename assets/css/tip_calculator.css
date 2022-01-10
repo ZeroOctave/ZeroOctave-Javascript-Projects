@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #000;
+  font: 12px arial;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  height: 300px;
+  background: pink;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.container h2 {
+  margin: 20px 0;
+  text-align: center;
+}
+button {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type='number'] {
+  padding: 10px;
+}
