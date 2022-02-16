@@ -1,5 +1,14 @@
+html.fontawesome-i2svg-active.fontawesome-i2svg-complete {
+    background: rgb(106,41,150);
+    background: linear-gradient(142deg, rgba(106,41,150,1) 0%, rgba(4,29,38,1) 46%, rgba(81,59,126,1) 100%);
+}
+
 body{
     background-color: #FDF6F0;
+    backdrop-filter: blur(4px) saturate(175%);
+    -webkit-backdrop-filter: blur(4px) saturate(175%);
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
 }
 
 .heading {
@@ -11,8 +20,8 @@ p{
     text-align: center;
     margin-right: 5rem;
     font-size: 2rem;
-    color: #5F7A61;
-    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-family: serif;
 }
 .image1{
     width: 80%;
@@ -24,7 +33,7 @@ p{
 h1{
     font-family: 'Lobster Two', cursive;
     font-size: 4rem;
-    color: #5F7A61;
+    color: white;
 }
 
 
@@ -50,10 +59,10 @@ h1{
 }
 
 .btn {
-    background: #5F7A61;
+    background: white;
     font-family: "Indie Flower", cursive;
     border-radius: 7px;
-    color: #ffff;
+    color: black;
     font-size: 1rem;
     padding: 16px 16px 16px 16px;
     text-decoration: none;
@@ -61,6 +70,8 @@ h1{
 }
 
 .btn:hover {
-    background: #232931;
-    text-decoration: none;
+    background: rgb(0,0,0);
+    background: linear-gradient(142deg, rgba(0,0,0,1) 7%, rgba(115,0,0,1) 59%);
+    color: white;
+    font-weight: bolder;
 }

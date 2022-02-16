@@ -8,7 +8,8 @@ body {
   /* background: linear-gradient(300deg, #ced1d6, #bfc0c0); */
   background: #2980b9; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
-  background: linear-gradient(to right, #2c3e50, #2980b9);
+  /* background: linear-gradient(to right, #2c3e50, #2980b9); */
+  background: linear-gradient(142deg, rgba(13,148,218,1) 0%, rgba(153,170,235,1) 46%, rgba(53,51,209,1) 100%);
 
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -20,7 +21,7 @@ body {
 }
 
 input {
-  background-color: #abcde4d5;
+  background-color: white;
   border: none;
   border-radius: 25px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
