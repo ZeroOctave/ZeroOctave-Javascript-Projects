@@ -45,6 +45,10 @@ Happy coding.👍
 <a href="https://icc-techsahead.netlify.app/"  target="_blank"> 
   <img src="assets/Images/icc.png" alt="ICC" width="300"/>
 </a>
+   &nbsp;&nbsp;
+<a href="https://gssoc.girlscript.tech/"  target="_blank"> 
+  <img src="assets/Images/gssoc.jpg" alt="GSSoC22" width="200"/>
+</a>
   
 </p>
 
