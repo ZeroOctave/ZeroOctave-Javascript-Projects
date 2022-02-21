@@ -39,11 +39,11 @@ Happy coding.👍
 </a>
     &nbsp;&nbsp;
 <a href="https://dwoc.io/"  target="_blank"> 
-  <img src="assets/Images/dwoc.png" alt="DWoC21" width="200"/>
+  <img src="assets/Images/dwoc.png" alt="DWoC21" width="150"/>
 </a>
    &nbsp;&nbsp;
 <a href="https://gssoc.girlscript.tech/"  target="_blank"> 
-  <img src="assets/Images/gssoc.jpg" alt="GSSoC22" width="200"/>
+  <img src="assets/Images/gssoc.jpg" alt="GSSoC22" width="150"/>
 </a>
    &nbsp;&nbsp;
 <a href="https://icc-techsahead.netlify.app/"  target="_blank"> 
