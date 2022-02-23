@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec1::before{
+    content: " ";
+    position: absolute;
+    background:url('https://1.bp.blogspot.com/-dFAFJqtzc9Q/X6bbOC4oe0I/AAAAAAAAIkk/jS1EmzdqGks5rebT77sLcNlJAv9jzcH7wCLcBGAsYHQ/s960/powerpoint-background-abstract%2B15.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+.sec1{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height: 480px;
+    width: 320px;
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(14, 13, 13);
+}
+.content{
+    margin:2rem 1rem 1rem 3rem ;
+}
+.history{
+    font-size: 1.4rem;
+    color: rgb(76, 71, 71);
+    margin: 0rem 1rem .5rem 14rem;
+}
+input{
+    height: 2.5rem;
+    width: 15rem;
+    font-size: 1.6rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+   
+}
+.keys{
+    width: 290px;
+    height: 350px;
+    margin: auto;
+    top: 5vh;
+    position: relative;
+    text-align: center;
+}
+.btn{
+    height: 55px;
+    margin: 5px;
+    border-radius: 50%;
+    width: 55px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(248, 237, 216);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.btn:active{
+    font-size: 1.1rem;
+}
+#divi{
+    background-color: rgb(243, 31, 16);
+}
+#multi{
+    background-color: rgb(62, 117, 247);
+}
+#sub{
+    background-color:rgb(75, 219, 241);
+}
+#add{
+    background-color: rgb(243, 165, 20);
+}
+#eql{
+    background-color: rgb(54, 253, 23);
+}
+#B1,#B2,#B3{
+    background-color: rgb(231, 230, 230);
+}
