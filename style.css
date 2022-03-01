@@ -1,1 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comfortaa&display=swap');
 
+*{
+    padding: 0; margin: 0;
+}
+
+.card{
+    width: 30rem;
+    height: 32rem;
+    margin: 2rem;
+    filter: drop-shadow(5px 5px 4px gray);
+    border-radius: 10px;
+}
+.card1{
+    margin-top: 5rem;
+}
+.card-img-top{
+    width: auto;
+    height: 20rem;
+    border-radius: 10px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+}
+.card p{
+    font-family: 'Architects Daughter';
+    font-size: 18px;
+}
+
+.card h5, .card a{
+    font-family: 'Comfortaa';
+    font-weight: bolder;
+}
+body {
+	background: linear-gradient(-45deg, #ffc0cb, #ffe4e1, #ffb6c1, #fddde6, #ffcff1, #fbcce7);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+@media (max-width: 500px){
+    .card{
+        width: 20rem;
+        height: 26.6rem;
+        margin: 1.5rem;
+        border-radius: 20px;
+    }
+    .card-img-top{
+        width: auto;
+        height: 16rem;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 412px){
+    .card{
+        width: 22rem;
+        height: 24rem;
+        margin: 1.5rem;
+    }
+    .card p{
+        font-size: 16px;
+    }
+    .card h5{
+        font-size: 18px;
+    }
+    .card-img-top{
+        width: auto;
+        height: 12rem;
+    }
+}
