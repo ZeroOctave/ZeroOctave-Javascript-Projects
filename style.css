@@ -11,8 +11,17 @@
     filter: drop-shadow(5px 5px 4px gray);
     border-radius: 10px;
 }
+.title{
+    margin-top: 2.3rem;
+    font-family: 'Comfortaa';
+    font-size: 3rem;
+    text-align: center;
+}
+.title:hover{
+    color: #eb7e8e;
+}
 .card1{
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 .card-img-top{
     width: auto;
