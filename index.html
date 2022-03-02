@@ -41,24 +41,32 @@
     <title>Landing Page</title>
   </head>
 
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <!--This column is for Analog clock-->
-          <div class="card">
-            <!--Analog Clock-->
-            <div class="Analog">
-              <div class="clock">
-                <div class="hour">
-                  <div class="hr" id="hr"></div>
-                </div>
-                <div class="min">
-                  <div class="mn" id="mn"></div>
-                </div>
-                <div class="sec">
-                  <div class="sc" id="sc"></div>
-                </div>
+
+
+
+
+
+
+  <title>Landing Page</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <!--This column is for Analog clock-->
+        <div class="card">
+          <!--Analog Clock-->
+          <div class="Analog">
+            <div class="clock">
+              <div class="hour">
+                <div class="hr" id="hr"></div>
+              </div>
+              <div class="min">
+                <div class="mn" id="mn"></div>
+              </div>
+              <div class="sec">
+                <div class="sc" id="sc"></div>
               </div>
             </div>
             <!--End of analog clock-->
@@ -342,20 +350,17 @@
           </div>
           <!--End of weather_app-->
         </div>
-        <div class="col-sm">
-          <!--This column is for guess_color-->
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="assets/Images/guess_color.png"
-              alt="Card image cap"
-            />
-            <div class="card-body" id="guess_color">
-              <h5 class="card-title">Guess Color</h5>
-              <a href="Public/guess_color.html" class="btn btn-outline-primary"
-                >Try now</a
-              >
-            </div>
+        <!--End of weather_app-->
+      </div>
+      <div class="col-sm">
+        <!--This column is for guess_color-->
+        <div class="card">
+          
+          <img class="card-img-top" src="assets/Images/guess_color.png" alt="Card image cap">
+          <script src="assets/Js/guess_color.js" defer></script>
+          <div class="card-body" id="guess_color">
+            <h5 class="card-title">Guess Color</h5>
+            <a href="Public/guess_color.html" class="btn btn-outline-primary">Try now</a>
           </div>
           <!--End of guess_color-->
         </div>

@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: ''
+labels: bug
 assignees: ''
 
 ---
@@ -36,3 +36,18 @@ If applicable, add screenshots to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here.
+
+
+### Steps Followed✅
+Check the box with [x] If you followed all the steps.
+
+- [ ] Describe the bug
+- [ ] To Reproduce
+- [ ] Expected behavior
+- [ ] Screenshots
+- [ ] Additional context
+
+### Code of Conduct✅
+- [ ] I agree to follow this project's [Code of Conduct](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/blob/main/CODE_OF_CONDUCT.md).
+- [ ] I checked the [current issues](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/issues) for duplicate problems.
+- [ ] I have gone through project [README](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/blob/main/README.md).
