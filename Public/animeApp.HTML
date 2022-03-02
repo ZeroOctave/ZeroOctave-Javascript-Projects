@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Anime Pics Generator</title>
+    <link rel="stylesheet" href="/assets/css/AnimeApp.css">
+</head>
+<body>
+    <!-- main container  -->
+    <div class="main-container">
+        <!-- anime container  -->
+        <div class="anime-container">
+            <h3>Anime Pics Generator</h3>
+            <h2>Generates Random Animes profile pics</h2>
+            <button id="btn" class="get-anime">Get Anime</button>
+            <!-- the anime box  -->
+            <div class="anime-box">
+                <div class="hero-img">
+                    <img src="" alt="anime-img" class="anime">
+                </div>
+                <div class="hero-name">
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script defer>
+        const btn = document.getElementById('btn')
+        const anime_name = document.querySelector('.hero-name')
+        const anime_img = document.querySelector('.anime')
+        const anime_box = document.querySelector('.anime-box')
+    
+        const api_url = `https://api.catboys.com/img`
+
+        btn.addEventListener('click', async function() {
+            const response = await fetch(api_url)
+            const data = await response.json()
+            anime_img.src = data.url
+            anime_name.textContent = data.artist
+            anime_box.style.display = 'block'
+
+        })
+    </script>
+</body>
+</html>
