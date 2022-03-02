@@ -1,0 +1,84 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+  .img1, .img2, .img3{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+  }
+  
+  .img1{
+    background-image:url('/ZeroOctave-Javascript-Projects/assets/Images/image1.jpg');
+    min-height:100%;
+  }
+  
+  .img2{
+    background-image:url('/ZeroOctave-Javascript-Projects/assets/Images/image2.jpg');
+    min-height:400px;
+  }
+  
+  .img3{
+    background-image:url('/ZeroOctave-Javascript-Projects/assets/Images/image3.jpg');
+    min-height:400px;
+  }
+  
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-dark{
+    background-color:#45a29e;
+    color: black;
+  }
+  
+  .section-light{
+    background-color: #1f2833;
+    color:white;
+  }
+  .section-dark2{
+    background-color: black;
+    color:#66fcf1;
+  }
+  
+  .text{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .text .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  .text .border.trans{
+    background-color:transparent;
+  }
+  
+  @media(max-width:568px){
+    .img1, .img2, .img3{
+      background-attachment:scroll;
+    }
+  }
+
+  footer{
+    text-align: center;
+    text-decoration: none;
+  }
