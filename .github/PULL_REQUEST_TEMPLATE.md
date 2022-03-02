@@ -8,7 +8,7 @@
 
 <!-- List all the proposed changes in your PR -->
 
-### ✔ Check List (Check all the applicable boxes) <!-- Follow the below conventions to check the box -->
+### ✅ Check List (Check all the applicable boxes) <!-- Follow the below conventions to check the box -->
 
 - [ ] My code doesn't break any part of the project (Zero Octave-Javascript-Projects).
 - [ ] This PR does not contain plagiarized content.
