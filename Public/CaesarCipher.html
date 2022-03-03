@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Encrypt and Decrypt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link ​rel="​stylesheet​" ​href​="​/stylecipher.css​" ​>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+
+  <body>
+
+    <style>
+        .button:hover {
+        color: lightsalmon;
+      }
+    </style>
+
+    <p style="text-align: center">
+      <a class="center" style="font-size: 60px; color: black; font-family: Montserrat; font-weight: bold; vertical-align:bottom">CAESAR CIPHER</a>
+    </p>
+
+    <p style="text-align: left; line-height: 50px">
+      <a  style="font-size: 30px; color: black; font-family: Roboto; font-weight:medium; vertical-align: bottom">Enter your message for encryption:</a>
+    </p>
+
+    <p style="line-height: 50px">
+        <form> <input type="text" id="EncryptMessage" size="25"> </form>
+
+
+        <button class="button":hover style=" text-align: center;
+        line-height: 40px;
+        font-weight: bold;
+        padding: 0px 8px;
+        background-color: #FA8072;
+        border: none;
+        position: relative;
+        cursor: pointer;" onclick="encode()" > Encrypt </button>
+      
+    </p>
+
+      
+
+    <p style="text-align: left; line-height:50px">
+
+      <a style="font-size: 30px; color: black; font-family: Roboto; font-weight:medium; vertical-align: bottom">Enter your encrypted message for decryption:</a>
+        <form> <input type="text" id="DecryptMessage" size="25"> </form>
+     
+
+
+      <button class="button":hover style=" text-align: center;
+      line-height: 40px;
+      font-weight: bold;
+      padding: 0px 8px;
+      background-color: #FA8072;
+      border: none;
+      position: absolute;
+      cursor: pointer;" onclick="decode()" > Decrypt </button>
+
+
+    </p>
+
+
+
+  </body>
+
+</html>
