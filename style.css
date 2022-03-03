@@ -38,6 +38,7 @@
 .card p{
     font-family: 'Architects Daughter';
     font-size: 18px;
+    color: black; 
 }
 
 .card h5, .card a{
