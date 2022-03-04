@@ -1,0 +1,69 @@
+:root{
+    --bg:#000;
+    --cont: #fff;
+    --main: #ff914d;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    transition: 0.5s ease;
+}
+
+body{
+    width: 400px;
+    height: 400px;
+    background: var(--bg);
+    color: var(--cont);
+    /* Below Properties for Extensions Only */
+    /* border: 5px solid var(--cont);
+    border-radius: 10px; */
+}
+
+.wrapper{
+    width: 100%;
+    padding: 50px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+}
+
+span{
+    display: block;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+    color: var(--cont);
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 20px;
+    margin: 25px 0;
+    opacity: 0;
+}
+
+.fade{
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+button{
+    display: block;
+    background: var(--main);
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--bg);
+    padding: 12px 25px;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: var(--cont);
+}
