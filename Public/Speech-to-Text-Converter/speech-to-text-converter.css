@@ -1,0 +1,45 @@
+body {
+    font-family: arial;
+    vertical-align: center;
+    margin: 200px 200px 200px 200px;
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+    background-color: aquamarine;
+}
+
+header {
+    
+    font-family: arial;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+button {
+    padding: 10px;
+    background-color: #006400;
+    color: #FFFFFF;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    vertical-align: center;
+}
+
+#output {
+    background-color: white;
+    color: brown;
+    padding: 10px;
+    width: auto;
+    margin-top: 20px;
+    line-height: 20px;
+    
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
