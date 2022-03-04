@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <title>Color Code Converter</title>
+        <script src="./app.js"></script>
+    </head>
+    
+    <body>
+        <div class="box">
+            <div>
+                <label>Enter Color to Convert: </label>
+                <input name="to_convert" id="to_convert" type="text" style="width: 50%;">
+                <button onclick="convert()" style="width: 10%;">Convert</button>
+            </div>
+            <br><br>
+
+            <div style="text-align: left;">
+                <h2 style="margin-top: 10%;">Results</h2>
+                RGB: <input readonly id="rgb" style="width: 30%;"><br><br>
+                HEX: <input readonly id="hex" style="width: 30%;"><br><br>
+                CMYK: <input readonly id="cmyk" style="width: 30%;"><br><br>
+                Hsl: <input readonly id="hsl" style="width: 30%;"><br><br>
+            </div>
+        </div>  
+    </body>
+</html>
