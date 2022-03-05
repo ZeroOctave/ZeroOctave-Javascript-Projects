@@ -1,7 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
 
 body {
   height: 100vh;
