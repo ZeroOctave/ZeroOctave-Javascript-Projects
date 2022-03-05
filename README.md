@@ -158,7 +158,7 @@ git push -u origin <your_branch_name>
 </a>
  <br>
 
-# Project Maintainers🕵🏼‍♂
+### Project Maintainers🕵🏼‍♂
 
 <table>
 <tbody><tr>
@@ -177,4 +177,4 @@ git push -u origin <your_branch_name>
 
 
 
-### Best of luck for your development career👍😊
+#### Best of luck for your development career👍😊
