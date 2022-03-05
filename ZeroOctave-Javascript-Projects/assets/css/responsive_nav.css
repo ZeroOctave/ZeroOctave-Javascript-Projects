@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1e74ff;
+}
+
+.glass
+{
+  z-index: 2222;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  height: 80px;
+}
+.sticky
+{
+  background-color: #000;
+
+}
+header{
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 222222222222;
+}
+
+header .logo{
+  margin-left: 30px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+  z-index: 222222222222;
+}
+header ul
+{
+  z-index: 222222222222;
+}
+header ul li{
+  display: inline-block;
+}
+
+header ul li a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 30px 15px;
+  margin-left: 50px;
+}
+header ul li a:hover,header ul li .active{
+  border-top: 2.5px white solid;
+}
+header ul li .sign
+{
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 13px 55px 13px 25px;
+  background-color: #F2F5FA;
+}
+
+header ul li .sign:hover
+{
+  border-top: none;
+
+}
+.nav-b
+{
+  display: none;
+}
+.side-nav
+{
+  position: fixed;
+  top:0;
+  width: 100%;
+  text-align: right;
+  display: grid;
+  place-items: end;
+  z-index: 0;
+}
+.side-nav ul
+{
+  list-style: none;
+  padding: 70px 0;
+  height: calc(100vh-70px);
+  background-color: rgba(88, 88, 88, 0.2);
+  height: 100vh;
+  opacity: 1;
+  width: 0;
+  overflow: hidden;
+  z-index: 111111;
+  transition: 300ms;
+  
+}
+.side-nav ul li
+{
+  margin-top: 30px;
+}
+.side-nav ul li a
+{
+  text-decoration: none;
+  font-size: 20px;
+  transition: 300ms;
+  color: #fff;
+}
+.side-nav ul li a:hover
+{
+  padding-right: 10px;
+}
+
+
+
+
+
+
+/*--------------media query------------*/
+@media only screen and (max-width: 1200px) {
+
+header ul li a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 30px 15px;
+  margin-left: 30px;
+}
+  }
+
+  
+  @media only screen and (max-width: 900px) 
+      {
+            .nav-b
+            {
+              position: fixed;
+              z-index: 11111132222222222212;
+              right: 50px;
+              top:20px;
+              border: none;
+              background-color: #fff;
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              display: block;
+            }
+            header .logo
+            {
+              margin-top: 20PX;
+            }
+            header ul
+            {
+              display: none;
+            }
+            .side-nav
+            {
+              z-index: 333333333333333333333;
+            }
+      }

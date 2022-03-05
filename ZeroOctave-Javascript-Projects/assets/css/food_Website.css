@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background: transparent;
+
+}
+body{
+    width: 600px;
+    /* background: linear-gradient(rgba(253, 117, 76, 0.245),rgba(253, 161, 76, 0.287)),url(../images/banner.jpg); */
+    /* background-position: center; */
+    /* background: url("../images/banner.jpg"); */
+    /* background: linear-gradient(rgb(8, 198, 241),rgba(74, 7, 243, 0.646)); */
+    background-size: cover;
+}
+.header{
+    /* font-family: 'Qahiri', sans-serif; */
+    font-family: 'Shadows Into Light', cursive;
+    position: relative;
+    
+}
+.header h1{
+    position: relative;
+    left: 650px;
+    top: 10px;
+    font-size: 3.4rem;
+    font-weight: 800;
+}
+.header a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+}
+.header h4{
+    position: relative;
+    left: 550px;
+    top: -10px;
+    font-size: 2.2rem;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+#ingridient{
+    position: relative;
+    height: 50px;
+    top: 10px;
+    left: 500px;
+    width: 500px;
+    border-radius: 21px;
+    outline: none;
+    color: red;
+    font-weight: bold;
+    border: 3px solid red;
+}
+::placeholder { 
+    color: black;
+    opacity: 1; 
+    position: relative;
+    left: 0px;
+}
+#inner{
+    color:red;
+}
+#submit_btn{
+    position: relative;
+    height: 50px;
+    top: -40px;
+    left: 900px;
+    width: 100px;
+    border-radius: 25px;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    border: 3px solid red;
+    background: red;
+}
+#image_container img{
+    position: relative;
+    width: 270px;
+    height: 200px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    image-rendering: crisp-edges;
+
+    /* top: 20px; */
+}
+#secondimage_container img{
+    position: relative;
+    width: 270px;
+    height: 200px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    image-rendering: crisp-edges;
+
+    /* top: 20px; */
+}
+#thirdimage_container img{
+    position: relative;
+    width: 270px;
+    height: 200px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    image-rendering: crisp-edges;
+
+    /* top: 20px; */
+}
+#fourthimage_container img{
+    position: relative;
+    width: 270px;
+    height: 200px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    image-rendering: crisp-edges;
+
+    /* top: 20px; */
+}
+.row{
+    /* display: grid;
+    justify-content:space-between;
+    grid-template-columns: repeat(4,1fr); */
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    left: 480px;
+}
+.cards{
+    position: relative;
+    /* left: 200px;
+    top: 50px; */
+    width:270px;
+    height: 460px;
+    background-color: rgb(174, 4, 4);
+    border-radius:20px;
+    margin: 30px;
+    box-shadow: 5px 5px 8px 5px #888888;
+}
+#recipe_name{
+    position: relative;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size:1.6rem;
+    font-weight: 600;
+    top: 10px;
+    left: 0px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+#info{
+    position: relative;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size:1.2rem;
+    /* font-weight: 200; */
+    top: 15px;
+    left: 0px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+#full_recipe{
+    position: relative;
+    /* font-family: 'Otomanopee One', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    font-size:1.2rem;
+    font-weight: 400;
+    width: 180px;
+    top: 40px;
+    left: 45px;
+    background-color: aliceblue;
+    color: rgb(174, 4, 4);
+    text-align: center;
+    border-radius:20px;
+    cursor: pointer;
+    
+}
+#secondrecipe_name{
+    position: relative;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size:1.6rem;
+    font-weight: 600;
+    top: 10px;
+    left: 0px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+#secondinfo{
+    position: relative;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size:1.2rem;
+    /* font-weight: 200; */
+    top: 15px;
+    left: 0px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+#secondfull_recipe{
+    position: relative;
+    /* font-family: 'Otomanopee One', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    font-size:1.2rem;
+    font-weight: 400;
+    width: 180px;
+    top: 40px;
+    left: 45px;
+    background-color: aliceblue;
+    color: rgb(174, 4, 4);
+    text-align: center;
+    border-radius:20px;
+    cursor: pointer;
+    
+}
+#thirdrecipe_name{
+    position: relative;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size:1.6rem;
+    font-weight: 600;
+    top: 10px;
+    left: 0px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+#thirdinfo{
+    position: relative;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size:1.2rem;
+    /* font-weight: 200; */
+    top: 15px;
+    left: 0px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+#thirdfull_recipe{
+    position: relative;
+    /* font-family: 'Otomanopee One', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    font-size:1.2rem;
+    font-weight: 400;
+    width: 180px;
+    top: 40px;
+    left: 45px;
+    background-color: aliceblue;
+    color: rgb(174, 4, 4);
+    text-align: center;
+    border-radius:20px;
+    cursor: pointer;
+    
+}
+#fourthrecipe_name{
+    position: relative;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size:1.6rem;
+    font-weight: 600;
+    top: 10px;
+    left: 0px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+#fourthinfo{
+    position: relative;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size:1.2rem;
+    /* font-weight: 200; */
+    top: 15px;
+    left: 0px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+#fourthfull_recipe{
+    position: relative;
+    /* font-family: 'Otomanopee One', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    font-size:1.2rem;
+    font-weight: 400;
+    width: 180px;
+    top: 40px;
+    left: 45px;
+    background-color: aliceblue;
+    color: rgb(174, 4, 4);
+    text-align: center;
+    border-radius:20px;
+    cursor: pointer;
+    
+}
+.maincontent h1{
+    font-family: 'Shadows Into Light', cursive;
+    color: rgba(0, 0, 0, 0.605);
+    position: relative;
+    left: 160px;
+    font-size: 2.8rem;
+}
+.hide{
+    display: none;
+}
+#submit_btn:hover{
+    cursor: pointer;
+}
+.msg{
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 530px;
+}
+.img_noval img {
+    width: 100px;
+    height: 70px;
+}
+.mainmsg h1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: rgba(0, 0, 0, 0.605);
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Shadows Into Light', cursive;
+
+
+}
+.steps{
+    background-color: rgb(174, 4, 4);
+    position: absolute;
+    left: 350px;
+    width: 800px;
+    border-radius:20px;
+    height: 900px;
+}
+.steps p{
+    font-family: 'Shadows Into Light', cursive;
+    width:600px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: white;
+    left: 100px;
+    font-size: 1.2rem;
+}
+.steps img{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    position: relative;
+    top: 30px;
+    left: 350px;
+
+}
+.steps h1{
+    position: relative;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    left: 320px;
+    top: 50px;
+}
+.steps_close .fas{
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 760px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.suggestion p{
+    position: relative;
+    top: 130px;
+    background-color:white;
+    color: rgb(174, 4, 4);
+    text-align: center;
+    width: 300px;
+    left: 250px;
+    height: 30px;
+    border-radius:20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.suggestion a{
+    text-decoration:none;
+}

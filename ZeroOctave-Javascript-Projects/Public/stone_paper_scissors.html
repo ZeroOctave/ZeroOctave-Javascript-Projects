@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/stone_paper_scissors.css">
+    <title>Stone Paper Scissors Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Stone Paper Scissors</h1>
+        <div class="flex-box-sps" id="flex-box-sps-div">
+            <img id="stone" src="https://png.pngitem.com/pimgs/s/2-27922_computer-icons-rock-clip-art-rock-clipart-transparent.png" height=200 width=200 alt="stone" onclick="spsGame(this)">
+            <img id="paper" src="https://images.pexels.com/photos/164642/pexels-photo-164642.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" height=200 width=200 alt="paper" onclick="spsGame(this)">
+            <img id="scissors" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoMnvd7FKgLGVRaOOkv7i49AC6V6fnHIHAGQ&usqp=CAU" height=200 width=200 alt="paper" onclick="spsGame(this)">
+        </div>
+    </div>
+    <!-- "this" is the object that we would click, so like if we click om the stone image, that object/element is going to passed to the function spsGame() as the argument....JS oop -->
+    <script src="../assets/Js/stone_paper_scissors.js"></script>
+</body>
+</html>

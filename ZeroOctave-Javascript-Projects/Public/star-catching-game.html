@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      canvas {
+        background-image: url("/assets/Images/game1bg.png");
+        background-size: cover;
+        border: 1px solid black;
+        cursor: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+      }
+
+      canvas:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 0.3em 1.2em;
+        margin: 0 0.1em 0.1em 0;
+        border: 0.16em solid rgba(255, 255, 255, 0);
+        border-radius: 2em;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        color: #070707;
+        text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+        text-align: center;
+        transition: all 0.2s;
+      }
+
+      .button:hover {
+        border-color: rgba(255, 255, 255, 1);
+      }
+
+      #source {
+        display: none;
+      }
+
+      #star {
+        display: none;
+      }
+    </style>
+    <title>Star Game</title>
+  </head>
+
+  <body>
+    <br />
+    <div class="container">
+      <div id="center">
+        <canvas id="canvas" width="500" height="500"></canvas>
+        <img src="/assets/Images/player.png" id="source" alt="" />
+        <img src="/assets/Images/star.png" id="star" alt="" />
+      </div>
+    </div>
+    <div class="container">
+      <button
+        class="button"
+        onclick="moveleft()"
+        style="background-color: #4ef18f"
+      >
+        LEFT
+      </button>
+      <button
+        class="button"
+        onclick="moveup()"
+        style="background-color: #4e9af1"
+      >
+        JUMP
+      </button>
+      <button
+        class="button"
+        onclick="moveright()"
+        style="background-color: #f14ebd"
+      >
+        RIGHT
+      </button>
+    </div>
+    <div class="container">
+      <h4>
+        Click to Jump and collect stars<br />
+        Move your mouse to move the player or use movement control buttons<br />
+        Game over,if you lose more stars than your score<br />
+        Collect 100 stars to win.<br />
+        Try to lose as few stars as possible!
+      </h4>
+    </div>
+    <div class="container">
+      <button class="button" onclick="play()" style="background-color: #f1bb4e">
+        Let's Play
+      </button>
+    </div>
+    <script src="/assets/Js/star_catching_game.js"></script>
+  </body>
+</html>

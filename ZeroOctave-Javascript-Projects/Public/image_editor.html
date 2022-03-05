@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/css/image_editor.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section class="main">
+        <div class="container">
+            <div class="main-outer">
+                <div class="main-left">
+                    <aside>
+                        <h3>Image Filters</h3>
+                        <form id="slider-form">
+                            <p>
+                                <label for="gs">Grayscale</label>
+                                <input id="gs" name="gs" type="range" min="" max="100" value="0" class="slider">
+                            </p>
+                        
+                            <p>
+                                <label for="blur">Blur</label>
+                                <input id="blur" name="blur" type="range" min="0" max="" value="0" class="slider">
+                            </p>
+
+                            <p>
+                                <label for="hue-rotate">Hue-Rotate</label>
+                                <input id="hue-rotate" name="hue-rotate" type="range" min="0" max="" value="0" class="slider">
+                            </p>
+
+                            <p>
+                                <label for="sepia">Sepia</label>
+                                <input id="sepia" name="sepia" type="range" min="0" max="" value="0" class="slider">
+                            </p>
+                            
+                            <button type="reset" >Reset</button>
+                        </form>
+                    </aside>
+                </div>
+                <div class="main-right">
+                    <form id="myform">
+                        <input type="text" placeholder="Image URL" id="onlineurl">
+                        <button type="submit">Change Image</button>
+                    </form>
+                    <div class="img-area">
+                        <img src="../assets/Images/car.jpg" id="targetimage" alt="">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <script src="../assets/Js/image_editor.js"></script>
+</body>
+</html>

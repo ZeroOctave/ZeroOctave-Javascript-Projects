@@ -1,0 +1,12 @@
+body {
+            
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+select {
+    position: relative;
+    top: 50%;
+
+}

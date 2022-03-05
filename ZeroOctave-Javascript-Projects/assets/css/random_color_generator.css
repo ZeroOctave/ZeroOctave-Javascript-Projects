@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styling */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-weight: 300;
+  background-color: #6b01ff;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.url-shortener-wrapper {
+  background-color: white;
+  width: 50%;
+  text-align: center;
+  padding: 3rem 2rem 4rem 2rem;
+}
+
+.btn {
+  background-color: #6b01ff;
+  color: white;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 0.75rem 1.75rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #4a00b2;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background-color: #6b01ff;
+  margin-bottom: 2.5rem;
+  margin-top: 1rem;
+}
+
+.color {
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25px;
+  width: 80%;
+  margin: auto;
+}
+.color p {
+  align-self: center;
+  padding-left: 2rem;
+  font-weight: 500;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .color p {
+    display: block;
+  }
+
+  .color {
+    padding: 1.5rem 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .mobile {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .desktop {
+    display: none;
+  }
+
+  .url-shortener-wrapper {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .url-shortener-wrapper {
+    width: 80%;
+  }
+}

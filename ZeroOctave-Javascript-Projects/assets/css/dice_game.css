@@ -1,0 +1,77 @@
+html.fontawesome-i2svg-active.fontawesome-i2svg-complete {
+    background: rgb(106,41,150);
+    background: linear-gradient(142deg, rgba(106,41,150,1) 0%, rgba(4,29,38,1) 46%, rgba(81,59,126,1) 100%);
+}
+
+body{
+    background-color: #FDF6F0;
+    backdrop-filter: blur(4px) saturate(175%);
+    -webkit-backdrop-filter: blur(4px) saturate(175%);
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+}
+
+.heading {
+    text-align: center;
+    margin: auto; 
+}
+
+p{
+    text-align: center;
+    margin-right: 5rem;
+    font-size: 2rem;
+    color: white;
+    font-family: serif;
+}
+.image1{
+    width: 80%;
+}
+
+.image2{
+    width: 80%;
+}
+h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 4rem;
+    color: white;
+}
+
+
+
+.user1{
+    float:left;
+    margin-left: 10rem;
+}
+
+.user2{
+    float: right;
+    margin-right: 10rem;
+}
+
+.dice-container{
+    padding-top: 23rem;
+    text-align: center;
+}
+
+.edit-container{
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.btn {
+    background: white;
+    font-family: "Indie Flower", cursive;
+    border-radius: 7px;
+    color: black;
+    font-size: 1rem;
+    padding: 16px 16px 16px 16px;
+    text-decoration: none;
+    box-shadow: transparent;
+}
+
+.btn:hover {
+    background: rgb(0,0,0);
+    background: linear-gradient(142deg, rgba(0,0,0,1) 7%, rgba(115,0,0,1) 59%);
+    color: white;
+    font-weight: bolder;
+}
