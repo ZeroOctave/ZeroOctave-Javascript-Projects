@@ -149,7 +149,14 @@ git push -u origin <your_branch_name>
 - *Why clone everything to the machine? Just press "." (dot) after opening the forked repo in a browser tab. See the Magic!🎉*
 - *Want to preview your live changes? Copy and paste the project.html URL into [GitHack](https://raw.githack.com/). You will get 2 URLs for production and development, copy and paste them into a new tab. See the Magic!🎉*
 
-
+<br>
+<h1 align="center">
+ <b>Contributors
+<h1>
+<a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ZeroOctave/ZeroOctave-Javascript-Projects" />
+</a>
+ <br>
 
 # Project Maintainers🕵🏼‍♂
 
