@@ -111,13 +111,13 @@ z-index: 10000;
 /* css for auto_write_text */
 .auto-write{
 	background-color:#eb3173;
-	 height:280px;
+	 height:50px;
 }
 #auto-write-target{
 	color:white;
-	padding-top:40px;
+	padding-top:10px;
 }
-#auot-write-text{
+#auto-write-text{
     height:185px;
 }
 /* end of css for auto_write_text */
