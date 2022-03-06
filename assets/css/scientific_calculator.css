@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 50px 0px;
+    background: orange;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px #1f1e1e;
+    color: #fff;
+}
+
+button.clear{
+    background: #f33029;
+    color: #fff;
+    border-color: #f33029;
+}
+button.trig{
+    background: #c95d32;
+    color: #fff;
+    border-color: #c95d32;
+}
+button.operator{
+    background: #1d693d;
+    color: #fff;
+    border-color: #1d693d;
+}
+button.back{
+    color: #fff;
+    background: #505209;
+    border-color: #505209;
+}
+button.num{
+    color: #d23200;
+    background: #fff;
+    border-color: #fff;
+}
+
+button.paranthesis{
+    color: #fff;
+    background: rgb(26, 44, 85);
+    border: none;
+}
+
+.card{
+    background: black;
+    text-align: center;
+    box-shadow: 0px 0px 15px #6b310f;
+}
+
+button.equal{
+    background: #189622;
+    color: #fff;
+    border-color: #189622;
+}
+button.equal.hover{
+    background: #000803;
+}
+input[type="text"]{
+    height: 60px;
+    border: 1px solid#000;
+    padding: 10px 20px;
+    font-size: 29px;
+    background: black;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: cursive, monospace;
+    margin-top: #dedede;
+    border-bottom: 2px solid #cc4014;
+    color: #dedede;
+}
+
+button{
+    border: none;
+}
+button:hover{
+    background: #412821;
+    color: #fff;
+}
+    footer{
+        position: relative;
+        bottom: 0px;
+        text-align: center;
+        background: rgba(255,255,255,0.2);
+        margin-top: 40px;
+        padding: 3px;
+    }
+
