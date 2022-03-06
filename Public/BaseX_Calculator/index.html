@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <title>BaseX Calculator</title>
+        <script src="./app.js"></script>
+    </head>
+    
+    <body>
+        <div class="box">
+            <div>
+                <label>Enter Number to Convert: </label>
+                <input name="to_convert" id="to_convert" type="text" style="width: 70%;">
+            </div>
+            <br>
+            <div style="text-align: right;">
+                <label>Base_X: </label>
+                <input name="x" id="x" min=2 type="number">
+                <br>
+                <br>
+                <label>Base_Y: </label>
+                <input name="y" id="y" min=2 type="number">
+            </div>
+
+            <br><br>
+            <button onclick="convert()" style="width: 40%">Calculate</button>
+        </div>
+        
+        <h2 style="margin-top: 10%;">Result</h2>
+        <input readonly id="res" style="width: 20%;">
+    </body>
+</html>
