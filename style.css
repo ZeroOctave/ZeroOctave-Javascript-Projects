@@ -38,9 +38,10 @@
 .card p{
     font-family: 'Architects Daughter';
     font-size: 18px;
-    color: black; 
 }
-
+#inc-p{
+    color: black;
+}
 .card h5, .card a{
     font-family: 'Comfortaa';
     font-weight: bolder;
