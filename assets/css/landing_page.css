@@ -192,9 +192,10 @@ h2{
 .colorflipper2{
 	background-color:plum;height:200px;
 }
-h4{
+.auto-write-target-class{
 	padding-left: 60px;
-	padding-top: 60px;
+	bottom: 50%;
+  position:absolute;
 	color: ghostwhite;
 }
 p{
