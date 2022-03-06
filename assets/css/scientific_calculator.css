@@ -45,7 +45,7 @@ button.paranthesis{
 }
 
 .card{
-    background: black;
+    background: rgb(39, 38, 38);
     text-align: center;
     box-shadow: 0px 0px 15px #6b310f;
 }
@@ -74,6 +74,9 @@ input[type="text"]{
 
 button{
     border: none;
+    box-shadow: 5px 4px 0px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 4px 0px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 4px 0px 0px rgba(0,0,0,0.75);
 }
 button:hover{
     background: #412821;
