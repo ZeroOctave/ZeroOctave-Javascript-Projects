@@ -1,0 +1,23 @@
+* {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+td {
+  font-size: larger;
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(187, 187, 187);
+}
+
+.fg {
+  color: white;
+}
+.red {
+  color: #f7484e;
+}
