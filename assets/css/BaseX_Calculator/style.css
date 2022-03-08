@@ -1,0 +1,13 @@
+body{
+    background-color: #efefef;
+    text-align: center;
+}
+
+.box{
+    display: inline-block;
+    background-color: rgb(255 255 255 / 50%);
+    box-shadow: -10px 5px 30px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    width: 50rem;
+    padding: 30px;
+}

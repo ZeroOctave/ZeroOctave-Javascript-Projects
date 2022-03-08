@@ -1,26 +1,155 @@
 body {
-    color: white;
-    margin: 0;
-    background-color: black;
-  }
-  canvas {
-    width: 100%;
-  }
-  .canvas-wrapper{
-    border-style: solid;
-    border-color: white;
-    width: 90%;
-    margin: 30px;
-    padding: 0px;
-  }
-  .center {
-    text-align: center;
-  }
-  .game {
-    position: relative;
-  }
-  #score{
-    position: absolute;
-    top:0px;
-    left:50px;
-  }
+  color: white;
+  margin: 0;
+  background-color: black;
+}
+canvas {
+  width: 100%;
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+#level {
+  visibility: visible;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#head_inst {
+  visibility: visible;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+#instructions {
+  visibility: visible;
+  position: absolute;
+  top: 300px;
+  left: 260px;
+}
+#canvas {
+  border-style: solid;
+  border-color: white;
+  width: 90%;
+  margin: 30px;
+  padding: 0px;
+  visibility: hidden;
+}
+.center {
+  text-align: center;
+}
+.game {
+  position: relative;
+}
+#score{
+  position: absolute;
+  top:0px;
+  left:50px;
+}
+#totalCoin{
+  position: absolute;
+  top:0px;
+  left:650px;
+}
+#coin {
+  position: absolute;
+  top:0px;
+  right:200px;
+}
+#heading {
+  position: absolute;
+  top: 100px;
+  right: 550px;
+  visibility: visible;
+}
+#finalScore {
+  position: absolute;
+  top: 100px;
+  right: 600px;
+  visibility: hidden;
+}
+#paused {
+  position: absolute;
+  top: 200px;
+  left: 650px;
+}
+#text {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+#highestScore {
+  position: absolute;
+  top: 300px;
+  left: 630px;
+}
+#reset {
+  position: absolute;
+  background-color: purple;
+  border: 1px solid purple;
+  padding: 10px;
+  font-size: 18px;
+  right: 100px;
+  top: 20px;
+  visibility: visible;
+}
+#start {
+  position: absolute;
+  background-color: green;
+  border: 1px solid green;
+  padding: 10px;
+  font-size: 18px;
+  left: 100px;
+  visibility: visible;
+}
+#pause {
+  position: absolute;
+  background-color: yellow;
+  border: 1px solid yellow;
+  padding: 10px;
+  font-size: 18px;
+  left: 720px;
+  visibility: hidden;
+}
+#spend {
+  position: absolute;
+  background-color: orange;
+  border: 1px solid orange;
+  padding: 10px;
+  font-size: 18px;
+  left: 40px;
+  bottom: 10px;
+  /* visibility: hidden; */
+}
+#stop {
+  position: absolute;
+  background-color: red;
+  border: 1px solid red;
+  padding: 12px;
+  font-size: 18px;
+  right: 140px;
+  visibility: hidden;
+}
