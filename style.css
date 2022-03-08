@@ -25,7 +25,7 @@
 }
 .card-img-top{
     width: auto;
-    height: 20rem;
+    height: 18rem;
     border-radius: 10px;
     
 }
@@ -76,7 +76,7 @@ body {
     }
     .card-img-top{
         width: auto;
-        height: 16rem;
+        height: 12rem;
         border-radius: 20px;
     }
 }
@@ -95,6 +95,6 @@ body {
     }
     .card-img-top{
         width: auto;
-        height: 12rem;
+        height: 10rem;
     }
 }
