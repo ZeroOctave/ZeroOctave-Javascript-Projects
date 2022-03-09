@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #6E3CBC;
+  }
+  
+  .wrapper {
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    width: 100%;
+    height: 350px;
+    position: relative;
+  }
+  
+  .bowl {
+    width: 230px;
+    height: 90px;
+    background-color: #d9f0fe;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 90px;
+    border-radius: 0 0 150px 150px;
+  }
+  .bowl:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 110%;
+    background-color: #afddfa;
+    left: -5%;
+    border-radius: 20px;
+  }
+  
+  .base {
+    height: 40px;
+    width: 20px;
+    background-color: #afddfa;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 90px;
+  }
+  
+  .base:after {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    background-color: #d9f0fe;
+    left: -50px;
+    top: 30px;
+    border-radius: 50px 50px 0 0;
+  }
+  
+  .scoop1 {
+    height: 130px;
+    width: 130px;
+    background-color: #f45c96;
+    border-radius: 50%;
+    position: absolute;
+    background-size: 40px 150px;
+    background-image: radial-gradient(
+      circle at 20px 12px,
+      #f8bd3d 25px,
+      transparent 25px
+    );
+    top: 20px;
+    left: 108px;
+  }
+  
+  .scoop2 {
+    height: 130px;
+    width: 130px;
+    background-color: #7900FF;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    right: 70px;
+  }
+  
+  .scoop3 {
+    height: 130px;
+    width: 130px;
+    background-color: #f58619;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    background-size: 25px 80px;
+    background-image: radial-gradient(
+      circle at 12.5px 17px,
+      #5c0003 20px,
+      transparent 21px
+    );
+  }
+  
+  .btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    border-top: 2px dashed #404080;
+  }
+  .btns button {
+    width: 150px;
+    padding: 12px 0;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background-color: #c174f8;
+    color: #ffffff;
+    cursor: pointer;
+  }
