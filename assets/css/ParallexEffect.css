@@ -18,17 +18,17 @@ body, html{
   }
   
   .img1{
-    background-image:url('assets/Images/image1.jpg');
+    background-image:url('../assets/Images/image1.jpg');
     min-height:100%;
   }
   
   .img2{
-    background-image:url('assets/Images/image2.jpg');
+    background-image:url('../assets/Images/image2.jpg');
     min-height:400px;
   }
   
   .img3{
-    background-image:url('assets/Images/image3.jpg');
+    background-image:url('../assets/Images/image3.jpg');
     min-height:400px;
   }
   
