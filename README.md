@@ -23,11 +23,6 @@
  [![GitHub stars](https://img.shields.io/github/stars/ZeroOctave/ZeroOctave-JavaScript-Projects)](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/stargazers)
  ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square) 
  [![GitHub issues](https://img.shields.io/github/issues/ZeroOctave/ZeroOctave-JavaScript-Projects)](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/issues)
- ![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/ZeroOctave/ZeroOctave-JavaScript-Projects?color=brightgreen)
-  ![GitHub PR Open](https://img.shields.io/github/issues-pr/ZeroOctave/ZeroOctave-JavaScript-Projects?color=red)
-    ![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/ZeroOctave/ZeroOctave-JavaScript-Projects?color=red)
-    ![GitHub language count](https://img.shields.io/github/languages/count/ZeroOctave/ZeroOctave-JavaScript-Projects?style=plastic)
-![GitHub top language](https://img.shields.io/github/languages/top/ZeroOctave/ZeroOctave-JavaScript-Projects?style=plastic)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ZeroOctave/ZeroOctave-JavaScript-Projects?color=red&style=plastic)
 ![Repo. Size](https://img.shields.io/github/repo-size/ZeroOctave/ZeroOctave-JavaScript-Projects?color=white) 
 
@@ -62,7 +57,7 @@
 
 </details>         
  
-<p align="right">(<a href="#Bottom">Bottom</a>)</p>
+<p align="right"><a href="#Bottom"><img src="https://img.shields.io/badge/-Bottom-blueviolet?style=for-the-badge" /></a></p>
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -85,7 +80,7 @@ Happy coding.👍 <br>
 
 <br>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -110,7 +105,7 @@ Happy coding.👍 <br>
 
 <br>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -128,7 +123,7 @@ Little knowledge of Github would be benificial for you so that you know what you
 
 <br>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -219,7 +214,7 @@ git push -u origin <your_branch_name>
 
 <br>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -262,7 +257,7 @@ git push -u origin <your_branch_name>
 
 <br>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -282,10 +277,13 @@ git push -u origin <your_branch_name>
 
 <br>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+<!---
 
 ## Our valuable Contributors
 <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"><img src="https://forthebadge.com/images/badges/built-by-developers.svg"  ></a> 
@@ -307,10 +305,13 @@ Thanks to all the **people who contribute** 💜
 
 <br>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+-->
+
+
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
 
 ## Feedback
 
@@ -324,7 +325,7 @@ Or you can create a  <a href="https://github.com/ZeroOctave/ZeroOctave-Javascrip
   
 <br>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right"><a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-blueviolet?style=for-the-badge" /></a></p>
 
 <div align="center">
 
