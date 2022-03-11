@@ -46,13 +46,14 @@
 <details> 
      <summary><b> Table of contents :</b></summary>
  
-* [About](#About)
-* [This Project is a part of the following Open Source Program](#This-Project-is-a-part-of-the-following-Open-Source-Program)
-* [Before you begin](#Before-you-begin)
-* [Contributing Guidelines](#Contributing-Guidelines)
+* [About❓](#About❓)
+* [This Project is a part of the following Open Source Program❤️](#This-Project-is-a-part-of-the-following-Open-Source-Program❤️)
+* [Before you begin💻](#Before-you-begin💻)
+* [Tech-Stack used🎓](#Tech-Stack-used🎓)
+* [Contributing Guidelines📝](#Contributing-Guidelines📝)
+* [This Will Help🌩️](#This-Will-Help🌩️) 
 * [Available Projects](#Available-Projects) 
-* [Project Maintainers](#Project-Maintainers)
-* [Our valuable Contributors](#Our-valuable-Contributors)
+* [Project Maintainers🕵🏼‍♂](#Project-Maintainers🕵🏼‍♂)
 * [Feedback](#Feedback)
 
 </details>         
@@ -62,7 +63,7 @@
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-## About
+## About❓
 Getting started with web development? What else would be better than practising it.
 So welcome developer. You are at right place.😊
 
@@ -72,12 +73,6 @@ The motive🎯 of this project is to help new learners like you to get familiar 
 Happy coding.👍 <br>
 **So, What are you waiting for?**
 
-#### Tech-Stack used :
-
-  ![HTML 5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-  ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-
 <br>
 
 
@@ -86,7 +81,7 @@ Happy coding.👍 <br>
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 
-## This Project is a part of the following Open Source Program
+## This Project is a part of the following Open Source Program❤️
 
 <br>
 
@@ -111,7 +106,7 @@ Happy coding.👍 <br>
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 
-## Before you begin
+## Before you begin💻
 
 We would request you to go through the contributing guidelines throughly so that you know what you are doing.
 
@@ -129,7 +124,18 @@ Little knowledge of Github would be benificial for you so that you know what you
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 
-## Contributing Guidelines
+## Tech-Stack used🎓
+
+  ![HTML 5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+  
+<br>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->  
+
+## Contributing Guidelines📝
 
 Are we missing any of your favorite features, which you think you can add to it? For major changes, please open an issue first to discuss what you would like to change. You are welcome to contribute in this project. Pull requests are welcome.
 
@@ -206,15 +212,17 @@ git push -u origin <your_branch_name>
 
 **Kudos to you🎈**
 
+<br>
 
-### This Will Help🌩️
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+## This Will Help🌩️
 
 - *Why clone everything to the machine? Just press "." (dot) after opening the forked repo in a browser tab. See the Magic!🎉*
 - *Want to preview your live changes? Copy and paste the project.html URL into [GitHack](https://raw.githack.com/). You will get 2 URLs for production and development, copy and paste them into a new tab. See the Magic!🎉*
 
 <br>
-
-
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -262,7 +270,7 @@ git push -u origin <your_branch_name>
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-## Project Maintainers
+## Project Maintainers🕵🏼‍♂
 
 <table>
 <tbody><tr>
