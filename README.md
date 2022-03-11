@@ -46,15 +46,16 @@
 <details> 
      <summary><b> Table of contents :</b></summary>
  
-* [About❓](#About❓)
-* [This Project is a part of the following Open Source Program❤️](#This-Project-is-a-part-of-the-following-Open-Source-Program❤️)
-* [Before you begin💻](#Before-you-begin💻)
-* [Tech-Stack used🎓](#Tech-Stack-used🎓)
-* [Contributing Guidelines📝](#Contributing-Guidelines📝)
-* [This Will Help🌩️](#This-Will-Help🌩️) 
-* [Available Projects](#Available-Projects) 
-* [Project Maintainers🕵🏼‍♂](#Project-Maintainers🕵🏼‍♂)
-* [Feedback](#Feedback)
+* <a href="#About">About❓</a>
+* <a href="#Open-Source-Program">This Project is a part of the following Open Source Program❤️</a> 
+* <a href="#Before">Before you begin💻</a>  
+* <a href="#Tech-Stack">Tech-Stack used🎓</a>  
+* <a href="#Contributing">Contributing Guidelines📝</a> 
+* <a href="#Help">This Will Help🌩️</a>  
+* <a href="#Projects">Available Projects</a>   
+* <a href="#Maintainer">Project Maintainers🕵</a>    
+* <a href="#Feedback">Feedback</a>     
+
 
 </details>         
  
@@ -62,8 +63,9 @@
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="About"></div>
 
-## About❓
+# About❓
 Getting started with web development? What else would be better than practising it.
 So welcome developer. You are at right place.😊
 
@@ -80,8 +82,9 @@ Happy coding.👍 <br>
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
+<div id="Open-Source-Program"></div>
 
-## This Project is a part of the following Open Source Program❤️
+# This Project is a part of the following Open Source Program❤️
 
 <br>
 
@@ -104,9 +107,9 @@ Happy coding.👍 <br>
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="Before"></div>
 
-
-## Before you begin💻
+# Before you begin💻
 
 We would request you to go through the contributing guidelines throughly so that you know what you are doing.
 
@@ -122,9 +125,9 @@ Little knowledge of Github would be benificial for you so that you know what you
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="Tech-Stack"></div>
 
-
-## Tech-Stack used🎓
+# Tech-Stack used🎓
 
   ![HTML 5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -134,8 +137,9 @@ Little knowledge of Github would be benificial for you so that you know what you
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->  
+<div id="Contributing"></div>
 
-## Contributing Guidelines📝
+# Contributing Guidelines📝
 
 Are we missing any of your favorite features, which you think you can add to it? For major changes, please open an issue first to discuss what you would like to change. You are welcome to contribute in this project. Pull requests are welcome.
 
@@ -216,8 +220,9 @@ git push -u origin <your_branch_name>
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="Help"></div>
 
-## This Will Help🌩️
+# This Will Help🌩️
 
 - *Why clone everything to the machine? Just press "." (dot) after opening the forked repo in a browser tab. See the Magic!🎉*
 - *Want to preview your live changes? Copy and paste the project.html URL into [GitHack](https://raw.githack.com/). You will get 2 URLs for production and development, copy and paste them into a new tab. See the Magic!🎉*
@@ -226,9 +231,9 @@ git push -u origin <your_branch_name>
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="Projects"></div>
 
-
-## Available Projects
+# Available Projects
 
 | S-No. | Projects | S-No. | Projects |
 |:--|:--|:--|:--|
@@ -269,8 +274,9 @@ git push -u origin <your_branch_name>
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="Maintainer"></div>
 
-## Project Maintainers🕵🏼‍♂
+# Project Maintainers🕵🏼‍♂
 
 <table>
 <tbody><tr>
@@ -319,9 +325,9 @@ Thanks to all the **people who contribute** 💜
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="Feedback"></div>
 
-
-## Feedback
+# Feedback
 
 If you have any feedback or suggestions please reach out to Project - Maintainer.  
 
