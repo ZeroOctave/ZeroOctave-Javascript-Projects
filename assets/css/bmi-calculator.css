@@ -1,60 +1,127 @@
-#container {
-
-width :375px;
-height:525px;
-margin-left:350px;
-margin-top:65px;
-background-color: yellow;
-padding-left: 30px;
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:  "Montserrat", Sans-serif;
 }
 
-#cm {
-
-	width:150px;
-	height:25px;
-	margin-top: 30px;
+.background_image{
+    background-image: url("../images/Fitness_Background_bmi.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:100vh;
+    max-width: 100%;
+}
+.overlay_effect{
+    background-color: rgba(0,0,0,0.7);
+    padding:10px;
+    height:100vh;
+    max-width: 100%;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto 200px;
+    align-items: center;
+    justify-items: center;
+    gap:1em;
+}
+.Container{
+    height:auto;
+    padding:0.5em;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto;
+    justify-items: center;
+    width:35%;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.Container h2{
+    height:fit-content;
+    font-size: 28px;
+    color: #1e293b;
+}
+.box{
+    display:grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+   gap:1em;
+}
+label{
+    font-size:20px;
+    color: #1e293b;
+}
+input{
+    width:100%;
+    margin-top:3px;
+    border: 1px solid #1e293b;
+    border-radius: 4px;
+    padding: 6px 6px;
+}
+.button_container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+button {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
-#kg{
-    width:150px;
-	height:25px;
-	margin-top: 30px;
+button:hover {
+  background-color: #1e293b;
+  color: #fff;
 }
 
-#weightguide {
-
-margin-left: 75px;
-margin-top: 50px;
-
-
+@media (min-width: 768px) {
+  .button {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
 }
-
-#result {
-
-	font-size:35px;
-	margin-left: 90px;
-	color:blue;
+.BMI_Value,.BMI_Result{
+    font-size: 22px;
+    text-align: center;
 }
-
-#submit{
-
-	width:150px;
-	height:35px;
-	margin-left:90px;
-	margin-top: 25px;
-	border-radius: 5px;
-	border-style: none;
-	background-color: blue;
-	color:#fff;
-	font-size:25px;
+.footer{
+    font-size: 22px;
+    color:white;
 }
-body {
-
-	background-color: #000;
+/*mediaquery*/
+@media all and (max-width:900px){
+    .Container{
+        width:50%;
+    }
 }
-
-h1{
-
-	padding-left:15px;
-	padding-top:25px;
+@media all and (max-width:680px){
+    .Container{
+        width:70%;
+    }
+  
+}
+@media all and (max-width:450px){
+    .Container{
+        width:90%;
+    }
+   
+}
+@media all and (max-width:280px){
+    .Container{
+        width:100%;
+    }
 }
