@@ -1,57 +1,113 @@
-<h1 align="center">ZeroOctave-JavaScript-Projects</h1>
+<div id="top"></div>
+
+
+<h1 align="center">ZeroOctave JavaScript Projects </h1>
 <p align="center">
  <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects">
     <img alt="ZeroOctave-Javascript-Projects" src="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/blob/main/assets/Images/zer.png" />
   </a>
  </p>
+ 
+ <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+
 
 <div align="center">
 
-![Hactoberfest](https://img.shields.io/badge/Hactoberfest-%E2%9D%A4-red)    
-![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-orange.svg)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square) 
-![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red)
-![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
-![Begginers Friendly](https://img.shields.io/badge/Begginer%20Friendly%20-Yes-orange)
-[![GitHub issues](https://img.shields.io/github/issues/ZeroOctave/ZeroOctave-JavaScript-Projects)](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/issues)
-[![GitHub forks](https://img.shields.io/github/forks/ZeroOctave/ZeroOctave-JavaScript-Projects)](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/network)
-[![GitHub stars](https://img.shields.io/github/stars/ZeroOctave/ZeroOctave-JavaScript-Projects)](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/stargazers)
+![Hactoberfest](https://img.shields.io/badge/Hactoberfest-%E2%9D%A4-red)
+ ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-orange.svg)
+ ![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red)
+ ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+ ![Begginers Friendly](https://img.shields.io/badge/Begginer%20Friendly%20-Yes-orange)
+ ![GitHub contributors](https://img.shields.io/github/contributors/ZeroOctave/ZeroOctave-Javascript-Projects?color=blue)
+ [![GitHub forks](https://img.shields.io/github/forks/ZeroOctave/ZeroOctave-JavaScript-Projects)](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/network)
+ [![GitHub stars](https://img.shields.io/github/stars/ZeroOctave/ZeroOctave-JavaScript-Projects)](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/stargazers)
+ ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square) 
+ [![GitHub issues](https://img.shields.io/github/issues/ZeroOctave/ZeroOctave-JavaScript-Projects)](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/issues)
+![GitHub last commit](https://img.shields.io/github/last-commit/ZeroOctave/ZeroOctave-JavaScript-Projects?color=red&style=plastic)
+![Repo. Size](https://img.shields.io/github/repo-size/ZeroOctave/ZeroOctave-JavaScript-Projects?color=white) 
 
 </div>
 
+<!-- ---------------------------------------------------------------------------------------------------------------------- -->
+
+<p align="center">
+    <a href="https://zerooctave.github.io/ZeroOctave-Javascript-Projects/"><strong>ZeroOctave Official site »</strong></a>
+    <br />
+    <a href="https://github.com/ZeroOctave/ZeroOctave-JavaScript-Projects/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/ZeroOctave/ZeroOctave-JavaScript-Projects/issues">Request Update </a>
+  </p>
+
+
+
+<!-- ---------------------------------------------------------------------------------------------------------------------- -->
+<!-- TABLE OF CONTENTS --> 
+
+<details> 
+     <summary><b> Table of contents :</b></summary>
+ 
+* <a href="#About">About❓</a>
+* <a href="#Open-Source-Program">This Project is a part of the following Open Source Program❤️</a> 
+* <a href="#Before">Before you begin💻</a>  
+* <a href="#Tech-Stack">Tech-Stack used🎓</a>  
+* <a href="#Contributing">Contributing Guidelines📝</a> 
+* <a href="#Help">This Will Help🌩️</a>  
+* <a href="#Projects">Available Projects</a>   
+* <a href="#Maintainer">Project Maintainers🕵</a>    
+* <a href="#Feedback">Feedback</a>     
+
+
+</details>         
+ 
+<p align="right"><a href="#Bottom"><img src="https://img.shields.io/badge/-Bottom-blueviolet?style=for-the-badge" /></a></p>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="About"></div>
+
 # About❓
 Getting started with web development? What else would be better than practising it.
-
 So welcome developer. You are at right place.😊
 
 ZeroOctave Javascript Projects provide some awesome web development projects to work upon and enhance your skills.
 
 The motive🎯 of this project is to help new learners like you to get familiar with web development skills.
-
-Happy coding.👍
-
+Happy coding.👍 <br>
 **So, What are you waiting for?**
 
-# This Project is a part of the following Open Source Program❤️
-<p align="center">
-<a href="https://hacktoberfest.digitalocean.com/"  target="_blank"> 
-  <img src="assets/Images/hacktober.png" alt="Hacktoberfest" width="350"/>
-</a>
-    &nbsp;&nbsp;
-<a href="https://icc-techsahead.netlify.app/"  target="_blank"> 
-  <img src="assets/Images/icc.png" alt="ICC" width="300"/>
-</a>
-    &nbsp;&nbsp;
-<a href="https://dwoc.io/"  target="_blank"> 
-  <img src="assets/Images/dwoc.png" alt="DWoC21" width="150"/>
-</a>
-   &nbsp;&nbsp;
-<a href="https://gssoc.girlscript.tech/"  target="_blank"> 
-  <img src="assets/Images/gssoc.jpg" alt="GSSoC22" width="150"/>
-</a>
-   
-</p>
+<br>
 
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<div id="Open-Source-Program"></div>
+
+# This Project is a part of the following Open Source Program❤️
+
+<br>
+
+<table>
+<tbody><tr>
+<td align="center"><a href="https://hacktoberfest.digitalocean.com/"  target="_blank"><img src="assets/Images/hacktober.png" alt="Hacktoberfest" width="300"/><br><sub><b> Hacktoberfest 2021 </b></sub></a></td> </a></td>
+
+<td align="center"><a href="https://icc-techsahead.netlify.app/"  target="_blank"><img src="assets/Images/icc.png" alt="ICC" width="300"/><br><sub><b> ICC 2021 </b></sub></a></td> </a></td>
+
+<td align="center"><a href="https://dwoc.io/"  target="_blank"><img src="assets/Images/dwoc.png" alt="DWoC21" width="125"/><br><sub><b> DWOC 2021 </b></sub></a></td> </a></td>
+
+<td align="center"><a href="https://gssoc.girlscript.tech/"  target="_blank"><img src="assets/Images/gssoc.jpg" alt="GSSoC22" width="125"/><br><sub><b> GSSOC 2022 </b></sub></a></td> </a></td>
+
+</tr>
+</tbody></table>
+
+<br>
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="Before"></div>
 
 # Before you begin💻
 
@@ -63,8 +119,25 @@ Little knowledge of Github would be benificial for you so that you know what you
 
 **Don't put files here & there, Always follow proper directory. Follow proper naming pattern while pushing new files (eg: if a project name is ```Gym Website``` then their file name should be ```gym-website.html, gym-website.css, gym-website.js``` similar for all files.) Don't mix the files or make new folders if not necessary.**
 
-# Tech-Stack🎓
-<img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+<br>
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="Tech-Stack"></div>
+
+# Tech-Stack used🎓
+
+  ![HTML 5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+  
+<br>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->  
+<div id="Contributing"></div>
 
 # Contributing Guidelines📝
 
@@ -143,13 +216,65 @@ git push -u origin <your_branch_name>
 
 **Kudos to you🎈**
 
+<br>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="Help"></div>
 
 # This Will Help🌩️
 
 - *Why clone everything to the machine? Just press "." (dot) after opening the forked repo in a browser tab. See the Magic!🎉*
 - *Want to preview your live changes? Copy and paste the project.html URL into [GitHack](https://raw.githack.com/). You will get 2 URLs for production and development, copy and paste them into a new tab. See the Magic!🎉*
 
+<br>
 
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="Projects"></div>
+
+# Available Projects
+
+| S-No. | Projects | S-No. | Projects |
+|:--|:--|:--|:--|
+| 01. | [Analog Clock](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Analog_clock.html) | 02. | [Auto Write Text](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/auto-write-text.html) |
+| 03. | [Woed Definition](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/word_definition.html) | 04. | [Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/calculator.html) |
+| 05. | [Color Flipper 1](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/color_flipper_1.html) | 06. | [Color Flipper 2](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/color_flipper_2.html) |
+| 07. | [Digital Clock](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/digital_clock.html) | 08. | [Log-in Form](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/loginform.html) |
+| 09. | [Purple Heart Animation](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/purple_heart.html) | 10. | [Take Quiz](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/quiz.html) |
+| 11. | [Music](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/tap_music.html) | 12. | [Notification](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/toast_notification.html) |
+| 13. | [Speech to Text Converter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Speech-to-Text-Converter.html) | 14. | [Check Weather](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/weather_app.html) |
+| 15. | [Guess Color](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/guess_color.html) | 16. | [Speed Typer](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Speed_Typer.html) |
+| 17. | [Caesar Cipher](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/CaesarCipher.html) | 18. | [Restaurant Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/restaurant/restaurant.html) |
+| 19. | [Rock Paper Scissor](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/rock-paper-scissor/rock-paper-scissor.html) | 20. | [Incrementinator 2.0](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/incrementinator.html) |
+| 21. | [Quotes](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/accordion.html) | 22. | [Aipan Art Handcraft](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/aipanArt.html) |
+| 23. | [Auto Image Slider](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/auto_image_slider.html) | 24. | [BMI Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/bmi-calculator.html) |
+| 25. | [Count Down Timer](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/countdown-timer.html) | 26. | [Counter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/counter.html) |
+| 26. | [Drum Kit](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/drum_kit.html) | 27. | [Food Recepie center](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/food_website.html) |
+| 28. | [Height Converter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/height-converter.html) | 29. | [Hulu](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/hulu.html) |
+| 30. | [Image Editor](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/image_editor.html) | 31. | [Loan Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/loan-calculator.html) |
+| 32. | [Maths Formulae Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/maths-formulae.html) | 33. | [Modal Window generator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Modal.html) |
+| 34. | [An NGo Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/NGO.html) | 35. | [Note App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/noteapp.html) |
+| 36. | [Popup](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/popup.html) | 37. | [Random Color Generator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/random_color_generator.html) |
+| 38. | [Responsive Navigation Bar](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/responsive_nav.html) | 39. | [Resume Builder](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/resume_builder.html) |
+| 40. | [Dice Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/dice_game.html) | 41. | [Speed Typing](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/speed.html) |
+| 42. | [Spotify Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/spotify-clone.html) | 43. | [Stone Paper Scissors](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/stone_paper_scissors.html) |
+| 44. | [Tip Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/tip_calculator.html) | 45. | [3D Solar System](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/solar.html) |
+| 46. | [Prime Factor Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/primeCalc.html) | 47. | [Magic Note](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/todo.html) |
+| 48. | [Weather Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/weather_app.html) | 49. | [Weight Converter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/weight_conv.html) |
+| 50. | [Word Count Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/word-count-calculator.html) | 51. | [Crypto App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/crypto_app.html) |
+| 52. | [Scientific Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/scientific_calculator.html) | 53. | [GitHub Profiles](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/GitHub-Profiles.html) |
+| 54. | [Books Library](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/BooksLibrary.html) | 55. | [Guess The Number](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/guess-the-number.html) |
+| 56. | [Simon Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Simon_game.html) | 57. | [Dictionary App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/dictionary.html) |
+| 58. | [Custom Ice Cream Maker](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/icecream.html) |
+
+<br>
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="Maintainer"></div>
 
 # Project Maintainers🕵🏼‍♂
 
@@ -163,11 +288,67 @@ git push -u origin <your_branch_name>
 </tr>
 </tbody></table>
 
-[# Our valuable Contributors👩‍💻👨‍💻 :
+
+<br>
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+<!---
+
+## Our valuable Contributors
+<a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"><img src="https://forthebadge.com/images/badges/built-by-developers.svg"  ></a> 
+<a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"><img src="https://forthebadge.com/images/badges/built-with-love.svg"  ></a> 
+<a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"><img src="https://forthebadge.com/images/badges/built-with-swag.svg" ></a>   
+
+<br>
+
+Thanks to all the **people who contribute** 💜
+<br>
+
 <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=ZeroOctave/ZeroOctave-JavaScript-Projects" />
-</a>]: #
+</a>
+
+#### Best of luck for your development career👍😊
+
+<br>
+
+<br>
+
+-->
 
 
 
-### Best of luck for your development career👍😊
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id="Feedback"></div>
+
+# Feedback
+
+If you have any feedback or suggestions please reach out to Project - Maintainer.  
+
+Or you can create a  <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/issues">issue</a> and mention there , which new features or extension can make this Project more good.
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+<br>
+  
+<br>
+
+<p align="right"><a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-blueviolet?style=for-the-badge" /></a></p>
+
+<div align="center">
+
+### Show some ❤️ by starring this awesome Repository!
+
+</div>
+  
+  
+<div id="Bottom"></div>
+
+
+
