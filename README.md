@@ -31,9 +31,9 @@
 <!-- ---------------------------------------------------------------------------------------------------------------------- -->
 
 <p align="center">
-    <a href="https://zerooctave.github.io/ZeroOctave-Javascript-Projects/"><strong>ZeroOctave Official site »</strong></a>
+    <a href="https://zerooctave.github.io/"><strong>ZeroOctave Official site »</strong></a>
     <br />
-    <a href="https://github.com/ZeroOctave/ZeroOctave-JavaScript-Projects/issues">Report Bug</a>
+    <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/issues/new?assignees=&labels=bug&template=bug_report.md&title=">Report Bug</a>
     ·
     <a href="https://github.com/ZeroOctave/ZeroOctave-JavaScript-Projects/issues">Request Update </a>
   </p>
@@ -67,17 +67,17 @@
 
 # About❓
 Getting started with web development? What else would be better than practising it.
+
 So welcome developer. You are at right place.😊
 
 ZeroOctave Javascript Projects provide some awesome web development projects to work upon and enhance your skills.
 
 The motive🎯 of this project is to help new learners like you to get familiar with web development skills.
-Happy coding.👍 <br>
+
+Happy coding.👍
+
 **So, What are you waiting for?**
-
 <br>
-
-
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -119,25 +119,8 @@ Little knowledge of Github would be benificial for you so that you know what you
 
 **Don't put files here & there, Always follow proper directory. Follow proper naming pattern while pushing new files (eg: if a project name is ```Gym Website``` then their file name should be ```gym-website.html, gym-website.css, gym-website.js``` similar for all files.) Don't mix the files or make new folders if not necessary.**
 
-<br>
-
-
-
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-<div id="Tech-Stack"></div>
-
-# Tech-Stack used🎓
-
-  ![HTML 5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-  ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-  
-<br>
-
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->  
-<div id="Contributing"></div>
+# Tech-Stack🎓
+<img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 
 # Contributing Guidelines📝
 
@@ -216,24 +199,13 @@ git push -u origin <your_branch_name>
 
 **Kudos to you🎈**
 
-<br>
-
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-<div id="Help"></div>
 
 # This Will Help🌩️
 
 - *Why clone everything to the machine? Just press "." (dot) after opening the forked repo in a browser tab. See the Magic!🎉*
 - *Want to preview your live changes? Copy and paste the project.html URL into [GitHack](https://raw.githack.com/). You will get 2 URLs for production and development, copy and paste them into a new tab. See the Magic!🎉*
 
-<br>
-
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-<div id="Projects"></div>
-
-# Available Projects
+# Available Projects🦿
 
 | S-No. | Projects | S-No. | Projects |
 |:--|:--|:--|:--|
@@ -271,11 +243,6 @@ git push -u origin <your_branch_name>
 <br>
 
 
-
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-<div id="Maintainer"></div>
-
 # Project Maintainers🕵🏼‍♂
 
 <table>
@@ -289,45 +256,19 @@ git push -u origin <your_branch_name>
 </tbody></table>
 
 
-<br>
-
-
-
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
-
-<!---
-
-## Our valuable Contributors
 <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"><img src="https://forthebadge.com/images/badges/built-by-developers.svg"  ></a> 
 <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"><img src="https://forthebadge.com/images/badges/built-with-love.svg"  ></a> 
 <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"><img src="https://forthebadge.com/images/badges/built-with-swag.svg" ></a>   
 
-<br>
-
-Thanks to all the **people who contribute** 💜
-<br>
-
-<a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=ZeroOctave/ZeroOctave-JavaScript-Projects" />
-</a>
-
-#### Best of luck for your development career👍😊
-
-<br>
-
-<br>
-
--->
 
 
+### Thanks to all the people who contribute 💜
 
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-<div id="Feedback"></div>
 
-# Feedback
+### Best of luck for your development career👍😊
+
+
+# Feedback✌🏼
 
 If you have any feedback or suggestions please reach out to Project - Maintainer.  
 
@@ -343,7 +284,7 @@ Or you can create a  <a href="https://github.com/ZeroOctave/ZeroOctave-Javascrip
 
 <div align="center">
 
-### Show some ❤️ by starring this awesome Repository!
+### Show some ❤️ by starring⭐ this awesome Repository!
 
 </div>
   
