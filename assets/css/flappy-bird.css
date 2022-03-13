@@ -28,7 +28,7 @@
 {
     height: 700px;
     width: 125px;
-    background-image: url("assets/Images/flappy-bird-wall.jpg");
+    background-image: url("/assets/Images/flappy-bird-wall.jpg");
     position: relative;
     left: 400px;
     animation: wall 2s infinite linear;
@@ -58,7 +58,7 @@
 {
     width: 40px;
     height: 40px;
-    background-image: url("assets/Images/flip-bird-bird.png");
+    background-image: url("/assets/Images/flip-bird-bird.png");
     position: absolute;
     top: 200px;
     
