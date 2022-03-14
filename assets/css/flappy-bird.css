@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#bgvid {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+#gamebody
+{
+    width: 400px;
+    height: 700px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+#wall
+{
+    height: 700px;
+    width: 125px;
+    background-image: url("../Images/flappy-bird-wall.jpg");
+    position: relative;
+    left: 400px;
+    animation: wall 2s infinite linear;
+
+}
+
+@keyframes wall {
+    0%{left: 400px;}
+    100%{left: -50px;}
+
+    
+}
+#hole
+{
+    width: 125px;
+    height: 200px;
+    
+    background-image: url("../Images/flappy-bird-hole.png");
+    position: relative;
+    left: 600px;
+    top: -700px;
+    animation: wall 2s infinite linear;
+
+
+}
+#gigachad
+{
+    width: 40px;
+    height: 40px;
+    background-image: url("../Images/flappy-bird-bird.png");
+    position: absolute;
+    top: 200px;
+    
+}
+#scoree
+{
+    margin-top: 100px;
+    text-align: center;
+
+}
