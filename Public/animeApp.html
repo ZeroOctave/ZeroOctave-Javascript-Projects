@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime profile pics generator</title>
+    <link rel="stylesheet" href="/assets/css/animeApp.css" />
+  </head>
+  <body>
+    <!-- main container  -->
+    <div class="main-container">
+      <!-- the anime container  -->
+      <div class="anime-container">
+        <h3>Anime Pics Genrator</h3>
+        <h2>genrates Random Animes profile pics</h2>
+        <button id="btn" class="get-anime">Get Anime</button>
+        <!-- the anime box  -->
+        <div class="anime-box">
+          <div class="hero-img">
+            <img
+              src="https://w.wallhaven.cc/full/lq/wallhaven-lqxr3y.jpg"
+              class="anime"
+              alt="hero-img"
+            />
+          </div>
+          <div class="hero-name">
+            <h3></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript code -->
+    <script>
+        const getBTN = document.getElementById("btn");
+        const animeBox = document.querySelector(".anime-box");
+        const anime = document.querySelector(".anime");
+        const animeName = document.querySelector(".hero-name");
+
+        const api_url = `https://api.catboys.com/img`;
+
+        getBTN.addEventListener("click", async function () {
+        const response = await fetch(api_url);
+        const data = await response.json();
+        anime.src = data.url;
+        animeBox.style.display = "block";
+        animeName.textContent = data.artist;
+});
+    </script>
+  </body>
+</html>
