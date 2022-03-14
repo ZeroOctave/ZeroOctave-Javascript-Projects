@@ -163,7 +163,7 @@ section .title::after{
 
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("/assets/Images/images(portfolio)/banner.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
