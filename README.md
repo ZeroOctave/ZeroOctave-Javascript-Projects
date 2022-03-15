@@ -247,7 +247,7 @@ git push -u origin <your_branch_name>
 | 56. | [Simon Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Simon_game.html) | 57. | [Pong Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/pong.html) |
 | 58. | [Dictionary App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/dictionary.html) | 59. | [Custom Ice Cream Maker](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/icecream.html) |
 | 60. | [Sneaker Site](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/sneaker.html) | 61. | [CRUD Project](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/crud-project.html) |
-| 62. | [Currency Converter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Currency-converter.html) | 61. | [Hangman Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/hangman.html) |
+| 62. | [Currency Converter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Currency-converter.html) | 63. | [Hangman Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/hangman.html) |
 
 <br>
 
