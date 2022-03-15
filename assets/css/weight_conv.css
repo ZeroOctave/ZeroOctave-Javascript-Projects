@@ -1,6 +1,6 @@
 body {
     margin-top: 29px;
-    background: pink;
+    background: rgb(216, 8, 122);
     color: #fff;
     align-items: center;
     text-align: center;
@@ -9,9 +9,24 @@ body {
 .card {
     margin-top: 11px;
     background: red;
+    position: relative;
+    margin: auto;
+    
 }
 
 #resetButton {
+    position: relative;
     margin: 21px;
     background: grey;
+    margin: auto;
+    margin-top: 10px;
+    
+   
+}
+#heading{
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    color: darkorange;
+    font-weight: bold;
 }
