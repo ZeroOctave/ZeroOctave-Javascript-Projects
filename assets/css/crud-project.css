@@ -1,0 +1,125 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 75px 3vw;
+}
+
+.dark-theme {
+    background-color: hsl(230, 17%, 14%) !important;
+}
+
+.toggle {
+    position: absolute;
+    top: 5%;
+}
+
+.row {
+    padding: 30px;
+    border-radius: 10px;
+    border-top: 10px solid hsl(348, 97%, 39%);
+    background-color: hsl(227, 47%, 96%);
+    transition: 0.5s;
+}
+
+.row-dark {
+    background-color: hsl(228, 28%, 20%);
+}
+
+a {
+    color: hsl(348, 97%, 39%) !important;
+    text-decoration: none !important;
+    padding: 3px !important;
+}
+
+input[type="submit"] , input[type="reset"] {
+    border: 2px solid hsl(348, 97%, 39%);
+    background-color: transparent;
+    padding: 10px 20px;
+    color: hsl(348, 97%, 39%);
+    border-radius: 5px;
+    margin: 30px 0 20px;
+    transition: 0.5s;
+}
+
+.btn-dark {
+    color: white !important;
+    background-color: hsl(348, 97%, 39%) !important;
+}
+
+.col-6 {
+    width: 49% !important;
+}
+
+input[type="submit"]:hover , input[type="reset"]:hover {
+    background-color: hsl(348, 97%, 39%);
+    color: white;
+    transition: 0.5s;
+}
+
+table {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: hsl(348, 97%, 39%) !important;
+    color: white;
+    vertical-align: middle;
+}
+
+td , th{
+    padding: 15px !important;
+}
+
+
+tr:nth-child(odd) , table.list thead > tr {
+    background-color: white;
+}
+
+tr:nth-child(even) , table.list thead > tr {
+    background-color: #ffe0e6;
+}
+
+input {
+    width: 100% !important;
+}
+
+input[type="text"]{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+@media (max-width: 991px) {
+    table {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:  576px) {
+    .row {
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .col-6 {
+        width: 100% !important;
+    }
+    .d-flex {
+        flex-direction: column;
+    }
+    input[type="reset"] {
+        margin-top: 0;
+    }
+    .row {
+        margin-top: 50px;
+    }
+}
+
