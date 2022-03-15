@@ -217,7 +217,7 @@ git push -u origin <your_branch_name>
 | S-No. | Projects | S-No. | Projects |
 |:--|:--|:--|:--|
 | 01. | [Analog Clock](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Analog_clock.html) | 02. | [Auto Write Text](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/auto-write-text.html) |
-| 03. | [Woed Definition](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/word_definition.html) | 04. | [Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/calculator.html) |
+| 03. | [Word Definition](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/word_definition.html) | 04. | [Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/calculator.html) |
 | 05. | [Color Flipper 1](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/color_flipper_1.html) | 06. | [Color Flipper 2](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/color_flipper_2.html) |
 | 07. | [Digital Clock](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/digital_clock.html) | 08. | [Log-in Form](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/loginform.html) |
 | 09. | [Purple Heart Animation](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/purple_heart.html) | 10. | [Take Quiz](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/quiz.html) |
@@ -244,8 +244,10 @@ git push -u origin <your_branch_name>
 | 50. | [Word Count Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/word-count-calculator.html) | 51. | [Crypto App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/crypto_app.html) |
 | 52. | [Scientific Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/scientific_calculator.html) | 53. | [GitHub Profiles](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/GitHub-Profiles.html) |
 | 54. | [Books Library](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/BooksLibrary.html) | 55. | [Guess The Number](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/guess-the-number.html) |
-| 56. | [Simon Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Simon_game.html) | 57. | [Dictionary App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/dictionary.html) |
-| 58. | [Custom Ice Cream Maker](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/icecream.html) |
+| 56. | [Simon Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Simon_game.html) | 57. | [Pong Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/pong.html) |
+| 58. | [Dictionary App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/dictionary.html) | 59. | [Custom Ice Cream Maker](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/icecream.html) |
+| 60. | [Sneaker Site](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/sneaker.html) | 61. | [CRUD Project](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/crud-project.html) |
+| 62. | [Currency Converter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Currency-converter.html) | 63. | [Hangman Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/hangman.html) |
 
 <br>
 
