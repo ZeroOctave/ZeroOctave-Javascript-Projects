@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/find_key.css">
+</head>
+
+<body>
+
+    <div class="enter" id="enter">
+        <span>Find The Key</span>
+
+        <p>There is a key bheind the cards you need to find it in a limited time.</p>
+
+        <div id="levelselect">
+
+            <label>Choose difficulty level:</label>
+
+            <select name="level" id="level">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+
+            </select>
+        </div>
+        <button type="button" id="enterbutton" onclick="enter()">Start</button>
+    </div>
+
+    <div class="page" id="page">
+        <div class="row">
+            <div class="column" id="column1" onmouseover="change()">
+                <p></p>
+            </div>
+            <div class="column" id="column2" onmouseover="change()"></div>
+            <div class="column" id="column3" onmouseover="change()"></div>
+            <div class="column" id="column4" onmouseover="change()"></div>
+            <div class="column" id="column5" onmouseover="change()"></div>
+            <div class="column" id="column6" onmouseover="change()"></div>
+            <div class="column" id="column7" onmouseover="change()"></div>
+            <div class="column" id="column8" onmouseover="change()"></div>
+            <div class="column" id="column9" onmouseover="change()"></div>
+
+        </div>
+        <div class="row">
+            <div class="column" id="column10" onmouseover="change()"></div>
+            <div class="column" id="column11" onmouseover="change()"></div>
+            <div class="column" id="column12" onmouseover="change()"></div>
+
+            <div class="column" id="column13" onmouseover="change()"></div>
+            <div class="column" id="column14" onmouseover="change()"></div>
+            <div class="column" id="column15" onmouseover="change()"></div>
+            <div class="column" id="column16" onmouseover="change()"></div>
+            <div class="column" id="column17" onmouseover="change()"></div>
+            <div class="column" id="column18" onmouseover="change()"></div>
+        </div>
+        <div class="row">
+            <div class="column" id="column19" onmouseover="change()"></div>
+            <div class="column" id="column20" onmouseover="change()"></div>
+
+            <div class="column" id="column21" onmouseover="change()"></div>
+            <div class="column" id="column22" onmouseover="change()"></div>
+            <div class="column" id="column23" onmouseover="change()"></div>
+            <div class="column" id="column24" onmouseover="change()"></div>
+            <div class="column" id="column25" onmouseover="change()"></div>
+            <div class="column" id="column26" onmouseover="change()"></div>
+            <div class="column" id="column27" onmouseover="change()"></div>
+        </div>
+        <div class="row">
+            <div class="column" id="column28" onmouseover="change()"></div>
+            <div class="column" id="column29" onmouseover="change()"></div>
+            <div class="column" id="column30" onmouseover="change()"></div>
+
+            <div class="column" id="column31" onmouseover="change()"></div>
+            <div class="column" id="column32" onmouseover="change()"></div>
+            <div class="column" id="column33" onmouseover="change()"></div>
+            <div class="column" id="column34" onmouseover="change()"></div>
+            <div class="column" id="column35" onmouseover="change()"></div>
+            <div class="column" id="column36" onmouseover="change()"></div>
+        </div>
+        <div class="row">
+
+            <div class="column" id="column37" onmouseover="change()"></div>
+            <div class="column" id="column38" onmouseover="change()"></div>
+            <div class="column" id="column39" onmouseover="change()"></div>
+            <div class="column" id="column40" onmouseover="change()"></div>
+            <div class="column" id="column41" onmouseover="change()"></div>
+            <div class="column" id="column42" onmouseover="change()"></div>
+            <div class="column" id="column43" onmouseover="change()"></div>
+            <div class="column" id="column44" onmouseover="change()"></div>
+            <div class="column" id="column45" onmouseover="change()"></div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <div id="answer">
+        <div id="resultdisplay">
+
+            <span> Enter the key</span><br>
+            <input id="result" type="text">
+            <button type="submit" id="resultbutton" onclick="check()">submit</button>
+        </div>
+        <span id="Finalresult"></span>
+
+       </div>
+    </div>
+
+    <script src="../assets/Js/find_key.js" defer></script>
+</body>
+
+</html>

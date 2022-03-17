@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+ 
+ *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+body{
+    z-index: -1;
+}
+.page{
+    /* background-color: violet; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+.row{
+   margin: 0%;
+   padding: 0%;
+   display: block;
+}
+.column{
+    overflow: auto;
+    color: red;
+    position: relative;
+    margin: 0;
+    padding: 0%;
+    display: inline-block;
+    width: 10.85%;
+    height: 20vh;
+    text-align:  center;
+    background-color: black;
+    transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+.column:hover{
+    transform: rotateY(180deg);
+    background-color: rgb(239, 243, 243);
+  }
+
+.enter{
+    overflow: auto;
+    position: absolute;
+    z-index: 1;
+    height: 70vh;
+    width: 30%;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    top: 20%;
+    left: 35%;
+    color:  red ;
+    font-family: 'Anton', sans-serif;
+
+}
+.entered{
+    visibility: hidden;
+    display: none;
+}
+
+
+#answer{
+    position: absolute;
+    z-index: 1;
+    height: 70vh;
+    width: 30%;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    top: 20%;
+    left: 35%;
+    display: none;
+
+}
+span{
+    padding: 5px;
+    margin: 5px;
+    font-size: 3rem;
+    color: red;
+    font-family: 'Anton', sans-serif;
+
+}
+.enter p{
+    font-size: 1rem;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 20%;
+}
+button{
+    padding: 5px;
+    width: 5rem;
+    font-family: 'Anton', sans-serif;
+    color: red;
+    margin-top: 40%;
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+}
+#levelselect{
+    font-family: 'Anton', sans-serif;
+    color: red;
+    margin-top: 5%;
+} 
+#levelselect select{
+    padding: 5px;
+    width: 5rem;
+    font-family: 'Anton', sans-serif;
+    color: red;
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1356px) and (min-width:693px) {
+    .column{
+        width: 10.6%;
+    }
+
+  }
+  @media screen and (max-width: 692px) and (min-width:390px) {
+    .column{
+        width: 10.2%;
+    }
+
+  } 
+  @media screen and (max-width: 390px) and (min-width:100px) {
+    .column{
+        width: 9.8%;
+    }
+
+  }  
