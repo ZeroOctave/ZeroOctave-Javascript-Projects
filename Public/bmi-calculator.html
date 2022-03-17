@@ -1,39 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-   <title>BMI Calculator</title>
-   <link rel="stylesheet" type="text/css" href="../assets/css/bmi-calculator.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="../assets/CSS/bmi-calculator.css">
+   
 </head>
-
-
 <body>
+    <div class="background_image">
+     <div class="overlay_effect">
+       <div class="Container">
+        <h2>BMI Calculator</h2>
+        <div class="box">
+           <!--Weight Input Field-->
+         <div id="weight_field">
+            <label>Weight(In Kg):</label><input id="weight" class="weight_class" type="text" placeholder="Enter Your weight"/>
+         </div>
+         <!--Height Input field-->
+         <div id="height_field">
+            <label>Height(In Cm):</label><input id="height" class="height_class" type="text" placeholder="Enter Your Height"/>
+         </div>
+         <div class="button_container">
+            <!--calculate button-->
+            <button class="calculate_btn">Calculate</button>
+            <!--reset button-->
+            <button class="reset_btn">Reset</button>
+         </div>
+         <!--Calculated BMI Value is displayed here-->
+         <div class="BMI_Value"></div>
+         <!--for calculated BMI Value appropriate BMI Result is shown here-->
+         <div class="BMI_Result"></div>
+        </div>
+        </div>
+      <!--footer section-->
+      
+       </div>
+    </div>
 
-	<div id ="container">
-		<h1> BMI Calculator</h1>
-		Height in CM
-		<input type="text" id="cm" > <br/>
-		Weight in KG
-		<input type="text" id="kg" > <br/>
-		<input type="submit" id="submit" value="Calculate"> <br/><br/>
-
-	  <div id="result"></div>
-
-	  <div id ="weightguide">
-
-		  <h2> BMI Weight Guide</h2>
-			Under Weight = Less than 18.6<br/>
-			Normal Range = 18.6 and 24.9<br/>
-			Overweight = Greater than 24.9<br/>
-	 </div>
-
-  </div>
-
-
-
-
-
-<script src ="../assets/Js/bmi-calculator.js"> </script>
-
+    <!--Javscript file-->
+    <script src="../assets/JS/bmi-calculator.js"></script>
 </body>
 </html>

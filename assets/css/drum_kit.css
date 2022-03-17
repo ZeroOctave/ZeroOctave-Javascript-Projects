@@ -1,6 +1,7 @@
 body {
     text-align: center;
     background-color: #283149;
+    background-image: url("../Images/drumkit_BG.png");
   }
   
   h1 {
@@ -16,31 +17,31 @@ body {
   }
   
   .w {
-    background-image: url(images/tom1.png);
+    background-image: url("../Images/tom1.png");
   }
   
   .a {
-    background-image: url(images/tom2.png);
+    background-image: url("../Images/tom2.png");
   }
   
   .s {
-    background-image: url(images/tom3.png);
+    background-image: url("../Images/tom3.png");
   }
   
   .d {
-    background-image: url(images/tom4.png);
+    background-image: url("../Images/tom4.png");
   }
   
   .j {
-    background-image: url(images/snare.png);
+    background-image: url("../Images/snare.png");
   }
   
   .k {
-    background-image: url(images/crash.png);
+    background-image: url("../Images/crash.png");
   }
   
   .l {
-    background-image: url(images/kick.png);
+    background-image: url("../Images/kick.png");
   }
   
   .set {
