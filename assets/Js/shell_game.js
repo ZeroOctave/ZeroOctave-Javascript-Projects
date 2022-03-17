@@ -1,3 +1,4 @@
+// importing elements from .html to .js
 let canvas = document.getElementById("canvas-top");
 let button = document.getElementById("button");
 let button_q = document.getElementById("button_q");
@@ -9,6 +10,7 @@ let highest_text = document.getElementById("highest");
 let level = document.getElementById("hardness");
 let form = document.getElementById("level");
 
+// variables to be used
 const c = canvas.getContext('2d');
 let shoot = 0;
 let game_quit = 0;
@@ -18,6 +20,7 @@ let ext = 0;
 canvas.width = innerWidth;
 canvas.height = innerHeight;
 
+//mouse events are handled
 const mouse = {
     x: 200,
     y: canvas.height - 200,
@@ -54,6 +57,7 @@ addEventListener('resize' , () => {
     init();
 });
 
+// class of the shell which is fired
 class Shell {
     constructor(x, y, radius, colour) {
         this.x = x;
@@ -113,6 +117,7 @@ class Shell {
     };
 }
 
+// class of target when shell strikes
 class Target {
     constructor(x, y, radius, colour, y_vel) {
         this.x = x;
@@ -139,6 +144,7 @@ class Target {
     };
 }
 
+// shell and target objects are created and initialised
 let shell;
 let target;
 function init() {
@@ -148,6 +154,7 @@ function init() {
     shoot = 0;
 }
 
+// onclick() with start button
 function start() {
     game_quit = 0;
     button.style.visibility = 'hidden';
@@ -169,6 +176,7 @@ function start() {
     animate();
 }
 
+// onclick() with reset button
 function reset() {
     let answer = confirm('Are you sure you want to reset? All your previous progress will be lost!!');
     if(answer){
@@ -177,6 +185,7 @@ function reset() {
     }
 }
 
+//onclick() with quit button
 function stop() {
     game_quit = 1;
     button.style.visibility = 'visible';
@@ -191,6 +200,7 @@ function stop() {
     score = 0;
 }
 
+// checks if collision occurs
 function checkCollision() {
     let distance = Math.sqrt(Math.pow(shell.x - target.x, 2) + Math.pow(shell.y - target.y, 2));
     if(distance <= shell.radius + target.radius + ext){
@@ -205,6 +215,7 @@ function checkCollision() {
     }
 }
 
+// controls the whole game
 function animate() {
     if(game_quit){
         return;
