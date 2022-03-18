@@ -56,7 +56,7 @@ button:hover {
 
 h3,
 label[for='new-task'] {
-  color: white;
+  color: yellow;
   font-weight: 700;
   font-size: 15px;
   border-bottom: 2px solid #fff;
@@ -78,7 +78,7 @@ input[type="text"] {
   color: black;
 }
 input[type="text"]:focus {
-  color: white;
+  color: grey;
 }
 
 
