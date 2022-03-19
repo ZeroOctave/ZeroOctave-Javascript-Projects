@@ -27,13 +27,13 @@
     width: auto;
     height: 18rem;
     border-radius: 10px;
-    
+
 }
 .container{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  
+
 }
 .card p{
     font-family: 'Architects Daughter';
@@ -97,4 +97,78 @@ body {
         width: auto;
         height: 10rem;
     }
+}
+
+.footer {
+  background-color: #101010;
+  padding-bottom: 20px;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+.footer-heading{
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  margin: 50px 0 30px 0;
+}
+
+.icon {
+  text-align: center;
+}
+
+.social-icon {
+  margin: 0 0 15px 0;
+  color: white;
+}
+
+.social-icon:hover {
+  color: #66BFBF;
+}
+
+.copyright-message {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 70px;
+  color: #A0A0A0;
+}
+
+.footer-about {
+  text-align: justify;
+  width: 80%;
+  font-size: 1rem;
+  margin: 0 0 20px 50px;
+}
+
+hr {
+    width: 180px;
+    border-width: medium;
+    margin:auto;
+    margin-bottom: 40px;
+    background-color: yellow;
+}
+
+.developers {
+  line-height: 0.5rem;
+  position: absolute;
+  left: 120px;
+}
+
+li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+li:before {
+  content: "\25BA \0020";
+  font-size: 6px;
+  position: absolute;
+  top: 5px;
+  left: -10px;
+}
+
+li:hover {
+  left: 15px;
+  color: #66BFBF;
 }
