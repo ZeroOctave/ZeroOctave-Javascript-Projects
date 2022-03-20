@@ -3,6 +3,7 @@ const container = document.querySelector(".container"),
   sound = document.getElementById("sound");
 (infoText = container.querySelector(".info-text")),
   (removeIcon = container.querySelector(".search span"));
+let audio;
 
 function data(result, word) {
   if (result.title) {
@@ -14,13 +15,12 @@ function data(result, word) {
     document.querySelector(".word p").innerText = result[0].word;
     document.querySelector(".word span").innerText = phontetics;
     document.querySelector(".meaning span").innerText = definitions.definition;
-    sound.setAttribute("src", `https:${result[0].phonetics[1].audio}`);
+    audio = new Audio(result[0].phonetics[0].audio);
   }
 }
 
 function playSound() {
-  sound.play();
-  console.log("hello");
+  audio.play();
 }
 
 function search(word) {
@@ -52,6 +52,4 @@ removeIcon.addEventListener("click", () => {
   searchInput.focus();
   container.classList.remove("active");
   infoText.style.color = "#9A9A9A";
-  infoText.innerHTML =
-    "Type any existing word and press enter to get meaning, example, synonyms, etc.";
 });
