@@ -139,33 +139,29 @@ body {
   margin: 0 0 20px 50px;
 }
 
-hr {
-    width: 180px;
+.footer-hr-1 {
+    width: 70%;
     border-width: medium;
     margin:auto;
     margin-bottom: 40px;
     background-color: yellow;
 }
 
-.developers {
-  line-height: 0.5rem;
-  position: absolute;
-  left: 120px;
+.organisations {
+  line-height: 1.2rem;
+  text-align: center;
+  /* position: absolute;
+  left: 120px; */
+}
+
+.footer-hr-2 {
+  background-color: white;
+  width: 50%;
+  margin: auto;
 }
 
 li {
-  list-style-type: none;
-  position: relative;
-  padding-left: 15px;
-  padding-bottom: 5px;
-}
-
-li:before {
-  content: "\25BA \0020";
-  font-size: 6px;
-  position: absolute;
-  top: 5px;
-  left: -10px;
+  color: white;
 }
 
 li:hover {
