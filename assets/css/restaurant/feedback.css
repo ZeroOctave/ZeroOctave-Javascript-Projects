@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Crimson Pro", serif;
+}
+.container {
+  position: fixed;
+  margin-left: 2.5vh;
+  width: auto;
+  opacity: 0.86;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  opacity: 1;
+}
+
+/* Navbar links */
+.topnav a {
+  font-size: 2.4vh;
+  font-family: sans-serif;
+  letter-spacing: 0.4vh;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 2vh 2.2vh;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.title {
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  font-size: 5em;
+}
+h3 {
+  text-align: center;
+  font-size: 1.5em;
+}
+body {
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.flexbox {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: stretch;
+  padding: 10px;
+}
+.container2 {
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+.container2 form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2-20px);
+}
+form .user-details .input-box details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+form .user-details .input-box input {
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  height: 35px;
+  width: 100%;
+  font-size: 16px;
+}
+form .multiple-choice .form-title {
+  font-size: 17px;
+  font-weight: 500;
+}
+form .multiple-choice {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 80%;
+}
+form .multiple-choice .category .quality{
+    margin: 20px;
+}
+form .button input{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    border: none;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    outline: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+form .button {
+    height: 45px;
+    margin: 45px 0;
+}
+form .button input:hover{
+    cursor: pointer;
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
