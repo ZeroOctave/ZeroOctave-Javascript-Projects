@@ -168,3 +168,17 @@ li:hover {
   left: 15px;
   color: #66BFBF;
 }
+#searchbar{
+  margin-top: 7px;
+  width: 600px;
+  line-height: 50px;
+  padding-left: 7px;
+  border-radius: 5px;
+  font-size: larger;
+}
+#searchbtn{
+  margin-left: 600px;
+  margin-top: 4px;
+  width: 60px;
+  position:absolute;
+}
