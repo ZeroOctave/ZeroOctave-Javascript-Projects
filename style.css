@@ -182,3 +182,21 @@ li:hover {
   width: 60px;
   position:absolute;
 }
+
+#back-to-top{
+  display: flex;
+  position: fixed;
+  justify-content: space-evenly;
+  align-items: center;
+  left: 2rem;
+  bottom: 2rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  color: #ffff;
+  border: none;
+  /* outline: none; */
+  cursor: pointer;
+}
+
