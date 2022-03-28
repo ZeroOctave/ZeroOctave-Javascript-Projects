@@ -14,6 +14,18 @@
         data-y_margin="50">
     </script>
     <!--End of Buy me a coffee script-->
+
+    <!-- fontawesome starts -->
+   <script src="https://kit.fontawesome.com/bb036527a9.js" crossorigin="anonymous"></script>
+   <!--End of fontawesome -->
+   <!-- Start of google fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Roboto+Slab&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+
+   <!-- End of google fonts -->
+
     <link href="assets/css/landing_page.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="assets/js/analog_clock1.js" defer></script>
@@ -34,7 +46,173 @@
 
     <h1 class="title"><b>JavaScript Projects</b></h1>
     <div class="container background-container">
-
+       <!--searchbar-->
+        <input type="text" id="searchbar" placeholder="Enter your favourite project...">
+        <button id="searchbtn" onclick="func()"><i class="fa fa-search" aria-hidden="true"></i></button>
+        <script>
+          function func()
+          {
+                  var input, filter;
+                  input = document.getElementById("searchbar");
+                  filter = input.value.toUpperCase();
+                  if(filter=="ANALOG CLOCK")
+                  window.open("Public/Analog_clock.html");
+                  if(filter=="AUTO WRITE TEXT")
+                  window.open("Public/auto-write-text.html");
+                  if(filter=="WORD DEFINITION")
+                  window.open("Public/word_definition.html");
+                  if(filter=="CALCULATOR")
+                  window.open("Public/calculator.html");
+                  if(filter=="COLOR FLIPPER 1")
+                  window.open("Public/color_flipper_1.html");
+                  if(filter=="COLOR FLIPPER 2")
+                  window.open("Public/color_flipper_2.html");
+                  if(filter=="DIGITAL CLOCK")
+                  window.open("Public/digital_clock.html");
+                  if(filter=="LOG-IN FORM")
+                  window.open("Public/loginform.html");
+                  if(filter=="PURPLE HEART ANIMATION")
+                  window.open("Public/purple_heart.html");
+                  if(filter=="TAKE QUIZ")
+                  window.open("Public/quiz.html");
+                  if(filter=="MUSIC")
+                  window.open("Public/tap_music.html");
+                  if(filter=="NOTIFICATION")
+                  window.open("Public/toast_notification.html");
+                  if(filter=="SPEECH-TO-TEXT-CONVERTER")
+                  window.open("Public/Speech-to-Text-Converter.html");
+                  if(filter=="CHECK WEATHER")
+                  window.open("Public/weather_app.html");
+                  if(filter=="GUESS COLOR")
+                  window.open("Public/guess_color.html");
+                  if(filter=="SPEED TYPER")
+                  window.open("Public/Speed_Typer.html");
+                  if(filter=="CAESAR CIPHER")
+                  window.open("Public/CaesarCipher.html");
+                  if(filter=="RESTAURANT WEBSITE")
+                  window.open("Public/restaurant/restaurant.html");
+                  if(filter=="ROCK PAPER SCISSOR")
+                  window.open("Public/rock-paper-scissor/rock-paper-scissor.html");
+                  if(filter=="INCREMENTINATOR 2.0")
+                  window.open("Public/incrementinator.html");
+                  if(filter=="QUOTES")
+                  window.open("Public/accordion.html");
+                  if(filter=="AIPAN ART HANDCRAFT")
+                  window.open("Public/aipanArt.html");
+                  if(filter=="AUTO IMAGE SLIDER")
+                  window.open("Public/auto_image_slider.html");
+                  if(filter=="BMI CALCULATOR")
+                  window.open("Public/bmi-calculator.html");
+                  if(filter=="COUNT DOWN TIMER")
+                  window.open("Public/countdown-timer.html");
+                  if(filter=="COUNTER")
+                  window.open("Public/counter.html");
+                  if(filter=="DRUM KIT")
+                  window.open("Public/drum_kit.html");
+                  if(filter=="FOOD RECEPIE CENTER")
+                  window.open("Public/food_website.html");
+                  if(filter=="HEIGHT CONVERTER")
+                  window.open("Public/height-converter.html");
+                  if(filter=="HULU")
+                  window.open("Public/hulu.html");
+                  if(filter=="IMAGE EDITOR")
+                  window.open("Public/image_editor.html");
+                  if(filter=="LOAN CALCULATOR")
+                  window.open("Public/loan-calculator.html");
+                  if(filter=="MATHS FORMULAE WEBSITE")
+                  window.open("Public/maths-formulae.html");
+                  if(filter=="MODAL WINDOW GENERATOR")
+                  window.open("Public/Modal.html");
+                  if(filter=="AN NGO WEBSITE")
+                  window.open("Public/NGO.html");
+                  if(filter=="NOTE APP")
+                  window.open("Public/noteapp.html");
+                  if(filter=="POPUP")
+                  window.open("Public/popup.html");
+                  if(filter=="RANDOM COLOR GENERATOR")
+                  window.open("Public/random_color_generator.html");
+                  if(filter=="RESPONSIVE NAVIGATION BAR")
+                  window.open("Public/responsive_nav.html");
+                  if(filter=="RESUME BUILDER")
+                  window.open("Public/resume_builder.html");
+                  if(filter=="DICE GAME")
+                  window.open("Public/dice_game.html");
+                  if(filter=="SPEED TYPING")
+                  window.open("Public/speed.html");
+                  if(filter=="SPOTIFY CLONE")
+                  window.open("Public/spotify-clone.html");
+                  if(filter=="STONE PAPER SCISSORS")
+                  window.open("Public/stone_paper_scissors.html");
+                  if(filter=="TIP CALCULATOR")
+                  window.open("Public/tip_calculator.html");
+                  if(filter=="3D SOLAR SYSTEM")
+                  window.open("Public/solar.html");
+                  if(filter=="PRIME FACTOR CALCULATOR")
+                  window.open("Public/primeCalc.html");
+                  if(filter=="MAGIC NOTE")
+                  window.open("Public/todo.html");
+                  if(filter=="WEATHER CALCULATOR")
+                  window.open("Public/weather_app.html");
+                  if(filter=="WEIGHT CONVERTER")
+                  window.open("Public/weight_conv.html");
+                  if(filter=="WORD COUNT CALCULATOR")
+                  window.open("Public/word-count-calculator.html");
+                  if(filter=="CRYPTO-APP")
+                  window.open("Public/crypto_app.html");                  
+                  if(filter=="SCIENTIFIC CALCULATOR")
+                  window.open("Public/scientific_calculator.html");
+                  if(filter=="GITHUB-PROFILES")
+                  window.open("Public/GitHub-Profiles.html");
+                  if(filter=="BOOKS LIBRARY")
+                  window.open("Public/BooksLibrary.html");
+                  if(filter=="GUESS THE NUMBER")
+                  window.open("Public/guess-the-number.html");
+                  if(filter=="SIMON GAME")
+                  window.open("Public/Simon_game.html");
+                  if(filter=="PONG GAME")
+                  window.open("Public/pong.html");
+                  if(filter=="DICTIONARY APP")
+                  window.open("Public/dictionary.html");
+                  if(filter=="CUSTOM ICE CREAM MAKER")
+                  window.open("Public/icecream.html");
+                  if(filter=="SNEAKER SITE")
+                  window.open("Public/sneaker.html");
+                  if(filter=="CRUD PROJECT")
+                  window.open("Public/crud-project.html");
+                  if(filter=="CURRENCY CONVERTER")
+                  window.open("Public/Currency-converter.html");
+                  if(filter=="HANGMAN GAME")
+                  window.open("./Public/hangman.html");
+                  if(filter=="TO-DO LIST")
+                  window.open("./Public/to-do.html");
+                  if(filter=="PORTFOLIO WEBSITE")
+                  window.open("/Public/multiple-portfolio.html");
+                  if(filter=="TRANSPOSE-MATRIX CALCULATOR")
+                  window.open("Public/Transpose-Matrix-Calculator.html");
+                  if(filter=="PASSWORD GENERATOR")
+                  window.open("Public/password_generator.html");
+                  if(filter=="MEMORY GAME")
+                  window.open("Public/memory.html");
+                  if(filter=="RD RETURN CALCULATOR")
+                  window.open("./Public/RD-return-calculator.html");
+                  if(filter=="SPEECH SYNTHESIS")
+                  window.open("./Public/speech_synthesis.html");
+          }
+        </script>
+        <button id="back-to-top">
+            <i class="material-icons">arrow_upward</i>
+        </button>
+        <script>
+            const btnScrollToTop = document.querySelector("#back-to-top");
+            btnScrollToTop.addEventListener("click",function(){
+            window.scrollTo({
+                top:0,
+                left:0,
+                behavior:"smooth",
+                })
+                
+            });
+        </script>
         <!--This column is for Analog clock-->
         <div class="card card1">
             <!--Analog Clock-->
@@ -49,6 +227,19 @@
         </div>
         <!--End of Analog clock column-->
 
+        <!--This column is for Shell game-->
+        <div class="card card1">
+            <!--Shell game-->
+            <img class="card-img-top" src="assets/Images/shell_game.png" alt="Card shell game">
+            <div class="card-body">
+                <div id="shell-game">
+                    <h5 class="card-title">Shell Game</h5>
+                    <p>Wanna shoot along a parabolic trajectory? You are at just the right place!!</p>
+                    <a href="Public/shell_game.html" class="btn btn-outline-primary">Try Now</a>
+                </div>
+            </div>
+        </div>
+        <!--End of Shell game column-->
 
         <!--This column is for auto write text-->
         <div class="card card1">
@@ -341,7 +532,7 @@
             </div>
         </div>
         <div class="card card1">
-            <img class="card-img-top" src="assets/Images/BMI_Calculator_landing_page.png" alt="Art">
+            <img class="card-img-top" src="./assets/Images/BMI_Calculator_image_landing_page.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">BMI Calculator</h5>
                 <p>Calculate your BMI!</p>
@@ -714,6 +905,7 @@
             </div>
         </div>
         <!--End of Hangman Project-->
+
         
         <!--This is for To-Do List-->
         <div class="card card1">
@@ -728,6 +920,7 @@
         <!--End of To-Do-->
 
         <!--This is for multiple pages portfolio-->
+      
         <div class="card card1">
             <!--Start of multiple pages portfolio-->
             <img class="card-img-top" src="/assets/Images/multi-portfolio" alt="portfolio">
@@ -752,6 +945,7 @@
         </div>
         <!--End of Transpose-Matrix Calculator website-->
 
+
           <!-- This div is for travel game -->
           <div class="card card1">
             <img class="card-img-top" src="assets/Images/travel_game/travel.png" alt="Travel game">
@@ -773,13 +967,180 @@
             </div>
         </div>
         <!--End of password generator website-->
+         <!--This div is for Memory game-->
+         <div class="card card1">
+            <img class="card-img-top" src="assets/Images/memory/memoryimg.jpeg" alt="memory game">
+            <div class="card-body">
+                <h5 class="card-title">Memory game</h5>
+                <p>Match the candies before timer runs out...!</p>
+                <a href="Public/memory.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+            </div>
+        </div>
+        <!--End of memory game-->
+
+        <!-- This is for RD return calculator project -->
+        <div class="card card1">
+            <img class="card-img-top" src="./assets/Images/RD-return-calculator.png" alt="RD-return-calculator">
+            <div class="card-body">
+              <h5 class="card-title">RD return calculator</h5>
+              <p>Calculates RD return</p>
+              <a href="./Public/RD-return-calculator.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+            </div>
+        </div>
+        <!-- End of RD return calculator -->
+        
+        <!-- This div is for Meditation feature -->
+        <div class="card card1">
+            <img class="card-img-top" src="./assets/Images/meditation/Image.jpg" alt="Meditation feature">
+            <div class="card-body">
+              <h5 class="card-title">Meditation Feature</h5>
+              <p>Meditate and relax your mind</p>
+              <a href="./Public/meditation.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+            </div>
+        </div>
+        <!--End of Meditation feature -->
+    
+
+        <!-- Function Grapher Card -->
+        <div class="card card1">
+            <img class="card-img-top" src="https://user-images.githubusercontent.com/64689436/160159074-af2519ff-d060-4d99-95a1-e3bcd535ae82.png" alt="Function-Grapher">
+            <div class="card-body">
+              <h5 class="card-title">Function Grapher</h5>
+              <p>Function Grapher</p>
+              <a href="./Public/Function_Grapher.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+            </div>
+        </div>
+        <!-- Function Grapher Card -->
+      
+      
+      <!-- Third Degree Equation Solver -->
+        <div class="card card1">
+            <img class="card-img-top" src="https://user-images.githubusercontent.com/64689436/159751342-cd4e002d-479f-47b2-be8e-b24a58177409.png" alt="Third Degree Equation Solver">
+            <div class="card-body">
+              <h5 class="card-title">Third Degree Equation Solver</h5>
+              <p>Solves Third Degree Equation</p>
+              <a href="./Public/Third_Degree_Equation_Calculator.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+            </div>
+        </div>
+        <!-- Third Degree Equation Solver -->
+
+      
+        <!--This div is for Speech Synthesis-->
+  <div class="card card1">
+    <img class="card-img-top" src="assets/Images/speechsynthesis.png" alt="speech_synthesis">
+   <div class="card-body">
+      <h5 class="card-title">Speech Synthesis</h5>
+      <p>Controls rate and pitch of speech.</p>
+      <a href="Public/speech_synthesis.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+    </div>
+  </div>
+  <!--End of Speech Synthesis-->
+
+   <!--This div is for Key Detector-->
+    <div class="card card1">
+        <img class="card-img-top" src="assets/Images/key_Detector.png" alt="speech_synthesis">
+       <div class="card-body">
+          <h5 class="card-title">Key Detector</h5>
+          <p>Shows which key one has pressed on the keyboard.</p>
+          <a href="Public/key_Detector.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+        </div>
+      </div>
+      <!--End of Key Detector-->
 
     </div>
     <!-- Optional JavaScript -->
+
+
+
+</div> 
+  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+ 
+    
+    <!-- footer section starts -->
+
+    <footer class="footer">
+      <div class="row">
+        <!-- footer about section -->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h3 class="footer-heading">ZeroOctave</h3>
+          <hr class="footer-hr-1">
+          <p class = "footer-about" >ZeroOctave Javascript Projects provide some awesome web development projects to work upon and enhance your skills. The motive of this project is to help new learners like you to get familiar with web development skills.</p>
+        </div>
+        <!-- developers section -->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h3 class="footer-heading">Collaborations</h3>
+          <ul class="organisations">
+            <hr class="footer-hr-1">
+              <a href="https://hacktoberfest.digitalocean.com/" target="_blank"><li>Hacktoberfest 2021</li><hr class="footer-hr-2"></a>
+              <a href="https://icc-techsahead.netlify.app/" target="_blank"><li>ICC 2021</li><hr class="footer-hr-2"></a>
+              <a href="https://dwoc.io/" target="_blank"><li>DWOC 2021</li><hr class="footer-hr-2"></a>
+              <a href="https://gssoc.girlscript.tech/" target="_blank"><li>GSSOC 2022</li><hr class="footer-hr-2"></a>
+          </ul>
+        </div>
+          <!-- social media icons -->
+        <div class="col-lg-4 col-md-4 col-sm-12 icon">
+          <h3 class="footer-heading">Follow Us</h3>
+          <hr class="footer-hr-1">
+          <a href ="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"><i class="fa-brands fa-github fa-2x social-icon"></i></a><br>
+          <a href="https://twitter.com/zero_octave"><i class="fa-brands fa-twitter fa-2x social-icon"></i></a><br>
+          <a href="https://zerooctave.github.io/"><i class="fa-solid fa-globe fa-2x social-icon"></i></a><br>
+          <a href="ZeroOctave@protonmail.com"><i class="fa-solid fa-envelope fa-2x social-icon"></i></a><br>
+        </div>
+
+      </div>
+
+      <!-- copyright notice -->
+      <div class="copyright">
+        <p class="copyright-message">© Copyright 2021-2022.<br>All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- footer section ends -->
+
+
+    <!-- footer section starts -->
+
+    <footer class="footer">
+      <div class="row">
+        <!-- footer about section -->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h3 class="footer-heading">ZeroOctave</h3>
+          <hr class="footer-hr-1">
+          <p class = "footer-about" >ZeroOctave Javascript Projects provide some awesome web development projects to work upon and enhance your skills. The motive of this project is to help new learners like you to get familiar with web development skills.</p>
+        </div>
+        <!-- developers section -->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h3 class="footer-heading">Collaborations</h3>
+          <ul class="organisations">
+            <hr class="footer-hr-1">
+              <a href="https://hacktoberfest.digitalocean.com/" target="_blank"><li>Hacktoberfest 2021</li><hr class="footer-hr-2"></a>
+              <a href="https://icc-techsahead.netlify.app/" target="_blank"><li>ICC 2021</li><hr class="footer-hr-2"></a>
+              <a href="https://dwoc.io/" target="_blank"><li>DWOC 2021</li><hr class="footer-hr-2"></a>
+              <a href="https://gssoc.girlscript.tech/" target="_blank"><li>GSSOC 2022</li><hr class="footer-hr-2"></a>
+          </ul>
+        </div>
+          <!-- social media icons -->
+        <div class="col-lg-4 col-md-4 col-sm-12 icon">
+          <h3 class="footer-heading">Follow Us</h3>
+          <hr class="footer-hr-1">
+          <a href ="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"><i class="fa-brands fa-github fa-2x social-icon"></i></a><br>
+          <a href="https://twitter.com/zero_octave"><i class="fa-brands fa-twitter fa-2x social-icon"></i></a><br>
+          <a href="https://zerooctave.github.io/"><i class="fa-solid fa-globe fa-2x social-icon"></i></a><br>
+          <a href="ZeroOctave@protonmail.com"><i class="fa-solid fa-envelope fa-2x social-icon"></i></a><br>
+        </div>
+
+      </div>
+
+      <!-- copyright notice -->
+      <div class="copyright">
+        <p class="copyright-message">© Copyright 2021-2022.<br>All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- footer section ends -->
 
 </body>
 

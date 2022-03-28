@@ -27,13 +27,13 @@
     width: auto;
     height: 18rem;
     border-radius: 10px;
-    
+
 }
 .container{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  
+
 }
 .card p{
     font-family: 'Architects Daughter';
@@ -98,3 +98,105 @@ body {
         height: 10rem;
     }
 }
+
+.footer {
+  background-color: #101010;
+  padding-bottom: 20px;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+.footer-heading{
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  margin: 50px 0 30px 0;
+}
+
+.icon {
+  text-align: center;
+}
+
+.social-icon {
+  margin: 0 0 15px 0;
+  color: white;
+}
+
+.social-icon:hover {
+  color: #66BFBF;
+}
+
+.copyright-message {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 70px;
+  color: #A0A0A0;
+}
+
+.footer-about {
+  text-align: justify;
+  width: 80%;
+  font-size: 1rem;
+  margin: 0 0 20px 50px;
+}
+
+.footer-hr-1 {
+    width: 70%;
+    border-width: medium;
+    margin:auto;
+    margin-bottom: 40px;
+    background-color: yellow;
+}
+
+.organisations {
+  line-height: 1.2rem;
+  text-align: center;
+  /* position: absolute;
+  left: 120px; */
+}
+
+.footer-hr-2 {
+  background-color: white;
+  width: 50%;
+  margin: auto;
+}
+
+li {
+  color: white;
+}
+
+li:hover {
+  left: 15px;
+  color: #66BFBF;
+}
+#searchbar{
+  margin-top: 7px;
+  width: 600px;
+  line-height: 50px;
+  padding-left: 7px;
+  border-radius: 5px;
+  font-size: larger;
+}
+#searchbtn{
+  margin-left: 600px;
+  margin-top: 4px;
+  width: 60px;
+  position:absolute;
+}
+
+#back-to-top{
+  display: flex;
+  position: fixed;
+  justify-content: space-evenly;
+  align-items: center;
+  left: 2rem;
+  bottom: 2rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  color: #ffff;
+  border: none;
+  /* outline: none; */
+  cursor: pointer;
+}
+
