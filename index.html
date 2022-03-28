@@ -22,6 +22,8 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Roboto+Slab&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+
    <!-- End of google fonts -->
 
     <link href="assets/css/landing_page.css" rel="stylesheet">
@@ -196,7 +198,21 @@
                   if(filter=="SPEECH SYNTHESIS")
                   window.open("./Public/speech_synthesis.html");
           }
-                  </script>
+        </script>
+        <button id="back-to-top">
+            <i class="material-icons">arrow_upward</i>
+        </button>
+        <script>
+            const btnScrollToTop = document.querySelector("#back-to-top");
+            btnScrollToTop.addEventListener("click",function(){
+            window.scrollTo({
+                top:0,
+                left:0,
+                behavior:"smooth",
+                })
+                
+            });
+        </script>
         <!--This column is for Analog clock-->
         <div class="card card1">
             <!--Analog Clock-->
@@ -961,6 +977,18 @@
             </div>
         </div>
         <!-- End of RD return calculator -->
+        
+        <!-- This div is for Meditation feature -->
+        <div class="card card1">
+            <img class="card-img-top" src="./assets/Images/meditation/Image.jpg" alt="Meditation feature">
+            <div class="card-body">
+              <h5 class="card-title">Meditation Feature</h5>
+              <p>Meditate and relax your mind</p>
+              <a href="./Public/meditation.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+            </div>
+        </div>
+        <!--End of Meditation feature -->
+    
 
         <!-- Function Grapher Card -->
         <div class="card card1">
@@ -972,7 +1000,20 @@
             </div>
         </div>
         <!-- Function Grapher Card -->
+      
+      
+      <!-- Third Degree Equation Solver -->
+        <div class="card card1">
+            <img class="card-img-top" src="https://user-images.githubusercontent.com/64689436/159751342-cd4e002d-479f-47b2-be8e-b24a58177409.png" alt="Third Degree Equation Solver">
+            <div class="card-body">
+              <h5 class="card-title">Third Degree Equation Solver</h5>
+              <p>Solves Third Degree Equation</p>
+              <a href="./Public/Third_Degree_Equation_Calculator.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+            </div>
+        </div>
+        <!-- Third Degree Equation Solver -->
 
+      
         <!--This div is for Speech Synthesis-->
   <div class="card card1">
     <img class="card-img-top" src="assets/Images/speechsynthesis.png" alt="speech_synthesis">
@@ -984,7 +1025,7 @@
   </div>
   <!--End of Speech Synthesis-->
 
-    <!--This div is for Key Detector-->
+   <!--This div is for Key Detector-->
     <div class="card card1">
         <img class="card-img-top" src="assets/Images/key_Detector.png" alt="speech_synthesis">
        <div class="card-body">
@@ -1006,7 +1047,9 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+ 
+ 
+    
     <!-- footer section starts -->
 
     <footer class="footer">
@@ -1047,6 +1090,46 @@
     </footer>
     <!-- footer section ends -->
 
+
+    <!-- footer section starts -->
+
+    <footer class="footer">
+      <div class="row">
+        <!-- footer about section -->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h3 class="footer-heading">ZeroOctave</h3>
+          <hr class="footer-hr-1">
+          <p class = "footer-about" >ZeroOctave Javascript Projects provide some awesome web development projects to work upon and enhance your skills. The motive of this project is to help new learners like you to get familiar with web development skills.</p>
+        </div>
+        <!-- developers section -->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h3 class="footer-heading">Collaborations</h3>
+          <ul class="organisations">
+            <hr class="footer-hr-1">
+              <a href="https://hacktoberfest.digitalocean.com/" target="_blank"><li>Hacktoberfest 2021</li><hr class="footer-hr-2"></a>
+              <a href="https://icc-techsahead.netlify.app/" target="_blank"><li>ICC 2021</li><hr class="footer-hr-2"></a>
+              <a href="https://dwoc.io/" target="_blank"><li>DWOC 2021</li><hr class="footer-hr-2"></a>
+              <a href="https://gssoc.girlscript.tech/" target="_blank"><li>GSSOC 2022</li><hr class="footer-hr-2"></a>
+          </ul>
+        </div>
+          <!-- social media icons -->
+        <div class="col-lg-4 col-md-4 col-sm-12 icon">
+          <h3 class="footer-heading">Follow Us</h3>
+          <hr class="footer-hr-1">
+          <a href ="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"><i class="fa-brands fa-github fa-2x social-icon"></i></a><br>
+          <a href="https://twitter.com/zero_octave"><i class="fa-brands fa-twitter fa-2x social-icon"></i></a><br>
+          <a href="https://zerooctave.github.io/"><i class="fa-solid fa-globe fa-2x social-icon"></i></a><br>
+          <a href="ZeroOctave@protonmail.com"><i class="fa-solid fa-envelope fa-2x social-icon"></i></a><br>
+        </div>
+
+      </div>
+
+      <!-- copyright notice -->
+      <div class="copyright">
+        <p class="copyright-message">© Copyright 2021-2022.<br>All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- footer section ends -->
 
 </body>
 
