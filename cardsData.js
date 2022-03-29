@@ -40,7 +40,7 @@ const cardItems = [
             </div>
         </div>
         <!--End of auto write text column-->`,
-        `
+  `
          <!--This column is for Word Definition-->
         <div class="card">
             <!--Start of Word Definition-->
@@ -54,8 +54,7 @@ const cardItems = [
         <!--End of Word Definition-->
         `,
 
-
-        `<!--This column is for calculator-->
+  `<!--This column is for calculator-->
         <div class="card">
             <!--Start of Calculator-->
             <img class="card-img-top" src="assets/Images/calculator.jpg" alt="Card calculator">
@@ -67,8 +66,7 @@ const cardItems = [
         </div>
         <!--End of calculator-->`,
 
-
-       ` <!--This column is for color_flipper_1-->
+  ` <!--This column is for color_flipper_1-->
         <div class="card">
             <img class="card-img-top" src="assets/Images/color-flipper-1.jpg" alt="Card calculator">
             <div id=Color_flipper_1>
@@ -86,8 +84,7 @@ const cardItems = [
         </div>
         <!--End of color_flipper_1-->`,
 
-
-        `<!--This column is for color_flipper_2-->
+  `<!--This column is for color_flipper_2-->
         <div class="card">
             <img class="card-img-top" src="assets/Images/color-flipper-2.jpg" alt="Card calculator">
             <!--colorflipper-->
@@ -101,8 +98,7 @@ const cardItems = [
         </div>
         <!--End of color_flipper_2-->`,
 
-
-        `<!--This column is for digital_clock-->
+  `<!--This column is for digital_clock-->
         <div class="card">
             <img class="card-img-top" src="assets/Images/digital.jpg" alt="Card calculator">
             <div class="digitalclock">
@@ -117,8 +113,7 @@ const cardItems = [
         </div>
         <!--End of digital_clock-->`,
 
-
-        `<!--This column is for loginform-->
+  `<!--This column is for loginform-->
         <div class="card">
             <img class="card-img-top" src="assets/Images/login.jpg" alt="Card image cap">
             <div class="card-body" id="loginform">
@@ -129,21 +124,7 @@ const cardItems = [
         </div>
         <!--End of loginform-->`,
 
-
-        `<!--This column is for purple_hurt-->
-        <div class="card">
-            <img class="card-img-top" src="assets/Images/purple_heart.jpg">
-            <script src="assets/Js/purple_heart.js"></script>
-            <div class="card-body" id="purpleheart">
-                <h5 class="card-title">Purple Heart Animation</h5>
-                <p>Who doesn't want a heart floating for them !!</p>
-                <a href="Public/purple_heart.html" class="btn btn-outline-primary">Try now</a>
-            </div>
-        </div>
-        <!--End of purple_hurt-->`,
-
-
-        `<!--This column is for quiz-->
+  `<!--This column is for quiz-->
         <div class="card">
             <img class="card-img-top" src="assets/Images/quiz.jpg" alt="Card calculator">
             <!--Start of quiz-->
@@ -156,8 +137,22 @@ const cardItems = [
         </div>
         <!--End of quiz-->`,
 
+  `        <!-- This column is for purple_hurt-->
+        <div class="card">
+            <img class="card-img-top" src="assets/Images/purple_heart.jpg">
 
-       ` <!--This column is for tap_music-->
+            <!-- This script is causing hearts to flow from top in every page remove it if needed -->
+            <!-- <script src="assets/Js/purple_heart.js"></script> -->
+
+            <div class="card-body" id="purpleheart">
+                <h5 class="card-title">Purple Heart Animation</h5>
+                <p>Who doesn't want a heart floating for them !!</p>
+                <a href="Public/purple_heart.html" class="btn btn-outline-primary">Try now</a>
+            </div>
+        </div>
+        <!--End of purple_hurt -->`,
+        
+        ` <!--This column is for tap_music-->
         <div class="card">
             <img class="card-img-top" src="assets/Images/music.jpg" alt="Card image cap">
             <div class="card-body" id="music">
@@ -168,8 +163,7 @@ const cardItems = [
         </div>
         <!--End of tap_music-->`,
 
-
-        `<!--This column is for toast_notification-->
+  `<!--This column is for toast_notification-->
         <div class="card">
             <!--Start of notification-->
 
@@ -184,8 +178,7 @@ const cardItems = [
         </div>
         <!--End of toast_notification-->`,
 
-
-        `<!--This column is for speech_to_text_program-->
+  `<!--This column is for speech_to_text_program-->
         <div class="card">
             <!--start of speech_to_text_program-->
             <img class="card-img-top" src="assets/Images/speech.png">
@@ -198,8 +191,7 @@ const cardItems = [
         </div>
         <!--End of speech_to_text Program-->`,
 
-
-        `<!--This column is for weather_app-->
+  `<!--This column is for weather_app-->
         <div class="card">
             <img class="card-img-top" src="assets/Images/weather.jpg" alt="Card image cap">
             <main id="main"></main>
@@ -211,8 +203,7 @@ const cardItems = [
         </div>
         <!--End of weather_app-->`,
 
-
-        `<!--This column is for guess_color-->
+  `<!--This column is for guess_color-->
         <div class="card">
             <img class="card-img-top" src="assets/Images/guess_color.png" alt="Card image cap">
             <div class="card-body" id="guess_color">
@@ -224,9 +215,7 @@ const cardItems = [
         </div>
         <!--End of guess_color-->`,
 
-
-
-        `<!-- add new projects here inside a div with class card and inside that add image with class card-img-top and after that make a div with class card-body and write heading <h5> and <p> inside that div-->
+  `<!-- add new projects here inside a div with class card and inside that add image with class card-img-top and after that make a div with class card-body and write heading <h5> and <p> inside that div-->
 
         <!-- This is for typing test -->
         <div class="card">
@@ -240,7 +229,7 @@ const cardItems = [
         </div>
         <!-- end of speed typer -->`,
 
-        `<!-- This is for Caesar Cipher -->
+  `<!-- This is for Caesar Cipher -->
         <div class="card">
             <!-- Start of Caesar Cipher -->
             <img class="card-img-top" src="assets/Images/CaesarCipher.png" alt="Card Caesar-Cipher">
@@ -252,7 +241,7 @@ const cardItems = [
         </div>
         <!-- end of Caesar Cipher -->`,
 
-        `<!-- This is for restaurant website -->
+  `<!-- This is for restaurant website -->
         <div class="card">
             <!--Start of Restaurant Website-->
             <img class="card-img-top" src="assets/Images/restaurant.jpg" alt="Card restaurant">
@@ -264,7 +253,7 @@ const cardItems = [
         </div>
         <!-- end of Restaurant website -->`,
 
-        `<!-- This is for Rock Paper Scissor -->
+  `<!-- This is for Rock Paper Scissor -->
         <div class="card">
             <!--Start of Rock Paper Scissor-->
             <img class="card-img-top" src="assets/Images/i3.png" alt="Card restaurant">
@@ -275,7 +264,7 @@ const cardItems = [
             </div>
         </div>
         <!-- end of Rock Paper Scissor -->`,
-        `<!-- This is for Incrementinator 2.0-->
+  `<!-- This is for Incrementinator 2.0-->
         <div class="card">
             <!--Start of incrementinator 2.0-->
             <img class="card-img-top" src="assets/Images/incrementinator.png" alt="Card restaurant">
@@ -286,7 +275,7 @@ const cardItems = [
             </div>
         </div>
         <!-- end of incrementinator 2.0 -->`,
-        `<!--This column is for accordion-->
+  `<!--This column is for accordion-->
         <div class="card card1">
 
             <img class="card-img-top" src="assets/Images/accordion.png" alt="Quotes">
@@ -297,7 +286,7 @@ const cardItems = [
             </div>
         </div>
         <!--End of accordion column-->`,
-       ` <!--This column is for aipanart-->
+  ` <!--This column is for aipanart-->
         <div class="card card1">
 
             <img class="card-img-top" src="assets/Images/aipanart.png" alt="Art">
@@ -308,7 +297,7 @@ const cardItems = [
             </div>
         </div>
         <!--End of aipanart column-->`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/autoimageslider.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Auto image slider</h5>
@@ -316,7 +305,7 @@ const cardItems = [
                 <a href="Public/auto_image_slider.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="./assets/Images/BMI_Calculator_image_landing_page.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">BMI Calculator</h5>
@@ -324,7 +313,7 @@ const cardItems = [
                 <a href="Public/bmi-calculator.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/countdownclock.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Count Down Timer</h5>
@@ -332,7 +321,7 @@ const cardItems = [
                 <a href="Public/countdown-timer.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/counter.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Counter</h5>
@@ -340,7 +329,7 @@ const cardItems = [
                 <a href="Public/counter.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/drumkit.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Drum kit</h5>
@@ -348,7 +337,7 @@ const cardItems = [
                 <a href="Public/drum_kit.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-       ` <div class="card card1">
+  ` <div class="card card1">
             <img class="card-img-top" src="assets/Images/foodwebsite.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Food Recepie center</h5>
@@ -356,7 +345,7 @@ const cardItems = [
                 <a href="Public/food_website.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/heightconverter.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Height Converter</h5>
@@ -364,7 +353,7 @@ const cardItems = [
                 <a href="Public/height-converter.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/hulu.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Hulu</h5>
@@ -372,7 +361,7 @@ const cardItems = [
                 <a href="Public/hulu.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/imageeditor.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Image Editor</h5>
@@ -380,7 +369,7 @@ const cardItems = [
                 <a href="Public/image_editor.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-       `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/loancalculator.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Loan calculator</h5>
@@ -388,7 +377,7 @@ const cardItems = [
                 <a href="Public/loan-calculator.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/mathformule.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Maths Formulae website</h5>
@@ -396,7 +385,7 @@ const cardItems = [
                 <a href="Public/maths-formulae.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/modalwindow.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Modal window generator</h5>
@@ -404,7 +393,7 @@ const cardItems = [
                 <a href="Public/Modal.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/ngo.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">An NGo Website</h5>
@@ -412,7 +401,7 @@ const cardItems = [
                 <a href="Public/NGO.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/noteapp.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Note app</h5>
@@ -420,7 +409,7 @@ const cardItems = [
                 <a href="Public/noteapp.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/popup.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Popup</h5>
@@ -428,7 +417,7 @@ const cardItems = [
                 <a href="Public/popup.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/randomcolorgenerator.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Random Color Generator</h5>
@@ -436,7 +425,7 @@ const cardItems = [
                 <a href="Public/random_color_generator.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/responsivenavbar.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Responsive Navigation Bar</h5>
@@ -444,7 +433,7 @@ const cardItems = [
                 <a href="Public/responsive_nav.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/resumebuilder.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Resume Builder</h5>
@@ -452,7 +441,7 @@ const cardItems = [
                 <a href="Public/resume_builder.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/rolldice.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Dice Game</h5>
@@ -460,7 +449,7 @@ const cardItems = [
                 <a href="Public/dice_game.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/speed.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Speed typing</h5>
@@ -468,7 +457,7 @@ const cardItems = [
                 <a href="Public/speed.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/spotifyclone.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Spotify clone</h5>
@@ -476,7 +465,7 @@ const cardItems = [
                 <a href="Public/spotify-clone.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/stonepaperscissor.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Stone Paper Scissors</h5>
@@ -484,7 +473,7 @@ const cardItems = [
                 <a href="Public/stone_paper_scissors.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/tipcalculator.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Tip Calculator</h5>
@@ -492,7 +481,7 @@ const cardItems = [
                 <a href="Public/tip_calculator.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/3dsolarsystem.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">3D Solar System</h5>
@@ -500,7 +489,7 @@ const cardItems = [
                 <a href="Public/solar.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/primeCalc.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Prime Factor Calculator</h5>
@@ -508,7 +497,7 @@ const cardItems = [
                 <a href="Public/primeCalc.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/magicnote.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Magic Note</h5>
@@ -516,7 +505,7 @@ const cardItems = [
                 <a href="Public/todo.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/weather.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Weather Calculator</h5>
@@ -524,7 +513,7 @@ const cardItems = [
                 <a href="Public/weather_app.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/weightconverter.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Weight Converter</h5>
@@ -532,7 +521,7 @@ const cardItems = [
                 <a href="Public/weight_conv.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<div class="card card1">
+  `<div class="card card1">
             <img class="card-img-top" src="assets/Images/wordcountcalculator.png" alt="Art">
             <div class="card-body">
                 <h5 class="card-title">Word Count Calculator</h5>
@@ -540,7 +529,7 @@ const cardItems = [
                 <a href="Public/word-count-calculator.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
-        `<!--This div is for crypto-app website-->
+  `<!--This div is for crypto-app website-->
         <div class="card card1">
             <img class="card-img-top" src="assets/Images/crypto.jpg" alt="Library">
             <div class="card-body">
@@ -551,7 +540,7 @@ const cardItems = [
         </div>
         <!--End of crypto-app website-->`,
 
-        `<!--This div is for scientific calculator website-->
+  `<!--This div is for scientific calculator website-->
         <div class="card card1">
             <img class="card-img-top" src="assets/Images/scientific_calculator.png" alt="scientific_calculator">
             <div class="card-body">
@@ -562,7 +551,7 @@ const cardItems = [
         </div>
         <!--End of scientific calculator website-->`,
 
-        `<!--This div is for GitHub Profiles website-->
+  `<!--This div is for GitHub Profiles website-->
         <div class="card card1">
             <img class="card-img-top" src="assets/Images/GitHub-Profiles.jpeg" alt="GitHub-Profiles">
             <div class="card-body">
@@ -573,7 +562,7 @@ const cardItems = [
         </div>
         <!--End of GitHub Profiles website-->`,
 
-        `<!--This div is for Library website-->
+  `<!--This div is for Library website-->
         <div class="card card1">
             <img class="card-img-top" src="assets/Images/booksLibrary.png" alt="Library">
             <div class="card-body">
@@ -584,7 +573,7 @@ const cardItems = [
         </div>
         <!--End of Library website-->`,
 
-        `<!-- This is for Guess the Number -->
+  `<!-- This is for Guess the Number -->
         <div class="card card1">
             <!--Start of Guess the Number-->
             <img class="card-img-top" src="assets/Images/guess-the-number.png" alt="guess-the-number">
@@ -596,7 +585,7 @@ const cardItems = [
         </div>
         <!-- end of guess the number -->`,
 
-        `<!-- This is for Simon Game -->
+  `<!-- This is for Simon Game -->
         <div class="card card1">
             <!--Start of Simon Game-->
             <img class="card-img-top" src="assets/Images/simon_game.png" alt="simon_game">
@@ -608,7 +597,7 @@ const cardItems = [
         </div>
         <!-- end of Simon Game -->`,
 
-        `<!--This is for Pong Game -->
+  `<!--This is for Pong Game -->
         <div class="card card1">
             <!--Start of Simon Game-->
             <img class="card-img-top" src="assets/Images/Pong-Game.PNG" alt="pong_game">
@@ -620,7 +609,7 @@ const cardItems = [
         </div>
         <!--End of Pong Game-->`,
 
-        `<!--This is for Dictionary App-->
+  `<!--This is for Dictionary App-->
         <div class="card card1">
             <!--Start of Simon Game-->
             <img class="card-img-top" src="assets/Images/Dictionary.PNG" alt="dictionary">
@@ -632,7 +621,7 @@ const cardItems = [
         </div>
         <!--End of Dictionary App-->`,
 
-        `<!--This is for Custom Ice Cream Make-->
+  `<!--This is for Custom Ice Cream Make-->
         <div class="card card1">
             <!--Start of Simon Game-->
             <img class="card-img-top" src="assets/Images/Ice-Cream.PNG" alt="dictionary">
@@ -644,7 +633,7 @@ const cardItems = [
         </div>
         <!--End of Ice Cream Maker-->`,
 
-        `<!--This is for Sneaker Site-->
+  `<!--This is for Sneaker Site-->
         <div class="card card1">
             <!--Start of Sneaker Site-->
             <img class="card-img-top" src="assets/Images/Nike1.PNG" alt="sneaker">
@@ -656,7 +645,7 @@ const cardItems = [
         </div>
         <!--End of Sneaker Site-->`,
 
-        `<!--This is for crud project-->
+  `<!--This is for crud project-->
         <div class="card card1">
             <img class="card-img-top" src="assets/Images/Crud.png" alt="Table">
             <div class="card-body">
@@ -667,7 +656,7 @@ const cardItems = [
         </div>
         <!--End of crud project-->`,
 
-        `<!--This is for Currency Converter-->
+  `<!--This is for Currency Converter-->
         <div class="card card1">
             <!--Start of Currency Converter-->
             <img class="card-img-top" src="assets/Images/Currency-converter.PNG" alt="converter">
@@ -679,7 +668,7 @@ const cardItems = [
         </div>
         <!--End of Currency Converter-->`,
 
-        `<!--This is for Hangman Project-->
+  `<!--This is for Hangman Project-->
         <div class="card card1">
             <!--Start of Currency Converter-->
             <img class="card-img-top" src="./assets/Images/Web view.PNG" alt="converter">
@@ -691,8 +680,7 @@ const cardItems = [
         </div>
         <!--End of Hangman Project-->`,
 
-        
-        `<!--This is for To-Do List-->
+  `<!--This is for To-Do List-->
         <div class="card card1">
             <!--Start of To-Do list-->
             <img class="card-img-top" src="./assets/Images/to-do-img.png" alt="TO-DO list">
@@ -704,7 +692,7 @@ const cardItems = [
         </div>
         <!--End of To-Do-->`,
 
-        `<!--This is for multiple pages portfolio-->
+  `<!--This is for multiple pages portfolio-->
       
         <div class="card card1">
             <!--Start of multiple pages portfolio-->
@@ -717,9 +705,7 @@ const cardItems = [
         </div>
         <!--End of multiple pages portfolio-->`,
 
-
-
-        `<!--This div is for Transpose-Matrix Calculator website-->
+  `<!--This div is for Transpose-Matrix Calculator website-->
         <div class="card card1">
             <img class="card-img-top" src="assets/Images/TransposeMatrixCalculator.png" alt="Transpose-Matrix Calculator">
             <div class="card-body">
@@ -730,8 +716,7 @@ const cardItems = [
         </div>
         <!--End of Transpose-Matrix Calculator website-->`,
 
-
-        `<!--This div is for password generator website-->
+  `<!--This div is for password generator website-->
         <div class="card card1">
             <img class="card-img-top" src="assets/Images/password generator.png" alt="password generator">
             <div class="card-body">
@@ -741,7 +726,7 @@ const cardItems = [
             </div>
         </div>
         <!--End of password generator website-->`,
-         `<!--This div is for Memory game-->
+  `<!--This div is for Memory game-->
          <div class="card card1">
             <img class="card-img-top" src="assets/Images/memory/memoryimg.jpeg" alt="memory game">
             <div class="card-body">
@@ -752,7 +737,7 @@ const cardItems = [
         </div>
         <!--End of memory game-->`,
 
-        `<!-- This is for RD return calculator project -->
+  `<!-- This is for RD return calculator project -->
         <div class="card card1">
             <img class="card-img-top" src="./assets/Images/RD-return-calculator.png" alt="RD-return-calculator">
             <div class="card-body">
@@ -762,8 +747,8 @@ const cardItems = [
             </div>
         </div>
         <!-- End of RD return calculator -->`,
-        
-        `<!-- This div is for Meditation feature -->
+
+  `<!-- This div is for Meditation feature -->
         <div class="card card1">
             <img class="card-img-top" src="./assets/Images/meditation/Image.jpg" alt="Meditation feature">
             <div class="card-body">
@@ -773,9 +758,8 @@ const cardItems = [
             </div>
         </div>
         <!--End of Meditation feature -->`,
-    
 
-        `<!-- Function Grapher Card -->
+  `<!-- Function Grapher Card -->
         <div class="card card1">
             <img class="card-img-top" src="https://user-images.githubusercontent.com/64689436/160159074-af2519ff-d060-4d99-95a1-e3bcd535ae82.png" alt="Function-Grapher">
             <div class="card-body">
@@ -785,9 +769,8 @@ const cardItems = [
             </div>
         </div>
         <!-- Function Grapher Card -->`,
-      
-      
-      `<!-- Third Degree Equation Solver -->
+
+  `<!-- Third Degree Equation Solver -->
         <div class="card card1">
             <img class="card-img-top" src="https://user-images.githubusercontent.com/64689436/159751342-cd4e002d-479f-47b2-be8e-b24a58177409.png" alt="Third Degree Equation Solver">
             <div class="card-body">
@@ -798,8 +781,7 @@ const cardItems = [
         </div>
         <!-- Third Degree Equation Solver -->`,
 
-      
-        `<!--This div is for Speech Synthesis-->
+  `<!--This div is for Speech Synthesis-->
   <div class="card card1">
     <img class="card-img-top" src="assets/Images/speechsynthesis.png" alt="speech_synthesis">
    <div class="card-body">
@@ -810,7 +792,7 @@ const cardItems = [
   </div>
   <!--End of Speech Synthesis-->`,
 
-   `<!--This div is for Key Detector-->
+  `<!--This div is for Key Detector-->
     <div class="card card1">
         <img class="card-img-top" src="assets/Images/key_Detector.png" alt="speech_synthesis">
        <div class="card-body">
@@ -819,6 +801,5 @@ const cardItems = [
           <a href="Public/key_Detector.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
         </div>
       </div>
-      <!--End of Key Detector-->`
-
+      <!--End of Key Detector-->`,
 ]

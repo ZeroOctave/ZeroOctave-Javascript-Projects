@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
+   <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -216,19 +216,22 @@
         </script>
 
 
-<div class="loading">
-	<div class="ball"></div>
-	<div class="ball"></div>
-	<div class="ball"></div>
-</div>
 
-     
+       
+
 
      
 
 
        
     </div>
+
+<div class="loading show">
+	<div class="ball"></div>
+	<div class="ball"></div>
+	<div class="ball"></div>
+</div>
+
      <script>
          var noOfCardsToLoad=10;
 var cardLoadedYet=0;
@@ -239,11 +242,14 @@ var cardLoadedYet=0;
 	const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
 	
 	console.log( { scrollTop, scrollHeight, clientHeight });
-	
-	if(clientHeight + scrollTop >= scrollHeight - 5) {
+
+	var footerHeight = document.getElementsByClassName('footer')[0].offsetHeight;
+  console.log(footerHeight)
+
+	if(clientHeight + scrollTop >= scrollHeight - footerHeight && cardLoadedYet<cardItems.length) {
 		// show the loading animation
-        
-		showLoading();
+        // setTimeout(showLoading,1000);
+		showLoading()
 	}
 });
 
@@ -252,7 +258,7 @@ function showLoading() {
 	
 	// load more data
     showNextItems();
-	// setTimeout(showNextItems, 1000)
+	setTimeout(showNextItems, 1000)
 }
 
 
@@ -264,7 +270,8 @@ function showNextItems()
  
     console.log(cardItems.length,cardLoadedYet)
     let temp=cardLoadedYet
-    for(;cardLoadedYet<=noOfCardsToLoad+temp;cardLoadedYet++)
+
+    for(;cardLoadedYet<=(noOfCardsToLoad+temp<cardItems.length?noOfCardsToLoad+temp:cardItems.length-1);cardLoadedYet++)
     {
        
         console.log(cardItems[cardLoadedYet])
@@ -272,13 +279,11 @@ function showNextItems()
     }
 	
 	
-	
+	if(cardLoadedYet>=cardItems.length)
 	loading.classList.remove('show');
 }
       </script>
     <!-- Optional JavaScript -->
-
-
 
 </div> 
   <!-- Optional JavaScript -->
