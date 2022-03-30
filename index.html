@@ -233,6 +233,7 @@
   <script>
     var noOfCardsToLoad = 10;
     var cardLoadedYet = 0;
+    var loadingBalls=false
     const loading = document.querySelector('.loading');
     console.log(cardItems[0])
     showLoading();
@@ -253,10 +254,14 @@
 
     function showLoading() {
       loading.classList.add('show');
-
       // load more data
-      showNextItems();
-      setTimeout(showNextItems, 1000)
+      // showNextItems();
+      if(loadingBalls==false)
+      {
+        loadingBalls=true;
+        setTimeout(showNextItems, 1000)
+
+      }
 
 
     }
@@ -264,6 +269,7 @@
 
 
     function showNextItems() {
+     
       console.log('show next items')
       const container = document.getElementsByClassName('container')[0];
 
@@ -279,6 +285,8 @@
 
       if (cardLoadedYet >= cardItems.length)
         loading.classList.remove('show');
+
+        loadingBalls=false;
     }
   </script>
   <!-- Optional JavaScript -->
