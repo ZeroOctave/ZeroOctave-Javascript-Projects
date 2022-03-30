@@ -1,0 +1,138 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI" !important;
+}
+li > a {
+  font-size: 13px !important;
+}
+.hero {
+  width: 100vw;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./assets/header.jpg);
+  background-color: #e6e6e6;
+}
+.hero-text > p {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.hero-text > h1 {
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 600;
+}
+.hero-text > button {
+  font-size: 15px;
+  font-weight: 600;
+}
+.features {
+  margin: 0px 350px;
+}
+@media (max-width: 576px) {
+  .hero {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./assets/hero-sm.png);
+  }
+  .hero-text {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .features {
+    margin: 0px;
+  }
+  .features-item {
+    display: flex;
+    margin-top: 0px !important;
+  }
+  .features-item > img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    justify-content: center;
+    align-self: center;
+  }
+  .features-item > h5 {
+    vertical-align: middle;
+    margin-top: 8px;
+  }
+}
+#banner {
+  background-image: url(./assets/banner.png) !important;
+}
+h5 {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.card-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.card-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.list-unstyled > li {
+  padding-top: 8px;
+}
+.list-unstyled > li > a {
+  color: #616161 !important;
+  font-size: 11px !important;
+  line-height: 16px !important;
+}
+
+.footer-heading {
+  padding: 36px 0 4px !important;
+  margin-bottom: 0px !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  line-height: 20px !important;
+  color: #616161 !important;
+}
+.footer-14398 {
+  background-color: #f2f2f2;
+}
+.copyright-text {
+  font-size: 11px;
+  line-height: 16px;
+  color: #616161 !important;
+}
+.card-mslink {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: #0067b8;
+  transition: ease-in-out 0.1s;
+  border-bottom: 3px solid transparent;
+}
+.card-mslink:hover {
+  border-bottom: 3px solid #0067b8;
+  margin: 10px 0px;
+}
+.card-mslink0 {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000;
+  transition: ease-in-out 0.1s;
+  border-bottom: 3px solid #e6e6e6;
+}
+.card-mslink0:hover {
+  border-bottom: 3px solid #000;
+  margin: 10px 0px;
+  color: #000;
+}
