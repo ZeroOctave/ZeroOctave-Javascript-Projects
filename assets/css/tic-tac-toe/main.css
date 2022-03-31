@@ -1,0 +1,33 @@
+.box .col-md-6{
+    padding: 0;
+}
+table{
+    width: 100%;
+    border: 2px solid rgb(150, 93, 93);
+}
+table input{
+    text-align: center;
+    width: 100%;
+    height: 170px;
+    font-size: 30px;
+}
+.box{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.st-btn{
+    background-color: rgb(150, 93, 93);
+    font-size: 25px;
+    width: 160px;
+    padding: 15px;
+    border: 2px solid rgb(150, 93, 93);
+    border-radius: 20px;
+}
+.st-btn:hover{
+    background-color: rgb(236, 205, 205);
+}
+.item{
+    height: 100px;
+}

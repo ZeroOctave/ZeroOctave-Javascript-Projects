@@ -802,4 +802,17 @@ const cardItems = [
         </div>
       </div>
       <!--End of Key Detector-->`,
+
+    `<!-- This is for tic-tac-toe game -->
+        <div class="card">
+            <!--Start of tic-tac-toe game-->
+            <img class="card-img-top" src="assets/Images/tic-tac-toe.png" alt="tic-tac-toe game">
+            <div class="card-body">
+                <h5 class="card-title">Tic Tac Toe</h5>
+                <p>Play the classic Tic-Tac-Toe game</p>
+                <a href="Public/tic-tac-toe.html" class="btn btn-outline-primary">Try now</a>
+            </div>
+        </div>
+     <!-- end of tic-tac-toe game -->`,
+    
 ]
