@@ -200,3 +200,52 @@ li:hover {
   cursor: pointer;
 }
 
+
+/* Loading css */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600&display=swap');
+
+
+.loading {
+	opacity: 0;
+	display: flex;
+  justify-content:center;
+  width:100%;
+	/* position: fixed; */
+	/* bottom: 50px; */
+	/* left: 50%; */
+	/* transform: translateX(-50%); */
+	transition: opacity .3s ease-in;
+  margin:10px;
+  margin-bottom:20px;
+}
+
+.loading.show {
+	opacity: 1;
+}
+
+.ball {
+	background-color: #777;
+	border-radius: 50%;
+	margin: 5px;
+	height: 10px;
+	width: 10px;
+	animation: jump .5s ease-in infinite;
+}
+
+.ball:nth-of-type(2) {
+	animation-delay: 0.1s;
+}
+
+.ball:nth-of-type(3) {
+	animation-delay: 0.2s;
+}
+
+@keyframes jump {
+	0%, 100% {
+		transform: translateY(0);
+	}
+	
+	50% {
+		transform: translateY(-10px);
+	}
+}
