@@ -814,5 +814,16 @@ const cardItems = [
             </div>
         </div>
      <!-- end of tic-tac-toe game -->`,
+  
+     `<!--This div is for  QR_Code_Generator-->
+         <div class="card card1">
+            <img class="card-img-top" src="assets/Images/QR_Code_Generator.png" alt="QR_Code_Generator">
+            <div class="card-body">
+                <h5 class="card-title">QR Code Generator</h5>
+                <p>Shows which key one has pressed on the keyboard.</p>
+                <a href="Public/QR_Code_Generator.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+            </div>
+        </div>
+        <!--End of  QR_Code_Generator-->`,
     
 ]
