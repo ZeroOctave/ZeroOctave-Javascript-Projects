@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../assets/css/tic-tac-toe/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/tic-tac-toe/main.css">
+    </head>
+    <body>
+        <div class="container box">
+            <div class="row w-100 justify-content-center">
+                <div class="col-md-9">
+                    <div class="item d-flex justify-content-center align-items-center">
+                        <button class="st-btn" onclick="start()">Start</button>
+                    </div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><input oninput="setTimeout(getData,1000);setTimeout(gameOver,1300)" id="_1" placeholder="x/o" type="text"></td>
+                                <td><input oninput="setTimeout(getData,1000);setTimeout(gameOver,1300)" id="_2" placeholder="x/o" type="text"></td>
+                                <td><input oninput="setTimeout(getData,1000);setTimeout(gameOver,1300)" id="_3" placeholder="x/o" type="text"></td>
+                            </tr>
+                            <tr>
+                                <td><input oninput="setTimeout(getData,1000);setTimeout(gameOver,1300)" id="_4" placeholder="x/o" type="text"></td>
+                                <td><input oninput="setTimeout(getData,1000);setTimeout(gameOver,1300)" id="_5" placeholder="x/o" type="text"></td>
+                                <td><input oninput="setTimeout(getData,1000);setTimeout(gameOver,1300)" id="_6" placeholder="x/o" type="text"></td>
+                            </tr>
+                            <tr>
+                                <td><input oninput="setTimeout(getData,1000);setTimeout(gameOver,1300)" id="_7" placeholder="x/o" type="text"></td>
+                                <td><input oninput="setTimeout(getData,1000);setTimeout(gameOver,1300)" id="_8" placeholder="x/o" type="text"></td>
+                                <td><input oninput="setTimeout(getData,1000);setTimeout(gameOver,1300)" id="_9" placeholder="x/o" type="text"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="../assets/Js/tic-tac-toe/jquery-3.5.1.slim.min.js"></script>
+        <script src="../assets/Js/tic-tac-toe/popper.min.js"></script>
+        <script src="../assets/Js/tic-tac-toe/bootstrap.min.js"></script>
+        <script src="../assets/Js/tic-tac-toe/main.js"></script>
+    </body>
+</html>
