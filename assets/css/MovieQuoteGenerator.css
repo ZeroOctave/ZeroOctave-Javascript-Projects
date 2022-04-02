@@ -50,8 +50,55 @@ body {
     width: 600px;
     background-color: rgba(255, 255, 255, 0.3);
     margin: 10px;
+    overflow-y: scroll;
 }
 
+@media only screen and (max-width: 480px) {
+    .container{
+        display: block;
+        width: 70%;
+        height: 50%;
+        overflow-y: scroll;
+        text-overflow: ellipsis;
+    }
+    
+    .buttons{
+        width: 30%;
+        height: 40%;
+        margin-top: 4px;
+    }
+    
+    #quote{
+        font-size: 20px;
+    }
+    
+    #author{
+        font-size: 5px;
+    }
+    
+    #source{
+        font-size: 12px;
+    }
+    
+    #tweet{
+        font-size: 0.9em;
+        width: 50%;
+        height: 50%;
+        line-height: 20px;
+    }
+    
+    #whatsapp{
+        font-size: 0.9em;
+        width: 50%;
+        height: 50%;
+        line-height: 20px;
+    }
+    
+    #header{
+        font-size: 25px;
+        padding: 50px;
+    }
+}
 
 .buttons {
     width: 100%;
