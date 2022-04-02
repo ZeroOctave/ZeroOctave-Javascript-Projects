@@ -209,20 +209,6 @@
           window.open("./Public/tic-tac-toe.html");
       }
     </script>
-    <button id="back-to-top">
-      <i class="material-icons">arrow_upward</i>
-    </button>
-    <script>
-      const btnScrollToTop = document.querySelector("#back-to-top");
-      btnScrollToTop.addEventListener("click", function () {
-        window.scrollTo({
-          top: 0,
-          left: 0,
-          behavior: "smooth",
-        })
-
-      });
-    </script>
 
   </div>
 
@@ -366,7 +352,25 @@
         <!--End of Sticky Notes application-->
 
     </div>
-
+	<!--Back to top button-->
+    <a href = "#top">
+      <button id="back-to-top">
+      <i class="material-icons">arrow_upward</i>
+      </button>
+      </a>
+      <script>
+        const btnScrollToTop = document.querySelector("#back-to-top");
+        btnScrollToTop.addEventListener("click", function () {
+          window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+          })
+  
+        });
+      </script>
+	  
+	  
     <!-- copyright notice -->
     <div class="copyright">
       <p class="copyright-message">© Copyright 2021-2022.<br>All rights reserved.</p>
