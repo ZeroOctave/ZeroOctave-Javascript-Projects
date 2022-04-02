@@ -8,7 +8,7 @@ function count_character(val){
   return val.length;
 }
 function count_alphabets(val){
-  let remText = val.replace(/ /g, "")
+  let remText = val.replace(/ /g, "");
   let l = remText.length;
   return l;
 }
