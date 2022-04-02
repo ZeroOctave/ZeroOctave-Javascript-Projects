@@ -803,6 +803,18 @@ const cardItems = [
       </div>
       <!--End of Key Detector-->`,
 
+      `<!-- This is Drink-Water -->
+      <div class="card">
+          <!--Start of Drink-Water-->
+          <img class="card-img-top" src="assets/Images/Drink-Water.png" alt="Drink-Water">
+          <div class="card-body">
+              <h5 class="card-title">Drink-Water</h5>
+              <p>how many glasses of water that you have drank</p>
+              <a href="Public/Drink-Water.html" class="btn btn-outline-primary">Try now</a>
+          </div>
+      </div>
+   <!-- end of Drink-Water -->`,
+
     `<!-- This is for tic-tac-toe game -->
         <div class="card">
             <!--Start of tic-tac-toe game-->
