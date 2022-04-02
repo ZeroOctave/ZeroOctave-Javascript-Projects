@@ -758,6 +758,17 @@ const cardItems = [
             </div>
         </div>
         <!--End of Meditation feature -->`,
+  
+ `<!-- This div is for Movie/TV Series Quote Generator -->
+        <div class="card card1">
+            <img class="card-img-top" src="./assets/Images/MovieQuoteGenerator.png" alt="Movie/TV Series Quote Generator">
+            <div class="card-body">
+              <h5 class="card-title">Movie/TV Series Quote Generator</h5>
+              <p>Generates Random Quote from a Random Shows and Movies</p>
+              <a href="./Public/MovieQuoteGenerator.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+            </div>
+        </div>
+        <!--End of Movie/TV Series Quote Generator -->`,
 
   `<!-- Function Grapher Card -->
         <div class="card card1">
