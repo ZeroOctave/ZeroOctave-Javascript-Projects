@@ -792,6 +792,17 @@ const cardItems = [
   </div>
   <!--End of Speech Synthesis-->`,
 
+  `<!--This div is for Color-Changing-App-->
+  <div class="card card1">
+    <img class="card-img-top" src="assets/Images/color-changing-app.png" alt="color-changing-app">
+   <div class="card-body">
+      <h5 class="card-title">Color Changing App</h5>
+      <p>Change Colors on clicking 'Click Me' button.</p>
+      <a href="Public/Color-Changing-App.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+    </div>
+  </div>
+  <!--End of Color-Changing-App-->`,
+
   `<!--This div is for Key Detector-->
     <div class="card card1">
         <img class="card-img-top" src="assets/Images/key_Detector.png" alt="speech_synthesis">
