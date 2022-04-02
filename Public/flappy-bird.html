@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy bird</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <canvas id="canvas"></canvas>
+
+    <!-- Welcome Modal -->
+    <div class="modal fade" id="welcome-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Welcome to the classic Flappy Bird 🐣</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Avoid running into obstacles by pressing <strong>UpArrow</strong> or <strong>Space</strong> key.
+                        Try God mode with insane difficulty to see some magic happen🧙‍♀️
+                    </p>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="god-mode-checkbox">
+                        <label class="form-check-label" for="god-mode-checkbox">God Mode</label>
+                    </div><br>
+
+                    <div>
+                        <p>Select difficulty</p>
+                        <input type="radio" class="btn-check" name="difficulty" id="difficulty-noob" checked autocomplete="off">
+                        <label class="btn btn-outline-success" for="difficulty-noob">Noob</label>
+                        <input type="radio" class="btn-check" name="difficulty" id="difficulty-advanced" autocomplete="off">
+                        <label class="btn btn-outline-warning" for="difficulty-advanced">Advanced</label>
+                        <input type="radio" class="btn-check" name="difficulty" id="difficulty-insane" autocomplete="off">
+                        <label class="btn btn-outline-danger" for="difficulty-insane">Insane</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onClick="start()">I'm
+                        ready</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Won Modal -->
+    <div class="modal fade" id="won-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">👯‍♂️🎉👯‍♂️</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Congratulations, You won!
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="refresh()">Back to menu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Lost Modal -->
+    <div class="modal fade" id="lost-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">RIP💀☠⚰</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Better luck next time
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="refresh()">Back to menu</button>
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal" onclick="restart()">Restart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="../assets/Js/flappy-bird.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        canvas {
+            background-color: #2b2636;
+        }
+    </style>
+
+</body>
+
+</html>
