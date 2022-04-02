@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comfortaa&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
 *{
     padding: 0; margin: 0;
 }
