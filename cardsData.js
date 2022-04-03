@@ -836,5 +836,27 @@ const cardItems = [
             </div>
         </div>
      <!-- end of tic-tac-toe game -->`,
+     
+     `<!--This div is for Sticky Notes application-->
+     <div class="card card1">
+         <img class="card-img-top" src="assets/Images/sticky_notes.png" alt="Sticky Notes">
+         <div class="card-body">
+             <h5 class="card-title">Sticky Notes</h5>
+             <p>Create your own sticky notes. Yes, you may throw all of those paper sticky notes away now!</p>
+             <a href="Public/sticky_notes.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+         </div>
+     </div>
+     <!--End of Sticky Notes application-->`,
+
+     `<!--This div is for Stopwatch application-->
+     <div class="card card1">
+         <img class="card-img-top" src="assets/Images/stopwatch.png" alt="Stopwatch">
+         <div class="card-body">
+             <h5 class="card-title">Stopwatch</h5>
+             <p>An Ultra-simple Stopwatch Application!</p>
+             <a href="Public/stopwatch.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+         </div>
+     </div>
+     <!--End of Stopwatch application-->`
     
 ]
