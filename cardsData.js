@@ -836,5 +836,16 @@ const cardItems = [
             </div>
         </div>
      <!-- end of tic-tac-toe game -->`,
-    
+
+   `<!--This div is for Microsoft Clone-->
+  <div class="card card1">
+    <img class="card-img-top" src="assets/Images/microsoft.png" alt="microsoft">
+   <div class="card-body">
+      <h5 class="card-title">Microsoft Clone</h5>
+      <p>It is a basic microsoft clone.</p>
+      <a href="./Public/microsoftclone.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+    </div>
+  </div>
+  <!--End of Microsoft clone-->`,
+
 ]
