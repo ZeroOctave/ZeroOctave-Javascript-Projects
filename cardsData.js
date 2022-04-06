@@ -758,6 +758,17 @@ const cardItems = [
             </div>
         </div>
         <!--End of Meditation feature -->`,
+  
+ `<!-- This div is for Movie/TV Series Quote Generator -->
+        <div class="card card1">
+            <img class="card-img-top" src="./assets/Images/MovieQuoteGenerator.png" alt="Movie/TV Series Quote Generator">
+            <div class="card-body">
+              <h5 class="card-title">Movie/TV Series Quote Generator</h5>
+              <p>Generates Random Quote from a Random Shows and Movies</p>
+              <a href="./Public/MovieQuoteGenerator.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+            </div>
+        </div>
+        <!--End of Movie/TV Series Quote Generator -->`,
 
   `<!-- Function Grapher Card -->
         <div class="card card1">
@@ -792,6 +803,17 @@ const cardItems = [
   </div>
   <!--End of Speech Synthesis-->`,
 
+  `<!--This div is for Color-Changing-App-->
+  <div class="card card1">
+    <img class="card-img-top" src="assets/Images/color-changing-app.png" alt="color-changing-app">
+   <div class="card-body">
+      <h5 class="card-title">Color Changing App</h5>
+      <p>Change Colors on clicking 'Click Me' button.</p>
+      <a href="Public/Color-Changing-App.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+    </div>
+  </div>
+  <!--End of Color-Changing-App-->`,
+
   `<!--This div is for Key Detector-->
     <div class="card card1">
         <img class="card-img-top" src="assets/Images/key_Detector.png" alt="speech_synthesis">
@@ -802,4 +824,17 @@ const cardItems = [
         </div>
       </div>
       <!--End of Key Detector-->`,
+
+    `<!-- This is for tic-tac-toe game -->
+        <div class="card">
+            <!--Start of tic-tac-toe game-->
+            <img class="card-img-top" src="assets/Images/tic-tac-toe.png" alt="tic-tac-toe game">
+            <div class="card-body">
+                <h5 class="card-title">Tic Tac Toe</h5>
+                <p>Play the classic Tic-Tac-Toe game</p>
+                <a href="Public/tic-tac-toe.html" class="btn btn-outline-primary">Try now</a>
+            </div>
+        </div>
+     <!-- end of tic-tac-toe game -->`,
+    
 ]

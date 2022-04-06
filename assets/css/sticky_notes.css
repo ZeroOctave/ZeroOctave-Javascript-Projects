@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #FFE1AF;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.5rem;
+}
+
+h2 {
+    color:saddlebrown;
+    user-select: none;
+}
+
+.main-container {
+    width: 95%;
+    margin: auto;
+}
+
+.container1 {
+    margin-top: 10px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-msg-container {
+    margin: 10px;
+    width: 280px;
+    padding: 0 5px 0 10px;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    user-select: none;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.container3 {
+    display: none;
+    position: absolute;
+    top: 26%;
+    left: 30%;
+}
+
+textarea {
+    box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.6);
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 275px;
+    padding: 40px 25px 25px 25px;
+}
+
+#check-icon {
+    color: gray;
+    cursor: pointer;
+    position: absolute;
+    right: 16%;
+    top: 4%;
+}
+
+#x-icon {
+    color: gray;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    top: 4%;
+}
+
+#check-icon:hover {
+    color: limegreen;
+}
+
+#x-icon:hover {
+    color: red;
+}
+
+@media(max-width:480px)
+{
+    .container3 {
+        position: absolute;
+        top: 26%;
+        left: 7%;
+    }
+
+    textarea {
+        width: 250px;
+        height: 250px;
+    }
+}
