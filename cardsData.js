@@ -837,6 +837,18 @@ const cardItems = [
         </div>
      <!-- end of tic-tac-toe game -->`,
 
+    `<!-- This is for News Website -->
+        <div class="card">
+            <!--Start of News Website-->
+            <img class="card-img-top" src="assets/Images/NewsWebsite.png" alt="News Website">
+            <div class="card-body">
+                <h5 class="card-title">Live News Website</h5>
+                <p>Have the latest news feed live.</p>
+                <a href="Public/NewsFeed.html" class="btn btn-outline-primary">Try now</a>
+            </div>
+        </div>
+     <!-- end of News Website -->`,
+
    `<!--This div is for Microsoft Clone-->
   <div class="card card1">
     <img class="card-img-top" src="assets/Images/microsoft.png" alt="microsoft">
