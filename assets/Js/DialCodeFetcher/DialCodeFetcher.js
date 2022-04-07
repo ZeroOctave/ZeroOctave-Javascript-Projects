@@ -7,10 +7,10 @@ function generate(){
         const dc = countrylist[index].dial_code;
         const cc = countrylist[index].code;
         const f = countrylist[index].flag;
-        country.innerHTML = " "+cn+" ";
-        dial.innerHTML = " "+dc+" ";
-        code.innerHTML = " "+cc+" ";
-        flag.innerHTML = " "+f+" ";
+        document.getElementById("country").innerHTML = " "+cn+" ";
+        document.getElementById("dial").innerHTML = " "+dc+" ";
+        document.getElementById("code").innerHTML = " "+cc+" ";
+        document.getElementById("flag").innerHTML = " "+f+" ";
     }
   }
 }
