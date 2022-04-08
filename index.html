@@ -193,6 +193,8 @@
           window.open("./Public/hangman.html");
         if (filter == "TO-DO LIST")
           window.open("./Public/to-do.html");
+        if (filter == "MOVIE/TV SERIES QUOTE GENERATOR")
+          window.open(".Public/MovieQuoteGenerator.html");
         if (filter == "PORTFOLIO WEBSITE")
           window.open("/Public/multiple-portfolio.html");
         if (filter == "TRANSPOSE-MATRIX CALCULATOR")
@@ -205,23 +207,14 @@
           window.open("./Public/RD-return-calculator.html");
         if (filter == "SPEECH SYNTHESIS")
           window.open("./Public/speech_synthesis.html");
-	if (filter == "TIC TAC TOE")
+        if (filter == "COLOR CHANGING APP")
+          window.open("./Public/Color-Changing-App.html"); 
+      	if (filter == "TIC TAC TOE")
           window.open("./Public/tic-tac-toe.html");
       }
-    </script>
-    <button id="back-to-top">
-      <i class="material-icons">arrow_upward</i>
-    </button>
-    <script>
-      const btnScrollToTop = document.querySelector("#back-to-top");
-      btnScrollToTop.addEventListener("click", function () {
-        window.scrollTo({
-          top: 0,
-          left: 0,
-          behavior: "smooth",
-        })
-
-      });
+      if(filter == "MICROSOFT CLONE"){
+        window.open("./Public/microsoftclone.html")
+      }
     </script>
 
   </div>
@@ -378,7 +371,25 @@
 
 
     </div>
-
+	<!--Back to top button-->
+    <a href = "#top">
+      <button id="back-to-top">
+      <i class="material-icons">arrow_upward</i>
+      </button>
+      </a>
+      <script>
+        const btnScrollToTop = document.querySelector("#back-to-top");
+        btnScrollToTop.addEventListener("click", function () {
+          window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+          })
+  
+        });
+      </script>
+	  
+	  
     <!-- copyright notice -->
     <div class="copyright">
       <p class="copyright-message">© Copyright 2021-2022.<br>All rights reserved.</p>
