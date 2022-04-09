@@ -66,6 +66,18 @@ const cardItems = [
         </div>
         <!--End of calculator-->`,
 
+`<!--This column is for Dial Code Fetcher-->
+        <div class="card">
+            <!--Start of Dial Code Fetcher-->
+            <img class="card-img-top" src="assets/Images/DialCodeFetcher.png" alt="Card DialCodeFetcher">
+            <div class="card-body">
+                <h5 class="card-title">Country Dial Code Fetcher</h5>
+                <p>Dial Code, Country Code, Country Name and Flag Fetcher at your fingertips!</p>
+                <a href="Public/DialCodeFetcher.html" class="btn btn-outline-primary">Try now</a>
+            </div>
+        </div>
+        <!--End of Dial Code Fetcher-->`,
+
   ` <!--This column is for color_flipper_1-->
         <div class="card">
             <img class="card-img-top" src="assets/Images/color-flipper-1.jpg" alt="Card calculator">
