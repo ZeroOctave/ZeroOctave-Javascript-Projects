@@ -1,0 +1,156 @@
+* {
+	font-family: 'Poppins';
+	margin:  0;
+	padding: 0;
+}
+
+.main-container {
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.grid {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.score-board {
+	display: flex;
+	background:  #ff942e;
+	margin: 50px 0;
+	width: 528px;
+	border-radius: 5px;
+	color:  white;
+	align-items: center;
+	justify-content: center;
+	text-shadow: 2px 4px 3px grey;
+}
+
+.score-count {
+	background-color: #fee4cb;
+	margin: 20px 0;
+	margin-right: 10px;
+	border-radius: 7px;
+	text-shadow: none;
+	color: #ff942e;
+	box-shadow: 1px 1px 3px grey;
+}
+
+.score {
+	font-size: 2.5rem;
+	padding: 20px 40px;
+}
+
+.row {
+	display: flex;
+}
+
+img {
+	height: 100px;
+	width:  100px;
+	border-radius: 5px;
+	color: #fee4cb;
+	position: relative;
+	z-index: -1;
+}
+
+.btn {
+	padding: 0;
+	border: none;
+	margin: 7px;
+	width: 120px;
+	border-radius: 5px;
+	height: 120px;
+	box-shadow: 0.5px 1px 5px grey;
+	background-color: #fee4cb;
+	transition: 0.8s;
+}
+
+.btn-hover:hover {
+	background-color: #ff942e;
+	transition: 0.8s;
+	cursor: pointer;
+}
+
+.restart {
+	margin: 50px 0;
+	padding: 10px 30px;
+	font-size: 1.5rem;
+	border: 2px solid #ff942e;
+	border-radius: 4px;
+	background-color: transparent;
+	color: #ff942e;
+	transition: 0.8s;
+	font-weight: 500;
+}
+
+.restart:hover {
+	background-color: #ff942e;
+	color: white;
+	transition: 0.8s;
+	cursor: pointer;
+	box-shadow: 1px 2px 8px grey;
+}
+
+@media (max-width: 800px) {
+	.btn {
+		margin: 5px;
+		height: 100px;
+		width: 100px;
+	}
+	img {
+		height: 75px;
+		width: 75px;
+	}
+	.score-board {
+		width: 430px;
+	}
+	.score {
+		font-size: 2rem;
+	}
+}
+
+@media (max-width:  450px) {
+	.btn {
+		margin: 4px;
+		height: 90px;
+		width: 90px;
+	}
+	img {
+		height: 75px;
+		width: 75px;
+	}
+	.score-board {
+		width: 385px;
+	}
+	.score {
+		font-size: 1.8rem;
+	}
+	.restart {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width:  400px) {
+	.btn {
+		margin: 4px;
+		height: 70px;
+		width: 70px;
+	}
+	img {
+		height: 60px;
+		width: 60px;
+	}
+	.score-board {
+		width: 305px;
+	}
+	.score {
+		font-size: 1.5rem;
+	}
+	.score-count h1 {
+		padding: 10px 20px;
+	}
+}
