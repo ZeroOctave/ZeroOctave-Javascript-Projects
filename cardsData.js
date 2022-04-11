@@ -66,6 +66,18 @@ const cardItems = [
         </div>
         <!--End of calculator-->`,
 
+`<!--This column is for Dial Code Fetcher-->
+        <div class="card">
+            <!--Start of Dial Code Fetcher-->
+            <img class="card-img-top" src="assets/Images/DialCodeFetcher.png" alt="Card DialCodeFetcher">
+            <div class="card-body">
+                <h5 class="card-title">Country Dial Code Fetcher</h5>
+                <p>Dial Code, Country Code, Country Name and Flag Fetcher at your fingertips!</p>
+                <a href="Public/DialCodeFetcher.html" class="btn btn-outline-primary">Try now</a>
+            </div>
+        </div>
+        <!--End of Dial Code Fetcher-->`,
+
   ` <!--This column is for color_flipper_1-->
         <div class="card">
             <img class="card-img-top" src="assets/Images/color-flipper-1.jpg" alt="Card calculator">
@@ -837,6 +849,7 @@ const cardItems = [
         </div>
      <!-- end of tic-tac-toe game -->`,
 
+
     `<!-- This is for News Website -->
         <div class="card">
             <!--Start of News Website-->
@@ -847,7 +860,17 @@ const cardItems = [
                 <a href="Public/NewsFeed.html" class="btn btn-outline-primary">Try now</a>
             </div>
         </div>
-     <!-- end of News Website -->`,
+     <!-- end of News Website -->`
+     `<!--This div is for  QR_Code_Generator-->
+         <div class="card card1">
+            <img class="card-img-top" src="assets/Images/QR_Code_Generator.png" alt="QR_Code_Generator">
+            <div class="card-body">
+                <h5 class="card-title">QR Code Generator</h5>
+                <p>Shows which key one has pressed on the keyboard.</p>
+                <a href="Public/QR_Code_Generator.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+            </div>
+        </div>
+        <!--End of  QR_Code_Generator-->
 
    `<!--This div is for Microsoft Clone-->
   <div class="card card1">
@@ -859,5 +882,4 @@ const cardItems = [
     </div>
   </div>
   <!--End of Microsoft clone-->`,
-
 ]
