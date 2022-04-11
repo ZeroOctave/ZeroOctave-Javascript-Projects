@@ -42,7 +42,7 @@ h1 {
 
 .hole:after {
     display: block;
-    background: url(dirt.png) bottom center no-repeat;
+    background: url('Whackamole/dirt.png') bottom center no-repeat;
     background-size: contain;
     content: '';
     width: 100%;
@@ -53,7 +53,7 @@ h1 {
 }
 
 .mole {
-    background: url('mole.png') bottom center no-repeat;
+    background: url('Whackamole/mole.png') bottom center no-repeat;
     background-size: 80%;
     position: absolute;
     top: 100%;
@@ -129,7 +129,7 @@ button {
 
     .hole:after {
         display: block;
-        background: url(dirt.png) bottom center no-repeat;
+        background: url('Whackamole/dirt.png') bottom center no-repeat;
         background-size: contain;
         content: '';
         max-width: 70%;
@@ -140,7 +140,7 @@ button {
     }
 
     .mole {
-        background: url('mole.png') bottom center no-repeat;
+        background: url('Whackamole/mole.png') bottom center no-repeat;
         background-size: 60%;
         position: absolute;
         top: 100%;
