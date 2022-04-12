@@ -1,0 +1,974 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comfortaa:wght@400;500&family=Josefin+Sans&family=Josefin+Slab:wght@100&display=swap');
+
+/* this is used to make shortcut tags for the colors used */
+
+:root{
+	--blue: #2C75EB;
+    --dark-color: #OC5BC4;
+    --black:#444;
+    --light-color:#666;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --border-hover: .1rem solid var(--black);
+    --box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
+}
+
+/* pls note 1rem = 16px */
+
+*{
+	font-family: 'Comfortaa', sans-serif;
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: all .2s linear;
+	transition: width none;
+}
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-padding-top: 5rem;
+	scroll-behavior: smooth;
+}
+
+
+
+/* The ::-webkit-scrollbar CSS pseudo-element affects the style of an element's scrollbar when it has overflow:scroll; set.
+ for more info check "https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar" */
+
+html::-webkit-scrollbar{
+	width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+	background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:var(--black);
+}
+
+body, footer .content{
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      .dark-mode{
+        background-color: black;
+        color: white;
+}
+
+   
+
+      
+
+
+i {
+        color: var(--black);
+        font-size: 25px;
+        margin-left: 5rem;
+}
+
+i:hover{
+	color: var(--blue);
+}
+
+p{
+        font-size: 11px;
+        
+}
+
+section{
+	padding: 5rem 9%;
+}
+
+.heading{
+	text-align: center;
+	margin-bottom: 2rem;
+	position: relative;
+}
+
+.heading::before{
+	content: '';
+	position: absolute;
+	top:50%; left:0;
+    transform: translateY(-50%);
+    width: 100%;
+    height:.01rem;
+    background: rgba(0,0,0,.1);
+    z-index: -1;
+}
+
+.heading span{
+    font-size: 3rem;
+    padding:.5rem 2rem;
+    color:var(--black);
+    background: #fff;
+    border:var(--border);
+}
+
+.btn{
+    margin-top: 1rem;
+    display:inline-block;
+    padding:.9rem 3rem;
+    border-radius: .5rem;
+    color:#fff;
+    background:var(--blue);
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background: black;
+}
+
+.header .headerfile{
+	
+	padding: 1.5rem 10%;
+	display: flex; /* used to get the content in center */
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+/* for the logo name book n buy */
+.header .headerfile .logo{
+	font-size: 3.5rem;
+	font-weight: bolder;
+	color: var(--blue);
+	font-family: "Architects Daughter";
+}
+
+/* for the logo */
+.header .headerfile .logo i{
+	color: var(--blue);
+
+}
+
+.header .headerfile .search-form{
+	width: 50rem;
+	height: 5rem;
+	border: var(--border); /* adds a border to the search bar */
+	overflow:  hidden;
+	background: #fff;
+	display: flex;
+	align-items: center; /* aligns everything to the center */
+	border-radius: .5rem;
+}
+
+.header .headerfile .search-form input{
+    font-size: 1.6rem;
+    padding:0 1.2rem;
+    height:100%;
+    width:100%;
+    text-transform: none;
+    color:var(--black);
+}
+
+.header .headerfile .search-form label{
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+    color:var(--black);
+    cursor: pointer;
+}
+
+.header .headerfile .search-form label:hover{
+    color:var(--blue);
+}
+
+.header .headerfile .icons div,
+.header .headerfile .icons a{
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color:var(--blue);
+    cursor: pointer;
+}
+
+.header .headerfile .icons div:hover,
+.header .headerfile .icons a:hover{
+	color: var(--dark-color);
+}
+
+#search-btn{
+    display: none;
+}
+
+body {
+  font-weight: 400;
+
+}
+
+/* for the top header nav bar */
+
+.header .headertag{
+    background:var(--blue);
+}
+
+.header .headertag .navbar{
+    text-align: center;
+}
+
+.header .headertag .navbar a{
+    color:#fff;
+    display: inline-block;
+    padding:1.2rem;
+    font-size: 1.7rem;
+}
+
+.header .headertag .navbar a:hover{
+    background:var(--light-color);
+}
+
+.header .headertag .active{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+/* dont know why this below code made the bottom navbar dissappear..? 
+UPDATE: dont use display:  none!*/
+
+.bottom-navbar{
+	text-align: center;
+	background: var(--blue);
+	position: fixed;
+	bottom:0; left:0; right:0;
+    z-index: 1000;
+    
+}
+
+.bottom-navbar a{
+	font-size: 2.5rem;
+	padding: 2rem;
+	color: var(--black);
+}
+
+.bottom-navbar a:hover{
+    color:var(--dark-color);
+}
+
+/* login form */
+
+.login-form-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(255, 255, 255, 9);
+	position: fixed;
+	top: 0; right: -105%;
+	z-index: 10000;
+	height: 100%;
+	width: 100%;
+}
+
+.login-form-container.active{
+    right:0;
+}
+
+.login-form-container form{
+	background: #fff;
+	border: var(--border);
+	width: 40rem;
+	padding: 2rem;
+	box-shadow: var(--box-shadow);
+	border-radius: .5rem;
+	margin: 2rem;
+}
+
+.login-form-container form h3 {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	color: var(--black);
+	text-align: center;
+}
+
+.login-form-container form span{
+	display: block;
+	font-size: 1.5rem;
+	padding-top: 1rem;
+	color: var(--light-color);
+}
+
+.login-form-container form .box{
+	width: 100%;
+	margin: .7rem 0;
+	font-size: 1.6rem;
+	border: var(--border);
+	border-radius: .5rem;
+	padding: 1rem 1.2rem;
+	color: var(--black);
+	text-transform: none;
+}
+
+.login-form-container form .checkbox{
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+	padding: 1rem 0;
+}
+
+.login-form-container form .checkbox label{
+	font-size: 1.5rem;
+	color: var(--light-color);
+	cursor: pointer;
+}
+
+.login-form-container form .btn{
+	text-align: center;
+	width: 100%;
+	margin: 1.5rem 0;
+}
+
+.login-form-container form p{
+	padding-top: .8rem;
+	color: var(--light-color);
+	font-size: 1.5rem;
+}
+
+.login-form-container form p a{
+	color: var(--blue);
+	text-decoration: underline;
+}
+
+.login-form-container #close-login-btn{
+	position: absolute;
+	top: 1.5rem;
+	right: 2.5rem;
+	font-size: 5rem;
+	color: var(--black);
+	cursor: pointer;
+}
+
+/* home section */
+
+.home{
+	background: url(https://media.istockphoto.com/photos/white-wood-floor-texture-background-picture-id1097185952?b=1&k=20&m=1097185952&s=170667a&w=0&h=-jf9U_kXrte_-6rCgD6uYN_YHhd2z5NX8rFmvry94EU=);
+	background-size: cover;
+	background-position: center;
+}
+
+.home .row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+}
+
+.home .row .content{
+	flex: 1 1 42rem;
+}
+
+.home .row .book-slider{
+	flex: 1 1 42rem;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.home .row .books-slider a img{
+    height: 25rem;
+}
+
+.home .row .books-slider a:hover img{
+    transform: scale(.9);
+}
+
+.home .row .books-slider .stand{
+    width:100%;
+    margin-top: -2rem;
+}
+
+.home .row .content h2{
+    color:var(--black);
+    font-size: 4.5rem;
+}
+
+.home .row .content p{
+    color:var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+    padding:1rem 0;
+}
+
+.icons-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+	gap: 1.5rem;
+}
+
+/* CSS Grid Layout introduces a new unit of length called fr, which is short for “fraction”. MDN defines the fr unit as a unit which represents a fraction of the available space in the grid container. */
+
+.icons-container .icons{
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+	padding: 2rem 0;
+
+}
+
+.icons-container .icons i{
+	font-size: 3.5rem;
+	color: var(--blue);
+}
+
+.icons-container .icons h3{
+	font-size: 2.2rem;
+	
+	padding-bottom: .5rem;
+}
+
+.icons-container .icons p{
+	font-size: 1.4rem;
+	
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    
+    margin-bottom: 15px;
+}
+
+.image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1em;
+    
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1em;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1em;
+    
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    
+    margin-left: .5em;
+    font-size: 1em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 25px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    
+    padding: 0;
+    text-align: center;
+    font-size: 1em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+    margin-right: 10px;
+}
+
+.cart-total-price {
+    
+    font-size: 1em;
+}
+
+.btn-purchase {
+    display: auto;
+    margin: 25px auto 40px auto;
+    font-size: 1em;
+}
+
+ .featured .featured-slider .box{
+ 	margin: 2rem 0;
+ 	position: relative;
+ 	overflow: hidden;
+ 	border: var(--border);
+ 	text-align: center;
+ }
+
+
+
+.featured .featured-slider .box:hover{
+	border: var(--border-hover);
+}
+
+.featured .featured-slider .box .image{
+	padding: 0.5rem;
+	background: linear-gradient(15deg, #eee 30%, #fff 30.1%);
+}
+
+.featured .featured-slider .box:hover .image{
+	transform: translateY(6.2rem);
+}
+
+.featured .featured-slider .box .image img{
+	height: 25rem;
+}
+
+.featured .featured-slider .box .icons{
+	border-bottom: var(--black);
+	position: absolute;
+    top:0; left:0; right: 0;
+    background: #fff;
+    z-index: 1;
+    transform: translateY(-115%);
+}
+
+.featured .featured-slider .box:hover .icons{
+	transform: translateY(0%);
+}
+
+.featured .featured-slider .box .icons a{
+	color: var(--black);
+	font-size: 2.2rem;
+	padding: 1.3rem 1.5rem;
+}
+
+.featured .featured-slider .box .icons a:hover{
+	
+	color: var(--blue);
+}
+
+.featured .featured-slider .box .content{
+    background:#eee;
+    padding:1.5rem;
+}
+
+.featured .featured-slider .box .content h6{
+    font-size: 2rem;
+    color:var(--light-color);
+}
+
+.featured .featured-slider .box .content h5{
+    font-size: 65%;
+    color:var(--black);
+}
+
+.featured .featured-slider .box .content .price{
+    font-size: 2.2rem;
+    color:var(--black);
+    padding-top: 1rem;
+}
+
+.featured .featured-slider .box .content .price span{
+    font-size: 1.5rem;
+    color:var(--light-color);
+    text-decoration: line-through;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    border:var(--border-hover);
+    height:4rem;
+    width:4rem;
+    color:var(--black);
+    background: #fff;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    font-size: 2rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+    background: var(--black);
+    color:#fff;
+}
+
+.arrivals .arrivals-slider .box{
+    display: flex;
+    align-items:center;
+    gap:1.5rem;
+    padding:2rem 1rem;
+    border:var(--border);
+    margin:1rem 0;
+}
+
+
+.arrivals .arrivals-slider .box:hover{
+    border:var(--light-color);
+}
+
+.arrivals .arrivals-slider .box .image img{
+    height:15rem;
+}
+
+.arrivals .arrivals-slider .box .content h3{
+    font-size: 2rem;
+    color: var(--light-color);
+}
+
+.arrivals .arrivals-slider .box .content .price{
+    font-size: 2.2rem;
+    color: var(--black);
+    padding-bottom: .5rem;
+}
+
+.arrivals .arrivals-slider .box .content .price span{
+    font-size: 1.5rem;
+    
+    color: var(--light-color);
+    text-decoration: line-through;
+}
+	
+
+.arrivals .arrivals-slider .box .content .stars i{
+    font-size: 1.5rem;
+    color:var(--blue);
+
+}
+
+.deal{
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.deal .content{
+    flex:1 1 42rem;
+}
+
+.deal .image{
+    flex:1 1 42rem;
+}
+
+.deal .image img{
+    width: 100%;
+}
+
+.deal .content h3{
+    color:var(--blue);
+    font-size: 2.5rem;
+    padding-bottom: .5rem;
+}
+
+.deal .content h1{
+    color: var(--black);
+    font-size: 4rem;
+}
+
+.deal .content p{
+    padding:1rem 0;
+    color:var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+.blogs .blogs-slider .box{
+    margin:2rem 0;
+    border:var(--border);
+}
+
+.blogs .blogs-slider .box:hover{
+    border:var(--border-hover);
+}
+
+.blogs .blogs-slider .box .image{
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.blogs .blogs-slider .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs .blogs-slider .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.blogs .blogs-slider .box .content{
+    padding:1.5rem;
+}
+
+.blogs .blogs-slider .box .content h3{
+    font-size: 2.2rem;
+    
+}
+
+.blogs .blogs-slider .box .content p{
+    font-size: 1.4rem;
+    
+    padding:1rem 0;
+    line-height: 2;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    
+    padding:1rem 0;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.4rem;
+    color:var(--light-color);
+    padding:1rem 0;
+}
+
+.footer .box-container .box a i{
+    color:var(--blue);
+    padding-right: .5rem;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .box-container .box .map{
+    width:100%;
+}
+
+.footer .share{
+    padding:1rem 0;
+    text-align: center;
+}
+
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:#fff;
+    background:var(--blue);
+    margin:0 .3rem;
+    border-radius: 50%; 
+}
+
+.footer .share a:hover{
+    background:var(--black);
+}
+
+.footer .credit{
+    border-top: var(--border);
+    margin-top: 2rem;
+    padding:0 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color:var(--light-color);
+    text-align: center;
+}
+
+.footer .credit span{
+    color:var(--blue);
+}
+
+.loader-container{
+    position: fixed;
+    top:0; left: 0;
+    height:100%;
+    width: 100%;
+    z-index: 10000;
+    background:#f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader-container.active{
+    display: none;
+}
+
+.loader-container img{
+    height:50rem;
+}
+
+.content-section {
+    margin: 1.5em;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    font-weight: 350;
+
+  }
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+}
+
+
+@media (max-width:768px){
+
+    html{
+        scroll-padding-top: 0;
+    }
+
+    body{
+        padding-bottom: 6rem;
+    }
+
+    .header .header-2{
+        display:none;
+    }
+
+    .bottom-navbar{
+        display: block;
+    }
+
+    #search-btn{
+        display: inline-block;
+    }
+
+    .header .header-1{
+        box-shadow: var(--box-shadow);
+        position: relative;
+    }
+
+    .header .header-1 .search-form{
+        position:absolute;
+        top:-115%; right:2rem;
+        width: 90%;
+        box-shadow: var(--box-shadow);
+    }
+
+    .header .header-1 .search-form.active{
+        top:115%;
+    }
+
+    .home .row .content{
+        text-align: center;
+    }
+
+    .home .row .content h3{
+        font-size: 3.5rem;
+    }
+
+    .newsletter{
+        background-position: right;
+    }
+
+    .newsletter form{
+        margin-left:0;
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .header .header-1{
+        padding:2rem;
+    }
+
+    section{
+        padding:3rem 2rem;
+    }
+
+}
+
+
