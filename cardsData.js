@@ -870,4 +870,14 @@ const cardItems = [
     </div>
   </div>
   <!--End of Microsoft clone-->`,
+  `<!--This div is for Memory Game-->
+  <div class="card card1">
+    <img class="card-img-top" src="assets/Images/memoryGame/memory Game.png" alt="microsoft">
+   <div class="card-body">
+      <h5 class="card-title">Microsoft Clone</h5>
+      <p>It is a matching/flipping food theme based memory game</p>
+      <a href="./Public/microsoftclone.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+    </div>
+  </div>
+  <!--End of Memory Game-->`,
 ]
