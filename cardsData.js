@@ -880,5 +880,15 @@ const cardItems = [
     </div>
   </div>
   <!--End of Drawing app-->`,
+  `<!--This div is for Book Shopping Website-->
+  <div class="card card1">
+    <img class="card-img-top" src="assets/Images/bookbuy.png" alt="drawing app">
+   <div class="card-body">
+      <h5 class="card-title">Book Shopping Website</h5>
+      <p>Book Shopping Website - Like a book? Add it to cart and purchase!$$$</p>
+      <a href="./Public/book.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+    </div>
+  </div>
+  <!--End of Book Shopping Website-->`,
 
 ]
