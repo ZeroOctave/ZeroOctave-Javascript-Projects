@@ -3,9 +3,9 @@
 /* this is used to make shortcut tags for the colors used */
 
 :root{
-	--blue: #2C75EB;
-    --dark-color: #OC5BC4;
-    --black:#444;
+	--blue: #143f6b;
+    --dark-color: #0C5BC4;
+    --black:#000;
     --light-color:#666;
     --border:.1rem solid rgba(0,0,0,.1);
     --border-hover: .1rem solid var(--black);
