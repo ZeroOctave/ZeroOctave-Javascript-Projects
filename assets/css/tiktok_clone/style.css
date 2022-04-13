@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.tiktok {
+    display: block;
+    margin: 0 auto;
+}
+
+.tiktok h1 {
+    position: absolute;
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 500px;
+    color: purple;
+    font-family:sans-serif;
+    text-shadow: 0px 8px 19px rgba(237, 237, 9, 0.79);
+    left: 4%;
+}
+
+.content {
+    position: absolute;
+    display: block;
+    left: 80%;
+    top: 20%;
+    transform: translate( -80%, -20%);
+}
+
+.phone {
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+    height:114%;
+    margin-top:-7%;
+    margin-left:-14%;
+}
+
+.vid {
+    position: relative;
+    z-index: 0;
+    top: 14px;
+    border-radius: 15%;
+}
+
+.logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 77%;
+    top: 42%;
+    z-index: 2;
+    border: 1px solid white;
+}
+
+.menu {
+    position: absolute;
+    top: 55%;
+    left: 77%;
+    z-index: 2;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.menu a:nth-child(1) {
+    position: absolute;
+    color: white;
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 0;
+    text-align: center;
+    line-height: 22px;
+    top: -16%;
+    left: 30%;
+}
+
+.menu a:nth-child(2)::before {
+    content: "9.8m";
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    top: 28%;
+    left: 30%;
+    color: white;
+}
+
+.menu a:nth-child(3)::before {
+    content: "8.2k";
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    top: 60%;
+    left: 30%;
+    color: white;
+}
+
+.menu a:nth-child(4)::before {
+    content: "1.2k";
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    top: 90%;
+    left: 30%;
+    color: white;
+}
+
+.menu a:hover:nth-child(2) {
+    color: red;
+}
+
+.title {
+    position: absolute;
+    color: white;
+    z-index: 4;
+    top: 8%;
+    left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 1px 6px black;
+    text-transform: capitalize;
+}
+
+.bottomnav {
+    position: absolute;
+    z-index: 5;
+    top: 95%;
+    left: 10%;
+}
+
+.bottomnav a {
+    display: block;
+    float: left;
+    color: rgb(223, 222, 222);
+    font-size: 25px;
+    padding: 0 20px;
+    text-align: center;
+    position: relative;
+    opacity: 0.9;
+    text-shadow: 0 1px 2px black;
+}
+
+.bottomnav :nth-child(3) {
+    display: block;
+    width: 15px;
+    height: 100%;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.bottomnav::before {
+    content: " ";
+    position: absolute;
+    width: 69px;
+    height: 100%;
+    background-image: linear-gradient(90deg, #3498db, red);
+    left: 120px;
+    border-radius: 20%;
+}
+
+.bottomnav .active {
+    color: white;
+    text-shadow: 1px 5px 4px black;
+}
+
+.userinfo {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 13px;
+    top: 77%;
+    left: 10%;
+    line-height: 20px;
+    text-shadow: 0 1px 6px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.music {
+    position: absolute;
+    z-index: 1;
+    color: whitesmoke;
+    top: 89%;
+    left: 6%;
+    padding: 0 15px;
+}
+
+.music p {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.music img {
+    position: absolute;
+    width: 50px;
+    border-radius: 50%;
+    left: 115%;
+    top: -70%;
+    border: 1px solid white;
+    animation: song 3s linear infinite;
+}
+
+@keyframes song {
+    form {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .tiktok h1{
+        position: absolute;
+        top: -250px;
+    }
+    .content{
+        position: absolute;
+        top: 30%;
+        left: 100%;
+         margin: 0 auto;
+    }
+    
+  }
