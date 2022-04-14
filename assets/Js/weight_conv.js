@@ -7,7 +7,7 @@ function getWeightInput(e) {
     document.getElementById('output').style.visibility = 'visible';
     document.getElementById('resetButton').style.visibility = 'visible';
     weight = e.target.value;
-    document.getElementById('weightOutput').innerHTML = weight; //placing the value to the DOM
+    document.getElementById('weightOutput').innerHTML = weight;    //placing the value to the DOM
     weightConverter();
 }
 
@@ -125,6 +125,16 @@ document.getElementById('resetButton').addEventListener('click', reset);
 
 function reset() {
     document.getElementById('mainForm').reset();
-    document.getElementById('output').style.visibility = 'hidden';
-    document.getElementById('resetButton').style.visibility = 'hidden';
+
+    // removed this 
+    // document.getElementById('output').style.visibility = 'hidden';
+    // document.getElementById('resetButton').style.visibility = 'hidden';
+      
+
+    //  this contribution is done .....
+      document.getElementById('output').value="";
+      finalOutput.innerHTML="";
+      document.getElementById('weightOutput').innerHTML = "";
+      weight="";
+      
 }

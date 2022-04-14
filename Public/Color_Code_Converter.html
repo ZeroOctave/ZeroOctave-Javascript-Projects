@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="./../assets/css/Color_Code_Converter.css">
+        <title>Color Code Converter</title>
+        <script src="./../assets/Js/Color_Code_Converter.js"></script>
+    </head>
+    
+    <body>
+        <div class="box">
+            <div>
+                <label>Enter Color to Convert: </label>
+                <input name="to_convert" id="to_convert" type="text" style="width: 50%;" placeholder="Enter Color Code">
+                <button onclick="convert()" style="width: 10%;">Convert</button>
+            </div>
+            <br><br>
+            
+
+            <div style="text-align:left;">
+                <span>Supported Formats:</script>
+                <ul>
+                    <li>Color Names: Blue, red, BlAck</li>
+                    <li>RGB: rgb(250,120,50)</li>
+                    <li>Hex: #FA7832</li>
+                    <li>CMYK: cmyk(0%, 52%, 80%, 2%)</li>
+                    <li>Hsl: hsl(21, 95%, 59%)</li>
+                </ul>
+            </div>
+
+            <div style="text-align: left;">
+                <h2 style="margin-top: 3%;">Results</h2>
+                RGB: <input readonly id="rgb" style="width: 30%;"><br><br>
+                HEX: <input readonly id="hex" style="width: 30%;"><br><br>
+                CMYK: <input readonly id="cmyk" style="width: 30%;"><br><br>
+                Hsl: <input readonly id="hsl" style="width: 30%;"><br><br>
+            </div>
+        </div>  
+    </body>
+</html>

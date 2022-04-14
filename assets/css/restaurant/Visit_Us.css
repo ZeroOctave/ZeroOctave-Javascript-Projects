@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Position the navbar container inside the image */
+.container {
+  position: fixed;
+  margin-left: 2.5vh;
+  width: auto;
+  opacity: 0.86;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  opacity: 1;
+}
+
+/* Navbar links */
+.topnav a {
+  font-size: 2.4vh;
+  font-family: sans-serif;
+  letter-spacing: 0.4vh;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 2vh 2.2vh;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.title {
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  font-size: 5em;
+}
+.content {
+  display: flex;
+  padding: 0 5rem ;
+  text-align: center;
+  align-content: center;
+  justify-content: space-between;
+  font-family: "Crimson Pro", serif;
+  height: 600px;
+}
+.item{
+    align-content: center;
+    justify-content: center;
+    height: 500px;
+    width: 700px;
+    font-size: 1.5rem;
+
+}
+.item1{
+    padding: 4rem;
+}
+.item2{
+    padding: 2rem;
+}
