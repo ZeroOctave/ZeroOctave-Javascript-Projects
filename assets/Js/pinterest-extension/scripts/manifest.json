@@ -1,0 +1,28 @@
+{
+    "name": "Pinterest Chrome Extension",
+    "description": "Save your ideas so that you can get back to them later",
+    "version": "0.1.0",
+    "author" : "Manya Rani",
+    "manifest_version": 3,
+    "icons": {
+        "16": "./images/icon-16x16.png",
+        "32": "./images/icon-32x32.png",
+        "48": "./images/icon-48x48.png",
+        "128": "./images/icon-128x128.png"
+    },
+    "background": {
+        "service_worker": "./scripts/background.js"
+    },
+    "options_page": "./options.html",
+    "action": {
+        "default_title":"Pinterest save button",
+        "default_popup": "./popup.html"
+    },
+    "permissions": [
+        "webRequest",
+        "tabs",
+        "storage",
+        "unlimitedStorage"
+    ],
+    "host_permissions": ["<all_urls>"]
+}
