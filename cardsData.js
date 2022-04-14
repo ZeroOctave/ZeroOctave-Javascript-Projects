@@ -870,6 +870,7 @@ const cardItems = [
     </div>
   </div>
   <!--End of Microsoft clone-->`,
+
   `<!--This div is for Memory Game-->
   <div class="card card1">
     <img class="card-img-top" src="assets/Images/memoryGame/memory Game.png" alt="microsoft">
@@ -880,4 +881,17 @@ const cardItems = [
     </div>
   </div>
   <!--End of Memory Game-->`,
+
+    `<!--This div is for Drawing app-->
+  <div class="card card1">
+    <img class="card-img-top" src="assets/Images/drawingapp.png" alt="drawing app">
+   <div class="card-body">
+      <h5 class="card-title">Drawing App</h5>
+      <p>Enjoy Drawing.</p>
+      <a href="./Public/drawingapp.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+    </div>
+  </div>
+  <!--End of Drawing app-->`,
+
+
 ]
