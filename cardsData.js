@@ -1,4 +1,5 @@
 const cardItems = [
+
   `        <!--This column is for Analog clock-->
         <div class="card card1">
             <!--Analog Clock-->
@@ -541,6 +542,17 @@ const cardItems = [
                 <a href="Public/word-count-calculator.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
+`<!-- This is for Palindrome Checker -->
+        <div class="card">
+            <!--Start of Palindrome Checker-->
+            <img class="card-img-top" src="assets/Images/Palindrome Checker.png" alt="Card restaurant">
+            <div class="card-body">
+                <h5 class="card-title">Palindrome Checker</h5>
+                <p>Enter a name or number, Know it is palindrome or not!!!!</p>
+                <a href="Public/palindrome.html" class="btn btn-outline-primary">Try now</a>
+            </div>
+        </div>
+        <!-- end of Palindrome Checker -->`,
   `<!--This div is for crypto-app website-->
         <div class="card card1">
             <img class="card-img-top" src="assets/Images/crypto.jpg" alt="Library">
