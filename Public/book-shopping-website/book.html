@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome kit link -->
+    <script src="https://kit.fontawesome.com/e9a455a273.js" crossorigin="anonymous"></script>
+    <title>Book N Buy - Book Shopping Site</title>
+    <!-- link for swiperjs -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> <!-- to add swiper effect -->
+    
+    <link rel="stylesheet" href="../../assets/css/book.css">
+   
+    
+    
+</head>
+<body>
+
+<!-- header section starts -->
+
+<header class="header">
+    <!-- for the logo, use font awesome -->
+    
+    <div class="headerfile">
+        <a href="#" class="logo"><i class="far fa-bookmark"></i> Book N Buy</a>
+        <!-- search bar-->
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Search for a book or author..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            
+            <!-- log in buttons + dark/light mode toggle-->
+            <div id="search-btn" class="fas fa-search"></div>
+            <div>
+
+           <ul>
+            
+
+            </div>
+            <div id="login-btn" class="far fa-user"></div>
+            <a onclick="darkMode()" class="fas fa-adjust"><p><b>Dark Mode!</b></p></a>
+        </ul>
+
+      
+    </div>
+
+    
+    <script>
+      function darkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script> 
+
+        </div>
+    </div>
+    <!-- navigation bar top-->
+    <div class="headertag"> 
+        <nav class="navbar"> <!-- toggle shortcut(navigation) bars -->
+            <a href="#home">Home</a>
+            <a href="#featured">Featured</a>
+            <a href="#arrivals">New Arrivals</a>
+            <a href="#deals">Offers</a>
+            <a href="#blogs">Blogs</a>
+            <a href="cart.html">cart</a>
+            
+        </nav>
+    </div>
+</header>
+<!-- end of header -->
+
+<!-- bottom navigation bars -->
+<nav class="bottom-navbar"> <!-- toggle shortcut(navigation) bars -->
+            <a href="#home" class="fas fa-home"></a>
+            <a href="#featured" class="fas fa-book"></a>
+            <a href="#arrivals" class="fas fa-fire"></a>
+            <a href="#deals" class="fas fa-tags"></a>
+            <a href="#blogs" class="fas fa-newspaper"></a>
+            <a href="cart.html" class="fas fa-shopping-cart"></a>
+            
+        </nav>
+
+        <!-- login form-->
+
+        <div class="login-form-container">
+            <div id="close-login-btn" class="far fa-times-circle"></div>
+
+            <!-- form building starts -->
+
+            <form action="">
+                <h3>Sign-In</h3>
+                <span>Email-ID</span>
+                <input type="email" name="" class="box" placeholder="Enter Your E-mail" id="">
+                <span>Password</span>
+                <input type="password" name="" class="box" placeholder="Enter Your Password" id="">
+                <div class="checkbox"> 
+                    <input type="checkbox" name="" id="remember-me">
+                    <label for="remember-me">Remember Me</label>
+                </div>
+                <input type="submit" value="sign in" class="btn">
+                <p>Forgot password? <a href="#">Click Here!</a></p>
+                <p>Don't Have an Account? <a href="#">Create one here</a></p>
+            </form>
+
+            <!-- form building ends and home section starts -->
+            
+       </div>
+
+        
+<!-- home section building starts -->
+
+<section class="home" id="home" href="#home">
+    <div class="row">
+        <div class="content">
+            <h2>Upto 50% off!</h2>
+            <p>Get flat 50% off on the newest arrivals this month! Use our code 'NEW50' to avail the offer during checkout!</p>
+            <a href="cart.html" class="btn">Shop Now</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                
+
+                <a href="#" class="swiper-slide"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624126289l/58375739.jpg" alt="Will by Will Smith book cover"></a>
+                <a href="#" class="swiper-slide"><img src="https://images-na.ssl-images-amazon.com/images/I/718GcuXHXbL.jpg" alt="The Midnight Library by Matt Haig book cover"></a>
+                <a href="#" class="swiper-slide"><img src="https://images-na.ssl-images-amazon.com/images/I/71rDThWVwES.jpg" alt="the stranger in the lifeboat by Mitch Abbom book cover"></a>
+                <a href="#" class="swiper-slide"><img src="https://images-na.ssl-images-amazon.com/images/I/81KGjsBXQ7L.jpg" alt="Becoming by Michelle Obama book cover"></a>
+                <a href="#" class="swiper-slide"><img src="https://images-na.ssl-images-amazon.com/images/I/71Ofx5CE1sL.jpg" alt="Almond by Won-Pyung Sohn book cover"></a>
+                <a href="#" class="swiper-slide"><img src="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg" alt="The Lean Startup by Eric Ries book cover"></a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- end of home section-->
+
+<!--icon section starts -->
+
+<section class="icons-container">
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>Free Shipping</h3>
+            <p>Order over $75</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>Secure Payment</h3>
+            <p>100% Secure Payment With Us!</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>Easy Returns</h3>
+            <p>Easy 10 Day Return Policy!</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 Customer Support</h3>
+            <p>Contact us anytime</p>
+        </div>
+    </div>
+</section>
+
+<!-- featured section starts here-->
+
+<section  class="featured" href="#products" id="featured">
+    <h1 class="heading"><span>Featured Books</span></h1>
+    <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+
+                
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/914HMqJtrHL.jpg" alt="Goosebumps collecttion">
+                </div>
+                <div class="content">
+                    <h5>Goosebumps Collection</h5>
+                    <h5>R. L. Stine</h5>
+                    <div class="price">$4.99<span>$7.50</span></div>
+                    <a href="cart.html" class="btn">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/5178IkM3VqL.jpg" alt="Murder on the Orient Express">
+                </div>
+                <div class="content">
+                    <h5>Murder on the Orient Express by Agatha Christie</h5>
+                    
+                    <div class="price">$11.50<span>$14.99</span></div>
+                    <a href="cart.html" class="btn">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://kbimages1-a.akamaihd.net/265498db-16c5-421a-b481-e0f4a99e6a74/353/569/90/False/the-diary-of-a-young-girl-27.jpg" alt="Diary of a Young Girl Anne Frank">
+                </div>
+                <div class="content">
+                    <h5>The Diary of a Young Girl</h5>
+                    <h5>Anne Frank</h5>
+                    <div class="price">$12.59<span>$14.99</span></div>
+                    <a href="cart.html" class="btn">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781623610739/a-6th-bowl-of-chicken-soup-for-the-soul-9781623610739_hr.jpg" alt="Chicken Soup for the Soul">
+                </div>
+                <div class="content">
+                    <h5>Chicken Soup for the Soul</h5>
+                    <h5>Jack Canfield</h5>
+                    <div class="price">$12.99<span>$14.59</span></div>
+                    <a href="cart.html" class="btn">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/61HK5Tm1QyL.jpg" alt="Sita Warrior of Mithila by Amish">
+                </div>
+                <div class="content">
+                    <h5>Sita: Warrior of Mithila</h5>
+                    <h5>Amish</h5>
+                    <div class="price">$9.99<span>$14.99</span></div>
+                    <a href="cart.html" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <script type="text/javascript" src="store.js"></script>
+                
+                
+           
+        
+    </div>
+    
+</section>
+
+<!-- arrivals section start-->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>new arrivals</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/91Fpwua1cjL.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>charlie & the chocolate factory</h3>
+                    <div class="price">$10.69<span>$14.29</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603206535l/54120408._SY475_.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Klara & the sun</h3>
+                    <div class="price">$13.99 <span>$15.69</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://m.media-amazon.com/images/I/51WdyIaiSnS.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>while justice sleeps</h3>
+                    <div class="price">$8.99 <span>$14.59</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/81+Bx8pyGoL.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>the wife upstairs</h3>
+                    <div class="price">$14.99 <span>$16.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624126289l/58375739.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Will by Will Smith</h3>
+                    <div class="price">$13.99 <span>$16.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>the lean startup</h3>
+                    <div class="price">$9.69 <span>$13.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71Ofx5CE1sL.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Almond</h3>
+                    <div class="price">$13.29 <span>$18.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/81KGjsBXQ7L.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Becoming by Michelle Obama</h3>
+                    <div class="price">$14.99 <span>$18.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71rDThWVwES.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>the stranger in the lifeboat</h3>
+                    <div class="price">$5.99 <span>$10.69</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/718GcuXHXbL.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>the midnight library</h3>
+                    <div class="price">$8.49 <span>$13.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- deals section starts-->
+
+<section class="deal">
+
+    <div class="content" id="deals">
+        <h3>deal of the day</h3>
+        <h1>upto 50% off</h1>
+        <p>Purchase one of our bestsellers from the Featured section and enjoy upto 50% on your favorite books!</p>
+        <a href="cart.html" class="btn">shop now</a>
+    </div>
+
+    <div class="image">
+        <img src="https://www.thapakistani.com/wp-content/uploads/2021/05/20-Best-Romantic-Novels-in-English.jpg" alt="">
+    </div>
+    
+
+</section>
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>our blogs</span> </h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="https://post.npahilwani.com/wp-content/uploads/2021/02/https___blogs-images.forbes.com_stephanieburns_files_2019_04_adult-blur-chair-196649-1200x800-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Is the Kindle Culture affecting hardcover books?</h3>
+                    <p>Click on read more to see the internet's take on this.</p>
+                    <a href="https://smallbusiness.chron.com/impact-kindle-ipad-book-publishing-business-47705.html" class="btn" target="_blank">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="https://news.microsoft.com/wp-content/uploads/prod/2021/05/Taylor-sisters-reading-hero-e1620073682374-1024x616.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>how to get your kids to read from an early age</h3>
+                    <p>What is the right age to start reading? Click on Read More to learn.</p>
+                    <a href="https://www.readingrockets.org/article/encouraging-your-child-read" class="btn" target="_blank">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="https://www.chieflearningofficer.com/wp-content/uploads/sites/3/beans/images/AdobeStock_324512891-8b38574.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>10 Ways to manage work, study & your reading hobby</h3>
+                    <p>How to ace your career and enjoy your reading hobby at the same time</p>
+                    <a href="https://www.fuzia.com/blog/details/8-ways-to-balance-work-and-personal-hobby" class="btn" target="_blank">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="https://www.transcriptionoutsourcing.net/wp-content/plugins/phastpress/phast.php?service=images&src=https%3A%2F%2Fwww.transcriptionoutsourcing.net%2Fwp-content%2Fuploads%2F2020%2F11%2Fportrait-of-a-happy-young-woman-in-headphones-PYU8EVW-scaled.jpg&cacheMarker=1616086834-542869&token=25a91e910441507c" alt="">
+                </div>
+                <div class="content">
+                    <h3>Reading vs Listening - which is the better way to learn?</h3>
+                    <p>Reading books? Or listening to your favorite podcast? What is the better way to learn?</p>
+                    <a href="https://www.gmrtranscription.com/blog/reading-vs-listening-which-is-more-efficient-for-studying-and-remembering#:~:text=Researchers%20have%20found%20that%20reading,to%20160%20words%20per%20minute.&text=Reading%20an%20audio%20transcription%20of,can%20help%20improve%20listening%20skills." class="btn" target="_blank">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="https://www.verywellmind.com/thmb/q74r4SmrDQqiZRxZCsClLlBvnss=/1781x1336/smart/filters:no_upscale()/GettyImages-102284548-5685b7bf3df78ccc15e8fe7d.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Here's how reading improves your mental health</h3>
+                    <p>From toddlers to senior citizens, reading will ensure your mental health remains balanced.</p>
+                    <a href="https://www.stepupformentalhealth.org/reading-books-can-benefit-hour-mental-health/" class="btn" target="_blank">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> australia</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#featured"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#arrivals"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="#cart.html"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#blogs"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="../../assets/Js/book-shopping-website/book.js"></script>
+    
+</body>
+</html>
