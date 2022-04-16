@@ -1,4 +1,5 @@
 const cardItems = [
+
   `        <!--This column is for Analog clock-->
         <div class="card card1">
             <!--Analog Clock-->
@@ -541,6 +542,17 @@ const cardItems = [
                 <a href="Public/word-count-calculator.html" class="btn btn-outline-primary">Try Now</a>
             </div>
         </div>`,
+`<!-- This is for Palindrome Checker -->
+        <div class="card">
+            <!--Start of Palindrome Checker-->
+            <img class="card-img-top" src="assets/Images/Palindrome Checker.png" alt="Card restaurant">
+            <div class="card-body">
+                <h5 class="card-title">Palindrome Checker</h5>
+                <p>Enter a name or number, Know it is palindrome or not!!!!</p>
+                <a href="Public/palindrome.html" class="btn btn-outline-primary">Try now</a>
+            </div>
+        </div>
+        <!-- end of Palindrome Checker -->`,
   `<!--This div is for crypto-app website-->
         <div class="card card1">
             <img class="card-img-top" src="assets/Images/crypto.jpg" alt="Library">
@@ -892,5 +904,15 @@ const cardItems = [
     </div>
   </div>
   <!--End of Drawing app-->`,
+  `<!--This div is for Book Shopping Website-->
+  <div class="card card1">
+    <img class="card-img-top" src="assets/Images/bookshopimgs/bookbuy5.png" alt="book shopping website">
+   <div class="card-body">
+      <h5 class="card-title">Book Shopping Website</h5>
+      <p>Book Shopping Website - Like a book? Add it to cart and purchase!$$$</p>
+      <a href="./Public/book-shopping-website/book.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+    </div>
+  </div>
+  <!--End of Book Shopping Website-->`,
 
 ]
