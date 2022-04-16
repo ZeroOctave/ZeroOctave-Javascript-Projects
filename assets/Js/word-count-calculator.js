@@ -7,11 +7,15 @@ function count_word( val ){
 function count_character(val){
   return val.length;
 }
+
 function count_alphabets(val){
-  let remText = val.replace(/ /g, "")
-  let l = remText.length;
-  return l;
+  let alphabetsArr = val.match(/[A-Za-z]+/g);
+  if (alphabetsArr) {
+    return alphabetsArr.join("").length;
+  }
+  return 0;
 }
+
 var textContent = document.getElementById("textcontent");
 var showWordCount   = document.getElementById("countWord");
 var showcharactercount = document.getElementById("countcharacter");

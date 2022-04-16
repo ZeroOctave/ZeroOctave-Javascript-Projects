@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comfortaa&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
 *{
     padding: 0; margin: 0;
 }
@@ -167,4 +171,85 @@ li {
 li:hover {
   left: 15px;
   color: #66BFBF;
+}
+#searchbar{
+  margin-top: 7px;
+  width: 600px;
+  line-height: 50px;
+  padding-left: 7px;
+  border-radius: 5px;
+  font-size: larger;
+}
+#searchbtn{
+  margin-left: 600px;
+  margin-top: 4px;
+  width: 60px;
+  position:absolute;
+}
+
+#back-to-top{
+  display: flex;
+  position: fixed;
+  justify-content: space-evenly;
+  align-items: center;
+  left: 2rem;
+  bottom: 2rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  color: #ffff;
+  border: none;
+  /* outline: none; */
+  cursor: pointer;
+}
+
+
+/* Loading css */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600&display=swap');
+
+
+.loading {
+	opacity: 0;
+	display: flex;
+  justify-content:center;
+  width:100%;
+	/* position: fixed; */
+	/* bottom: 50px; */
+	/* left: 50%; */
+	/* transform: translateX(-50%); */
+	transition: opacity .3s ease-in;
+  margin:10px;
+  margin-bottom:20px;
+}
+
+.loading.show {
+	opacity: 1;
+}
+
+.ball {
+	background-color: #777;
+	border-radius: 50%;
+	margin: 5px;
+	height: 10px;
+	width: 10px;
+	animation: jump .5s ease-in infinite;
+}
+
+.ball:nth-of-type(2) {
+	animation-delay: 0.1s;
+}
+
+.ball:nth-of-type(3) {
+	animation-delay: 0.2s;
+}
+
+@keyframes jump {
+	0%, 100% {
+		transform: translateY(0);
+	}
+	
+	50% {
+		transform: translateY(-10px);
+	}
 }
