@@ -882,6 +882,18 @@ const cardItems = [
     </div>
   </div>
   <!--End of Microsoft clone-->`,
+
+  `<!--This div is for Stopwatch application-->
+  <div class="card card1">
+      <img class="card-img-top" src="assets/Images/stopwatch.png" alt="Stopwatch">
+      <div class="card-body">
+          <h5 class="card-title">Stopwatch</h5>
+          <p>An Ultra-simple Stopwatch application!</p>
+          <a href="./Public/stopwatch.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+      </div>
+  </div>
+  <!--End of Stopwatch application-->`,
+  
     `<!--This div is for Drawing app-->
   <div class="card card1">
     <img class="card-img-top" src="assets/Images/drawingapp.png" alt="drawing app">
