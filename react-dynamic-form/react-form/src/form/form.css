@@ -1,0 +1,58 @@
+body{
+    background-image: url("bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1,p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h3{
+    font-family: cursive;
+}
+h1{
+    text-align: center;
+}
+p{
+    height: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+.error{
+    color: lightcoral;
+
+}
+h3{
+    color: white;
+    margin: 30px;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+}
+input[type="submit"]{
+    margin-bottom: 5vw;
+    cursor: pointer;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    background-color: green;
+    color: white;
+    box-shadow: 0 1px 5px 0 green;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:360px){
+    input{
+        width: 250px;
+    }
+}
