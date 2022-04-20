@@ -2,12 +2,99 @@
 
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 *{
     padding: 0; margin: 0;
+    
+}
+.logo{
+  font-size: 30px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #00C2CB; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.nav {
+  position: fixed;
+  background-color: #41465D;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-weight: bold;
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav.active {
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav.active a {
+  color: #000;
+}
+.nav.active a.current, .nav.active a:hover{
+  color: red;
+}
+.nav.active .container {
+  padding: 3px 0;
+}
+
+.nav a.current,
+.nav a:hover {
+  color: #FF914D;
+  font-weight: bold;
+}
+
+
+body{
+  overflow-x: hidden;
+  background-color: #41465D;
+}
+
+#scrollto{
+  margin-top: 2em;
+}
 .card{
     width: 30rem;
     height: 32rem;
@@ -16,102 +103,162 @@ html{
     border-radius: 10px;
 }
 .title{
-    margin-top: 2.3rem;
-    font-family: 'Comfortaa';
-    font-size: 3rem;
+    margin: 3em 0em .5em 0; 
+    font-family: 'Space Mono';
+    font-size: 3.5em;
+    color: white;
     text-align: center;
 }
-.title:hover{
-    color: #eb7e8e;
-}
-.card1{
-    margin-top: 4rem;
-}
-.card-img-top{
-    width: auto;
-    height: 18rem;
-    border-radius: 10px;
 
+#searchbar{
+   padding: .5em 1em;
+   width: 25%;
+   border-radius: 10px;
+   border: 3px solid #00C2CB;
+   font-family: 'Space Mono';
 }
-.container{
+
+
+/* CARDS DESIGN STARTS  */
+
+.image{
+  padding: .5em;
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+}
+.image:hover{
+  padding: 0;
+}
+
+.styles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  margin-top: 4vmin;
+  flex-wrap: wrap;
+}
+
+.stylebox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background-color: white;
+  padding: .2rem;
+  text-align: center;
+  font-family: 'Bitter', sans-serif;
+  margin: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  width: 20rem;
+  transition: .2s;
+}
+.stylebox:hover {
+  
+  box-shadow: 15px 15px 17px #000;
+}
+.stylebox .image {
+  width: 98%;
+  overflow: hidden;
+  height: 13rem;
+  border-radius: .5em;
+  transition: .4s;
+}
+
+.stylebox .image img{
+  height: 100%;
+  width: 100%;
+}
+
+.stylebox .image:hover{
+  transform: scale(1.17);
+  border-radius: .5em;
+}
+/*  */
+
+.card-heading{
+  display: flex;
+  color: #121212;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 1em .5em;
+  font-family: 'Poppins';
+}
+.card-data{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  border: 0px ;
+  width: 95%;
+  font-size: 1em;
+  background-color: #FF914D;
+  font-family: 'Poppins';
+  font-weight: bold;
+  padding: .5em;
+  transition: 0.3s;
+  margin-left: .5em;
+  margin-bottom: 1em ;
+}
+
+.btnn:hover{
+  background-color: #101522;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .styles {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-
-}
-.card p{
-    font-family: 'Architects Daughter';
-    font-size: 18px;
-    color: black;
-}
-#inc-p{
-    color: black;
-}
-.card h5, .card a{
-    font-family: 'Comfortaa';
-    font-weight: bolder;
-}
-body {
-	background: linear-gradient(-45deg, #ffc0cb, #ffe4e1, #ffb6c1, #fddde6, #ffcff1, #fbcce7);
-	background-size: 400% 400%;
-	animation: gradient 5s ease infinite;
-	height: 100%;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 10vmin;
+  }
+  .stylebox {
+    padding: .3rem;
+    margin: auto;
+    width: 18rem;
+    margin-bottom: 1.5rem;
+  }
+  .stylebox .image {
+    overflow: hidden;
+    width: 17rem;
+    height: 12rem;
+    padding: 0;
+    margin: 0;
+    padding: .5em .5em 0 .5em;
+    border-radius: 0.5rem;
+    transition: .3s;
+  }
 }
 
 
-@media (max-width: 500px){
-    .card{
-        width: 20rem;
-        height: 26.6rem;
-        margin: 1.5rem;
-        border-radius: 20px;
-    }
-    .card-img-top{
-        width: auto;
-        height: 12rem;
-        border-radius: 20px;
-    }
-}
 
-@media (max-width: 412px){
-    .card{
-        width: 22rem;
-        height: 24rem;
-        margin: 1.5rem;
-    }
-    .card p{
-        font-size: 16px;
-    }
-    .card h5{
-        font-size: 18px;
-    }
-    .card-img-top{
-        width: auto;
-        height: 10rem;
-    }
+
+/* CARDS DESIGN ENDS */
+
+.background-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
-  background-color: #101010;
+  background-color: #121212;
   padding-bottom: 20px;
   color: white;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .footer-heading{
-  font-family: 'Merriweather', serif;
+  font-family: 'Bitter', serif;
   text-align: center;
   margin: 50px 0 30px 0;
 }
@@ -172,20 +319,7 @@ li:hover {
   left: 15px;
   color: #66BFBF;
 }
-#searchbar{
-  margin-top: 7px;
-  width: 600px;
-  line-height: 50px;
-  padding-left: 7px;
-  border-radius: 5px;
-  font-size: larger;
-}
-#searchbtn{
-  margin-left: 600px;
-  margin-top: 4px;
-  width: 60px;
-  position:absolute;
-}
+
 
 #back-to-top{
   display: flex;
@@ -214,10 +348,6 @@ li:hover {
 	display: flex;
   justify-content:center;
   width:100%;
-	/* position: fixed; */
-	/* bottom: 50px; */
-	/* left: 50%; */
-	/* transform: translateX(-50%); */
 	transition: opacity .3s ease-in;
   margin:10px;
   margin-bottom:20px;
