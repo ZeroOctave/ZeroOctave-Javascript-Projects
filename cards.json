@@ -15,6 +15,12 @@
         "link":"Public/Analog_clock.html"
     },
     {
+        "name":"Animated Portfolio",
+        "image":"assets/Images/animated.JPG",
+        "link":"Public/AnimatedPortfolio.html"
+
+    },
+    {
         "name":"Auto Write",
         "image":"assets/Images/auto-write.jpg",
         "link":"Public/auto-write-text.html"
@@ -37,7 +43,7 @@
     ,
     {
         "name":"BaseX Calculator",
-        "image": "assets/Images/calculator.jpg",
+        "image": "assets/Images/Basex.JPG",
         "link" :"Public/BaseX_Calculator.html"
     },
     {
@@ -84,13 +90,13 @@
     ,
     {
         "name":"Color Chooser",
-        "image":"assets/Images/",
+        "image":"assets/Images/colorchooser.JPG",
         "link":"Public/colorchooser.html"
     }
     ,
     {
         "name":"Confirm Password Validator",
-        "image":"assets/Images/",
+        "image":"assets/Images/passval.JPG",
         "link":"Public/confirmpasswordvalidator.html"
     }
     ,
@@ -168,13 +174,13 @@
     ,
     {
         "name":"Email Validator",
-        "image":"assets/Images/",
+        "image":"assets/Images/emailval.JPG",
         "link":"Public/EmailValidator.html"
     }
     ,
     {
         "name":"Find Number",
-        "image":"assets/Images/",
+        "image":"assets/Images/numberguess.JPG",
         "link":"Public/findnum.html"
     }
     ,
@@ -192,14 +198,14 @@
     ,
     {
         "name":"Function Grapher",
-        "image":"assets/Images/",
+        "image":"assets/Images/functiongrapher.JPG",
         "link":"Public/Function_Grapher.html"
     }
     ,
     {
         "name":"Github Profiless",
         "image":"assets/Images/GitHub-Profiles.jpeg",
-        "link":"Public/Github_Profiles.html"
+        "link":"Public/Github-Profiles.html"
     }
     ,
     {
@@ -270,7 +276,7 @@
     ,
     {
         "name":"Maps",
-        "image":"assets/Images/",
+        "image":"assets/Images/maps.jpg",
         "link":"Public/maps.html"
     }
     ,
@@ -310,6 +316,11 @@
         "link":"Public/Modal.html"
     }
     ,
+    {
+        "name":"Modal Closing Button",
+        "image":"assets/Images/modal2.jpg",
+        "link":"Public/modalclosingbutton.html"
+    },
     {
         "name":"Movie Quote Generator",
         "image":"assets/Images/MovieQuoteGenerator.png",
@@ -354,7 +365,7 @@
     ,
     {
         "name":"Place Holder",
-        "image":"assets/Images/",
+        "image":"assets/Images/placeholder.jpg",
         "link":"Public/placeholder.html"
     }
     ,
@@ -364,6 +375,11 @@
         "link":"Public/pong.html"
     }
     ,
+    {
+        "name":"Pop Up",
+        "image":"assets/Images/popup.png",
+        "link":"Public/popup.html"
+    },
     {
         "name":"Prime Calculator",
         "image":"assets/Images/primeCalc.png",
@@ -385,9 +401,14 @@
     {
         "name":"Quiz App",
         "image":"assets/Images/quiz.jpg",
-        "link":"Public/quiz.html"
+        "link":"Public/Quiz_app.html"
     }
     ,
+    {
+        "name":"Quiz",
+        "image":"assets/Images/quizapp.jpg",
+        "link":"Public/quiz.html"
+    },
     {
         "name":"Random Color Generator",
         "image":"assets/Images/randomcolorgenerator.png",
@@ -402,7 +423,7 @@
     ,
     {
         "name":"Report Calculator",
-        "image":"assets/Images/",
+        "image":"assets/Images/report.jpg",
         "link":"Public/ReportCalculator.html"
     }
     ,
@@ -426,7 +447,7 @@
     ,
     {
         "name":"Reviews",
-        "image":"assets/Images/",
+        "image":"assets/Images/rev.jpg",
         "link":"Public/reviews.html"
     }
     ,
@@ -450,7 +471,7 @@
     ,
     {
         "name":"Snake",
-        "image":"assets/Images/snare.png",
+        "image":"assets/Images/snake.jpg",
         "link":"Public/snake.html"
     }
     ,
@@ -462,10 +483,16 @@
     ,
     {
         "name":"Socials",
-        "image":"assets/Images/",
+        "image":"assets/Images/social.jpg",
         "link":"Public/socials.html"
     }
     ,
+    {
+        "name":"Solar",
+        "image":"assets/Images/solar.jpg",
+        "link":"Public/solar.html"
+
+    },
     {
         "name":"Speech Synthesis",
         "image":"assets/Images/speechsynthesis.png",
@@ -497,12 +524,6 @@
     }
     ,
     {
-        "name":"Reviews",
-        "image":"assets/Images/",
-        "link":"Public/reviews.html"
-    }
-    ,
-    {
         "name":"Star Catching Game",
         "image":"assets/Images/star.png",
         "link":"Public/star-catching-game.html"
@@ -528,13 +549,13 @@
     ,
     {
         "name":"Tap Music",
-        "image":"assets/Images/",
+        "image":"assets/Images/tapmusic.jpg",
         "link":"Public/tap_music.html"
     }
     ,
     {
         "name":"Third Degree Equation Calculator",
-        "image":"assets/Images/",
+        "image":"assets/Images/xxx.jpg",
         "link":"Public/Third_Degree_Equation_Calculator.html"
     }
     ,
@@ -564,7 +585,7 @@
     ,
     {
         "name":"Toast Notification",
-        "image":"assets/Images/",
+        "image":"assets/Images/toast.jpg",
         "link":"Public/toast_notification.html"
     }
     
