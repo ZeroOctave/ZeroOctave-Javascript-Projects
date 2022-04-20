@@ -185,11 +185,6 @@
     }
     ,
     {
-        "name":"Expense Tracker",
-        "image":"./assets/Images/expense.png",
-        "link":"./Public/expense.html"
-    }
-    {
         "name":"Find Number",
         "image":"assets/Images/numberguess.JPG",
         "link":"Public/findnum.html"
