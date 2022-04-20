@@ -179,6 +179,12 @@
     }
     ,
     {
+        "name":"Expense Tracker",
+        "image":"./assets/Images/expense.png",
+        "link":"./Public/expense.html"
+    }
+    ,
+    {
         "name":"Find Number",
         "image":"assets/Images/numberguess.JPG",
         "link":"Public/findnum.html"
@@ -188,12 +194,6 @@
         "name":"Food Website",
         "image":"assets/Images/foodwebsite.png",
         "link":"Public/food_website.html"
-    }
-    ,
-    {
-        "name":"YouTube Clone",
-        "image":"assets/Images/YouTubeClone/YouTubeClone.png",
-        "link":"Public/YouTube_Clone/index.html"
     }
     ,
     {
@@ -636,7 +636,12 @@
         "name":"Word Count Calculator",
         "image":"assets/Images/wordcountcalculator.png",
         "link":"Public/word-count-calculator.html"
+    },
+    {
+        "name":"YouTube Clone",
+        "image":"assets/Images/YouTubeClone/YouTubeClone.png",
+        "link":"Public/YouTube_Clone/index.html"
     }
-
+    
 
 ]
