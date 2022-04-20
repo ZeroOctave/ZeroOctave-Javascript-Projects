@@ -17,9 +17,23 @@ html{
   margin: 0 auto;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #00C2CB; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 .nav {
   position: fixed;
-  background-color: #121212;
+  background-color: #41465D;
   top: 0;
   left: 0;
   right: 0;
@@ -68,14 +82,14 @@ html{
 
 .nav a.current,
 .nav a:hover {
-  color: yellow;
+  color: #FF914D;
   font-weight: bold;
 }
 
 
 body{
   overflow-x: hidden;
-  background-color: #121212;
+  background-color: #41465D;
 }
 
 #scrollto{
@@ -100,7 +114,7 @@ body{
    padding: .5em 1em;
    width: 25%;
    border-radius: 10px;
-   border: 3px solid #4568;
+   border: 3px solid #00C2CB;
    font-family: 'Space Mono';
 }
 
@@ -180,10 +194,10 @@ body{
 }
 
 button{
-  border: 2px solid #101522;
+  border: 0px ;
   width: 95%;
   font-size: 1em;
-  background-color: #101522;
+  background-color: #FF914D;
   font-family: 'Poppins';
   font-weight: bold;
   padding: .5em;
