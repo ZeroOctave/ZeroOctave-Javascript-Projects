@@ -209,6 +209,12 @@
     }
     ,
     {
+        "name":"Github Profiless",
+        "image":"assets/Images/GitHub-Profiles.jpeg",
+        "link":"Public/Google-clone.html"
+    }
+    ,
+    {
         "name":"Guess Color",
         "image":"assets/Images/guess_color.png",
         "link":"Public/guess_color.html"
