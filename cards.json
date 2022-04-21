@@ -615,6 +615,12 @@
     }
     ,
     {
+        "name":"Type Writer Effect",
+        "image":"assets/Images/type-writer.jpg",
+        "link":"Public/type-writer.html"
+    }
+    ,
+    {
         "name":"Weather App",
         "image":"assets/Images/weather.png",
         "link":"Public/weather_app.html"
