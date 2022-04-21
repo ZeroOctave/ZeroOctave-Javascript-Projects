@@ -424,6 +424,11 @@
         "name":"Random Color Generator",
         "image":"assets/Images/randomcolorgenerator.png",
         "link":"Public/random_color_generator.html"
+    },
+    {
+         "name":"Random Quote Generator",
+         "image":"assets/Images/Random_Quote.PNG",
+         "link":"Public/Random_Quote_Generator.html"
     }
     ,
     {
