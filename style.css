@@ -118,6 +118,19 @@ body{
    font-family: 'Space Mono';
 }
 
+@media only screen and (max-width:476px){
+  #searchbar{
+    width: 70%;
+  }
+  .title{
+    margin-top: 5em;
+    font-size: 45px;
+  }
+  #back-to-top{
+    position: relative;
+    z-index: 10;
+  }
+}
 
 /* CARDS DESIGN STARTS  */
 
