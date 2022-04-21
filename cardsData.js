@@ -915,4 +915,15 @@ const cardItems = [
   </div>
   <!--End of Book Shopping Website-->`,
 
+  `<!--This div is for Tinder Clone-->
+  <div class="card card1">
+      <img class="card-img-top" src="assets/Images/tinder_clone/TinderClone.jpg" alt="Tinder Clone">
+     <div class="card-body">
+        <h5 class="card-title">Tinder Clone WebApp</h5>
+        <p>Shows Tinder Clone Webapp clone using HTML, CSS, JS</p>
+        <a href="Public/Tinder_Clone_WebApp.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+      </div>
+    </div>
+    <!--End of Tinder Clone-->`,
+
 ]
