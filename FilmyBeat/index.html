@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmyBeat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+<body onload="loadExistingCards()">
+
+ <!-- Modal -->
+ <div class="modal fade "
+ id="newcardmodal" 
+ tabindex="-1" 
+ aria-labelledby="newCardModalLabel" 
+ aria-hidden="true">
+<div class="modal-dialog ">
+<div class="modal-content">
+ <div class="modal-header" 
+     style="background-color:#0c0b09;
+     color:white;
+     ">
+   <h5 class="modal-title" 
+   id="newCardModalLabel">Add New Task</h5>
+   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+ </div>
+ <div class="modal-body bg">
+   <div class="mb-3">
+       <label for="imgurl" class="form-label text-col">Movie Poster</label>
+       <input type="url" class="form-control input-style" id="imgurl" placeholder="URL of movie poster">
+   </div>
+   <div class="mb-3">
+       <label for="tasktitle" class="form-label text-col">Movie Name</label>
+       <input type="text" class="form-control input-style" id="tasktitle"  placeholder="Name of the Movie">
+   </div>
+   <div class="mb-3">
+       <label for="tasktype" class="form-label text-col">Genre</label>
+       <input type="text" class="form-control input-style" id="tasktype" placeholder="Genre">
+   </div>
+   <div class="mb-3">
+       <label for="taskdescription" class="form-label text-col">Description</label>
+       <textarea id="taskdescription" class="form-control input-style"   rows="5"  placeholder="Description"></textarea>
+   </div>
+</div>
+ <div class="modal-footer" style="background-color:#0b0c09;">
+   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+   <button type="button" 
+           class="btn btn-primary"
+           onclick="addNewCard()"
+           data-bs-dismiss="modal">
+           
+           Save changes</button>
+ </div>
+</div>
+</div>
+</div>
+<!-- NavBar-->
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-dark  custom ">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-4" href="#" style="color:#ffc107;"><u>Filmy<span class="main-color">Beat</span></u></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#" style="color:#ffc107;">Home</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color:#ffc107;">Genre</a>
+                 </li>
+                 <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#" style="color:#ffc107;">Movies</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color:#ffc107;">Series</a>
+               </li>
+               </ul>
+               <button class="btn btn-dark btn-outline-warning" 
+                       type="button" 
+                       data-bs-toggle="modal" 
+                       data-bs-target="#newcardmodal">
+                Add Movie <i class="fas fa-plus"></i> 
+              </button>
+            </div>
+
+        </div>
+    </nav>
+    </div>
+    <!-- Carousel-->
+    <div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+       
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+         <div class="lay-image"  style="background-image: url(./images/black-banner.png);">
+          <div class="container">
+            <h1>Black Panther</h1>
+            <p>T'Challa, heir to the hidden kingdom of Wakanda, must lead his people into a new future and confront a challenger from his country's past.</p>
+            <a href="#" class="btn btn-lg btn-primary">
+                Watch Now
+            </a>
+          </div>
+        </div>
+        </div>
+        <div class="carousel-item ">
+         <div class="lay-image"  style="background-image: url(./images/wanda-banner.jpg);">
+           <div class="container">
+            <h1>WandaVision</h1>
+            <p>Wanda and Vision struggle to conceal their powers during dinner with Vision’s boss and his wife.</p>
+            <a href="#" class="btn btn-lg btn-primary">
+                Watch Now
+            </a>
+         </div>
+        </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="lay-image"  style="background-image: url(./images/slider4.jpg);">
+            <div class="container">
+            <h1> Frozen</h1>
+            <p>Fearless Anna teams up with Kristoff and a snowman named Olaf to find her sister Elsa, whose icy powers have trapped the kingdom in eternal winter....</p>
+            <a href="#" class="btn btn-lg btn-primary">
+                Watch Now
+            </a>
+          </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+            <div class="lay-image"  style="background-image: url(./images/slider3.jpg);">
+              <div class="container">
+              <h1> Avengers Age of Ultron</h1>
+              <p>Tony Stark builds an Al system named Ultron, and when things go wrong, it's up to Earth's mightiest heroes to stop the villain from enacting his terrible plan....</p>
+              <a href="#" class="btn btn-lg btn-primary">
+                  Watch Now
+              </a>
+            </div>
+            </div>
+          </div> 
+       </div>
+       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </div>
+<!--Cards-->
+<!-- Task Container-->
+<section class="taskcontainer row" style="padding-top:20px;">
+   <!-- Black Widow-->    
+  <div id=${taskData.id} class="col-md-6 col-lg-3 mt-3" >
+    <div class="card" style="margin-left:5px; border:none">
+       <div class="card-header " style="background-color: #0c0b09">
+        <div class="d-flex justify-content-end gap-2">
+         <button type="button" class="btn"  disabled>
+           <i class="fas fa-pencil-alt"></i>
+         </button>
+         <button type="button" class="btn" disabled >
+           <i class="far fa-trash-alt"  ></i>
+         </button>
+        </div> 
+      </div>
+      <div style="background-color: #0c0b09">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/2949/1052949-v-f2364f3b06ab" class="card-img-top img-css" alt="image" >
+      </div>
+      <div class="card-body" style="background-color: #0c0b09">
+      <span class="badge bg-warning" style="color:black;margin-bottom:10px">Thriller</span>
+        <h5 class="card-title" style="color:white">BlackWidow</h5>
+        <p class="card-text" style="color:white">Released in Disney+Hotstar</p>
+       
+        
+      </div>
+      <div class="card-footer"style="background-color: #0c0b09">
+      
+        <button class="btn btn-outline-warning ">
+          Watch Now
+        </button>
+      </div>
+    </div>
+   </div>
+     <!-- What If-->
+   <div id=${taskData.id} class="col-md-6 col-lg-3 mt-3" >
+    <div class="card" style="margin-left:5px; border:none ">
+       <div class="card-header " style="background-color: #0c0b09">
+        <div class="d-flex justify-content-end gap-2">
+         <button type="button" class="btn" disabled >
+           <i class="fas fa-pencil-alt"></i>
+         </button>
+         <button type="button" class="btn" disabled>
+           <i class="far fa-trash-alt"  ></i>
+         </button>
+        </div> 
+      </div>
+      <div style="background-color: #0c0b09">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1744/1041744-v-f84d36239d74" class="card-img-top img-css" alt="image" >
+      </div>
+      <div class="card-body" style="background-color: #0c0b09">
+      <span class="badge bg-warning" style="color:black;margin-bottom:10px">Thriller</span>
+        <h5 class="card-title" style="color:white">What If...?</h5>
+        <p class="card-text" style="color:white">Released in Disney+Hotstar</p>
+       
+        
+      </div>
+      <div class="card-footer"style="background-color: #0c0b09">
+      
+        <button class="btn btn-outline-warning " >
+          Watch Now
+        </button>
+      </div>
+    </div>
+   </div>
+<!-- Loki-->
+<div id=${taskData.id} class="col-md-6 col-lg-3 mt-3" >
+  <div class="card" style="margin-left:5px; border:none ">
+     <div class="card-header " style="background-color: #0c0b09">
+      <div class="d-flex justify-content-end gap-2">
+       <button type="button" class="btn" disabled>
+         <i class="fas fa-pencil-alt"></i>
+       </button>
+       <button type="button" class="btn" disabled>
+         <i class="far fa-trash-alt"  ></i>
+       </button>
+      </div> 
+    </div>
+    <div style="background-color: #0c0b09">
+      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/525/820525-v" class="card-img-top img-css" alt="image" >
+    </div>
+    <div class="card-body" style="background-color: #0c0b09">
+    <span class="badge bg-warning" style="color:black;margin-bottom:10px">Thriller</span>
+      <h5 class="card-title" style="color:white">Dark Phoenix</h5>
+      <p class="card-text" style="color:white">Released in Disney+Hotstar</p>
+     
+      
+    </div>
+    <div class="card-footer"style="background-color: #0c0b09">
+    
+      <button class="btn btn-outline-warning ">
+        Watch Now
+      </button>
+    </div>
+  </div>
+ </div>
+<!-- Loki-->
+<div id=${taskData.id} class="col-md-6 col-lg-3 mt-3" >
+  <div class="card" style="margin-left:5px;  border:none">
+     <div class="card-header " style="background-color: #0c0b09">
+      <div class="d-flex justify-content-end gap-2">
+       <button type="button" class="btn" disabled>
+         <i class="fas fa-pencil-alt"></i>
+       </button>
+       <button type="button" class="btn" disabled>
+         <i class="far fa-trash-alt"  ></i>
+       </button>
+      </div> 
+    </div>
+    <div style="background-color: #0c0b09">
+      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8680/1028680-v-312ad1898861" class="card-img-top img-css" alt="image" >
+    </div>
+    <div class="card-body" style="background-color: #0c0b09">
+    <span class="badge bg-warning" style="color:black;margin-bottom:10px">Thriller</span>
+      <h5 class="card-title" style="color:white">Loki</h5>
+      <p class="card-text" style="color:white">Released in Disney+Hotstar</p>
+     
+      
+    </div>
+    <div class="card-footer"style="background-color: #0c0b09">
+    
+      <button class="btn btn-outline-warning ">
+        Watch Now
+      </button>
+    </div>
+  </div>
+ </div>
+</section>
+
+
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<!-- Image : https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/5157/875157-v-->

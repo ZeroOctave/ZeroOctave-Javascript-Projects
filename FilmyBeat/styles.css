@@ -1,0 +1,90 @@
+body{
+    background-color:black;
+}
+.main-color{
+    color:red;
+}
+.custom{
+    /* background: rgba(12, 11, 9, 0.6);*/
+     border-bottom: 1px solid rgba(12, 11, 9, 0.6);
+     transition: all 0.5s;
+     z-index: 997;
+     padding: 15px 0;
+     background-color: #0c0b09;
+ 
+ }
+
+ .carousel-item{
+     padding-top: 100px;
+     height:40rem;
+     background:black;
+     color: white;
+     position: relative;
+     
+     
+ }
+ .container{
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     padding-bottom: 50px;
+ }
+
+ .carousel-indicators{
+     height:3px;
+     width:30px;
+     color: white;
+
+ }
+ .lay-image{
+     position: absolute;
+    background-position: center;
+    background-size: cover;
+    bottom:0;
+    left:0;
+    top: 0;
+    right: 0;
+
+ }
+ .custom-input{
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    background: #0c0b09;
+    border-color: #625b4b;
+    color: white;
+
+}
+.input-style{
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    background: #0c0b09;
+    border-color: #625b4b;
+    color: white;
+}
+.bg{
+    background-color:black;
+}
+.text-col{
+    color: white;
+}
+
+.img-css{
+    width: 100%;
+  height: 100%;
+  transform-origin: top;
+  border-radius:none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.197);
+  transition: transform .4s;
+  max-height:350px;
+  
+
+}
+
+.img-css:hover{
+   /* transform: scaleX(1) scaleY(1.1) translateY(20px); */
+   transform: scaleX(0.9) scaleY(0.9) translateY(10px);
+}
+
