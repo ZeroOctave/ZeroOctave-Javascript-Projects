@@ -246,7 +246,7 @@ git push -u origin <your_branch_name>
 | 82. | [Expense Tracker](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/expense.html)| 83. | [15 Puzzle](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/15puzzle.html) | 84. | [Random Quote Generator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Random_Quote_Generator.html) |
 
 
-<br>
+<br> 
 
 <div id="Maintainer"></div>
 
