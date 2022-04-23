@@ -244,7 +244,7 @@ git push -u origin <your_branch_name>
 | 76. | [Color Changing App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Color-Changing-App.html) | 77. | [Key Detector](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/key_Detector.html) | 78. | [Tic Tac Toe](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/tic-tac-toe.html) |
 | 79. | [QR Code Generator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/QR_Code_Generator.html) | 80. | [Microsoft Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/microsoftclone.html) | 81. | [YouTube Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/YouTube_Clone/index.html)
 | 82. | [Expense Tracker](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/expense.html)| 83. | [15 Puzzle](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/15puzzle.html)| 84. | [Type Writer Effect](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/type-writer.html)
-| 85. | [Book Shopping Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/book-shopping-website/book.html)
+| 85. | [Book Shopping Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/book-shopping-website/book.html)| 86. | [Movie Search App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Movie-Search-App.html)
 
 
 

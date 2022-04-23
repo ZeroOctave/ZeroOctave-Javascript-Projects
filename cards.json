@@ -338,6 +338,11 @@
         "link":"Public/modalclosingbutton.html"
     },
     {
+        "name":"Movie Search App",
+        "image":"assets/Images/Movie-Search-App.png",
+        "link":"Public/Movie-Search-App.html"
+    },
+    {
         "name":"Movie Quote Generator",
         "image":"assets/Images/MovieQuoteGenerator.png",
         "link":"Public/MovieQuoteGenerator.html"
