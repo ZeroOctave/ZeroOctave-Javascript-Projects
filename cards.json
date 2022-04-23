@@ -427,6 +427,11 @@
     }
     ,
     {
+         "name":"random Quote Generator",
+         "image":"assets/Images/Random_Quote.PNG",
+         "link":"Public/Random_Quote_Generator.html"
+    },
+    {
         "name":"RD Return Calculator",
         "image":"assets/Images/RD-return-calculator.png",
         "link":"Public/RD-return-calculator.html"
