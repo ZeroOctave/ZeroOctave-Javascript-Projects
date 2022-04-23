@@ -1,4 +1,9 @@
 [
+     {
+        "name":"15 Puzzle Challenge",
+        "image":"assets/Images/15puzzle.png",
+        "link":"Public/15puzzle.html"
+    },
     {
         "name":"Accordion",
         "image":"assets/Images/accordion.png",
@@ -617,6 +622,12 @@
         "name":"Travel game",
         "image":"assets/Images/travel_game/travel.png",
         "link":"Public/Travel game.html"
+    }
+    ,
+    {
+        "name":"Type Writer Effect",
+        "image":"assets/Images/type-writer.jpg",
+        "link":"Public/type-writer.html"
     }
     ,
     {
