@@ -47,6 +47,11 @@
     }
     ,
     {
+        "name":"Book Shopping Website",
+        "image":"assets/Images/bookshopimgs/bookbuy5.png",
+        "link":"Public/book-shopping-website/book.html"
+    },
+    {
         "name":"BaseX Calculator",
         "image": "assets/Images/Basex.JPG",
         "link" :"Public/BaseX_Calculator.html"
@@ -622,6 +627,12 @@
         "name":"Travel game",
         "image":"assets/Images/travel_game/travel.png",
         "link":"Public/Travel game.html"
+    }
+    ,
+    {
+        "name":"Type Writer Effect",
+        "image":"assets/Images/type-writer.jpg",
+        "link":"Public/type-writer.html"
     }
     ,
     {
