@@ -5,16 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car-Race Game</title>
-    <link rel="stylesheet" href="/assets/css/car-race.css">
+    <link rel="stylesheet" href="../assets/css/car-race.css">
 </head>
 <body>
+  <div id="level" class="dropdown">
+  <button class="dropbtn">Difficulty level</button>
+  <div class="dropdown-content">
+    <a href="#" onclick="easy()">Easy</a>
+    <a href="#" onclick="medium()">Medium</a>
+    <a href="#" onclick="hard()">Hard</a>
+  </div>
+  </div>
+  <button id="reset" onClick="reset()">Reset</button>
+  <div>
+    <h2 id="head_inst">Instructions</h2>
+    <ol id="instructions">
+      <li>Use I J K L or arrow keys to operate the car.</li> <br>
+      <li>Yellow square are coins that you need to collect.</li> <br>
+      <li>Coins appear everytime when score is a multiple of 10</li> <br>
+      <li>Coins earned get collected over time as total coins</li> <br>
+      <li>Coins can be spent to slow down enemies and also your own car</li> <br>
+      <li>Use coins wisely as each time slowing requires 5 coins</li> <br>
+      <li>You can use P key to pause the game and C to continue</li> <br>
+    </ol>
+  </div>
     <div class="game center">
-        <div class="canvas-wrapper">
+        <div class="canvas-wrapper" id="canvas">
           <p id="score"></p>
+          <p id="coin"></p>
+          <p id="totalCoin"></p>
+          <button id="spend" onclick="spent()">Spend Coins</button>
           <canvas id="canvas-top"></canvas>
         </div>
         
-      </div>
+    </div>
+    <div>
+      <button id="start" onclick="starter()">Start</button>
+      <button id="pause" onclick="pause()">Pause</button>
+      <button id="stop" onclick="end()">Quit</button>
+    </div>
+    <div>
+      <h1 id="heading">Hello, welcome to the game!</h1>
+      <h1 id="finalScore"></h1>
+      <h1 id="paused"></h1>
+      <h1 id="text"></h1>
+      <h1 id="highestScore"></h1>
+    </div>
 </body>
-<script src="/assets/Js/car-race.js"></script>
+<script src="../assets/Js/car-race.js"></script>
 </html>

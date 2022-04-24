@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+#canvas {
+    position: relative;
+}
+#canvas-top, #heading, #button, #button_q, #gif, #score, #highest, #button_r, #level {
+    position: absolute;
+}
+label {
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+}
+#level {
+    top: 450px;
+    right: 50px;
+    visibility: visible;
+}
+#score {
+    top: 20px;
+    left: 90px;
+}
+#highest {
+    top: 20px;
+    right: 90px;
+}
+#gif {
+    top: 250px;
+    left: 450px;
+    visibility: visible;
+}
+#canvas-top {
+    visibility: hidden;
+}
+#heading {
+    font-size: 60px;
+    top: 100px;
+    left: 20%;
+    visibility: visible;
+}
+#button {
+    background-color: green;
+    border: 1px solid green;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    visibility: visible;
+    top: 700px;
+    left: 49%;
+}
+#button_r{
+    background-color: violet;
+    border: 1px solid violet;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    visibility: visible;
+    top: 790px;
+    left: 49%;
+}
+#button_q {
+    background-color: red;
+    border: 1px solid red;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    visibility: hidden;
+    top: 700px;
+    left: 49%;
+}

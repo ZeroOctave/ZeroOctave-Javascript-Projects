@@ -16,6 +16,19 @@
     data-position="Right" data-x_margin="50" data-y_margin="50">
     </script>
   <!--End of Buy me a coffee script-->
+
+  <!-- fontawesome starts -->
+  <script src="https://kit.fontawesome.com/bb036527a9.js" crossorigin="anonymous"></script>
+  <!--End of fontawesome -->
+  <!-- Start of google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Roboto+Slab&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- End of google fonts -->
+
   <link href="assets/css/landing_page.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="assets/js/analog_clock1.js" defer></script>
@@ -25,209 +38,260 @@
   <script src="assets/Js/weather_app.js" defer></script>
   <script src="assets/Js/Speed_Typer.js" defer></script>
   <script src="assets/Js/guess-the-number.js" defer></script>
+  <script src="./cardsData.js"></script>
 
 
-  
+
 
   <title>Landing Page</title>
 </head>
 
 <body>
+
+
+  <!-- This script is causing hearts to flow from top in every page remove it if needed -->
+  <script src="assets/Js/purple_heart.js"></script>
+
+
   <h1 class="title"><b>JavaScript Projects</b></h1>
   <div class="container background-container">
-    
-        <!--This column is for Analog clock-->
-        <div class="card card1">
-          <!--Analog Clock-->
-          <img class="card-img-top" src="assets/Images/analog.jpg" alt="Card analog">
-         <div class="card-body">
-          <div id="analoclock">
-            <h5 class="card-title">Analog Clock</h5>
-            <p>The best time on a clock is 6:30,
-                hands down.</p>
-            <a href="Public/Analog_clock.html" class="btn btn-outline-primary">Try Now</a>
-          </div>
-          </div>
-        </div>
-        <!--End of Analog clock column-->
-      
+    <!--searchbar-->
+    <input type="text" id="searchbar" placeholder="Enter your favourite project...">
+    <button id="searchbtn" onclick="func()"><i class="fa fa-search" aria-hidden="true"></i></button>
+    <script>
+      function func() {
+        var input, filter;
+        input = document.getElementById("searchbar");
+        filter = input.value.toUpperCase();
+        if (filter == "ANALOG CLOCK")
+          window.open("Public/Analog_clock.html");
+        if (filter == "AUTO WRITE TEXT")
+          window.open("Public/auto-write-text.html");
+        if (filter == "WORD DEFINITION")
+          window.open("Public/word_definition.html");
+        if (filter == "CALCULATOR")
+          window.open("Public/calculator.html");
+        if (filter == "COLOR FLIPPER 1")
+          window.open("Public/color_flipper_1.html");
+        if (filter == "COLOR FLIPPER 2")
+          window.open("Public/color_flipper_2.html");
+        if (filter == "DIGITAL CLOCK")
+          window.open("Public/digital_clock.html");
+        if (filter == "DIAL CODE FETCHER")
+          window.open("Public/DialCodeFetcher.html");
+        if (filter == "LOG-IN FORM")
+          window.open("Public/loginform.html");
+        if (filter == "PURPLE HEART ANIMATION")
+          window.open("Public/purple_heart.html");
+        if (filter == "TAKE QUIZ")
+          window.open("Public/quiz.html");
+        if (filter == "MUSIC")
+          window.open("Public/tap_music.html");
+        if (filter == "NOTIFICATION")
+          window.open("Public/toast_notification.html");
+        if (filter == "SPEECH-TO-TEXT-CONVERTER")
+          window.open("Public/Speech-to-Text-Converter.html");
+        if (filter == "CHECK WEATHER")
+          window.open("Public/weather_app.html");
+        if (filter == "GUESS COLOR")
+          window.open("Public/guess_color.html");
+        if (filter == "SPEED TYPER")
+          window.open("Public/Speed_Typer.html");
+        if (filter == "CAESAR CIPHER")
+          window.open("Public/CaesarCipher.html");
+        if (filter == "RESTAURANT WEBSITE")
+          window.open("Public/restaurant/restaurant.html");
+        if (filter == "ROCK PAPER SCISSOR")
+          window.open("Public/rock-paper-scissor/rock-paper-scissor.html");
+        if (filter == "INCREMENTINATOR 2.0")
+          window.open("Public/incrementinator.html");
+        if (filter == "QUOTES")
+          window.open("Public/accordion.html");
+        if (filter == "AIPAN ART HANDCRAFT")
+          window.open("Public/aipanArt.html");
+        if (filter == "AUTO IMAGE SLIDER")
+          window.open("Public/auto_image_slider.html");
+        if (filter == "BMI CALCULATOR")
+          window.open("Public/bmi-calculator.html");
+        if (filter == "COUNT DOWN TIMER")
+          window.open("Public/countdown-timer.html");
+        if (filter == "COUNTER")
+          window.open("Public/counter.html");
+        if (filter == "DRUM KIT")
+          window.open("Public/drum_kit.html");
+        if (filter == "FOOD RECEPIE CENTER")
+          window.open("Public/food_website.html");
+        if (filter == "HEIGHT CONVERTER")
+          window.open("Public/height-converter.html");
+        if (filter == "HULU")
+          window.open("Public/hulu.html");
+        if (filter == "IMAGE EDITOR")
+          window.open("Public/image_editor.html");
+        if (filter == "LOAN CALCULATOR")
+          window.open("Public/loan-calculator.html");
+        if (filter == "MATHS FORMULAE WEBSITE")
+          window.open("Public/maths-formulae.html");
+        if (filter == "MODAL WINDOW GENERATOR")
+          window.open("Public/Modal.html");
+        if (filter == "AN NGO WEBSITE")
+          window.open("Public/NGO.html");
+        if (filter == "NOTE APP")
+          window.open("Public/noteapp.html");
+        if (filter == "POPUP")
+          window.open("Public/popup.html");
+        if (filter == "RANDOM COLOR GENERATOR")
+          window.open("Public/random_color_generator.html");
+        if (filter == "RESPONSIVE NAVIGATION BAR")
+          window.open("Public/responsive_nav.html");
+        if (filter == "RESUME BUILDER")
+          window.open("Public/resume_builder.html");
+        if (filter == "DICE GAME")
+          window.open("Public/dice_game.html");
+        if (filter == "SPEED TYPING")
+          window.open("Public/speed.html");
+        if (filter == "SPOTIFY CLONE")
+          window.open("Public/spotify-clone.html");
+        if (filter == "STONE PAPER SCISSORS")
+          window.open("Public/stone_paper_scissors.html");
+        if (filter == "TIP CALCULATOR")
+          window.open("Public/tip_calculator.html");
+        if (filter == "3D SOLAR SYSTEM")
+          window.open("Public/solar.html");
+        if (filter == "PRIME FACTOR CALCULATOR")
+          window.open("Public/primeCalc.html");
+        if (filter == "MAGIC NOTE")
+          window.open("Public/todo.html");
+        if (filter == "WEATHER CALCULATOR")
+          window.open("Public/weather_app.html");
+        if (filter == "WEIGHT CONVERTER")
+          window.open("Public/weight_conv.html");
+        if (filter == "WORD COUNT CALCULATOR")
+          window.open("Public/word-count-calculator.html");
+        if (filter == "CRYPTO-APP")
+          window.open("Public/crypto_app.html");
+        if (filter == "SCIENTIFIC CALCULATOR")
+          window.open("Public/scientific_calculator.html");
+        if (filter == "GITHUB-PROFILES")
+          window.open("Public/GitHub-Profiles.html");
+        if (filter == "BOOKS LIBRARY")
+          window.open("Public/BooksLibrary.html");
+        if (filter == "GUESS THE NUMBER")
+          window.open("Public/guess-the-number.html");
+        if (filter == "SIMON GAME")
+          window.open("Public/Simon_game.html");
+        if (filter == "PONG GAME")
+          window.open("Public/pong.html");
+        if (filter == "DICTIONARY APP")
+          window.open("Public/dictionary.html");
+        if (filter == "CUSTOM ICE CREAM MAKER")
+          window.open("Public/icecream.html");
+        if (filter == "SNEAKER SITE")
+          window.open("Public/sneaker.html");
+        if (filter == "CRUD PROJECT")
+          window.open("Public/crud-project.html");
+        if (filter == "CURRENCY CONVERTER")
+          window.open("Public/Currency-converter.html");
+        if (filter == "HANGMAN GAME")
+          window.open("./Public/hangman.html");
+        if (filter == "TO-DO LIST")
+          window.open("./Public/to-do.html");
+        if (filter == "MOVIE/TV SERIES QUOTE GENERATOR")
+          window.open(".Public/MovieQuoteGenerator.html");
+        if (filter == "PORTFOLIO WEBSITE")
+          window.open("/Public/multiple-portfolio.html");
+        if (filter == "TRANSPOSE-MATRIX CALCULATOR")
+          window.open("Public/Transpose-Matrix-Calculator.html");
+        if (filter == "PASSWORD GENERATOR")
+          window.open("Public/password_generator.html");
+        if (filter == "MEMORY GAME")
+          window.open("Public/memory.html");
+        if (filter == "RD RETURN CALCULATOR")
+          window.open("./Public/RD-return-calculator.html");
+        if (filter == "SPEECH SYNTHESIS")
+          window.open("./Public/speech_synthesis.html");
+        if (filter == "COLOR CHANGING APP")
+          window.open("./Public/Color-Changing-App.html");
+        if (filter == "Tik Tok Clone")
+          window.open("./Public/Tiktok_Clone.html");
+      	if (filter == "TIC TAC TOE")
+          window.open("./Public/tic-tac-toe.html");
+      }
+      if(filter == "MICROSOFT CLONE"){
+        window.open("./Public/microsoftclone.html")
+      }
+	    if(filter == "DRAWING APP"){
+        window.open("./Public/drawingapp.html")
+      }
+    </script>
 
-        <!--This column is for auto write text-->
-        <div class="card card1">
-          <!--Start of auto-write-text-->
-          <img class="card-img-top" src="assets/Images/auto-write.jpg" alt="Card auto-write">
-          <div class="auto-write">
-            <h4 style="color: crimson;" id="auto-write-target" class="auto-write-target-class"></h4>
-          </div>
-          <!--End of auto write text-->
-          <div class="card-body" id="auto-write-text">
-            <h5 class="card-title">Auto Write Text</h5>
-            <p>Typing? Nah! I'm just gonna make my computer type for me.</p>
-            <a href="Public/auto-write-text.html" class="btn btn-outline-primary">Try Now</a>
-          </div>
-        </div>
-        <!--End of auto write text column-->
-      
-      
-        <!--This column is for calculator-->
-        <div class="card">
-          <!--Start of Calculator-->
-          <img class="card-img-top" src="assets/Images/calculator.jpg" alt="Card calculator">
-          <div class="card-body">
-            <h5 class="card-title">Calculator</h5>
-            <p>Always trust on calculator. You can count on it!!</p>
-            <a href="Public/calculator.html" class="btn btn-outline-primary">Try now</a>
-          </div>
-        </div>
-        <!--End of calculator-->
-      
-      
-        <!--This column is for color_flipper_1-->
-        <div class="card">
-          <img class="card-img-top" src="assets/Images/color-flipper-1.jpg" alt="Card calculator">
-          <div id=Color_flipper_1>
-            
-              <div class="card-body">
-                <h5>Color Flipper 1</h5>
-                <p> Explore amazing colors in just a single click !</p>
-              
-          <!-- javascript -->
-            <script src="assets/js/color_flipper_1_1.js" defer></script>
-        
-            <a href="Public/color_flipper_1.html" class="btn btn-outline-primary">Try now</a>
-             </div>
-          </div> 
-        </div>
-        <!--End of color_flipper_1-->
-      
-      
-        <!--This column is for color_flipper_2-->
-        <div class="card">
-          <img class="card-img-top" src="assets/Images/color-flipper-2.jpg" alt="Card calculator">
-          <!--colorflipper-->
-          <div class="colorflipper2 card-body">
-            <h5>Color Flipper 2</h5>
-            <p>Explore some more amazing colors in just a single click !</p>
-          
-            <a href="Public/color_flipper_2.html" class="btn btn-outline-primary">Try now</a>
-        
-          </div>
-        </div>
-        <!--End of color_flipper_2-->
-      
-      
-        <!--This column is for digital_clock-->
-        <div class="card">
-          <img class="card-img-top" src="assets/Images/digital.jpg" alt="Card calculator">
-          <div class="digitalclock">
-            <div id="MyClockDisplay" class="clock1" onload="showTime()"></div>
-            <script src="assets/Js/digital_clock.js"></script>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Digital Clock</h5>
-            <p>Digital clocks...
-              They're just a sign of the times.</p>
-            <a href="Public/digital_clock.html" class="btn btn-outline-primary">Try now</a>
-          </div>
-        </div>
-        <!--End of digital_clock-->
-      
-      
-        <!--This column is for loginform-->
-        <div class="card">
-          <img class="card-img-top" src="assets/Images/login.jpg" alt="Card image cap">
-          <div class="card-body" id="loginform">
-            <h5 class="card-title">Log-in Form</h5>
-            <p>Log-in form template you might want to use..</p>
-            <a href="Public/loginform.html" class="btn btn-outline-primary">Try now</a>
-          </div>
-        </div>
-        <!--End of loginform-->
-      
-      
-        <!--This column is for purple_hurt-->
-        <div class="card">
-          <img class="card-img-top" src="assets/Images/purple_heart.jpg">
-          <script src="assets/Js/purple_heart.js"></script>
-          <div class="card-body" id="purpleheart">
-            <h5 class="card-title">Purple Heart Animation</h5>
-            <p>Who doesn't want a heart floating for them !!</p>
-            <a href="Public/purple_heart.html" class="btn btn-outline-primary">Try now</a>
-          </div>
-        </div>
-        <!--End of purple_hurt-->
-      
-    
-        <!--This column is for quiz-->
-        <div class="card">
-          <img class="card-img-top" src="assets/Images/quiz.jpg" alt="Card calculator">
-            <!--Start of quiz-->
-        <div class="card-body" id="quizappid">
-          
-          <h5 class="card-title">Take Quiz</h5>
-          <p>Quizes - A way of fun learning!</p>
-          <a href="Public/quiz.html" class="btn btn-outline-primary">Try now</a>
-        </div>
-    </div>
-        <!--End of quiz-->
-      
-     
-        <!--This column is for tap_music-->
-        <div class="card">
-          <img class="card-img-top" src="assets/Images/music.jpg" alt="Card image cap">
-          <div class="card-body" id="music">
-            <h5 class="card-title">Music</h5>
-            <p>Remedy to every your stress - Music</p>
-            <a href="Public/tap_music.html" class="btn btn-outline-primary">Try now</a>
-          </div>
-        </div>
-        <!--End of tap_music-->
-     
-      
-        <!--This column is for toast_notification-->
-        <div class="card">
-          <!--Start of notification-->
-          
-          <img class="card-img-top" src="assets/Images/notification.jpg">
-          
-          <!--End of notification-->
-          <div class="card-body" id="notification">
-            <h5 class="card-title">Notification</h5>
-            <p>Pretty notfication template for your website.</p>
-            <a href="Public/toast_notification.html" class="btn btn-outline-primary">Try now</a>
-          </div>
-        </div>
-        <!--End of toast_notification-->
-      
-      
-        <!--This column is for weather_app-->
-        <div class="card">
-          <img class="card-img-top" src="assets/Images/weather.jpg" alt="Card image cap">
-          <main id="main"></main>
-          <div class="card-body">
-            <h5 class="card-title">Check Weather</h5>
-            <p>Making plans? You might wanna check weather first!</p>
-            <a href="Public/weather_app.html" class="btn btn-outline-primary">Try now</a>
-          </div>
-        </div>
-        <!--End of weather_app-->
-      
-     
-        <!--This column is for guess_color-->
-        <div class="card">
-          <img class="card-img-top" src="assets/Images/guess_color.png" alt="Card image cap">
-          <div class="card-body" id="guess_color">
-            <h5 class="card-title">Guess Color</h5>
-            <p>Have fun with color guessing game.</p>
-            <p></p>
-            <a href="Public/guess_color.html" class="btn btn-outline-primary">Try now</a>
-          </div>
-        </div>
-        <!--End of guess_color-->
+  </div>
 
-      
+  <div class="loading show">
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+  </div>
 
-      <!-- add new projects here inside a div with class card and inside that add image with class card-img-top and after that make a div with class card-body and write heading <h5> and <p> inside that div-->
+  <script>
+    var noOfCardsToLoad = 10;
+    var cardLoadedYet = 0;
+    var loadingBalls=false
+    const loading = document.querySelector('.loading');
+    console.log(cardItems[0])
+    showLoading();
+    window.addEventListener('scroll', () => {
+      const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+
+      console.log({ scrollTop, scrollHeight, clientHeight });
+
+      var footerHeight = document.getElementsByClassName('footer')[0].offsetHeight;
+      console.log(footerHeight)
+
+      if (clientHeight + scrollTop >= scrollHeight - footerHeight && cardLoadedYet < cardItems.length) {
+        // show the loading animation
+        // setTimeout(showLoading,1000);
+        showLoading()
+      }
+    });
+
+    function showLoading() {
+      loading.classList.add('show');
+      // load more data
+      // showNextItems();
+      if(loadingBalls==false)
+      {
+        loadingBalls=true;
+        setTimeout(showNextItems, 1000)
+
+      }
+
+
+    }
+
+
+
+    function showNextItems() {
+     
+      console.log('show next items')
+      const container = document.getElementsByClassName('container')[0];
+
+      console.log(cardItems.length, cardLoadedYet)
+      let temp = cardLoadedYet
+
+      for (; cardLoadedYet <= (noOfCardsToLoad + temp < cardItems.length ? noOfCardsToLoad + temp : cardItems.length - 1); cardLoadedYet++) {
+
+        console.log(cardItems[cardLoadedYet])
+        container.innerHTML += cardItems[cardLoadedYet];
+      }
+
+
+      if (cardLoadedYet >= cardItems.length)
+        loading.classList.remove('show');
+
+        loadingBalls=false;
+    }
+  </script>
+  <!-- Optional JavaScript -->
 
         <!-- This is for typing test -->
         <div class="card">
@@ -596,8 +660,6 @@
       <a href="Public/guess-the-number.html" class="btn btn-outline-primary">Try now</a>
     </div>
   </div>
-<!-- end of guess the number -->
-</div> 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -609,6 +671,161 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+
+
+
+  <!-- footer section starts -->
+
+  <footer class="footer">
+    <div class="row">
+      <!-- footer about section -->
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <h3 class="footer-heading">ZeroOctave</h3>
+        <hr class="footer-hr-1">
+        <p class="footer-about">ZeroOctave Javascript Projects provide some awesome web development projects to work
+          upon and enhance your skills. The motive of this project is to help new learners like you to get familiar with
+          web development skills.</p>
+      </div>
+      <!-- developers section -->
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <h3 class="footer-heading">Collaborations</h3>
+        <ul class="organisations">
+          <hr class="footer-hr-1">
+          <a href="https://hacktoberfest.digitalocean.com/" target="_blank">
+            <li>Hacktoberfest 2021</li>
+            <hr class="footer-hr-2">
+          </a>
+          <a href="https://icc-techsahead.netlify.app/" target="_blank">
+            <li>ICC 2021</li>
+            <hr class="footer-hr-2">
+          </a>
+          <a href="https://dwoc.io/" target="_blank">
+            <li>DWOC 2021</li>
+            <hr class="footer-hr-2">
+          </a>
+          <a href="https://gssoc.girlscript.tech/" target="_blank">
+            <li>GSSOC 2022</li>
+            <hr class="footer-hr-2">
+          </a>
+        </ul>
+      </div>
+      <!-- social media icons -->
+      <div class="col-lg-4 col-md-4 col-sm-12 icon">
+        <h3 class="footer-heading">Follow Us</h3>
+        <hr class="footer-hr-1">
+        <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"><i
+            class="fa-brands fa-github fa-2x social-icon"></i></a><br>
+        <a href="https://twitter.com/zero_octave"><i class="fa-brands fa-twitter fa-2x social-icon"></i></a><br>
+        <a href="https://zerooctave.github.io/"><i class="fa-solid fa-globe fa-2x social-icon"></i></a><br>
+        <a href="ZeroOctave@protonmail.com"><i class="fa-solid fa-envelope fa-2x social-icon"></i></a><br>
+      </div>
+
+        <!--This div is for Sticky Notes application-->
+        <div class="card card1">
+            <img class="card-img-top" src="assets/Images/sticky_notes.png" alt="Sticky Notes">
+            <div class="card-body">
+                <h5 class="card-title">Sticky Notes</h5>
+                <p>Create your own sticky notes. Yes, you may throw all of those paper sticky notes away now!</p>
+                <a href="Public/sticky_notes.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+            </div>
+        </div>
+        <!--End of Sticky Notes application-->
+
+         <!--This div is for  QR_Code_Generator-->
+         <div class="card card1">
+            <img class="card-img-top" src="assets/Images/QR_Code_Generator.png" alt="QR_Code_Generator">
+            <div class="card-body">
+                <h5 class="card-title">QR Code Generator</h5>
+                <p>It Generates QR Code with respect to contain added</p>
+                <a href="Public/QR_Code_Generator.html" target="_blank" class="btn btn-outline-primary">Try Now</a>
+            </div>
+        </div>
+        <!--End of  QR_Code_Generator-->
+
+
+    </div>
+	<!--Back to top button-->
+    <a href = "#top">
+      <button id="back-to-top">
+      <i class="material-icons">arrow_upward</i>
+      </button>
+      </a>
+      <script>
+        const btnScrollToTop = document.querySelector("#back-to-top");
+        btnScrollToTop.addEventListener("click", function () {
+          window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+          })
+  
+        });
+      </script>
+	  
+	  
+    <!-- copyright notice -->
+    <div class="copyright">
+      <p class="copyright-message">© Copyright 2021-2022.<br>All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- footer section ends -->
+
+
+  <!-- footer section starts -->
+
+  <footer class="footer">
+    <div class="row">
+      <!-- footer about section -->
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <h3 class="footer-heading">ZeroOctave</h3>
+        <hr class="footer-hr-1">
+        <p class="footer-about">ZeroOctave Javascript Projects provide some awesome web development projects to work
+          upon and enhance your skills. The motive of this project is to help new learners like you to get familiar with
+          web development skills.</p>
+      </div>
+      <!-- developers section -->
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <h3 class="footer-heading">Collaborations</h3>
+        <ul class="organisations">
+          <hr class="footer-hr-1">
+          <a href="https://hacktoberfest.digitalocean.com/" target="_blank">
+            <li>Hacktoberfest 2021</li>
+            <hr class="footer-hr-2">
+          </a>
+          <a href="https://icc-techsahead.netlify.app/" target="_blank">
+            <li>ICC 2021</li>
+            <hr class="footer-hr-2">
+          </a>
+          <a href="https://dwoc.io/" target="_blank">
+            <li>DWOC 2021</li>
+            <hr class="footer-hr-2">
+          </a>
+          <a href="https://gssoc.girlscript.tech/" target="_blank">
+            <li>GSSOC 2022</li>
+            <hr class="footer-hr-2">
+          </a>
+        </ul>
+      </div>
+      <!-- social media icons -->
+      <div class="col-lg-4 col-md-4 col-sm-12 icon">
+        <h3 class="footer-heading">Follow Us</h3>
+        <hr class="footer-hr-1">
+        <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"><i
+            class="fa-brands fa-github fa-2x social-icon"></i></a><br>
+        <a href="https://twitter.com/zero_octave"><i class="fa-brands fa-twitter fa-2x social-icon"></i></a><br>
+        <a href="https://zerooctave.github.io/"><i class="fa-solid fa-globe fa-2x social-icon"></i></a><br>
+        <a href="ZeroOctave@protonmail.com"><i class="fa-solid fa-envelope fa-2x social-icon"></i></a><br>
+      </div>
+
+    </div>
+
+    <!-- copyright notice -->
+    <div class="copyright">
+      <p class="copyright-message">© Copyright 2021-2022.<br>All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- footer section ends -->
+
 </body>
 
 </html>
