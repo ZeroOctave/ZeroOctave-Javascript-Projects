@@ -245,7 +245,7 @@ git push -u origin <your_branch_name>
 | 79. | [QR Code Generator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/QR_Code_Generator.html) | 80. | [Microsoft Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/microsoftclone.html) | 81. | [YouTube Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/YouTube_Clone/index.html)
 | 82. | [Expense Tracker](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/expense.html)| 83. | [15 Puzzle](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/15puzzle.html)| 84. | [Type Writer Effect](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/type-writer.html)
 | 85. | [Book Shopping Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/book-shopping-website/book.html)| 86. | [Movie Search App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Movie-Search-App.html)| 87. | [Random Quote Generator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Random_Quote_Generator.html) 
-| 88. | [RGB Mixer](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/rgbmixer.html)
+| 88. | [RGB Mixer](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/rgbmixer.html)| 89. | [Google Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Google-clone.html)
 
 
 <br>
