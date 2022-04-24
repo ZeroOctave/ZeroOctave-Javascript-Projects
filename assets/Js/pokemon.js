@@ -47,14 +47,19 @@ function startGame() {
         for (let c = 0; c < columns; c++) {
             let cardImg = cardSet.pop();
             row.push(cardImg); //JS
+            console.log(cardImg)
 
-            // <img id="0-0" class="card" src="water.jpg">
+            // <img id="0-0" class="card" src="../Images/pokemon/water.jpg">
             let card = document.createElement("img");
+            console.log(card)
             card.id = r.toString() + "-" + c.toString();
-            card.src = cardImg + ".jpg";
+            console.log(card.id)
+            card.src = "../assets/Images/pokemon/" + cardImg + ".jpg";
+            console.log(card.src)
             card.classList.add("card");
             card.addEventListener("click", selectCard);
             document.getElementById("board").append(card);
+
 
         }
         board.push(row);
@@ -68,7 +73,7 @@ function hideCards() {
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns; c++) {
             let card = document.getElementById(r.toString() + "-" + c.toString());
-            card.src = "back.jpg";
+            card.src = "../assets/Images/pokemon/back.jpg";
         }
     }
 }
@@ -83,7 +88,7 @@ function selectCard() {
             let r = parseInt(coords[0]);
             let c = parseInt(coords[1]);
 
-            card1Selected.src = board[r][c] + ".jpg";
+            card1Selected.src = "../assets/Images/pokemon/" + board[r][c] + ".jpg";
         } else if (!card2Selected && this != card1Selected) {
             card2Selected = this;
 
@@ -91,7 +96,7 @@ function selectCard() {
             let r = parseInt(coords[0]);
             let c = parseInt(coords[1]);
 
-            card2Selected.src = board[r][c] + ".jpg";
+            card2Selected.src = "../assets/Images/pokemon/" + board[r][c] + ".jpg";
             setTimeout(update, 1000);
         }
     }
@@ -101,8 +106,8 @@ function selectCard() {
 function update() {
     //if cards aren't the same, flip both back
     if (card1Selected.src != card2Selected.src) {
-        card1Selected.src = "back.jpg";
-        card2Selected.src = "back.jpg";
+        card1Selected.src = "/assets/Images/pokemon/back.jpg";
+        card2Selected.src = "/assets/Images/pokemon/back.jpg";
         errors += 1;
         document.getElementById("errors").innerText = errors;
     }

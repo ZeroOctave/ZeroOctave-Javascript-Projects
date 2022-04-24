@@ -6,11 +6,13 @@ body {
 }
 
 #board {
-    height: 532px;
-    width: 475px;
+    max-width: 590px;
+    width: 100%;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    padding: 10px;
     background-color: whitesmoke;
     border: 10px solid lightgrey;
 }
