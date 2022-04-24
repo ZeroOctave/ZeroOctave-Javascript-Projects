@@ -478,6 +478,12 @@
     }
     ,
     {
+        "name":"RGB Mixer",
+        "image":"assets/Images/rgbmixer.png",
+        "link":"Public/rgbmixer.html"
+    }
+    ,
+    {
         "name":"Scientific Calculator",
         "image":"assets/Images/scientific_calculator.png",
         "link":"Public/scientific_calculator.html"
