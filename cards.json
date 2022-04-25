@@ -1,9 +1,4 @@
 [
-     {
-        "name":"15 Puzzle Challenge",
-        "image":"assets/Images/15puzzle.png",
-        "link":"Public/15puzzle.html"
-    },
     {
         "name":"Accordion",
         "image":"assets/Images/accordion.png",
@@ -478,6 +473,12 @@
     }
     ,
     {
+        "name":"RGB Mixer",
+        "image":"assets/Images/rgbmixer.png",
+        "link":"Public/rgbmixer.html"
+    }
+    ,
+    {
         "name":"Scientific Calculator",
         "image":"assets/Images/scientific_calculator.png",
         "link":"Public/scientific_calculator.html"
@@ -595,6 +596,12 @@
         "name":"Tiktok Clone",
         "image":"assets/Images/tiktok_clone/tiktok-musical-ly-video-bytedance.png",
         "link":"Public/Tiktok_Clone.html"
+    }
+    ,
+    {
+        "name":"Tinder Clone",
+        "image":"assets/Images/tinder_clone.jpg",
+        "link":"Public/Tinder_Clone.html"
     }
     ,
     {
