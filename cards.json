@@ -220,6 +220,11 @@
     }
     ,
     {
+         "name":"Google Clone",
+         "image":"assets/Images/Google-clone.PNG",
+         "link":"Public/Google-clone.html"
+    },
+    {
         "name":"Guess Color",
         "image":"assets/Images/guess_color.png",
         "link":"Public/guess_color.html"
