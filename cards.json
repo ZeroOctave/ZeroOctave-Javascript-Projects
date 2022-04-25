@@ -42,6 +42,11 @@
     }
     ,
     {
+        "name":"Book Shopping Website",
+        "image":"assets/Images/bookshopimgs/bookbuy5.png",
+        "link":"Public/book-shopping-website/book.html"
+    },
+    {
         "name":"BaseX Calculator",
         "image": "assets/Images/Basex.JPG",
         "link" :"Public/BaseX_Calculator.html"
@@ -328,6 +333,11 @@
         "link":"Public/modalclosingbutton.html"
     },
     {
+        "name":"Movie Search App",
+        "image":"assets/Images/Movie-Search-App.png",
+        "link":"Public/Movie-Search-App.html"
+    },
+    {
         "name":"Movie Quote Generator",
         "image":"assets/Images/MovieQuoteGenerator.png",
         "link":"Public/MovieQuoteGenerator.html"
@@ -422,6 +432,11 @@
     }
     ,
     {
+         "name":"random Quote Generator",
+         "image":"assets/Images/Random_Quote.PNG",
+         "link":"Public/Random_Quote_Generator.html"
+    },
+    {
         "name":"RD Return Calculator",
         "image":"assets/Images/RD-return-calculator.png",
         "link":"Public/RD-return-calculator.html"
@@ -455,6 +470,12 @@
         "name":"Reviews",
         "image":"assets/Images/rev.jpg",
         "link":"Public/reviews.html"
+    }
+    ,
+    {
+        "name":"RGB Mixer",
+        "image":"assets/Images/rgbmixer.png",
+        "link":"Public/rgbmixer.html"
     }
     ,
     {
@@ -618,6 +639,12 @@
         "name":"Travel game",
         "image":"assets/Images/travel_game/travel.png",
         "link":"Public/Travel game.html"
+    }
+    ,
+    {
+        "name":"Type Writer Effect",
+        "image":"assets/Images/type-writer.jpg",
+        "link":"Public/type-writer.html"
     }
     ,
     {

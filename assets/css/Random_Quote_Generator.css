@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #d6d6d8;
+}
+.wrapper {
+    width: 605px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+    box-shadow: -3px -3px 7px #babecc,
+                2px 2px 5px #2a2a2a;
+}
+.wrapper header {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper .content {
+    margin: 35px 0;
+}
+.content .quote-area {
+    display: flex;
+    justify-content: center;
+}
+.quote-area .quote {
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+.quote-area i {
+    font-size: 15px;
+}
+.quote-area i:first-child {
+    margin: 3px 10px 0 0;
+}
+.quote-area i:last-child {
+    margin: 0 0 3px 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.content .author {
+    display: flex;
+    justify-content: flex-end;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.author span:first-child {
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+}
+.wrapper .buttons {
+    border-top: 1px solid #ccc;
+}
+.wrapper .features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.features ul {
+    display: flex;
+}
+.features ul li {
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    border: 2px solid #5372F0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5372F0;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.features ul li {
+    color: #fff;
+    background-color: #5372F0;
+}
+.features button{
+    outline: none;
+    border: none;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background-color: #5372F0;
+    color: #fff;
+    font-style: 16px;
+    cursor: pointer;
+}
+button.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
