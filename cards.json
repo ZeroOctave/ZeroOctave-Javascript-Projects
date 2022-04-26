@@ -679,7 +679,12 @@
         "name":"YouTube Clone",
         "image":"assets/Images/YouTubeClone/YouTubeClone.png",
         "link":"Public/YouTube_Clone/index.html"
+    },
+    {
+        "name":"Weeb List",
+        "image":"assets/Images/weeblist.png",
+        "link":"Public/weeblist.html"
     }
-    
+
 
 ]
