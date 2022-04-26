@@ -237,6 +237,12 @@
     }
     ,
     {
+        "name":"Gym Website",
+        "image":"assets/Images/gym-website/bg1.jpg",
+        "link":"Public/gym-website.html"
+    }
+    ,
+    {
         "name":"Hangman",
         "image":"assets/Images/hangman.png",
         "link":"Public/hangman.html"
