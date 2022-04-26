@@ -653,6 +653,12 @@
     }
     ,
     {
+        "name":"Travel Website",
+        "image":"assets/Images/travel-website/8.jpg",
+        "link":"Public/travel-website.html"
+    }
+    ,
+    {
         "name":"Type Writer Effect",
         "image":"assets/Images/type-writer.jpg",
         "link":"Public/type-writer.html"
