@@ -246,7 +246,8 @@ git push -u origin <your_branch_name>
 | 82. | [Expense Tracker](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/expense.html)| 83. | [15 Puzzle](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/15puzzle.html)| 84. | [Type Writer Effect](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/type-writer.html)
 | 85. | [Book Shopping Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/book-shopping-website/book.html)| 86. | [Movie Search App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Movie-Search-App.html)| 87. | [Random Quote Generator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Random_Quote_Generator.html) 
 | 88. | [RGB Mixer](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/rgbmixer.html)| 89. | [Google Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Google-clone.html)| 90. | [Tinder Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Tinder_Clone.html)
-| 91. | [Gym Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/gym-website.html)| 91. | [Travel Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/travel-website.html)
+| 91. | [Gym Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/gym-website.html) | 92. | [Temperature Converter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/temperature-converter.html)| 93. | [Google Clone1](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/googleClone1/googleclone1.html)
+| 94. | [Travel Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/travel-website.html)
 <br>
 
 <div id="Maintainer"></div>
