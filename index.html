@@ -39,7 +39,21 @@
 
 </head>
 
-<body>
+<body onload="pre_loading()">
+
+  <!--Preloader-->
+  <div class="preloadeR" id="preLoading" ><span>Loading...</span></div>
+
+<script>
+      var p = document.getElementById('preLoading'); 
+
+      function pre_loading(){
+      setTimeout( myfunction,2000);
+      }
+      function myfunction(){
+      p.style.display = 'none';
+      }
+</script>
 
 
   <!-- This script is causing hearts to flow from top in every page remove it if needed -->

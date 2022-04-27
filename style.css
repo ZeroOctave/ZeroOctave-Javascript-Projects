@@ -92,6 +92,65 @@ body{
   background-color: #41465D;
 }
 
+/* preloader */
+.preloadeR {
+  background: #41465D;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  z-index: 9999999;
+}
+.preloadeR span {
+  position: absolute;
+  width: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-transform: uppercase;
+}
+.preloadeR span::before,
+.preloadeR span::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: #FF914D;
+  position: absolute;
+  animation: load 1s infinite alternate ease-in-out;
+}
+.preloadeR span::before {
+  top: 0;
+}
+.preloadeR span::after {
+  bottom: 0;
+}
+@keyframes load {
+  0% {
+    left: 0;
+    height: 30px;
+    width: 15px;
+  }
+  50% {
+    height: 8px;
+    width: 40px;
+  }
+  100% {
+    left: 235px;
+    height: 30px;
+    width: 15px;
+  }
+}
+/* ------------ */
+
 #scrollto{
   margin-top: 2em;
 }
