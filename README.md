@@ -248,6 +248,7 @@ git push -u origin <your_branch_name>
 | 88. | [RGB Mixer](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/rgbmixer.html)| 89. | [Google Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Google-clone.html)| 90. | [Tinder Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Tinder_Clone.html)
 | 91. | [Gym Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/gym-website.html) | 92. | [Temperature Converter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/temperature-converter.html)| 93. | [Google Clone1](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/googleClone1/googleclone1.html)
 | 94. | [Travel Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/travel-website.html)
+| 95. | [Pixel Converter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Pixel-converter.html)
 <br>
 
 <div id="Maintainer"></div>
