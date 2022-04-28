@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome kit link -->
+    <script src="https://kit.fontawesome.com/e9a455a273.js" crossorigin="anonymous"></script>
+    <title>Book N Buy - Book Shopping Site</title>
+    <!-- link for swiperjs -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="../../assets/css/book.css">
+    
+    
+</head>
+<body>
+
+    <!-- header section starts -->
+
+<header class="header">
+    <!-- for the logo, use font awesome -->
+    
+    <div class="headerfile">
+        <a href="#" class="logo"><i class="far fa-bookmark"></i> Book N Buy</a>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Search for a book or author..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            
+            <!-- shopping cart and log in buttons + dark/light mode toggle-->
+            <div id="search-btn" class="fas fa-search"></div>
+            <div>
+
+           <ul>
+            
+
+            </div>
+            <div id="login-btn" class="far fa-user"></div>
+            <a onclick="darkMode()" class="fas fa-adjust"><p><b>Dark Mode!</b></p></a>
+        </ul>
+
+      
+    </div>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+
+        </div>
+    </div>
+    <div class="headertag">
+        <nav class="navbar"> <!-- toggle shortcut(navigation) bars -->
+            <a href="book.html">Home</a>
+            <a href="#new">New Releases</a>
+            <a href="#nonfiction">Non-Fiction</a>
+            <a href="#fiction">Fiction</a>
+            <a href="#business">Business & Life</a>
+            <a href="#children">Children's Books</a>
+            <a href="#cartarea">Cart</a>
+            
+        </nav>
+    </div>
+</header>
+<!-- end of header -->
+
+<!-- bottom navigation bars -->
+<nav class="bottom-navbar"> <!-- toggle shortcut(navigation) bars -->
+            
+            <a href="#new" class="fas fa-hotjar"></a>
+            <a href="#nonfiction" class="fas fa-atlas"></a>
+            <a href="#fiction" class="fas fa-journal-whills"></a>
+            <a href="#business" class="fas fa-user-tie"></a>
+            <a href="#children" class="fas fa-child"></a>
+            <a href="#cartarea" class="fas fa-shopping-cart"></a>
+            <a href="book.html" class="fas fa-home"></a>
+            
+        </nav>
+
+        <!-- login form-->
+
+        <div class="login-form-container">
+            <div id="close-login-btn" class="far fa-times-circle"></div>
+
+            <!-- form building starts -->
+
+            <form action="">
+                <h3>Sign-In</h3>
+                <span>Email-ID</span>
+                <input type="email" name="" class="box" placeholder="Enter Your E-mail" id="">
+                <span>Password</span>
+                <input type="password" name="" class="box" placeholder="Enter Your Password" id="">
+                <div class="checkbox"> 
+                    <input type="checkbox" name="" id="remember-me">
+                    <label for="remember-me">Remember Me</label>
+                </div>
+                <input type="submit" value="sign in" class="btn">
+                <p>Forgot password? <a href="#">Click Here!</a></p>
+                <p>Don't Have an Account? <a href="#">Create one here</a></p>
+            </form>
+
+            <!-- form building ends and home section starts -->
+            
+       </div>
+
+ <section class="container content-section">
+            <section  class="featured" href="#new" id="new">
+            <h1 class="heading"><span>New Releases</span></h1>
+            
+                        <div class="shop-items">
+                            <div class="shop-item">
+                                
+                            <span class="shop-item-title">Becoming</span>
+                            <h6>Michelle Obama</h6>
+                            <img class="image" src="https://images-na.ssl-images-amazon.com/images/I/81KGjsBXQ7L.jpg">
+                            <div class="shop-item-details">
+                            <span class="shop-item-price">$14.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                         </div>
+                    </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Will</span>
+                    <h6>Will Smith</h6>
+                    <img class="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624126289l/58375739.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$13.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">the wife upstairs</span>
+                    <h6>Rachel Hawkins</h6>
+                    <img class="image" src="https://images-na.ssl-images-amazon.com/images/I/81+Bx8pyGoL.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">the four winds</span>
+                    <h6>Kristin Hannah</h6>
+                    <img class="image" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1594925043i/53138081.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$11.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Klara & The Sun</span>
+                    <h6>Kazuo Ishiguro</h6>
+                    <img class="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603206535l/54120408._SY475_.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$15.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">the chanel sisters</span>
+                    <h6>Judithe Little</h6>
+                    <img class="image" src="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/14/19/asset/bae355bd64c3/sub-buzz-7864-1607972704-5.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <section  class="featured" href="#nonfiction" id="nonfiction">
+            <h1 class="heading"><span>Non-Fiction</span></h1>
+            
+                        <div class="shop-items">
+                            <div class="shop-item">
+                            <span class="shop-item-title">Diary of Young Girl</span>
+                            <h6>Anne Frank</h6>
+                            <img class="image" src="https://kbimages1-a.akamaihd.net/265498db-16c5-421a-b481-e0f4a99e6a74/353/569/90/False/the-diary-of-a-young-girl-27.jpg">
+                            <div class="shop-item-details">
+                            <span class="shop-item-price">$12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                         </div>
+                    </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Breath</span>
+                    <h6>James nestor</h6>
+                    <img class="image" src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1595985961-41o5B3nR1gL.jpg?crop=1xw:0.993xh;center,top&resize=480:*">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Capital</span>
+                    <h6>Thomas picketty</h6>
+                    <img class="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498862445l/34758240.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$10.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Educated</span>
+                    <h6>Tara Westover</h6>
+                    <img class="image" src="https://images.squarespace-cdn.com/content/v1/58c180edff7c50dd0e51a2ad/1554913091967-B95PY1QJRBJB9OF9LRKY/educated+by+tara+westover.jpg?format=2500w">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$17.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">i am malala</span>
+                    <h6>Malala Yousafzai</h6>
+                    <img class="image" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/i-am-malala-1533929974.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Chicken Soup...</span>
+                    <h6>Jack Canfield</h6>
+                    <img class="image" src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781623610739/a-6th-bowl-of-chicken-soup-for-the-soul-9781623610739_hr.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <section  class="featured" href="#fiction" id="fiction">
+            <h1 class="heading"><span>Fiction</span></h1>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Divergent</span>
+                    <h6>veronica roth</h6>
+                    <img class="image" src="https://upload.wikimedia.org/wikipedia/en/f/f4/Divergent_%28book%29_by_Veronica_Roth_US_Hardcover_2011.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">while justice sleeps</span>
+                    <h6>Stacey abrams</h6>
+                    <img class="image" src="https://m.media-amazon.com/images/I/51WdyIaiSnS.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$13.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Almond</span>
+                    <h6>won pyung sohn</h6>
+                    <img class="image" src="https://images-na.ssl-images-amazon.com/images/I/71Ofx5CE1sL.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$11.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">the midnight library</span>
+                    <h6>matt heig</h6>
+                    <img class="image" src="https://images-na.ssl-images-amazon.com/images/I/718GcuXHXbL.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$11.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Sita</span>
+                    <h6>Amish</h6>
+                    <img class="image" src="https://images-na.ssl-images-amazon.com/images/I/61HK5Tm1QyL.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Murder on the...</span>
+                    <h6>Agatha christie</h6>
+                    <img class="image" src="https://images-na.ssl-images-amazon.com/images/I/5178IkM3VqL.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$16.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section></div></div>
+        <section class="container content-section">
+            <section  class="featured" href="#business" id="business">
+            <h1 class="heading"><span>Business & Life</span></h1>
+            
+                        <div class="shop-items">
+                            <div class="shop-item">
+                            <span class="shop-item-title">the lean startup</span>
+                            <h6>eric reis</h6>
+                            <img class="image" src="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg">
+                            <div class="shop-item-details">
+                            <span class="shop-item-price">$12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                         </div>
+                    </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">stranger in the lifeboat</span>
+                    <h6>mitch albom</h6>
+                    <img class="image" src="https://images-na.ssl-images-amazon.com/images/I/71rDThWVwES.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">7 Habits</span>
+                    <h6>stephen covey</h6>
+                    <img class="image" src="https://images-na.ssl-images-amazon.com/images/I/817xk9KvJbL.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$13.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">The Alchemist</span>
+                    <h6>paulo coelho</h6>
+                    <img class="image" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Ikigai</span>
+                    <h6>gracia & miralles</h6>
+                    <img class="image" src="https://images-na.ssl-images-amazon.com/images/I/71tbalAHYCL.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">think straight</span>
+                    <h6>darius foroux</h6>
+                    <img class="image" src="https://m.media-amazon.com/images/I/41SfgtP0qGL.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="container content-section">
+            <section  class="featured" href="#children" id="children">
+            <h1 class="heading"><span>Children's Books</span></h1>
+            
+                        <div class="shop-items">
+                            <div class="shop-item">
+                            <span class="shop-item-title">Charlie & Chocolate Factory</span>
+                            <h6>Roald Dahl</h6>
+                            <img class="image" src="https://images-na.ssl-images-amazon.com/images/I/91Fpwua1cjL.jpg">
+                            <div class="shop-item-details">
+                            <span class="shop-item-price">$12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                         </div>
+                    </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Goosebumps - Set of 5</span>
+                    <h6>r.l. stine</h6>
+                    <img class="image" src="https://images-na.ssl-images-amazon.com/images/I/914HMqJtrHL.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$45.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Diary of a wimpy kid</span>
+                    <h6>jeff kinney</h6>
+                    <img class="image" src="https://images-na.ssl-images-amazon.com/images/I/91oduzt1G3S.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$10.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Harry Potter</span>
+                    <h6>j.k. rowling</h6>
+                    <img class="image" src="https://images-na.ssl-images-amazon.com/images/I/910ityjoncL.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+</section>   
+
+
+<section class="container content-section">
+            <section  class="featured" href="#cartarea" id="cartarea">
+            <h1 class="heading"><span>CART</span></h1>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+
+
+
+<script src="../../assets/Js/book-shopping-website/cart.js"></script>
+    
+</body>
+</html>

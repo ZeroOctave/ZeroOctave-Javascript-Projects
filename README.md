@@ -59,7 +59,7 @@
 
 </details>         
  
-<p align="right"><a href="#Bottom"><img src="https://img.shields.io/badge/-Bottom-blueviolet?style=for-the-badge" /></a></p>
+<p align="right"><a href="#Bottom"><img src="https://img.shields.io/badge/-Bottom-red?style=for-the-badge" /></a></p>
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -242,8 +242,12 @@ git push -u origin <your_branch_name>
 | 70. | [RD Return Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/RD-return-calculator.html) | 71. | [Meditation Feature](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/meditation.html) | 72. | [Move/TV Series Quote Generator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/MovieQuoteGenerator.html) |
 | 73. | [Function Grapher](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Function_Grapher.html) | 74. | [Third Degree Equation Solver](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Third_Degree_Equation_Calculator.html) | 75. | [Speech Synthesis](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/speech_synthesis.html) |
 | 76. | [Color Changing App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Color-Changing-App.html) | 77. | [Key Detector](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/key_Detector.html) | 78. | [Tic Tac Toe](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/tic-tac-toe.html) |
-| 79. | [QR Code Generator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/QR_Code_Generator.html) | 80. | [Microsoft Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/microsoftclone.html) | 
-
+| 79. | [QR Code Generator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/QR_Code_Generator.html) | 80. | [Microsoft Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/microsoftclone.html) | 81. | [YouTube Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/YouTube_Clone/index.html)
+| 82. | [Expense Tracker](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/expense.html)| 83. | [15 Puzzle](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/15puzzle.html)| 84. | [Type Writer Effect](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/type-writer.html)
+| 85. | [Book Shopping Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/book-shopping-website/book.html)| 86. | [Movie Search App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Movie-Search-App.html)| 87. | [Random Quote Generator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Random_Quote_Generator.html) 
+| 88. | [RGB Mixer](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/rgbmixer.html)| 89. | [Google Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Google-clone.html)| 90. | [Tinder Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Tinder_Clone.html)
+| 91. | [Gym Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/gym-website.html) | 92. | [Temperature Converter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/temperature-converter.html)| 93. | [Google Clone1](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/googleClone1/googleclone1.html)
+| 94. | [Travel Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/travel-website.html)
 <br>
 
 <div id="Maintainer"></div>
@@ -287,7 +291,7 @@ Or you can create a  <a href="https://github.com/ZeroOctave/ZeroOctave-Javascrip
   
 <br>
 
-<p align="right"><a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-blueviolet?style=for-the-badge" /></a></p>
+<p align="right"><a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" /></a></p>
 
 <div align="center">
 
