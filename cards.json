@@ -702,7 +702,11 @@
         "name":"YouTube Clone",
         "image":"assets/Images/YouTubeClone/YouTubeClone.png",
         "link":"Public/YouTube_Clone/index.html"
+    },
+    {
+        "name":"Pixel Converter",
+        "image":"assets/Images/Pixel converter.jpg",
+        "link":"Public/Pixel-converter.html"
     }
-    
 
 ]
