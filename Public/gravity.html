@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gravity Simulator</title>
+    <link rel="stylesheet" href="../assets/css/gravity.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="container">
+        <div id="ins">
+            <p id="inst">Hovering over the objects enables one to grab them and move them
+            <span id="close">x</span></p>
+        </div>
+        <div id="input">
+            <div class="gp">
+                <div class="each">
+                    <label for="vbx" style="color:rgba(255, 255, 255, 0.555); width:200px">Velocity of Blue body in x direction: </label>
+                    <input type="number" id="vbx" placeholder="0" value="0">
+                </div>
+                <div class="each">
+                    <label for="vby" style="color:rgba(255, 255, 255, 0.555); width:200px">Velocity of Blue body in y direction: </label>
+                    <input type="number" id="vby" placeholder="0" value="0">
+                </div>
+            </div>
+            <div class="gp">
+                <div class="each">
+                    <label for="vgx" style="color:rgba(255, 255, 255, 0.555); width:200px">Velocity of Green body in x direction: </label>
+                    <input type="number" id="vgx" placeholder="0" value="0">
+                </div>
+                <div class="each">
+                    <label for="vgy" style="color:rgba(255, 255, 255, 0.555); width:200px">Velocity of Green body in y direction: </label>
+                    <input type="number" id="vgy" placeholder="0" value="0">
+                </div>
+            </div>
+            <div class="gp">
+                <div class="each">
+                    <label for="mb" style="color:rgba(255, 255, 255, 0.555); width:200px">Mass of Blue body: </label>
+                    <input type="number" id="mb" placeholder="10" value = "10">
+                </div>
+                <div class="each">
+                    <label for="mg" style="color:rgba(255, 255, 255, 0.555); width:200px">Mass of Green body: </label>
+                    <input type="number" id="mg" placeholder="10" value = "10">
+                </div>
+            </div>
+        </div>
+        <div id="buttons">
+            <div class="butn">
+                <button id="start" onclick="start()">Start</button>
+            </div>
+            <div class="butn">
+                <button id="stop" onclick="stop()">Stop</button>
+            </div>
+        </div>
+    </div>
+    <script src="../assets/Js/gravity.js"></script>
+</body>
+</html>
