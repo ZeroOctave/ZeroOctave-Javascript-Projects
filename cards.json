@@ -379,6 +379,11 @@
     }
     ,
     {
+        "name":"News Website",
+        "image":"assets/Images/NewsWebsite.png",
+        "link":"Public/News_Site.html"
+    },
+    {
         "name":"Palindrome",
         "image":"assets/Images/Palindrome Checker.png",
         "link":"Public/palindrome.html"
@@ -691,11 +696,6 @@
         "name":"YouTube Clone",
         "image":"assets/Images/YouTubeClone/YouTubeClone.png",
         "link":"Public/YouTube_Clone/index.html"
-    },
-    {
-        "name":"News Website",
-        "image":"assets/Images/NewsWebsite.png",
-        "link":"Public/News_Site.html"
     }
     
 
