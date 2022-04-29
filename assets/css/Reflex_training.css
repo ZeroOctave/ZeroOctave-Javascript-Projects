@@ -1,3 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+
+
+.number {
+    font-size: 140px;
+    color: #778F9B;
+    line-height: 300px;
+    position: relative;
+    text-align: center;
+}
+
+.number span {
+    position: absolute;
+    opacity: 0;
+}
+
+@-webkit-keyframes time {
+
+    0%,
+    10%,
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+
+    5% {
+        opacity: 0.8;
+        transform: scale(1.2);
+    }
+}
+
+.num3,
+.num2,
+.num1 {
+    color: #FF1643;
+}
+
+.num1 {
+    animation: time 20s infinite;
+    animation-delay: 3s;
+}
+
+.num2 {
+    animation: time 20s infinite;
+    animation-delay: 2s;
+}
+
+.num3 {
+    animation: time 20s infinite;
+    animation-delay: 1s;
+}
+
+
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -31,7 +85,7 @@ body {
     height: 96vh;
     width: 99vw;
     background-color: #000000;
-    background-image: linear-gradient(62deg, #000000 0%, #E900FF 100%);
+    background-image: linear-gradient(62deg, #F5F5F5 0%, #EEEEEE 100%);
     background-position: center center;
     background-size: cover;
     filter: blur(4px);
@@ -39,7 +93,7 @@ body {
 }
 
 .container {
-    color: #FFC600;
+    color: #393E46;
     /* display: none; */
     position: absolute;
     top: 20vh;
@@ -52,6 +106,7 @@ body {
 }
 
 .playground {
+    display: none;
     position: absolute;
     top: 80vh;
     left: 0;
@@ -73,13 +128,13 @@ body {
 
 input[type=button] {
 
-    background-color: #5800FF;
+    background-color: #FF7517;
     border: none;
     border-radius: 10%;
     color: white;
-    padding: 16px 32px;
+    padding: 30px 60px;
     text-decoration: none;
-    margin: 4px 2px;
+    margin: 4vh 2vh;
     cursor: pointer;
 }
 
@@ -103,8 +158,10 @@ input[type=button] {
 }
 
 .btn_field {
+
     text-align: center;
 }
+
 
 .result {
     transition: opacity 400ms;
@@ -114,6 +171,7 @@ input[type=button] {
 }
 
 .target {
+    display: none;
     cursor: pointer;
     /* border: 2px solid red; */
 
@@ -131,5 +189,5 @@ input[type=button] {
     background-position: center center;
     background-size: cover;
     z-index: 2;
-    filter: invert();
+    /* filter: invert(); */
 }

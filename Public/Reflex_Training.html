@@ -12,8 +12,7 @@
 <body>
 
     <div class="background"></div>
-    <div class="target" id="target">
-    </div>
+
     <div class="container" id="container">
 
         <div class="header">
@@ -48,15 +47,20 @@
 
     </div>
 
-    <div class="playground">
+    <div class="playground" id="playground">
         <div class="frame">
-
-
+            <div class="target" id="target">
+            </div>
+            <div class="page">
+                <div class="number"> <span class="num3">3</span><span class="num2">2</span><span class="num1">1</span>
+                </div>
+            </div>
         </div>
         <div class="btn_field">
             <form name="response">
 
-                <input type="button" class="btn" value="Stop Test" onClick="testStop()">
+                <input type="button" class="btn" value="Restart Test" onClick="testStop()">
+                <!-- <input type="button" class="btn" value="Restart Test" onClick="testStop()"> -->
                 <!-- <input type="button" class="btn" value="Stop" onClick="stopTest()"> -->
             </form>
         </div>

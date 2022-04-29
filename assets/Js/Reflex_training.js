@@ -18,6 +18,7 @@ function setRandomPos() {
   var y = getRandomcoordinate(93);
   document.getElementById("target").style.top = x + "vw";
   document.getElementById("target").style.right = y + "vw";
+  document.getElementById("target").style.display = "inherit";
 }
 function viewNull() {
   // console.log(document.getElementById("demo").id);
@@ -25,13 +26,30 @@ function viewNull() {
   document.getElementById("container").style.display = "none";
 }
 
-function viewShow() {
-  document.getElementById("container").style.display = "inherit";
+function viewShowSecond() {
+  if ((document.getElementById("playground").tagName = "DIV")) {
+    console.log(document.getElementById("playground").tagName);
+  }
+  // var elementType = ;
+  // console.log(elementType);
+  document.getElementById("playground").style.display = "inherit";
 }
+
+function viewShowFirst() {
+  document.getElementById("container").style.display = "inherit";
+  document.getElementById("playground").style.display = "none";
+}
+
+// function viewShowFirst() {
+//   document.getElementById("container").style.display = "inherit";
+// }
+
 function testStart() {
   viewNull();
-  setRandomPos();
-  document.getElementById("result").textContent = "Test Started";
+  viewShowSecond();
+  // setRandomPos();
+  timerID = setTimeout("setRandomPos()", 4000);
+  // document.getElementById("result").textContent = "Test Started";
   //   if (startPressed) {
   //     alert("Already started. Press stop to stop");
   //     return;
@@ -72,30 +90,31 @@ function timeTaken() {
 }
 
 function testStop() {
-  viewShow();
-  if (bgChangeStarted) {
-    endTime = new Date();
+  viewShowFirst();
+  document.getElementById("target").style.display = "none";
+  // if (bgChangeStarted) {
+  //   endTime = new Date();
 
-    document.body.style.background = "white";
-    console.log(responseTime);
-    console.log(document.getElementById("result").textContent);
-    document.getElementById("result").textContent =
-      "Your response time is " +
-      responseTime +
-      "," +
-      " " +
-      remark(responseTime);
-    startPressed = false;
-    bgChangeStarted = false;
-  } else {
-    if (!startPressed) {
-      // e;
-      document.getElementById("result").textContent = "Press Start first";
-    } else {
-      clearTimeout(timerID);
-      startPressed = false;
-      document.getElementById("result").textContent =
-        "You clicked too soon :( Try Again";
-    }
-  }
+  //   document.body.style.background = "white";
+  //   console.log(responseTime);
+  //   console.log(document.getElementById("result").textContent);
+  //   document.getElementById("result").textContent =
+  //     "Your response time is " +
+  //     responseTime +
+  //     "," +
+  //     " " +
+  //     remark(responseTime);
+  //   startPressed = false;
+  //   bgChangeStarted = false;
+  // } else {
+  //   if (!startPressed) {
+  //     // e;
+  //     document.getElementById("result").textContent = "Press Start first";
+  //   } else {
+  //     clearTimeout(timerID);
+  //     startPressed = false;
+  //     document.getElementById("result").textContent =
+  //       "You clicked too soon :( Try Again";
+  //   }
+  // }
 }
