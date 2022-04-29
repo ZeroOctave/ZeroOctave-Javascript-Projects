@@ -7,17 +7,13 @@ const btnmode=document.querySelector('.changemode');
 // <!-- This was added as a contribution -->
 
 let number = 0;
-btn3.addEventListener('click', function() {
-    value.textContent = number++;
-    value.style.color = "green";
-});
 btn1.addEventListener('click', function() {
     // if (number == 0) {
     //     value.textContent = 0;
     // } else {
     // number--;
     // number -= 1;
-    value.textContent = number--;
+    value.textContent = --number;
     value.style.color = "red";
     // }
 });
@@ -29,6 +25,12 @@ btn2.addEventListener('click', function() {
         value.style.color = "hsl(210, 22%, 49%)";
     
 });
+btn3.addEventListener('click', function() {
+    value.textContent = ++number;
+    value.style.color = "green";
+});
+
+
 // <!-- This was added as a contribution -->
 
 btnmode.addEventListener('click',function(){

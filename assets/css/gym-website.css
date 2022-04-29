@@ -1,0 +1,119 @@
+.h1 ,h1,h2{
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: -4px;
+}
+.card-title, .welcome h5 , .contactus h3{
+  font-family:'Dancing Script', cursive; 
+  font-weight: bolder;
+  font-size: 30px;
+}
+.navbar-brand{
+  font-size: 40px;
+  font-family:'Dancing Script', cursive; 
+  font-weight: bolder;
+}
+.nav .nav-item :hover{
+  background-color:#DC3545 ;
+  color: white;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.active{
+  background-color:#DC3545 ;
+}
+.header{
+  height:550px; 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon{
+  margin-left:2px;
+  padding:10px ;
+  border-radius: 0px 7px 7px 0px;
+  line-height: 20px;
+  height: 40px;
+}
+.welcome i{
+  margin-top: 18px;
+  margin-right: 15px;
+}
+
+.card-img-top { transition: all .2s ease-in-out; }
+.card-img-top:hover { transform: scale(1.1); }
+.supertrainer .card{
+  overflow: hidden;
+}
+.trainers{
+  background-color: rgb(9,9,9,0.9);
+}
+.welcome .col-lg-3{
+  padding-bottom: 35px;
+}
+.ourgallery hr , .parteners hr {
+  width:100px;
+  border: 1px solid #343A40;
+  
+}
+.supertrainer hr , .pricing hr{
+  width:80px;
+  border: 1px solid white;
+  
+}
+.box{
+  width: 100%;
+  height: 200px;
+  margin-bottom: 30px;
+}
+.box img{
+  width: 100%;
+  height: 100%;
+}
+.pricing{
+  background-color: #D24443;
+}
+.pricing .row h5{
+  font-size: 16px;
+  margin-top: 12px;
+}
+.pricing .row p{
+  font-size: 34px;
+}
+.price{
+  margin-bottom: 30px;
+}
+.left {
+  border-right: 1px solid white;
+  
+}
+.left , .right ul{
+  
+  padding-top: 20px;
+}
+.right , .left{
+  background-color: rgb(72, 73, 73);
+  
+}
+.parteners .col-sm-2{
+  width: 135px;
+  height: 60px;
+ 
+}
+.parteners .col-sm-2 img{
+  width:100%;
+  height: 100%;
+}
+.contactus input , .contactus button{
+  width: 200px;
+  margin-bottom: 25px;
+  padding-left: 7px;
+  margin-right: 8px;
+  margin-left:8px ;
+  
+}
+.contactus textarea{
+  width: 454px;
+  margin-right: 8px;
+  margin-left:8px ;
+}
