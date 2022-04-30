@@ -703,6 +703,9 @@
         "image":"assets/Images/YouTubeClone/YouTubeClone.png",
         "link":"Public/YouTube_Clone/index.html"
     }
-    
-
+    {
+        "name":"Coin Toss Game",
+        "image":"assets/Images/Coin-Toss-Game.jpeg",
+        "link":"Public/Coin-toss-game.html"
+    }
 ]

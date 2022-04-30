@@ -260,6 +260,7 @@ git push -u origin <your_branch_name>
 | 124. | [Star Catching Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/star-catching-game.html)| 125. | [Sticky Notes](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/sticky_notes.html)| 126. | [Stopwatch](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/stopwatch.html)
 | 127. | [Tap Music](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/tap_music.html)| 128. | [Tiktok Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Tiktok_Clone.html)| 129. | [Toast Notification](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/toast_notification.html)
 | 130. | [To Do](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/todo.html)| 131. | [Confirm Password Validator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/confirmpasswordvalidator.html)
+| 131. | [Coin Toss Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Coin-toss-game.html)
 <br>
 
 <div id="Maintainer"></div>
