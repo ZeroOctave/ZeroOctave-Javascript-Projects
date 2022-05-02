@@ -30,7 +30,7 @@ cal_btn.addEventListener("click",()=>{
         bmi.innerText="You are Overweight";
       }  
       else if(result>=30 && result<=34.9){
-        bmi.innerText="You are Obese(Class I)";
+        bmi.innerText="You are Obese(class I)";
       }
       else if(result>=35 && result<=39.9){
         bmi.innerText="You are Obese(Class II)";
@@ -38,6 +38,7 @@ cal_btn.addEventListener("click",()=>{
       else if(result>=40){
         bmi.innerText="You are Obese(CLass III)";
       }
+      
     
     
 });
