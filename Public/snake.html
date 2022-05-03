@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snake Game</title>
-    <link rel="stylesheet" href="/assets/css/snake.css">
+<title>Snake Game</title>    
+<link rel="stylesheet" href="../assets/css/snake.css">
 </head>
+
 <body>
-    <div class="body">
-        <div id="scoreBox">Score: 0</div>
-        <div id="hiscoreBox">HiScore: 0</div>
-        <div id="board"></div>
-    </div>
+    <h1><i>Snake Game</i></h1>
+    <div id="container"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="../assets/Js/snake.js"></script>
+    <script>
+        (function () {
+            initSnake("container", 20, 40, 150);
+        })();
+    </script>
 </body>
-<script src="/assets/Js/snake.js"></script>
 </html>
