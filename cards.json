@@ -702,7 +702,13 @@
         "name":"YouTube Clone",
         "image":"assets/Images/YouTubeClone/YouTubeClone.png",
         "link":"Public/YouTube_Clone/index.html"
+    },
+        {
+        "name":"Drink Water",
+        "image":"assets/drinkwater.png",
+        "link":"Public/drinkwater.html"
     }
+    
     
 
 ]
