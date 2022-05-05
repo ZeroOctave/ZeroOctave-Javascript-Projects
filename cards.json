@@ -170,6 +170,13 @@
         "image":"assets/Images/drawingapp.png",
         "link":"Public/drawingapp.html"
     }
+   ,
+    
+    {
+        "name":"Drinkwater",
+        "image":"assets/Images/drinkwater.png",
+        "link":"Public/drinkwater.html"
+    }
     ,
     {
         "name":"Drum kit",
