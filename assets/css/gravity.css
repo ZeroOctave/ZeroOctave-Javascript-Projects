@@ -1,0 +1,158 @@
+body {
+    margin: 0px;
+}
+#ins {
+    background-color: #ff00ff54;
+    position: absolute;
+    left: 10%;
+    top: 2%;
+}
+#inst {
+    color: rgb(201, 191, 191);
+    padding: 1px 8px;
+    font-size: 15px;
+}
+#close {
+    cursor: pointer;
+    position: relative;
+    padding: 1px 8px;
+}
+#close:hover {
+    background: #ff00ff21;
+}
+#canvas {
+    position: fixed;
+    z-index: -1;
+}
+#start {
+    color: white;
+    background-color: green;
+    right: 100px;
+    top: 600px;
+    font-size: 25px;
+    border: 3px solid green;
+    border-radius: 15px;
+    padding: 10px;
+    height: 60px;
+}
+#start:hover {
+    background-color: lightgreen;
+    border: 3px solid lightgreen;
+    cursor: pointer;
+    transition: ease 300ms;
+}
+#stop {
+    color: white;
+    background-color: red;
+    right: 100px;
+    top: 700px;
+    font-size: 25px;
+    border: 3px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    height: 60px;
+}
+#stop:hover {
+    background-color: rgb(247, 193, 193);
+    border: 3px solid rgb(247, 193, 193);
+    cursor: pointer;
+    transition: ease 300ms;
+}
+#input {
+    visibility: visible;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    padding: 50px;
+    align-items: center;
+}
+#vbx, #vgx, #vby, #vgy, #mg, #mb {
+    padding: 5px;
+    transition: ease 500ms;
+}
+.container {
+    background-color: transparent;
+    display: flex;
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 700px;
+    padding: 50px;
+}
+.each {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.gp {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.butn {
+    padding: 10px;
+}
+@media (min-width: 900px) and (max-width: 1070px) {
+    #buttons {
+        top: 800px;
+    }
+}
+@media (min-width: 770px) and (max-width: 900px) {
+    #buttons {
+        top: 1000px;
+    }
+    label, #start, #stop, #inst {
+        font-size: 20px;
+    }
+}
+@media (min-width: 550px) and (max-width: 770px) {
+    #buttons {
+        top: 1500px;
+    }
+    label, #start, #stop {
+        font-size: 30px;
+    }
+    #inst {
+        font-size: 22px;
+    }
+    #input {
+        top: 10%;
+    }
+}
+@media (min-width: 450px) and (max-width: 550px) {
+    #buttons {
+        top: 1800px;
+    }
+    label, #start, #stop {
+        font-size: 40px;
+    }
+    #start, #stop {
+        padding-bottom: 50px;
+    }
+    #inst {
+        font-size: 24px;
+    }
+    #input {
+        top: 10%;
+    }
+}
+@media (max-width: 450px) {
+    #buttons {
+        top: 2500px;
+    }
+    label, #start, #stop {
+        font-size: 40px;
+    }
+    #start, #stop {
+        padding-bottom: 60px;
+    }
+    #inst {
+        font-size: 26px;
+    }
+    #input {
+        top: 15%;
+    }
+}
