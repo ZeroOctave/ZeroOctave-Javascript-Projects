@@ -170,6 +170,13 @@
         "image":"assets/Images/drawingapp.png",
         "link":"Public/drawingapp.html"
     }
+   ,
+    
+    {
+        "name":"Drinkwater",
+        "image":"assets/Images/drinkwater.png",
+        "link":"Public/drinkwater.html"
+    }
     ,
     {
         "name":"Drum kit",
@@ -383,6 +390,11 @@
         "link":"Public/noteapp.html"
     }
     ,
+    {
+        "name":"News Website",
+        "image":"assets/Images/NewsWebsite.png",
+        "link":"Public/News_Site.html"
+    },
     {
         "name":"Palindrome",
         "image":"assets/Images/Palindrome Checker.png",
