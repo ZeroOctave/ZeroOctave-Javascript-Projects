@@ -1,61 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
-*{
-    padding: 0;
-    margin: 0;
+/* @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap'); */
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.body{ 
-    min-height: 100vh;
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../Images/snake.JPG") !important;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
 }
 
-#scoreBox{
-    position: absolute;
-    top: 9px;
-    right: 200px;
-    font-size: 39px;
-    font-weight: bold;
-    font-family: 'New Tegomin', serif;
+.snake-board {
+  position: relative;
+  display: inline-block;
+  margin-top: 100px;
 }
 
-#hiscoreBox{
-    position: absolute;
-    top: 59px;
-    right: 140px;
-    font-size: 39px;
-    font-weight: bold;
-    font-family: 'New Tegomin', serif;
+.snake-board .preview {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.3;
+  background-color: gray;
 }
 
-#board{
-    background: linear-gradient(rgb(170, 236, 170), rgb(236, 236, 167));
-    width: 90vmin;
-    height: 92vmin;
-    border: 2px solid black;
-    display: grid;
-    grid-template-rows: repeat(18, 1fr);
-    grid-template-columns: repeat(18, 1fr);
+.snake-board .score {
+  font-size: 200%;
+  color: blue;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  display: none;
 }
 
-.head{
-    background: linear-gradient(rgb(240, 124, 124), rgb(228, 228, 129));
-    border: 2px solid rgb(34, 4, 34); 
-    transform: scale(1.02);
-    border-radius: 9px;
+.snake-board button {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 30%;
+  height: 10%;
+  margin-left: -15%;
+  margin-top: -5%;
+  font-size: 100%;
+  background-color: lightgreen;
+  border: 1px solid darkgreen;
+  border-radius: 50px;
 }
 
-.snake{
-    background-color: purple;
-    border: .25vmin solid white;
-    border-radius: 12px;
+.snake-board button:hover {
+  background-color: aquamarine;
+  cursor: pointer;
 }
 
-.food{
-    background: linear-gradient(red, purple);
-    border: .25vmin solid black;
-    border-radius: 8px;
+.snake-board table {
+  border-collapse: collapse;
+}
+
+.snake-board td {
+  width: 20px;
+  height: 20px;
+  border: 0;
+}
+
+.snake-board .col {
+  background-color: aqua;
+}
+
+.snake-board .snake {
+  background-color: blue;
+}
+
+.snake-board .fruit {
+  background-color: red;
 }

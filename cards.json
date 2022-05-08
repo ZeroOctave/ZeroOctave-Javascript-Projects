@@ -52,6 +52,11 @@
         "link" :"Public/BaseX_Calculator.html"
     },
     {
+        "name":"Blurry Loading",
+        "image": "assets/Images/blurry-loading.png",
+        "link" :"Public/blurry-loading.html"
+    },
+    {
         "name":"Caesar Cipher",
         "image":"assets/Images/CaesarCipher.png",
         "link":"Public/CaesarCipher.html"
@@ -169,6 +174,13 @@
         "name":"Drawing App",
         "image":"assets/Images/drawingapp.png",
         "link":"Public/drawingapp.html"
+    }
+   ,
+    
+    {
+        "name":"Drinkwater",
+        "image":"assets/Images/drinkwater.png",
+        "link":"Public/drinkwater.html"
     }
     ,
     {
@@ -383,6 +395,11 @@
         "link":"Public/noteapp.html"
     }
     ,
+    {
+        "name":"News Website",
+        "image":"assets/Images/NewsWebsite.png",
+        "link":"Public/News_Site.html"
+    },
     {
         "name":"Palindrome",
         "image":"assets/Images/Palindrome Checker.png",
@@ -673,6 +690,12 @@
         "name":"Type Writer Effect",
         "image":"assets/Images/type-writer.jpg",
         "link":"Public/type-writer.html"
+    }
+    ,
+      {
+        "name":"URL Keeper",
+        "image":"assets/Images/url_keeper.png",
+        "link":"Public/url_keeper.html"
     }
     ,
     {
