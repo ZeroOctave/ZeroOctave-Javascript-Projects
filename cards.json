@@ -245,7 +245,7 @@
     ,
     {
          "name":"Gravity Simulator",
-         "image":"assets/Images/Gravity/gravitysimulator.PNG",
+         "image":"assets/Images/gravitysimulator.PNG",
          "link":"Public/gravity.html"
     }
     ,
