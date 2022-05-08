@@ -235,12 +235,20 @@
          "name":"Google Clone",
          "image":"assets/Images/Google-clone.PNG",
          "link":"Public/Google-clone.html"
-    },
+    }
+    ,
     {
          "name":"Google Clone 1",
          "image":"assets/Images/googleclone1/gimage.PNG",
          "link":"Public/googleClone1/googleclone1.html"
-    },
+    }
+    ,
+    {
+         "name":"Gravity Simulator",
+         "image":"assets/Images/gravitysimulator.png",
+         "link":"Public/gravity.html"
+    }
+    ,
     {
         "name":"Guess Color",
         "image":"assets/Images/guess_color.png",
