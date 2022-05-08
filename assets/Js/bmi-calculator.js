@@ -26,12 +26,19 @@ cal_btn.addEventListener("click",()=>{
       else if(result>=18.5 && result<=24.9){
         bmi.innerText="You are Normal";
       }
-      else if(result>25.0 && result<=29.0){
-        bmi.innerText="You are Overheight";
+      else if(result>25.0 && result<=29.9){
+        bmi.innerText="You are Overweight";
       }  
-      else if(result>=30){
-        bmi.innerText="You are Obese";
+      else if(result>=30 && result<=34.9){
+        bmi.innerText="You are Obese(class I)";
       }
+      else if(result>=35 && result<=39.9){
+        bmi.innerText="You are Obese(Class II)";
+      }
+      else if(result>=40){
+        bmi.innerText="You are Obese(CLass III)";
+      }
+      
     
     
 });
