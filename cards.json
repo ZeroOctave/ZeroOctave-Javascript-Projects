@@ -238,6 +238,11 @@
     },
     {
          "name":"Google Clone 1",
+         "image":"assets/Images/Gravity/gravitysimulator.PNG",
+         "link":"Public/gravity.html"
+    },
+    {
+         "name":"Gravity",
          "image":"assets/Images/googleclone1/gimage.PNG",
          "link":"Public/googleClone1/googleclone1.html"
     },
