@@ -1,0 +1,112 @@
+body{
+    height: fit-content;
+    padding-bottom: 20px;
+}
+
+.card-link{
+    text-decoration: none;
+}
+.card-btns a {
+    color: black;
+    
+}
+.card-btns a:hover{
+    color: white;
+}
+@media (max-width : 991px){
+    .card{
+        width: 100% !important;
+    }
+    .inputAreas{
+        flex-direction: column !important;
+        justify-content: left !important;
+    }
+    #topicBar{
+        margin-bottom: 0.8rem;
+        max-width: 20rem;
+        min-width: fit-content;
+    }
+    .coronaSec{
+        display: none;
+    }
+    .btnForCNewsinMobile{
+        display:block !important;
+    }
+}
+
+.highlightsHeader{
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(201, 197, 197);
+}
+.input-group {
+    max-width: 20rem;
+    min-width: fit-content;
+    margin-bottom: 0 !important;
+}
+.fixed-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 5px rgb(75, 74, 74);
+}
+.card-body-top{
+    padding: 10px 0;
+}
+.card-body-top-content{
+    max-width: 70%;
+}
+.feedImg{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 10px;
+}
+#newsfeed{
+    position: relative;
+}
+.container{
+    min-width: 100% !important;
+    position: relative;
+}
+.mycard{
+    border: 1px solid var(--bs-gray-400);
+    border-radius: .5rem;
+}
+.coronaSec{
+    position: absolute;
+    top: 5em;
+    right: 3rem;
+    width: 30%;
+    padding-left: 20px;
+    border-left: 1px solid var(--bs-gray-400);
+}
+#coronaLogo{
+    height: 1.5rem;
+    width: 1.5rem;
+
+}
+.Data{
+    display: inline-block;
+}
+.bold{
+    font-weight: bold;
+}
+.Data ul li span{
+    font-weight: 400;
+}
+.btnForCNewsinMobile{
+    text-decoration: none;
+    border: none;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    overflow: hidden;
+    color: white;
+    background-color: black;
+    box-shadow: 3px 3px 5px black;
+    font-size: .9rem;
+    display: none;
+}
