@@ -52,6 +52,11 @@
         "link" :"Public/BaseX_Calculator.html"
     },
     {
+        "name":"Blurry Loading",
+        "image": "assets/Images/blurry-loading.png",
+        "link" :"Public/blurry-loading.html"
+    },
+    {
         "name":"Caesar Cipher",
         "image":"assets/Images/CaesarCipher.png",
         "link":"Public/CaesarCipher.html"
