@@ -1,12 +1,20 @@
+
+
 #container {
 
 width :375px;
 height:425px;
-margin-left:350px;
-margin-top:65px;
-background-color: #000;
+margin-left:750px;
+margin-top:200px;
+line-height: 120%;
+color:rgb(255, 72, 72);
+background-color: white;
+opacity: 0.6;
+border: 1px solid rgb(255, 255, 255);
 padding-left: 30px;
-color:#fff;
+border-radius: 4px;
+
+
 }
 
 #feet{
@@ -14,36 +22,48 @@ color:#fff;
 	width:150px;
 	height:25px;
 	margin-top: 30px;
-	margin-left:15px;
+	margin-left:50px;
 }
 
 #inches{
     width:150px;
 	height:25px;
 	margin-top: 30px;
+	margin-left: 35px
 }
-
-
 
 #result {
 
 	font-size:35px;
-	margin-left: 60px;
-	color:yellow;
+	margin-left: 130px;
+	color:rgb(255, 72, 72);
 }
 
 #submit{
-
+	display: inline-block;
+	font-size:25px;
 	width:250px;
 	height:35px;
-	margin-left:20px;
+	margin-left:35px;
 	margin-top: 25px;
+	line-height: 65%;
+	color:rgb(255, 72, 72);
 	border-radius: 5px;
-	border-style: none;
-	background-color:red;
-	color:#fff;
-	font-size:25px;
+	background-color:transparent;
+	border: 1px solid rgb(255, 72, 72);
+	padding: 10px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color ease 400ms;
 }
+
+#submit:hover{
+	color:rgb(109, 0, 0);
+	background-color: rgba(228, 0, 0, 0.3);
+}
+
+
+
 
 h1{
 
