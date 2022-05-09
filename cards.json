@@ -628,6 +628,12 @@
     }
     ,
     {
+        "name":"Theme Clock",
+        "image":"assets/Images/theme-clock.png",
+        "link":"Public/theme-clock.html"
+    }
+    ,
+    {
         "name":"Third Degree Equation Calculator",
         "image":"assets/Images/xxx.jpg",
         "link":"Public/Third_Degree_Equation_Calculator.html"
