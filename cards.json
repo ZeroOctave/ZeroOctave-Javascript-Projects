@@ -1,236 +1,210 @@
-[
-    {
-        "name":"Accordion",
-        "image":"assets/Images/accordion.png",
-        "link":"Public/accordion.html"
+[{
+        "name": "Accordion",
+        "image": "assets/Images/accordion.png",
+        "link": "Public/accordion.html"
     },
     {
-        "name":"AI panArt",
-        "image":"assets/Images/aipanart.png",
-        "link":"Public/aipanArt.html"
+        "name": "AI panArt",
+        "image": "assets/Images/aipanart.png",
+        "link": "Public/aipanArt.html"
     },
     {
-        "name":"Analog",
-        "image":"assets/Images/analog.jpg",
-        "link":"Public/Analog_clock.html"
+        "name": "Analog",
+        "image": "assets/Images/analog.jpg",
+        "link": "Public/Analog_clock.html"
     },
     {
-        "name":"Animated Portfolio",
-        "image":"assets/Images/animated.JPG",
-        "link":"Public/AnimatedPortfolio.html"
+        "name": "Animated Portfolio",
+        "image": "assets/Images/animated.JPG",
+        "link": "Public/AnimatedPortfolio.html"
 
     },
     {
-        "name":"Auto Write",
-        "image":"assets/Images/auto-write.jpg",
-        "link":"Public/auto-write-text.html"
+        "name": "Auto Write",
+        "image": "assets/Images/auto-write.jpg",
+        "link": "Public/auto-write-text.html"
     },
     {
-        "name":"Auto Image Slider",
-        "image":"assets/Images/autoimageslider.png",
-        "link":"Public/auto_image_slider.html"
+        "name": "Auto Image Slider",
+        "image": "assets/Images/autoimageslider.png",
+        "link": "Public/auto_image_slider.html"
     },
     {
-        "name":"BMI Calculator",
-        "image":"assets/Images/BMI_Calculator_image_landing_page.png",
-        "link":"Public/bmi-calculator.html"
+        "name": "BMI Calculator",
+        "image": "assets/Images/BMI_Calculator_image_landing_page.png",
+        "link": "Public/bmi-calculator.html"
     },
     {
-        "name":"Books Library",
-        "image":"assets/Images/booksLibrary.png",
-        "link":"Public/BooksLibrary.html"
-    }
-    ,
-    {
-        "name":"Book Shopping Website",
-        "image":"assets/Images/bookshopimgs/bookbuy5.png",
-        "link":"Public/book-shopping-website/book.html"
+        "name": "Books Library",
+        "image": "assets/Images/booksLibrary.png",
+        "link": "Public/BooksLibrary.html"
     },
     {
-        "name":"BaseX Calculator",
+        "name": "Book Shopping Website",
+        "image": "assets/Images/bookshopimgs/bookbuy5.png",
+        "link": "Public/book-shopping-website/book.html"
+    },
+    {
+        "name": "BaseX Calculator",
         "image": "assets/Images/Basex.JPG",
-        "link" :"Public/BaseX_Calculator.html"
+        "link": "Public/BaseX_Calculator.html"
     },
     {
-        "name":"Blurry Loading",
+        "name": "Blurry Loading",
         "image": "assets/Images/blurry-loading.png",
-        "link" :"Public/blurry-loading.html"
+        "link": "Public/blurry-loading.html"
     },
     {
-        "name":"Caesar Cipher",
-        "image":"assets/Images/CaesarCipher.png",
-        "link":"Public/CaesarCipher.html"
-    }
-    ,
+        "name": "Caesar Cipher",
+        "image": "assets/Images/CaesarCipher.png",
+        "link": "Public/CaesarCipher.html"
+    },
     {
-        "name":"Calculator",
-        "image":"assets/Images/calculator.jpg",
-        "link":"Public/calculator.html"
-    }
-   ,
+        "name": "Calculator",
+        "image": "assets/Images/calculator.jpg",
+        "link": "Public/calculator.html"
+    },
     {
-        "name":"Car Race",
-        "image":"assets/Images/car.jpg",
-        "link":"Public/car-race.html"
-    }
-    ,
+        "name": "Car Race",
+        "image": "assets/Images/car.jpg",
+        "link": "Public/car-race.html"
+    },
     {
-        "name":"Color Code Converter",
-        "image":"assets/Images/color-changing-app.png",
-        "link":"Public/Color_Code_Converter.html"
-    }
-    ,
+        "name": "Color Code Converter",
+        "image": "assets/Images/color-changing-app.png",
+        "link": "Public/Color_Code_Converter.html"
+    },
     {
-        "name":"Color Fliper 1",
-        "image":"assets/Images/color-flipper-1.jpg",
-        "link":"Public/color_flipper_1.html"
-    }
-    ,
+        "name": "Color Fliper 1",
+        "image": "assets/Images/color-flipper-1.jpg",
+        "link": "Public/color_flipper_1.html"
+    },
     {
-        "name":"Color Flipper 2",
-        "image":"assets/Images/color-flipper-2.jpg",
-        "link":"Public/color_flipper_2.html"
-    }
-    ,
+        "name": "Color Flipper 2",
+        "image": "assets/Images/color-flipper-2.jpg",
+        "link": "Public/color_flipper_2.html"
+    },
     {
-        "name":"Color Changing App",
-        "image":"assets/Images/booksLibrary.png",
-        "link":"Public/Color-Changing-App.html"
-    }
-    ,
+        "name": "Color Changing App",
+        "image": "assets/Images/booksLibrary.png",
+        "link": "Public/Color-Changing-App.html"
+    },
     {
-        "name":"Color Chooser",
-        "image":"assets/Images/colorchooser.JPG",
-        "link":"Public/colorchooser.html"
-    }
-    ,
+        "name": "Color Chooser",
+        "image": "assets/Images/colorchooser.JPG",
+        "link": "Public/colorchooser.html"
+    },
     {
-        "name":"Confirm Password Validator",
-        "image":"assets/Images/passval.JPG",
-        "link":"Public/confirmpasswordvalidator.html"
-    }
-    ,
+        "name": "Confirm Password Validator",
+        "image": "assets/Images/passval.JPG",
+        "link": "Public/confirmpasswordvalidator.html"
+    },
     {
-        "name":"Countdown Timer",
-        "image":"assets/Images/countdownclock.png",
-        "link":"Public/countdown-timer.html"
-    }
-    ,
+        "name": "Countdown Timer",
+        "image": "assets/Images/countdownclock.png",
+        "link": "Public/countdown-timer.html"
+    },
     {
-        "name":"Counter",
-        "image":"assets/Images/counter.png",
-        "link":"Public/counter.html"
-    }
-    ,
+        "name": "Counter",
+        "image": "assets/Images/counter.png",
+        "link": "Public/counter.html"
+    },
     {
-        "name":"Crud Project",
-        "image":"assets/Images/Crud.png",
-        "link":"Public/crud-project.html"
-    }
-    ,
+        "name": "Crud Project",
+        "image": "assets/Images/Crud.png",
+        "link": "Public/crud-project.html"
+    },
     {
-        "name":"Crypto App",
-        "image":"assets/Images/crypto.jpg",
-        "link":"Public/crypto_app.html"
-    }
-    ,
+        "name": "Crypto App",
+        "image": "assets/Images/crypto.jpg",
+        "link": "Public/crypto_app.html"
+    },
     {
-        "name":"Currency Converter",
-        "image":"assets/Images/Currency-converter.PNG",
-        "link":"Public/Currency-converter.html"
-    }
-    ,
+        "name": "Currency Converter",
+        "image": "assets/Images/Currency-converter.PNG",
+        "link": "Public/Currency-converter.html"
+    },
     {
-        "name":"Dial Code Fetcher",
-        "image":"assets/Images/DialCodeFetcher.png",
-        "link":"Public/DialCodeFetcher.html"
-    }
-    ,
+        "name": "Dad's Joke",
+        "image": "assets/Images/dadsjoke.png",
+        "link": "Public/dadsjoke.html"
+    },
     {
-        "name":"Dice Game",
-        "image":"assets/Images/dice1.png",
-        "link":"Public/dice_game.html"
-    }
-    ,
+        "name": "Dial Code Fetcher",
+        "image": "assets/Images/DialCodeFetcher.png",
+        "link": "Public/DialCodeFetcher.html"
+    },
     {
-        "name":"Dictionary",
-        "image":"assets/Images/Dictionary.PNG",
-        "link":"Public/dictionary.html"
-    }
-    ,
+        "name": "Dice Game",
+        "image": "assets/Images/dice1.png",
+        "link": "Public/dice_game.html"
+    },
     {
-        "name":"Digital Clock",
-        "image":"assets/Images/digital.jpg",
-        "link":"Public/digital_clock.html"
-    }
-    ,
+        "name": "Dictionary",
+        "image": "assets/Images/Dictionary.PNG",
+        "link": "Public/dictionary.html"
+    },
     {
-        "name":"Dino Game",
-        "image":"assets/Images/dino-game/DinosaurGame bg.jpg",
-        "link":"Public/dino-game.html"
-    }
-    ,
+        "name": "Digital Clock",
+        "image": "assets/Images/digital.jpg",
+        "link": "Public/digital_clock.html"
+    },
     {
-        "name":"Drawing App",
-        "image":"assets/Images/drawingapp.png",
-        "link":"Public/drawingapp.html"
-    }
-   ,
-    
+        "name": "Dino Game",
+        "image": "assets/Images/dino-game/DinosaurGame bg.jpg",
+        "link": "Public/dino-game.html"
+    },
     {
-        "name":"Drinkwater",
-        "image":"assets/Images/drinkwater.png",
-        "link":"Public/drinkwater.html"
-    }
-    ,
+        "name": "Drawing App",
+        "image": "assets/Images/drawingapp.png",
+        "link": "Public/drawingapp.html"
+    },
+
     {
-        "name":"Drum kit",
-        "image":"assets/Images/drumkit.png",
-        "link":"Public/drum_kit.html"
-    }
-    ,
+        "name": "Drinkwater",
+        "image": "assets/Images/drinkwater.png",
+        "link": "Public/drinkwater.html"
+    },
     {
-        "name":"Email Validator",
-        "image":"assets/Images/emailval.JPG",
-        "link":"Public/EmailValidator.html"
-    }
-    ,
+        "name": "Drum kit",
+        "image": "assets/Images/drumkit.png",
+        "link": "Public/drum_kit.html"
+    },
     {
-        "name":"Expense Tracker",
-        "image":"./assets/Images/expense.png",
-        "link":"./Public/expense.html"
-    }
-    ,
+        "name": "Email Validator",
+        "image": "assets/Images/emailval.JPG",
+        "link": "Public/EmailValidator.html"
+    },
     {
-        "name":"Find Number",
-        "image":"assets/Images/numberguess.JPG",
-        "link":"Public/findnum.html"
-    }
-    ,
+        "name": "Expense Tracker",
+        "image": "./assets/Images/expense.png",
+        "link": "./Public/expense.html"
+    },
     {
-        "name":"Food Website",
-        "image":"assets/Images/foodwebsite.png",
-        "link":"Public/food_website.html"
-    }
-    ,
+        "name": "Find Number",
+        "image": "assets/Images/numberguess.JPG",
+        "link": "Public/findnum.html"
+    },
     {
-        "name":"Form Validator",
-        "image":"assets/Images/formValidation.png",
-        "link":"Public/FormValidation.html"
-    }
-    ,
+        "name": "Food Website",
+        "image": "assets/Images/foodwebsite.png",
+        "link": "Public/food_website.html"
+    },
     {
-        "name":"Function Grapher",
-        "image":"assets/Images/functiongrapher.JPG",
-        "link":"Public/Function_Grapher.html"
-    }
-    ,
+        "name": "Form Validator",
+        "image": "assets/Images/formValidation.png",
+        "link": "Public/FormValidation.html"
+    },
     {
-        "name":"Github Profiless",
-        "image":"assets/Images/GitHub-Profiles.jpeg",
-        "link":"Public/Github-Profiles.html"
-    }
-    ,
+        "name": "Function Grapher",
+        "image": "assets/Images/functiongrapher.JPG",
+        "link": "Public/Function_Grapher.html"
+    },
+    {
+        "name": "Github Profiless",
+        "image": "assets/Images/GitHub-Profiles.jpeg",
+        "link": "Public/Github-Profiles.html"
+    },
     {
          "name":"Google Clone",
          "image":"assets/Images/Google-clone.PNG",
@@ -250,384 +224,328 @@
     }
     ,
     {
-        "name":"Guess Color",
-        "image":"assets/Images/guess_color.png",
-        "link":"Public/guess_color.html"
-    }
-    ,
-    {
-        "name":"Guess the Number",
-        "image":"assets/Images/guess-the-number.png",
-        "link":"Public/guess-the-number.html"
-    }
-    ,
-    {
-        "name":"Gym Website",
-        "image":"assets/Images/gym-website/bg1.jpg",
-        "link":"Public/gym-website.html"
-    }
-    ,
-    {
-        "name":"Hangman",
-        "image":"assets/Images/hangman.png",
-        "link":"Public/hangman.html"
-    }
-    ,
-    {
-        "name":"Height Converter",
-        "image":"assets/Images/heightconverter.png",
-        "link":"Public/height-converter.html"
-    }
-    ,
-    {
-        "name":"Hulu",
-        "image":"assets/Images/hulu.png",
-        "link":"Public/hulu.html"
-    }
-    ,
-    {
-        "name":"Ice Cream",
-        "image":"assets/Images/Ice-Cream.PNG",
-        "link":"Public/icecream.html"
-    }
-    ,
-    {
-        "name":"Image Editor",
-        "image":"assets/Images/imageeditor.png",
-        "link":"Public/image_editor.html"
-    }
-    ,
-    {
-        "name":"Incrementinator",
-        "image":"assets/Images/incrementinator.png",
-        "link":"Public/incrementinator.html"
-    }
-    ,
-    {
-        "name":"Key Detector",
-        "image":"assets/Images/key_Detector.png",
-        "link":"Public/key_Detector.html"
-    }
-    ,
-    {
-        "name":"Loan Calculator",
-        "image":"assets/Images/loancalculator.png",
-        "link":"Public/loan-calculator.html"
-    }
-    ,
-    {
-        "name":"Login Form",
-        "image":"assets/Images/login.jpg",
-        "link":"Public/loginform.html"
-    }
-    ,
-    {
-        "name":"Maps",
-        "image":"assets/Images/maps.jpg",
-        "link":"Public/maps.html"
-    }
-    ,
-    {
-        "name":"Mapty",
-        "image":"assets/Images/mapty_logo.png",
-        "link":"Public/mapty.html"
-    }
-    ,
-    {
-        "name":"Math Formulae",
-        "image":"assets/Images/mathformule.png",
-        "link":"Public/maths-formulae.html"
-    }
-    ,
-    {
-        "name":"Meditation",
-        "image":"assets/Images/meditation/forest.jpg",
-        "link":"Public/meditation.html"
-    }
-    ,
-    {
-        "name":"Memory",
-        "image":"assets/Images/memory/memoryimg.jpeg",
-        "link":"Public/memory.html"
-    }
-    ,
-    {
-        "name":"Microsoft Clone",
-        "image":"assets/Images/microsoft.png",
-        "link":"Public/microsoftclone.html"
-    }
-    ,
-    {
-        "name":"Modal",
-        "image":"assets/Images/modalwindow.png",
-        "link":"Public/Modal.html"
-    }
-    ,
-    {
-        "name":"Modal Closing Button",
-        "image":"assets/Images/modal2.jpg",
-        "link":"Public/modalclosingbutton.html"
+        "name": "Guess Color",
+        "image": "assets/Images/guess_color.png",
+        "link": "Public/guess_color.html"
     },
     {
-        "name":"Movie Search App",
-        "image":"assets/Images/Movie-Search-App.png",
-        "link":"Public/Movie-Search-App.html"
+        "name": "Guess the Number",
+        "image": "assets/Images/guess-the-number.png",
+        "link": "Public/guess-the-number.html"
     },
     {
-        "name":"Movie Quote Generator",
-        "image":"assets/Images/MovieQuoteGenerator.png",
-        "link":"Public/MovieQuoteGenerator.html"
-    }
-    ,
-    {
-        "name":"Multiple Portfolio",
-        "image":"assets/Images/multi-portfolio.png",
-        "link":"Public/multiple-portfolio.html"
-    }
-    ,
-    {
-        "name":"Music Player",
-        "image":"assets/Images/music.jpg",
-        "link":"Public/musicPlayer.html"
-    }
-    ,
-    {
-        "name":"NGO",
-        "image":"assets/Images/ngo.png",
-        "link":"Public/NGO.html"
-    }
-    ,
-    {
-        "name":"Note App",
-        "image":"assets/Images/noteapp.png",
-        "link":"Public/noteapp.html"
-    }
-    ,
-    {
-        "name":"News Website",
-        "image":"assets/Images/NewsWebsite.png",
-        "link":"Public/News_Site.html"
+        "name": "Gym Website",
+        "image": "assets/Images/gym-website/bg1.jpg",
+        "link": "Public/gym-website.html"
     },
     {
-        "name":"Palindrome",
-        "image":"assets/Images/Palindrome Checker.png",
-        "link":"Public/palindrome.html"
-    }
-    ,
-    {
-        "name":"Password Generator",
-        "image":"assets/Images/password generator.png",
-        "link":"Public/password_generator.html"
-    }
-    ,
-    {
-        "name":"Place Holder",
-        "image":"assets/Images/placeholder.jpg",
-        "link":"Public/placeholder.html"
-    }
-    ,
-    {
-        "name":"Pong",
-        "image":"assets/Images/Pong-Game.PNG",
-        "link":"Public/pong.html"
-    }
-    ,
-    {
-        "name":"Pop Up",
-        "image":"assets/Images/popup.png",
-        "link":"Public/popup.html"
+        "name": "Hangman",
+        "image": "assets/Images/hangman.png",
+        "link": "Public/hangman.html"
     },
     {
-        "name":"Prime Calculator",
-        "image":"assets/Images/primeCalc.png",
-        "link":"Public/primeCalc.html"
-    }
-    ,
-    {
-        "name":"Purple Heart",
-        "image":"assets/Images/purple_heart.jpg",
-        "link":"Public/purple_heart.html"
-    }
-    ,
-    {
-        "name":"QR Code Generator",
-        "image":"assets/Images/QR_Code_Generator.png",
-        "link":"Public/QR_Code_Generator.html"
-    }
-    ,
-    {
-        "name":"Quiz App",
-        "image":"assets/Images/quiz.jpg",
-        "link":"Public/Quiz_app.html"
-    }
-    ,
-    {
-        "name":"Quiz",
-        "image":"assets/Images/quizapp.jpg",
-        "link":"Public/quiz.html"
+        "name": "Height Converter",
+        "image": "assets/Images/heightconverter.png",
+        "link": "Public/height-converter.html"
     },
     {
-        "name":"Random Color Generator",
-        "image":"assets/Images/randomcolorgenerator.png",
-        "link":"Public/random_color_generator.html"
-    }
-    ,
-    {
-         "name":"random Quote Generator",
-         "image":"assets/Images/Random_Quote.PNG",
-         "link":"Public/Random_Quote_Generator.html"
+        "name": "Hulu",
+        "image": "assets/Images/hulu.png",
+        "link": "Public/hulu.html"
     },
     {
-        "name":"RD Return Calculator",
-        "image":"assets/Images/RD-return-calculator.png",
-        "link":"Public/RD-return-calculator.html"
-    }
-    ,
+        "name": "Ice Cream",
+        "image": "assets/Images/Ice-Cream.PNG",
+        "link": "Public/icecream.html"
+    },
     {
-        "name":"Report Calculator",
-        "image":"assets/Images/report.jpg",
-        "link":"Public/ReportCalculator.html"
-    }
-    ,
+        "name": "Image Editor",
+        "image": "assets/Images/imageeditor.png",
+        "link": "Public/image_editor.html"
+    },
     {
-        "name":"Responsive NavBar",
-        "image":"assets/Images/responsivenavbar.png",
-        "link":"Public/responsive_nav.html"
-    }
-    ,
+        "name": "Incrementinator",
+        "image": "assets/Images/incrementinator.png",
+        "link": "Public/incrementinator.html"
+    },
     {
-        "name":"Responsive Landing Page",
-        "image":"assets/Images/ResponsiveLanding/logo.png",
-        "link":"Public/responsiveLanding.html"
-    }
-    ,
+        "name": "Key Detector",
+        "image": "assets/Images/key_Detector.png",
+        "link": "Public/key_Detector.html"
+    },
     {
-        "name":"Resume Builder",
-        "image":"assets/Images/resumebuilder.png",
-        "link":"Public/resume_builder.html"
-    }
-    ,
+        "name": "Loan Calculator",
+        "image": "assets/Images/loancalculator.png",
+        "link": "Public/loan-calculator.html"
+    },
     {
-        "name":"Reviews",
-        "image":"assets/Images/rev.jpg",
-        "link":"Public/reviews.html"
-    }
-    ,
+        "name": "Login Form",
+        "image": "assets/Images/login.jpg",
+        "link": "Public/loginform.html"
+    },
     {
-        "name":"RGB Mixer",
-        "image":"assets/Images/rgbmixer.png",
-        "link":"Public/rgbmixer.html"
-    }
-    ,
+        "name": "Maps",
+        "image": "assets/Images/maps.jpg",
+        "link": "Public/maps.html"
+    },
     {
-        "name":"Scientific Calculator",
-        "image":"assets/Images/scientific_calculator.png",
-        "link":"Public/scientific_calculator.html"
-    }
-    ,
+        "name": "Mapty",
+        "image": "assets/Images/mapty_logo.png",
+        "link": "Public/mapty.html"
+    },
     {
-        "name":"Shell Game",
-        "image":"assets/Images/shell_game.png",
-        "link":"Public/shell_game.html"
-    }
-    ,
+        "name": "Math Formulae",
+        "image": "assets/Images/mathformule.png",
+        "link": "Public/maths-formulae.html"
+    },
     {
-        "name":"Simon Game",
-        "image":"assets/Images/simon_game.png",
-        "link":"Public/Simon_game.html"
-    }
-    ,
+        "name": "Meditation",
+        "image": "assets/Images/meditation/forest.jpg",
+        "link": "Public/meditation.html"
+    },
     {
-        "name":"Snake",
-        "image":"assets/Images/snake.jpg",
-        "link":"Public/snake.html"
-    }
-    ,
+        "name": "Memory",
+        "image": "assets/Images/memory/memoryimg.jpeg",
+        "link": "Public/memory.html"
+    },
     {
-        "name":"Sneakers",
-        "image":"assets/Images/sneaker-images/air2.png",
-        "link":"Public/sneaker.html"
-    }
-    ,
+        "name": "Microsoft Clone",
+        "image": "assets/Images/microsoft.png",
+        "link": "Public/microsoftclone.html"
+    },
     {
-        "name":"Socials",
-        "image":"assets/Images/social.jpg",
-        "link":"Public/socials.html"
-    }
-    ,
+        "name": "Modal",
+        "image": "assets/Images/modalwindow.png",
+        "link": "Public/Modal.html"
+    },
     {
-        "name":"Solar",
-        "image":"assets/Images/solar.jpg",
-        "link":"Public/solar.html"
+        "name": "Modal Closing Button",
+        "image": "assets/Images/modal2.jpg",
+        "link": "Public/modalclosingbutton.html"
+    },
+    {
+        "name": "Movie Search App",
+        "image": "assets/Images/Movie-Search-App.png",
+        "link": "Public/Movie-Search-App.html"
+    },
+    {
+        "name": "Movie Quote Generator",
+        "image": "assets/Images/MovieQuoteGenerator.png",
+        "link": "Public/MovieQuoteGenerator.html"
+    },
+    {
+        "name": "Multiple Portfolio",
+        "image": "assets/Images/multi-portfolio.png",
+        "link": "Public/multiple-portfolio.html"
+    },
+    {
+        "name": "Music Player",
+        "image": "assets/Images/music.jpg",
+        "link": "Public/musicPlayer.html"
+    },
+    {
+        "name": "NGO",
+        "image": "assets/Images/ngo.png",
+        "link": "Public/NGO.html"
+    },
+    {
+        "name": "Note App",
+        "image": "assets/Images/noteapp.png",
+        "link": "Public/noteapp.html"
+    },
+    {
+        "name": "News Website",
+        "image": "assets/Images/NewsWebsite.png",
+        "link": "Public/News_Site.html"
+    },
+    {
+        "name": "Palindrome",
+        "image": "assets/Images/Palindrome Checker.png",
+        "link": "Public/palindrome.html"
+    },
+    {
+        "name": "Password Generator",
+        "image": "assets/Images/password generator.png",
+        "link": "Public/password_generator.html"
+    },
+    {
+        "name": "Place Holder",
+        "image": "assets/Images/placeholder.jpg",
+        "link": "Public/placeholder.html"
+    },
+    {
+        "name": "Pong",
+        "image": "assets/Images/Pong-Game.PNG",
+        "link": "Public/pong.html"
+    },
+    {
+        "name": "Pop Up",
+        "image": "assets/Images/popup.png",
+        "link": "Public/popup.html"
+    },
+    {
+        "name": "Prime Calculator",
+        "image": "assets/Images/primeCalc.png",
+        "link": "Public/primeCalc.html"
+    },
+    {
+        "name": "Purple Heart",
+        "image": "assets/Images/purple_heart.jpg",
+        "link": "Public/purple_heart.html"
+    },
+    {
+        "name": "QR Code Generator",
+        "image": "assets/Images/QR_Code_Generator.png",
+        "link": "Public/QR_Code_Generator.html"
+    },
+    {
+        "name": "Quiz App",
+        "image": "assets/Images/quiz.jpg",
+        "link": "Public/Quiz_app.html"
+    },
+    {
+        "name": "Quiz",
+        "image": "assets/Images/quizapp.jpg",
+        "link": "Public/quiz.html"
+    },
+    {
+        "name": "Random Color Generator",
+        "image": "assets/Images/randomcolorgenerator.png",
+        "link": "Public/random_color_generator.html"
+    },
+    {
+        "name": "random Quote Generator",
+        "image": "assets/Images/Random_Quote.PNG",
+        "link": "Public/Random_Quote_Generator.html"
+    },
+    {
+        "name": "RD Return Calculator",
+        "image": "assets/Images/RD-return-calculator.png",
+        "link": "Public/RD-return-calculator.html"
+    },
+    {
+        "name": "Report Calculator",
+        "image": "assets/Images/report.jpg",
+        "link": "Public/ReportCalculator.html"
+    },
+    {
+        "name": "Responsive NavBar",
+        "image": "assets/Images/responsivenavbar.png",
+        "link": "Public/responsive_nav.html"
+    },
+    {
+        "name": "Responsive Landing Page",
+        "image": "assets/Images/ResponsiveLanding/logo.png",
+        "link": "Public/responsiveLanding.html"
+    },
+    {
+        "name": "Resume Builder",
+        "image": "assets/Images/resumebuilder.png",
+        "link": "Public/resume_builder.html"
+    },
+    {
+        "name": "Reviews",
+        "image": "assets/Images/rev.jpg",
+        "link": "Public/reviews.html"
+    },
+    {
+        "name": "RGB Mixer",
+        "image": "assets/Images/rgbmixer.png",
+        "link": "Public/rgbmixer.html"
+    },
+    {
+        "name": "Scientific Calculator",
+        "image": "assets/Images/scientific_calculator.png",
+        "link": "Public/scientific_calculator.html"
+    },
+    {
+        "name": "Shell Game",
+        "image": "assets/Images/shell_game.png",
+        "link": "Public/shell_game.html"
+    },
+    {
+        "name": "Simon Game",
+        "image": "assets/Images/simon_game.png",
+        "link": "Public/Simon_game.html"
+    },
+    {
+        "name": "Snake",
+        "image": "assets/Images/snake.jpg",
+        "link": "Public/snake.html"
+    },
+    {
+        "name": "Sneakers",
+        "image": "assets/Images/sneaker-images/air2.png",
+        "link": "Public/sneaker.html"
+    },
+    {
+        "name": "Socials",
+        "image": "assets/Images/social.jpg",
+        "link": "Public/socials.html"
+    },
+    {
+        "name": "Solar",
+        "image": "assets/Images/solar.jpg",
+        "link": "Public/solar.html"
 
     },
     {
-        "name":"Speech Synthesis",
-        "image":"assets/Images/speechsynthesis.png",
-        "link":"Public/speech_synthesis.html"
-    }
-    ,
+        "name": "Speech Synthesis",
+        "image": "assets/Images/speechsynthesis.png",
+        "link": "Public/speech_synthesis.html"
+    },
     {
-        "name":"Speech To Text Converter",
-        "image":"assets/Images/speech.png",
-        "link":"Public/Speech-to-Text-Converter.html"
-    }
-    ,
+        "name": "Speech To Text Converter",
+        "image": "assets/Images/speech.png",
+        "link": "Public/Speech-to-Text-Converter.html"
+    },
     {
-        "name":"Speed Typer",
-        "image":"assets/Images/speed_typer.jpg",
-        "link":"Public/Speed_Typer.html"
-    }
-    ,
+        "name": "Speed Typer",
+        "image": "assets/Images/speed_typer.jpg",
+        "link": "Public/Speed_Typer.html"
+    },
     {
-        "name":"Speed",
-        "image":"assets/Images/speed.png",
-        "link":"Public/speed.html"
-    }
-    ,
+        "name": "Speed",
+        "image": "assets/Images/speed.png",
+        "link": "Public/speed.html"
+    },
     {
-        "name":"Spotify Clone",
-        "image":"assets/Images/spotifyclone.png",
-        "link":"Public/spotify-clone.html"
-    }
-    ,
+        "name": "Spotify Clone",
+        "image": "assets/Images/spotifyclone.png",
+        "link": "Public/spotify-clone.html"
+    },
     {
-        "name":"Star Catching Game",
-        "image":"assets/Images/star.png",
-        "link":"Public/star-catching-game.html"
-    }
-    ,
+        "name": "Star Catching Game",
+        "image": "assets/Images/star.png",
+        "link": "Public/star-catching-game.html"
+    },
     {
-        "name":"Sticky Notes",
-        "image":"assets/Images/sticky_notes.png",
-        "link":"Public/sticky_notes.html"
-    }
-    ,
+        "name": "Sticky Notes",
+        "image": "assets/Images/sticky_notes.png",
+        "link": "Public/sticky_notes.html"
+    },
     {
-        "name":"Stone Paper Scissors",
-        "image":"assets/Images/stonepaperscissor.png",
-        "link":"Public/stone_paper_scissors.html"
-    }
-    ,
+        "name": "Stone Paper Scissors",
+        "image": "assets/Images/stonepaperscissor.png",
+        "link": "Public/stone_paper_scissors.html"
+    },
     {
-        "name":"StopWatch",
-        "image":"assets/Images/stopwatch.png",
-        "link":"Public/stopwatch.html"
-    }
-    ,
+        "name": "StopWatch",
+        "image": "assets/Images/stopwatch.png",
+        "link": "Public/stopwatch.html"
+    },
     {
-        "name":"Tap Music",
-        "image":"assets/Images/tapmusic.jpg",
-        "link":"Public/tap_music.html"
-    }
-    ,
+        "name": "Tap Music",
+        "image": "assets/Images/tapmusic.jpg",
+        "link": "Public/tap_music.html"
+    },
     {
-        "name":"Temperature Converter",
-        "image":"assets/Images/temperature-converter.png",
-        "link":"Public/temperature-converter.html"
-    }
-    ,
+        "name": "Temperature Converter",
+        "image": "assets/Images/temperature-converter.png",
+        "link": "Public/temperature-converter.html"
+    },
     {
+
         "name":"Theme Clock",
         "image":"assets/Images/theme-clock.png",
         "link":"Public/theme-clock.html"
@@ -639,107 +557,94 @@
         "link":"Public/Third_Degree_Equation_Calculator.html"
     }
     ,
+ 
     {
-        "name":"Tic Tac Toe",
-        "image":"assets/Images/tic-tac-toe.PNG",
-        "link":"Public/tic-tac-toe.html"
-    }
-    ,
-    {
-        "name":"Tiktok Clone",
-        "image":"assets/Images/tiktok_clone/tiktok-musical-ly-video-bytedance.png",
-        "link":"Public/Tiktok_Clone.html"
-    }
-    ,
-    {
-        "name":"Tinder Clone",
-        "image":"assets/Images/tinder_clone.jpg",
-        "link":"Public/Tinder_Clone.html"
-    }
-    ,
-    {
-        "name":"Tip Calculator",
-        "image":"assets/Images/tipcalculator.png",
-        "link":"Public/tip_calculator.html"
-    }
-    ,
-    {
-        "name":"TODO App",
-        "image":"assets/Images/to-do-img.png",
-        "link":"Public/to-do.html"
-    }
-    ,
-    {
-        "name":"Toast Notification",
-        "image":"assets/Images/toast.jpg",
-        "link":"Public/toast_notification.html"
-    }
-    
-    ,
-    {
-        "name":"Todo",
-        "image":"assets/Images/to-do-img.png",
-        "link":"Public/todo.html"
-    }
-    ,
-    {
-        "name":"Transpose Matrix Calculator",
-        "image":"assets/Images/TransposeMatrixCalculator.png",
-        "link":"Public/Transpose-Matrix-Calculator.html"
-    }
-    ,
-    {
-        "name":"Travel game",
-        "image":"assets/Images/travel_game/travel.png",
-        "link":"Public/Travel game.html"
-    }
-    ,
-    {
-        "name":"Travel Website",
-        "image":"assets/Images/travel-website/8.jpg",
-        "link":"Public/travel-website.html"
-    }
-    ,
-    {
-        "name":"Type Writer Effect",
-        "image":"assets/Images/type-writer.jpg",
-        "link":"Public/type-writer.html"
-    }
-    ,
-      {
-        "name":"URL Keeper",
-        "image":"assets/Images/url_keeper.png",
-        "link":"Public/url_keeper.html"
-    }
-    ,
-    {
-        "name":"Weather App",
-        "image":"assets/Images/weather.png",
-        "link":"Public/weather_app.html"
-    }
-    ,
-    {
-        "name":"Weight Converter",
-        "image":"assets/Images/weightconverter.png",
-        "link":"Public/weight_conv.html"
-    }
-    ,
-    {
-        "name":"Word Definition",
-        "image":"assets/Images/word_definition.png",
-        "link":"Public/word_definition.html"
-    }
-    ,
-    {
-        "name":"Word Count Calculator",
-        "image":"assets/Images/wordcountcalculator.png",
-        "link":"Public/word-count-calculator.html"
+        "name": "Tic Tac Toe",
+        "image": "assets/Images/tic-tac-toe.PNG",
+        "link": "Public/tic-tac-toe.html"
     },
     {
-        "name":"YouTube Clone",
-        "image":"assets/Images/YouTubeClone/YouTubeClone.png",
-        "link":"Public/YouTube_Clone/index.html"
+        "name": "Tiktok Clone",
+        "image": "assets/Images/tiktok_clone/tiktok-musical-ly-video-bytedance.png",
+        "link": "Public/Tiktok_Clone.html"
+    },
+    {
+        "name": "Tinder Clone",
+        "image": "assets/Images/tinder_clone.jpg",
+        "link": "Public/Tinder_Clone.html"
+    },
+    {
+        "name": "Tip Calculator",
+        "image": "assets/Images/tipcalculator.png",
+        "link": "Public/tip_calculator.html"
+    },
+    {
+        "name": "TODO App",
+        "image": "assets/Images/to-do-img.png",
+        "link": "Public/to-do.html"
+    },
+    {
+        "name": "Toast Notification",
+        "image": "assets/Images/toast.jpg",
+        "link": "Public/toast_notification.html"
     }
-    
+
+    ,
+    {
+        "name": "Todo",
+        "image": "assets/Images/to-do-img.png",
+        "link": "Public/todo.html"
+    },
+    {
+        "name": "Transpose Matrix Calculator",
+        "image": "assets/Images/TransposeMatrixCalculator.png",
+        "link": "Public/Transpose-Matrix-Calculator.html"
+    },
+    {
+        "name": "Travel game",
+        "image": "assets/Images/travel_game/travel.png",
+        "link": "Public/Travel game.html"
+    },
+    {
+        "name": "Travel Website",
+        "image": "assets/Images/travel-website/8.jpg",
+        "link": "Public/travel-website.html"
+    },
+    {
+        "name": "Type Writer Effect",
+        "image": "assets/Images/type-writer.jpg",
+        "link": "Public/type-writer.html"
+    },
+    {
+        "name": "URL Keeper",
+        "image": "assets/Images/url_keeper.png",
+        "link": "Public/url_keeper.html"
+    },
+    {
+        "name": "Weather App",
+        "image": "assets/Images/weather.png",
+        "link": "Public/weather_app.html"
+    },
+    {
+        "name": "Weight Converter",
+        "image": "assets/Images/weightconverter.png",
+        "link": "Public/weight_conv.html"
+    },
+    {
+        "name": "Word Definition",
+        "image": "assets/Images/word_definition.png",
+        "link": "Public/word_definition.html"
+    },
+    {
+        "name": "Word Count Calculator",
+        "image": "assets/Images/wordcountcalculator.png",
+        "link": "Public/word-count-calculator.html"
+    },
+    {
+        "name": "YouTube Clone",
+        "image": "assets/Images/YouTubeClone/YouTubeClone.png",
+        "link": "Public/YouTube_Clone/index.html"
+    }
+
 
 ]
