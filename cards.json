@@ -126,7 +126,7 @@
     },
     {
         "name": "Dad's Joke",
-        "image": "assets/Images/dadsjoke.png",
+        "image": "assets/Images/dadsjoke.jpg",
         "link": "Public/dadsjoke.html"
     },
     {
@@ -213,7 +213,7 @@
     ,
     {
          "name":"Google Clone 1",
-         "image":"assets/Images/googleclone1/gimage.PNG",
+         "image":"assets/Images/googleclone1/google.png",
          "link":"Public/googleClone1/googleclone1.html"
     }
     ,
@@ -285,7 +285,7 @@
     },
     {
         "name": "Maps",
-        "image": "assets/Images/maps.jpg",
+        "image": "assets/Images/maps.JPG",
         "link": "Public/maps.html"
     },
     {
@@ -320,7 +320,7 @@
     },
     {
         "name": "Modal Closing Button",
-        "image": "assets/Images/modal2.jpg",
+        "image": "assets/Images/modal2.JPG",
         "link": "Public/modalclosingbutton.html"
     },
     {
@@ -370,7 +370,7 @@
     },
     {
         "name": "Place Holder",
-        "image": "assets/Images/placeholder.jpg",
+        "image": "assets/Images/placeholder.JPG",
         "link": "Public/placeholder.html"
     },
     {
@@ -405,7 +405,7 @@
     },
     {
         "name": "Quiz",
-        "image": "assets/Images/quizapp.jpg",
+        "image": "assets/Images/quizapp.JPG",
         "link": "Public/quiz.html"
     },
     {
@@ -425,7 +425,7 @@
     },
     {
         "name": "Report Calculator",
-        "image": "assets/Images/report.jpg",
+        "image": "assets/Images/report.JPG",
         "link": "Public/ReportCalculator.html"
     },
     {
@@ -445,7 +445,7 @@
     },
     {
         "name": "Reviews",
-        "image": "assets/Images/rev.jpg",
+        "image": "assets/Images/rev.JPG",
         "link": "Public/reviews.html"
     },
     {
@@ -470,7 +470,7 @@
     },
     {
         "name": "Snake",
-        "image": "assets/Images/snake.jpg",
+        "image": "assets/Images/snake.JPG",
         "link": "Public/snake.html"
     },
     {
@@ -480,12 +480,12 @@
     },
     {
         "name": "Socials",
-        "image": "assets/Images/social.jpg",
+        "image": "assets/Images/social.JPG",
         "link": "Public/socials.html"
     },
     {
         "name": "Solar",
-        "image": "assets/Images/solar.jpg",
+        "image": "assets/Images/solar.JPG",
         "link": "Public/solar.html"
 
     },
@@ -536,7 +536,7 @@
     },
     {
         "name": "Tap Music",
-        "image": "assets/Images/tapmusic.jpg",
+        "image": "assets/Images/tapmusic.JPG",
         "link": "Public/tap_music.html"
     },
     {
@@ -553,7 +553,7 @@
     ,
     {
         "name":"Third Degree Equation Calculator",
-        "image":"assets/Images/xxx.jpg",
+        "image":"assets/Images/xxx.JPG",
         "link":"Public/Third_Degree_Equation_Calculator.html"
     }
     ,
@@ -585,7 +585,7 @@
     },
     {
         "name": "Toast Notification",
-        "image": "assets/Images/toast.jpg",
+        "image": "assets/Images/toast.JPG",
         "link": "Public/toast_notification.html"
     }
 
