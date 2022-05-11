@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/News_Site.css">
+
+    <title>News Feeds</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ADP NEWS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+          <form class="d-flex" id="searchForm">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search News"
+                id="searchBar"
+                aria-label="Text input with segmented dropdown button"
+              />
+              <button type="button" class="btn btn-outline-secondary" id="searchBtn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="text-center my-2">
+      <h1 id="heading">Welcome to News Feed</h1>
+      <hr />
+    </div>
+    <div class="container">
+      <div class="highlightsHeader d-flex justify-content-between align-items-center">
+        <h2 id="highlights"> News </h2>
+
+        <div class="inputAreas d-flex flex-row w-50 justify-content-evenly">
+          <div class="topicBar" id="topicBar">
+            <select class="form-select selectBox" id="topicInputGroup">
+              <option class="options" value="null" selected>Topic : All</option>
+              <option class="options" value="Business">Business</option>
+              <option class="options" value="Entertainment">Entertainment</option>
+              <option class="options" value="India">India</option>
+              <option class="options" value="LifeStyle">LifeStyle</option>
+              <option class="options" value="ScienceAndTechnology">Science And Technology</option>
+              <option class="options" value="Sports">Sports</option>
+              <option class="options" value="World">World</option>
+            </select>
+          </div>
+          <div class="input-group mb-3 sortBar">
+            <select class="form-select selectBox" id="inputGroupSelect02"></select>
+            <button type="button" class="btn btn-outline-secondary " id="resetBtn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
+                <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
+              </svg>
+            </button>
+          </div>
+
+        </div>
+        
+      </div>
+      <div class="coronasecInMobile"></div>
+      <div class="newsfeed" id="newsfeed"></div>
+
+      <div class="coronaSec">
+        <div class="mycard">
+          <h5 class="card-header">Featured</h5>
+          <div class="card-body">
+            <h5 class="card-title">Corona Update: India 
+            </h5>
+            <div class="Datas">
+              <div class="IndiaData Data">
+                <p class="h5 " id="Iheading">India</p>
+                <ul class="Ilist">
+                  <li class="bold" >Total Case: <span id="Itotal"></span></li>
+                  <li class="bold" >Deaths : <span id="Ideaths"></span></li>
+                  <li class="bold" >Recovered: <span id="Irecovered"></span></li>
+                </ul>
+              </div><hr>
+              <div class="WorldData Data">
+                <p class="h5 " id="Wheading">World</p>
+                <ul class="Wlist">
+                  <li class="bold" >Total Case: <span id="Wtotal"></span></li>
+                  <li class="bold" >Deaths: <span id="Wdeaths"></span></li>
+                  <li class="bold" >Recovered: <span id="Wrecovered"></span></li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline-dark" onclick= getCoronaNews() >India's Corona News</a>
+          </div>
+        </div>
+        <div class="coronaNews w-10" id="coronaNews"></div>
+      </div>
+    </div>
+    <button class="btnForCNewsinMobile" id="btnForCNewsinMobile">
+      Corona Update
+    </button>
+    
+    <script src="../assets/Js/News_Site/app3.js"></script>
+    <script src="../assets/Js/News_Site/app3b.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

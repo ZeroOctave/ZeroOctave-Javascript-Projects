@@ -1,0 +1,182 @@
+h1,h4,h3,h2,h5{
+    font-family:'Dancing Script', cursive;
+   
+}
+.container-fluid .collapse a{
+    color:white;
+}
+.navbar-brand,.navbar-brand:hover{
+    font-size: 45px;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+ 
+.nav-item a:hover{
+background-color: rgba(255, 255, 255, 0.3);
+color:black;
+padding: 10px;
+font-weight: bold;
+transition: padding 0.3s ease;
+transition:  0.3s ease;
+border-radius: 6px;
+
+}
+.container span{
+    color: rgb(9, 10, 10);
+}
+.header{
+    font-size: 70px;
+    line-height: 1.3;
+    letter-spacing: 1.3;
+    color:rgba(255, 255, 255, 0.836) ;
+    margin-top: 150px;
+    background-color:rgba(255, 255, 255,0) ;
+    
+}
+.fonts i{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: rgba(134, 97, 141, 0.575);
+    transition-duration: 0.7s;
+}
+.fonts:hover i{
+    transform: scale(1.2,1.2);
+    transform: rotate(360deg);
+}
+
+.testimonials .card{
+background-color: white;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    
+    background-color: rgb(14, 13, 12);
+}
+
+.image{
+    max-width: 230px;
+    max-height: 230px;
+    overflow: hidden;
+    margin: auto;
+    transition: all 0.5s ease;
+}
+
+.image img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.image:hover{
+    transform: scale(1.1,1.1);
+}
+.col-xl img {
+    width: 100%;
+    height: 100%;
+}
+hr{
+    margin: auto;
+    margin-bottom: 60px;
+    width: 100px;
+    border: 2px solid #9A9A9A}
+.col-sm-5 input{
+     width: 640px !important;
+     height: 50px !important;
+     border-radius: 30px !important;
+}
+.col-sm-2 button,.col-sm-2 button:hover{
+   border: 1px solid rgba(74, 4, 88, 0.575) ;
+    border-radius: 15px;
+    background-color:rgba(74, 4, 88, 0.575);
+    
+}
+.photo{
+   width: 300px;
+   height: 250px;
+   margin: auto;
+   margin-bottom: 20px;
+   transition: all 0.3s ease-in-out;
+   cursor: pointer;
+
+}
+.photo:hover{
+    transform: scale(1.1);
+
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+.photo-card{
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.photo-card:hover{
+    transform: scale(1.1);
+}
+.photo-card img{
+     width: 100%;
+     min-height: 230px;
+}
+.min{
+    min-height: 215px;
+}
+.line hr{
+   
+    width: 220px;
+    border: 2px solid black
+}
+.contact-us .fields{
+    background-color: rgba(9, 9, 9, 0.8);
+ }   
+
+.col-sm-6{
+    font-size: 25px;
+}
+/* Media Query must be at the end */
+@media(min-width:768px) and (max-width:1199px){
+    .image{
+        margin-top: 75px;
+    }
+}
+
+/* Icon Pulse Grow */
+@-webkit-keyframes i {
+  to {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+}
+@keyframes i{
+  to {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+}
+i {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+i {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+i{
+  -webkit-animation-name: hvr-icon-pulse-grow;
+  animation-name: hvr-icon-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}

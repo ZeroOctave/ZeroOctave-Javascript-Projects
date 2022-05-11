@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Temperature Converter</title>
+   <style>
+    input[type=text]{
+        width: 35px;
+        outline: none;
+        margin-top: 30px;
+        margin-right: 60px;
+    }
+
+    label{
+        font-family: Garamond;
+        font-weight: bolder;
+        margin: auto;
+    }
+
+    .box{
+        margin: auto; 
+        background-color: white;
+        padding: 10px 30px; 
+        border: 2px solid black; 
+        width:fit-content;
+        display: block;
+        text-align: right;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+    }
+
+    input[type=button]{
+        cursor: pointer;
+        padding: 6px 12px;
+        margin-top: 15px;
+        margin-right: 60px;
+    }
+
+    h1{
+        font-family: Garamond;
+        font-weight: bolder;
+        margin: auto;
+    }
+
+</style>
+</head>
+
+<body>
+	<div class ="box">
+		<h1>Temperature Converter</h1>
+		<label>Celsius to Fahrenheit</label>
+		<input type="text" id="celsius"> <br>
+        <input type="button" id="ctof" value="Convert to Fahrenheit"> <br><br>
+        <div id="celr"></div>
+
+		<label>Fahrenheit to Celsius</label>
+		<input type="text" id="fahrenheit"> <br>
+		<input type="button" id="ftoc" value="Convert to Celsius"> <br><br>
+        <div id="felr"></div>
+  </div>
+
+<script src ="../assets/Js/temperature-converter.js"> </script>
+
+</body>
+</html>
