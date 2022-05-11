@@ -54,6 +54,11 @@
         "image": "assets/Images/blurry-loading.png",
         "link": "Public/blurry-loading.html"
     },
+        {
+        "name": "Browser Detector",
+        "image": "assets/Images/BrowserDetector/main.png",
+        "link": "Public/Browser_Detector.html"
+    },
     {
         "name": "Caesar Cipher",
         "image": "assets/Images/CaesarCipher.png",
@@ -644,12 +649,5 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
-    },
-    {
-        "name": "Browser Detector",
-        "image": "assets/Images/BrowserDetector/main.png",
-        "link": "Public/Browser_Detector.html"
     }
-
-
 ]
