@@ -649,6 +649,11 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
+    },
+    {
+        "name": "Food filter",
+        "image": "assets/Images/food-filter/sweets-1.jpeg",
+        "link":"Public/food-filter.html"
     }
 
 ]
