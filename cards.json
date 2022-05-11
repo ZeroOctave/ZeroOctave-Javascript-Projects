@@ -211,23 +211,20 @@
         "link": "Public/Github-Profiles.html"
     },
     {
-         "name":"Google Clone",
-         "image":"assets/Images/Google-clone.PNG",
-         "link":"Public/Google-clone.html"
-    }
-    ,
+        "name": "Google Clone",
+        "image": "assets/Images/Google-clone.PNG",
+        "link": "Public/Google-clone.html"
+    },
     {
-         "name":"Google Clone 1",
-         "image":"assets/Images/googleclone1/google.png",
-         "link":"Public/googleClone1/googleclone1.html"
-    }
-    ,
+        "name": "Google Clone 1",
+        "image": "assets/Images/googleclone1/google.png",
+        "link": "Public/googleClone1/googleclone1.html"
+    },
     {
-         "name":"Gravity Simulator",
-         "image":"assets/Images/gravitysimulator.png",
-         "link":"Public/gravity.html"
-    }
-    ,
+        "name": "Gravity Simulator",
+        "image": "assets/Images/gravitysimulator.png",
+        "link": "Public/gravity.html"
+    },
     {
         "name": "Guess Color",
         "image": "assets/Images/guess_color.png",
@@ -551,18 +548,16 @@
     },
     {
 
-        "name":"Theme Clock",
-        "image":"assets/Images/theme-clock.png",
-        "link":"Public/theme-clock.html"
-    }
-    ,
+        "name": "Theme Clock",
+        "image": "assets/Images/theme-clock.png",
+        "link": "Public/theme-clock.html"
+    },
     {
-        "name":"Third Degree Equation Calculator",
-        "image":"assets/Images/xxx.JPG",
-        "link":"Public/Third_Degree_Equation_Calculator.html"
-    }
-    ,
- 
+        "name": "Third Degree Equation Calculator",
+        "image": "assets/Images/xxx.JPG",
+        "link": "Public/Third_Degree_Equation_Calculator.html"
+    },
+
     {
         "name": "Tic Tac Toe",
         "image": "assets/Images/tic-tac-toe.PNG",
@@ -626,6 +621,11 @@
         "link": "Public/url_keeper.html"
     },
     {
+        "name": "Vaccine Slot Finder",
+        "image": "assets/Images/vaccineslot/vaccineslot.jpg",
+        "link": "Public/vaccineslot.html"
+    },
+    {
         "name": "Weather App",
         "image": "assets/Images/weather.png",
         "link": "Public/weather_app.html"
@@ -650,4 +650,5 @@
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
     }
+
 ]
