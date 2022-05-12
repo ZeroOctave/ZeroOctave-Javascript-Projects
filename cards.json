@@ -11,6 +11,9 @@
  {   "name":"Color Game",
      "link":"Public/Color-game"
  },
+ {   "name":"Joke api",
+     "link":"Public/api"
+ },
     {
         "name": "Analog",
         "image": "assets/Images/analog.jpg",
