@@ -8,6 +8,9 @@
         "image": "assets/Images/aipanart.png",
         "link": "Public/aipanArt.html"
     },
+ {   "name":"Color Game",
+     "link":"Public/Color-game"
+ },
     {
         "name": "Analog",
         "image": "assets/Images/analog.jpg",
