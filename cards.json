@@ -3,10 +3,14 @@
         "image": "assets/Images/accordion.png",
         "link": "Public/accordion.html"
     },
- {
+    {
          "name":"Dynamic Picture Frame",
          "link":"Public/pf"
- },
+    },
+    {
+         "name":"Color-game",
+         "link":"Public/Color-game"
+    },
     {
         "name": "AI panArt",
         "image": "assets/Images/aipanart.png",
