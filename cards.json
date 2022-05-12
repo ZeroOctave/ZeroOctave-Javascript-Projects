@@ -4,8 +4,12 @@
         "link": "Public/accordion.html"
     },
     { "name":"Dynamic Picture Frame",
-      "link":"ZeroOctave-Javascript-Projects/tree/pr/92/Public/pf"
+      "link":"Public/pf"
     },
+ {   "name":"Color Game",
+     "link":"Public/Color-game"
+ },
+         
     {
         "name": "AI panArt",
         "image": "assets/Images/aipanart.png",
