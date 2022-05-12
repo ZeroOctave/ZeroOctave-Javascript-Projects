@@ -3,10 +3,10 @@
         "image": "assets/Images/accordion.png",
         "link": "Public/accordion.html"
     },
- {
+    {
          "name":"Dynamic Picture Frame",
          "link": "Public/pf"
- }
+    }
     {
         "name": "AI panArt",
         "image": "assets/Images/aipanart.png",
