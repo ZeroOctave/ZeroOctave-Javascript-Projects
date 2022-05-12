@@ -191,6 +191,11 @@
         "link": "Public/findnum.html"
     },
     {
+        "name": "Food Filter",
+        "image": "assets/Images/food-filter/sweets-1.jpeg",
+        "link":"Public/food-filter.html"
+    },
+    {
         "name": "Food Website",
         "image": "assets/Images/foodwebsite.png",
         "link": "Public/food_website.html"
@@ -655,5 +660,4 @@
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
     }
-
 ]
