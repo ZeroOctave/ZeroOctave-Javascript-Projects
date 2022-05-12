@@ -537,6 +537,11 @@
         "link": "Public/stopwatch.html"
     },
     {
+        "name": "Sudoku Solver",
+        "image": "assets/Images/SudokuSolver.png",
+        "link": "Public/SudokuSolver.html"
+    },
+    {
         "name": "Tap Music",
         "image": "assets/Images/tapmusic.JPG",
         "link": "Public/tap_music.html"
