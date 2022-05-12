@@ -54,6 +54,11 @@
         "image": "assets/Images/blurry-loading.png",
         "link": "Public/blurry-loading.html"
     },
+        {
+        "name": "Browser Detector",
+        "image": "assets/Images/BrowserDetector/main.png",
+        "link": "Public/Browser_Detector.html"
+    },
     {
         "name": "Caesar Cipher",
         "image": "assets/Images/CaesarCipher.png",
@@ -126,7 +131,7 @@
     },
     {
         "name": "Dad's Joke",
-        "image": "assets/Images/dadsjoke.png",
+        "image": "assets/Images/dadsjoke.jpg",
         "link": "Public/dadsjoke.html"
     },
     {
@@ -206,23 +211,20 @@
         "link": "Public/Github-Profiles.html"
     },
     {
-         "name":"Google Clone",
-         "image":"assets/Images/Google-clone.PNG",
-         "link":"Public/Google-clone.html"
-    }
-    ,
+        "name": "Google Clone",
+        "image": "assets/Images/Google-clone.PNG",
+        "link": "Public/Google-clone.html"
+    },
     {
-         "name":"Google Clone 1",
-         "image":"assets/Images/googleclone1/gimage.PNG",
-         "link":"Public/googleClone1/googleclone1.html"
-    }
-    ,
+        "name": "Google Clone 1",
+        "image": "assets/Images/googleclone1/google.png",
+        "link": "Public/googleClone1/googleclone1.html"
+    },
     {
-         "name":"Gravity Simulator",
-         "image":"assets/Images/gravitysimulator.png",
-         "link":"Public/gravity.html"
-    }
-    ,
+        "name": "Gravity Simulator",
+        "image": "assets/Images/gravitysimulator.png",
+        "link": "Public/gravity.html"
+    },
     {
         "name": "Guess Color",
         "image": "assets/Images/guess_color.png",
@@ -285,7 +287,7 @@
     },
     {
         "name": "Maps",
-        "image": "assets/Images/maps.jpg",
+        "image": "assets/Images/maps.JPG",
         "link": "Public/maps.html"
     },
     {
@@ -320,7 +322,7 @@
     },
     {
         "name": "Modal Closing Button",
-        "image": "assets/Images/modal2.jpg",
+        "image": "assets/Images/modal2.JPG",
         "link": "Public/modalclosingbutton.html"
     },
     {
@@ -370,7 +372,7 @@
     },
     {
         "name": "Place Holder",
-        "image": "assets/Images/placeholder.jpg",
+        "image": "assets/Images/placeholder.JPG",
         "link": "Public/placeholder.html"
     },
     {
@@ -405,7 +407,7 @@
     },
     {
         "name": "Quiz",
-        "image": "assets/Images/quizapp.jpg",
+        "image": "assets/Images/quizapp.JPG",
         "link": "Public/quiz.html"
     },
     {
@@ -425,7 +427,7 @@
     },
     {
         "name": "Report Calculator",
-        "image": "assets/Images/report.jpg",
+        "image": "assets/Images/report.JPG",
         "link": "Public/ReportCalculator.html"
     },
     {
@@ -445,7 +447,7 @@
     },
     {
         "name": "Reviews",
-        "image": "assets/Images/rev.jpg",
+        "image": "assets/Images/rev.JPG",
         "link": "Public/reviews.html"
     },
     {
@@ -470,7 +472,7 @@
     },
     {
         "name": "Snake",
-        "image": "assets/Images/snake.jpg",
+        "image": "assets/Images/snake.JPG",
         "link": "Public/snake.html"
     },
     {
@@ -480,12 +482,12 @@
     },
     {
         "name": "Socials",
-        "image": "assets/Images/social.jpg",
+        "image": "assets/Images/social.JPG",
         "link": "Public/socials.html"
     },
     {
         "name": "Solar",
-        "image": "assets/Images/solar.jpg",
+        "image": "assets/Images/solar.JPG",
         "link": "Public/solar.html"
 
     },
@@ -535,8 +537,13 @@
         "link": "Public/stopwatch.html"
     },
     {
+        "name": "Sudoku Solver",
+        "image": "assets/Images/SudokuSolver.png",
+        "link": "Public/SudokuSolver.html"
+    },
+    {
         "name": "Tap Music",
-        "image": "assets/Images/tapmusic.jpg",
+        "image": "assets/Images/tapmusic.JPG",
         "link": "Public/tap_music.html"
     },
     {
@@ -546,18 +553,16 @@
     },
     {
 
-        "name":"Theme Clock",
-        "image":"assets/Images/theme-clock.png",
-        "link":"Public/theme-clock.html"
-    }
-    ,
+        "name": "Theme Clock",
+        "image": "assets/Images/theme-clock.png",
+        "link": "Public/theme-clock.html"
+    },
     {
-        "name":"Third Degree Equation Calculator",
-        "image":"assets/Images/xxx.jpg",
-        "link":"Public/Third_Degree_Equation_Calculator.html"
-    }
-    ,
- 
+        "name": "Third Degree Equation Calculator",
+        "image": "assets/Images/xxx.JPG",
+        "link": "Public/Third_Degree_Equation_Calculator.html"
+    },
+
     {
         "name": "Tic Tac Toe",
         "image": "assets/Images/tic-tac-toe.PNG",
@@ -585,7 +590,7 @@
     },
     {
         "name": "Toast Notification",
-        "image": "assets/Images/toast.jpg",
+        "image": "assets/Images/toast.JPG",
         "link": "Public/toast_notification.html"
     }
 
@@ -621,6 +626,11 @@
         "link": "Public/url_keeper.html"
     },
     {
+        "name": "Vaccine Slot Finder",
+        "image": "assets/Images/vaccineslot/vaccineslot.jpg",
+        "link": "Public/vaccineslot.html"
+    },
+    {
         "name": "Weather App",
         "image": "assets/Images/weather.png",
         "link": "Public/weather_app.html"
@@ -650,4 +660,5 @@
         "image" : "assets/Images/Coin-Toss-Game.jpeg",
         "link" : "Public/Coin-toss-game.html"
     }
+
 ]
