@@ -4,9 +4,9 @@
         "link": "Public/accordion.html"
     },
  {
-         "name":"Dynamic Picture Frame",
-         "link": "Public/pf"
- }
+         "name":"React dynamic form",
+         "link":"Public/react-dynamic-form"
+ },
     {
         "name": "AI panArt",
         "image": "assets/Images/aipanart.png",
