@@ -263,7 +263,7 @@ git push -u origin <your_branch_name>
 | 133. | [News Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/News_Site.html)| 134. | [Drink Water](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/drinkwater.html)| 135. | [Url Keeper](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/url_keeper.html)
 | 136. | [Dad's Joke](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/dadsjoke.html)| 137. | [Theme Clock](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/theme-clock.html)|138. | [Vaccine Slot Finder](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/vaccineslot.html)
 139. | [Food Filter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/food-filter.html)
-
+| 140. | [Sudoku Solver](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/SudokuSolver.html)
 <br>
 
 <div id="Maintainer"></div>
