@@ -345,6 +345,11 @@
         "link": "Public/placeholder.html"
     },
     {
+        "name": "Pokemon Card Game",
+        "image": "assets/Images/pokemon/pokemon(thumnail).png",
+        "link": "Public/pokemon.html"
+    },
+    {
         "name": "Pong",
         "image": "assets/Images/Pong-Game.PNG",
         "link": "Public/pong.html"
@@ -601,12 +606,6 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
-    },
-    {
-        "name": "Pokemon Card Game",
-        "image": "assets/Images/pokemon/pokemon(thumnail).png",
-        "link": "Public/pokemon.html"
     }
-
 
 ]
