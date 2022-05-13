@@ -3,12 +3,7 @@
         "image": "assets/Images/accordion.png",
         "link": "Public/accordion.html"
     },
-    { "name":"Dynamic Picture Frame",
-      "link":"Public/pf"
-    },
- {   "name":"Color Game",
-     "link":"Public/Color-game"
- },
+
          
     {
         "name": "AI panArt",
@@ -106,6 +101,9 @@
         "image": "assets/Images/colorchooser.JPG",
         "link": "Public/colorchooser.html"
     },
+  {   "name":"Color Game",
+     "link":"Public/Color-game.html"
+ },
     {
         "name": "Confirm Password Validator",
         "image": "assets/Images/passval.JPG",
