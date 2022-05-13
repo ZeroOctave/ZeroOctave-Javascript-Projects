@@ -3,10 +3,7 @@
         "image": "assets/Images/accordion.png",
         "link": "Public/accordion.html"
     },
-    {
-         "name":"Dynamic Picture Frame",
-         "link": "Public/pf"
-    }
+
     {
         "name": "AI panArt",
         "image": "assets/Images/aipanart.png",
@@ -178,6 +175,10 @@
         "name": "Drum kit",
         "image": "assets/Images/drumkit.png",
         "link": "Public/drum_kit.html"
+    },
+     {
+         "name":"Dynamic Picture Frame",
+         "link": "Public/pf"
     },
     {
         "name": "Email Validator",
