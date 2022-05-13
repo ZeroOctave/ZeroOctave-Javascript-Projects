@@ -54,7 +54,7 @@
         "image": "assets/Images/blurry-loading.png",
         "link": "Public/blurry-loading.html"
     },
-        {
+    {
         "name": "Browser Detector",
         "image": "assets/Images/BrowserDetector/main.png",
         "link": "Public/Browser_Detector.html"
@@ -198,7 +198,7 @@
     {
         "name": "Food Filter",
         "image": "assets/Images/food-filter/sweets-1.jpeg",
-        "link":"Public/food-filter.html"
+        "link": "Public/food-filter.html"
     },
     {
         "name": "Food Website",
@@ -659,6 +659,11 @@
         "name": "Word Count Calculator",
         "image": "assets/Images/wordcountcalculator.png",
         "link": "Public/word-count-calculator.html"
+    },
+    {
+        "name": "Word Search",
+        "image": "assets/Images/wordsearch/wordsearch1.png",
+        "link": "Public/wordsearch.html"
     },
     {
         "name": "YouTube Clone",
