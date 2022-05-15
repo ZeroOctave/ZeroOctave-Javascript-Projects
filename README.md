@@ -41,23 +41,8 @@
 
 
 <!-- ---------------------------------------------------------------------------------------------------------------------- -->
-<!-- TABLE OF CONTENTS --> 
 
-<details> 
-     <summary><b> Table of contents :</b></summary>
- 
-* <a href="#About">About❓</a>
-* <a href="#Open-Source-Program">This Project is a part of the following Open Source Program❤️</a> 
-* <a href="#Before">Before you begin💻</a>  
-* <a href="#Tech-Stack">Tech-Stack used🎓</a>  
-* <a href="#Contributing">Contributing Guidelines📝</a> 
-* <a href="#Help">This Will Help🌩️</a>  
-* <a href="#Projects">Available Projects</a>   
-* <a href="#Maintainer">Project Maintainers🕵</a>    
-* <a href="#Feedback">Feedback</a>     
-
-
-</details>         
+        
  
 <p align="right"><a href="#Bottom"><img src="https://img.shields.io/badge/-Bottom-red?style=for-the-badge" /></a></p>
 
