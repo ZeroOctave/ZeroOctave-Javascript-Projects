@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+::placeholder {
+    text-align: center;
+    color: #2a2a2a;
+}
+input:focus {
+    text-align: center;
+}
+body {
+    font-family: "Inter", sans-serif;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    border: 1px solid white;
+    box-shadow: 10px 0px 10px  rgb(212, 210, 210);
+    cursor: pointer;
+}
+nav input {
+    width: 650px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.search-bar {
+    display: flex;
+}
+.search{
+    display: none;
+}
+.search-bar i {
+    position: absolute;
+    padding-top: 13px;
+}
+nav .btnl {
+    width: 70px;
+    height: 38px;
+    padding: 9px;
+    margin: 1px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+nav .btns {
+    width: 78px;
+    height: 38px;
+    padding: 9px;
+    margin: 3px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+}
+main .line {
+    font-weight: 700;
+    font-size:15px;
+    text-align: center;
+    margin-top: 50px ;
+    margin-bottom: 25px;
+}
+main p  {
+    text-align: center;
+    margin-bottom: 20px;
+}
+main .top-section {
+    border-bottom: 1px solid gainsboro;  
+    margin-bottom: 30px; 
+}
+.boxs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box {
+    display: flex;
+    align-items: center;
+    border: none;
+    width: 320px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow:1px 1px 1px 1px hsla(0, 0%, 0%, 0.278) ;
+    margin-bottom: 10px;
+}
+.img {
+    padding: 0px 9px  ;
+    width : 23px ;
+}
+.facebook {
+    background-color: #fff;
+    color: #2a2a2a; 
+    font-weight: 700;
+}
+.apple:hover{
+    color: #0c3c9b;
+}
+.facebook:hover{
+    color: #0c3c9b;
+}
+.google:hover {
+    color: #0c3c9b;
+}
+.google .apple {
+    font-size: 17px;
+    font-weight: 700;
+}
+.box input {
+    width: 318px;
+    height: 46px;
+    font-size: 18px;
+    border: none;
+}
+.box input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+.email, .password  {
+    border: 1px solid black;
+}
+i {
+    position: absolute;
+    margin-left: 10px;
+}
+.icon {
+    padding: 9px;
+}
+.box .login {
+    width: 320px;
+    height: 50px;
+    border: none;
+    background-color: #aa30f5;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.box .login:hover {
+    background-color:#62069b ;
+}
+.lastline {
+    text-align: center;
+}
+.lastline .span{
+    font-weight: bolder;
+    color: blueviolet;
+}
+span {
+    cursor: pointer;
+}
+
+@media screen and (max-width:1090px){
+    nav input {
+        width:400px ;
+    }
+    nav p {
+        display: none;
+    }
+}
+@media screen and (max-width:750px){
+    nav input {
+        width: 300px;
+    }
+    nav p {
+        display: none;
+    }
+}
+@media screen and (max-width:614px){
+    nav .btn {
+        display: none;
+    }
+}
+@media screen and (max-width: 480px)  {
+    nav p, .btn, .searchbar {
+        display: none;
+    }
+    .search {
+        display: inline-flex;
+    }
+    .nav {
+        justify-content: space-around;
+    }
+    .search {
+        justify-self: right;
+    }
+     
+}
