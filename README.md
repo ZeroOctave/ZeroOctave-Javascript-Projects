@@ -41,25 +41,11 @@
 
 
 <!-- ---------------------------------------------------------------------------------------------------------------------- -->
-<!-- TABLE OF CONTENTS --> 
-
-<details> 
-     <summary><b> Table of contents :</b></summary>
- 
-* <a href="#About">About❓</a>
-* <a href="#Open-Source-Program">This Project is a part of the following Open Source Program❤️</a> 
-* <a href="#Before">Before you begin💻</a>  
-* <a href="#Tech-Stack">Tech-Stack used🎓</a>  
-* <a href="#Contributing">Contributing Guidelines📝</a> 
-* <a href="#Help">This Will Help🌩️</a>  
-* <a href="#Projects">Available Projects</a>   
-* <a href="#Maintainer">Project Maintainers🕵</a>    
-* <a href="#Feedback">Feedback</a>     
-
-
-</details>         
+<a href="https://www.producthunt.com/posts/zerooctave-javascript-projects?utm_source=badge-review&utm_medium=badge&utm_souce=badge-zerooctave&#0045;javascript&#0045;projects#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=346465&theme=light" alt="ZeroOctave&#0045;Javascript&#0045;Projects - Learn&#0032;Web&#0032;Development&#0032;by&#0032;Making&#0032;Projects | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+        
  
 <p align="right"><a href="#Bottom"><img src="https://img.shields.io/badge/-Bottom-red?style=for-the-badge" /></a></p>
+
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -262,7 +248,9 @@ git push -u origin <your_branch_name>
 | 130. | [To Do](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/todo.html)| 131. | [Confirm Password Validator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/confirmpasswordvalidator.html)| 132. | [Blurry Loading](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/blurry-loading.html)
 | 133. | [News Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/News_Site.html)| 134. | [Drink Water](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/drinkwater.html)| 135. | [Url Keeper](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/url_keeper.html)
 | 136. | [Dad's Joke](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/dadsjoke.html)| 137. | [Theme Clock](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/theme-clock.html)|138. | [Vaccine Slot Finder](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/vaccineslot.html)
-| 139. | [Food Filter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/food-filter.html)| 140. | [Sudoku Solver](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/SudokuSolver.html)
+| 139. | [Food Filter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/food-filter.html)| 140. | [Sudoku Solver](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/SudokuSolver.html) | 141. | [Candy Store](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Candy-Store/index.html)
+| 142. | [Word Search](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/wordsearch.html)
+
 <br>
 
 <div id="Maintainer"></div>
@@ -295,6 +283,8 @@ git push -u origin <your_branch_name>
 <div id="Feedback"></div>
 
 # Feedback✌🏼
+
+<a href="https://www.producthunt.com/posts/zerooctave-javascript-projects?utm_source=badge-review&utm_medium=badge&utm_souce=badge-zerooctave&#0045;javascript&#0045;projects#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=346465&theme=light" alt="ZeroOctave&#0045;Javascript&#0045;Projects - Learn&#0032;Web&#0032;Development&#0032;by&#0032;Making&#0032;Projects | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 If you have any feedback or suggestions please reach out to Project - Maintainer.  
 
