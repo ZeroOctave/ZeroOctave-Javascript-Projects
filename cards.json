@@ -118,6 +118,11 @@
         "name": "Counter",
         "image": "assets/Images/counter.png",
         "link": "Public/counter.html"
+    }, 
+    {
+        "name": "Country Capital Homepage",
+        "image": "assets/Images/country_capital_homepage/bg.jpg",
+        "link": "Public/country_capital_homepage.html"
     },
     {
         "name": "Crud Project",
