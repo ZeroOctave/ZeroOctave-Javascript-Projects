@@ -631,11 +631,6 @@
         "link": "Public/type-writer.html"
     },
     {
-         "name":"Udemy Clone",
-         "image":"assets/Images/Udemy-clone.PNG",
-         "link":"Public/Udemy-clone.html"
-    },
-    {
         "name": "URL Keeper",
         "image": "assets/Images/url_keeper.png",
         "link": "Public/url_keeper.html"
