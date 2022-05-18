@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+}
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #f5d9d5 url('Spinner.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 99999;
+}
+.cart-footer{
+  display: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-right:20px;
+  padding-left: 10px;
+  color: white;
+}
+.h{
+  color: #EA1C2C;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+.p{
+  color: #ff0157;
+  font-weight: 200;
+  font-size: 1.25rem;
+}
+#mainNavbar {
+  font-size: 1.5rem;   
+}
+
+#mainNavbar .nav-link {
+  color: white;
+  font-weight: 400; 
+  padding-right: 20px;
+  padding-left: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+ font-weight: 600; 
+  color: #EA1C2C;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'Dancing Script', cursive;
+}
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+.navbar{
+    background:rgb(203, 195, 227);
+    opacity: 0.9;
+}
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: background 500ms;
+}
+
+
+#header{
+    background: url('contact2.jpg');
+    background-size:cover; 
+     background-position:center; 
+     height: 410px;
+     opacity: .9;
+}
+
+#text{
+    margin-top: 100px;
+    color:red;
+     font-weight: bold;
+     font-family: 'Dancing Script', cursive;
+}
+
+#footer{
+    color: aliceblue;
+    background-color: rgb(203, 195, 227);
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.container{
+    /* height: auto;
+    background-color: gainsboro; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-around;
+  }
+  .box{
+    width: 280px;
+    height: 280px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 10px #888888;
+    margin: 0px 5px 35px;
+  }
+  .p-box{
+    height: 60%;
+    background-size: 100% 100%;
+  }
+  .hr{
+    width: 100%;
+    margin: 20px;
+    color: #000
+  }
+  h4{
+    font-family: tahoma, sans-serif;
+    color: #00121b;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    padding-left: 5px;
+    margin-top: 5px;
+  }
+  .t-box{
+    /* padding: 5px; */
+    font-family: 'roboto',arial;
+    height: 60px;
+  }
+  .desc{
+    padding-left: 5px;
+    color: #312d2d;
+  }
+  .pr{
+    color: #c70032;
+    padding-left: 5px;
+    /* height: 30px; */
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 17px;
+  }
+  .uline{
+    text-decoration: none;
+  }
+  .ord{
+    margin-top: 4px ;  
+    background-color: #c70032;
+    float: right;
+    border: none;
+    width: 40px;
+    height: 30px;
+  }
+  
+  #tableContent{
+    display: none;
+  }
+  
+  .edit{
+    font-size: 16px;
+    font-weight: 900;
+    background-color: #00121b;
+    color: white;
+    border-radius: 40%;
+    padding: 2px 5px 2px 5px;
+    margin-left: 6px;
+    margin-right: 6px;
+    cursor: pointer;
+  }
+
+  tbody{
+    font-size: 16px;
+  }
+.modal-body{
+  margin-left: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+  .modal-footer{
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .modal-footer .cart_item_title{
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 270px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+  }
+
+  .modal-footer .clearCart,.checkout{
+    font-family: Times New Roman;
+     font-size: 16px;
+     padding-right: 0;
+     margin-right: 2px;
+     text-align: center;
+     font-weight: 500;
+     padding: 5px;
+  }
+#total{
+  border: 1px dashed black;
+  padding: 7px;
+  color: #00121b;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+@media(max-width:769px){
+  .cart-footer{
+    display: flex;
+  }
+}
+@media(max-width: 600px){
+    #footer{
+        font-size: 5px;
+    }
+    .edit{
+      padding: 2px 3px 2px 3px ;
+      margin-left: 3px;
+    margin-right: 3px;
+    }
+    .modal-footer .cart_item_title{
+      margin-right: 22px;
+      font-size: 19px;
+    }
+}
+@media(max-width: 450px){
+  .modal-footer .cart_item_title{
+    margin-right: 5px;
+    font-size: 19px;
+  }
+}
+@media(max-width:400px){
+  .modal-footer .cart_item_title{
+    margin-right: 0;
+    margin-left: 100px;
+    font-size: 19px;
+  }
+}

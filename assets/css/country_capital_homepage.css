@@ -1,0 +1,25 @@
+
+
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+
+img{ background-color: teal;
+    height: 450px;
+    width:100%;
+}
+.btn{
+margin-top: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+p{font-size: 2rem;
+    color:white
+}
+div,body , html{
+    background-color: teal;
+}

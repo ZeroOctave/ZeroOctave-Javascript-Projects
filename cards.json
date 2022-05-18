@@ -54,7 +54,7 @@
         "image": "assets/Images/blurry-loading.png",
         "link": "Public/blurry-loading.html"
     },
-        {
+    {
         "name": "Browser Detector",
         "image": "assets/Images/BrowserDetector/main.png",
         "link": "Public/Browser_Detector.html"
@@ -68,6 +68,11 @@
         "name": "Calculator",
         "image": "assets/Images/calculator.jpg",
         "link": "Public/calculator.html"
+    },
+    {
+        "name": "Candy Store",
+        "image": "assets/Images/Candy Store/cover1.jpg",
+        "link": "Public/Candy Store/index.html"
     },
     {
         "name": "Car Race",
@@ -113,6 +118,11 @@
         "name": "Counter",
         "image": "assets/Images/counter.png",
         "link": "Public/counter.html"
+    }, 
+    {
+        "name": "Country Capital Homepage",
+        "image": "assets/Images/country_capital_homepage/bg.jpg",
+        "link": "Public/country_capital_homepage.html"
     },
     {
         "name": "Crud Project",
@@ -189,6 +199,16 @@
         "name": "Find Number",
         "image": "assets/Images/numberguess.JPG",
         "link": "Public/findnum.html"
+    },
+    {
+        "name": "Flappy Bird",
+        "image": "assets/Images/flappybird/flappybird.png",
+        "link": "Public/flappybird.html"
+    },
+    {
+        "name": "Food Filter",
+        "image": "assets/Images/food-filter/sweets-1.jpeg",
+        "link": "Public/food-filter.html"
     },
     {
         "name": "Food Website",
@@ -651,6 +671,11 @@
         "link": "Public/word-count-calculator.html"
     },
     {
+        "name": "Word Search",
+        "image": "assets/Images/wordsearch/wordsearch1.png",
+        "link": "Public/wordsearch.html"
+    },
+    {
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
@@ -660,5 +685,4 @@
         "image" : "assets/Images/Coin-Toss-Game.jpeg",
         "link" : "Public/Coin-toss-game.html"
     }
-
 ]
