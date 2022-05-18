@@ -80,6 +80,11 @@
         "link": "Public/car-race.html"
     },
     {
+         "name" : "Coin Toss Game",
+        "image" : "assets/Images/Coin-Toss-Game.jpeg",
+        "link" : "Public/Coin-toss-game.html"
+    },
+    {
         "name": "Color Code Converter",
         "image": "assets/Images/color-changing-app.png",
         "link": "Public/Color_Code_Converter.html"
@@ -681,8 +686,4 @@
         "link": "Public/YouTube_Clone/index.html"
     },
     {
-        "name" : "Coin Toss Game",
-        "image" : "assets/Images/Coin-Toss-Game.jpeg",
-        "link" : "Public/Coin-toss-game.html"
-    }
 ]
