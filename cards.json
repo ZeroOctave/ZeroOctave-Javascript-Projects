@@ -201,6 +201,11 @@
         "link": "Public/findnum.html"
     },
     {
+        "name": "Flappy Bird",
+        "image": "assets/Images/flappybird/flappybird.png",
+        "link": "Public/flappybird.html"
+    },
+    {
         "name": "Food Filter",
         "image": "assets/Images/food-filter/sweets-1.jpeg",
         "link": "Public/food-filter.html"
