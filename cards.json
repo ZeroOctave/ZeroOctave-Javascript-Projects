@@ -55,6 +55,11 @@
         "link": "Public/blurry-loading.html"
     },
     {
+        "name": "Brick Breakout Game",
+        "image": "assets/Images/brick/brick.png",
+        "link": "Public/brick.html"
+    },
+    {
         "name": "Browser Detector",
         "image": "assets/Images/BrowserDetector/main.png",
         "link": "Public/Browser_Detector.html"
