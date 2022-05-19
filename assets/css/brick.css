@@ -1,0 +1,40 @@
+*{
+    font-family: "Germania One";
+}
+#sound{
+    width: 30px;
+    height : 30px;
+    cursor: pointer;
+    position: absolute;
+    top : 545px;
+    left : 15px;
+}
+#gameover{
+    position: absolute;
+    width : 1267px;
+    height: 580px;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+#youwon{
+    width: 100px;
+    position: absolute;
+    top : 200px;
+    left : 490px;
+    display: none;
+}
+#youlose{
+    width:400px;
+    position: absolute;
+    top: 100px;
+    left : 470px;
+    display: none;
+}
+#restart{
+    position: absolute;
+    top: 310px;
+    left : 590px;
+    cursor: pointer;
+    font-size: 1.25em;
+    color : #FFF;
+}
