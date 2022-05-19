@@ -326,6 +326,11 @@
         "link": "Public/maths-formulae.html"
     },
     {
+        "name": "Maze Game",
+        "image": "assets/Images/mazegame.png",
+        "link": "Public/mazegame.html"
+    },
+    {
         "name": "Meditation",
         "image": "assets/Images/meditation/forest.jpg",
         "link": "Public/meditation.html"
