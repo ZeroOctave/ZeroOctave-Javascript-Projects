@@ -1,0 +1,40 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Maze Game</title>
+    <link rel="stylesheet" href="../assets/css/mazegame.css">
+</head>
+
+<body>
+    <section>
+        <div id="wrapper" style="margin-left:auto; margin-right:auto;">
+            <h1 id="heading" style="background-color: #a59e9a; text-decoration-style: solid; color: #F8F8F8; width: 40%; margin-top: 0px; margin-bottom: 10px">Lost in Mazeland</h1>
+            <div id="maze">
+                <p style="text-align: center;margin-bottom: 10px">Find the way out of Maze in 30 seconds!</p>
+                <div id="c" style="margin-left:auto; margin-right:auto;margin-bottom: 10px;text-align: center;width: 10%;font-size: large"></div>
+                <canvas id="canvas" width="523" height="523" style="margin-left:auto; margin-right:auto">
+            This text is displayed if your browser does not support HTML5 Canvas.
+        </canvas>
+                <div id="timerel" style="margin-left:auto; margin-right:auto;margin-top:0px;text-align: center;width: 15%;font-size: large"></div>
+            </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2 class="gamehead"></h2>
+                    </div>
+                    <div class="modal-footer">
+                        <h2 id="demo" onmouseover="" style="cursor:pointer;">Play Again?</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../assets/Js/mazegame.js"></script>
+</body>
+
+</html>
