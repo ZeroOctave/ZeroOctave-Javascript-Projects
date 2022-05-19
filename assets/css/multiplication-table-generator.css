@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    color: rgb(248, 248, 248);
+    background-color: #949ba8;
+}
+.container {
+    padding-top: 4%;
+    max-width: 700px;
+    margin: 0 auto;
+    
+}
+
+section {
+    background-color: rgb(30, 70, 134);
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#title {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#ans {
+    margin-top: 2%;
+    background-color: rgba(152, 173, 230, 0.71);
+    font-weight: bold;
+}
+
+#btnGenerate {
+    width: 50%;
+    height: 40px;
+    background-color: rgb(91, 91, 97);
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+#btnGenerate:hover{
+    color:rgb(91, 91, 97);
+    background-color: #fff;
+}
+
+.container > section > form > #generate { padding: 10px; }
