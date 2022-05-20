@@ -80,6 +80,11 @@
         "link": "Public/car-race.html"
     },
     {
+        "name" : "Coin Toss Game",
+        "image" : "assets/Images/Coin-Toss-Game.jpeg",
+        "link" : "Public/Coin-toss-game.html"
+    },
+    {
         "name": "Color Code Converter",
         "image": "assets/Images/color-changing-app.png",
         "link": "Public/Color_Code_Converter.html"
@@ -105,6 +110,11 @@
         "link": "Public/colorchooser.html"
     },
     {
+        "name": "Connect Four",
+        "image": "assets/Images/connectfour.png",
+        "link": "Public/connectfour.html"
+    },
+    {
         "name": "Confirm Password Validator",
         "image": "assets/Images/passval.JPG",
         "link": "Public/confirmpasswordvalidator.html"
@@ -118,7 +128,7 @@
         "name": "Counter",
         "image": "assets/Images/counter.png",
         "link": "Public/counter.html"
-    }, 
+    },
     {
         "name": "Country Capital Homepage",
         "image": "assets/Images/country_capital_homepage/bg.jpg",
@@ -319,6 +329,11 @@
         "name": "Math Formulae",
         "image": "assets/Images/mathformule.png",
         "link": "Public/maths-formulae.html"
+    },
+    {
+        "name": "Maze Game",
+        "image": "assets/Images/mazegame.png",
+        "link": "Public/mazegame.html"
     },
     {
         "name": "Meditation",
