@@ -694,5 +694,10 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
+    },
+    {
+        "name": "Arithmetic Calculator",
+        "image": "assets/Images/Arithmetic_Calculator/Calculator.png",
+        "link": "Public/Arithmetic_Calculator.html"
     }
 ]

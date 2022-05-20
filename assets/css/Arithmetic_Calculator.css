@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding:0px;
+    scroll-behavior: smooth;
+    text-align: center;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+header{
+    color: azure;
+}
+.header_title{
+    text-align: center;
+    font-size:xxx-large;
+}
+body{
+    display:block;
+    background-image: url("https://media.istockphoto.com/vectors/abstract-vector-background-for-use-in-design-vector-id183954960?k=20&m=183954960&s=612x612&w=0&h=n_Z933ml0u6ZKZJ3KOxKl2tSqNv_N9L1vheVVdBX_5Q=") ;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.img1{
+    height:100vh;
+    width: 100vw;
+}
+.img_logo{
+    max-height: 40px;
+    max-width: 40px;
+    margin-top: 20px;
+}
+.container {
+    background-color:none;
+    margin: 0 auto;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+#screen {
+    margin: 4px auto;
+    width: 100%;
+    max-width: 400px;
+    height: 4rem;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    overflow-x: scroll;
+    overflow-y: visible;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+#screen::-webkit-scrollbar {
+    display: none;
+}
+
+#input, #result {
+    margin: auto;
+    width: 100%;
+    height: 3rem;
+    max-width: 768px;
+    text-align: left;
+    border: none;
+}
+
+#input {
+    font-size: 20px;
+    padding-top: 16px;
+    margin-top: -13px;
+    word-spacing: 0.07em;
+}
+
+#result {
+    font-size: 25px;
+}
+
+#memory {
+    position: absolute;
+    font-size: 18px;
+    top: 12px;
+    right: 14px;
+}
+
+button, .bottom-buttons {
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover, .bottom-buttons {
+    cursor: pointer;
+    background-color: #a87861a9;
+}
+
+.table {
+    margin: auto;
+    width: 99%;
+    max-width: 768px;
+}
+
+td {
+    width: 100rem;
+    margin:100px;
+}
+
+#equals {
+    height: 6rem;
+    background-color: #3b62e3;
+    color: white;
+    font-weight: bold;
+}
+
+.white {
+    font-weight: bold;
+    background-color: white;
+}
+
+.white:hover {
+    background-color: #f0f0f0;
+}
+
+.more {
+    background-color: #c7c7c7;
+}
+
+.more:hover {
+    background-color: #bdbbbb;
+}
+
+.light {
+    background-color: #d9d9d9;
+}
+
+.light:hover {
+    background-color: #d2d2d2;
+}
+
+#equals:hover {
+    background-color: #3b4ce3;
+}
+
+#topside, #downside {
+    height: 5px;
+}
