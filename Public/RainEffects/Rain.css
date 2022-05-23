@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(../Images/RainEffects.jpg);
+    background-image: url(./rainfall.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
