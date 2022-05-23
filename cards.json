@@ -699,5 +699,10 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
+    },
+    {
+        "name": "Moving Car",
+        "image": "assets/movingcar/movingcar.png",
+        "link": "Public/movingcar.html"
     }
 ]
