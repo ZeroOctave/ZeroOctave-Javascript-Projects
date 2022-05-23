@@ -14,6 +14,8 @@ body {
     font-size: 18px;
     background: url(./background.jpg);
     background-size: cover;
+    background-image: url(../Images/loginbackgroundimage.jpg);
+    
 }
 
 .container {
