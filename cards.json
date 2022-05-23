@@ -699,5 +699,10 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
+    },
+    {
+        "name": "Myntra Clone",
+        "image": "assets/Images/myntraclone/myntraclone.png",
+        "link": "Public/myntraclone.html"
     }
 ]
