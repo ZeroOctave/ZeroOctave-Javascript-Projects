@@ -694,5 +694,10 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
+    },
+    {
+        "name": "2048 Game",
+        "image": "assets/Images/2048.png",
+        "link": "Public/2048.html"
     }
 ]
