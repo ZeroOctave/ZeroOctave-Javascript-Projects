@@ -366,6 +366,11 @@
         "link": "Public/modalclosingbutton.html"
     },
     {
+        "name": "Movie Recommendation PAge",
+        "image": "assets/Images/movies_rec.jpg",
+        "link": "Public/movies_rec.html"
+    },
+    {
         "name": "Movie Search App",
         "image": "assets/Images/Movie-Search-App.png",
         "link": "Public/Movie-Search-App.html"
@@ -384,6 +389,11 @@
         "name": "Music Player",
         "image": "assets/Images/music.jpg",
         "link": "Public/musicPlayer.html"
+    },
+    {
+        "name": "Myntra Clone",
+        "image": "assets/Images/myntraclone/myntraclone.png",
+        "link": "Public/myntraclone.html"
     },
     {
         "name": "NGO",
