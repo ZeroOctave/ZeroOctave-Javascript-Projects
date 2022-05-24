@@ -386,6 +386,11 @@
         "link": "Public/musicPlayer.html"
     },
     {
+        "name": "Myntra Clone",
+        "image": "assets/Images/myntraclone/myntraclone.png",
+        "link": "Public/myntraclone.html"
+    },
+    {
         "name": "NGO",
         "image": "assets/Images/ngo.png",
         "link": "Public/NGO.html"
