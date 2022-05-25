@@ -376,6 +376,11 @@
         "link": "Public/MovieQuoteGenerator.html"
     },
     {
+        "name": "Multifunctioned Notes App",
+        "image": "assets/Images/MultiFunctioned%20Notes%20App/notes_app.png",
+        "link": "Public/Multi%20Functioned%20Notes%20App/index.html"
+    },
+    {
         "name": "Multiple Portfolio",
         "image": "assets/Images/multi-portfolio.png",
         "link": "Public/multiple-portfolio.html"
