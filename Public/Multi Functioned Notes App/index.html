@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Notes App</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <!-- content -->
+    <div class="container">
+        <div class="row row1">
+            <div class="col-xs-12">
+                <div class="jumbotron">
+                    <h1 style="font-weight:bold; color:red; text-align: center; margin-top: -5px;">My Notes</h1>
+                    <p style="text-align:center;">
+                        Why to Remember things ? When You can Create and Store your Notes Here .
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row row2">
+            <div class="col-xs-12 col1">
+                <l><span class="glyphicon glyphicon-search search"></span></l>
+            </div>
+            <div class="col-xs-12 col2">
+                <l><span class="glyphicon glyphicon-option-vertical option"></span></l>
+                <div class="class none">
+                    <li id="li1">Sort By Importance</li>
+                    <li id="li2">Sort By New</li>
+                    <li id="li3">Sort By Old</li>
+                    <li id="li4" class="none">List view</li>
+                    <li id="li41" class="none">Grid view</li>
+                    <li id="li5">Change Theme</li>
+                </div>
+            </div>
+        </div>
+        <div class="row row5 none">
+            <div class="left col-xs-5">
+                <div class="col-xs-2 rc4">
+                    <l><span class="glyphicon glyphicon-chevron-left create-back"></span></l>
+                    <l><span class="glyphicon glyphicon-chevron-left search-back none"></span></l>
+                </div>
+            </div>
+            <div class="right">
+                <div class="col-xs-2 rc1 none">
+                    <l><span class="glyphicon glyphicon-star-empty"></span></l>
+                </div>
+                <div class="col-xs-2 rc2 none">
+                    <l><span class="glyphicon glyphicon-star"></span></l>
+                </div>
+                <div class="col-xs-1 rc3">
+                    <l><span class="glyphicon glyphicon-ok add-note"></span></l>
+                    <l><span class="glyphicon glyphicon-ok update-note"></span></l>
+                </div>
+            </div>
+        </div>
+        <div class="notes row row4 none" id="app">
+            <div class="notes__preview col-xs-12">
+                <input class="notes__title ta1" type="text" maxlength="40">
+                <!-- <textarea class="notes__title ta1" maxlength="40"></textarea> -->
+                <hr>
+                <textarea class="notes__body ta2" maxlength="400"></textarea>
+            </div>
+        </div>
+    </div>
+    <div class="container con2">
+    </div>
+    <div class="container footer">
+        <div class="row3 row create">
+            <!-- <l><span class="glyphicon glyphicon-plus-sign plus"></span></l> -->
+            <div class="upper plus">
+                <div class="inner">+</div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
