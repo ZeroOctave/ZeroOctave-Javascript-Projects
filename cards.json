@@ -704,5 +704,10 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
+    },
+    {
+        "name": "Vigenere Cipher",
+        "image": "assets/Images/VigenereCipher.png",
+        "link": "Public/VigenereCipher.html"
     }
 ]
