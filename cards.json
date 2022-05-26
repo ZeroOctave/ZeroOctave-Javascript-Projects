@@ -155,6 +155,11 @@
         "link": "Public/dadsjoke.html"
     },
     {
+        "name": "Daily Prophet",
+        "image": "assets/Images/dailyprophet/dailyprophet.png",
+        "link": "Public/dailyprophet.html"
+    },
+    {
         "name": "Dial Code Fetcher",
         "image": "assets/Images/DialCodeFetcher.png",
         "link": "Public/DialCodeFetcher.html"
@@ -291,8 +296,8 @@
         "link": "Public/icecream.html"
     },
     {
-        "name": "Image Editor",
-        "image": "assets/Images/imageeditor.png",
+        "name": "Image Filter App",
+        "image": "assets/Images/Image-Filter-App.png",
         "link": "Public/image_editor.html"
     },
     {
@@ -376,9 +381,15 @@
         "link": "Public/MovieQuoteGenerator.html"
     },
     {
+<<<<<<< HEAD
         "name": "Multifunctioned Notes App",
         "image": "assets/Images/MultiFunctioned%20Notes%20App/notes_app.png",
         "link": "Public/Multi%20Functioned%20Notes%20App/index.html"
+=======
+        "name": "Moving Car",
+        "image": "assets/Images/movingcar/movingcar.png",
+        "link": "Public/movingcar.html"
+>>>>>>> 453f219d9da10f2e14c35e953101914d9a1f76fc
     },
     {
         "name": "Multiple Portfolio",
@@ -434,6 +445,11 @@
         "name": "Pop Up",
         "image": "assets/Images/popup.png",
         "link": "Public/popup.html"
+    },
+    {
+        "name": "PostMaster",
+        "image": "assets/Images/postmaster/postmaster.png",
+        "link": "Public/postmaster.html"
     },
     {
         "name": "Prime Calculator",
@@ -647,7 +663,7 @@
     ,
     {
         "name": "Todo",
-        "image": "assets/Images/to-do-img.png",
+        "image": "assets/Images/Todo.png",
         "link": "Public/todo.html"
     },
     {
@@ -702,7 +718,7 @@
     },
     {
         "name": "Word Search",
-        "image": "assets/Images/wordsearch/wordsearch1.png",
+        "image": "assets/Images/wordsearch/wordsearch1.gif",
         "link": "Public/wordsearch.html"
     },
     {
