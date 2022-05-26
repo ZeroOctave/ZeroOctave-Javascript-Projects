@@ -376,6 +376,11 @@
         "link": "Public/MovieQuoteGenerator.html"
     },
     {
+        "name": "Moving Car",
+        "image": "assets/movingcar/movingcar.png",
+        "link": "Public/movingcar.html"
+    },
+    {
         "name": "Multiple Portfolio",
         "image": "assets/Images/multi-portfolio.png",
         "link": "Public/multiple-portfolio.html"
@@ -704,10 +709,5 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
-    },
-    {
-        "name": "Moving Car",
-        "image": "assets/movingcar/movingcar.png",
-        "link": "Public/movingcar.html"
     }
 ]
