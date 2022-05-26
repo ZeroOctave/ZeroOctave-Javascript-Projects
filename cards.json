@@ -80,6 +80,11 @@
         "link": "Public/car-race.html"
     },
     {
+        "name": "Cheatsheet",
+        "image": "assets/Images/cheatsheet/cheatsheet.png",
+        "link": "Public/cheatsheet.html"
+    },
+    {
         "name" : "Coin Toss Game",
         "image" : "assets/Images/Coin-Toss-Game.jpeg",
         "link" : "Public/Coin-toss-game.html"

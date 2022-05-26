@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav img{
+    width: 45px;
+    padding: 11px 15px;
+    height: 41px;
+    
+}
+li{
+    font-size: 28px;
+    font-family: 'cursive';
+    font-weight: 700;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    margin-top:15px;
+}
+.container li{
+    font-family: 'Slabo 27px', serif;
+    font-size: 22px;
+    padding-top: 22px;
+}
+.toolbar-item button{
+    border: 2px solid white !important;
+    color: white !important;
+    padding: 1px 8px !important;
+    font-size: 14px !important;
+    border-radius: 26px !important;
+    margin: 7px !important;
+    cursor: pointer;
+}
+
