@@ -381,6 +381,11 @@
         "link": "Public/MovieQuoteGenerator.html"
     },
     {
+        "name": "Moving Car",
+        "image": "assets/Images/movingcar/movingcar.png",
+        "link": "Public/movingcar.html"
+    },
+    {
         "name": "Multiple Portfolio",
         "image": "assets/Images/multi-portfolio.png",
         "link": "Public/multiple-portfolio.html"
