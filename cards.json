@@ -441,6 +441,11 @@
         "link": "Public/popup.html"
     },
     {
+        "name": "PostMaster",
+        "image": "assets/Images/postmaster/postmaster.png",
+        "link": "Public/postmaster.html"
+    },
+    {
         "name": "Prime Calculator",
         "image": "assets/Images/primeCalc.png",
         "link": "Public/primeCalc.html"
