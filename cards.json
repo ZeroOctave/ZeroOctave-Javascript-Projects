@@ -704,5 +704,10 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
+    },
+    {
+        "name": "Daily Prophet",
+        "image": "assets/Images/dailyprophet/dailyprophet.png",
+        "link": "Public/dailyprophet.html"
     }
 ]
