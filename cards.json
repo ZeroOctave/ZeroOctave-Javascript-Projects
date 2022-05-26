@@ -160,6 +160,11 @@
         "link": "Public/dadsjoke.html"
     },
     {
+        "name": "Daily Prophet",
+        "image": "assets/Images/dailyprophet/dailyprophet.png",
+        "link": "Public/dailyprophet.html"
+    },
+    {
         "name": "Dial Code Fetcher",
         "image": "assets/Images/DialCodeFetcher.png",
         "link": "Public/DialCodeFetcher.html"
