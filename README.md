@@ -252,6 +252,8 @@ git push -u origin <your_branch_name>
 | 142. | [Word Search](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/wordsearch.html)| 143. | [Country Capital Homepage](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/country_capital_homepage.html)| 144. | [Flappy Bird](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/flappybird.html)
 | 145. | [Connect Four](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/connectfour.html)| 146. | [Maze Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/mazegame.html)| 147. | [Coin Toss Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Coin-toss-game.html)
 | 148. |  [Movies Recommendation Page](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/movies_rec.html)| 149. |  [Myntra Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/myntraclone.html)| 150. | [Random Choice Picker](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/RandomChoicePicker.html)
+| 151. | [Daily Prophet](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/dailyprophet.html)|
+
 
 <br>
 
