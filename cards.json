@@ -381,15 +381,14 @@
         "link": "Public/MovieQuoteGenerator.html"
     },
     {
-<<<<<<< HEAD
         "name": "Multifunctioned Notes App",
         "image": "assets/Images/MultiFunctioned%20Notes%20App/notes_app.png",
         "link": "Public/Multi%20Functioned%20Notes%20App/index.html"
-=======
+    },
+    {
         "name": "Moving Car",
         "image": "assets/Images/movingcar/movingcar.png",
         "link": "Public/movingcar.html"
->>>>>>> 453f219d9da10f2e14c35e953101914d9a1f76fc
     },
     {
         "name": "Multiple Portfolio",
