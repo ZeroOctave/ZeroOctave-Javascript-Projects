@@ -647,7 +647,7 @@
     ,
     {
         "name": "Todo",
-        "image": "assets/Images/to-do-img.png",
+        "image": "assets/Images/Todo.png",
         "link": "Public/todo.html"
     },
     {
