@@ -184,6 +184,176 @@
 		"image": "assets/Images/drawingapp.png",
 		"link": "Public/drawingapp.html"
 	},
+	{
+		"name": "Auto Write",
+		"image": "assets/Images/auto-write.jpg",
+		"link": "Public/auto-write-text.html"
+	},
+	{
+		"name": "Auto Image Slider",
+		"image": "assets/Images/autoimageslider.png",
+		"link": "Public/auto_image_slider.html"
+	},
+	{
+		"name": "BMI Calculator",
+		"image": "assets/Images/BMI_Calculator_image_landing_page.png",
+		"link": "Public/bmi-calculator.html"
+	},
+	{
+		"name": "Books Library",
+		"image": "assets/Images/booksLibrary.png",
+		"link": "Public/BooksLibrary.html"
+	},
+	{
+		"name": "Book Shopping Website",
+		"image": "assets/Images/bookshopimgs/bookbuy5.png",
+		"link": "Public/book-shopping-website/book.html"
+	},
+	{
+		"name": "BaseX Calculator",
+		"image": "assets/Images/Basex.JPG",
+		"link": "Public/BaseX_Calculator.html"
+	},
+	{
+		"name": "Blurry Loading",
+		"image": "assets/Images/blurry-loading.png",
+		"link": "Public/blurry-loading.html"
+	},
+	{
+		"name": "Browser Detector",
+		"image": "assets/Images/BrowserDetector/main.png",
+		"link": "Public/Browser_Detector.html"
+	},
+	{
+		"name": "Caesar Cipher",
+		"image": "assets/Images/CaesarCipher.png",
+		"link": "Public/CaesarCipher.html"
+	},
+	{
+		"name": "Calculator",
+		"image": "assets/Images/calculator.jpg",
+		"link": "Public/calculator.html"
+	},
+	{
+		"name": "Candy Store",
+		"image": "assets/Images/Candy Store/cover1.jpg",
+		"link": "Public/Candy Store/index.html"
+	},
+	{
+		"name": "Car Race",
+		"image": "assets/Images/car.jpg",
+		"link": "Public/car-race.html"
+	},
+	{
+		"name": "Coin Toss Game",
+		"image": "assets/Images/Coin-Toss-Game.jpeg",
+		"link": "Public/Coin-toss-game.html"
+	},
+	{
+		"name": "Color Code Converter",
+		"image": "assets/Images/color-changing-app.png",
+		"link": "Public/Color_Code_Converter.html"
+	},
+	{
+		"name": "Color Fliper 1",
+		"image": "assets/Images/color-flipper-1.jpg",
+		"link": "Public/color_flipper_1.html"
+	},
+	{
+		"name": "Color Flipper 2",
+		"image": "assets/Images/color-flipper-2.jpg",
+		"link": "Public/color_flipper_2.html"
+	},
+	{
+		"name": "Color Changing App",
+		"image": "assets/Images/booksLibrary.png",
+		"link": "Public/Color-Changing-App.html"
+	},
+	{
+		"name": "Color Chooser",
+		"image": "assets/Images/colorchooser.JPG",
+		"link": "Public/colorchooser.html"
+	},
+	{
+		"name": "Connect Four",
+		"image": "assets/Images/connectfour.png",
+		"link": "Public/connectfour.html"
+	},
+	{
+		"name": "Confirm Password Validator",
+		"image": "assets/Images/passval.JPG",
+		"link": "Public/confirmpasswordvalidator.html"
+	},
+	{
+		"name": "Countdown Timer",
+		"image": "assets/Images/countdownclock.png",
+		"link": "Public/countdown-timer.html"
+	},
+	{
+		"name": "Counter",
+		"image": "assets/Images/counter.png",
+		"link": "Public/counter.html"
+	},
+	{
+		"name": "Country Capital Homepage",
+		"image": "assets/Images/country_capital_homepage/bg.jpg",
+		"link": "Public/country_capital_homepage.html"
+	},
+	{
+		"name": "Crud Project",
+		"image": "assets/Images/Crud.png",
+		"link": "Public/crud-project.html"
+	},
+	{
+		"name": "Crypto App",
+		"image": "assets/Images/crypto.jpg",
+		"link": "Public/crypto_app.html"
+	},
+	{
+		"name": "Currency Converter",
+		"image": "assets/Images/Currency-converter.PNG",
+		"link": "Public/Currency-converter.html"
+	},
+	{
+		"name": "Dad's Joke",
+		"image": "assets/Images/dadsjoke.jpg",
+		"link": "Public/dadsjoke.html"
+	},
+	{
+		"name": "Daily Prophet",
+		"image": "assets/Images/dailyprophet/dailyprophet.png",
+		"link": "Public/dailyprophet.html"
+	},
+	{
+		"name": "Dial Code Fetcher",
+		"image": "assets/Images/DialCodeFetcher.png",
+		"link": "Public/DialCodeFetcher.html"
+	},
+	{
+		"name": "Dice Game",
+		"image": "assets/Images/dice1.png",
+		"link": "Public/dice_game.html"
+	},
+	{
+		"name": "Dictionary",
+		"image": "assets/Images/Dictionary.PNG",
+		"link": "Public/dictionary.html"
+	},
+	{
+		"name": "Digital Clock",
+		"image": "assets/Images/digital.jpg",
+		"link": "Public/digital_clock.html"
+	},
+	{
+		"name": "Dino Game",
+		"image": "assets/Images/dino-game/DinosaurGame bg.jpg",
+		"link": "Public/dino-game.html"
+	},
+	{
+		"name": "Drawing App",
+		"image": "assets/Images/drawingapp.png",
+		"link": "Public/drawingapp.html"
+	},
 
 	{
 		"name": "Drinkwater",
@@ -291,8 +461,8 @@
 		"link": "Public/icecream.html"
 	},
 	{
-		"name": "Image Editor",
-		"image": "assets/Images/imageeditor.png",
+		"name": "Image Filter App",
+		"image": "assets/Images/Image-Filter-App.png",
 		"link": "Public/image_editor.html"
 	},
 	{
@@ -376,6 +546,11 @@
 		"link": "Public/MovieQuoteGenerator.html"
 	},
 	{
+		"name": "Moving Car",
+		"image": "assets/Images/movingcar/movingcar.png",
+		"link": "Public/movingcar.html"
+	},
+	{
 		"name": "Multiple Portfolio",
 		"image": "assets/Images/multi-portfolio.png",
 		"link": "Public/multiple-portfolio.html"
@@ -429,6 +604,11 @@
 		"name": "Pop Up",
 		"image": "assets/Images/popup.png",
 		"link": "Public/popup.html"
+	},
+	{
+		"name": "PostMaster",
+		"image": "assets/Images/postmaster/postmaster.png",
+		"link": "Public/postmaster.html"
 	},
 	{
 		"name": "Prime Calculator",
@@ -639,7 +819,7 @@
 
 	{
 		"name": "Todo",
-		"image": "assets/Images/to-do-img.png",
+		"image": "assets/Images/Todo.png",
 		"link": "Public/todo.html"
 	},
 	{
@@ -694,7 +874,7 @@
 	},
 	{
 		"name": "Word Search",
-		"image": "assets/Images/wordsearch/wordsearch1.png",
+		"image": "assets/Images/wordsearch/wordsearch1.gif",
 		"link": "Public/wordsearch.html"
 	},
 	{
