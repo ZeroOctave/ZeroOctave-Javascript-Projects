@@ -691,6 +691,11 @@
         "link": "Public/vaccineslot.html"
     },
     {
+        "name": "Vigenere Cipher",
+        "image": "assets/Images/VigenereCipher.png",
+        "link": "Public/VigenereCipher.html"
+    },
+    {
         "name": "Weather App",
         "image": "assets/Images/weather.png",
         "link": "Public/weather_app.html"
