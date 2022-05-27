@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoWin Slot Notifier</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/vaccineslot.css">
+
+</head>
+
+<body>
+    <div class="banner">
+        <img src="../assets/Images/vaccineslot/vaccineslot.jpg" style="width: 2530px; height: 300px;" alt="" />
+    </div>
+
+    <div class="Heading">
+        <h1 style="font-weight: 1000;">C<img src="../assets/Images/vaccineslot/vaccineslotadd.png" style="width: 30px; height: 30px;" />Win Vaccination Slot Finder For 18+</h1>
+    </div>
+    <div class="input">
+
+        <label for="date">
+            <h2 style="text-align: center;">Select Date:</h2>
+        </label><br>
+
+        <input type="date" id="date"><br>
+
+
+        <h2>Enter State name:</h2>
+        <input type="text" class="state" placeholder="Enter State name" list="states" required><br>
+
+        <datalist id="states">
+            <div class="statesoutput">
+             </div>
+        </datalist>
+
+        <h2>Enter district name:</h2>
+        <input type="text" class="districtname" placeholder="Enter district name" list="districts" required><br>
+
+        <datalist id="districts">
+            <div class="districtnames">
+            </div>
+        </datalist>
+
+        <input type="submit" value="Search" class="submit">
+
+        <div class="display">
+            <p class="content"></p><br>
+        </div>
+    </div>
+
+    <div id="accordion">
+        <div class="card">
+            <br><span><h2 style="color: blue; font-weight: 1000;">Frequently Asked Questions On CoWin</h2></span><br>
+            <div class="card-header" style="background-color: rgb(248, 248, 248);" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h4 style="color: black;">A. Registration</h4>
+              </button>
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <b> 1. Where can I register for COVID-19 vaccination?</b><br> You can log into the Co-WIN portal using the link www.cowin.gov.in and click on the “Register/Sign In yourself” tab to register for COVID-19 vaccination
+                    <br>
+                    <b> 2. Is there a mobile app that needs to be installed to register for vaccination?</b><br> There is no authorised mobile app for registering for vaccination in India except Aarogya Setu. You need to log into the Co-WIN portal. Alternatively,
+                    you can also register for vaccination through the Aarogya Setu App and Umang app.
+                    <br>
+                    <b> 3 .Which age groups can register for vaccination on the Co-WIN portal?</b><br> All citizens aged 18 years and above can register for vaccination.
+                    <br>
+                    <b> 4. Is online registration mandatory for Covid 19 vaccination?</b><br> Vaccination Centres provide for a limited number of on-spot registration slots every day. Beneficiaries aged 45 years and above can schedule appointments online
+                    or walk-in to vaccination centres. Beneficiaries aged 18 years and above can schedule appointments online or walk-in to Government vaccination centres. However, beneficiaries aged 18-44 years should mandatorily register themselves
+                    and schedule appointment online before going to a Private vaccination centre.
+                    <br> In general, all beneficiaries are recommended to register online and schedule vaccination in advance for a hassle-free vaccination experience.
+                    <br>
+                    <b>  5. How many people can be registered in the Co-WIN portal through one mobile number?</b><br> Up to 4 people can be registered for vaccination using the same mobile number.
+                    <br>
+                    <b> 6. How can beneficiaries with no access to smart phones or computers manage online registration?</b><br> Up to 4 people can be registered for vaccination using the same mobile number. Beneficiaries can take help from friends or
+                    family for online registration.
+                    <br>
+                    <b>  7. Can I register for vaccination without Aadhaar card?</b><br> Yes, you can register on Co-WIN portal using any of the following ID proofs: a. Aadhaar card b. Driving License c. PAN card d. Passport e. Pension Passbook f. NPR
+                    Smart Card g. Voter ID (EPIC)
+                    <br>
+                    <b>  8. Is there any registration charges to be paid?</b><br> No. There is no registration charge.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" style="background-color: rgb(248, 248, 248);" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <h4 style="color: black;">B. Scheduling Appointment</h4>
+              </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    <b> 9. Can I book an appointment for vaccination in the Co-WIN portal?</b><br> Yes, you can book appointment for vaccination through Co-WIN portal after logging-in to the Co-WIN Portal through your registered mobile number.
+                    <br>
+                    <b>  10. What are the options if one citizen is aged 45 or above and other is aged 18 or above?</b><br> If one beneficiary is aged 45 or above and other beneficiary is aged 18 to 44 years and both want to schedule a combined appointment,
+                    then only private paid vaccination centres or vaccination centres as per State’s policy will be made available. However, it may happen that some hospitals which are catering to people with 45 years or more may not allow the booking
+                    of appointments for people with lesser age. In that case you may make bookings one by one.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" style="background-color: rgb(248, 248, 248);" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <h4 style="color: black;">C. 2nd Dose Scheduling</h4>
+              </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <b> 11. Is it necessary to take 2nd dose of vaccination?</b><br> Yes. It is recommended that both doses of vaccine should be taken for realising the full benefit of vaccination. Both doses must be of the same vaccine type.
+                    <br>
+                    <b> 12.  When should I take the 2nd dose of vaccination?</b><br> It is recommended that the 2nd dose of COVAXIN should be administered in the interval of 28 days to 42 days after the 1st dose. The 2nd dose of COVISHIELD should be administered
+                    in the interval of 84 days to 112 days after the 1st dose. The second dose of SPUTNIK V should be administered in the interval of 21 days to 90 days after the 1st dose.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" style="background-color: rgb(248, 248, 248);" id="headingfour">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+                    <h4 style="color: black;">D. Vaccination</h4>
+                </button>
+                </h5>
+            </div>
+            <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordion">
+                <div class="card-body">
+                    <b>13.  Is vaccination free at all vaccination centres?</b><br> No. Currently, vaccination is free at Government hospitals and charged at INR 250 in Private hospitals for beneficiaries aged 45 years and above. From 1st May onwards,
+                    the Vaccination for people of 45 years or more will continue to be free at the Government facilities. For people between 18 to 44 years the States will announce the policy relating to payment. Vaccination will be priced by private
+                    facilities and you can see the price of each vaccine at the time of booking.
+                    <br>
+                    <b> 14. Can I check the price of the vaccine?</b><br> Yes. The System will show the price of the vaccine below the name of the vaccination centre at the time of scheduling an appointment.
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="card-header" style="background-color: rgb(248, 248, 248);" id="headingfive">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
+                    <h4 style="color: black;">E. Vaccination Certificate</h4>
+                </button>
+                </h5>
+            </div>
+            <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordion">
+                <div class="card-body">
+                    <b> 15. Why do I need a vaccination certificate?</b><br> A COVID Vaccine Certificate (CVC) issued by the government offers an assurance to the beneficiary on the vaccination, type of vaccine used, and the provisional certificate also
+                    provides the next vaccination due. It also is an evidence for the beneficiary to prove to any entities which may require proof of vaccination specially in case of travel. Vaccination not only protects individuals from disease, but
+                    also reduces their risk of spreading the virus. Therefore, there could be a requirement in future to produce certificate for certain kind of social interactions and international travel. In this context the certificate issued by Co-WIN
+                    has built in security features to guarantee genuineness of the certificate which can be digitally verified using approved utilities which are provided in Co-WIN portal.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" style="background-color: rgb(248, 248, 248);" id="headingsix">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapseThree">
+                    <h4 style="color: black;">F. Reporting Side Effects</h4>
+                </button>
+                </h5>
+            </div>
+            <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordion">
+                <div class="card-body">
+                    <b>16. You can contact on any of the following details:</b><br> a. Helpline Number: +91-11-23978046 (Toll free - 1075)<br> b. Technical Helpline Number: 0120-4473222<br> c. Helpline Email Id: support@cowin.gov.in<br> You may also contact
+                    the Vaccination Centre where you took vaccination, for advice.
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" style="background-color: rgb(248, 248, 248);" id="headingseven">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseseven" aria-expanded="false" aria-controls="collapseThree">
+                    <h4 style="color: black;">G. Other Faqs and User Manual</h4>
+                </button>
+                </h5>
+            </div>
+            <div id="collapseseven" class="collapse" aria-labelledby="headingseven" data-parent="#accordion">
+                <div class="card-body">
+                    <p>Some other <a href="pdf/FAQ_on_CoWIN_for_Citizens.pdf">Faqs</a>.</p><br>
+                    <p>User Manual<a href="pdf/User_Guide_Citizen registration_18+.pdf">Guide</a>.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../assets/Js/vaccineslot.js"></script>
+</body>
+
+</html>

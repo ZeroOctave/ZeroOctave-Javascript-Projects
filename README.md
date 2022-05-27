@@ -41,25 +41,11 @@
 
 
 <!-- ---------------------------------------------------------------------------------------------------------------------- -->
-<!-- TABLE OF CONTENTS --> 
-
-<details> 
-     <summary><b> Table of contents :</b></summary>
- 
-* <a href="#About">About❓</a>
-* <a href="#Open-Source-Program">This Project is a part of the following Open Source Program❤️</a> 
-* <a href="#Before">Before you begin💻</a>  
-* <a href="#Tech-Stack">Tech-Stack used🎓</a>  
-* <a href="#Contributing">Contributing Guidelines📝</a> 
-* <a href="#Help">This Will Help🌩️</a>  
-* <a href="#Projects">Available Projects</a>   
-* <a href="#Maintainer">Project Maintainers🕵</a>    
-* <a href="#Feedback">Feedback</a>     
-
-
-</details>         
+<a href="https://www.producthunt.com/posts/zerooctave-javascript-projects?utm_source=badge-review&utm_medium=badge&utm_souce=badge-zerooctave&#0045;javascript&#0045;projects#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=346465&theme=light" alt="ZeroOctave&#0045;Javascript&#0045;Projects - Learn&#0032;Web&#0032;Development&#0032;by&#0032;Making&#0032;Projects | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+        
  
 <p align="right"><a href="#Bottom"><img src="https://img.shields.io/badge/-Bottom-red?style=for-the-badge" /></a></p>
+
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -219,7 +205,7 @@ git push -u origin <your_branch_name>
 | 01. | [Analog Clock](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Analog_clock.html) | 02. | [Shell Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/shell_game.html) | 03. | [Auto Write Text](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/auto-write-text.html) |
 | 04. | [Word Definition](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/word_definition.html) | 05. | [Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/calculator.html) | 06. | [Color Flipper 1](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/color_flipper_1.html) |
 | 07. | [Color Flipper 2](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/color_flipper_2.html) | 08. | [Digital Clock](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/digital_clock.html) | 09. | [Log-in Form](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/loginform.html) |
-| 10. | [Purple Heart Animation](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/purple_heart.html) | 11. | [Take Quiz](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/quiz.html) | 12. | [Music](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/tap_music.html) |
+| 10. | [Purple Heart Animation](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/purple_heart.html) | 11. | [Take Quiz](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/quiz.html) | 12. | [Gravity Simulator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/gravity.html) |
 | 13. | [Notification](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/toast_notification.html) | 14. | [Speech to Text Converter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Speech-to-Text-Converter.html) | 15. | [Check Weather](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/weather_app.html) |
 | 16. | [Guess Color](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/guess_color.html) | 17. | [Speed Typer](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Speed_Typer.html) | 18. | [Caesar Cipher](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/CaesarCipher.html) |
 | 19. | [Restaurant Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/restaurant/restaurant.html) | 20. | [Rock Paper Scissor](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/rock-paper-scissor/rock-paper-scissor.html) | 21. | [Incrementinator 2.0](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/incrementinator.html) |
@@ -252,7 +238,7 @@ git push -u origin <your_branch_name>
 | 100. | [Car Race](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/car-race.html) | 101. | [Color Code Converter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Color_Code_Converter.html)| 102. | [Color Chooser](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/colorchooser.html)
 | 103. | [Dial Code Fetcher](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/DialCodeFetcher.html)| 104. | [Dino Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/dino-game.html)| 105. | [Drawing App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/drawingapp.html)
 | 106. | [Email Validator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/EmailValidator.html)| 107.| [Find Num](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/findnum.html)| 108. | [Food Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/food_website.html)
-| 109. | [Login Form](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/loginform.html)| 110. | [Maps](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/maps.html)| 111. | [Mapty](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/mapty.html)
+| 109. | [Browser Detector](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Browser_Detector.html)| 110. | [Maps](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/maps.html)| 111. | [Mapty](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/mapty.html)
 | 112. | [Movie Quote Generator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/MovieQuoteGenerator.html)| 113. | [Multiple Portfolio](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/multiple-portfolio.html) | 114. | [Form Validation](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/FormValidation.html)
 | 115. | [Music Player](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/musicPlayer.html)| 116. | [Palindrome](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/palindrome.html)| 117. | [Placeholder](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/placeholder.html)
 | 118. | [Quiz App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Quiz_app.html)| 119. | [Report Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/ReportCalculator.html)| 120. | [Responsive Landing](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/responsiveLanding.html)
@@ -261,6 +247,14 @@ git push -u origin <your_branch_name>
 | 127. | [Tap Music](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/tap_music.html)| 128. | [Tiktok Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Tiktok_Clone.html)| 129. | [Toast Notification](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/toast_notification.html)
 | 130. | [To Do](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/todo.html)| 131. | [Confirm Password Validator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/confirmpasswordvalidator.html)| 132. | [Blurry Loading](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/blurry-loading.html)
 | 133. | [News Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/News_Site.html)| 134. | [Drink Water](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/drinkwater.html)| 135. | [Url Keeper](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/url_keeper.html)
+| 136. | [Dad's Joke](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/dadsjoke.html)| 137. | [Theme Clock](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/theme-clock.html)|138. | [Vaccine Slot Finder](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/vaccineslot.html)
+| 139. | [Food Filter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/food-filter.html)| 140. | [Sudoku Solver](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/SudokuSolver.html) | 141. | [Candy Store](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Candy-Store/index.html)
+| 142. | [Word Search](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/wordsearch.html)| 143. | [Country Capital Homepage](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/country_capital_homepage.html)| 144. | [Flappy Bird](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/flappybird.html)
+| 145. | [Connect Four](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/connectfour.html)| 146. | [Maze Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/mazegame.html)| 147. | [Coin Toss Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Coin-toss-game.html)
+| 148. |  [Movies Recommendation Page](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/movies_rec.html)| 149. |  [Myntra Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/myntraclone.html)| 150. | [Random Choice Picker](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/RandomChoicePicker.html)
+| 151. | [Daily Prophet](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/dailyprophet.html)| 152. | [Moving Car](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/movingcar.html)| 153. | [PostMaster](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/postmaster.html)| 
+| 154. | [Wordle Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Wordle-clone.html)| 155. | [Feedback and Reply](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/FeedbackThankyou.html)| 156. | [Range-Slider](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/RangeSlider.html)
+
 
 <br>
 
@@ -294,6 +288,8 @@ git push -u origin <your_branch_name>
 <div id="Feedback"></div>
 
 # Feedback✌🏼
+
+<a href="https://www.producthunt.com/posts/zerooctave-javascript-projects?utm_source=badge-review&utm_medium=badge&utm_souce=badge-zerooctave&#0045;javascript&#0045;projects#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=346465&theme=light" alt="ZeroOctave&#0045;Javascript&#0045;Projects - Learn&#0032;Web&#0032;Development&#0032;by&#0032;Making&#0032;Projects | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 If you have any feedback or suggestions please reach out to Project - Maintainer.  
 

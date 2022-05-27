@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+   padding: 0%;
+   }
+   body{ 
+       background-image: url("bg.webp");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       height:100%;
+   }
+   #loading{
+       position: fixed;
+       width: 100%;
+       height: 100vh;
+       background: #f5d9d5 url('Spinner.gif');
+       background-repeat: no-repeat;
+       background-position: center;
+       z-index: 99999;
+   }
+   
+   nav{
+       opacity: .9;
+       font-weight: 600;
+       font-family: 'Dancing Script', cursive;
+       background-color: rgb(22, 13, 1);
+       color: #eb9868;
+       font-size: 42px;
+       padding: 15px;
+       text-align: center ;
+       text-transform: uppercase;
+     }
+   
+   .form-control{
+       width: 100px;
+   }
+   #n,#e,#naam,#a{
+       font-size: 15px;
+       color: white;
+   }
+   
+   #errorMessage{
+       float: right;
+       color: red;
+       font-size: 19px;
+   }
+   
+   @media(max-width:600px){
+       nav{
+           font-size: 35px;
+       }
+   }
