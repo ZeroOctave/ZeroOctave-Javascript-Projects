@@ -481,6 +481,11 @@
         "link": "Public/Random_Quote_Generator.html"
     },
     {
+        "name": "Range-Slider",
+        "image": "assets/Images/RangeSlider.jpg",
+        "link": "Public/RangeSlider.html"
+    },
+    {
         "name": "RD Return Calculator",
         "image": "assets/Images/RD-return-calculator.png",
         "link": "Public/RD-return-calculator.html"
@@ -724,10 +729,5 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
-    },
-    {
-        "name": "Range-Slider",
-        "image": "assets/Images/RangeSlider.jpg",
-        "link": "Public/RangeSlider.html"
     }
 ]
