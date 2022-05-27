@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/css/postmaster/prism.css">
+    <link rel="shortcut icon" href="../assets/Images/postmaster/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/postmaster/prism.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<style>
+    #responsePre{
+        max-height: 500px;
+    }
+</style>
+    <title>PostMaster</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="#"><div id="logo" >
+                <img style="width: 50px; height: 52px;margin: 0px 15px;" src="../assets/Images/postmaster/logo.png" alt="">
+            </div></a>
+            <a class="navbar-brand" href="#">PostMaster</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Heading -->
+    <div class="container" style="width: 70%;margin:30px auto;">
+        <h1 style="font-family: serif;">Welcome to <span class="badge bg-secondary">PostMaster</span></h1>
+    </div>
+
+    <div class="container my-5" style="width: 70%;margin: auto;">
+        <div class="mb-3 row">
+            <label for="url" class="col-sm-2 col-form-label">URL</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="url" placeholder="Enter URL here">
+            </div>
+        </div>
+
+        <fieldset class="row mb-3 my-3">
+            <legend class="col-form-label col-sm-2 pt-0">Request Type</legend>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="requestType" id="get" value="GET" checked>
+                    <label class="form-check-label" for="get">
+                        GET
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="requestType" id="post" value="POST">
+                    <label class="form-check-label" for="post">
+                        POST
+                    </label>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset class="row mb-3 my-3">
+            <legend class="col-form-label col-sm-2 pt-0">Content Type</legend>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="contentType" id="jsonRadio" value="json" checked>
+                    <label class="form-check-label" for="jsonRadio">
+                        JSON
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="contentType" id="paramsRadio" value="params">
+                    <label class="form-check-label" for="paramsRadio">
+                        Custom Parameters
+                    </label>
+                </div>
+            </div>
+        </fieldset>
+
+        <div id="parametersBox" class="my-3">
+            <div class="row g-3">
+                <label for="parameterKey1" class="col-sm-2 col-form-label">Parameter 1</label>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" id="parameterKey1" placeholder="Enter Parameter 1 Key">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" id="parameterValue1" placeholder="Enter Parameter 1 Value">
+                </div>
+                <button id="addParam" class="btn btn-sm btn-success col-md-1" style="font-size: 18px;">+</button>
+            </div>
+            <div id="paramsContainer"></div>
+        </div>
+
+        <div class="my-3" id="requestJsonBox">
+            <div class="mb-3 row">
+                <label for="requestJsonText" class="col-sm-2 col-form-label">Enter Request JSON</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="requestJsonText" rows="3"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-3 row mt-4">
+            <div class="col-sm-10">
+                <button id="submit" class="btn-primary btn">Submit</button>
+            </div>
+        </div>
+<hr>
+        <div class="my-3" id="responseJsonBox">
+            <div class="mb-3 form-group row">
+                <label for="responseJsonText" class="col-sm-2 col-form-label">Response</label>
+                <div class="col-sm-10">
+                    <pre id="responsePre" class="language-javascript" ><code id="responsePrism" class="language-javascript" >Your response will appear here!</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+<script src="../assets/Js/postmaster/postmaster.js"></script>
+<script src="../assets/Js/postmaster/prism.js"></script>
+</html>
+
