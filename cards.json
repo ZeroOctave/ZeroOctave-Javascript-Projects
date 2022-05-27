@@ -211,6 +211,11 @@
         "link": "./Public/expense.html"
     },
     {
+        "name": "FeedbackThankyou",
+        "image": "assets/Images/FeedbackThankyou/FeedbackThankyou.png",
+        "link": "Public/FeedbackThankyou.html"
+    },
+    {
         "name": "Find Number",
         "image": "assets/Images/numberguess.JPG",
         "link": "Public/findnum.html"
@@ -481,9 +486,15 @@
         "link": "Public/Random_Quote_Generator.html"
     },
     {
+
         "name": "Range-Slider",
         "image": "assets/Images/RangeSlider.jpg",
         "link": "Public/RangeSlider.html"
+    },
+    {
+        "name": "RandomChoicePicker",
+        "image": "assets/Images/RandomChoicePicker.png",
+        "link": "Public/RandomChoicePicker.html"
     },
     {
         "name": "RD Return Calculator",
