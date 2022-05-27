@@ -486,6 +486,12 @@
         "link": "Public/Random_Quote_Generator.html"
     },
     {
+
+        "name": "Range-Slider",
+        "image": "assets/Images/RangeSlider.jpg",
+        "link": "Public/RangeSlider.html"
+    },
+    {
         "name": "RandomChoicePicker",
         "image": "assets/Images/RandomChoicePicker.png",
         "link": "Public/RandomChoicePicker.html"
