@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Monstserrat&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+    font-family: 'Monterrat' , sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+ }
+ 
+ #panel{
+     background-color: white;
+     box-shadow: 0 0 60px rosybrown;
+     border-radius: 50px;
+     font-size: 90%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding: 30px;
+     margin: 0 0 20px;
+     max-width: 400px;
+ }
+ #panel strong{
+     line-height: 20px;
+ }
+
+ h5{
+     color: blueviolet
+ }
+ 
+ #rating-container{
+     display: flex;
+     margin: 20px 0;
+     flex-direction: row;
+ }
+
+    #rating{
+     flex: 1;
+     cursor: pointer;
+     padding: 5px 10px;
+     margin: 5px 5px ;
+    }
+
+    #rating:hover, #rating.active {
+        border-radius: 4px;
+        box-shadow: 0 0 10px rgba(209, 126, 248, 0.866) ;
+        color: blueviolet;
+        font-weight: bold;
+    }
+
+    img {
+        width : 40px;
+        height: 40px;
+    }
+
+    small {
+        color: rgb(0, 0, 0);
+        display : inline-block;
+        margin:  10px 0 0;
+    }
+
+    .btn {
+        background-color: blueviolet ;
+        color: aliceblue;
+        border-radius: 4px;
+        padding: 12px 30px;
+        cursor: pointer;
+    }
+    .btn:focus {
+        outline: 0;
+    }
+
+    .btn:active {
+        transform: scale(0.98);
+    }
+
+    #thanks{
+        color: red;
+        font-size: 20px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    #thanks img{
+        width: 20vh;
+        height: 20vh;
+        padding: 10px;
+    }
