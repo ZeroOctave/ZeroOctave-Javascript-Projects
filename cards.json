@@ -724,5 +724,10 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
+    },
+    {
+        "name": "Range-Slider",
+        "image": "assets/Images/RangeSlider.jpg",
+        "link": "Public/RangeSlider.html"
     }
 ]
