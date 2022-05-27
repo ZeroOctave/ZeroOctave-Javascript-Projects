@@ -301,8 +301,8 @@
         "link": "Public/icecream.html"
     },
     {
-        "name": "Image Editor",
-        "image": "assets/Images/imageeditor.png",
+        "name": "Image Filter App",
+        "image": "assets/Images/Image-Filter-App.png",
         "link": "Public/image_editor.html"
     },
     {
@@ -386,6 +386,11 @@
         "link": "Public/MovieQuoteGenerator.html"
     },
     {
+        "name": "Moving Car",
+        "image": "assets/Images/movingcar/movingcar.png",
+        "link": "Public/movingcar.html"
+    },
+    {
         "name": "Multiple Portfolio",
         "image": "assets/Images/multi-portfolio.png",
         "link": "Public/multiple-portfolio.html"
@@ -439,6 +444,11 @@
         "name": "Pop Up",
         "image": "assets/Images/popup.png",
         "link": "Public/popup.html"
+    },
+    {
+        "name": "PostMaster",
+        "image": "assets/Images/postmaster/postmaster.png",
+        "link": "Public/postmaster.html"
     },
     {
         "name": "Prime Calculator",
@@ -652,7 +662,7 @@
     ,
     {
         "name": "Todo",
-        "image": "assets/Images/to-do-img.png",
+        "image": "assets/Images/Todo.png",
         "link": "Public/todo.html"
     },
     {
@@ -696,6 +706,11 @@
         "link": "Public/weight_conv.html"
     },
     {
+         "name": "Wordle Clone",
+         "image": "assets/Images/Wordle-clone.PNG",
+         "link": "Public/Wordle-clone.html"
+    },
+    {
         "name": "Word Definition",
         "image": "assets/Images/word_definition.png",
         "link": "Public/word_definition.html"
@@ -707,7 +722,7 @@
     },
     {
         "name": "Word Search",
-        "image": "assets/Images/wordsearch/wordsearch1.png",
+        "image": "assets/Images/wordsearch/wordsearch1.gif",
         "link": "Public/wordsearch.html"
     },
     {
