@@ -701,6 +701,11 @@
         "link": "Public/weight_conv.html"
     },
     {
+         "name": "Wordle Clone",
+         "image": "assets/Images/Wordle-clone.PNG",
+         "link": "Public/Wordle-clone.html"
+    },
+    {
         "name": "Word Definition",
         "image": "assets/Images/word_definition.png",
         "link": "Public/word_definition.html"
