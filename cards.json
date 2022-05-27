@@ -201,6 +201,11 @@
         "link": "Public/EmailValidator.html"
     },
     {
+        "name": "Expanding Cards UI design",
+        "image": "./assets/Images/ExpandingCardsUIdesign.png",
+        "link": "./Public/ExpandingCardsUIdesign.html"
+    },
+    {
         "name": "Expense Tracker",
         "image": "./assets/Images/expense.png",
         "link": "./Public/expense.html"
