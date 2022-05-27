@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+.navbar{
+    background-color: #030b07;
+}
+#logo{
+    font-weight: bold;
+}
+a{
+    text-transform: uppercase;
+     font-size: 18px;
+     font-family: 'Josefin Sans', sans-serif;
+     font-weight: bold;
+}
+a:hover{
+    letter-spacing: 1px;
+     cursor: pointer;
+}
+hr{
+   border: 3px solid;
+}
+
+footer{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    background-color: #154f30;
+    padding-top: 5px;
+}
+/* h1{
+     border-right: 3px solid black; 
+    border-spacing: 0px;  
+    animation:typist 5s steps(33),caret .75s infinite step-end;
+    white-space: nowrap;
+    overflow: hidden;
+    word-spacing: 0;
+}
+@keyframes caret {
+    0%,100% {
+        border-color: transparent;
+    }
+    50%{
+        border-color: black;
+    }
+}
+
+@keyframes typist {
+    0%{
+        width: 0px;
+    }
+    30%{
+       width: 10ch;
+    }
+    60%{
+        width: 20ch;
+    }
+    100%{
+        width: 33ch;
+        
+    }
+  
+} */
