@@ -32,6 +32,10 @@ body{
      line-height: 20px;
  }
 
+ h5{
+     color: blueviolet
+ }
+ 
  #rating-container{
      display: flex;
      margin: 20px 0;
@@ -41,31 +45,26 @@ body{
     #rating{
      flex: 1;
      cursor: pointer;
-     padding: 20px;
-     margin: 10px 5px ;
+     padding: 5px 10px;
+     margin: 5px 5px ;
     }
 
     #rating:hover, #rating.active {
         border-radius: 4px;
         box-shadow: 0 0 10px rgba(209, 126, 248, 0.866) ;
+        color: blueviolet;
+        font-weight: bold;
     }
 
-    #rating img {
+    img {
         width : 40px;
         height: 40px;
     }
 
-    #rating small {
-        color: rgb(208, 208, 208);
+    small {
+        color: rgb(0, 0, 0);
         display : inline-block;
         margin:  10px 0 0;
-    }
-
-    
-     #rating:hover small,
-    #rating.active small{
-        color: blueviolet;
-        font-weight: bold;
     }
 
     .btn {

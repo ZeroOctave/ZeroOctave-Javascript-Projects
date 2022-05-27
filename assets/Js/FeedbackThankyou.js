@@ -1,4 +1,4 @@
-var element = document.getElementsByClassName("rating-container")[0];
+var element = document.getElementsByClassName("s");
 var sendBtn = document.getElementsByClassName('#btn');
 
 sendBtn.addEventListener("click", reply);
@@ -9,7 +9,7 @@ function reply() {
     <div id="thanks"><img src="../assets/Images/FeedbackThankyou/reply.jpg" alt=":)">
     <strong> THANK YOU !!</strong>
     <br>
-    <p> your feedback is really fruitful for your website , it helps to improve our website </p>
+    <p> your feedback is really fruitful for our website , it helps to improve our website </p>
     </div>`
     }
 }
