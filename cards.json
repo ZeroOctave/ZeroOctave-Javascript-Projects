@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "Accordion",
         "image": "assets/Images/accordion.png",
         "link": "Public/accordion.html"
@@ -17,7 +18,6 @@
         "name": "Animated Portfolio",
         "image": "assets/Images/animated.JPG",
         "link": "Public/AnimatedPortfolio.html"
-
     },
     {
         "name": "Auto Write",
@@ -80,9 +80,9 @@
         "link": "Public/car-race.html"
     },
     {
-        "name" : "Coin Toss Game",
-        "image" : "assets/Images/Coin-Toss-Game.jpeg",
-        "link" : "Public/Coin-toss-game.html"
+        "name": "Coin Toss Game",
+        "image": "assets/Images/Coin-Toss-Game.jpeg",
+        "link": "Public/Coin-toss-game.html"
     },
     {
         "name": "Color Code Converter",
@@ -189,7 +189,6 @@
         "image": "assets/Images/drawingapp.png",
         "link": "Public/drawingapp.html"
     },
-
     {
         "name": "Drinkwater",
         "image": "assets/Images/drinkwater.png",
@@ -496,7 +495,6 @@
         "link": "Public/Random_Quote_Generator.html"
     },
     {
-
         "name": "Range-Slider",
         "image": "assets/Images/RangeSlider.jpg",
         "link": "Public/RangeSlider.html"
@@ -510,6 +508,11 @@
         "name": "RD Return Calculator",
         "image": "assets/Images/RD-return-calculator.png",
         "link": "Public/RD-return-calculator.html"
+    },
+    {
+        "name": "Reflex Training",
+        "image": "assets/Images/Reflex_Training/Reflex.png",
+        "link": "Public/Reflex_Training.html"
     },
     {
         "name": "Report Calculator",
@@ -575,7 +578,6 @@
         "name": "Solar",
         "image": "assets/Images/solar.JPG",
         "link": "Public/solar.html"
-
     },
     {
         "name": "Speech Synthesis",
@@ -638,7 +640,6 @@
         "link": "Public/temperature-converter.html"
     },
     {
-
         "name": "Theme Clock",
         "image": "assets/Images/theme-clock.png",
         "link": "Public/theme-clock.html"
@@ -648,7 +649,6 @@
         "image": "assets/Images/xxx.JPG",
         "link": "Public/Third_Degree_Equation_Calculator.html"
     },
-
     {
         "name": "Tic Tac Toe",
         "image": "assets/Images/tic-tac-toe.PNG",
@@ -678,9 +678,7 @@
         "name": "Toast Notification",
         "image": "assets/Images/toast.JPG",
         "link": "Public/toast_notification.html"
-    }
-
-    ,
+    },
     {
         "name": "Todo",
         "image": "assets/Images/Todo.png",
@@ -732,9 +730,9 @@
         "link": "Public/weight_conv.html"
     },
     {
-         "name": "Wordle Clone",
-         "image": "assets/Images/Wordle-clone.PNG",
-         "link": "Public/Wordle-clone.html"
+        "name": "Wordle Clone",
+        "image": "assets/Images/Wordle-clone.PNG",
+        "link": "Public/Wordle-clone.html"
     },
     {
         "name": "Word Definition",
@@ -758,3 +756,4 @@
     }
     
 ]
+
