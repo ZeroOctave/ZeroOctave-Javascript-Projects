@@ -270,6 +270,11 @@
         "link": "Public/gravity.html"
     },
     {
+        "name": "Grocery Manager",
+        "image": "assets/Images/grocerymanager.png",
+	"link": "Public/grocerymanager.html"
+    },
+    {
         "name": "Guess Color",
         "image": "assets/Images/guess_color.png",
         "link": "Public/guess_color.html"
@@ -749,4 +754,6 @@
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
     }
+    
 ]
+
