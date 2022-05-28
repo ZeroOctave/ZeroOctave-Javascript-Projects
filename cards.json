@@ -711,6 +711,11 @@
         "link": "Public/travel-website.html"
     },
     {
+        "name": "Tourist Website",
+        "image": "assets/Images/Tourist_Website/sku.png",
+        "link": "Public/Tourist_Website/index.html"
+    },
+    {
         "name": "Type Writer Effect",
         "image": "assets/Images/type-writer.jpg",
         "link": "Public/type-writer.html"
