@@ -286,6 +286,11 @@
         "link": "Public/gym-website.html"
     },
     {
+		"name": "Grocery Manager",
+		"image": "assets/Images/grocerymanager.png",
+		"link": "Public/grocerymanager.html"
+	},
+    {
         "name": "Hangman",
         "image": "assets/Images/hangman.png",
         "link": "Public/hangman.html"
@@ -750,10 +755,6 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
-    },
-    {
-		"name": "Grocery Manager",
-		"image": "assets/Images/grocerymanager.png",
-		"link": "Public/grocerymanager.html"
-	}
+    }
+    
 ]
