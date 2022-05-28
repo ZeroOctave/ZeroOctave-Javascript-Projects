@@ -724,5 +724,10 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
-    }
+    },
+    {
+		"name": "Grocery Manager",
+		"image": "assets/Images/grocerymanager.png",
+		"link": "Public/grocerymanager.html"
+	}
 ]
