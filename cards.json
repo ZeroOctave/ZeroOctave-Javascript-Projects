@@ -681,6 +681,11 @@
         "link": "Public/type-writer.html"
     },
     {
+        "name": "Tourist Website",
+        "image": "assets/Images/Tourist_Website/sku.png",
+        "link": "Public/Tourist_Website/index.html"
+    },
+    {
         "name": "URL Keeper",
         "image": "assets/Images/url_keeper.png",
         "link": "Public/url_keeper.html"
@@ -724,10 +729,5 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
-    },
-    {
-        "name": "Tourist Website",
-        "image": "assets/Images/Tourist_Website/sku.png",
-        "link": "Public/Tourist_Website/index.html"
     }
 ]
