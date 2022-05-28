@@ -211,9 +211,19 @@
         "link": "Public/EmailValidator.html"
     },
     {
+        "name": "Expanding Cards UI design",
+        "image": "./assets/Images/ExpandingCardsUIdesign.png",
+        "link": "./Public/ExpandingCardsUIdesign.html"
+    },
+    {
         "name": "Expense Tracker",
         "image": "./assets/Images/expense.png",
         "link": "./Public/expense.html"
+    },
+    {
+        "name": "FeedbackThankyou",
+        "image": "assets/Images/FeedbackThankyou/FeedbackThankyou.png",
+        "link": "Public/FeedbackThankyou.html"
     },
     {
         "name": "Find Number",
@@ -486,6 +496,17 @@
         "link": "Public/Random_Quote_Generator.html"
     },
     {
+
+        "name": "Range-Slider",
+        "image": "assets/Images/RangeSlider.jpg",
+        "link": "Public/RangeSlider.html"
+    },
+    {
+        "name": "RandomChoicePicker",
+        "image": "assets/Images/RandomChoicePicker.png",
+        "link": "Public/RandomChoicePicker.html"
+    },
+    {
         "name": "RD Return Calculator",
         "image": "assets/Images/RD-return-calculator.png",
         "link": "Public/RD-return-calculator.html"
@@ -694,6 +715,11 @@
         "name": "Vaccine Slot Finder",
         "image": "assets/Images/vaccineslot/vaccineslot.jpg",
         "link": "Public/vaccineslot.html"
+    },
+    {
+        "name": "Vigenere Cipher",
+        "image": "assets/Images/VigenereCipher.png",
+        "link": "Public/VigenereCipher.html"
     },
     {
         "name": "Weather App",
