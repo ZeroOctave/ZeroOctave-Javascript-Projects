@@ -156,6 +156,11 @@
         "link": "Public/Currency-converter.html"
     },
     {
+        "name": "CV Screener",
+        "image": "assets/Images/word_definition.png",
+        "link": "Public/CV-Screener.html"
+    },
+    {
         "name": "Dad's Joke",
         "image": "assets/Images/dadsjoke.jpg",
         "link": "Public/dadsjoke.html"
