@@ -450,6 +450,10 @@
         "image": "assets/Images/password generator.png",
         "link": "Public/password_generator.html"
     },
+	{
+		"name":"Picture Frame",
+		"link":"Public/Picture-frame/index.html"
+	}
     {
         "name": "Place Holder",
         "image": "assets/Images/placeholder.JPG",
