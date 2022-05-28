@@ -623,6 +623,11 @@
         "link": "Public/SudokuSolver.html"
     },
     {
+        "name": "Switching Testimonial Box",
+        "image": "assets/Images/SwitchingTestimonialBox.png",
+        "link": "Public/SwitchingTestimonialBox.html"
+    },
+    {
         "name": "Tap Music",
         "image": "assets/Images/tapmusic.JPG",
         "link": "Public/tap_music.html"
