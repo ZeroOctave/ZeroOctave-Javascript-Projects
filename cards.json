@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "Accordion",
         "image": "assets/Images/accordion.png",
         "link": "Public/accordion.html"
@@ -17,7 +18,6 @@
         "name": "Animated Portfolio",
         "image": "assets/Images/animated.JPG",
         "link": "Public/AnimatedPortfolio.html"
-
     },
     {
         "name": "Auto Write",
@@ -28,6 +28,12 @@
         "name": "Auto Image Slider",
         "image": "assets/Images/autoimageslider.png",
         "link": "Public/auto_image_slider.html"
+    },
+    {
+        "name": "Birthday_card",
+        "image": "assets/Images/birthday_card.png",
+        "link": "Public/Birthday_card.html"
+
     },
     {
         "name": "BMI Calculator",
@@ -80,9 +86,9 @@
         "link": "Public/car-race.html"
     },
     {
-        "name" : "Coin Toss Game",
-        "image" : "assets/Images/Coin-Toss-Game.jpeg",
-        "link" : "Public/Coin-toss-game.html"
+        "name": "Coin Toss Game",
+        "image": "assets/Images/Coin-Toss-Game.jpeg",
+        "link": "Public/Coin-toss-game.html"
     },
     {
         "name": "Color Code Converter",
@@ -150,9 +156,19 @@
         "link": "Public/Currency-converter.html"
     },
     {
+        "name": "CV Screener",
+        "image": "assets/Images/word_definition.png",
+        "link": "Public/CV-Screener.html"
+    },
+    {
         "name": "Dad's Joke",
         "image": "assets/Images/dadsjoke.jpg",
         "link": "Public/dadsjoke.html"
+    },
+    {
+        "name": "Daily Prophet",
+        "image": "assets/Images/dailyprophet/dailyprophet.png",
+        "link": "Public/dailyprophet.html"
     },
     {
         "name": "Dial Code Fetcher",
@@ -184,7 +200,6 @@
         "image": "assets/Images/drawingapp.png",
         "link": "Public/drawingapp.html"
     },
-
     {
         "name": "Drinkwater",
         "image": "assets/Images/drinkwater.png",
@@ -201,9 +216,19 @@
         "link": "Public/EmailValidator.html"
     },
     {
+        "name": "Expanding Cards UI design",
+        "image": "./assets/Images/ExpandingCardsUIdesign.png",
+        "link": "./Public/ExpandingCardsUIdesign.html"
+    },
+    {
         "name": "Expense Tracker",
         "image": "./assets/Images/expense.png",
         "link": "./Public/expense.html"
+    },
+    {
+        "name": "FeedbackThankyou",
+        "image": "assets/Images/FeedbackThankyou/FeedbackThankyou.png",
+        "link": "Public/FeedbackThankyou.html"
     },
     {
         "name": "Find Number",
@@ -256,6 +281,11 @@
         "link": "Public/gravity.html"
     },
     {
+        "name": "Grocery Manager",
+        "image": "assets/Images/grocerymanager.png",
+	"link": "Public/grocerymanager.html"
+    },
+    {
         "name": "Guess Color",
         "image": "assets/Images/guess_color.png",
         "link": "Public/guess_color.html"
@@ -291,8 +321,8 @@
         "link": "Public/icecream.html"
     },
     {
-        "name": "Image Editor",
-        "image": "assets/Images/imageeditor.png",
+        "name": "Image Filter App",
+        "image": "assets/Images/Image-Filter-App.png",
         "link": "Public/image_editor.html"
     },
     {
@@ -361,6 +391,11 @@
         "link": "Public/modalclosingbutton.html"
     },
     {
+        "name": "Movie Recommendation PAge",
+        "image": "assets/Images/movies_rec.jpg",
+        "link": "Public/movies_rec.html"
+    },
+    {
         "name": "Movie Search App",
         "image": "assets/Images/Movie-Search-App.png",
         "link": "Public/Movie-Search-App.html"
@@ -371,6 +406,11 @@
         "link": "Public/MovieQuoteGenerator.html"
     },
     {
+        "name": "Moving Car",
+        "image": "assets/Images/movingcar/movingcar.png",
+        "link": "Public/movingcar.html"
+    },
+    {
         "name": "Multiple Portfolio",
         "image": "assets/Images/multi-portfolio.png",
         "link": "Public/multiple-portfolio.html"
@@ -379,6 +419,11 @@
         "name": "Music Player",
         "image": "assets/Images/music.jpg",
         "link": "Public/musicPlayer.html"
+    },
+    {
+        "name": "Myntra Clone",
+        "image": "assets/Images/myntraclone/myntraclone.png",
+        "link": "Public/myntraclone.html"
     },
     {
         "name": "NGO",
@@ -421,6 +466,11 @@
         "link": "Public/popup.html"
     },
     {
+        "name": "PostMaster",
+        "image": "assets/Images/postmaster/postmaster.png",
+        "link": "Public/postmaster.html"
+    },
+    {
         "name": "Prime Calculator",
         "image": "assets/Images/primeCalc.png",
         "link": "Public/primeCalc.html"
@@ -456,9 +506,24 @@
         "link": "Public/Random_Quote_Generator.html"
     },
     {
+        "name": "Range-Slider",
+        "image": "assets/Images/RangeSlider.jpg",
+        "link": "Public/RangeSlider.html"
+    },
+    {
+        "name": "RandomChoicePicker",
+        "image": "assets/Images/RandomChoicePicker.png",
+        "link": "Public/RandomChoicePicker.html"
+    },
+    {
         "name": "RD Return Calculator",
         "image": "assets/Images/RD-return-calculator.png",
         "link": "Public/RD-return-calculator.html"
+    },
+    {
+        "name": "Reflex Training",
+        "image": "assets/Images/Reflex_Training/Reflex.png",
+        "link": "Public/Reflex_Training.html"
     },
     {
         "name": "Report Calculator",
@@ -524,7 +589,6 @@
         "name": "Solar",
         "image": "assets/Images/solar.JPG",
         "link": "Public/solar.html"
-
     },
     {
         "name": "Speech Synthesis",
@@ -587,7 +651,6 @@
         "link": "Public/temperature-converter.html"
     },
     {
-
         "name": "Theme Clock",
         "image": "assets/Images/theme-clock.png",
         "link": "Public/theme-clock.html"
@@ -597,7 +660,6 @@
         "image": "assets/Images/xxx.JPG",
         "link": "Public/Third_Degree_Equation_Calculator.html"
     },
-
     {
         "name": "Tic Tac Toe",
         "image": "assets/Images/tic-tac-toe.PNG",
@@ -627,12 +689,10 @@
         "name": "Toast Notification",
         "image": "assets/Images/toast.JPG",
         "link": "Public/toast_notification.html"
-    }
-
-    ,
+    },
     {
         "name": "Todo",
-        "image": "assets/Images/to-do-img.png",
+        "image": "assets/Images/Todo.png",
         "link": "Public/todo.html"
     },
     {
@@ -666,6 +726,11 @@
         "link": "Public/vaccineslot.html"
     },
     {
+        "name": "Vigenere Cipher",
+        "image": "assets/Images/VigenereCipher.png",
+        "link": "Public/VigenereCipher.html"
+    },
+    {
         "name": "Weather App",
         "image": "assets/Images/weather.png",
         "link": "Public/weather_app.html"
@@ -674,6 +739,11 @@
         "name": "Weight Converter",
         "image": "assets/Images/weightconverter.png",
         "link": "Public/weight_conv.html"
+    },
+    {
+        "name": "Wordle Clone",
+        "image": "assets/Images/Wordle-clone.PNG",
+        "link": "Public/Wordle-clone.html"
     },
     {
         "name": "Word Definition",
@@ -687,7 +757,7 @@
     },
     {
         "name": "Word Search",
-        "image": "assets/Images/wordsearch/wordsearch1.png",
+        "image": "assets/Images/wordsearch/wordsearch1.gif",
         "link": "Public/wordsearch.html"
     },
     {
@@ -695,4 +765,6 @@
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
     }
+    
 ]
+
