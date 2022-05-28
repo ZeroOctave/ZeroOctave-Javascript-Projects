@@ -271,6 +271,11 @@
         "link": "Public/gravity.html"
     },
     {
+        "name": "Grocery Manager",
+        "image": "assets/Images/grocerymanager.png",
+	"link": "Public/grocerymanager.html"
+    },
+    {
         "name": "Guess Color",
         "image": "assets/Images/guess_color.png",
         "link": "Public/guess_color.html"
@@ -284,11 +289,6 @@
         "name": "Gym Website",
         "image": "assets/Images/gym-website/bg1.jpg",
         "link": "Public/gym-website.html"
-    },
-    {
-        "name": "Grocery Manager",
-        "image": "assets/Images/grocerymanager.png",
-	"link": "Public/grocerymanager.html"
     },
     {
         "name": "Hangman",
