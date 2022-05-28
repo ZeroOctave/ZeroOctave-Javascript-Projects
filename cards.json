@@ -30,6 +30,12 @@
         "link": "Public/auto_image_slider.html"
     },
     {
+        "name": "Birthday_card",
+        "image": "assets/Images/birthday_card.png",
+        "link": "Public/Birthday_card.html"
+
+    },
+    {
         "name": "BMI Calculator",
         "image": "assets/Images/BMI_Calculator_image_landing_page.png",
         "link": "Public/bmi-calculator.html"
