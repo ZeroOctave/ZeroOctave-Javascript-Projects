@@ -14,7 +14,7 @@ body{
     background-position: center;
 }
 
-#loading{
+#loading {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -27,7 +27,7 @@ body{
 }
 
 /*NAVBAR*/
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
