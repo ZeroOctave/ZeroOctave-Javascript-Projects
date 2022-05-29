@@ -1,5 +1,10 @@
 [
     {
+        "name": "2048 Game",
+        "image": "assets/Images/2048.png",
+        "link": "Public/2048.html"
+    },
+    {
         "name": "Accordion",
         "image": "assets/Images/accordion.png",
         "link": "Public/accordion.html"
@@ -124,6 +129,11 @@
         "name": "Connect Four",
         "image": "assets/Images/connectfour.png",
         "link": "Public/connectfour.html"
+    },
+    {
+	"name":"Color Game",
+	"image": "assets/Images/color-game.PNG" ,
+	"link":"Public/color-game.html"
     },
     {
         "name": "Confirm Password Validator",
@@ -644,6 +654,11 @@
         "name": "Sudoku Solver",
         "image": "assets/Images/SudokuSolver.png",
         "link": "Public/SudokuSolver.html"
+    },
+    {
+        "name": "Switching Testimonial Box",
+        "image": "assets/Images/SwitchingTestimonialBox.png",
+        "link": "Public/SwitchingTestimonialBox.html"
     },
     {
         "name": "Tap Music",
