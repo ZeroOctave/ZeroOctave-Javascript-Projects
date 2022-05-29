@@ -1,5 +1,10 @@
 [
     {
+        "name": "2048 Game",
+        "image": "assets/Images/2048.png",
+        "link": "Public/2048.html"
+    },
+    {
         "name": "Accordion",
         "image": "assets/Images/accordion.png",
         "link": "Public/accordion.html"
