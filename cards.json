@@ -115,14 +115,15 @@
         "image": "assets/Images/colorchooser.JPG",
         "link": "Public/colorchooser.html"
     },
-	{
-		"name":"Color Game",
-		"link":"Public/color-game.html"
-	},
     {
         "name": "Connect Four",
         "image": "assets/Images/connectfour.png",
         "link": "Public/connectfour.html"
+    },
+    {
+	"name":"Color Game",
+	"image": "color-game.PNG" ,
+	"link":"Public/color-game.html"
     },
     {
         "name": "Confirm Password Validator",
