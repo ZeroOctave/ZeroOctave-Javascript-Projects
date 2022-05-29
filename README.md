@@ -257,6 +257,8 @@ git push -u origin <your_branch_name>
 | 157. | [Vigenere Cipher](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/VigenereCipher.html)| 158. | [Expanding Cards UI design](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/ExpandingCardsUIdesign.html)| 159. | [Grocery Manager](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/grocerymanager.html)
 | 160. | [Reflex Trainer](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Reflex_Training.html)| 161. | [Birthday card](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Birthday_card.html)| 162. | [CV Screener](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/CV-Screener.html)
 | 163. | [Switching Testimonial Box](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/SwitchingTestimonialBox.html)| 164. | [2048 Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/2048.html)| 165. | [Color Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/color-game.html)
+| 166. | [Animated Eye](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/animatedeye.html)
+
 
 <br>
 
