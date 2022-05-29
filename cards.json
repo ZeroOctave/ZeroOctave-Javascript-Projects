@@ -115,6 +115,10 @@
         "image": "assets/Images/colorchooser.JPG",
         "link": "Public/colorchooser.html"
     },
+	{
+		"name":"Color Game",
+		"link":"Public/color-game.html"
+	},
     {
         "name": "Connect Four",
         "image": "assets/Images/connectfour.png",
