@@ -455,6 +455,10 @@
         "image": "assets/Images/placeholder.JPG",
         "link": "Public/placeholder.html"
     },
+	{
+		"name":"Picture Frame",
+		"link":"Public/picture-frame.html"
+	},
     {
         "name": "Pong",
         "image": "assets/Images/Pong-Game.PNG",
