@@ -126,6 +126,11 @@
         "link": "Public/connectfour.html"
     },
     {
+	"name":"Color Game",
+	"image": "color-game.PNG" ,
+	"link":"Public/color-game.html"
+    },
+    {
         "name": "Confirm Password Validator",
         "image": "assets/Images/passval.JPG",
         "link": "Public/confirmpasswordvalidator.html"
