@@ -260,9 +260,6 @@ git push -u origin <your_branch_name>
 | 166. | [Animated Eye](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/animatedeye.html)
 
 
-
-
-=======
 <br>
 
 <div id="Maintainer"></div>
