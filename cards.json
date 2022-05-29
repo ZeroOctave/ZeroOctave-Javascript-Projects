@@ -701,6 +701,11 @@
         "link": "Public/todo.html"
     },
     {
+        "name": "Tracker Expense Calculator",
+        "image": "assets/Images/trackerExpense/logo51-removebg-preview.png",
+        "link": "Public/trackerExpense/index.html"
+    },
+    {
         "name": "Transpose Matrix Calculator",
         "image": "assets/Images/TransposeMatrixCalculator.png",
         "link": "Public/Transpose-Matrix-Calculator.html"
