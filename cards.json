@@ -701,6 +701,11 @@
         "link": "Public/todo.html"
     },
     {
+        "name": "Tourist Website",
+        "image": "assets/Images/Tourist_Website/sku.png",
+        "link": "Public/Tourist_Website/index.html"
+    },
+    {
         "name": "Transpose Matrix Calculator",
         "image": "assets/Images/TransposeMatrixCalculator.png",
         "link": "Public/Transpose-Matrix-Calculator.html"
@@ -714,11 +719,6 @@
         "name": "Travel Website",
         "image": "assets/Images/travel-website/8.jpg",
         "link": "Public/travel-website.html"
-    },
-    {
-        "name": "Tourist Website",
-        "image": "assets/Images/Tourist_Website/sku.png",
-        "link": "Public/Tourist_Website/index.html"
     },
     {
         "name": "Type Writer Effect",
