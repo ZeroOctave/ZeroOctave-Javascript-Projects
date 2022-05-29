@@ -256,7 +256,7 @@ git push -u origin <your_branch_name>
 | 154. | [Wordle Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Wordle-clone.html)| 155. | [Feedback and Reply](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/FeedbackThankyou.html)| 156. | [Range-Slider](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/RangeSlider.html)
 | 157. | [Vigenere Cipher](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/VigenereCipher.html)| 158. | [Expanding Cards UI design](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/ExpandingCardsUIdesign.html)| 159. | [Grocery Manager](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/grocerymanager.html)
 | 160. | [Reflex Trainer](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Reflex_Training.html)| 161. | [Birthday card](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Birthday_card.html)| 162. | [CV Screener](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/CV-Screener.html)
-
+| 163. | [Tearable Cloth](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/tearable-cloth.html)|
 
 
 <br>
