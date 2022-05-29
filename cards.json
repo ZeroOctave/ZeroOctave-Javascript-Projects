@@ -127,7 +127,7 @@
     },
     {
 	"name":"Color Game",
-	"image": "color-game.PNG" ,
+	"image": "assets/Images/color-game.PNG" ,
 	"link":"Public/color-game.html"
     },
     {
