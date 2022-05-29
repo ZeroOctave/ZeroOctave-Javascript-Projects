@@ -15,14 +15,14 @@
         "link": "Public/Analog_clock.html"
     },
     {
-        "name": "Animated Portfolio",
-        "image": "assets/Images/animated.JPG",
-        "link": "Public/AnimatedPortfolio.html"
-    },
-    {
         "name": "Animated Eye",
         "image": "assets/Images/animatedeye/logo.png",
         "link": "Public/animatedeye.html"
+    },
+    {
+        "name": "Animated Portfolio",
+        "image": "assets/Images/animated.JPG",
+        "link": "Public/AnimatedPortfolio.html"
     },
     {
         "name": "Auto Write",
