@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('https://images.samimunir2002.repl.co/Skardu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background:  url('https://images.samimunir2002.repl.co/loader.gif');
+    z-index: 9999;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+/*NAVBAR*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgba(0, 0, 0, 0.2);
+    color: #fff;
+    width: 100%;
+    padding: 25px;
+}
+
+.logo{
+    width: 25%;
+    text-align: center;
+    font-size: 1rem;
+    margin: .5rem;
+    text-transform: uppercase;
+}
+
+.nav-links ul{
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+.nav-links li{
+    list-style: none;
+    width: 60%;
+}
+
+.nav-links li a{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-right: 70px;
+    display: block;
+}
+
+.nav-links li a:hover{
+    letter-spacing: 1px;
+   color: #46c91e;
+    cursor: pointer;
+}
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*Content*/
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+section h3{
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 5px black;
+}
+
+section p{
+    font-size: 35px;
+    font-weight: 200;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 2px 1px 1px black;
+}
+
+section a{
+    padding: 14px 32px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+
+section .btn1{
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+}
+
+.btn1:hover{
+    background-color: #1d5a0a;
+    color: #fff;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+section .btn2{
+    background-color: #1d5a0a;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.btn2:hover{
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.change_content:after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: #41c718;
+}
+
+@keyframes changetext{
+    0%{content: "ISLAMABAD";}
+    20%{content: "LAHORE";}
+    35%{content: "KARACHI";}
+    55%{content: "SKARDU";}
+    75%{content:"SWAT";}
+    86%{content: "PESHAWAR";}
+    100%{content: "GAWADAR";}
+
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    .toggle-button{
+        display: flex;
+        margin-top: 20px;
+    }
+    .nav-links{
+      display: none; 
+      width: 100%;
+    }
+   .navbar{
+       flex-direction: column;
+       align-items: flex-start;
+       height: auto;
+       padding: 5px;
+   }
+   .navbar ul{
+       width: 100%;
+       flex-direction: column;
+   }
+   .navbar li{
+       text-align: center;
+   }
+   .navbar li a{
+       padding: .5rem 1rem;
+       margin-left: 75%;
+   }
+   .nav-links.active {
+       display: flex;
+   }
+}
