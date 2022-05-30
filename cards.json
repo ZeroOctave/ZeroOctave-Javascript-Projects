@@ -715,6 +715,11 @@
         "image": "assets/Images/Todo.png",
         "link": "Public/todo.html"
     },
+     {
+        "name": "Tourist Website",
+        "image": "assets/Images/Skardu.jpg",
+        "link": "Public/Tourist_Website/index.html"
+    },
     {
         "name": "Transpose Matrix Calculator",
         "image": "assets/Images/TransposeMatrixCalculator.png",
