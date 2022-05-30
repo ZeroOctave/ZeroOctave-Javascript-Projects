@@ -1,5 +1,10 @@
 [
     {
+        "name": "2048 Game",
+        "image": "assets/Images/2048.png",
+        "link": "Public/2048.html"
+    },
+    {
         "name": "Accordion",
         "image": "assets/Images/accordion.png",
         "link": "Public/accordion.html"
@@ -13,6 +18,11 @@
         "name": "Analog",
         "image": "assets/Images/analog.jpg",
         "link": "Public/Analog_clock.html"
+    },
+    {
+        "name": "Animated Eye",
+        "image": "assets/Images/animatedeye/logo.png",
+        "link": "Public/animatedeye.html"
     },
     {
         "name": "Animated Portfolio",
@@ -119,6 +129,11 @@
         "name": "Connect Four",
         "image": "assets/Images/connectfour.png",
         "link": "Public/connectfour.html"
+    },
+    {
+	"name":"Color Game",
+	"image": "assets/Images/color-game.PNG" ,
+	"link":"Public/color-game.html"
     },
     {
         "name": "Confirm Password Validator",
@@ -699,6 +714,11 @@
         "name": "Todo",
         "image": "assets/Images/Todo.png",
         "link": "Public/todo.html"
+    },
+     {
+        "name": "Tourist Website",
+        "image": "assets/Images/Skardu.jpg",
+        "link": "Public/Tourist_Website/index.html"
     },
     {
         "name": "Transpose Matrix Calculator",

@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: #5d3800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.smile{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.smile::before{
+    content: '';
+    position: absolute;
+    width: 155px;
+    height: 65px;
+    background-color: #b57700;
+    top: 63%;
+    left: 73px;
+    transition: all 0.3s ease-in;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    cursor: pointer;
+}
+.smile:hover::before{
+    content: '';
+    position: absolute;
+    width: 155px;
+    height: 65px;
+    background-color: #b57700;
+    top: 63%;
+    left: 73px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.eye{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 55px;
+    left: 58px;
+    border-radius: 50%;
+}
+.eyes{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 55px;
+    left: 172px;
+    border-radius: 50%;
+}
+.eyeball{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 17px;
+    left: 2px;
+    transform-origin: right;
+}
