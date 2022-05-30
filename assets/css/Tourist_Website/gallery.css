@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+.navbar{
+    background-color: #030b07;
+}
+#logo{
+    font-weight: bold;
+}
+a{
+    text-transform: uppercase;
+     font-size: 18px;
+     font-family: 'Josefin Sans', sans-serif;
+     font-weight: bold;
+}
+a:hover{
+    letter-spacing: 1px;
+     cursor: pointer;
+}
+hr{
+   border: 3px solid;
+}
+
+footer{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    background-color: #154f30;
+    padding-top: 5px;
+}

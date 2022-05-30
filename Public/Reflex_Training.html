@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/Reflex_training.css">
+    <title>Reflex Trainer</title>
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <div class="container" id="container">
+
+        <div class="header">
+
+
+            <h1>Reflex Training</h1>
+
+            <h2>Give a workout to your Reflexes!</h2>
+
+        </div>
+
+        <div class="game_instructions">
+
+            <h3>Game Instructions</h3>
+            <p>A <em>random target</em> will appear on your screen, click it as fast as you can to score high</p>
+            <p>Click on start</p>
+
+            <br>
+
+        </div>
+        <div class="btn_field">
+            <form name="response">
+
+                <input type="button" class="btn" value="Start" onClick="testStart()">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="playground" id="playground">
+        <div class="frame">
+            <div class="target" id="target" onClick="timeTaken()">
+            </div>
+            <div class="page" id="page">
+                <div class="number"> <span class="num3">3</span><span class="num2">2</span><span class="num1">1</span>
+                </div>
+            </div>
+        </div>
+        <div class="stop_btn">
+            <form name="response">
+                <input type="button" id="stop_btn" class="btn" value="Restart Test" onClick="testStop()">
+            </form>
+        </div>
+
+
+        <div id="result"></div>
+    </div>
+
+    <script src="../assets/Js/Reflex_training.js"></script>
+</body>
+
+</html>
