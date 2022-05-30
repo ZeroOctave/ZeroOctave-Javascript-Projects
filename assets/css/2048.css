@@ -1,0 +1,103 @@
+body {
+    font-family: 'BioRhyme', serif;
+    text-align: center;
+    background-color: #beff98;
+}
+
+hr {
+    width: 450px;
+    border-bottom: 0;
+    border: 1.5px solid rgb(24, 50, 250);
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: #fffc39;
+    border: 6px solid #ff1b1b;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #ff810b;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* colored tiles */
+
+.x2 {
+    background-color: #eee4da;
+    color: #000000;
+}
+
+.x4 {
+    background-color: #ffc559;
+    color: #000000;
+}
+
+.x8 {
+    background-color: #9ffe69;
+    color: rgb(0, 0, 0);
+}
+
+.x16{
+    background-color: #d32d2d;
+    color: rgb(255, 255, 255);
+}
+
+.x32{
+    background-color: #e293ff;
+    color: rgb(0, 0, 0);
+}
+
+.x64{
+    background-color: #f65d3b;
+    color: rgb(0, 0, 0);
+}
+
+.x128{
+    background-color: #5050fd;
+    color: rgb(0, 0, 0);
+}
+
+.x256{
+    background-color: #edcc63;
+    color: white;
+}
+
+.x512{
+    background-color: #edc651;
+    color: white;
+}
+
+.x1024{
+    background-color: #eec744;
+    color: white;
+}
+
+.x2048{
+    background-color: #ecc230;
+    color: white;
+}
+
+.x4096 {
+    background-color: #fe3d3d;
+    color: white;
+}
+
+.x8192 {
+    background-color: #ff2020;
+    color: white;
+}
