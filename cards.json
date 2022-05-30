@@ -451,6 +451,11 @@
         "link": "Public/noteapp.html"
     },
     {
+        "name": "Netflix Navigation",
+        "image": "assets/Images/NetflixNavigation.png",
+        "link": "Public/NetflixNavigation.html"
+    },
+    {
         "name": "News Website",
         "image": "assets/Images/NewsWebsite.png",
         "link": "Public/News_Site.html"
