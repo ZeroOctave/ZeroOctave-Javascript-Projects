@@ -789,7 +789,12 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
-    }
+    },
+    {
+        "name": "Camera Web Application",
+        "image": "assets/Images/camera.PNG",
+        "link": "Public/camera_app.html"
+    }	
     
 ]
 
