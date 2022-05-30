@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfBBdfCL7jRQgjYuGqOtvdj7zOMczB4CqxYOivNFRY0d6OWbc4oPKKCUXHH3dzfh3F_MY&usqp=CAU);
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+
+.text{
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 0;
+}
+
+.logo {
+    height: 20px;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.navbtn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.openbtn{
+    position: fixed;
+    top: 15px;
+    left: 15px;
+}
+
+.closebtn{
+    opacity: 0.3;
+    position: fixed;
+    top: 45px;
+    right: 30px;
+    position: absolute;
+}
+
+.icon{
+    position: fixed;
+    top: 15px;
+    left: 65px;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav.visible{
+    transform: translateX(0);
+}
+
+.navblack.visible{
+    transition-delay: 0s;
+}
+
+.navred.visible{
+    transition-delay: 0.2s;
+}
+
+.navwhite.visible{
+    transition-delay: 0.4s;
+}
+
+.navblack{
+    background-color: rgb(32, 29, 29);
+    width: 60%;
+    max-width: 400px;
+    min-width: 320px;
+    transition-delay: 0.4s;
+}
+
+.navred{
+    background-color: rgb(225, 0, 0);
+    width: 95%;
+    transition-delay: 0.2s;
+}
+
+.navwhite{
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    padding: 40px;
+    position: relative;
+    transition-delay: 0s;
+}
+
+.list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li{
+    margin: 20px 0;
+}
+
+.list li a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.list ul{
+    list-style-type: none;
+    padding-left: 20px;
+}
