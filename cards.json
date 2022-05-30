@@ -40,6 +40,11 @@
         "link": "Public/auto_image_slider.html"
     },
     {
+        "name": "Audio Play",
+        "image": "assets/Images/AudioPlay/AudioPlay.png",
+        "link": "Public/AudioPlay.html"
+    },
+    {
         "name": "Birthday_card",
         "image": "assets/Images/birthday_card.png",
         "link": "Public/Birthday_card.html"
