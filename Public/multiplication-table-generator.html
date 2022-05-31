@@ -9,56 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
-
-body {
-    font-family: 'Source Serif Pro', serif;
-    color: rgb(248, 248, 248);
-    background-color: #949ba8;
-}
-.container {
-    padding-top: 4%;
-    max-width: 700px;
-    margin: 0 auto;
-    
-}
-
-section {
-    background-color: rgb(30, 70, 134);
-    font-size: 1.2em;
-    text-align: center;
-    border-radius: 15px;
-}
-
-#title {
-    margin-bottom: 30px;
-    text-transform: uppercase;
-}
-
-#ans {
-    margin-top: 2%;
-    background-color: rgba(152, 173, 230, 0.71);
-    font-weight: bold;
-}
-
-#btnGenerate {
-    width: 50%;
-    height: 40px;
-    background-color: rgb(91, 91, 97);
-    border: none;
-    border-radius: 7px;
-    color: #fff;
-    text-transform: uppercase;
-
-}
-#btnGenerate:hover{
-    color:rgb(91, 91, 97);
-    background-color: #fff;
-}
-
-.container > section > form > #generate { padding: 10px; }
-    </style>
+    <link rel="stylesheet" href="../assets/css/mtg.css">
     <title>Multiplication Table Generator</title>
 </head>
 
@@ -92,53 +43,7 @@ section {
             </form>
             </section>
     </div>
-    <script>
-        var txtNumber = document.getElementById('txtNumber');
-var txtInterval = document.getElementById('txtInterval');
-var btnGenerate = document.getElementById('btnGenerate');
-var ans = document.getElementById('ans');
-
-document.addEventListener('DOMContentLoaded', onFocus);
-btnGenerate.addEventListener('click', onClick);
-txtInterval.addEventListener('keydown', onKeyDown);
-txtNumber.addEventListener('keydown', onKeyDown);
- 
-function onClick() {
-    let count = 0;
-    if (!validateNumber(txtNumber.value)) {
-        while (count <= txtInterval.value) {
-            ans.innerHTML += parseFloat(txtNumber.value) + ' X ' + count + ' = ' + (parseFloat(txtNumber.value) * count) + '<br>';
-            count++;
-        }
-        validateInterval(txtInterval.value);
-    }
-    return count;
-}
-
-function validateNumber(number) {
-    let ret = false;
-    if (number == '') ret = true;
-    else if (number != '' && ans != '') ans.innerHTML = '';
-    return ret;
-}
-
-function validateInterval(interval) {
-    let ret = false;
-    if (interval > 100) {
-        ans.innerHTML = '';
-        ret = true;
-    }
-    return ret;
-}
-
-function onKeyDown(e) {
-    if (e.key === 'e') e.preventDefault();
-}
-
-function onFocus() {
-    txtNumber.focus();
-}
-    </script>
+    <script src="../assets/Js/mtg.js"></script>
 </body>
 
 </html>
