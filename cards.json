@@ -671,6 +671,11 @@
         "link": "Public/tap_music.html"
     },
     {
+        "name": "Tearable Cloth",
+        "image": "assets/Images/tearable-cloth.png",
+        "link": "Public/tearable-cloth.html"
+    },
+    {
         "name": "Temperature Converter",
         "image": "assets/Images/temperature-converter.png",
         "link": "Public/temperature-converter.html"
