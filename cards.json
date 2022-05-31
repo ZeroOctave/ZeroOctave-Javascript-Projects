@@ -91,10 +91,16 @@
         "link": "Public/calculator.html"
     },
     {
+        "name": "Camera Web Application",
+        "image": "assets/Images/camera.PNG",
+        "link": "Public/camera_app.html"
+    },
+    {
         "name": "Candy Store",
         "image": "assets/Images/Candy Store/cover1.jpg",
         "link": "Public/Candy Store/index.html"
     },
+
     {
         "name": "Car Race",
         "image": "assets/Images/car.jpg",
@@ -809,12 +815,6 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
-    },
-    {
-        "name": "Camera Web Application",
-        "image": "assets/Images/camera.PNG",
-        "link": "Public/camera_app.html"
-    }	
-    
+    }
 ]
 
