@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    color: rgb(248, 248, 248);
+    background-color: #949ba8;
+}
+.container {
+    padding-top: 4%;
+    max-width: 700px;
+    margin: 0 auto;
+    
+}
+
+section {
+    background-color: rgb(30, 70, 134);
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#title {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#ans {
+    margin-top: 2%;
+    background-color: rgba(152, 173, 230, 0.71);
+    font-weight: bold;
+}
+
+#btnGenerate {
+    width: 50%;
+    height: 40px;
+    background-color: rgb(91, 91, 97);
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+#btnGenerate:hover{
+    color:rgb(91, 91, 97);
+    background-color: #fff;
+}
+
+.container > section > form > #generate { padding: 10px; }
+    </style>
+    <title>Multiplication Table Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <section>
+            <h3 id="title" class="text-center">Multiplication Table Calculator</h3>
+            <p style="text-align:center;font-size:12px;margin-bottom: 50px;margin-top: -30px;">(get the table of any number simply by typing the number itself and the range)</p>
+            <form onsubmit="return false">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <input type="number" id="txtNumber" class="form-control" min="0"
+                            placeholder="Enter the number whose table you want... ">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <input type="number" id="txtInterval" class="form-control" min="0" max="100"
+                            placeholder="Range or the maximum number you wanted your table should be..">
+                        <span class="small" style="color:black">The maximum value in the range is 100, as larger values ​​can crash your browser.</span>
+        
+                    </div>
+                </div>
+                <div id="generate" class="form-group">
+                    <div class="col-md-12">
+                        <input type="submit" id="btnGenerate" value="Get Table">
+                    </div>
+                </div>
+                <div id="ans"></div>
+           
+            </form>
+            </section>
+    </div>
+    <script>
+        var txtNumber = document.getElementById('txtNumber');
+var txtInterval = document.getElementById('txtInterval');
+var btnGenerate = document.getElementById('btnGenerate');
+var ans = document.getElementById('ans');
+
+document.addEventListener('DOMContentLoaded', onFocus);
+btnGenerate.addEventListener('click', onClick);
+txtInterval.addEventListener('keydown', onKeyDown);
+txtNumber.addEventListener('keydown', onKeyDown);
+ 
+function onClick() {
+    let count = 0;
+    if (!validateNumber(txtNumber.value)) {
+        while (count <= txtInterval.value) {
+            ans.innerHTML += parseFloat(txtNumber.value) + ' X ' + count + ' = ' + (parseFloat(txtNumber.value) * count) + '<br>';
+            count++;
+        }
+        validateInterval(txtInterval.value);
+    }
+    return count;
+}
+
+function validateNumber(number) {
+    let ret = false;
+    if (number == '') ret = true;
+    else if (number != '' && ans != '') ans.innerHTML = '';
+    return ret;
+}
+
+function validateInterval(interval) {
+    let ret = false;
+    if (interval > 100) {
+        ans.innerHTML = '';
+        ret = true;
+    }
+    return ret;
+}
+
+function onKeyDown(e) {
+    if (e.key === 'e') e.preventDefault();
+}
+
+function onFocus() {
+    txtNumber.focus();
+}
+    </script>
+</body>
+
+</html>

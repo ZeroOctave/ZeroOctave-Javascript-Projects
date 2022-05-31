@@ -441,6 +441,11 @@
         "link": "Public/multiple-portfolio.html"
     },
     {
+        "name": "Multiplication Table Generator",
+        "image": "assets/Images/images.jpg",
+        "link": "Public/multiplication-table-generator.html"
+    },
+    {
         "name": "Music Player",
         "image": "assets/Images/music.jpg",
         "link": "Public/musicPlayer.html"
