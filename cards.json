@@ -136,9 +136,9 @@
         "link": "Public/connectfour.html"
     },
     {
-	"name":"Color Game",
-	"image": "assets/Images/color-game.PNG" ,
-	"link":"Public/color-game.html"
+	      "name":"Color Game",
+	      "image": "assets/Images/color-game.PNG" ,
+	      "link":"Public/color-game.html"
     },
     {
         "name": "Confirm Password Validator",
@@ -281,6 +281,11 @@
         "link": "Public/Function_Grapher.html"
     },
     {
+        "name": "2048 Game",
+        "image": "assets/Images/2048.png",
+        "link": "Public/2048.html"
+    },
+    {
         "name": "Github Profiless",
         "image": "assets/Images/GitHub-Profiles.jpeg",
         "link": "Public/Github-Profiles.html"
@@ -303,7 +308,7 @@
     {
         "name": "Grocery Manager",
         "image": "assets/Images/grocerymanager.png",
-	"link": "Public/grocerymanager.html"
+	      "link": "Public/grocerymanager.html"
     },
     {
         "name": "Guess Color",
@@ -514,6 +519,11 @@
         "name": "Quiz",
         "image": "assets/Images/quizapp.JPG",
         "link": "Public/quiz.html"
+    },
+    {
+        "name": "Rain Effects",
+        "image": "assets/Images/RainEffects.jpg",
+        "link": "Public/RainEffects.html"
     },
     {
         "name": "Random Color Generator",
