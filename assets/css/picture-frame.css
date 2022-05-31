@@ -1,0 +1,46 @@
+img{
+    display: block;
+    height:30vw;
+    width:30vw;
+    border-radius: 5px;
+    
+}
+#image{
+    padding: 10px;
+    background-color: lavender;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    margin: 30px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pic{
+    width: 30vw;
+   
+    
+    margin: 10px auto 30px auto;
+    height:30vw;
+    background-color: lightblue;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px solid darkblue;
+    border-radius: 5px; 
+}
+div input{
+    display: block;
+    
+}
+.change{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.change div{
+    margin: 20px;
+}
