@@ -30,6 +30,11 @@
         "link": "Public/AnimatedPortfolio.html"
     },
     {
+        "name": "Audio Play",
+        "image": "assets/Images/AudioPlay.png",
+        "link": "Public/AudioPlay.html"
+    },
+    {
         "name": "Auto Write",
         "image": "assets/Images/auto-write.jpg",
         "link": "Public/auto-write-text.html"
@@ -38,11 +43,6 @@
         "name": "Auto Image Slider",
         "image": "assets/Images/autoimageslider.png",
         "link": "Public/auto_image_slider.html"
-    },
-    {
-        "name": "Audio Play",
-        "image": "assets/Images/AudioPlay/AudioPlay.png",
-        "link": "Public/AudioPlay.html"
     },
     {
         "name": "Birthday_card",
