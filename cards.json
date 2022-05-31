@@ -1,5 +1,10 @@
 [
     {
+        "name": "2048 Game",
+        "image": "assets/Images/2048.png",
+        "link": "Public/2048.html"
+    },
+    {
         "name": "Accordion",
         "image": "assets/Images/accordion.png",
         "link": "Public/accordion.html"
@@ -15,9 +20,19 @@
         "link": "Public/Analog_clock.html"
     },
     {
+        "name": "Animated Eye",
+        "image": "assets/Images/animatedeye/logo.png",
+        "link": "Public/animatedeye.html"
+    },
+    {
         "name": "Animated Portfolio",
         "image": "assets/Images/animated.JPG",
         "link": "Public/AnimatedPortfolio.html"
+    },
+    {
+        "name": "Audio Play",
+        "image": "assets/Images/AudioPlay.png",
+        "link": "Public/AudioPlay.html"
     },
     {
         "name": "Auto Write",
@@ -76,10 +91,16 @@
         "link": "Public/calculator.html"
     },
     {
+        "name": "Camera Web Application",
+        "image": "assets/Images/camera.PNG",
+        "link": "Public/camera_app.html"
+    },
+    {
         "name": "Candy Store",
         "image": "assets/Images/Candy Store/cover1.jpg",
         "link": "Public/Candy Store/index.html"
     },
+
     {
         "name": "Car Race",
         "image": "assets/Images/car.jpg",
@@ -119,6 +140,11 @@
         "name": "Connect Four",
         "image": "assets/Images/connectfour.png",
         "link": "Public/connectfour.html"
+    },
+    {
+	      "name":"Color Game",
+	      "image": "assets/Images/color-game.PNG" ,
+	      "link":"Public/color-game.html"
     },
     {
         "name": "Confirm Password Validator",
@@ -261,6 +287,11 @@
         "link": "Public/Function_Grapher.html"
     },
     {
+        "name": "2048 Game",
+        "image": "assets/Images/2048.png",
+        "link": "Public/2048.html"
+    },
+    {
         "name": "Github Profiless",
         "image": "assets/Images/GitHub-Profiles.jpeg",
         "link": "Public/Github-Profiles.html"
@@ -283,7 +314,7 @@
     {
         "name": "Grocery Manager",
         "image": "assets/Images/grocerymanager.png",
-	"link": "Public/grocerymanager.html"
+	      "link": "Public/grocerymanager.html"
     },
     {
         "name": "Guess Color",
@@ -501,6 +532,11 @@
         "link": "Public/quiz.html"
     },
     {
+        "name": "Rain Effects",
+        "image": "assets/Images/RainEffects.jpg",
+        "link": "Public/RainEffects.html"
+    },
+    {
         "name": "Random Color Generator",
         "image": "assets/Images/randomcolorgenerator.png",
         "link": "Public/random_color_generator.html"
@@ -656,6 +692,11 @@
         "link": "Public/tap_music.html"
     },
     {
+        "name": "Tearable Cloth",
+        "image": "assets/Images/tearable-cloth.png",
+        "link": "Public/tearable-cloth.html"
+    },
+    {
         "name": "Temperature Converter",
         "image": "assets/Images/temperature-converter.png",
         "link": "Public/temperature-converter.html"
@@ -704,6 +745,11 @@
         "name": "Todo",
         "image": "assets/Images/Todo.png",
         "link": "Public/todo.html"
+    },
+     {
+        "name": "Tourist Website",
+        "image": "assets/Images/Skardu.jpg",
+        "link": "Public/Tourist_Website/index.html"
     },
     {
         "name": "Transpose Matrix Calculator",
@@ -775,6 +821,5 @@
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
     }
-    
 ]
 
