@@ -30,6 +30,11 @@
         "link": "Public/AnimatedPortfolio.html"
     },
     {
+        "name": "Audio Play",
+        "image": "assets/Images/AudioPlay.png",
+        "link": "Public/AudioPlay.html"
+    },
+    {
         "name": "Auto Write",
         "image": "assets/Images/auto-write.jpg",
         "link": "Public/auto-write-text.html"
@@ -131,9 +136,9 @@
         "link": "Public/connectfour.html"
     },
     {
-	"name":"Color Game",
-	"image": "assets/Images/color-game.PNG" ,
-	"link":"Public/color-game.html"
+	      "name":"Color Game",
+	      "image": "assets/Images/color-game.PNG" ,
+	      "link":"Public/color-game.html"
     },
     {
         "name": "Confirm Password Validator",
@@ -276,6 +281,11 @@
         "link": "Public/Function_Grapher.html"
     },
     {
+        "name": "2048 Game",
+        "image": "assets/Images/2048.png",
+        "link": "Public/2048.html"
+    },
+    {
         "name": "Github Profiless",
         "image": "assets/Images/GitHub-Profiles.jpeg",
         "link": "Public/Github-Profiles.html"
@@ -298,7 +308,7 @@
     {
         "name": "Grocery Manager",
         "image": "assets/Images/grocerymanager.png",
-	"link": "Public/grocerymanager.html"
+	      "link": "Public/grocerymanager.html"
     },
     {
         "name": "Guess Color",
@@ -511,6 +521,11 @@
         "link": "Public/quiz.html"
     },
     {
+        "name": "Rain Effects",
+        "image": "assets/Images/RainEffects.jpg",
+        "link": "Public/RainEffects.html"
+    },
+    {
         "name": "Random Color Generator",
         "image": "assets/Images/randomcolorgenerator.png",
         "link": "Public/random_color_generator.html"
@@ -664,6 +679,11 @@
         "name": "Tap Music",
         "image": "assets/Images/tapmusic.JPG",
         "link": "Public/tap_music.html"
+    },
+    {
+        "name": "Tearable Cloth",
+        "image": "assets/Images/tearable-cloth.png",
+        "link": "Public/tearable-cloth.html"
     },
     {
         "name": "Temperature Converter",
