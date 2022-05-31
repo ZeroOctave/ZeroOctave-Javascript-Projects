@@ -248,8 +248,8 @@
     },
     {
         "name": "Expense Tracker",
-        "image": "./assets/Images/expense.png",
-        "link": "./Public/expense.html"
+        "image": "./assets/Images/trackerExpense/expense5.png",
+        "link": "./Public/trackerExpense/index.html"
     },
     {
         "name": "FAQ collapse",
