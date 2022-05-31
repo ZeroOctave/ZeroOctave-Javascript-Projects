@@ -1,0 +1,87 @@
+body{
+    margin: 3%;
+    color: rgb(196,196,196);
+    background-image: url(https://lh6.googleusercontent.com/-72uowLfy8IM/Thb5aLI_yuI/AAAAAAAAANo/kujZMGik7PI/s800/bg.png);
+    background-color: rgb(153,153,153);
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    font-family: "Gruppo", sans-serif;
+}
+h1{
+    text-align: center;
+    padding:15px;
+}
+h2{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 25px;   
+}
+div.cage{
+ 
+    zoom: 1;
+    width: 70%;
+    overflow: hidden;
+    border: 2px solid rgb(16,16,16);
+    border-radius: 2em;
+    -moz-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    color: rgb(255,255,255);
+    background-color: rgb(152, 228, 236);
+    box-shadow: 0 5px 15px #333333;
+    -moz-box-shadow: 0 5px 15px #333333;
+    -webkit-box-shadow: 0 5px 15px #333333;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)";
+    margin: 0 auto;
+    padding: 1.5em;
+    margin-top: 15px;
+}
+#inputField{
+    border: none;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+.label{
+    text-align: left;
+    float: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    color:black;
+}
+.box{
+    width: 90%;
+    height:80px;
+    text-align: left;
+    float: right;
+}
+#enc{
+    margin-right: 10%;
+}
+input[type="text"]{
+    width: 100%;
+    text-align: left;
+    letter-spacing: 0.25em;
+    margin-bottom: 1em;
+    height:40px;
+    font-size: large;
+}
+input[name="convert"]{
+    width: 50%;
+    height: 3em;
+    font-size: 15px;
+    margin-bottom:10px;
+    font-weight: bold;
+    cursor: pointer;
+    border:2px solid;
+}
+input[name="resetButton"]{
+    width: 50%;
+    font-size: 15px;
+    height: 3em;
+    font-weight: bold;
+    cursor: pointer;
+    border:2px solid;
+}
