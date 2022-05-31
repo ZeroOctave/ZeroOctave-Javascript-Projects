@@ -222,8 +222,8 @@
     },
     {
         "name": "Expense Tracker",
-        "image": "./assets/Images/expense.png",
-        "link": "./Public/expense.html"
+        "image": "./assets/Images/trackerExpense/expense.png",
+        "link": "./Public/trackerExpense/index.html"
     },
     {
         "name": "FeedbackThankyou",
