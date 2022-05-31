@@ -488,7 +488,7 @@
     },
     {
 	"name":"Picture Frame",
-        "image":"assets/Images/picture-frame.jpg,
+        "image":"assets/Images/picture-frame.jpg",
         "link":"Public/picture-frame.html"
     },
     {
