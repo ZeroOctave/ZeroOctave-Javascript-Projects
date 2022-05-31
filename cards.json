@@ -252,6 +252,11 @@
         "link": "./Public/expense.html"
     },
     {
+        "name": "FAQ collapse",
+        "image": "assets/Images/FAQcollapse.png",
+        "link": "Public/FAQcollapse.html"
+    },
+    {
         "name": "FeedbackThankyou",
         "image": "assets/Images/FeedbackThankyou/FeedbackThankyou.png",
         "link": "Public/FeedbackThankyou.html"
