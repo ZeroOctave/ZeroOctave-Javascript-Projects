@@ -221,7 +221,7 @@
         "link": "./Public/ExpandingCardsUIdesign.html"
     },
     {
-        "name": "Expense Tracker",
+        "name": "Expense Tracker Calculator",
         "image": "./assets/Images/trackerExpense/expense.png",
         "link": "./Public/trackerExpense/index.html"
     },
