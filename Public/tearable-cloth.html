@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tearable Cloth</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/tearable-cloth.css" />
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <span id="directions">Drag with your mouse, right-click to slice. </span>
+    <br>
+    <div>
+        <button onclick="zeroG()">Zero G!</button><button onclick="Gravity()">Gravity!</button><button onclick="addWind()">Increase wind speed!</button>
+        <button onclick="removeWind()">Decrease wind speed!</button>
+        <button onclick="bigger()">Make it bigger!</button>
+        <button onclick="smaller()">Make it smaller!</button>
+        <button onclick="messup()">Click me if you dare</button>
+        <button onclick="colorChange()">Change color</button>
+        <button onclick="patternChange()">Change pattern</button>
+        <button onclick="resetCloth()">Reset Cloth</button>
+  <div>
+   <p id="meters">Wind mph: 0, Size: 8, Strength = 60</p>
+    <p id="windSpeed"></p>
+  <div>
+</body>
+<script type="text/javascript" src="../assets/Js/tearable-cloth.js"></script>
+</html>

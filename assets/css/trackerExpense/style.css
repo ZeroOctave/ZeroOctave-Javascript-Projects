@@ -572,7 +572,7 @@ button {
 
 .banner_main {
 
-background-image: url("/assests/Images/trackerExpense/bg.jpg");
+background-image: url("/assets/Images/trackerExpense/bg.jpg");
 padding: 90px 0 40px 0;
 display: flex;
 align-items: center;
@@ -1005,7 +1005,7 @@ margin-top: 100px;
      height: 243px;
      top: -243px;
      background-repeat: no-repeat;
-     background: url(/assests/Images/trackerExpense/cross_bottom7.png);
+     background: url(/assets/Images/trackerExpense/cross_bottom7.png);
      background-size: cover;
 background-position: center;
 left: 0;
