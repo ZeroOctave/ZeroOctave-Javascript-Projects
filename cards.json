@@ -735,6 +735,11 @@
         "image": "assets/Images/Todo.png",
         "link": "Public/todo.html"
     },
+    {
+        "name": "Tracker Expense Calculator",
+        "image": "assets/Images/trackerExpense/logo51-removebg-preview.png",
+        "link": "Public/trackerExpense/index.html"
+    },
      {
         "name": "Tourist Website",
         "image": "assets/Images/Skardu.jpg",
