@@ -248,8 +248,8 @@
     },
     {
         "name": "Expense Tracker",
-        "image": "./assets/Images/expense.png",
-        "link": "./Public/expense.html"
+        "image": "./assets/Images/trackerExpense/expense5.png",
+        "link": "./Public/trackerExpense/index.html"
     },
     {
         "name": "FAQ collapse",
@@ -755,6 +755,11 @@
         "name": "Todo",
         "image": "assets/Images/Todo.png",
         "link": "Public/todo.html"
+    },
+    {
+        "name": "Tracker Expense Calculator",
+        "image": "assets/Images/trackerExpense/logo51-removebg-preview.png",
+        "link": "Public/trackerExpense/index.html"
     },
      {
         "name": "Tourist Website",
