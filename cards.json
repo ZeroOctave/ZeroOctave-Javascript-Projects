@@ -1,5 +1,10 @@
 [
     {
+        "name": "2048 Game",
+        "image": "assets/Images/2048.png",
+        "link": "Public/2048.html"
+    },
+    {
         "name": "Accordion",
         "image": "assets/Images/accordion.png",
         "link": "Public/accordion.html"
@@ -15,9 +20,19 @@
         "link": "Public/Analog_clock.html"
     },
     {
+        "name": "Animated Eye",
+        "image": "assets/Images/animatedeye/logo.png",
+        "link": "Public/animatedeye.html"
+    },
+    {
         "name": "Animated Portfolio",
         "image": "assets/Images/animated.JPG",
         "link": "Public/AnimatedPortfolio.html"
+    },
+    {
+        "name": "Audio Play",
+        "image": "assets/Images/AudioPlay.png",
+        "link": "Public/AudioPlay.html"
     },
     {
         "name": "Auto Write",
@@ -119,6 +134,11 @@
         "name": "Connect Four",
         "image": "assets/Images/connectfour.png",
         "link": "Public/connectfour.html"
+    },
+    {
+	"name":"Color Game",
+	"image": "assets/Images/color-game.PNG" ,
+	"link":"Public/color-game.html"
     },
     {
         "name": "Confirm Password Validator",
@@ -641,6 +661,11 @@
         "link": "Public/SudokuSolver.html"
     },
     {
+        "name": "Switching Testimonial Box",
+        "image": "assets/Images/SwitchingTestimonialBox.png",
+        "link": "Public/SwitchingTestimonialBox.html"
+    },
+    {
         "name": "Tap Music",
         "image": "assets/Images/tapmusic.JPG",
         "link": "Public/tap_music.html"
@@ -699,6 +724,11 @@
         "name": "Todo",
         "image": "assets/Images/Todo.png",
         "link": "Public/todo.html"
+    },
+     {
+        "name": "Tourist Website",
+        "image": "assets/Images/Skardu.jpg",
+        "link": "Public/Tourist_Website/index.html"
     },
     {
         "name": "Transpose Matrix Calculator",

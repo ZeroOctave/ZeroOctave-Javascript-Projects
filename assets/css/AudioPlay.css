@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://media.istockphoto.com/vectors/abstract-music-background-vector-id166083734?k=20&m=166083734&s=170667a&w=0&h=r-ivio81FxV4XIbgrxuX4mYFb5iO8nctthEaGvN28OA=) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btn{
+    background-color: rgb(0, 0, 0 , 0.7) ;
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn:focus {
+    outline: none;
+}
