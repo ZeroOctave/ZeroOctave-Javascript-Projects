@@ -750,5 +750,10 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
+    },
+    {
+        "name": "Geolocation",
+        "image": "assets/Images/geolocation.png",
+        "link": "Public/geolocation.html"
     }
 ]
