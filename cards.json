@@ -91,10 +91,16 @@
         "link": "Public/calculator.html"
     },
     {
+        "name": "Camera Web Application",
+        "image": "assets/Images/camera.PNG",
+        "link": "Public/camera_app.html"
+    },
+    {
         "name": "Candy Store",
         "image": "assets/Images/Candy Store/cover1.jpg",
         "link": "Public/Candy Store/index.html"
     },
+
     {
         "name": "Car Race",
         "image": "assets/Images/car.jpg",
@@ -244,6 +250,11 @@
         "name": "Expense Tracker",
         "image": "./assets/Images/expense.png",
         "link": "./Public/expense.html"
+    },
+    {
+        "name": "FAQ collapse",
+        "image": "assets/Images/FAQcollapse.png",
+        "link": "Public/FAQcollapse.html"
     },
     {
         "name": "FeedbackThankyou",
@@ -441,6 +452,11 @@
         "link": "Public/multiple-portfolio.html"
     },
     {
+        "name": "Multiplication Table Generator",
+        "image": "assets/Images/images.jpg",
+        "link": "Public/multiplication-table-generator.html"
+    },
+    {
         "name": "Music Player",
         "image": "assets/Images/music.jpg",
         "link": "Public/musicPlayer.html"
@@ -479,6 +495,11 @@
         "name": "Place Holder",
         "image": "assets/Images/placeholder.JPG",
         "link": "Public/placeholder.html"
+    },
+    {
+	"name":"Picture Frame",
+        "image":"assets/Images/picture-frame.jpg",
+        "link":"Public/picture-frame.html"
     },
     {
         "name": "Pong",
@@ -815,6 +836,5 @@
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
     }
-    
 ]
 
