@@ -251,6 +251,16 @@ git push -u origin <your_branch_name>
 | 139. | [Food Filter](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/food-filter.html)| 140. | [Sudoku Solver](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/SudokuSolver.html) | 141. | [Candy Store](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Candy-Store/index.html)
 | 142. | [Word Search](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/wordsearch.html)| 143. | [Country Capital Homepage](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/country_capital_homepage.html)| 144. | [Flappy Bird](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/flappybird.html)
 | 145. | [Connect Four](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/connectfour.html)| 146. | [Maze Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/mazegame.html)| 147. | [Coin Toss Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Coin-toss-game.html)
+| 148. |  [Movies Recommendation Page](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/movies_rec.html)| 149. |  [Myntra Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/myntraclone.html)| 150. | [Random Choice Picker](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/RandomChoicePicker.html)
+| 151. | [Daily Prophet](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/dailyprophet.html)| 152. | [Moving Car](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/movingcar.html)| 153. | [PostMaster](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/postmaster.html)| 
+| 154. | [Wordle Clone](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Wordle-clone.html)| 155. | [Feedback and Reply](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/FeedbackThankyou.html)| 156. | [Range-Slider](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/RangeSlider.html)
+| 157. | [Vigenere Cipher](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/VigenereCipher.html)| 158. | [Expanding Cards UI design](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/ExpandingCardsUIdesign.html)| 159. | [Grocery Manager](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/grocerymanager.html)
+| 160. | [Reflex Trainer](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Reflex_Training.html)| 161. | [Birthday card](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Birthday_card.html)| 162. | [CV Screener](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/CV-Screener.html)| 163. | [Switching Testimonial Box](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/SwitchingTestimonialBox.html)
+| 164. | [2048 Game](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/2048.html)
+| 165. | [Rain Effects](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/RainEffects.html)
+
+
+
 
 <br>
 
