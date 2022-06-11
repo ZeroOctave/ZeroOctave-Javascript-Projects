@@ -7,13 +7,15 @@
     </head>
     
     <body>
+
+      
         <div class="box">
-            <div>
-                <label>Enter Number to Convert: </label>
+            <div id="con">
+                <label>Enter Number: </label>
                 <input name="to_convert" id="to_convert" type="text" style="width: 70%;">
             </div>
             <br>
-            <div style="text-align: right;">
+            <div id="val">
                 <label>Base_X: </label>
                 <input name="x" id="x" min=2 type="number">
                 <br>
@@ -23,10 +25,13 @@
             </div>
 
             <br><br>
-            <button onclick="convert()" style="width: 40%">Calculate</button>
+            <button id="but" onclick="convert()" style="width: 40%">Calculate</button>
+       
+            <h2 id="result" style="margin-top: 10%;">Result</h2>
+            <input readonly id="res" style="width: 20%;">
+
         </div>
         
-        <h2 style="margin-top: 10%;">Result</h2>
-        <input readonly id="res" style="width: 20%;">
+       
     </body>
 </html>
