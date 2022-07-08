@@ -2,7 +2,7 @@ body {
   
   background: #fff;
   background-image: url("../Images/to-do-bg.jpg");
-  background-size: 700px 700px;
+  background-size: cover;
   color: #333;
   font-family: Lato, sans-serif;
 }
