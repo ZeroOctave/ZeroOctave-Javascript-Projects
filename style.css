@@ -36,6 +36,7 @@ html{
   background-color: #41465D;
   top: 0;
   left: 0;
+  height: 5rem;
   right: 0;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
   z-index: 10;
@@ -55,6 +56,7 @@ html{
   list-style-type: none;
   align-items: center;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .nav a {
@@ -239,8 +241,7 @@ width: 100%;
 height: 100%;
 top: 0;
 left: 0;
-border-radius: 10px;
-background: rgb(65, 70, 93);
+background: rgba(0,0,0,0.25);
 transform: translate(110%,0);
 transition: .4s;
 }
@@ -253,7 +254,7 @@ transition: .4s;
 
 .stylebox .image:hover::after{
   /* transform: scale(1.17); */
-  transform: translate(-110%,0);
+  transform: translate(-70%,0);
   /* border-radius: .5em; */
 }
 /*  */
@@ -321,8 +322,8 @@ button{
 /* CARDS DESIGN ENDS */
 
 .background-container{
-  display: grid;
-  place-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
