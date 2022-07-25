@@ -42,19 +42,20 @@
 <body onload="pre_loading()">
 
   <!--Preloader-->
-  <div class="preloadeR" id="preLoading" ><span>Loading...</span></div>
+  <div class="preloadeR" id="preLoading" ><span></span></div>
 
 <script>
       var p = document.getElementById('preLoading'); 
 
       function pre_loading(){
-      setTimeout( myfunction,2000);
+      setTimeout( myfunction,3000);
       }
+
       function myfunction(){
       p.style.display = 'none';
       }
-</script>
 
+</script>
 
   <!-- This script is causing hearts to flow from top in every page remove it if needed -->
   <!-- <script src="assets/Js/purple_heart.js"></script> -->
@@ -74,8 +75,7 @@
   <div class="container background-container">
     <!--searchbar-->
     <input type="text" id="searchbar" placeholder="Search Project...">
-   
-    
+  
   </div>
 
   <!-- CARDS SECTION STARTS HERE -->
