@@ -84,6 +84,8 @@ Happy coding.👍
 
 <td align="center"><a href="https://gssoc.girlscript.tech/"  target="_blank"><img src="assets/Images/gssoc.jpg" alt="GSSoC22" width="125"/><br><sub><b> GSSOC 2022 </b></sub></a></td> </a></td>
 
+<td align="center"><a href="https://ssoc.getsocialnow.co/"  target="_blank"><img src="assets/Images/ssoc.png" alt="SSOC2022" width="125"/><br><sub><b> SSOC-2022 </b></sub></a></td> </a></td>
+
 </tr>
 </tbody></table>
 
