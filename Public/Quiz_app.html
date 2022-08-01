@@ -1,44 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <title>Javascript Quiz</title>
+        <link rel="stylesheet" href="../assets/css/Quiz_app.css">
+        <script src="../assets/js/Quiz_app.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>Quiz</h1>
+                <p>Test your <strong>General Knowlwdge</strong></p>
+            </header>
+            <section>
+                <!--the results will be displayed below the header section on submission of the form. To display results,JS uses the id:"results" and innerHTML adds the results-->
+                <div id="results">
+                </div>
+                
+                
+                <!--the form on submission, returns to the JS function:submitAnswers()-->
+                <form name="quizForm" onsubmit="return submitAnswers()">
+                    <h3>1.National Capital Of India</h3>
+                    <input type="radio" name="q1" value="a" id="q1a">a. &lt;Banglore&gt;<br>
+                    <input type="radio" name="q1" value="b" id="q1b">b. &lt;Delhi&gt;<br>
+                    <input type="radio" name="q1" value="c" id="q1c">c. &lt;Mumbai&gt;<br>
+                    <input type="radio" name="q1" value="d" id="q1d">d. &lt;Kolkata&gt;<br>
+                    
+                    <h3>2.How many colors are there in a rainbow?</h3>
+                    <input type="radio" name="q2" value="a" id="q2a">a. &lt;7&gt;<br>
+                    <input type="radio" name="q2" value="b" id="q2b">b. &lt;8&gt;<br>
+                    <input type="radio" name="q2" value="c" id="q2c">c. &lt;6&gt;<br>
+                    <input type="radio" name="q2" value="d" id="q2d">d. &lt;9&gt;<br>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../assets/css/Quiz_app.css">
-</head>
+                    <h3>3. How many days a February month have in the leap year</h3>
+                    <input type="radio" name="q3" value="a" id="q3a">a. &lt;30&gt;<br>
+                    <input type="radio" name="q3" value="b" id="q3b">b. &lt;31&gt;<br>
+                    <input type="radio" name="q3" value="c" id="q3c">c. &lt;29&gt;<br>
+                    <input type="radio" name="q3" value="d" id="q3d">d. &lt;28&gt;<br>
 
-<body>
-    <div class="maindiv">
-        <div class="middiv">
-            <h1 id="question"> START THE QUIZ NOW !! </h1>
-            <ul>
-                <li>
-                    <input type="radio" name="answer" id="ans1" class="response">
-                    <label for="ans1" id="optionone"> Yes </label>
-                </li>
-                <li>
-                    <input type="radio" name="answer" id="ans2" class="response">
-                    <label for="ans2" id="optiontwo"> Sure </label>
-                    </li2>
-                <li>
-                    <input type="radio" name="answer" id="ans3" class="response">
-                    <label for="ans3" id="optionthree"> Of Course </label>
-                </li>
-                <li>
-                    <input type="radio" name="answer" id="ans4" class="response">
-                    <label for="ans4" id="optionfour"> let's Get Started Now </label>
-                </li>
-            </ul>
-            <button id="submit"> Submit </button>
-            <div id="showlist">
-                <p id=server></p>
-            </div>
-            <button id="playagain"> Try again</button>
+                    <h3>4.Anti-clockwise is it from left or right?</h3>
+                    <input type="radio" name="q4" value="a" id="q4a">a. &lt;Right&gt;<br>
+                    <input type="radio" name="q4" value="b" id="q4b">b. &lt;Left&gt;<br>
+                    
+                    <br><br>
+
+                    <!-- The HTML <input type=”submit”> is used to define a submit button. It is used to submit all the user value to the form handler. The Form Handler is a server page that activates a script for processing all the input values -->
+                    <input type="submit" value="submit">
+                </form>
+            </section>
+            <footer>
+                <p>Copyright &copy;2022,All rights reserved</p>
+                <p>Developed by Darshana</p>
+            </footer>
         </div>
-    </div>
-</body>
-<script src="../assets/js/Quiz_app.js"></script>
+        
+    </body>
 
+   
 </html>

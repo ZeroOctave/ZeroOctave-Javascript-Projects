@@ -1,126 +1,40 @@
-const questionlist = [
-    {
-        question: "National Capital Of India",
-        a: "Delhi",
-        b: "Bihar",
-        c: "Uttar",
-        d: "Pradesh",
-        ans: "ansnomatch"
-    },        
-    {
-        question: "How many colors are there in a rainbow?",
-        a: "8",
-        b: "7",
-        c: "6",
-        d: "9",
-        ans: "ans1"
-    },
-    {
-        question: "Ship of the Desert",
-        a: "Camel",
-        b: "Tiger",
-        c: "Zebra",
-        d: "Mouse",
-        ans: "ans2"
-    },
-    {
-        question: " How many sides are there in a triangle",
-        a: "Three",
-        b: "Four",
-        c: "Five",
-        d: "Seven",
-        ans: "ans1"
-    },
-    {
-        question: " How many sides are there in a triangle",
-        a: "Three",
-        b: "Four",
-        c: "Five",
-        d: "Seven",
-        ans: "ans1"
+function submitAnswers(){
+    var total=4;
+    var score=0;
+    //get user input
+    //document.forms is a Web API which could be used to get an element from the form.Here, we try to access the "value(a/b/c/d)" of which answer/radio btn is selected
+    var q1=document.forms["quizForm"]["q1"].value;
+    var q2=document.forms["quizForm"]["q2"].value;
+    var q3=document.forms["quizForm"]["q3"].value;
+    var q4=document.forms["quizForm"]["q4"].value;
+    
+    //validation
+    //eval() makes the code more efficient rather than checking using q1,q2,q3,a4 4 times.
+    for(let i=1;i<=total;i++){
+        if(eval('q'+i)==null || eval('q'+i) == ''){
+            alert("you missed question "+i);
+            return false
+        }
     }
-];
-
-let questiontitle = document.getElementById('question');
-let optionone = document.getElementById('optionone');
-let optiontwo = document.getElementById('optiontwo');
-let optionthree = document.getElementById('optionthree');
-let optionfour = document.getElementById('optionfour');
-let button = document.getElementById('submit');
-let show = document.getElementById('showlist');
-let playagain = document.getElementById('playagain');
-let option1 = document.getElementById('ans1');
-let option2 = document.getElementById('ans2');
-let option3 = document.getElementById('ans3');
-let option4 = document.getElementById('ans4');
-let server = document.getElementById('server');
-let query = document.querySelectorAll('.response');
-show.style.visibility = "hidden";
-playagain.style.visibility = "hidden";
-
-var count = 0;
-var net = 0;
-function changelist () { 
-    questiontitle.innerHTML = questionlist[count].question;
-optionone.innerHTML = questionlist[count].a;
-optiontwo.innerHTML = questionlist[count].b;
-optionthree.innerHTML = questionlist[count].c;
-optionfour.innerHTML = questionlist[count].d;
-get();
-count++;
-
-if(count >= questionlist.length){
-    playagain.style.visibility = "visible";
-    button.style.visibility = "hidden";
-    questiontitle.style.visibility = "hidden";
-    optionone.style.visibility = "hidden";
-    optiontwo.style.visibility = "hidden";
-    optionthree.style.visibility = "hidden";
-    optionfour.style.visibility = "hidden";
-    option1.style.visibility = "hidden";
-    option2.style.visibility = "hidden";
-    option3.style.visibility = "hidden";
-    option4.style.visibility = "hidden";
-    show.style.visibility = "visible";
-    server.innerHTML = `Congratulations!! You have successfully submitted the test and your score is ${net}`;
-  
-}
-
-};
-
-function playagainnow () {
-    count = 0;
-    net = 0;
-    changelist();
-    button.style.visibility = "visible";
-    playagain.style.visibility = "hidden";
-    show.style.visibility = "hidden";
-    button.addEventListener('click' , changelist);
-    questiontitle.style.visibility = "visible";
-    optionone.style.visibility = "visible";
-    optiontwo.style.visibility = "visible";
-    optionthree.style.visibility = "visible";
-    optionfour.style.visibility = "visible";
-    option1.style.visibility = "visible";
-    option2.style.visibility = "visible";
-    option3.style.visibility = "visible";
-    option4.style.visibility = "visible";
-   
-}
-function get () {
-    query.forEach((element) => {
-        if(element.checked){
-if(element.id == questionlist[count].ans){
-                net++;
-                console.log(net);
+    
+    //set correct answers, correct answers are stored in an array
+    var answers=["b","a","d","b"];
+    
+    
+    //check answers, if the value submitted is right, score is incremented
+    for(let i=1;i<=total;i++){
+            if(eval('q'+i)==answers[i-1]){
+                score++;
             }
+        }
+    
+    
+    //display results
+    var results=document.getElementById('results');
+    results.innerHTML='<h3>You scored <span>'+score+'</span> out of <span>'+total+'</span></h3>';
 
-        };
 
-    }); 
+    //this form submitted or recorded.
+    return false;
+
 }
-playagain.addEventListener('click' , playagainnow);
-
-
-
-button.addEventListener('click' , changelist);
