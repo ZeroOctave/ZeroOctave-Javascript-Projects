@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+     <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width ,initial-scale=1.0, shrink-to-fit=no">
+
+     <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script&family=Pacifico&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!--CSS Animation-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+     <!-- Own CSS File -->
+    <link rel="stylesheet" type="text/css" href="../../assets/css/Candy Store/firstProject.css">
+        
+        <title>Candy</title>
+    </head>
+
+    <body onload="loading()">
+
+        <!--Pre Loader Page-->
+        <div id="loading">
+           
+        </div>
+
+
+
+<!-- NAvBAR -->
+<!--py-0 means padding top and bottom zero-->
+<nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-1 fixed-top">
+
+
+    <!--To add company or institute name on Navbar -->
+    <a href="#" class="navbar-brand">Candy</a>
+
+    <!--For Toggle Button -->
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navlinks"  aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!--Things need to be collapse on different screen size-->
+    <div class="collapse navbar-collapse" id="navlinks">
+     
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#Home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#About" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="Menu.htm" class="nav-link">Order Online</a>
+            </li>
+        </ul>
+        
+   </div>     
+</nav>
+
+
+<!-- Slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators ">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="slides" src="../../assets/Images/Candy Store/cover1.jpg" class="d-block w-100" alt="..." height="620px" width="auto">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="slide1">
+                    <h1 class="display-4" >A Sweet Treat</h1>
+                    <h1 class="display-4">Celebrate Your Event With Us </h1> 
+               </div>
+               <a href="#Home"><img class="animated infinite fadeIn" src="../../assets/Images/Candy Store/dw.gif" alt="" width="30px" height="60px"></a>
+            </div>
+          </div>
+          <div  class="carousel-item">
+            <img class="slides" src="../../assets/Images/Candy Store/2x.jpg" class="d-block w-100" alt="..." height="620px" width="auto" >
+            <div  class="carousel-caption d-none d-md-block" >
+                <div class="slide2">
+              <h1 class="display-4">a sweet </h1>  
+            <h1 class="display-4" >HOPPILY EVER AFTER</h1>
+                </div>
+                <a href="#Home"><img class="animated infinite fadeIn" src="../../assets/Images/Candy Store/dw.gif" alt="" width="30px" height="60px"></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="slides" src="../../assets/Images/cover3.jpg" class="d-block w-100" alt="..." height="620px" width="auto" >
+            <div class="carousel-caption d-none d-md-block">
+                <div class="slide3">
+              <p class="lead">Savor the flavor of our refreshing </p>
+              <p id="para2" class="lead"> treats that will pamper you like royal-tea</p>
+                </div>
+                <a href="#Home"><img class="animated infinite fadeIn" src="../../assets/Images/Candy Store/dw.gif" alt="" width="30px" height="60px"></a>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev mt-5" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next mt-5" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div> 
+
+<!--Content Start From here-->
+<section id="box" class="container-fluid py-0">
+    <div id="Home" class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+            <img class="img-fluid" src="../../assets/Images/Candy Store/milk.png" alt="">
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2">
+            <div class="row justify-content-center">
+                <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                    <h2>THE CANDY's SPECIAL</h2>
+                    <img src="../../assets/Images/Candy Store/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                    <p class="lead">Get ready to spread love and light with our sweet collection of kosher-certified gifts! 
+                        This year we’re excited to introduce our Special “8 Nights of Light” Tasting Box. This beautiful gift 
+                        was made for creating memories and sweet new traditions. With each passing night, a new candy is revealed 
+                        and a candle gets its light.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="About" class="row align-items-center content">
+        <div class="col-md-6 text-center">
+            <div class="row justify-content-center">
+                <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                    <h2>ABOUT US</h2>
+                    <img src="../../assets/Images/Candy Store/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                    <p class="lead">The Candy pioneered the world’s largest confectionery emporium and lifestyle brand.
+                        Candy mission is to merge fashion, art and pop culture with candy 
+                         to ignite the creative spirit and inner child in everyone that visits.
+                         This innovative concept has changed the way the world experiences candy today. 
+                         We continues to attract people of all ages with its state of the art décor and trend-setting product mix.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="../../assets/Images/Candy Store/sprinkles.png" alt="" class="img-fluid">
+        </div>
+    </div>
+    <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+            <img src="../../assets/Images/Candy Store/gumball.png"  alt="" class="img-fluid">
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2">
+            <div class="row justify-content-center">
+                <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                    <h2>YUMMY GAMBALLS</h2>
+                    <img src="../../assets/Images/Candy Store/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                    <p class="lead">Shop our vast selection of Dubble Bubble gumballs in every flavor and gumballs from other famous 
+                        manufacturers like Sweetworks and Ford Gum. Browse unique, gourmet gummies from around the world, including best 
+                        selling Sugar Lips, Gummy Bears and other soda-infused gummies, vegan gummies, sour gummies and more!
+                        Grab a gumball sweet or two, maybe try a gumball filled with Nerds; the gum-popping possibilities are endless!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Footer Here-->
+<footer class="container-fluid" id="footer">
+    <h5>© 2020 Candy, Pakistan Inc. All rights reserved.</h5>
+</footer> 
+
+
+
+     <!--Bootstrap JS and J Querry linking-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>    
+    
+    <script>
+       var preloader = document.getElementById('loading'); 
+    
+        function loading(){
+           setTimeout( myfunction,800);
+       }
+
+       
+       function myfunction(){
+        preloader.style.display = 'none';
+       }
+
+
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+
+    
+    </script>
+
+  </body>
+</html>

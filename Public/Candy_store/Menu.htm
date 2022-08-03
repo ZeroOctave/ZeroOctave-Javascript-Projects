@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width ,initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script&family=Pacifico&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <!-- Own CSS File -->
+    <link rel="stylesheet" type="text/css" href="../../assets/css/Candy Store/Menu.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/69fecb4176.js" crossorigin="anonymous"></script>
+
+    <title>Order Now</title>
+</head>
+
+<body>
+
+    <body onload="loading()">
+
+        <!--Pre Loader Page-->
+        <div id="loading">
+
+        </div>
+
+
+        <!-- NAvBAR -->
+        <!--py-0 means padding top and bottom zero-->
+        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-1 fixed-top">
+
+
+            <!--To add company or institute name on Navbar -->
+            <a href="index.htm" class="navbar-brand">Candy</a>
+
+            <!--For Toggle Button -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navlinks"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Things need to be collapse on different screen size-->
+            <div class="collapse navbar-collapse" id="navlinks">
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="index.htm" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.htm" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Menu.htm" class="nav-link">ORDER ONLINE</a>
+                    </li>
+                </ul>
+                <span class="navbar-text mr-2">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#staticBackdrop">
+                       <i class="fas fa-shopping-cart"></i> <span id="items">0</span> <i class="fa fa-angle-down text-center" style="padding-left: 5px;margin-top: 3px;" aria-hidden="true"></i>
+                    </button>
+                </span>
+            </div>
+        </nav>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+         aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="staticBackdropLabel"><b>Your Cart</b></h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body container-fluid">
+                    <div id="cart" class="text-center">
+                    <img src="../../assets/Images/Candy Store/ut.png" alt=""  height="100px">
+                    <p class="h4 mt-1"> Cart is Empty</p>
+                    <p class="h5">Add an item and start making your order</p>
+                    </div>
+                    <div class="table-responsive">
+                    <table id="tableContent" class="table table-bordered text-center">
+                        <thead class="table-dark bg-dark">
+                        <tr>
+                        <th scope="col col-md-5">Items</th>
+                        <th scope="col col-md-2">Quantity</th>
+                        <th scope="col col-md-2">Price</th>
+                        <th scope="col col-md-3">Total</th>
+                        </tr>
+                        </thead>
+                        <tbody id="cartItems">
+
+                        </tbody>
+                    </table>
+                </div>
+                <div id="total" class="mt-2 mb-0 py-0 float-right">  
+                    
+                </div>
+            </div>
+
+                <div id="btns" class="modal-footer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+        <!--Cover Image-->
+
+        <section id="header" class="jumbotron text-center container-fluid">
+            <h1 class="display-1" id="text">Order Now</h1>
+        </section>
+
+<div class="container-fluid cart-footer bg bg-danger fixed-bottom" data-toggle="modal" data-target="#staticBackdrop" >
+    <button type="button" class="btn btn-danger"  style="font-size: 21px;">
+       Cart <i class="fas fa-shopping-cart"></i> <span id="item">0</span>
+    </button>     
+    <i class="fa fa-angle-down" style="margin-right: 10px;margin-top: 12px;font-size: 24px;" aria-hidden="true"></i>
+</div>
+        <!--Content Start From here-->
+        <div class="container-fluid">
+            <div class="container text-center">
+                <h2 class="h"> Variety Of Chocolate Bar</h2>
+                <p class="p">Shop gourmet chocolate bars from Candy Shop made with premium white chocolate, dark chocolate and
+                    milk chocolate</p>
+            </div>
+        </div>
+        <div class="container mt-0 pt-0">
+            <div class="box">
+                <div class="p-box" style="background-image: url('../../assets/Images/Candy Store/chocolate.jpg')"></div>
+                <div class="t-box">
+                    
+                    <h4>Milk Chocolate</h4>
+                    <p class="desc">500g chocolate bar</p>
+                </div>
+                <a class="uline" target="_blank">
+                    <div class="pr">Rs.600/=
+                        <button class="ord"><i style="color: whitesmoke" class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <div class="p-box" style="background-image: url('../../assets/Images/Candy Store/dark.jpg')"></div>
+                <div class="t-box">
+                    
+                    <h4>Dark Chocolate</h4>
+                    <p class="desc">100% dark chocolate 500g bar</p>
+                </div>
+                <a class="uline" target="_blank">
+                    <div class="pr">Rs.800/=
+                        <button class="ord"><i style="color: whitesmoke" class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <div class="p-box" style="background-image: url('../../assets/Images/Candy Store/white.jpg')"></div>
+                <div class="t-box">
+                    
+                    <h4> White Chocolate</h4>
+                    <p class="desc">Pure white chocolate 500g bar</p>
+                </div>
+                <a class="uline" target="_blank">
+                    <div class="pr">Rs.1,300/=
+                        <button class="ord"><i style="color: whitesmoke" class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="container text-center">
+                <h2 class="h">Special Collection Of Candies</h2>
+                <p class="p">Say cheers to a bite-sized happy hour with best-selling cocktail candies, including gummy bear and
+                    decadent cordials filled with top-shelf liquor.</p>
+            </div>
+        </div>
+        <div class="container mt-0 pt-0">
+            <div class="box">
+                <div class="p-box" style="background-image: url('../../assets/Images/Candy Store/bear1.jpg');"></div>
+                <div class="t-box">
+                    
+                    <h4>Rose Al Day® Bears</h4>
+                    <p class="desc">Pack of 100 candies</p>
+                </div>
+                <a class="uline" target="_blank">
+                    <div class="pr">Rs.350/=
+                        <button class="ord"><i style="color: whitesmoke" class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <div class="p-box" style="background-image: url('../../assets/Images/Candy Store/p1.jpg')"></div>
+                <div class="t-box">
+                    
+                    <h4>Peach Bellini</h4>
+                    <p class="desc">Pack of 100 candies</p>
+                </div>
+                <a class="uline" target="_blank">
+                    <div class="pr">Rs.550/=
+                        <button class="ord"><i style="color: whitesmoke" class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <div class="p-box" style="background-image: url('../../assets/Images/Candy Store/r.jpg')"></div>
+                <div class="t-box">
+                    
+                    <h4> Rainbow Candy</h4>
+                    <p class="desc">Pack of 100 candies</p>
+                </div>
+                <a class="uline" target="_blank">
+                    <div class="pr">Rs.450/=
+                        <button class="ord"><i style="color: whitesmoke" class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <div class="p-box" style="background-image: url('../../assets/Images/Candy Store/s.jpg');"></div>
+                <div class="t-box">
+                    
+                    <h4>Sparkling Candy</h4>
+                    <p class="desc">Pack of 100 candies</p>
+                </div>
+                <a class="uline" target="_blank">
+                    <div class="pr">Rs.250/=
+                        <button class="ord"><i style="color: whitesmoke" class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <div class="p-box" style="background-image: url('../../assets/Images/Candy Store/g.jpg')"></div>
+                <div class="t-box">
+                    
+                    <h4>Gummy Candy</h4>
+                    <p class="desc">Pack of 100 candies</p>
+                </div>
+                <a class="uline" target="_blank">
+                    <div class="pr">Rs.300/=
+                        <button class="ord"><i style="color: whitesmoke" class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <div class="p-box" style="background-image: url('../../assets/Images/Candy Store/k.jpg')"></div>
+                <div class="t-box">
+                    
+                    <h4>Kosher Ring Candy</h4>
+                    <p class="desc">Pack of 100 candies</p>
+                </div>
+                <a class="uline" target="_blank">
+                    <div class="pr">Rs.750/=
+                        <button class="ord"><i style="color: whitesmoke" class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <!--Footer Here-->
+        <footer class="container-fluid" id="footer">
+            <h5>© 2020 Candy, Pakistan Inc. All rights reserved.</h5>
+        </footer>
+
+
+        <!--Bootstrap JS and J Querry linking-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+            integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+            crossorigin="anonymous"></script>
+
+        <script src="../../assets/Js/Candy Store/menu.js"></script>
+        <script>
+            var preloader = document.getElementById('loading');
+
+            function loading() {
+                setTimeout(myfunction, 800);
+            }
+
+            function myfunction() {
+                preloader.style.display = 'none';
+            }
+
+
+            $(function () {
+                $(document).scroll(function () {
+                    var $nav = $("#mainNavbar");
+                    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                });
+            });
+
+
+        </script>
+
+    </body>
+
+</html>

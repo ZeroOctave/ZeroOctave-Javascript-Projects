@@ -1,0 +1,104 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Checkout</title>
+	<link rel="stylesheet" type="text/css" href="../../assets/css/Candy Store/checkout.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+	 crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+	 crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+	 crossorigin="anonymous">
+	</script>
+</head>
+
+<body onload="loading()">
+
+	<!--Pre Loader Page-->
+	<div id="loading">
+
+	</div>
+
+	<div class="bg-img">
+		<header>
+			<nav>
+				CheckOut $
+			</nav>
+		</header>
+
+		<div class="container my-4  py-5" style="opacity: .9;  background-color: rgba(0, 0, 0, 0.664);
+        background-image: linear-gradient(rgb(40, 40, 40), black); color: whitesmoke;">
+			<form>
+				<div class="form-group mx-5">
+					<label for="exampleFormControlInput1">Full Name</label>
+                    <input type="text" class="form-control" id="username" placeholder="Name" required>
+                    <small id="naam" class="form-text" >*Order reciever name</small>
+                </div>
+                <div class="form-group  mx-5">
+                  <label for="exampleFormControlInput2">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                  <small id="e" class="form-text" ></small>
+                </div>
+                <div class="form-group  mx-5">
+                    <label for="exampleFormControlInput3">Phone Number</label>
+                    <input type="number" class="form-control" id="number" placeholder="03123456789" required>
+                    <small id="n" class="form-text" >*Provide active phone number.</small>
+                </div>
+                <div class="form-group mx-5">
+                  <label for="exampleFormControlSelect1">City</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Karachi</option>
+                    <option>Islamabad</option>
+                    <option>Lahore</option>
+                  </select>
+                  <small id="c" class="form-text text-warning" ></small>
+                </div>
+                <div class="form-group mx-5">
+                  <label for="exampleFormControlTextarea1">Address</label>
+                  <textarea class="form-control" id="address" rows="3" required></textarea>
+                  <small id="ad" class="form-text " >*Provide complete address with nearest landmark.</small>
+                </div>
+                <a class="btn btn-success float-right" id="checkBtn">Confirm Order</a>
+                <br><br>
+              </form>
+              <small id="errorMessage"></small>
+            </div> 
+
+            
+       
+
+        <script src="../../assets/Js/Candy Store/js.js"></script>
+        <script>
+            var preloader = document.getElementById('loading');
+
+            function loading() {
+                setTimeout(myfunction, 800);
+            }
+
+            function myfunction() {
+                preloader.style.display = 'none';
+            }
+
+
+            $(function () {
+                $(document).scroll(function () {
+                    var $nav = $("#mainNavbar");
+                    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                });
+            });
+
+
+        </script>
+    </div>
+</body>
+
+</html>
