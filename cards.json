@@ -217,6 +217,11 @@
         "link": "Public/dictionary.html"
     },
     {
+        "name": "Social Tray",
+        "image": "assets/Images/socialTray.png",
+        "link": "Public/socialTray.html"
+    },
+    {
         "name": "Digital Clock",
         "image": "assets/Images/digital.jpg",
         "link": "Public/digital_clock.html"
