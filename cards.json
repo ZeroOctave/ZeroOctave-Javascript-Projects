@@ -91,6 +91,11 @@
         "link": "Public/calculator.html"
     },
     {
+        "name": "Food Master",
+        "image": "assets/Images/Food Master.png",
+        "link": "Public/Foodmaster.html"
+    },
+    {
         "name": "Camera Web Application",
         "image": "assets/Images/camera.PNG",
         "link": "Public/camera_app.html"
