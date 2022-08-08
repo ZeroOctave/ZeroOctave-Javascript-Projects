@@ -91,11 +91,6 @@
         "link": "Public/calculator.html"
     },
     {
-        "name": "Food Master",
-        "image": "assets/Images/Food Master.png",
-        "link": "Public/Foodmaster.html"
-    },
-    {
         "name": "Camera Web Application",
         "image": "assets/Images/camera.PNG",
         "link": "Public/camera_app.html"
@@ -285,6 +280,11 @@
         "name": "Food Filter",
         "image": "assets/Images/food-filter/sweets-1.jpeg",
         "link": "Public/food-filter.html"
+    },
+     {
+        "name": "Food Master",
+        "image": "assets/Images/Food Master.png",
+        "link": "Public/Foodmaster.html"
     },
     {
         "name": "Food Website",
