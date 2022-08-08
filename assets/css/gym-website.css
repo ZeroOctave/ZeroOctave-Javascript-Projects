@@ -1,3 +1,6 @@
+body,html{
+  scroll-behavior: smooth;
+}
 .h1 ,h1,h2{
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: -4px;
