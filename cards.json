@@ -840,6 +840,12 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
+    },
+    {
+        "name": "Country Guide App",
+        "image": "assets/Images/countryguide.png",
+        "link": "Public/Countryguide.html"
     }
+
 ]
 
