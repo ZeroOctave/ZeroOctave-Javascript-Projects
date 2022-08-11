@@ -840,6 +840,11 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
+    },
+    {
+        "name": "Minion Translator",
+        "image": "assets/Images/MinionTranslator.jpeg",
+        "link": "Public/MinionTranslator.html"
     }
 ]
 
