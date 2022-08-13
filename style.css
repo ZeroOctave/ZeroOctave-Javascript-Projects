@@ -134,6 +134,7 @@ body {
     left: -50px;
     top: 15px;
     font-size: 18px;
+   color: #f9f9f9;
 }
 
 .toggle:after {
