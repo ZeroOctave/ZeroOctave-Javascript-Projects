@@ -1,4 +1,10 @@
-[{
+[
+    {
+        "name": "2048 Game",
+        "image": "assets/Images/2048.png",
+        "link": "Public/2048.html"
+    },
+    {
         "name": "Accordion",
         "image": "assets/Images/accordion.png",
         "link": "Public/accordion.html"
@@ -14,10 +20,19 @@
         "link": "Public/Analog_clock.html"
     },
     {
+        "name": "Animated Eye",
+        "image": "assets/Images/animatedeye/logo.png",
+        "link": "Public/animatedeye.html"
+    },
+    {
         "name": "Animated Portfolio",
         "image": "assets/Images/animated.JPG",
         "link": "Public/AnimatedPortfolio.html"
-
+    },
+    {
+        "name": "Audio Play",
+        "image": "assets/Images/AudioPlay.png",
+        "link": "Public/AudioPlay.html"
     },
     {
         "name": "Auto Write",
@@ -28,6 +43,12 @@
         "name": "Auto Image Slider",
         "image": "assets/Images/autoimageslider.png",
         "link": "Public/auto_image_slider.html"
+    },
+    {
+        "name": "Birthday_card",
+        "image": "assets/Images/birthday_card.png",
+        "link": "Public/Birthday_card.html"
+
     },
     {
         "name": "BMI Calculator",
@@ -70,19 +91,30 @@
         "link": "Public/calculator.html"
     },
     {
+        "name": "Camera Web Application",
+        "image": "assets/Images/camera.PNG",
+        "link": "Public/camera_app.html"
+    },
+    {
         "name": "Candy Store",
         "image": "assets/Images/Candy Store/cover1.jpg",
         "link": "Public/Candy Store/index.html"
     },
+
     {
         "name": "Car Race",
         "image": "assets/Images/car.jpg",
         "link": "Public/car-race.html"
     },
     {
-        "name" : "Coin Toss Game",
-        "image" : "assets/Images/Coin-Toss-Game.jpeg",
-        "link" : "Public/Coin-toss-game.html"
+        "name": "Check My IP",
+        "image": "assets/Images/check-my-ip.png",
+        "link": "Public/check-my-ip.html"
+    },
+    {
+        "name": "Coin Toss Game",
+        "image": "assets/Images/Coin-Toss-Game.jpeg",
+        "link": "Public/Coin-toss-game.html"
     },
     {
         "name": "Color Code Converter",
@@ -113,6 +145,11 @@
         "name": "Connect Four",
         "image": "assets/Images/connectfour.png",
         "link": "Public/connectfour.html"
+    },
+    {
+	      "name":"Color Game",
+	      "image": "assets/Images/color-game.PNG" ,
+	      "link":"Public/color-game.html"
     },
     {
         "name": "Confirm Password Validator",
@@ -148,6 +185,11 @@
         "name": "Currency Converter",
         "image": "assets/Images/Currency-converter.PNG",
         "link": "Public/Currency-converter.html"
+    },
+    {
+        "name": "CV Screener",
+        "image": "assets/Images/word_definition.png",
+        "link": "Public/CV-Screener.html"
     },
     {
         "name": "Dad's Joke",
@@ -189,7 +231,6 @@
         "image": "assets/Images/drawingapp.png",
         "link": "Public/drawingapp.html"
     },
-
     {
         "name": "Drinkwater",
         "image": "assets/Images/drinkwater.png",
@@ -212,8 +253,13 @@
     },
     {
         "name": "Expense Tracker",
-        "image": "./assets/Images/expense.png",
-        "link": "./Public/expense.html"
+        "image": "./assets/Images/trackerExpense/expense5.png",
+        "link": "./Public/trackerExpense/index.html"
+    },
+    {
+        "name": "FAQ collapse",
+        "image": "assets/Images/FAQcollapse.png",
+        "link": "Public/FAQcollapse.html"
     },
     {
         "name": "FeedbackThankyou",
@@ -251,6 +297,11 @@
         "link": "Public/Function_Grapher.html"
     },
     {
+        "name": "2048 Game",
+        "image": "assets/Images/2048.png",
+        "link": "Public/2048.html"
+    },
+    {
         "name": "Github Profiless",
         "image": "assets/Images/GitHub-Profiles.jpeg",
         "link": "Public/Github-Profiles.html"
@@ -269,6 +320,11 @@
         "name": "Gravity Simulator",
         "image": "assets/Images/gravitysimulator.png",
         "link": "Public/gravity.html"
+    },
+    {
+        "name": "Grocery Manager",
+        "image": "assets/Images/grocerymanager.png",
+	      "link": "Public/grocerymanager.html"
     },
     {
         "name": "Guess Color",
@@ -401,6 +457,11 @@
         "link": "Public/multiple-portfolio.html"
     },
     {
+        "name": "Multiplication Table Generator",
+        "image": "assets/Images/images.jpg",
+        "link": "Public/multiplication-table-generator.html"
+    },
+    {
         "name": "Music Player",
         "image": "assets/Images/music.jpg",
         "link": "Public/musicPlayer.html"
@@ -439,6 +500,11 @@
         "name": "Place Holder",
         "image": "assets/Images/placeholder.JPG",
         "link": "Public/placeholder.html"
+    },
+    {
+	"name":"Picture Frame",
+        "image":"assets/Images/picture-frame.jpg",
+        "link":"Public/picture-frame.html"
     },
     {
         "name": "Pong",
@@ -481,6 +547,11 @@
         "link": "Public/quiz.html"
     },
     {
+        "name": "Rain Effects",
+        "image": "assets/Images/RainEffects.jpg",
+        "link": "Public/RainEffects.html"
+    },
+    {
         "name": "Random Color Generator",
         "image": "assets/Images/randomcolorgenerator.png",
         "link": "Public/random_color_generator.html"
@@ -491,7 +562,6 @@
         "link": "Public/Random_Quote_Generator.html"
     },
     {
-
         "name": "Range-Slider",
         "image": "assets/Images/RangeSlider.jpg",
         "link": "Public/RangeSlider.html"
@@ -505,6 +575,11 @@
         "name": "RD Return Calculator",
         "image": "assets/Images/RD-return-calculator.png",
         "link": "Public/RD-return-calculator.html"
+    },
+    {
+        "name": "Reflex Training",
+        "image": "assets/Images/Reflex_Training/Reflex.png",
+        "link": "Public/Reflex_Training.html"
     },
     {
         "name": "Report Calculator",
@@ -570,7 +645,6 @@
         "name": "Solar",
         "image": "assets/Images/solar.JPG",
         "link": "Public/solar.html"
-
     },
     {
         "name": "Speech Synthesis",
@@ -623,9 +697,19 @@
         "link": "Public/SudokuSolver.html"
     },
     {
+        "name": "Switching Testimonial Box",
+        "image": "assets/Images/SwitchingTestimonialBox.png",
+        "link": "Public/SwitchingTestimonialBox.html"
+    },
+    {
         "name": "Tap Music",
         "image": "assets/Images/tapmusic.JPG",
         "link": "Public/tap_music.html"
+    },
+    {
+        "name": "Tearable Cloth",
+        "image": "assets/Images/tearable-cloth.png",
+        "link": "Public/tearable-cloth.html"
     },
     {
         "name": "Temperature Converter",
@@ -633,7 +717,6 @@
         "link": "Public/temperature-converter.html"
     },
     {
-
         "name": "Theme Clock",
         "image": "assets/Images/theme-clock.png",
         "link": "Public/theme-clock.html"
@@ -643,7 +726,6 @@
         "image": "assets/Images/xxx.JPG",
         "link": "Public/Third_Degree_Equation_Calculator.html"
     },
-
     {
         "name": "Tic Tac Toe",
         "image": "assets/Images/tic-tac-toe.PNG",
@@ -673,13 +755,21 @@
         "name": "Toast Notification",
         "image": "assets/Images/toast.JPG",
         "link": "Public/toast_notification.html"
-    }
-
-    ,
+    },
     {
         "name": "Todo",
         "image": "assets/Images/Todo.png",
         "link": "Public/todo.html"
+    },
+    {
+        "name": "Tracker Expense Calculator",
+        "image": "assets/Images/trackerExpense/logo51-removebg-preview.png",
+        "link": "Public/trackerExpense/index.html"
+    },
+     {
+        "name": "Tourist Website",
+        "image": "assets/Images/Skardu.jpg",
+        "link": "Public/Tourist_Website/index.html"
     },
     {
         "name": "Transpose Matrix Calculator",
@@ -727,9 +817,9 @@
         "link": "Public/weight_conv.html"
     },
     {
-         "name": "Wordle Clone",
-         "image": "assets/Images/Wordle-clone.PNG",
-         "link": "Public/Wordle-clone.html"
+        "name": "Wordle Clone",
+        "image": "assets/Images/Wordle-clone.PNG",
+        "link": "Public/Wordle-clone.html"
     },
     {
         "name": "Word Definition",
@@ -757,3 +847,4 @@
         "link": "Public/geolocation.html"
     }
 ]
+

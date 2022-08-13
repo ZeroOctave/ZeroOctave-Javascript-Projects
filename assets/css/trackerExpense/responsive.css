@@ -1,0 +1,234 @@
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .titlepage h2 {
+        font-size: 42px;
+    }
+    .text-bg h1 {
+        font-size: 42px;
+        padding-top: 63px;
+        line-height: 55px;
+    }
+    .text-bg span {
+        font-size: 45px;
+        line-height: 62px;
+    }
+    
+    .cont h3 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 19px 10px;
+    }
+    .text-bg h1 {
+font-size: 43px;
+line-height: 39px;
+padding-bottom: 18px;
+    }
+    .text-bg strong {
+        font-size: 50px;
+        line-height: 59px;
+    }
+    .padding_lert2 {
+        padding-right: 80px;
+        
+    }
+   
+    .text-bg span {
+        font-size: 34px;
+        line-height: 48px;
+        font-family: 'Arvo', serif;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    .margin_bott {
+        margin-bottom: 30px;
+    }
+    .banner_main {
+        min-height: 600px;
+    }
+
+   .margin_boot {border:inherit;}
+    .titlepage h2 {
+        font-size: 31px;
+    }
+    
+    .classified_box {min-height: inherit;}
+    .classified .classified_box h3 {font-size: 17px;}
+    .classified .classified_box p {font-size: 16px;}
+    .cont h3 {
+        font-size: 28px;
+        line-height: 43px;
+    }
+    .footer {padding-top: 0;}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        padding: 15px 30px 10px 30px;
+    }
+    .mean-container .mean-bar {
+        margin-top: 0px;
+    }
+    .text-bg h1 {
+        font-size: 45px;
+        line-height: 63px;
+        padding-bottom: 25px;
+    }
+   
+    .text-bg span {
+        font-size: 40px;
+        line-height: 54px;
+    }
+    .titlepage h2 {
+        font-size: 34px;
+    }
+    .footer {padding-top: 0;}
+     .margin_boot {border:inherit;}
+    .main_form {
+        padding: 30px 30px; margin-top: 30px;
+    }
+    .cont h3 {
+        font-size: 33px;
+    }
+    .text-img {
+    padding-top: 30px;
+}
+.classified_box {margin-bottom: 30px;}
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: rgba(255, 255, 255, 0.385);
+        padding: 20px;
+        margin-top: 52px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        /* padding: 10px 0; */
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding-top: 6px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: none;
+    }
+    .login_btn {max-width: 100px;}
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 30px 0px 15px 0px;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+        float: left;
+    }
+    
+    .text-bg h1 {
+        font-size: 29px;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+    .text-bg span {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .titlepage h2 {
+        font-size: 29px;
+        line-height: 44px;
+    }
+    .text-bg strong {
+        font-size: 43px;
+        line-height: 39px;
+        padding-bottom: 28px;
+    }
+    .test_box {padding: 30px 0px;}
+    .testimonial_Carousel {padding: 40px 5px;}
+     .margin_boot {border:inherit;}
+    
+    
+    .main_form {
+        padding: 30px 30px; margin-top: 30px;
+    }
+   .text-img {
+    padding-top: 30px;
+}
+.classified_box {margin-bottom: 30px;}
+.footer {padding-top: 0;}
+    .cont h3 {
+        font-size: 19px;
+        line-height: 40px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -45px;
+    }
+    .navigation .navbar-collapse {
+        background: rgba(255, 255, 255, 0.385);
+        padding: 5px;
+        margin-top: 32px;
+        position: relative;
+        display: flex;
+        float: right;
+        width: 50%;
+        
+        /* margin-right: 20px; */
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        margin-right: 2px;
+        border: inherit;
+    }
+    .testimonial_box {
+        padding: 0px 19px 40px 20px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: none;
+    }
+    .login_btn {max-width: 100px;}
+    .cont_call h3 {
+        font-size: 33px;
+        line-height: 49px;
+    }
+}
+
