@@ -171,6 +171,13 @@
         "image": "assets/Images/country_capital_homepage/bg.jpg",
         "link": "Public/country_capital_homepage.html"
     },
+
+    {
+        "name": "Country Guide App",
+        "image": "assets/Images/countryguide.png",
+        "link": "Public/Countryguide.html"
+    },
+
     {
         "name": "Crud Project",
         "image": "assets/Images/Crud.png",
@@ -840,12 +847,7 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
-    },
-    {
-        "name": "Country Guide App",
-        "image": "assets/Images/countryguide.png",
-        "link": "Public/Countryguide.html"
     }
-
+  
 ]
 
