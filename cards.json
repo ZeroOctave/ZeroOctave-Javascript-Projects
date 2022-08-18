@@ -403,7 +403,7 @@
     },
     {
         "name": "Maze Game",
-        "image": "assets/Images/mazegame.png",
+        "image": "assets/Images/mazegame/mazegame1.png",
         "link": "Public/mazegame.html"
     },
     {
