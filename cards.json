@@ -642,6 +642,11 @@
         "link": "Public/sneaker.html"
     },
     {
+        "name": "Social Tray",
+        "image": "assets/Images/socialTray.png",
+        "link": "Public/socialTray.html"
+    },
+    {
         "name": "Socials",
         "image": "assets/Images/social.JPG",
         "link": "Public/socials.html"
