@@ -627,6 +627,11 @@
         "link": "Public/Simon_game.html"
     },
     {
+        "name": "SimplyRecipes",
+        "image": "assets/Images/SimplyRecipes/assets/main.jpeg",
+        "link" : "Public/SimplyRecipes"
+    },
+    {
         "name": "Snake",
         "image": "assets/Images/snake.JPG",
         "link": "Public/snake.html"

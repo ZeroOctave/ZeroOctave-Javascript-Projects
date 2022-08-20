@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply Recipes</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../../../assets/Images/SimplyRecipes/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="../../../assets/css/SimplyRecipes/css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="../../../assets/css/SimplyRecipes/css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="../../../assets/Images/SimplyRecipes/assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="../../SimplyRecipes/index.html" class="nav-link"> home </a>
+          <a href="../../SimplyRecipes/about.html" class="nav-link"> about </a>
+          <a href="../../SimplyRecipes/tags.html" class="nav-link"> tags </a>
+          <a href="../../SimplyRecipes/recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="../../SimplyRecipes/contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="../../../assets/Images/SimplyRecipes/assets/recipes/sandwich.jpg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Midnight Sandwiches</h2>
+            <p>
+              This sandwich is called a 'Media Noche' which translates to
+              'Midnight.' It makes a wonderful dinner sandwich because it is
+              served hot. A nice side dish is black bean soup or black beans and
+              rice, and plantain chips.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>20 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>5 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>4 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags : <a href="../tags/dinner_tag.html">Dinner</a>
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                In a small bowl, mix together mayonnaise and Italian dressing.
+                Spread mixture on hoagie rolls. Spread each roll with mustard.
+                On each roll, arrange layers of turkey, ham, and cheese. Top
+                each with dill pickle slices. Close sandwiches, and brush tops
+                and bottoms with olive oil.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Heat a non-stick skillet over medium high heat. Place sandwiches
+                in skillet. Cook sandwiches for 2 minutes, pressing down with a
+                plate covered with aluminum foil. Flip, and cook for 2 more
+                minutes, or until cheese is melted. Remove from heat, place on
+                plates, and cut in half diagonally.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">1 cup mayonnaise</p>
+              <p class="single-ingredient">5 tablespoons Italian dressing</p>
+              <p class="single-ingredient">4 hoagie rolls, split lengthwise</p>
+              <p class="single-ingredient">4 tablespoons prepared mustard</p>
+              <p class="single-ingredient">
+                ½ pound thinly sliced deli turkey meat
+              </p>
+              <p class="single-ingredient">½ pound thinly sliced cooked ham</p>
+              <p class="single-ingredient">
+                ½ pound thinly sliced Swiss cheese
+              </p>
+              <p class="single-ingredient">1 cup dill pickle slices</p>
+              <p class="single-ingredient">½ cup olive oil</p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Bowl</p>
+              <p class="single-tool">Non-stick skillet</p>
+              <p class="single-tool">Plates</p>
+              <p class="single-tool">Aluminium foil</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span> Built by
+        <a href="https://www.linkedin.com/in/shreya-sarkar-a788b4225/"
+          >Shreya Sarkar</a
+        >
+      </p>
+    </footer>
+    <script src="../js/app.js"></script>
+  </body>
+</html>
