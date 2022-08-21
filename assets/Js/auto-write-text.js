@@ -3,7 +3,7 @@ const text = "Hi, My name is Shivam Gupta";
 let index = 0;
 
 function writeText() {
-    document.body.innerText = text.slice(0, index);
+    document.Message.innerText = text.slice(0, index);
 
     index++;
 
