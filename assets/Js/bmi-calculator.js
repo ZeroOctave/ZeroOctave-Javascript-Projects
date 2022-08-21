@@ -4,8 +4,9 @@ var reset_btn=document.querySelector('.reset_btn');
 /*calculation function for BMI Value*/
 function BMI(){
     var weight=document.querySelector('#weight').value;
-    var height=document.querySelector('#height').value; 
-    var converted_height=height/100;
+    var height_feet=document.querySelector('#height_feet').value; 
+    var height_inch=document.querySelector('#height_inch').value; 
+    var converted_height=((((parseInt(height_feet)*12)+parseInt(height_inch))*2.54)/100);
     var new_converted_height=converted_height*converted_height;
     var bmi_value=(weight/new_converted_height);
     return bmi_value=bmi_value.toFixed(2);
@@ -49,6 +50,7 @@ reset_btn.addEventListener("click",()=>{
   var bmi_value=document.querySelector('.BMI_Value');
   document.querySelector('.weight_class').value='';
   document.querySelector('.height_class').value='';
+  document.querySelector('#height_inch').value = ''; 
   bmi_value.style.display='none';
   bmi.style.display='none';
 });

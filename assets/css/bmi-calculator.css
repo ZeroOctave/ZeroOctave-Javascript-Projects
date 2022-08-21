@@ -6,14 +6,14 @@
 }
 
 .background_image{
-    background-image: url("../Images/pexels-nataliya-vaitkevich-6942085.jpg");
+    background-image: url("../Images/background-fitness-bmi.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height:100vh;
     max-width: 100%;
 }
 .overlay_effect{
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.415);
     padding:10px;
     height:100vh;
     max-width: 100%;
@@ -25,38 +25,54 @@
     gap:1em;
 }
 .Container{
-    height:auto;
-    padding:0.5em;
-    display:grid;
+    position: relative;
+    padding: 0.5em;
+    bottom: -10px;
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50px auto;
     justify-items: center;
-    width:35%;
-    height:75%;
-    position: relative;
-    bottom: -10px;
-    background-color: white;
-    border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 35%;
+    height: 78%;
+    background: rgba(255,255,255,0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgb(0 0 0 / 20%);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
 }
 .Container h2{
     height:fit-content;
-    font-size: 28px;
-    color: #1e293b;
+    font-size: 30px;
+    color: white;
 }
 .box{
+    margin-top: 15px;
     display:grid;
     grid-template-columns: 1fr;
     align-items: center;
    gap:1em;
 }
+
+.height-section{
+    display: flex;
+}
+
+#height_field{
+    margin: 10px 10px;
+}
+
+#weight_field{
+    margin: 0px 10px;
+}
 label{
     font-size:20px;
-    color: #1e293b;
+    color: white;
 }
 input{
     width:100%;
-    margin-top:3px;
+    margin-top:5px;
     border: 1px solid #1e293b;
     border-radius: 4px;
     padding: 6px 6px;
@@ -75,11 +91,13 @@ button {
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1;
-  padding: 1rem 1.6rem;
+  margin: 0 20px;
+  margin-top: 5px;
+  padding: 1rem 2rem;
   text-align: center;
   text-decoration: none #0d172a solid;
   text-decoration-thickness: auto;
-  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  transition: 0.3s ease-in-out;
   box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
   user-select: none;
   -webkit-user-select: none;
@@ -90,6 +108,11 @@ button:hover {
   background-color: #1e293b;
   color: #fff;
 }
+
+.results{
+    color: white;
+}
+
 .new-addition {
     background-color: cornsilk;
     width: 20%;
