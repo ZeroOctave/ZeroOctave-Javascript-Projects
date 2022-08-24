@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #c1003c;
+    font-family: monospace;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #container{
+    background: black;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    float: left;
+  }
+  li{
+    width: 400px;
+    height: 17px;
+    border-radius: 15px;
+    list-style: none;
+    background-color: #292a31;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+    padding: 17px 0px;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Nunito';
+  }
+
+  #hide-show{
+    width: 250px;
+    height: 50px;
+    background: #fd4d3c;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    padding: 17px 0px;
+    color: #141c3a;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+    font-family: monospace;
+  }
