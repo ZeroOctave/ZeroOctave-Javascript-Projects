@@ -148,7 +148,7 @@
     },
     {
 	      "name":"Color Game",
-	      "image": "assets/Images/color-game.PNG" ,
+	      "image": "assets/Images/color-game.png" ,
 	      "link":"Public/color-game.html"
     },
     {
@@ -625,6 +625,11 @@
         "name": "Simon Game",
         "image": "assets/Images/simon_game.png",
         "link": "Public/Simon_game.html"
+    },
+    {
+        "name": "SimplyRecipes",
+        "image": "assets/Images/SimplyRecipes/assets/main.jpeg",
+        "link" : "Public/SimplyRecipes"
     },
     {
         "name": "Snake",
