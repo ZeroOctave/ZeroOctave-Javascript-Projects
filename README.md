@@ -263,7 +263,7 @@ git push -u origin <your_branch_name>
 | 169. | [Tearable Cloth](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/tearable-cloth.html)| 170. | [Rain Effects](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/RainEffects.html)| 171. | [Camera Web App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/camera_app.html)
 | 172. | [Dynamic Picture Frame](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/picture-frame.html)| 173. | [FAQ Collapse](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/FAQcollapse.html)| 174. | [Multiplication Table Generator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/multiplication-table-generator.html)
 | 175. | [Expense Tracker Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/trackerExpense/index.html)| 176. | [Check my IP](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/check-my-ip/check-my-ip.html) | 177. | [SocialTray](https://rococo-praline-28f4e4.netlify.app/)
-
+| 178. | [SimplyRecipes](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/SimplyRecipes/)
 <br>
 
 <div id="Maintainer"></div>
