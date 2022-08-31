@@ -3,7 +3,7 @@
   padding: 0;
 }
 .container {
-  background-color: black;
+  background-color: rgb(12, 12, 12);
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -11,17 +11,17 @@
   justify-content: center;
 }
 .second {
-  background-color: rgb(15, 153, 50);
+  background-color: rgb(39, 186, 76);
   height: 55%;
   width: 60%;
-  margin-top: 10%;
+  margin-top: 5%;
   display: flex;
   flex-direction: row;
-  box-shadow: 1px 1px 10px white;
+  box-shadow: 1px 1px 10px lightgreen;
   overflow: hidden;
 }
 .left {
-  background-color: rgb(15, 153, 50);
+  background-color: rgb(39, 186, 76);
   height: 90%;
   width: 30%;
   font-size: 1.5rem;
@@ -33,7 +33,7 @@ p {
   letter-spacing: 4px;
 }
 .right {
-  background-color: rgb(15, 153, 50);
+  background-color: rgb(39, 186, 76);
   height: 90%;
   width: 70%;
 }
@@ -53,4 +53,23 @@ div.right p {
   top: 2%;
 
   letter-spacing: 1px;
+}
+
+table{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+td,tr{
+  padding: 8px;
+  text-align: center;
+}
+
+table,tr,td,th{
+  border: 1px solid black;
+  font-size: 20px;
+
 }

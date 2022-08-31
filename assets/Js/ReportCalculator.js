@@ -1,14 +1,15 @@
 document.getElementById("button").addEventListener("click", total);
 
 function total() {
-  let w = document.getElementById("webd").value;
+  let w = document.getElementById("chem").value;
 
   let x = document.getElementById("physics").value;
   let y = document.getElementById("maths").value;
-  let z = document.getElementById("abcd").value;
+  let z = document.getElementById("eng").value;
+  let v = document.getElementById("bio").value;
   var totalgrade =
-    parseFloat(w) + parseFloat(x) + parseFloat(y) + parseFloat(z);
-  var percentage = (totalgrade / 400) * 100;
+    parseFloat(w) + parseFloat(x) + parseFloat(y) + parseFloat(z) + parseFloat(v);
+  var percentage = (totalgrade / 500) * 100;
 
   var grade = "";
   if (percentage <= 100 && percentage >= 90) {
