@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
-    background-color: antiquewhite;
+    background-color: #1d1d1d;
 }
 
 *{
@@ -18,14 +18,62 @@ nav ul{
     align-items: center;
     list-style-type: none;
     height: 65px;
-    background-color: black;
+    background-color: #101010;
     color: white;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 nav ul li{
     padding: 0 12px;
+    text-align: center;
 }
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.log-in {
+    margin-right: 50px;
+}
+.list-items {
+    box-sizing: border-box;
+}
+.fixed-section-items {
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 25px;
+    color: white;
+    font-size: 18px;
+}
+.home{
+    box-sizing: border-box;
+}
+.brand-container{
+    display: flex;
+    color: white;
+}
+.search{
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.your-library{
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.create-playlist{
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.liked-songs{
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+
 .brand img{
     width: 44px;
     padding: 0 8px;
@@ -33,14 +81,88 @@ nav ul li{
 }
 
 .brand {
-    display: flex;
+    box-sizing: border-box;
+    text-align: left;
+    color: white;
+    margin-top: 35px;
+    margin-left: 45px;
+    font-size: 27px;
+    /* display: flex;
     align-items: center;
     font-weight: bolder;
-    font-size: 1.3rem;
+    font-size: 1.3rem; */
     
 }
 
-.container{
+.indias-best{
+    color: white;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+h2 {
+    font-size: 22px;
+}
+
+#fixed-section{
+    background-color: black;
+    overflow: hidden;
+}
+.col-first {
+    box-sizing: border-box;
+    width: 15%;
+    padding: 0;
+    /* height: 780px; */
+}
+
+.col-second {
+    box-sizing: border-box;
+    width: 85%;
+    padding: 0;
+    overflow: hidden;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 100px 1fr;
+    background-color: #181818;
+    color: white;
+}
+
+.card img {
+    box-sizing: border-box;
+    /* border-radius: 5px; */
+    padding: 15px;
+    /* object-fit: cover; */
+    width: 100%;
+    height: 100%;
+}
+.content{
+    box-sizing: border-box;
+    padding: 5px;
+    margin-left: 10px;
+}
+h3{
+    font-size: 18px;
+}
+.sign-up {
+    text-decoration: none;
+    margin-left: 550px;
+}
+.log-in {
+    text-decoration: none;
+}
+.charts {
+    color: white;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+/* .container{
     min-height: 72vh;
     background-color: black;
     color: green;
@@ -52,34 +174,64 @@ nav ul li{
    padding: 34px;
    background-image: url('bg.jpg');
    margin-top: 85px;
-}
+} */
 
 .bottom{
     position: sticky;
     bottom: 0;
     height: 90px;
-    background-color: black;
+    background-color:#181818;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column; 
+    width: 100%;
 }
 
-.icons{
+
+/* .icons{
     margin-top: 14px; 
-}
-.icons i{
+}  */
+/* .icons i{
     cursor: pointer;
-}
+} */
 
 #myProgressBar{
-    width: 80vw; 
+    /* width: 98vw;  */
+    width: 40%;
     cursor: pointer;
-    
-}
-
-.songItemContainer{
+} 
+input[type="range"] {
+    -webkit-appearance: none;
+    /* margin-right: 15px; */
+    /* width: 50px; */
+    height: 4px;
+    background: #5e5e5e;
+    border-radius: 5px;
+    background-image: linear-gradient(#1db954, #1db954);
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    transition: background .3s ease-in-out;
+  }
+  
+  input[type=range]::-webkit-slider-runnable-track  {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
+/* .songItemContainer{
     margin-top: 25px;
 }
 
@@ -93,9 +245,9 @@ nav ul li{
     justify-content: space-between;
     align-items: center;
     border-radius: 34px;
-}
+} */ 
 
-.songItem img{
+/* .songItem img{
     width: 43px;
     margin: 0 23px;
     border-radius: 34px;
@@ -108,13 +260,30 @@ nav ul li{
 .timestamp i{
     cursor: pointer;
 }
-
-.songInfo{
+*/
+ .songInfo{
+    display: flex;
     position: absolute;
-    left: 10vw;
+    left: 1vw;
     font-family: 'Varela Round', sans-serif;
+} 
+#masterSongName{
+    display: inline;
+    margin-left: 2vh;
+    margin-top: 1.5vh;
+
+}
+.singer-name{
+    font-size: 11px;
+    color: rgb(175, 175, 175);
+} 
+.like-icon{
+    margin-left: 3.3vh;
+    margin-top: 2vh;
 }
 
+  
+/*
 .songInfo img{
     opacity: 0;
     transition: opacity 0.4s ease-in;
@@ -122,17 +291,24 @@ nav ul li{
 
 @media only screen and (max-width: 1100px) {
     body {
-      background-color: red;
+      background-color: #1d1d1d;
     }
-  }
+  } */
 
-#nav-bar{
+/* #nav-bar{
     overflow: hidden;
     position: fixed;
     width: 100%;
     top: 0;
-  }
+  } */
 
-  body{
+  /* body{
       background-color: rgb(135, 241, 135);
-  }
+  } */
+
+/* @media (min-width: 992px) and (max-width: 1416px){
+    .cards{
+        width: 218.68px;
+        height: 318.68px;
+    }
+} */
