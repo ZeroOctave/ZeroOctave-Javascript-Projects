@@ -311,7 +311,58 @@ input:checked+.toggle .star--5 {
 input:checked+.toggle .star--6 {
     transition: all 300ms 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
-
+    @media (max-width: 500px) {
+        .toggleWrapper {
+            transform: translate3d(-55%, -50%, 0);
+        }
+        .toggle__handler .crater--1 {
+            width: 2px;
+            height: 2px;
+        }
+        input:checked+.toggle .toggle__handler {
+            transform: translate3d(20px, 0, 0) rotate(0);
+        }
+        .toggle__handler {
+            top: 3px;
+            left: 3px;
+            width: 24px;
+            height: 24px;
+        }
+        .toggle {
+            width: 50px;
+            height: 30px;
+        }
+        .toggle:before {
+            content: none;
+        }
+        .toggle:after {
+            content: none;
+        }
+        .toggle__handler .crater--1 {
+            display: none;
+        }
+        .toggle__handler .crater--2 {
+            display: none;
+        }
+        .toggle__handler .crater--3 {
+            display: none;
+        }
+        .star--1 {
+            width: 10px;
+        }
+        .star--2 {
+            width: 10px;
+        }
+        .star--3 {
+            display: none;
+        }
+        .star--5 {
+            display: none;
+        }
+        .star--6 {
+            display: none;
+        }
+    }
 
 
 /* preloader */
