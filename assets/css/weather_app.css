@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
-
-
 body {
   /* background: linear-gradient(300deg, #ced1d6, #bfc0c0);
   background: #2980b9; /* fallback for old browsers */
@@ -38,7 +36,7 @@ input {
 }
 
 input#search:hover {
-    background: #65747B;
+  background: #65747b;
 }
 
 input:focus {
@@ -61,12 +59,19 @@ input:focus {
 }
 
 .card {
-  background: #000000B2;
+  background: #000000b2;
   width: 100%;
   max-width: 470px;
-  height: 50%;
+  height: 70%;
   padding: 2.5em;
   text-align: center;
   border-radius: 30px;
   color: white;
+}
+
+.more-info p {
+  font-size: 20px;
+}
+.more-info span {
+  font-weight: 600;
 }
