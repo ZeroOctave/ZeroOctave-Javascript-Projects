@@ -13,6 +13,7 @@ html {
 
 body.day {
     background-color: whitesmoke;
+    
 }
 
 body.night {
@@ -578,19 +579,37 @@ button {
   min-height: 70vh;
 }
 
-#md-text h1,h2,h3,p,li,ul {
+#md-text {
+  overflow-y: scroll;
+  max-height: 70vh;
+}
+
+#md-text h1,#md-text h2,#md-text h3,#md-text p,#md-text li,#md-text ul {
   text-align: left;
   background-color: white;
   color: black;
   margin: 0px;
+  line-height: 2rem;
   padding: 0px;
   font-family: 'Poppins', 'sans-serif';
 }
 #md-text h1 {
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 400;
-  color: greenyellow;
-} #md-text p {
+  line-height: 4rem;
+} 
+
+#md-text h2 {
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+#md-text h3 {
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+
+#md-text p {
   color: greenyellow;
   font-size: 1rem;
   color: #101522;

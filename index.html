@@ -58,6 +58,15 @@
 
 		<link href="assets/css/landing_page.css" rel="stylesheet" />
 		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="github-markdown.css" />
+		<style>
+			.markdown-body {
+				width: 50vh;
+				margin: 0 auto;
+			}
+			@media (prefers-color-scheme: light) {
+			}
+		</style>
 
 		<title>Projects List</title>
 
@@ -167,7 +176,9 @@
 										<img src="./assets/Images/2048.png" alt="" />
 									</div>
 								</div>
-								<div class="modal-column col-12 col-md-6" id="md-text"></div>
+								<div class="modal-column markdown-body col-12 col-md-6">
+									<div id="md-text"></div>
+								</div>
 							</div>
 						</div>
 					</div>
