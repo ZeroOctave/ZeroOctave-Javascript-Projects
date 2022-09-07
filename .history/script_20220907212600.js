@@ -28,43 +28,9 @@ const getProject = fetch("cards.json")
 		displayProjects(projects);
 		console.log(projects);
 	});
-
-const fetchMarkdown = async (url) => {
-	const fetchData = fetch(url)
-		.then((response) => response.text())
-		.then((data) => {
-			return data;
-		});
-	return fetchData;
-};
-
-const handleChange = async (id) => {
-	const modal = document.getElementById("exampleModal");
+const handleChange = (id) => {
 	console.log("clicked", id);
-	const project = projects[id];
-
-	const heading = document.getElementById("modal-title");
-	heading.innerText = project.name;
-
-	const img = document.getElementById("img-div");
-	img.innerHTML = `
-				<div class="bg-img-div">
-					<img class="" src=${project.image} alt="" />
-				</div>
-				<div>
-					<img src=${project.image} alt="" />
-				</div>
-			</div>
-	`;
-
-	const md = document.getElementById("md-text");
-	var converter = new showdown.Converter();
-	const markdown = await fetchMarkdown(
-		"http://127.0.0.1:5500/assets/docs/getting-started.md"
-	);
-	md.innerHTML = converter.makeHtml(markdown);
 };
-
 const displayProjects = (projects) => {
 	const htmlString = projects.map((project, id) => {
 		return `<div class="stylebox">

@@ -1,10 +1,3 @@
-jQuery(document).ready(function () {
-	jQuery(".toggle").click(function () {
-		jQuery("body").toggleClass("day");
-		jQuery("body").toggleClass("night");
-	});
-});
-
 const nav = document.querySelector(".nav");
 
 let projects = [];
@@ -16,6 +9,7 @@ searchBar.addEventListener("keyup", (e) => {
 	const filteredProjects = projects.filter((projects) => {
 		return projects.name.toLowerCase().includes(searchString.toLowerCase());
 	});
+<<<<<<< HEAD
 
 	console.log(filteredProjects);
 	displayProjects(filteredProjects);
@@ -64,7 +58,27 @@ const handleChange = async (id) => {
 	);
 	md.innerHTML = converter.makeHtml(markdown);
 };
+=======
 
+	console.log(filteredProjects);
+	displayProjects(filteredProjects);
+});
+>>>>>>> d2070f1 (Markdown FUnction)
+
+	console.log(filteredProjects);
+	displayProjects(filteredProjects);
+});
+
+const getProject = fetch('cards.json')
+                .then(response => response.json())
+                .then(data => {
+                    projects = data;
+		displayProjects(projects);
+		console.log(projects);
+	});
+const handleChange = (id) => {
+	console.log("clicked", id);
+};
 const displayProjects = (projects) => {
 	const htmlString = projects.map((project, id) => {
 		return `<div class="stylebox">
@@ -88,5 +102,7 @@ const displayProjects = (projects) => {
 
 	experi.innerHTML = htmlString;
 };
+
+// var converter = new showdown.Converter();
 
 getProject();
