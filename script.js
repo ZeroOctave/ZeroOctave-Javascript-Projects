@@ -59,10 +59,11 @@ const handleChange = async (id) => {
 
 	const md = document.getElementById("md-text");
 	var converter = new showdown.Converter();
-	const markdown = await fetchMarkdown(
-		`http://127.0.0.1:5500/assets/docs/${project.name}`
-	);
-	if (markdown) {
+	if (project.docs) {
+		const markdown = await fetchMarkdown(
+			`http://127.0.0.1:5500/${project.docs}`
+		);
+
 		md.innerHTML = converter.makeHtml(markdown);
 	} else {
 		const markdown = await fetchMarkdown(

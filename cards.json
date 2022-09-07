@@ -2,12 +2,14 @@
     {
         "name": "2048 Game",
         "image": "assets/Images/2048.png",
-        "link": "Public/2048.html"
+        "link": "Public/2048.html",
+        "docs": "assets/docs/2048.md"
     },
     {
         "name": "Accordion",
         "image": "assets/Images/accordion.png",
         "link": "Public/accordion.html"
+        
     },
     {
         "name": "AI panArt",
