@@ -560,6 +560,80 @@ button {
   color: #fff;
 }
 
+.modal-btn {
+  margin: 0;
+  max-width: 20%;
+}
+.modal-btn:hover {
+  background-color: white;
+}
+
+.modal-div{
+  max-width: 90vw;  
+  display: flex;
+  justify-content: center;
+  /* max-height: 80hw;   */
+}
+.modal-column {
+  min-height: 70vh;
+}
+
+#md-text h1,h2,h3,p,li,ul {
+  text-align: left;
+  background-color: white;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', 'sans-serif';
+}
+#md-text h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: greenyellow;
+} #md-text p {
+  color: greenyellow;
+  font-size: 1rem;
+  color: #101522;
+}
+
+.modal-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-img .bg-img-div {
+  min-height:100% ;
+  min-width:100% ;
+  object-fit: none;
+  opacity: 50%;
+}
+.modal-img .bg-img-div img {
+  filter: blur(17px);
+  position: relative;
+  object-fit: none;
+  overflow: hidden;
+}
+.modal-img div {
+  position: absolute;
+  z-index: 5;
+  /* max-width: 80vw; */
+  width: 20rem;
+  height: 15rem;
+  overflow: hidden;
+  border-radius: 2px;
+  text-align: center;
+  filter: drop-shadow(-4px 4px 10px white);
+}
+.modal-img div img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  /* border: 2px solid white; */
+
+  border-radius: 15px;
+}
+
+
 @media only screen and (max-width: 600px) {
   .styles {
     display: flex;
