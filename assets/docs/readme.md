@@ -22,3 +22,4 @@ There is no fixed structure but it should somewhat go in the order of
 - What to learn
 - Useful Resources to Build the project
 - Small guide to tackle the most challenging aspects of a particular build
+git
