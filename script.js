@@ -39,13 +39,14 @@ const fetchMarkdown = async (url) => {
 };
 
 const handleChange = async (id) => {
-	const modal = document.getElementById("exampleModal");
+	const btn = document.getElementById("view-btn");
 	console.log("clicked", id);
 	const project = projects[id];
 
 	const heading = document.getElementById("modal-title");
 	heading.innerText = project.name;
 
+	btn.href = project.link;
 	const img = document.getElementById("img-div");
 	img.innerHTML = `
 				<div class="bg-img-div">
