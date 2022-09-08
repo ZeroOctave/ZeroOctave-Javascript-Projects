@@ -1,0 +1,66 @@
+.bd-placeholder-img {
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+main > .container {
+    padding: 60px 15px 0;
+}
+
+.parentBox {
+    height:88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerLine {
+    height: 80%;
+    margin-top: auto;
+    width: 1%;
+    background-color: #0dcaf0;
+}
+
+.box1 {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+
+.box2 {
+    width: 49%;
+}
+
+input {
+    border-radius: .3rem;
+}
+
+.ImageBoxSize {
+    width: 20%;
+}
+
+.ImageSize {
+    width: 100px;
+    height: 100px;
+}
+
+.tableSize {
+    height: 69vh;
+    overflow: auto
+}
+
+.borderColor {
+    border: 1px solid black !important;
+}
+.ErrorControl {
+    border: 1px solid red !important;
+}
