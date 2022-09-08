@@ -6,7 +6,11 @@
 }
 
 .background_image{
+ passwordvalidator
+    background-image: url("../Images/pexels-nataliya-vaitkevich-6942085.jpg");
+
     background-image: url("../Images/background-fitness-bmi.jpg");
+ main
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height:100vh;
