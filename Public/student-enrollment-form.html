@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="student-enrollment-form.css">
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar fixed-top navbar-dark bg-info p-3 mb-2">
+        <div class="container-fluid justify-content-center fw-bold">
+          <a class="navbar-brand" href="#">Student Enrollment Form</a>
+        </div>
+      </nav>
+    </div>
+      <div class="container-fluid"><!--header-->
+        <nav class="navbar fixed-bottom navbar-dark bg-info py-0">
+          <div class="container-fluid justify-content-center fw-bold">
+            <a class="navbar-brand" href="#" style="font-size: 10px;">© 2022 Copyright all right reserved | Made with ♡ Muskan</a>
+          </div>
+        </nav>
+      </div><!--./header-->
+      <div class="container-fluid">
+        <div class="parentBox">
+          <div class="container">
+            <div class="form-group p-5">
+            <table>
+                <tr>
+                    <td>Name </td>
+                    <td>
+                      <input class="borderColor" onblur="Validation( this.id );" type="text" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="pt-3">Email </td>
+                    <td class="pt-3"><input class="borderColor" onblur="Validation( this.id );" type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td class="pt-3">Website </td>
+                    <td class="pt-3"><input class="borderColor" onblur="Validation( this.id );" type="text" id="website"></td>
+                </tr>
+                <tr>
+                  <td class="pt-3">image Link </td>
+                  <td class="pt-3"><input class="borderColor" onblur="Validation( this.id );" type="text" id="imageLink"></td>
+                </tr>
+                <tr>
+                    <td class="pt-3" >Gender </td>
+                    <td class="pt-3">
+                        <input  type="radio" name="gender" id="male" value="Male"> Male</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td ></td>
+                    <td>
+                        <input type="radio" name="gender" id="female" value="Female"> Female</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="pt-3">Skills </td>
+                    <td class="pt-3 ss">
+                        <input type="checkbox"   name="pl" value="Java" > Java</input>
+                        <input class="ml-3" type="checkbox" name="pl"  value="HTML" > HTML</input>
+                        <input class="ml-3" type="checkbox" name="pl"  value="CSS" > CSS</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="pt-3 pe-2">
+                        <button onclick= "addData()" type="button" class="btn btn-primary">Enroll Student</button>
+                    </td>
+                    <td class="pt-3 ps-4">
+                        <button onclick="clearData()" type="button" value="click" class="btn btn-danger ml-3">Clear</button>
+                    </td>
+                   
+                </tr>
+            </table>
+            </div>
+        </div>
+    
+        <div class="centerLine"></div>
+    
+        <div class="container tableSize d-flex flex-column p-5"><!-- Dynamic Enrolled students table-->
+          <div class="mx-auto"><h5><strong>Enrolled Students</strong></h5></div>
+          <div>
+            <table class="mx-auto table mt-3 w-75 table-bordered table-striped">
+              <thead class="bg-warning">
+                <tr>
+                  <th>Description</th>
+                  <th>Image</th>
+                </tr>
+              </thead>
+              <tbody id="main-content">
+              </tbody>
+            </table>
+          </div>
+        </div><!-- ./Dynamic Enrolled students table-->
+      </div>
+
+    </div><!-- ./container-fluid>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="student-enrollment-form.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
