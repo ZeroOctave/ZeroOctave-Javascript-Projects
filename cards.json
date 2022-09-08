@@ -702,6 +702,11 @@
         "link": "Public/stopwatch.html"
     },
     {
+        "name": "Student Enrollment Form",
+        "image": "assets/Images/student-enrollment-form.png",
+        "link": "Public/student-enrollment-form.html"
+    },
+    {
         "name": "Sudoku Solver",
         "image": "assets/Images/SudokuSolver.png",
         "link": "Public/SudokuSolver.html"
