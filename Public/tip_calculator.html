@@ -5,12 +5,14 @@
     <link rel="stylesheet" href="/assets/css/tip_calculator.css">
   </head>
   <body>
-    <section class="container">
-      <div class="content">
-        <h2>Tip calculation</h2>
-        <input id="amount" type="number" placeholder="amount" />
-        <button>Calculate</button>
-        <p id="amountText"></p>
+    <section class="">
+      <div class="text-center my-8">
+        <h2 class="text-7xl p-2 bg-gray-300">Tip calculator</h2>
+        <div class="m-auto lg:w-96 h-[100vh] p-3">
+        <input id="amount" type="number" placeholder="amount" class="mt-9 px-3 py-5 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1 placeholder:italic placeholder:text-slate-400 font-sans font-semibold"/>
+        <button class="block bg-blue-300 p-3 w-full my-3">Calculate</button>
+        <p id="amountText" class="text-3xl font-semibold bg-gray-300 font-mono"></p>
+      </div>
       </div>
     </section>
     <script>
