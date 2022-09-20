@@ -1,21 +1,23 @@
 * {
-  background-color: black;
+  background-color: bisque;
 }
 h2 {
-  margin-top: 4%;
+  margin-top: 2rem;
   font-size: 2.6rem;
-  color: bisque;
+  color: black;
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 form {
   font-size: 2.6rem;
-
+  margin-left: auto;
+  margin-right: auto;
+  
   text-align: center;
 }
 form input {
-  color: bisque;
+  color: rgb(4, 4, 4);
 
   margin-top: 4vh;
 }
@@ -40,12 +42,51 @@ form input {
 }
 img {
   display: block;
+  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 70%;
 }
 @media screen and (min-width: 300px) and (max-width: 1100px) {
   h2 {
     margin-top: 23%;
   }
+}
+
+.info{
+  text-align: center;
+  font-size: 30px;
+  padding-left: 0px;
+  padding-bottom: 4px;
+  color: black;
+  
+}
+
+.buttom{
+  background-color: blue;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 22px;
+  border: none;
+  font:bold;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: center;
+}
+
+.details{
+  font-size: 18px;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid rgb(186, 182, 182);
+  
+
+}
+
+.select{
+  font-size: 10px;
+  padding-top: 0px;
 }
