@@ -1,27 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-   <title>Temperature Converter</title>
-   <style>
-    input[type=text]{
-        width: 35px;
-        outline: none;
-        margin-top: 30px;
-        margin-right: 60px;
-    }
-
-    label{
-        font-family: Garamond;
-        font-weight: bolder;
+  <head>
+    <title>Temperature Converter</title>
+    <style>
+      body {
+        background-image: url("../assets/Images/seasons.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      p{
+        font-size: 4rem;
+        display: inline-block;
+        color:#1CD6CE;
+      }
+      h1 {
+        font-family: 'Lobster', cursive;
+        color:#D07000;
+        margin: 20px 20px;
+        text-align: center;
+        font-size: 3rem;
         margin: auto;
-    }
 
-    .box{
-        margin: auto; 
-        background-color: white;
-        padding: 10px 30px; 
-        border: 2px solid black; 
-        width:fit-content;
+      }
+      input[type="text"] {
+        height: 2.5rem;
+        font-size: 2rem;
+        width: 30rem;
+        outline: none;
+      }
+
+      h2 {
+        font-family: 'Playfair Display SC', serif;
+        color:whitesmoke;
+        font-weight: bolder;
+        text-align: center;
+        margin: 20px 20px;
+       
+      }
+
+      .box {
+        margin: auto;
+        background-color: black;
+        padding: 10px 30px;
+        border: 5px solid #C3F8FF;
+        width: fit-content;
         display: block;
         text-align: right;
         border-radius: 5px;
@@ -31,40 +53,56 @@
         bottom: 0;
         left: 0;
         right: 0;
-        height: 300px;
-    }
+        height: 610px;
+      }
+.button{
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+  margin: 25px 25px;
+}
+.btn:hover{
+  background-color:white;
+}
+#felr
+{
+  color:white;
+}
+#celr
+{
+  color:white;
+}
+     
+    </style>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+    crossorigin="anonymous"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  </head>
 
-    input[type=button]{
-        cursor: pointer;
-        padding: 6px 12px;
-        margin-top: 15px;
-        margin-right: 60px;
-    }
+  <body>
+    <div class="box">
+      <h1><p>Temperature </p> Converter</h1>
+      <h2>Celsius to Fahrenheit</h2>
+      <input type="text" id="celsius" /> <br />
+      <div class="button">
+      <input type="button" class="btn btn-primary btn-lg" id="ctof" value="Convert to Fahrenheit" />
+    </div>
+      <br /><br />
+      <div id="celr"></div>
 
-    h1{
-        font-family: Garamond;
-        font-weight: bolder;
-        margin: auto;
-    }
+      <h2>Fahrenheit to Celsius</h2>
+      <input type="text" id="fahrenheit" /> <br />
+      <div class="button">
+      <input type="button" class="btn btn-primary btn-lg" id="ftoc" value="Convert to Celsius" /> <br /><br />
+    </div>
+      <div id="felr"></div>
+    </div>
 
-</style>
-</head>
-
-<body>
-	<div class ="box">
-		<h1>Temperature Converter</h1>
-		<label>Celsius to Fahrenheit</label>
-		<input type="text" id="celsius"> <br>
-        <input type="button" id="ctof" value="Convert to Fahrenheit"> <br><br>
-        <div id="celr"></div>
-
-		<label>Fahrenheit to Celsius</label>
-		<input type="text" id="fahrenheit"> <br>
-		<input type="button" id="ftoc" value="Convert to Celsius"> <br><br>
-        <div id="felr"></div>
-  </div>
-
-<script src ="../assets/Js/temperature-converter.js"> </script>
-
-</body>
+    <script src="../assets/Js/temperature-converter.js"></script>
+  </body>
 </html>
