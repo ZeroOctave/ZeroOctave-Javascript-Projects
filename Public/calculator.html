@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Calculator</title>
-  <link href="../assets/css/Calculator.css" rel="stylesheet">
-  <script src="../assets/Js/Calculator.js" defer></script>
-</head>
-<body>
-  <div class="calculator-grid">
-    <div class="output">
-      <div data-previous-operand class="previous-operand"></div>
-      <div data-current-operand class="current-operand"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <link href="../assets/css/Calculator.css" rel="stylesheet" />
+    <script src="../assets/Js/Calculator.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator-grid">
+      <div class="output">
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand"></div>
+      </div>
+      <button data-operation class="special pie-button">兀</button>
+      <button data-operation class="special e-button">e</button>
+      <button data-all-clear>AC</button>
+      <button data-delete>DEL</button>
+      <button data-operation>÷</button>
+      <button data-operation class="special square">
+        x<sup class="superscript-text">2</sup>
+      </button>
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button data-operation>*</button>
+      <button data-operation class="special pow">
+        x<sup class="superscript-text">y</sup>
+      </button>
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button data-operation>+</button>
+      <button data-operation class="special squareRoot">
+        <span>&#8730;</span>x
+      </button>
+      <button data-number>7</button>
+      <button data-number>8</button>
+      <button data-number>9</button>
+      <button data-operation>-</button>
+      <button data-operation class="special logBase10">log</button>
+      <button data-number>.</button>
+      <button data-number>0</button>
+      <button data-equals class="span-two">=</button>
     </div>
-    <button data-pie class="pie-button">兀</button>
-    <button data-e>e</button>
-    <button data-all-clear>AC</button>
-    <button data-delete>DEL</button>
-    <button data-operation>÷</button>
-    <button data-square>x<sup class="superscript-text">2</sup></button>
-    <button data-number>1</button>
-    <button data-number>2</button>
-    <button data-number>3</button>
-    <button data-operation>*</button>
-    <button data-pow>x<sup class="superscript-text">y</sup></button>
-    <button data-number>4</button>
-    <button data-number>5</button>
-    <button data-number>6</button>
-    <button data-operation>+</button>
-    <button data-squareRoot><span>&#8730;</span>x</button>
-    <button data-number>7</button>
-    <button data-number>8</button>
-    <button data-number>9</button>
-    <button data-operation>-</button>
-    <button data-logBase10>log</button>
-    <button data-number>.</button>
-    <button data-number>0</button>
-    <button data-equals class="span-two">=</button>
-  </div>
-</body>
+  </body>
 </html>
