@@ -1,13 +1,12 @@
 body{
-    background-color: #efefef;
-    text-align: center;
+    background-color: #a8cede49;
 }
 
-.box{
-    display: inline-block;
-    background-color: rgb(255 255 255 / 50%);
-    box-shadow: -10px 5px 30px rgb(0 0 0 / 50%);
-    border-radius: 15px;
-    width: 50rem;
-    padding: 30px;
+.card {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 50%;
+}
+
+.list-item-style {
+    font-weight: 500;
 }

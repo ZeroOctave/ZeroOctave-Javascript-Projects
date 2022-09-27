@@ -1,41 +1,70 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>Color Code Converter</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <link rel="stylesheet" href="./../assets/css/Color_Code_Converter.css">
-    </head>
-    
-    <body>
-        <div class="box">
-            <div>
-                <label>Enter Color to Convert: </label>
-                <input name="to_convert" id="to_convert" type="text" style="width: 50%;" placeholder="Enter Color Code">
-                <button onclick="convert()" style="width: 10%;">Convert</button>
-            </div>
-            <br><br>
-            
 
-            <div style="text-align:left;">
-                <span>Supported Formats:</script>
-                <ul>
-                    <li>Color Names: Blue, red, BlAck</li>
-                    <li>RGB: rgb(250,120,50)</li>
-                    <li>Hex: #FA7832</li>
-                    <li>CMYK: cmyk(0%, 52%, 80%, 2%)</li>
-                    <li>Hsl: hsl(21, 95%, 59%)</li>
+<head>
+    <title>Color Code Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../assets/css/Color_Code_Converter.css">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center mt-5">
+        <div class="card border-light mb-3">
+            <div class="card-header text-center fs-5">Color Code Converter</div>
+            <div class="card-body">
+
+                <div class="d-flex justify-content-center align-items-center mt-3 mb-5">
+                    <div class="me-2">
+                        <input type="text" class="form-control" name="to_convert" id="to_convert"
+                            placeholder="Enter Color to Convert">
+                    </div>
+
+                    <div>
+                        <button type="button" class="btn btn-primary" onclick="convert()">Convert</button>
+                    </div>
+                </div>
+
+                <h5 class="card-title">Supported Formats:</h5>
+                <ul class="card-text mb-4">
+                    <li><span class="list-item-style">Color Names:</span> Blue, Red, Black</li>
+                    <li><span class="list-item-style">RGB:</span> rgb(250,120,50)</li>
+                    <li><span class="list-item-style">HEX:</span> #FA7832</li>
+                    <li><span class="list-item-style">CMYK:</span> cmyk(0%, 52%, 80%, 2%)</li>
+                    <li><span class="list-item-style">HSL:</span> hsl(21, 95%, 59%)</li>
                 </ul>
-            </div>
 
-            <div style="text-align: left;">
-                <h2 style="margin-top: 3%;">Results</h2>
-                RGB: <input readonly id="rgb" style="width: 30%;"><br><br>
-                HEX: <input readonly id="hex" style="width: 30%;"><br><br>
-                CMYK: <input readonly id="cmyk" style="width: 30%;"><br><br>
-                Hsl: <input readonly id="hsl" style="width: 30%;"><br><br>
+                <h5 class="card-title mb-3">Results:</h5>
+
+                <div class="card-text">
+                    <div class="input-group input-group-sm w-50 mb-3">
+                        <span class="input-group-text">RGB</span>
+                        <input type="text" id="rgb" class="form-control" readonly>
+                    </div>
+
+                    <div class="input-group input-group-sm w-50 mb-3">
+                        <span class="input-group-text">HEX</span>
+                        <input type="text" id="hex" class="form-control" readonly>
+                    </div>
+
+                    <div class="input-group input-group-sm w-50 mb-3">
+                        <span class="input-group-text">CMYK</span>
+                        <input type="text" id="cmyk" class="form-control" readonly>
+                    </div>
+
+                    <div class="input-group input-group-sm w-50 mb-3">
+                        <span class="input-group-text">HSl</span>
+                        <input type="text" id="hsl" class="form-control" readonly>
+                    </div>
+                </div>
             </div>
-        </div>  
-        <script src="./../assets/Js/Color_Code_Converter.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    </body>
+        </div>
+    </div>
+
+    <script src="./../assets/Js/Color_Code_Converter.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
