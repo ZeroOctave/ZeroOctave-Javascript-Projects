@@ -12,7 +12,13 @@
         <link rel="stylesheet" href="../assets/css/resume_builder.css">
     </head>
     <style>
-
+        .input-checkbox{
+            margin-right: 5px;
+        }
+        .education-head{
+            font-weight: 700;
+            font-size: 17px;
+        }
     </style>
     <body>
     <div class="nav">
@@ -40,22 +46,29 @@
             <div class="line"></div>
             <div class="mainbody">
                 <div class="leftside">
-                <span class="title">MY SKILLS</span><br><br>
-                <div class="skill"><span><i class="fas fa-chevron-circle-right"></i></span>&nbsp&nbsp&nbsp<span contenteditable="true">write your skill here</span></div>
+                <span class="title">MY SKILLS</span><br><br><div>
+                <div class="skill"><span><input type="checkbox" class="input-checkbox"></span><span><i class="fas fa-chevron-circle-right"></i></span>&nbsp&nbsp&nbsp<span contenteditable="true">write your skill here</span></div>
                 <div id="skills"></div>
-                <button id="skilladd" type="button" class="btn btn-success" onclick="addskill()"><i class="fas fa-plus-circle"></i> Skill</button>
-                <br><br><span class="title">LANGUAGES</span><br><br>
-                <div class="language"><span contenteditable="true">LANGNAME</span>&nbsp-&nbsp<span contenteditable="true">level u know</span></div>
+                <button id="skilladd" type="button" class="btn btn-success" onclick="addskill()"><i class="fas fa-plus-circle"></i> Skill</button>&nbsp
+                <button id="skillrem" type="button" class="btn btn-danger" onclick="remskill(event)"><i class="fas fa-minus-circle"></i> Skill</button></div>
+                <br><br><span class="title">LANGUAGES</span><br><br><div>
+                <div class="language"><span><input type="checkbox" class="input-checkbox"></span><span contenteditable="true">LANGNAME</span>&nbsp-&nbsp<span contenteditable="true">level u know</span></div>
                 <div id="languages"></div>
                 <button id="langadd" type="button" class="btn btn-success" onclick="addLang()"><i class="fas fa-plus-circle"></i> Language</button>
-                <br><br><span class="title">ACHIEVEMENTS</span><br><br>
-                <div class="achieve" ><span contenteditable="true">Write your achievement</span></div>
+                &nbsp
+                <button id="langrem" type="button" class="btn btn-danger" onclick="remLang(event)"><i class="fas fa-minus-circle"></i> Language</button></div>
+                <br><br><span class="title">ACHIEVEMENTS</span><br><br><div>
+                <div class="achieve" ><span><input type="checkbox" class="input-checkbox"></span><span contenteditable="true">Write your achievement</span></div>
                 <div id="achievement"></div>
                 <button id="achadd" type="button" class="btn btn-success" onclick="addAch()"><i class="fas fa-plus-circle"></i> Achievement</button>
-                <br><br><span class="title">INTERESTS</span><br><br>
-                <div class="achieve" ><span contenteditable="true">Write interest</span></div>
+                &nbsp
+                <button id="achrem" type="button" class="btn btn-danger" onclick="remAch(event)" style="margin-top: 0;"><i class="fas fa-minus-circle"></i> Achievement</button></div>
+                <br><br><span class="title">INTERESTS</span><br><br><div>
+                <div class="achieve" ><span><input type="checkbox" class="input-checkbox"></span><span contenteditable="true">Write interest</span></div>
                 <div id="interest"></div>
                 <button id="Intadd" type="button" class="btn btn-success" onclick="addInt()"><i class="fas fa-plus-circle"></i> Interest</button>
+                &nbsp
+                <button id="Intrem" type="button" class="btn btn-danger" onclick="remInt(event)"><i class="fas fa-minus-circle"></i> Interest</button></div>
                 </div>
                 <div class="border"></div>
                 <div class="rightside">
@@ -64,31 +77,32 @@
                 Here u can write the basic information about your career like your forte, something about yourself that
                 you want your interviewer to know. Try to keep it brief and only provide necessary information. Do not include information which is
                 already written in your resume in some other section.</div>
-                <br><br><span class="title">EDUCATION</span><br><br>
+                <br><br><span class="title">EDUCATION</span><br><br><div>
                 <div id="education">
                     <div class="edublock">
-                        <div class="head" contenteditable="true">YOUR DEGREE</div>
+                        <span><input type="checkbox" class="input-checkbox"></span>
+                        <span class="education-head" contenteditable="true">YOUR DEGREE</span>
                         <div ><span contenteditable="true">Institute name</span> - <span contenteditable="true">Passing Year</span></div>
                     </div>
                 </div>
                 <button id="eduadd" type="button" class="btn btn-success" onclick="addedu()"><i class="fas fa-plus-circle"></i> Education</button>
-                <br><br><span class="title" contenteditable="true">NEW SECTION</span><br><br>
+                &nbsp
+                <button id="edurem" type="button" class="btn btn-danger" onclick="remedu(event)"><i class="fas fa-minus-circle"></i> Education</button></div>
+                <br><br>
+                <div class="new-section-div"><div><span><input type="checkbox" class="input-checkbox"></span><span class="title" contenteditable="true">NEW SECTION</span><br><br>
                 <div contenteditable="true">
                 This is the description part of your new section. Try to stay within limit and write something which has less 
-                than 200 words. The spaces and symbols you use will also be included so use them for an indentation effect.</div>
-                <div id="newsec">
-                
+                than 400 characters. The spaces and symbols you use will also be included so use them for an indentation effect.</div>
                 </div>
+                <div id="newsec"></div>
                 <button id="secadd" type="button" class="btn btn-success" onclick="addsec()"><i class="fas fa-plus-circle"></i> Section</button>
+                &nbsp
+                <button id="secrem" type="button" class="btn btn-danger" onclick="remsec(event)"><i class="fas fa-minus-circle"></i> Section</button>
+            </div>
             </div>
         </section>
-    
-        
-        
      </div>
-  
     </body>
-
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js"></script>
