@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../assets/css/typingtest.css" type="text/css" />
+    <script defer src="./../assets/Js/typingtest.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="heading">Typing Speed Test</h1>
+      <main class="main">
+        <h2 id="paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          minus omnis ex sunt reprehenderit vero, repellendus aspernatur nobis
+          quasi perferendis quia est aperiam facere laudantium voluptatem nulla?
+          Tempora, quae inventore?
+        </h2>
+        <textarea
+          name="userValue"
+          id="textBox"
+          placeholder="Enter your text here"
+          oncopy="return false"
+          onpaste="return false"
+        ></textarea>
+        <button id="btn">Start</button>
+        <section class="resultsPanel">    
+          <ul class="panel">
+            <li class="item" id="mistakes">0 MISTAKES</li>
+            <li class="item" id="time">00 : 00</li>
+            <li class="item" id="wpm">0 WPM</li>
+            <li class="item" id="cpm">0 CPM</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
