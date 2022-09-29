@@ -42,6 +42,10 @@ body {
   font-size: 1.4rem;
 }
 
+.subscript-text{
+  font-size: 1.2rem;
+}
+
 .span-two {
   grid-column: span 2;
 }
