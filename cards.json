@@ -277,6 +277,11 @@
         "link": "Public/flappybird.html"
     },
     {
+        "name": "Font Styles",
+        "image": "assets/Images/car.jpg",
+        "link": "Public/font_styles.html"
+    },
+    {
         "name": "Food Filter",
         "image": "assets/Images/food-filter/sweets-1.jpeg",
         "link": "Public/food-filter.html"
