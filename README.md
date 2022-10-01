@@ -76,7 +76,7 @@ Happy coding.👍
 
 <table>
 <tbody><tr>
-<td align="center"><a href="https://hacktoberfest.digitalocean.com/"  target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzxUuUFuwuTwouTwDseIuzwkLBsDa6Z_0BzYX_x0jpqA&s" alt="Hacktoberfest" width="200"/><br><sub><b> Hacktoberfest 2021 </b></sub></a></td> </a></td>
+<td align="center"><a href="https://hacktoberfest.digitalocean.com/"  target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzxUuUFuwuTwouTwDseIuzwkLBsDa6Z_0BzYX_x0jpqA&s" alt="Hacktoberfest" width="200"/><br><sub><b> Hacktoberfest 2022 </b></sub></a></td> </a></td>
 
 <td align="center"><a href="https://icc-techsahead.netlify.app/"  target="_blank"><img src="assets/Images/icc.png" alt="ICC" width="200"/><br><sub><b> ICC 2021 </b></sub></a></td> </a></td>
 
