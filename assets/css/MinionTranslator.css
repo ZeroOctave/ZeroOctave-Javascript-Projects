@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+:root {
+  --primary-color: #FCD34D;
+  --secondary-color: #171717;
+  --nav-font-size: 30px;
+  
+}
+
+body {
+  font-family: 'sans-serif';
+  color: var(--secondary-color);
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #0f0e17;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  padding: 0.9rem 1rem;
+  color:var(--secondary-color);
+  text-align: center;
+  font-size: var(--nav-font-size);
+}
+
+
+.container {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+textarea {
+  font-size: 30px;
+  padding: 1rem;
+  outline: none;
+  margin: 1rem;
+  resize: none;
+}
+
+button {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  font-weight: bolder;
+  font-family: inherit;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+button:hover {
+  transform: scale(0.9);
+}
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 0.9rem 1rem;
+  color:var(--secondary-color);
+  text-align: center;
+  font-size: 20px;
+  padding: 0.9rem 1rem;
+}
+
