@@ -1,0 +1,10 @@
+* {
+	padding: 10;
+	margin: 10;
+} 
+
+#myCanvas {
+	background: #eee;
+	display: block;
+	margin: 0 auto;
+}
