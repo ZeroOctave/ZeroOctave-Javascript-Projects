@@ -12,7 +12,7 @@ const experi = document.getElementById("cardd");
 const searchBar = document.getElementById("searchbar");
 
 searchBar.addEventListener("keyup", (e) => {
-	const searchString = e.target.value;
+	const searchString = e.target.value ;
 	const filteredProjects = projects.filter((projects) => {
 		return projects.name.toLowerCase().includes(searchString.toLowerCase());
 	});
