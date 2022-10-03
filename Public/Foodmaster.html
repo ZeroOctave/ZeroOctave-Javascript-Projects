@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Food Master</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/38b4980054.js" crossorigin="anonymous"></script>
+</head>
+<style>
+  body{
+    font-family: 'Montserrat';
+}
+#title,h1{
+    background-color: #ff4668;
+    color: white;
+}
+#container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+h1 {  
+    font-family: 'Montserrat-Black';
+      font-size: 4rem;
+        line-height: 1.5; 
+         font-weight: 900;
+}
+.Down-button{
+    margin: 5% 3% 5% 0;
+}
+.Down-button:hover{
+ background-color: #3DB2FF;
+}
+.title-image{
+    width: 60%;
+  
+}
+#features{
+    padding:7% 15%;
+    background-color: white;
+    position: relative;
+   
+}
+.Feature-box{
+text-align: center;
+padding: 5%;
+}
+h2{
+    font-family: 'Montserrat-Bold';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat-Bold';
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom:1rem ;
+}
+.icon:hover{
+    color: #ff4668;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+.test-image{
+    width: 50%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-inner{
+    padding-top: 5%;
+}
+.review-image{
+    width: 50%;
+    height: 50%;
+}
+#pricing{
+    padding:10%;
+    text-align: center;
+}
+#cta{
+    background-color: #ff4668;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer{
+    text-align: center;
+    color: grey;
+    padding: 7% 15%;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+
+
+@media (max-width:1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+}
+</style>
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#"><i class="fas fa-pizza-slice"></i></i>Food Master</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Download">Download</a>
+        </li>
+    </ul>
+  </nav>
+    <!-- Title -->
+<div class="row" id="Download">
+    <div class="col-lg-6">
+      <h1>Enjoy new cuisine everyday at your doorstep.</h1>
+      <button type="button" class="btn btn-info btn-lg Down-button"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-dark btn-lg Down-button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+    <div class="col-lg-6">
+      <img class="title-image" src="https://online.ahu.edu/wp-content/uploads/2019/03/Healthy-Food-Doesnt-Have-To-Be-Expensive.jpg" alt="iphone-mockup">
+    </div>
+  </div>
+  </section>
+</div>
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="Feature-box col-lg-4 col-md-6">
+        <i class="icon fas fa-check-circle fa-4x"></i>
+        <h3>Easy to use.</h3>
+          <p>So easy to use, even your children use it.</p>
+      </div>
+      <div class="Feature-box col-lg-4 col-md-6">
+        <i class="icon fas fa-bullseye fa-4x"></i>
+        <h3>Elite Restaurants</h3>
+        <p>We have all the restaurants, the greatest food.</p>
+      </div>
+      <div class="Feature-box col-lg-4 col-md-6">
+        <i class="icon fas fa-heart fa-4x"></i>
+        <h3>Guaranteed to work.</h3>
+          <p>Discover your love for food.</p>
+      </div>
+    </div>
+
+</section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <h2>I no longer have to search restaurants for food. I've found the best restaurants in Food Master.</h2>
+    <img class="test-image" src="https://i.ndtvimg.com/i/2017-10/thali_650x400_61508157304.jpg" alt="indian-food">
+    <em>Spicy indian-food</em>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="review-image" src="https://pbs.twimg.com/media/DiW_t6YU8AY9vET.jpg" class="d-block w-100" alt="...">
+          <h4>Do you wanna be food maniac then sign up in Food Master</h4>
+        </div>
+        <div class="carousel-item">
+          <img class="review-image" src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_634,c_fill,g_auto,h_357,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170306145913-singapore-chili-crab.jpg" class="d-block w-100" alt="...">
+          <h4>Do you wanna taste the Freshness of seafood then Food Master is your place.</h4>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Every Foodie Needs</h2>
+    <p>Simple and affordable price plans for your Craving for food.</p>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h3>Basic</h3>
+        </div>
+        <div class="card-body">
+          <h2>Free</h2>
+         <p>5 food suggestions per Day</p>
+      <p>10 lucky winners Per Day</p>
+      <p>Unlimited website Usage</p>
+      <button type="button" class="btn btn-outline-dark btn-lg">Sign Up</button>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6">
+    <div class="card">
+      <div class="card-header">
+        <h3>Foodie</h3>
+      </div>
+      <div class="card-body">
+        <h2>$49 / mo</h2>
+      <p>Unlimited suggestions</p>
+      <p>Unlimited Winners</p>
+      <p>Unlimited App Usage</p>
+      <button type="button" class="btn btn-outline-dark btn-lg">Sign Up</button>
+      </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-6">
+  <div class="card">
+    <div class="card-header">
+      <h3>Food Master plan</h3>
+    </div>
+    <div class="card-body">
+      <h2>$99 / mo</h2>
+      <p>Free Delivery</p>
+      <p>Unlimited suggestions</p>
+      <p>Unlimited Messages</p>
+      <p>Unlimited App Usage</p>
+      <button type="button" class="btn btn-outline-dark btn-lg">Sign Up</button>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-heading">Find the True Love of Your Craving for food.</h3>
+    <button type="button" class="btn btn-info btn-lg Down-button"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-dark btn-lg Down-button"><i class="fab fa-google-play"></i> Download</button>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <p>© Copyright 2022 Food Master</p>
+    <p> Made by Surya L</p>
+
+  </footer>
+
+
+</body>
+
+</html>
