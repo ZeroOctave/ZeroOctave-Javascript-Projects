@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todozzz</title>
+  </head>
+  <body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        min-height: 100vh;
+      }
+      h1 {
+        font-size: 4rem;
+        color: crimson;
+      }
+      input {
+        width: 600px;
+        height: 100px;
+        font-size: 3.5rem;
+        padding: 10px 20px;
+        outline-style: transparent;
+        border-style: none;
+      }
+      input:focus {
+        outline-color: crimson;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        font-size: 3.5rem;
+        border: 1px solid grey;
+        padding: 10px 20px;
+        color: rgba(0, 0, 0, 0, 0.5);
+      }
+      li.completed {
+        text-decoration: line-through;
+        color: grey;
+      }
+    </style>
+    <h1>todos</h1>
+    <form id="form">
+      <input
+        type="text"
+        id="input"
+        class="input"
+        placeholder="enter your todo today"
+        autocomplete="off"
+      />
+      <ul id="todos" class="todos"></ul>
+    </form>
+    <small
+      >Left click to toggle completed.<br />Right click to delete todo.
+    </small>
+    <script>
+      const form = document.getElementById("form");
+      const input = document.getElementById("input");
+      const ul = document.getElementById("todos");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        if (!input.value) return;
+        const li = document.createElement("li");
+        li.addEventListener("click", () => {
+          li.classList.toggle("completed");
+        });
+        li.addEventListener("contextmenu", (e) => {
+          e.preventDefault();
+          li.remove();
+        });
+        li.textContent = input.value;
+        ul.appendChild(li);
+        input.value = "";
+      });
+    </script>
+  </body>
+</html>
