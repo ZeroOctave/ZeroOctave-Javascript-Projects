@@ -1,136 +1,270 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zomato</title>
-    <link rel="shortcut icon" href="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Personal Portfolia Website </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  </head>
+  <body>
+     <div class = "scroll-up-btn">
+       <i class = "fas fa-angle-up"></i>
+     </div>
+     <nav class = "navbar">
+       <div class = "max-width">
+         <div class = "logo"><a href ="">Portfo<span>lio.</span> </a></div>
+         <ul class ="menu">
+               <li><a href = "#home" class = "menu-btn"> Home </a></li>
+               <li><a href = "#about" class = "menu-btn"> About</a></li>
+               <li><a href = "#services" class = "menu-btn"> Services</a></li>
+               <li><a href = "#skills" class = "menu-btn"> Skills</a></li>
+               <li><a href = "#teams" class = "menu-btn"> Teams</a></li>
+               <li><a href = "#contact" class = "menu-btn"> Contact</a></li>
+           </ul>
+           <div class = "menu-btn">
+             <i class = "fa fa-bars"></i>
+           </div>
+         </div>
+         </nav>
 
-</head>
-<body>
-    <!-- HEADER -->
-    <header>
-        <div class="nav">
-            <div>
-                <p>Get The App</p>
-            </div>
-            <ul class="nav-bar">
-                <li>Add Restaurant</li>
-                <li>Log in</li>
-                <li>Sign up</li>
-            </ul>
-        </div>
-        <div class="head">
-            <img class="logo" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="">
-            <h3>Discover the best food & drinks in Delhi NCR</h3>
-            <div class="search">
-                <div class="search-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p>Ywca, 1, Ashoka Rd, Hanu</p>
-                </div>
-                <div class="search-item">
-                    <i class="fas fa-search"></i>
-                    <input type="text" placeholder="Search for restaurant, cuisine or a dish">
-                </div>
-            </div>
-        </div>
-        <div class="header-image">
-            <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" alt="">
-        </div>
-    </header>
+           <!---Home Section Start----->
 
-    <!-- Section 1 -->
-    <section class="section-1">
-        <div class="section-1-item">
-            <div class="items-details"><p>Order Food Online</p></div>
-            <img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*
-            " alt="">
-        </div>
-        <div class="section-1-item">
-            <div class="items-details"><p>Dining Out</p></div>
-            <img src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*
-            " alt="">
-        </div>
-        <div class="section-1-item">
-            <div class="items-details"><p>Nightlife & Club</p></div>
-            <img src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*
-            " alt="">
-        </div>
-    </section>
+         <section class = "home" id = "home">
+           <div class = "max-width">
+             <div class = "home-content">
+              <div class = "text-1">Hello, my name is </div>
+              <div class = "text-2"> Ravi Kumar </div>
+              <div class = "text-3"> And I'm a <span class = "typing"> Web Developer </span> </div>
+              <a href = "#"> Hire Me </a>
+           </div>
+           </div>
+         </section>
 
-    <!-- SECTION 2 -->
-    <section class="section-2">
-        <div class="section-2-heading">
-            <p>Popular localities in and around Delhi NCR</p>
-        </div>
-        <div class="section-2-container">
-            <div class="section-2-items">
-                <div class="section-2-item">
-                    <p class="item-head">Cannaught Place</p>
-                    <p class="item-subhead">388 Places</p>
-                </div>
-                <div class="section-2-item">
-                    <p class="item-head">Cannaught Place</p>
-                    <p class="item-subhead">388 Places</p>
-                </div>
-                <div class="section-2-item">
-                    <p class="item-head">Cannaught Place</p>
-                    <p class="item-subhead">388 Places</p>
-                </div>
-                <div class="section-2-item">
-                    <p class="item-head">Cannaught Place</p>
-                    <p class="item-subhead">388 Places</p>
-                </div>
-                <div class="section-2-item">
-                    <p class="item-head">Cannaught Place</p>
-                    <p class="item-subhead">388 Places</p>
-                </div>
-                <div class="section-2-item">
-                    <p class="item-head">Cannaught Place</p>
-                    <p class="item-subhead">388 Places</p>
-                </div>
-                <div class="section-2-item">
-                    <p class="item-head">Cannaught Place</p>
-                    <p class="item-subhead">388 Places</p>
-                </div>
-                <div class="section-2-item">
-                    <p class="item-head">Cannaught Place</p>
-                    <p class="item-subhead">388 Places</p>
-                </div>
-                <div class="section-2-item">
-                    <p class="item-head">Cannaught Place</p>
-                    <p class="item-subhead">388 Places</p>
-                </div>
-            </div>
-        </div>
-    </section>
+         <!---About Section Start----->
 
-    <!-- SECTION 3 -->
-    <section class="section-3">
-        <div class="section-3-container">
-            <div class="section-3-img">
-                <img src="https://b.zmtcdn.com/data/o2_assets/a500ffc2ab483bc6a550aa635f4e55531648107832.png" alt="">
-            </div>
-            <div class="section-3-content">
-                <h1>Get the Zomato App</h1>
-                <p>
-                    Download the app from
-                </p>
-                <div class="section-3-download">
-                    <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">
-                    <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
+         <section class = "about" id = "about">
+           <div class = "max-width">
+             <h2 class = "title"> About Me </h2>
+             <div class = "about-content">
+               <div class = "column left">
+                 <img src = "https://1.bp.blogspot.com/-St15WrCZIpU/YTrw8Uo6ygI/AAAAAAAAFB8/PSUTwdpXjsMZ3B82mA7zziYbME4a3cxbACLcBGAsYHQ/s736/stylish%2Bphoto%2Bpose%2Bfor%2Bboy%2Bhd.jpeg" alt="">
+           </div>
+           <div class = "column right">
+             <div class = "text"> I'm Ravi Kumar and I'm a <span class = "typing-2">Web Developer</span></div>
+             <p> A web developer is a programmer or a coder who specializes in, or is specifically engaged in, the development of World Wide Web applications
+         using a client–server model. The applications typically use HTML, CSS and JavaScript in the client, PHP, ASP.NET (C#), Python, Node.js, Go or Java
+         in the server, and http for communications between client and server. A web developer may specialize in client-side applications (front-end developer),
+          server-side applications (back-end developer), or both (full-stack developer). A web content management system may be used to develop and maintain web applications.</p>
+          <a href = "#"> Download CV</a>
+           </div>
+           </div>
+         </div>
+         </section>
 
-    <footer>
-        <code>
-            Made with ❤️ by Manmohan
-        </code>
-    </footer>
-</body>
+       <!---Services Section Start----->
+
+         <section class = "services" id = "services">
+           <div class = "max-width">
+             <h2 class = "title"> My Services </h2>
+             <div class = "serv-content">
+               <div class = "card">
+               <div class = "box">
+                 <div class = "column left"></div>
+                   <div class = "text"> Web Design </div>
+                   <p> Web design encompasses many different skills and disciplines in the production and maintenance of websites.  </p>
+               </div>
+               </div>
+               <div class = "card">
+               <div class = "box">
+                 <div class = "column center"></div>
+                   <div class = "text"> Advertising </div>
+                   <p> Web design encompasses many different skills and disciplines in the production and maintenance of websites.  </p>
+               </div>
+               </div>
+           <div class = "card">
+           <div class = "box">
+               <div class = "column right"></div>
+               <div class = "text"> Apps Design </div>
+               <p> Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas
+                  of web design include web graphic design; user interface design (UI design). </p>
+           </div>
+           </div>
+       </div>
+         </div>
+         </section>
+
+         <!---Skills Section Start----->
+
+         <section class = "skills" id = "skills">
+           <div class = "max-width">
+             <h2 class = "title"> My Skills </h2>
+             <div class = "skills-content">
+               <div class = "column left">
+                 <div class ="text"> My  Creative Skills & Experiences </div>
+          <p> Web development takes into account many security considerations, such as data entry error checking through forms, filtering output, and
+          encryption. Malicious practices such as SQL injection can be executed by users with ill intent yet with only primitive knowledge of Web development
+              as a whole.</p>
+             <a href ="#"> Read More </a>
+           </div>
+               <div class = "column right"><br>
+                 <div class = "bars">
+                   <div class = "info">
+                     <span> HTML </span>
+                      <span> 100% </span>
+                    </div>
+                      <div class ="line html"></div>
+
+                  </div>
+                  <div class = "bars">
+                    <div class = "info">
+                      <span> CSS </span>
+                       <span> 100% </span>
+                       </div>
+                       <div class ="line css"></div>
+
+                   </div>
+                   <div class = "bars">
+                     <div class = "info">
+                       <span> JavaScript </span>
+                        <span> 100% </span>
+                        </div>
+                        <div class ="line js"></div>
+
+                    </div>
+                    <div class = "bars">
+                      <div class = "info">
+                        <span> PHP </span>
+                         <span> 100% </span>
+                            </div>
+                         <div class ="line php"></div>
+
+                     </div>
+                     <div class = "bars">
+                       <div class = "info">
+                         <span> MySQL </span>
+                          <span>  100% </span>
+                          </div>
+                          <div class ="line mysql"></div>
+              </div>
+             </div>
+           </div>
+         </div>
+         </section>
+
+          <!---teams Section Start----->
+
+          <section class = "teams" id = "teams">
+            <div class = "max-width">
+              <h2 class = "title"> My Teams </h2>
+               <div class = "carousel">
+              <div class = "card">
+              <div class = "box">
+                <img src = "https://cbsnews2.cbsistatic.com/hub/i/r/2019/10/23/d0471bbe-c9c9-47ab-a76c-7a48000c7837/thumbnail/640x445/44f87905fe8230ca1fe485f6449f5a5a/47-asher.jpg"  alt="">
+                <div class = "text"> Someone name </div>
+                <p> A web developer is a programmer or a coder who specializes in, or is specifically engaged in, the development of World Wide Web applications
+            using a client–server model.</p>
+              </div>
+            </div>
+            <div class = "card">
+            <div class = "box">
+              <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdO6Is4pmsQOsebJxF_pJy0rf30FzRgToVbw&usqp=CAU"  alt="">
+              <div class = "text"> Someone name </div>
+              <p> A web developer is a programmer or a coder who specializes in, or is specifically engaged in, the development of World Wide Web applications
+          using a client–server model.</p>
+            </div>
+          </div>
+          <div class = "card">
+          <div class = "box">
+            <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6HOitMWGCKRNbIP2ddYYPbYvPz_r6bw5rAg&usqp=CAU"  alt="">
+            <div class = "text"> Someone name </div>
+            <p> A web developer is a programmer or a coder who specializes in, or is specifically engaged in, the development of World Wide Web applications
+        using a client–server model.</p>
+        </div>
+      </div>
+        <div class = "card">
+        <div class = "box">
+          <img src = "https://us.123rf.com/450wm/melnyk58/melnyk581804/melnyk58180400893/99947851-young-serious-thoughtful-teen-girl-doubt-concept-.jpg?ver=6"  alt="">
+          <div class = "text"> Someone name </div>
+          <p> A web developer is a programmer or a coder who specializes in, or is specifically engaged in, the development of World Wide Web applications
+      using a client–server model.</p>
+      </div>
+    </div>
+
+          </div>
+          </section>
+
+         <!---Contact Section Start----->
+
+         <section class = "contact" id = "contact">
+           <div class = "max-width">
+             <h2 class = "title"> Contact me </h2>
+             <div class = "contact-content">
+             <div class = "column left">
+               <div class = "text"> Get in Touch </div>
+               <p> A web developer is a programmer or a coder who specializes in, or is specifically engaged in, the development of World Wide Web applications
+           using a client–server model.</p>
+           <div class = "icons">
+             <div class ="rows">
+             <div class = "info">
+               <div class = "head"> Name </div>
+               <div class = "sub-title"> Ravi Kumar </div>
+             </div>
+           </div><br>
+             <div class ="rows">
+             <div class = "info">
+               <div class = "head"> Address </div>
+               <div class = "sub-title"> Bhubaneswar </div>
+             </div>
+           </div><br>
+             <div class ="rows">
+             <div class = "info">
+               <div class = "head"> Email </div>
+               <div class = "sub-title"> abc@gmail.com </div>
+             </div>
+             </div>
+           </div>
+         </div>
+               <div class = "column right">
+               <div class = "text"> Message me </div>
+               <form action = "#">
+                <div class = "field">
+                  <div class = "field name">
+                    <input type = "text" placeholder= "Name" required>
+                </div>
+                <div class = "field email">
+                  <input type = "email" placeholder= "Email" required>
+              </div>
+              <div>
+              <div class = "field">
+                <input type = "text" placeholder= "Subject" required>
+              </div>
+
+              <div class = "field textarea">
+               <textarea cols = "10" rows = "10" placeholder= "Describe project.." required></textarea>
+                </div>
+
+                <div class = "button">
+                  <button type = "submit"> Send meassages </button>
+              </div>
+
+               </form>
+
+             </div>
+             </div>
+           </div>
+         </section>
+
+        <!---Footer Section Start----->
+
+       <footer>
+          <span>Created By<a href = "#"> Web Developer </a> | <span class = "far fa-copyright"></span> 2020 All reserved.</span>
+       </footer>
+   <script src = "script.js"></script>
+  </body>
 </html>
