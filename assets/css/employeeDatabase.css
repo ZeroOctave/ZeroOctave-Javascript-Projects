@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  /* width: 30%; */
+  text-align: -webkit-center;
+  border: 2px solid rgb(255, 162, 162);
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="number"]:focus,
+input[type="number"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+#heading1 {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 40px;
+}
+#p1 {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 20px;
+}
+#label {
+  font-size: 22px;
+}
+
+#salary {
+  border: 1px inherit;
+  border-radius: 30px;
+  font-size: 18px;
+  height: 30px;
+  color: black;
+  /* background-color: rgb(252, 207, 230); */
+  /* display: block; */
+  justify-content: space-between;
+}
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #340ea8;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+/* --------------------------------------------------------------------------------- */
+#myTable,
+th,
+td {
+  border: 2px solid rgb(214, 130, 130);
+  /* border-radius: 30px; */
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+}
+th {
+  background-color: rgb(175, 173, 173);
+}
+#myTable#alter tr:nth-child(even) {
+  background-color: rgb(230, 89, 89);
+}
+#myTable#alter tr:nth-child(odd) {
+  background-color: rgb(197, 38, 38);
+}
+#myTable#alter th {
+  color: white;
+  background-color: gray;
+}
+#record {
+  display: flex;
+  justify-content: center;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
