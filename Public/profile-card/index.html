@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+    <meta name="robots" content="noindex,nofollow" /> 
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta property="og:site_name" content="Jah18.x PROFILE">
+    <meta property="og:title" content="PEACE."/>
+    <meta property="og:description" content="Jah18.x">
+    <meta property="og:image" itemprop="image" content="profile.jpg">
+    <meta property="og:type" content="website"/>
+    <meta property="og:updated_time" content="1440432930"/>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Peace.</title>                                                                   
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="header">
+      </div>
+  
+
+   
+  
+<!--dark & light -->
+
+  <script>
+   function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+   </script>
+
+  
+  <!--photo and name -->
+      <div class="container">
+        <img id="userphoto" src="img.jpg"
+        alt="Useravatar">
+        <h1 onclick="myFunction()">MR_ZIVA_</h1>
+      </div>
+      
+      <!---link & redirecting button -->
+      <div class="links">
+       <a class="link" href="https://danielmiessler.com/blog/"  rel="noopener">CYBERSECURITY [ARTICLE]</a>
+       <a class="link" href="https://opensea.io/adithziva"  rel="noopener">OPENSEA [NFT]</a>
+       <a class="link" href="https://www.snapchat.com/add/jah18.x?share_id=DCm4f9t_rp4&locale=en-IN"  rel="noopener">SNAPCHAT </a>
+       <a class="link" href="https://github.com/adithziva" rel="noopener">GITHUB [TOOLS]</a>
+       <a class="link" href="https://telegram.me/adithziva" rel="noopener">TELEGRAM [CHAT ONLY]</a>
+      </div>
+      
+      
+        <!-- form starting -->
+        
+        <div class="containers">
+  <form id="submit-form" action="">
+             <br>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="Email Or Phone">Email Or Phone Number</label>
+    <input type="text" id="lname" name="Email Or Phone" placeholder="Email/Phone">
+
+    <label for="reason">Chat Reason</label>
+    <select id="reason" name="reason">
+      <option value="funchat">Fun Chat</option>
+      <option value="Bussines Enquiry">Bussines Enquiry</option>
+      <option value="Complaint">Complaint</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" name="submit_btn" value="submit">
+
+  </form>
+  
+     
+<script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbxGYy2WGl6ppoFskPTvp57SmJoCqZ8f5rJ7FNzn5Q/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully, Owner will respond you within 24hr ")
+                    window.location.reload()
+                    // window.location.href="#"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+  
+  
+  
+</div>
+        
+      <div class="footer">
+
+  <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "107500928564236");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+      </div>
+    </body>
+  </html>
