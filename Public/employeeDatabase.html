@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCL Employee List</title>
+    <link rel="stylesheet" href="..\assets\employeeDatabase.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-child magenta">
+<table class="table">
+    <tr class="table-row">
+        <td>
+            <form onsubmit="event.preventDefault(); onFormSubmit();" >
+                <div class="container">
+                    
+                    <h1 id="heading1">Register</h1>
+                    <p id="p1">Please fill  this form to create a Record.</p>
+                    <hr>
+            
+                    <label id="label" for="Emp-Name"><b>Emp-Name</b></label>
+                    <input type="text" placeholder="Enter Name" name="name" id="name" required >
+
+                    <label id="label" for="Emp-Code"><b>Emp-Code</b></label>
+                    <input type="text" placeholder="Enter code" name="code" id="code" required >
+            
+                    <label id="label" for="City"><b>City</b></label>
+                    <input type="text" placeholder="Enter City" name="city" id="city" required >
+
+                    <label id="label" for="Joining Date"><b>Joining Date</b></label>
+                    <input type="text" placeholder="Enter joining date" name="date" id="date" required >
+
+                    <label id="label" for="Department"><b>Department</b></label>
+                    <input type="text" placeholder="Enter department" name="dep" id="dep" required >
+
+                    <label id="label" for="Designation"><b>Designation</b></label>
+                    <input type="text" placeholder="Enter designation" name="des" id="des" required >
+            
+                    <label id="label" for="salary"><b>Salary</b></label>
+                    <input type="number" name="salary" id="salary"placeholder="Salary" required>
+                    <hr>
+            
+                    <!-- <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p> -->
+                    <button type="submit" name="submit"class="registerbtn">Submit</button>
+                </div>
+            </form>
+        </td>
+       
+    </tr>
+    
+</table>
+</div>
+<div class="flex-child green">
+ <td>
+    <h1 id="record">Record</h1>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search a name.." title="Type in a name">
+
+            <table  id="myTable">
+                <tr class="header"></tr>
+                
+                <thead id="tab_head">
+                        <tr>
+                            <th>Emp-Name</th>
+                            <th>Emp-Code</th>
+                            <th>City</th>
+                            <th>Joining Date</th>
+                            <th>Department</th>
+                            <th>Designation</th>
+                            <th>Salary</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                </thead>
+               
+                <tbody id="tab_body">
+
+                </tbody>
+                
+            </table>
+        </td>
+        </div>
+</div>
+    <script src="..\assets\employeeDatabase.js"></script>
+</body>
+</html>
+
+<!-- ------------------------------------------------ -->
