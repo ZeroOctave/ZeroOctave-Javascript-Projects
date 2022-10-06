@@ -51,7 +51,7 @@
 
     <div class="container my-3">
 
-        <h1> hello take your note</h1>
+        <h1> Hello! Take your notes</h1>
 
 
 
@@ -68,6 +68,8 @@
                 </div>
 
                 <a class="btn btn-primary  my-3" id="addbtn">Add note</a>
+
+                <a class="btn btn-primary  my-3" id="clrbtn">Clear</a>
             </div>
         </div>
 
@@ -118,6 +120,7 @@
 shownotes();
 
 let addbtn = document.getElementById('addbtn');
+let clrbtn = document.getElementById('clrbtn');
 
 
 addbtn.addEventListener('click', function (e) {
@@ -143,6 +146,14 @@ addbtn.addEventListener('click', function (e) {
 
 })
 
+clrbtn.addEventListener('click', function (e){
+
+    let adddtxt = document.getElementById('addtext');
+
+    
+    addtxt.value = "";
+
+})
 
 function shownotes() {
     let notes = localStorage.getItem('notes');
