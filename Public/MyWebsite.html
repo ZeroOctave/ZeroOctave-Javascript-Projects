@@ -1,0 +1,992 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Personal Portfolia Website </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  </head>
+  <script>
+    $(document).ready(function(){
+  $(window).scroll(function(){
+    if(this.scrollY > 20){
+      $('.navbar').addClass("sticky");
+    } else {
+      $('.navbar').removeClass("sticky");
+    }
+    if(this.scroll > 500){
+       $('.scroll-up-btn').addClass("show");
+    }else{
+       $('.scroll-up-btn').removeClass("show");
+    }
+  });
+  //slide-up script
+     $('.scroll-up-btn').click(function(){
+       $('html').animate({scrollTop: 0});
+     });
+
+
+
+  //toggle menu/navbar script
+  $('.menu-btn').click(function(){
+    $('.navbar .menu').toggleClass("active");
+    $('.menu-btn i').toggleClass("active");
+  });
+
+
+  //typing animation script
+    var typed = new Typed(".typing", {
+      strings: ["Youtuber","Developer","Blogger","Designer","Freelancer"],
+      typeSpeed: 100,
+      backSpeed: 60;
+      loop: true
+    });
+    var typed = new Typed(".typing-2", {
+      strings: ["Youtuber","Developer","Blogger","Designer","Freelancer"],
+      typeSpeed: 100,
+      backSpeed: 60;
+      loop: true
+    });
+
+
+
+ //  owl carousel script
+   $('.carousel').owlCarousel({
+       margin: 20,
+       loop: true;
+       autoplayTimeOut: 1000,
+       autoplayHoverPause: true,
+       responsive:{
+          0:{
+            items: 1,
+            nav: false
+          },
+          600:{
+            items: 2,
+            nav: false
+          },
+          1000:{
+            items: 3,
+            nav: false
+          }
+       }
+   });
+});
+
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html{
+   scroll-behavior: smooth;
+}
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+/* navbar styling */
+
+.navbar{
+  /*background: crimson;*/
+  position: fixed;
+  padding: 30px 0;
+  width: 100%;
+  z-index: 999;
+  font-family: 'ubuntu', sans-serif;
+  transition: all 0.3s ease;
+  background-color: #111;
+}
+.navbar .sticky{
+  padding: 15px 0;
+  background: crimson;
+}
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.navbar .logo a{
+  font-size: 35px;
+  font-weight: 600;
+  color: crimson;
+}
+.navbar .logo a span{
+  color: blue;
+  transition: all 0.3s ease;
+}
+.navbar .sticky .logo a span{
+    color: red;
+}
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a{
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover {
+  color: crimson;
+}
+.navbar .sticky .menu li a:hover{
+  color: red;
+}
+
+ /* menu section styling */
+.menu-btn{
+  color: brown;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+.scroll-up-btn{
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background: crimson;
+  right: 30px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  z-index: 9999;
+  font-size: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.scroll-up-btn .show{
+  bottom: 30px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* home section styling */
+
+.home{
+  display: flex;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkKFsoZvbJUv6LZJiDdPao54dykxqFqIEcsb_73NcfaMRT0ZrU4KuyvCCDV_BRIpfl7lU&usqp=CAU") no-repeat center;
+  height: 100vh;
+  color: blue;
+  min-height: 300px;
+  font-family: 'ubuntu', sans-serif;
+  background-size: 50% 50%;
+}
+.home .max-width{
+  margin: auto 0 auto 40px ;
+
+}
+.home .home-content .text-1{
+        font-size: 27px;
+}
+.home .home-content .text-2{
+        font-size: 75px;
+        font-weight: 600;
+        margin-left: -3px;
+}
+.home .home-content .text-3{
+        font-size: 40px;
+        margin: 5px 0;
+}
+.home .home-content .text-3 span{
+      color: crimson;
+      font-weight: 500;
+    }
+
+.home .home-content a{
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 20px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+  color: black;
+  background: none;
+}
+
+/* all similar content styling code */
+section{
+  padding: 100px 0;
+}
+.about, .services, .skills, .teams, .contact, footer{
+  font-family: 'Poppins',sans-serif;
+}
+.about .about-content,
+.services .serv-content,
+.skills .skills-content,
+.contact .contact-content{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+}
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'ubuntu', sans-serif;
+}
+section .title::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+section .title::after{
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 5px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+
+
+/* about section styling  */
+
+.about .title::after{
+  content: "Who i am";
+}
+
+.about .about-content .left{
+       width: 45%;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right{
+       width: 55%;
+}
+.about .about-content .right .text{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+     color: crimson;
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: crimson;
+    background: none;
+}
+
+
+/* services section styling  */
+.services, .teams{
+  color: #fff;
+  background: #111;
+}
+.services .title::before,
+.teams .title::before{
+    background: #fff;
+}
+.services .title::after,
+.teams .title::after{
+      background: #111;
+      content: "What i provide";
+}
+.services .serv-content .card{
+  width: 100%;
+  height: 100%;
+  background: #222;
+  text-align: center;
+  border-radius: 6px;
+  padding: 20px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.services .serv-content .card:hover{
+    background: lightblue;
+}
+.services .serv-content .card .box{
+   transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box{
+  transform: (1.05);
+
+}
+.services .serv-content .card{
+    font-size: 25px;
+    color: lightgrey;
+    transition: 0.5s;
+}
+.services .serv-content .card:hover{
+    color: #fff;
+}
+.services .serv-content .card .text{
+     font-size: 25px;
+     font-weight: 300;
+     margin: 10px 0 7px 0;
+     font-family: 'Montserrat', sans-serif;
+}
+
+/* skills section styling  */
+.skills .title::after{
+     content: "What i know";
+}
+.skills .skills-content .column{
+    width: 80%;
+}
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .left p{
+     text-align: justify;
+  }
+.skills .skills-content .left a{
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover{
+     color: crimson;
+    background: none;
+}
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+  }
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+  }
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content .right .line{
+     height: 5px;
+     width: 100%;
+     background: red;
+     position: relative;
+}
+.skills .skills-content .right .line::before{
+     content: "";
+     position: absolute;
+     height: 100%;
+     left: 0;
+     top: 0;
+     background: crimson;
+   }
+.skills .skills-content .right .html::before{
+      width: 90%;
+}
+.skills .skills-content .right .css::before{
+        width: 60%;
+}
+.skills .skills-content .right .js::before{
+      width: 80%;
+}
+.skills .skills-content .right .php::before{
+        width: 50%;
+}
+.skills .skills-content .right .mysql::before{
+          width: 70%;
+}
+
+/* teams Section Styling*/
+.teams .title::after{
+   content: "Who with me";
+}
+.teams .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover{
+    background: crimson;
+  }
+.teams .carousel .card .box{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     transition: all 0.3s ease;
+}
+.teams .carousel .card:hover .box{
+   transform: (1.05);
+ }
+.teams .carousel .card .text{
+     font-size: 25px;
+     font-weight: 500;
+     margin: 10px 0 7px 0;
+}
+.teams .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover img{
+    border-color: #fff;
+}
+.owl-dots{
+   text-align: center;
+   margin-top: 20px;
+}
+.owl-dot{
+   height: 13px;
+   width: 13px;
+   margin: 0 5px;
+   outline: none!important;
+   border-radius: 50%;
+   border: 2px solid crimson!important;
+   transition: all 0.3s ease;
+}
+.owl-dot.active{
+     width: 35px;
+     border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: crimson!important;
+}
+
+
+
+/* contact section styling */
+.contact .title::after{
+    content: "get in touch";
+}
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+     display: flex;
+     height: 65px;
+     align-items: center;
+}
+.contact .contact-content .row .info{
+     margin-left: 30px;
+}
+.contact .contact-content .row{
+    font-size: 25px;
+    color: crimson;
+}
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+    color: #333;
+}
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 30px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 80px;
+    width: 80%;
+}
+.contact .right form .name{
+    margin-right: 10px;
+}
+.contact .right form .email{
+      margin-right: 10px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 75%;
+    width: 75%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins'.sans-serif;
+}
+.contact .right form .textarea textarea{
+     padding-top: 5px;
+     resize: none;
+}
+.contact .right form .button{
+     height: 35px;
+     width: 45%;
+}
+.contact .right form .button button{
+     width: 100%;
+     height: 100%;
+     border: 2px solid crimson;
+     background: crimson;
+     color: #fff;
+     font-size: 20px;
+     font-weight: 500;
+     border-radius: 6px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+}
+.contact .right form .button button:hover{
+     color: crimson;
+     background: none;
+
+}
+
+/* footer section styling */
+
+footer{
+  background: #111;
+  padding: 20px 23px;
+  color: #fff;
+  text-align: center;
+}
+footer span a{
+  color: crimson;
+  text-decoration: none;
+}
+footer span a:hover{
+   text-decoration: underline;
+}
+
+
+
+
+/* responsive media query start */
+@media(max-width: 1300px){
+     .home .max-width{
+       margin-left: 0px;
+     }
+}
+@media(max-width: 1104px){
+  .about .about-content .left img{
+      height: 350px;
+      width: 350px;
+  }
+}
+@media(max-width: 991px){
+  .max-width{
+    padding: 0 50px;
+  }
+ }
+@media(max-width: 947px){
+    .menu-btn{
+    display: block;
+    z-index: 999;
+  }
+  .menu-btn i.active:before{
+    content:"\f00d";
+  }
+  .navbar .menu{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: lightgray;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+  .navbar .menu .active{
+    left: 0;
+  }
+
+  .navbar .menu li{
+    display: block;
+  }
+  .navbar .menu li a{
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+}
+.home .home-content .text-2{
+        font-size: 70px;
+}
+.home .home-content .text-3{
+        font-size: 35px;
+}
+.home .home-content a{
+  font-size: 23px;
+  padding: 10px 30px;
+}
+.max-width{
+  max-width: 800px;
+}
+.about .about-content .column{
+    width: 100%;
+}
+.about .about-content .left{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+}
+.about .about-content .right{
+  flex: 100%;
+}
+.services .serv-content .card{
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+.skills .skills-content .column,
+.contact .contact-content .column{
+   width: 100%;
+   margin-bottom: 35px;
+}
+}
+@media(max-width: 690px){
+  .max-width{
+    padding: 0 23px;
+  }
+  .home .home-content .text-2{
+          font-size: 60px;
+
+  }
+  .home .home-content .text-3{
+          font-size: 32px;
+
+  }
+  .home .home-content a{
+    font-size: 20px;
+  }
+  .services .serv-content .card{
+    width: 100%;
+  }
+ }
+ @media(max-width: 500px){
+   .home .home-content .text-2{
+           font-size: 50px;
+
+   }
+   .home .home-content .text-3{
+           font-size: 32px;
+
+   }
+  }
+  </style>
+  <body>
+     <div class = "scroll-up-btn">
+       <i class = "fas fa-angle-up"></i>
+     </div>
+     <nav class = "navbar">
+       <div class = "max-width">
+         <div class = "logo"><a href ="">Portfo<span>lio.</span> </a></div>
+         <ul class ="menu">
+               <li><a href = "#home" class = "menu-btn"> Home </a></li>
+               <li><a href = "#about" class = "menu-btn"> About</a></li>
+               <li><a href = "#services" class = "menu-btn"> Services</a></li>
+               <li><a href = "#skills" class = "menu-btn"> Skills</a></li>
+               <li><a href = "#teams" class = "menu-btn"> Teams</a></li>
+               <li><a href = "#contact" class = "menu-btn"> Contact</a></li>
+           </ul>
+           <div class = "menu-btn">
+             <i class = "fa fa-bars"></i>
+           </div>
+         </div>
+         </nav>
+
+           <!---Home Section Start----->
+
+         <section class = "home" id = "home">
+           <div class = "max-width">
+             <div class = "home-content">
+              <div class = "text-1">Hello, my name is </div>
+              <div class = "text-2"> Ravi Kumar </div>
+              <div class = "text-3"> And I'm a <span class = "typing"> Web Developer </span> </div>
+              <a href = "#"> Hire Me </a>
+           </div>
+           </div>
+         </section>
+
+         <!---About Section Start----->
+
+         <section class = "about" id = "about">
+           <div class = "max-width">
+             <h2 class = "title"> About Me </h2>
+             <div class = "about-content">
+               <div class = "column left">
+                 <img src = "https://1.bp.blogspot.com/-St15WrCZIpU/YTrw8Uo6ygI/AAAAAAAAFB8/PSUTwdpXjsMZ3B82mA7zziYbME4a3cxbACLcBGAsYHQ/s736/stylish%2Bphoto%2Bpose%2Bfor%2Bboy%2Bhd.jpeg" alt="">
+           </div>
+           <div class = "column right">
+             <div class = "text"> I'm Ravi Kumar and I'm a <span class = "typing-2">Web Developer</span></div>
+             <p> A web developer is a programmer or a coder who specializes in, or is specifically engaged in, the development of World Wide Web applications
+         using a client–server model. The applications typically use HTML, CSS and JavaScript in the client, PHP, ASP.NET (C#), Python, Node.js, Go or Java
+         in the server, and http for communications between client and server. A web developer may specialize in client-side applications (front-end developer),
+          server-side applications (back-end developer), or both (full-stack developer). A web content management system may be used to develop and maintain web applications.</p>
+          <a href = "#"> Download CV</a>
+           </div>
+           </div>
+         </div>
+         </section>
+
+       <!---Services Section Start----->
+
+         <section class = "services" id = "services">
+           <div class = "max-width">
+             <h2 class = "title"> My Services </h2>
+             <div class = "serv-content">
+               <div class = "card">
+               <div class = "box">
+                 <div class = "column left"></div>
+                   <div class = "text"> Web Design </div>
+                   <p> Web design encompasses many different skills and disciplines in the production and maintenance of websites.  </p>
+               </div>
+               </div>
+               <div class = "card">
+               <div class = "box">
+                 <div class = "column center"></div>
+                   <div class = "text"> Advertising </div>
+                   <p> Web design encompasses many different skills and disciplines in the production and maintenance of websites.  </p>
+               </div>
+               </div>
+           <div class = "card">
+           <div class = "box">
+               <div class = "column right"></div>
+               <div class = "text"> Apps Design </div>
+               <p> Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas
+                  of web design include web graphic design; user interface design (UI design). </p>
+           </div>
+           </div>
+       </div>
+         </div>
+         </section>
+
+         <!---Skills Section Start----->
+
+         <section class = "skills" id = "skills">
+           <div class = "max-width">
+             <h2 class = "title"> My Skills </h2>
+             <div class = "skills-content">
+               <div class = "column left">
+                 <div class ="text"> My  Creative Skills & Experiences </div>
+          <p> Web development takes into account many security considerations, such as data entry error checking through forms, filtering output, and
+          encryption. Malicious practices such as SQL injection can be executed by users with ill intent yet with only primitive knowledge of Web development
+              as a whole.</p>
+             <a href ="#"> Read More </a>
+           </div>
+               <div class = "column right"><br>
+                 <div class = "bars">
+                   <div class = "info">
+                     <span> HTML </span>
+                      <span> 100% </span>
+                    </div>
+                      <div class ="line html"></div>
+
+                  </div>
+                  <div class = "bars">
+                    <div class = "info">
+                      <span> CSS </span>
+                       <span> 100% </span>
+                       </div>
+                       <div class ="line css"></div>
+
+                   </div>
+                   <div class = "bars">
+                     <div class = "info">
+                       <span> JavaScript </span>
+                        <span> 100% </span>
+                        </div>
+                        <div class ="line js"></div>
+
+                    </div>
+                    <div class = "bars">
+                      <div class = "info">
+                        <span> PHP </span>
+                         <span> 100% </span>
+                            </div>
+                         <div class ="line php"></div>
+
+                     </div>
+                     <div class = "bars">
+                       <div class = "info">
+                         <span> MySQL </span>
+                          <span>  100% </span>
+                          </div>
+                          <div class ="line mysql"></div>
+              </div>
+             </div>
+           </div>
+         </div>
+         </section>
+
+          <!---teams Section Start----->
+
+          <section class = "teams" id = "teams">
+            <div class = "max-width">
+              <h2 class = "title"> My Teams </h2>
+               <div class = "carousel">
+              <div class = "card">
+              <div class = "box">
+                <img src = "https://cbsnews2.cbsistatic.com/hub/i/r/2019/10/23/d0471bbe-c9c9-47ab-a76c-7a48000c7837/thumbnail/640x445/44f87905fe8230ca1fe485f6449f5a5a/47-asher.jpg"  alt="">
+                <div class = "text"> Someone name </div>
+                <p> A web developer is a programmer or a coder who specializes in, or is specifically engaged in, the development of World Wide Web applications
+            using a client–server model.</p>
+              </div>
+            </div>
+            <div class = "card">
+            <div class = "box">
+              <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdO6Is4pmsQOsebJxF_pJy0rf30FzRgToVbw&usqp=CAU"  alt="">
+              <div class = "text"> Someone name </div>
+              <p> A web developer is a programmer or a coder who specializes in, or is specifically engaged in, the development of World Wide Web applications
+          using a client–server model.</p>
+            </div>
+          </div>
+          <div class = "card">
+          <div class = "box">
+            <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6HOitMWGCKRNbIP2ddYYPbYvPz_r6bw5rAg&usqp=CAU"  alt="">
+            <div class = "text"> Someone name </div>
+            <p> A web developer is a programmer or a coder who specializes in, or is specifically engaged in, the development of World Wide Web applications
+        using a client–server model.</p>
+        </div>
+      </div>
+        <div class = "card">
+        <div class = "box">
+          <img src = "https://us.123rf.com/450wm/melnyk58/melnyk581804/melnyk58180400893/99947851-young-serious-thoughtful-teen-girl-doubt-concept-.jpg?ver=6"  alt="">
+          <div class = "text"> Someone name </div>
+          <p> A web developer is a programmer or a coder who specializes in, or is specifically engaged in, the development of World Wide Web applications
+      using a client–server model.</p>
+      </div>
+    </div>
+
+          </div>
+          </section>
+
+         <!---Contact Section Start----->
+
+         <section class = "contact" id = "contact">
+           <div class = "max-width">
+             <h2 class = "title"> Contact me </h2>
+             <div class = "contact-content">
+             <div class = "column left">
+               <div class = "text"> Get in Touch </div>
+               <p> A web developer is a programmer or a coder who specializes in, or is specifically engaged in, the development of World Wide Web applications
+           using a client–server model.</p>
+           <div class = "icons">
+             <div class ="rows">
+             <div class = "info">
+               <div class = "head"> Name </div>
+               <div class = "sub-title"> Ravi Kumar </div>
+             </div>
+           </div><br>
+             <div class ="rows">
+             <div class = "info">
+               <div class = "head"> Address </div>
+               <div class = "sub-title"> Bhubaneswar </div>
+             </div>
+           </div><br>
+             <div class ="rows">
+             <div class = "info">
+               <div class = "head"> Email </div>
+               <div class = "sub-title"> abc@gmail.com </div>
+             </div>
+             </div>
+           </div>
+         </div>
+               <div class = "column right">
+               <div class = "text"> Message me </div>
+               <form action = "#">
+                <div class = "field">
+                  <div class = "field name">
+                    <input type = "text" placeholder= "Name" required>
+                </div>
+                <div class = "field email">
+                  <input type = "email" placeholder= "Email" required>
+              </div>
+              <div>
+              <div class = "field">
+                <input type = "text" placeholder= "Subject" required>
+              </div>
+
+              <div class = "field textarea">
+               <textarea cols = "10" rows = "10" placeholder= "Describe project.." required></textarea>
+                </div>
+
+                <div class = "button">
+                  <button type = "submit"> Send meassages </button>
+              </div>
+
+               </form>
+
+             </div>
+             </div>
+           </div>
+         </section>
+
+        <!---Footer Section Start----->
+
+       <footer>
+          <span>Created By<a href = "#"> Web Developer </a> | <span class = "far fa-copyright"></span> 2020 All reserved.</span>
+       </footer>
+   <script src = "script.js"></script>
+  </body>
+</html>
