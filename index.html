@@ -1,75 +1,99 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!--Eend of Bootstrap CSS-->
+    <!--Buy me a coffee script-->
+    <script
+      data-name="BMC-Widget"
+      data-cfasync="false"
+      src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+      data-id="Astrodevil"
+      data-description="Support me on Buy me a coffee!"
+      data-message=""
+      data-color="#00C2CB"
+      data-position="Right"
+      data-x_margin="50"
+      data-y_margin="50"
+    ></script>
+    <!--End of Buy me a coffee script-->
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <!--Eend of Bootstrap CSS-->
-  <!--Buy me a coffee script-->
-  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-    data-id="Astrodevil" data-description="Support me on Buy me a coffee!" data-message="" data-color="#00C2CB"
-    data-position="Right" data-x_margin="50" data-y_margin="50">
+    <!-- fontawesome starts -->
+    <script
+      src="https://kit.fontawesome.com/bb036527a9.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--End of fontawesome -->
+    <!-- Start of google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;500;600&family=Poppins:wght@300;500;700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- End of google fonts -->
+
+    <link href="assets/css/landing_page.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Landing Page</title>
+
+    <!-- website favicon -->
+    <link rel="icon" href="./favicon-32x32.png" />
+  </head>
+
+  <body class="day" onload="pre_loading()">
+    <!--Preloader-->
+    <div class="preloadeR" id="preLoading"><span></span></div>
+
+    <script>
+      let p = document.getElementById("preLoading");
+
+      function pre_loading() {
+        setTimeout(myfunction, 3000);
+      }
+
+      function myfunction() {
+        p.style.display = "none";
+      }
     </script>
-  <!--End of Buy me a coffee script-->
 
-  <!-- fontawesome starts -->
-  <script src="https://kit.fontawesome.com/bb036527a9.js" crossorigin="anonymous"></script>
-  <!--End of fontawesome -->
-  <!-- Start of google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;500;600&family=Poppins:wght@300;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- This script is causing hearts to flow from top in every page remove it if needed -->
+    <!-- <script src="assets/Js/purple_heart.js"></script> -->
 
-
-  <!-- End of google fonts -->
-
-  <link href="assets/css/landing_page.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-
-
-  <title>Landing Page</title>
-  
-  <!-- website favicon -->
-  <link rel="icon" href="./favicon-32x32.png">
-
-</head>
-
-<body class="day" onload="pre_loading()">
-
-  <!--Preloader-->
-  <div class="preloadeR" id="preLoading" ><span></span></div>
-
-<script>
-      var p = document.getElementById('preLoading'); 
-
-      function pre_loading(){
-      setTimeout( myfunction,3000);
-      }
-
-      function myfunction(){
-      p.style.display = 'none';
-      }
-
-</script>
-
-  <!-- This script is causing hearts to flow from top in every page remove it if needed -->
-  <!-- <script src="assets/Js/purple_heart.js"></script> -->
-
-  <nav class="nav">
-    <div class="container">
-      <h1 class="logo"><a href="#">ZeroOctave</a></h1>
-      <ul>
-        <li><a href="#scrollto" class="current"><i class="fa-brands fa-js"></i> Projects</a></li>
-        <li><a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"><i class="fa-brands fa-github-alt"></i> Github</a></li>
-	      <li>
-                    <div class="toggleWrapper">
-                        <input type="checkbox" class="dn" id="dn" />
-                        <label for="dn" class="toggle">
+    <nav class="nav">
+      <div class="container">
+        <h1 class="logo"><a href="#">ZeroOctave</a></h1>
+        <ul>
+          <li>
+            <a href="#scrollto" class="current"
+              ><i class="fa-brands fa-js"></i> Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"
+              ><i class="fa-brands fa-github-alt"></i> Github</a
+            >
+          </li>
+          <li>
+            <div class="toggleWrapper">
+              <input type="checkbox" class="dn" id="dn" />
+              <label for="dn" class="toggle">
                 <span class="toggle__handler">
                   <span class="crater crater--1"></span>
                   <span class="crater crater--2"></span>
@@ -81,161 +105,161 @@
                 <span class="star star--4"></span>
                 <span class="star star--5"></span>
                 <span class="star star--6"></span>
-            </label>
-                    </div>
-                </li>
-      </ul>
-    </div>
-  </nav>
-
-  <h1 class="title">&#123; <span style="color: #FF914D;">JavaScript</span> Projects &#125;</h1>
-
-  <div class="container background-container">
-    <!--searchbar-->
-    <input type="text" id="searchbar" placeholder="Search Project...">
-  
-  </div>
-
-  <!-- CARDS SECTION STARTS HERE -->
-
-  <div id="scrollto" class="container">
-    <div class="row card-container" id="cardd">
-        
-    </div>
-
-  </div>
-
-  <!-- CARDS SECTION END HERE -->
-
-  <div class="loading show">
-    <div class="ball"></div>
-    <div class="ball"></div>
-    <div class="ball"></div>
-  </div>
-
-
-
-
-  <script>
-    var noOfCardsToLoad = 10;
-    var cardLoadedYet = 0;
-    var loadingBalls=false
-    const loading = document.querySelector('.loading');
-    console.log(cardItems[0])
-    showLoading();
-    window.addEventListener('scroll', () => {
-      const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
-
-      console.log({ scrollTop, scrollHeight, clientHeight });
-
-      var footerHeight = document.getElementsByClassName('footer')[0].offsetHeight;
-      console.log(footerHeight)
-
-      if (clientHeight + scrollTop >= scrollHeight - footerHeight && cardLoadedYet < cardItems.length) {
-        // show the loading animation
-        // setTimeout(showLoading,1000);
-        showLoading()
-      }
-    });
-
-    function showLoading() {
-      loading.classList.add('show');
-      // load more data
-      // showNextItems();
-      if(loadingBalls==false)
-      {
-        loadingBalls=true;
-        setTimeout(showNextItems, 1000)
-
-      }
-
-
-    }
-
-
-
-    function showNextItems() {
-     
-      console.log('show next items')
-      const container = document.getElementsByClassName('container')[0];
-
-      console.log(cardItems.length, cardLoadedYet)
-      let temp = cardLoadedYet
-
-      for (; cardLoadedYet <= (noOfCardsToLoad + temp < cardItems.length ? noOfCardsToLoad + temp : cardItems.length - 1); cardLoadedYet++) {
-
-        console.log(cardItems[cardLoadedYet])
-        container.innerHTML += cardItems[cardLoadedYet];
-      }
-
-
-      if (cardLoadedYet >= cardItems.length)
-        loading.classList.remove('show');
-
-        loadingBalls=false;
-    }
-  </script>
-  
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  
-
-
-
-  <!-- footer section starts -->
-
-  <footer class="footer">
-    <div class="row">
-      <!-- footer about section -->
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <h3 class="footer-heading">ZeroOctave</h3>
-        <hr class="footer-hr-1">
-        <p class="footer-about">ZeroOctave Javascript Projects provide some awesome web development projects to work
-          upon and enhance your skills. The motive of this project is to help new learners like you to get familiar with
-          web development skills.</p>
-      </div>
-      <!-- developers section -->
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <h3 class="footer-heading">Collaborations</h3>
-        <ul class="organisations">
-          <hr class="footer-hr-1">
-          <a href="https://hacktoberfest.digitalocean.com/" target="_blank">
-            <li>Hacktoberfest 2021</li>
-            <hr class="footer-hr-2">
-          </a>
-          <a href="https://icc-techsahead.netlify.app/" target="_blank">
-            <li>ICC 2021</li>
-            <hr class="footer-hr-2">
-          </a>
-          <a href="https://dwoc.io/" target="_blank">
-            <li>DWOC 2021</li>
-            <hr class="footer-hr-2">
-          </a>
-          <a href="https://gssoc.girlscript.tech/" target="_blank">
-            <li>GSSOC 2022</li>
-            <hr class="footer-hr-2">
-          </a>
+              </label>
+            </div>
+          </li>
         </ul>
       </div>
-      <!-- social media icons -->
-      <div class="col-lg-4 col-md-4 col-sm-12 icon">
-        <h3 class="footer-heading">Follow Us</h3>
-        <hr class="footer-hr-1">
-        <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"><i
-            class="fa-brands fa-github fa-2x social-icon"></i></a><br>
-        <a href="https://twitter.com/zero_octave"><i class="fa-brands fa-twitter fa-2x social-icon"></i></a><br>
-        <a href="https://zerooctave.github.io/"><i class="fa-solid fa-globe fa-2x social-icon"></i></a><br>
-        <a href="ZeroOctave@protonmail.com"><i class="fa-solid fa-envelope fa-2x social-icon"></i></a><br>
-      </div>
+    </nav>
 
-      
+    <h1 class="title">
+      &#123; <span style="color: #ff914d">JavaScript</span> Projects &#125;
+    </h1>
 
-
+    <div class="container background-container">
+      <!--searchbar-->
+      <input type="text" id="searchbar" placeholder="Search Project..." />
     </div>
-	<!--Back to top button-->
-    <a href = "#top">
-      <button id="back-to-top" style="background-color: #00C2CB;">
-        <i class="fa-solid fa-arrow-up"></i>
-      </button>
+
+    <!-- CARDS SECTION STARTS HERE -->
+
+    <div id="scrollto" class="container">
+      <div class="row card-container" id="cardd"></div>
+    </div>
+
+    <!-- CARDS SECTION END HERE -->
+
+    <div class="loading show">
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+    </div>
+
+    <script>
+      let noOfCardsToLoad = 10;
+      let cardLoadedYet = 0;
+      let loadingBalls = false;
+      const loading = document.querySelector(".loading");
+      console.log(cardItems[0]);
+      showLoading();
+      window.addEventListener("scroll", () => {
+        const { scrollTop, scrollHeight, clientHeight } =
+          document.documentElement;
+
+        console.log({ scrollTop, scrollHeight, clientHeight });
+
+        const footerHeight =
+          document.getElementsByClassName("footer")[0].offsetHeight;
+        console.log(footerHeight);
+
+        if (
+          clientHeight + scrollTop >= scrollHeight - footerHeight &&
+          cardLoadedYet < cardItems.length
+        ) {
+          // show the loading animation
+          // setTimeout(showLoading,1000);
+          showLoading();
+        }
+      });
+
+      function showLoading() {
+        loading.classList.add("show");
+        // load more data
+        // showNextItems();
+        if (loadingBalls == false) {
+          loadingBalls = true;
+          setTimeout(showNextItems, 1000);
+        }
+      }
+
+      function showNextItems() {
+        console.log("show next items");
+        const container = document.getElementsByClassName("container")[0];
+
+        console.log(cardItems.length, cardLoadedYet);
+        let temp = cardLoadedYet;
+
+        for (
+          ;
+          cardLoadedYet <=
+          (noOfCardsToLoad + temp < cardItems.length
+            ? noOfCardsToLoad + temp
+            : cardItems.length - 1);
+          cardLoadedYet++
+        ) {
+          console.log(cardItems[cardLoadedYet]);
+          container.innerHTML += cardItems[cardLoadedYet];
+        }
+
+        if (cardLoadedYet >= cardItems.length) loading.classList.remove("show");
+
+        loadingBalls = false;
+      }
+    </script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <!-- footer section starts -->
+
+    <footer class="footer">
+      <div class="row">
+        <!-- footer about section -->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h3 class="footer-heading">ZeroOctave</h3>
+          <hr class="footer-hr-1" />
+          <p class="footer-about">
+            ZeroOctave Javascript Projects provide some awesome web development
+            projects to work upon and enhance your skills. The motive of this
+            project is to help new learners like you to get familiar with web
+            development skills.
+          </p>
+        </div>
+        <!-- developers section -->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h3 class="footer-heading">Collaborations</h3>
+          <ul class="organisations">
+            <hr class="footer-hr-1" />
+            <a href="https://hacktoberfest.digitalocean.com/" target="_blank">
+              <li>Hacktoberfest 2021</li>
+              <hr class="footer-hr-2" />
+            </a>
+            <a href="https://icc-techsahead.netlify.app/" target="_blank">
+              <li>ICC 2021</li>
+              <hr class="footer-hr-2" />
+            </a>
+            <a href="https://dwoc.io/" target="_blank">
+              <li>DWOC 2021</li>
+              <hr class="footer-hr-2" />
+            </a>
+            <a href="https://gssoc.girlscript.tech/" target="_blank">
+              <li>GSSOC 2022</li>
+              <hr class="footer-hr-2" />
+            </a>
+          </ul>
+        </div>
+        <!-- social media icons -->
+        <div class="col-lg-4 col-md-4 col-sm-12 icon">
+          <h3 class="footer-heading">Follow Us</h3>
+          <hr class="footer-hr-1" />
+          <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects"
+            ><i class="fa-brands fa-github fa-2x social-icon"></i></a
+          ><br />
+          <a href="https://twitter.com/zero_octave"
+            ><i class="fa-brands fa-twitter fa-2x social-icon"></i></a
+          ><br />
+          <a href="https://zerooctave.github.io/"
+            ><i class="fa-solid fa-globe fa-2x social-icon"></i></a
+          ><br />
+          <a href="ZeroOctave@protonmail.com"
+            ><i class="fa-solid fa-envelope fa-2x social-icon"></i></a
+          ><br />
+        </div>
+      </div>
+      <!--Back to top button-->
+      <a href="#top">
+        <button id="back-to-top" style="background-color: #00c2cb">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
       </a>
       <script>
         const btnScrollToTop = document.querySelector("#back-to-top");
@@ -244,32 +268,34 @@
             top: 0,
             left: 0,
             behavior: "smooth",
-          })
-  
+          });
         });
       </script>
-	  
-	  
-    <!-- copyright notice -->
-    <div class="copyright">
-      <p class="copyright-message">© Copyright 2021-2022.<br>All rights reserved.</p>
-    </div>
-  </footer>
-  <!-- footer section ends -->
 
+      <!-- copyright notice -->
+      <div class="copyright">
+        <p class="copyright-message">
+          © Copyright 2021-2022.<br />All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- footer section ends -->
 
-  
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <script src="script.js"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
