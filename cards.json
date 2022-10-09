@@ -860,6 +860,11 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
-    }
+    },
+     {
+	"name": "Employee database management",
+	"image": "assets/Images/employeeDatabase.png",
+	"link": "Public/employeeDatabase.html"
+     }
 ]
 
