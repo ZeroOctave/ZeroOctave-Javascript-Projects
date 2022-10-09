@@ -446,7 +446,7 @@ input:checked+.toggle .star--6 {
 }
 
 @keyframes spanAnimation{
- 
+
   50%{
 
    width: 100%;
@@ -502,8 +502,16 @@ input:checked+.toggle .star--6 {
 
   #back-to-top {
     position: relative;
-    z-index: 10;
+    
   }
+}
+
+.zoom{
+  transition: transform .3s;
+}
+
+.zoom:hover{
+  transform: scale(1.25);
 }
 
 /* CARDS DESIGN STARTS  */
