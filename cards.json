@@ -247,6 +247,11 @@
         "link": "Public/EmailValidator.html"
     },
     {
+	"name": "Employee database management",
+	"image": "assets/Images/employeeDatabase.png",
+	"link": "Public/employeeDatabase.html"
+    },
+    {
         "name": "Expanding Cards UI design",
         "image": "./assets/Images/ExpandingCardsUIdesign.png",
         "link": "./Public/ExpandingCardsUIdesign.html"
@@ -861,10 +866,6 @@
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
     },
-     {
-	"name": "Employee database management",
-	"image": "assets/Images/employeeDatabase.png",
-	"link": "Public/employeeDatabase.html"
-     }
+     
 ]
 
