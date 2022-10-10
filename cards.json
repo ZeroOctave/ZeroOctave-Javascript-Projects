@@ -247,6 +247,11 @@
         "link": "Public/EmailValidator.html"
     },
     {
+	"name": "Employee database management",
+	"image": "assets/Images/employeeDatabase.png",
+	"link": "Public/employeeDatabase.html"
+    },
+    {
         "name": "Expanding Cards UI design",
         "image": "./assets/Images/ExpandingCardsUIdesign.png",
         "link": "./Public/ExpandingCardsUIdesign.html"
@@ -275,6 +280,11 @@
         "name": "Flappy Bird",
         "image": "assets/Images/flappybird/flappybird.png",
         "link": "Public/flappybird.html"
+    },
+    {
+        "name": "Font Styles",
+        "image": "assets/Images/font_logo.jpg",
+        "link": "Public/font_styles.html"
     },
     {
         "name": "Food Filter",
@@ -855,6 +865,7 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
-    }
+    },
+     
 ]
 

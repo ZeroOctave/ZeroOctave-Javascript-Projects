@@ -1,56 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoWin Slot Notifier</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/vaccineslot.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-
 <body>
     <div class="banner">
-        <img src="../assets/Images/vaccineslot/vaccineslot.jpg" style="width: 2530px; height: 300px;" alt="" />
+        <img src="../assets/Images/vaccineslot/vaccineslot.jpg" alt="" />
+        <!-- <img src="vaccineslot.jpg" alt=""> -->
     </div>
 
-    <div class="Heading">
-        <h1 style="font-weight: 1000;">C<img src="../assets/Images/vaccineslot/vaccineslotadd.png" style="width: 30px; height: 30px;" />Win Vaccination Slot Finder For 18+</h1>
+    <div class="Heading mt-4">
+        <h1 style="font-weight: 1000;">C<img class="mb-2" src="../assets/Images/vaccineslot/vaccineslotadd.png" style="width: 30px; height: 30px;" alt="">Win Vaccination Slot Finder For 18+</h1>
     </div>
-    <div class="input">
 
-        <label for="date">
-            <h2 style="text-align: center;">Select Date:</h2>
-        </label><br>
-
-        <input type="date" id="date"><br>
-
-
-        <h2>Enter State name:</h2>
-        <input type="text" class="state" placeholder="Enter State name" list="states" required><br>
-
-        <datalist id="states">
-            <div class="statesoutput">
-             </div>
-        </datalist>
-
-        <h2>Enter district name:</h2>
-        <input type="text" class="districtname" placeholder="Enter district name" list="districts" required><br>
-
-        <datalist id="districts">
-            <div class="districtnames">
-            </div>
-        </datalist>
-
-        <input type="submit" value="Search" class="submit">
-
-        <div class="display">
-            <p class="content"></p><br>
+    <form class="input">
+        <div class="form-group">
+            <label for="date"><h2>Enter Date:</h2></label>
+            <input type="date" id="date" class="form-control" aria-describedby="dateHelp">
         </div>
-    </div>
 
+        <div class="form-group">
+            <h2>Enter State name:</h2>
+            <input type="text" class="state form-control" placeholder="Enter State name" list="states" required>
+            <datalist id="states">
+                <div class="statesoutput">
+                 </div>
+            </datalist>
+        </div>
+
+        <div class="form-group">
+            <h2>Enter district name:</h2>
+            <input type="text" class="districtname form-control" placeholder="Enter district name" list="districts" required>
+            <datalist id="districts">
+                <div class="districtnames">
+                </div>
+            </datalist>
+        </div>
+        <input type="submit" value="Search" class="submit btn btn-success">
+    </form>
     <div id="accordion">
         <div class="card">
             <br><span><h2 style="color: blue; font-weight: 1000;">Frequently Asked Questions On CoWin</h2></span><br>
@@ -200,6 +192,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="../assets/Js/vaccineslot.js"></script>
+    <!-- <script src="vaccineslot.js"></script> -->
 </body>
-
 </html>
