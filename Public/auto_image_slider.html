@@ -1,56 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SlideShower</title>
+    <link rel="stylesheet" href="index.css" />
     <style>
-        body {
-    background-color: rgba( 27 , 31 , 34 ,0.85 );
-}
-h1 {
-    font-size: 3vw;
-    line-height: 1.4;
-    letter-spacing: 0.2vw;
-    text-align: center;
-    color: white;
-    margin-top: 5%;
-}
-.maindiv {
-    height: 50%;
-    width: 50%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    background-image: url('https://source.unsplash.com/featured/?{nature},{forest},{lanscape},{flower}');
-    background-size: 100% 100%;
-    transform: translate(-50% , -50%);
-    box-shadow: 1px 2px 10px 5px white;
-    animation: slider 20s infinite linear;
-}
-@keyframes slider {
-    0%{
-        background-image: url('https://source.unsplash.com/featured/?{flower}');
-    }
-    33%{
-        background-image: url('https://source.unsplash.com/featured/?{nature},{forest},{lanscape}');
-    }
-    66%{
-        background-image: url('https://source.unsplash.com/featured/?{nature}');
-    }
-    100%{
-        background-image: url('https://source.unsplash.com/featured/?{nature},{lanscape},{flower}');
-    }
-}
+      body {
+        background-color: rgba(27, 31, 34, 0.85);
+      }
+      h1 {
+        font-size: 3vw;
+        line-height: 1.4;
+        letter-spacing: 0.2vw;
+        text-align: center;
+        color: white;
+        margin-top: 5%;
+      }
+      .maindiv {
+        height: 50%;
+        width: 50%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background-image: url("https://source.unsplash.com/featured/?{nature},{forest},{lanscape},{flower}");
+        background-size: 100% 100%;
+        transform: translate(-50%, -50%);
+        box-shadow: 1px 2px 10px 5px white;
+        animation: slider 20s infinite linear;
+      }
+      @keyframes slider {
+        0% {
+          background-image: url("https://source.unsplash.com/featured/?{flower}");
+        }
+        33% {
+          background-image: url("https://source.unsplash.com/featured/?{nature},{forest},{lanscape}");
+        }
+        66% {
+          background-image: url("https://source.unsplash.com/featured/?{nature}");
+        }
+        100% {
+          background-image: url("https://source.unsplash.com/featured/?{nature},{lanscape},{flower}");
+        }
+      }
     </style>
-</head>
-<body>
-    <h1> Background Image Changing Animation </h1>
+  </head>
+  <body>
+    <h1>Background Image Changing Animation</h1>
     <div class="maindiv"></div>
-    <script>
-        
-    </script>
-</body>
+    <script></script>
+  </body>
 </html>
