@@ -1,0 +1,360 @@
+*{
+  font-family: 'baloo chettan';
+  text-align: center;
+  margin: 0;
+  padding: 0
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #08ed1b;
+  text-shadow: 1px 1px 1px #298632;
+  height: 100vh;
+  background: url('/libs/img/background.jpg') 
+}
+
+.container{
+  width: 600px;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px #3f11bf;
+  background-image: linear-gradient(to bottom, #b0b0b0, #707070, #515152)
+}
+
+.header{
+  height: 50px;
+}
+
+.letters{
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter{
+  width: 60px;
+  height: 130px;
+  margin: 3px;
+}
+
+.letter div:nth-child(1){
+  margin-top: 30px;
+  height: 70px;
+  font-size: 3.5em;
+  color: #f0a80f;
+  text-shadow: 2px 2px 2px #533a04
+}
+
+.letter div:nth-child(2) {
+  background: rgb(30,30,30);
+  height: 10px;
+  width: 100%;
+  border-radius: 3px;
+  background-image: linear-gradient(to bottom, #e8c277, #75623c, #5c4413, #493205);
+  box-shadow: 1px 2px 2px #614918
+}
+
+.wordMeaning {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: orange;
+  text-shadow: 1px 1px 1px #533a04;
+
+}
+
+.bottom {
+  height: 240px;
+  width: 100%;
+}
+
+.keys {
+  width: 65%;
+  height: 240px;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.keysPlacer{
+  width: 250px;
+  height: 210px;
+}
+
+.keyText {
+  width: 52px;
+  height: 60px;
+  margin: 5px 5px;
+  float: left;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, #f2d7a1, #bea97f, #8c774c);
+  font-size: 2.5em;
+  box-shadow: 3px 3px 3px #614918;
+  color: #49854e;
+  text-shadow: 1px 1px 1px #014f07;
+}
+
+.score {
+  width: 35%;
+  height: 240px;
+  float: left;
+  color: #8cbe90;
+}
+
+.score .stats {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px
+}
+
+.stats div:nth-child(2) {
+  margin-left: 20px;
+}
+
+.highsc{
+  width: 75%
+}
+
+.score p{
+  font-size: 2.5em
+}
+
+.clicked{
+  transition: all 0.2s;
+  background-image: linear-gradient(to bottom, #b43e3e, #9d2424, #881515, #610303);
+  color: #ffdddd;
+}
+/* end of main css full screen */
+
+
+/* media screen 800px */
+@media screen and (max-width: 800px) {
+  .container {
+    width: 500px;
+    height: 450px;
+    border-radius: 12px;
+  }
+  
+  .header{
+    height: 45px;
+  }
+  
+  .letters{
+    height: 110px;
+  }
+  
+  .letter{
+    width: 50px;
+    height: 110px;
+    margin: 2px;
+  }
+  
+  .letter div:nth-child(1){
+    margin-top: 25px;
+    height: 60px;
+    font-size: 3.1em;
+  }
+  
+  .letter div:nth-child(2) {
+    height: 8px;
+    border-radius: 2px;
+  }
+  .wordMeaning {
+    
+    height: 60px;
+    font-size: 0.85em;
+  }
+  
+  .bottom {
+    height: 230px;
+  }
+  
+  .keys {
+    height: 230px;
+  }
+  
+  .keysPlacer{
+    width: 240px;
+    height: 200px;
+  }
+  
+  .keyText {
+    width: 50px;
+    height: 55px;
+    font-size: 2.3em;
+  }
+
+  
+
+}
+/* media screen 800px end */
+
+
+
+
+
+/* media screen 600px */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 450px;
+  }
+  
+  .header {
+    font-size: 0.9em
+  }
+  
+  .letters {
+    height: 100px;
+  }
+  
+  .letter {
+    width: 45px;
+    height: 100px;
+    margin: 2px;
+  }
+  
+  .letter div:nth-child(1) {
+    margin-top: 18px;
+    height: 60px;
+    font-size: 2.8em;
+  }
+  
+  .letter div:nth-child(2) {
+    height: 8px;
+    border-radius: 2px;
+  }
+  
+  
+  .wordMeaning {
+    height: 60px;
+    font-size: 0.8em;
+  }
+  
+  .bottom {
+    height: 230px;
+  }
+  
+  .keys {
+    height: 230px;
+  }
+  
+  .keysPlacer {
+    width: 230px;
+    height: 190px;
+    
+  }
+  
+  .keyText {
+    width: 45px;
+    height: 50px;
+    font-size: 2.2em;
+  }
+
+   .score span{
+    font-size: 0.85em
+  }
+
+  .score p {
+    font-size: 2.2em
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    width: 300px;
+    height: 360px
+  }
+  
+  .header {
+    font-size: 0.75em
+  }
+  
+  .letters {
+    height: 80px;
+  }
+  
+  .letter {
+    width: 30px;
+    height: 90px;
+    margin: 2px;
+  }
+  
+  .letter div:nth-child(1) {
+    margin-top: 5px;
+    height: 50px;
+    font-size: 2.4em;
+  }
+  
+  .letter div:nth-child(2) {
+    height: 7px;
+    border-radius: 2px;
+  }
+  
+  
+  .wordMeaning {
+    height: 55px;
+    font-size: 0.5em;
+  }
+  
+  .bottom {
+    height: 180px;
+  }
+  
+  .keys{
+    width: 70%;
+    height: 200px;
+  }
+  
+  .keysPlacer {
+    
+    height: 190px;
+    margin-left: 7px;
+  }
+  
+  .keyText {
+    width: 40px;
+    height: 42px;
+    margin: 4px;
+    font-size: 1.7em;
+  }
+
+  .score{
+    width: 30%;
+    height: 180px;
+  }
+  
+  .stats div:nth-child(2) {
+    margin-left: 0px;
+  }
+  
+  .score div:nth-child(1) {
+    height: 75px;
+    width: 100%;
+  }
+
+  .score div:nth-child(2) {
+    height: 75px;
+    width: 100%
+  }
+
+  .score span {
+    font-size: 0.5em
+  }
+
+  .score p {
+    font-size: 1.5em
+  }
+
+}
