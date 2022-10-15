@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .container{
     margin: 0;
     height: 100vh;
-    background-image: linear-gradient(to right top, #2d0036, #4f015b, #730283, #9a02ac,#C400D7); rgba(0,212,255,1) 100%);
+    background-image: linear-gradient(to right top, #2d0036, #4f015b, #730283, #9a02ac,#C400D7); 
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -44,12 +49,39 @@
   button{
      font-family: 'Montserrat', sans-serif;
     margin-top: 25px;
+    font-size: 1.2rem;
     width: 200px;
     height: 50px;
-    background-color: #C400D7;
-    border: none;
+    background-color:#1F1B36 ;
+    border: 1px solid #C400D7;
+    position: relative;
+    z-index: 1;
     border-radius: 10px;
     color: white;
     font-style: bold;
     cursor: pointer;
+    transition: ease-out 0.3s;
   }
+  button:hover{
+    color: #fff;
+    cursor: pointer;
+  }
+ button:before{
+   transition: 0.5s all ease;
+   position: absolute;
+   top:0;
+   left:50%;
+   right: 50%;
+   bottom: 0;
+   opacity: 0;
+   content: "";
+   background-color:#C400D7;
+ }
+ button:hover:before{
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+  border-radius: 10px;
+ }
