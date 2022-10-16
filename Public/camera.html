@@ -1,0 +1,41 @@
+<html>
+
+<body>
+	<script src="https://static.opentok.com/v2/js/opentok.js" charset="utf-8"></script>
+	<script charset="utf-8">
+		var apiKey = '47542671';
+		var sessionId = '2_MX40NzU0MjY3MX5-MTY2NDMyMDE2NjY3OX5URE5zb3RLdkE5d0RSWm04VjlBZUs1ME1-UH4';
+		var token = 'T1==cGFydG5lcl9pZD00NzU0MjY3MSZzaWc9YTllYjdmYzU0NGU0YTVkOGM2MWJiMjVlZWE0NGNmMTcxMWJiNWQzODpzZXNzaW9uX2lkPTJfTVg0ME56VTBNalkzTVg1LU1UWTJORE15TURFMk5qWTNPWDVVUkU1emIzUkxka0U1ZDBSU1dtMDRWamxCWlVzMU1FMS1VSDQmY3JlYXRlX3RpbWU9MTY2NDMyMDE4MCZub25jZT0wLjQyMTQ2ODE3OTA2MjkzMzMmcm9sZT1wdWJsaXNoZXImZXhwaXJlX3RpbWU9MTY2NjkxMjE4MiZpbml0aWFsX2xheW91dF9jbGFzc19saXN0PQ==';
+		// connect to session
+		var session = OT.initSession(apiKey, sessionId);
+		// create publisher
+		var publisher = OT.initPublisher();
+		session.connect(token, function(err) {
+			// publish publisher
+			session.publish(publisher);
+		})
+		// create subscriber
+		session.on('streamCreated', function(event) {
+			session.subscribe(event.stream);
+		});
+	</script>
+	<p></p>
+</body>
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<style>
+	body {
+		font-family: Muli, Arial;
+	}
+
+    strong {
+    	color: #09c;
+    }
+
+    .OT_publisher {
+    	float: left;
+    	margin-right: 5px;
+    }
+
+</style>
+
+</html>
