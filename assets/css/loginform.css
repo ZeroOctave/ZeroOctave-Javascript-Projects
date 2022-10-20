@@ -122,12 +122,13 @@ body {
 }
 
 .form__link {
-    color: var(--color-secondary);
+    color: #AAAAAA;
     text-decoration: none;
     cursor: pointer;
 }
 
 .form__link:hover {
+    color: var(--color-secondary);
     text-decoration: underline;
 }
 
