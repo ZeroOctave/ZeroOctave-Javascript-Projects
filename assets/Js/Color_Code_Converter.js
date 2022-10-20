@@ -8,7 +8,7 @@ const color_with_names = {'aliceblue': 'f0f8ff', 'antiquewhite': 'faebd7', 'aqua
 let conv_rgb, conv_hex, conv_cmyk, conv_hsl;
 
 function convert(){
-    to_convert = document.getElementById("to_convert").value;
+    let to_convert = document.getElementById("to_convert").value;
     // console.log(to_convert.match(rgb_pattern))
     if(to_convert.match(rgb_pattern)){
         let match = to_convert.match(rgb_pattern);
