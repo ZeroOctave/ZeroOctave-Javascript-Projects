@@ -1,14 +1,22 @@
 * {
   padding: 0;
   margin: 0;
+  align-items: center;
   
 }
 .button:hover {
    color: lightsalmon;
+}
 
 
-p: {
+
+p {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Roboto', sans-serif;
+  align-items: center;
   
+}
+form input{
+    margin-left: 2rem; 
+    margin-bottom:0.5em;
 }
