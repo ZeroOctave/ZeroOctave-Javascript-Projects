@@ -38,7 +38,7 @@ header{
 .navbar ul li a {
     color: #000;
 }
-.link:hover{
+.navbar ul li a:hover{
     text-decoration: underline;
 }
 .circle-shadow{
