@@ -11,6 +11,7 @@ body {
   font-family: "Benne", serif;
   margin: 0;
 }
+@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
 
 .logo {
   font-family: inherit;
@@ -108,3 +109,32 @@ main,
   color: white;
   text-align: center;
 }
+/* Back to top button */
+#bttbutton {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 22px;
+  z-index: 99;
+  border: #7378c5;
+  outline: none;
+  background-color: #7378c5;
+  color: #ffff;
+  cursor: pointer;
+  padding: 0px ;
+  border-radius: 20%;
+  font-size: 30px;
+ }
+
+#bttbutton:hover {
+  background-color:#373b69;
+  color:ffff;
+  font-weight: 700;
+}
+
+
+/* End of Back to top button */
+
+
+
