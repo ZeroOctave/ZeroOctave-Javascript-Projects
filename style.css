@@ -12,8 +12,7 @@ html {
 }
 
 body.day {
-/*     background-color: whitesmoke; */
-  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    background-color: whitesmoke;
 }
 
 body.night {
@@ -95,8 +94,7 @@ body.night {
 
 body {
   overflow-x: hidden;
-/*   background-color: whitesmoke; */
-  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  background-color: whitesmoke;
 }
 /* day-night toggle button*/
 
@@ -388,6 +386,7 @@ input:checked+.toggle .star--6 {
   content: "ZeroOctave";
   color: whitesmoke;
   display: block;
+  padding-top: 15%;
   width: 100%;
   height: 50%;
   background: hsl(229, 18%, 21%);
@@ -395,7 +394,7 @@ input:checked+.toggle .star--6 {
   top: 0;
   left: 0;
   font-family: 'Poppins';
-  font-size: 1.8rem;
+  font-size: 3.5rem;
   animation: pageUp 1s 2s forwards cubic-bezier(1,.75,.34,.03);
   z-index: 1;
 }
@@ -413,14 +412,17 @@ input:checked+.toggle .star--6 {
 }
 
 .preloadeR::before{
-  content: "";
+  content: "JavaScript Project Directory";
   display: block;
   width: 100%;
   height: 50%;
+  color: #b3c8e6;
   background:  #41465d;
   position: absolute;
   bottom: 0;
   left: 0;
+  font-size: 1.5rem;
+  padding-top: 3%;
   animation: pageDown 1s 2s forwards cubic-bezier(1,.75,.34,.03);
   z-index: 10;
 }
@@ -446,7 +448,7 @@ input:checked+.toggle .star--6 {
 }
 
 @keyframes spanAnimation{
-
+ 
   50%{
 
    width: 100%;
@@ -502,16 +504,8 @@ input:checked+.toggle .star--6 {
 
   #back-to-top {
     position: relative;
-    
+    z-index: 10;
   }
-}
-
-.zoom{
-  transition: transform .3s;
-}
-
-.zoom:hover{
-  transform: scale(1.25);
 }
 
 /* CARDS DESIGN STARTS  */
