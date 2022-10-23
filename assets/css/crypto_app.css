@@ -20,6 +20,7 @@
 
 .upper{
     justify-content: center;
+    border-radius: 10px;
     align-items: center;
     text-align: center;
 }
