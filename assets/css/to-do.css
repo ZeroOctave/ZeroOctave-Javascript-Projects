@@ -1,24 +1,65 @@
 body {
   
-  background: #fff;
-  background-image: url("../Images/to-do-bg.jpg");
+  background-image: linear-gradient( -30deg, #33ccff,#81d5ff ,#ffccff,#81d5ff);
   background-size: cover;
-  color: #333;
-  font-family: Lato, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .container {
   display: block;
   width: 400px;
   margin: 100px auto 0;
 }
-h1 {
-     
-    width:500px;
-    margin: 0 auto;
-    background: gray;
-    text-align: center;
-    text-decoration: solid;
+
+.heading h1 {
+  position:relative;
+  color: #2400c5;
+   font-size:60px; font-weight:700;  
+   letter-spacing:0px; 
+   text-transform:uppercase; 
+   width:450px; 
+   text-align:center; 
+   margin:auto; 
+   white-space:nowrap; 
+   border:6px solid #2400c5;
+   padding:15px 33px 9px 33px;
 }
+.heading h1:before, .heading h1:after {
+    background-color: #2400c5;
+    position:absolute; 
+    content: '';
+    height: 21px;
+
+    width: 21px; border-radius:50%;
+    bottom: 36px;
+}
+.heading h1:before {
+   left:-60px;
+}
+.heading h1:after {
+   right:-60px;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(direction, rgb(196, 48, 209), rgb(230, 138, 225));
+}
+div {
+  position: relative;
+  background: linear-gradient(direction, rgb(196, 48, 209), rgb(230, 138, 225));
+  width: 90%;
+  max-width: 500px;
+  padding: 2em;
+  margin: 1.5em auto;
+  
+}
+
+
+
 h4 {
 width:200px;
 margin: 0 auto;
@@ -40,23 +81,106 @@ li, h3 {
 input, button {
   outline: none;
 }
-button {
-  background: none;
-  border: 0px;
-  color: white;
-  font-size: 15px;
-  width: 60px;
-  margin: 10px 0 0;
-  font-family: Lato, sans-serif;
+
+
+
+.button {
+  align-items:center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
   cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  margin: 10px;
+  margin-top: 1px;
 }
-button:hover {
-  color: #333;
+
+.button:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.button1 {
+  align-items:center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  margin: 10px;
+  margin-top: 1px;
+}
+
+.button1:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button1:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button1:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
 }
 
 h3,
 label[for='new-task'] {
-  color: yellow;
+  color: #2400c5;
   font-weight: 700;
   font-size: 15px;
   border-bottom: 2px solid #fff;
@@ -78,7 +202,7 @@ input[type="text"] {
   color: black;
 }
 input[type="text"]:focus {
-  color: grey;
+  color: #5036c4;
 }
 
 
@@ -114,8 +238,11 @@ li > label {
 li >  input[type="text"] {
   width: 226px;
 }
-li > .delete:hover {
-  color: #CF2323;
+li > .button:hover {
+  color: #a50808;
+}
+li > .button1:hover {
+  color: #f7ed6e;
 }
 
 
@@ -136,3 +263,5 @@ ul li.editMode input[type=text] {
 ul li.editMode label {
   display:none;
 }
+
+
