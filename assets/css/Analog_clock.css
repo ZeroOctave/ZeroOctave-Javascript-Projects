@@ -34,7 +34,7 @@ content: ' ';
 position: absolute;
 width: 15px;
 height: 15px;
-background: orange;
+background: red;
 border-radius: 50%;
 z-index: 10000;
 }
