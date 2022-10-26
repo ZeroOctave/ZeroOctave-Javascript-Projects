@@ -21,6 +21,13 @@ const words = [
   "LifeRules",
   "GoNext",
   "Brother",
+  "ROSP",
+  "ITbranch",
+  "linoleum",
+  "olybdenum",
+  "Draconian",
+  "Sanctimony",
+  "Limerence"
 ];
 
 let randomWord;
@@ -96,7 +103,7 @@ text.addEventListener("input", (e) => {
     } else if (difficulty === "medium") {
       time += 3;
     } else {
-      time += 4;
+      time += 6;
     }
     updateTime();
   }
