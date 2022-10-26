@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+body{
+    margin: 0;
+    transition: background 1s ease;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Fasthand', cursive;
+}
+
+.p{
+    text-align: center;
+}
