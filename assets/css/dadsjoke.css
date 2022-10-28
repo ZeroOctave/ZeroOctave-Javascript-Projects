@@ -16,7 +16,7 @@ body {
     background-image: url("../Images/dadsjoke.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 1280px 609px;
+    background-size:cover;
     position: relative;
 }
 
@@ -28,9 +28,7 @@ body {
     text-align: center;
     max-width: 100%;
     width: 600px;
-    margin-right: 500px;
-    margin-bottom: 50px;
-    position: relative;
+    
 }
 
 h3 {
