@@ -4,7 +4,7 @@ const emp_codes = new Set();
 function onFormSubmit() {
   let formData = readFormData();
   if (emp_codes.has(formData.code)) {
-    alert(formData.code+"Emp-Code already exists!");
+    alert("Emp-Code " + formData.code + " already exists!");
   } else {
     if (selectRow == null) {
       insertNewRecord(formData);
