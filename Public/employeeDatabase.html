@@ -30,7 +30,7 @@
                     <input type="text" placeholder="Enter City" name="city" id="city" required >
 
                     <label id="label" for="Joining Date"><b>Joining Date</b></label>
-                    <input type="text" placeholder="Enter joining date" name="date" id="date" required >
+                    <input type="text" name="date" id="date" placeholder="YYYY-MM-DD" pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])-(?:30))|(?:(?:0[13578]|1[02])-31))" required >
 
                     <label id="label" for="Department"><b>Department</b></label>
                     <input type="text" placeholder="Enter department" name="dep" id="dep" required >
@@ -39,7 +39,7 @@
                     <input type="text" placeholder="Enter designation" name="des" id="des" required >
             
                     <label id="label" for="salary"><b>Salary</b></label>
-                    <input type="number" name="salary" id="salary"placeholder="Salary" required>
+                    <input type="number" name="salary" id="salary" min="0" placeholder="Salary" required>
                     <hr>
             
                     <!-- <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p> -->
