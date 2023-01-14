@@ -131,10 +131,12 @@ header{
     border-radius: 5px;
     margin-left: 10px;
     color: #000;
-    background-color: #dfdede;
+    background-color: #fff;
+    
 }
 .search-btn button:hover{
-    border: 1px solid lightgray;
+    border: 0.65px solid lightgray;
+    box-shadow: 1px 1px 1px gray;
 }
 .google-search-btn{
     width: 120px;
