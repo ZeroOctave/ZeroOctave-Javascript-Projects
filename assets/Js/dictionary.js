@@ -5,6 +5,7 @@ const wrapper = document.querySelector(".wrapper"),
     synonyms = wrapper.querySelector(".synonyms .list"),
     removeIcon = wrapper.querySelector(".search span");
 let audio;
+let link = "";
 
 function data(result, word) {
     if (result.title) {
@@ -18,6 +19,7 @@ function data(result, word) {
         document.querySelector(".meaning span").innerText = definitions.definition;
         document.querySelector(".example span").innerText = definitions.example;
         audio = new Audio("https:" + result[0].phonetics[0].audio);
+        link = result[0].phonetics[0].audio;
 
         if (definitions.synonyms[0] == undefined) {
             synonyms.parentElement.style.display = "none";
@@ -57,6 +59,11 @@ searchInput.addEventListener("keyup", e => {
 
 volume.addEventListener("click", () => {
     volume.style.color = "#4D59FB";
+    if (link == "") {
+        let el = document.getElementById("error");
+        el.textContent = "No audio available";
+        return;
+    }
     audio.play();
     setTimeout(() => {
         volume.style.color = "#999";

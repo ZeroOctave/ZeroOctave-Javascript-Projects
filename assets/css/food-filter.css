@@ -14,22 +14,27 @@ body {
   background: var(--mainWhite);
   color: var(--mainBlack);
 }
+
 /* nav links */
 .navbar-toggler {
   outline: none !important;
 }
+
 .toggler-icon {
   font-size: 2.5rem;
   color: var(--mainPink);
 }
+
 .nav-link {
   color: var(--mainPink);
   font-size: 1.5rem;
   transition: all 0.5s ease-in-out;
 }
+
 .nav-link:hover {
   color: var(--mainBlack);
 }
+
 /* end of nav links */
 /* info icons */
 .cart-info__icon {
@@ -44,14 +49,17 @@ body {
   padding: 0.4rem 0.6rem;
   cursor: pointer;
 }
+
 .cart-info:hover {
   background: var(--mainPink);
   border-color: var(--mainPink);
   color: var(--mainWhite);
 }
+
 .cart-info:hover .cart-info__icon {
   color: var(--mainWhite);
 }
+
 /* end of info icons */
 /* banner */
 
@@ -61,23 +69,28 @@ body {
     url("../Images/food-filter/headerBcg.jpeg") center/cover fixed no-repeat;
   position: relative;
 }
+
 .banner {
   color: var(--mainWhite);
   margin-top: -4rem;
 }
+
 .banner-title {
   color: var(--mainPink);
   font-size: 4rem;
 }
+
 .banner-link {
   font-size: 1.5rem;
   color: var(--mainBlack);
   border: 0.2rem solid var(--mainBlack);
 }
+
 .banner-link:hover {
   background: var(--mainBlack);
   color: var(--mainPink);
 }
+
 /* endo of banner */
 /* cart  */
 .cart {
@@ -91,11 +104,13 @@ body {
   width: 0;
   overflow: hidden;
 }
+
 .show-cart {
   width: 18rem;
   padding: 2rem 1.5rem;
   transform: rotateY(-360deg);
 }
+
 .cart-item {
   transition: all 2s ease-in-out;
 }
@@ -106,31 +121,38 @@ body {
   color: var(--mainPink);
   transition: all 1s ease-in-out;
 }
+
 .cart-item-remove:hover {
   transform: scale(1.1);
   color: var(--mainBlack);
 }
+
 #cart-item-price {
   font-size: 0.8rem;
 }
+
 /* cart item */
 /* cart buttons */
 .btn-pink {
   color: var(--mainPink) !important;
   border-color: var(--mainPink) !important;
 }
+
 .btn-black {
   color: var(--mainBlack) !important;
   border-color: var(--mainBlack) !important;
 }
+
 .btn-black:hover {
   color: var(--mainPink) !important;
   background: var(--mainBlack) !important;
 }
+
 .btn-pink:hover {
   background: var(--mainPink) !important;
   color: var(--mainBlack) !important;
 }
+
 /* end of cart buttons */
 
 /* about */
@@ -149,6 +171,7 @@ body {
   z-index: -1;
   transition: all 1s ease-in-out;
 }
+
 .about-img__container:hover:before {
   top: 0;
   left: 0;
@@ -160,17 +183,21 @@ body {
 .store {
   background: var(--mainGrey);
 }
+
 .img-container {
   position: relative;
   overflow: hidden;
   cursor: pointer;
 }
+
 .store-img {
   transition: all 1s ease-in-out;
 }
+
 .img-container:hover .store-img {
   transform: scale(1.2);
 }
+
 .store-item-icon {
   position: absolute;
   bottom: 0;
@@ -181,17 +208,22 @@ body {
   transition: all 1s ease-in-out;
   transform: translate(100%, 100%);
 }
+
 .img-container:hover .store-item-icon {
   transform: translate(0, 0);
 }
+
 .store-item-icon:hover {
   color: var(--mainWhite);
 }
+
 .store-item-value {
   color: --mainYellow;
 }
+
 /*end of  store items */
 .search-box {
   background: var(--mainPink);
   color: var(--mainBlack);
+  padding: 10px;
 }

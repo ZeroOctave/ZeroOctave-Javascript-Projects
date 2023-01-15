@@ -1,0 +1,41 @@
+* {
+    color: white;
+}
+
+.box {
+    background-color: #1919AF;
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 150px;
+}
+
+#password {
+    background-color: #0F0F69;
+    margin-top: 50px;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+#length {
+    color: black;
+}
+
+#generate {
+    background-color: #3B3C98;
+    color: white;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 50px;
+    border: none;
+}
+
+.title {
+    padding-top: 25px;
+}
