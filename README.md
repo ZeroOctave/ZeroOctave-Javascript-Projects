@@ -264,6 +264,7 @@ git push -u origin <your_branch_name>
 | 172. | [Dynamic Picture Frame](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/picture-frame.html)| 173. | [FAQ Collapse](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/FAQcollapse.html)| 174. | [Multiplication Table Generator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/multiplication-table-generator.html)
 | 175. | [Expense Tracker Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/trackerExpense/index.html)| 176. | [Check my IP](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/check-my-ip/check-my-ip.html) | 177. | [SocialTray](https://rococo-praline-28f4e4.netlify.app/)
 | 178. | [SimplyRecipes](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/SimplyRecipes/) | 179. | [Employee DataBase](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/employeeDatabase.html)
+| 180. | [Domain Availability](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/domain_availability.html)
 <br>
 
 <div id="Maintainer"></div>
