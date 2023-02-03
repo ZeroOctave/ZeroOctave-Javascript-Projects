@@ -195,3 +195,8 @@ body {
   background: var(--mainPink);
   color: var(--mainBlack);
 }
+
+.input-group-prepend {
+  display: flex;
+  align-items: center;
+}
