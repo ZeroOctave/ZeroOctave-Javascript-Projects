@@ -76,9 +76,9 @@ Happy coding.👍
 
 <table>
 <tbody><tr>
-<td align="center"><a href="https://hacktoberfest.digitalocean.com/"  target="_blank"><img src="assets/Images/hacktober.png" alt="Hacktoberfest" width="300"/><br><sub><b> Hacktoberfest 2021 </b></sub></a></td> </a></td>
+<td align="center"><a href="https://hacktoberfest.digitalocean.com/"  target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzxUuUFuwuTwouTwDseIuzwkLBsDa6Z_0BzYX_x0jpqA&s" alt="Hacktoberfest" width="200"/><br><sub><b> Hacktoberfest 2022 </b></sub></a></td> </a></td>
 
-<td align="center"><a href="https://icc-techsahead.netlify.app/"  target="_blank"><img src="assets/Images/icc.png" alt="ICC" width="300"/><br><sub><b> ICC 2021 </b></sub></a></td> </a></td>
+<td align="center"><a href="https://icc-techsahead.netlify.app/"  target="_blank"><img src="assets/Images/icc.png" alt="ICC" width="200"/><br><sub><b> ICC 2021 </b></sub></a></td> </a></td>
 
 <td align="center"><a href="https://dwoc.io/"  target="_blank"><img src="assets/Images/dwoc.png" alt="DWoC21" width="125"/><br><sub><b> DWOC 2021 </b></sub></a></td> </a></td>
 
@@ -262,8 +262,8 @@ git push -u origin <your_branch_name>
 | 166. | [Animated Eye](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/animatedeye.html) | 167. | [Tourist Website](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/Tourist_Website/index.html)| 168. | [Audio Play](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/AudioPlay.html)
 | 169. | [Tearable Cloth](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/tearable-cloth.html)| 170. | [Rain Effects](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/RainEffects.html)| 171. | [Camera Web App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/camera_app.html)
 | 172. | [Dynamic Picture Frame](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/picture-frame.html)| 173. | [FAQ Collapse](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/FAQcollapse.html)| 174. | [Multiplication Table Generator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/multiplication-table-generator.html)
-| 175. | [Expense Tracker Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/trackerExpense/index.html)| 176. | [Check my IP](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/check-my-ip/check-my-ip.html) ! 177. | [Country Guide App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/check-my-ip/Countryguide.html)
-
+| 175. | [Expense Tracker Calculator](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/trackerExpense/index.html)| 176. | [Check my IP](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/check-my-ip/check-my-ip.html) | 177. | [SocialTray](https://rococo-praline-28f4e4.netlify.app/)
+| 178. | [SimplyRecipes](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/SimplyRecipes/) | 179. | [Employee DataBase](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/employeeDatabase.html)  | 180. | [Country Guide App](https://zerooctave.github.io/ZeroOctave-Javascript-Projects/Public/check-my-ip/Countryguide.html)
 <br>
 
 <div id="Maintainer"></div>

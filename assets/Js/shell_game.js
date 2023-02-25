@@ -157,13 +157,13 @@ function init() {
 // onclick() with start button
 function start() {
     game_quit = 0;
-    button.style.visibility = 'hidden';
-    button_r.style.visibility = 'hidden';
-    heading.style.visibility = 'hidden';
-    form.style.visibility = 'hidden';
-    canvas.style.visibility = 'visible';
-    button_q.style.visibility = 'visible';
-    gif.style.visibility = 'hidden';
+    button.style.display = 'none';
+    button_r.style.display = 'none';
+    heading.style.display = 'none';
+    form.style.display = 'none';
+    canvas.style.display = 'block';
+    button_q.style.display = 'block';
+    gif.style.display = 'none';
     if(level.value == "easy"){
         // console.log('working');
         ext = 50;
@@ -188,13 +188,13 @@ function reset() {
 //onclick() with quit button
 function stop() {
     game_quit = 1;
-    button.style.visibility = 'visible';
-    button_r.style.visibility = 'visible';
-    heading.style.visibility = 'visible';
-    form.style.visibility = 'visible';
-    canvas.style.visibility = 'hidden';
-    button_q.style.visibility = 'hidden';
-    gif.style.visibility = 'visible';
+    button.style.display = 'block';
+    button_r.style.display = 'block';
+    heading.style.display = 'block';
+    form.style.display = 'block';
+    canvas.style.display= 'none';
+    button_q.style.display = 'none';
+    gif.style.display = 'block';
     score_text.textContent = ``;
     highest_text.textContent = ``;
     score = 0;

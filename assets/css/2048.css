@@ -1,21 +1,19 @@
 body {
     font-family: 'BioRhyme', serif;
     text-align: center;
-    background-color: #beff98;
+    background-color: #EDEADE;
 }
 
 hr {
-    width: 450px;
-    border-bottom: 0;
-    border: 1.5px solid rgb(24, 50, 250);
+    width: 500px;
 }
 
 #board {
     width: 400px;
     height: 400px;
 
-    background-color: #fffc39;
-    border: 6px solid #ff1b1b;
+    background-color: #eee5da;
+    border: 6px solid #776e65;
 
     margin: 0 auto;
     display: flex;
@@ -25,7 +23,7 @@ hr {
 .tile {
     width: 90px;
     height: 90px;
-    border: 5px solid #ff810b;
+    border: 5px solid #776e65;
 
     font-size: 40px;
     font-weight: bold;
@@ -39,37 +37,37 @@ hr {
 
 .x2 {
     background-color: #eee4da;
-    color: #000000;
+    color: #727371;
 }
 
 .x4 {
-    background-color: #ffc559;
-    color: #000000;
+    background-color: #ece0ca;
+    color: #727371;
 }
 
 .x8 {
-    background-color: #9ffe69;
-    color: rgb(0, 0, 0);
+    background-color: #f4b17a;
+    color: white;
 }
 
 .x16{
-    background-color: #d32d2d;
-    color: rgb(255, 255, 255);
+    background-color: #f59575;
+    color: white;
 }
 
 .x32{
-    background-color: #e293ff;
-    color: rgb(0, 0, 0);
+    background-color: #f57c5f;
+    color: white;
 }
 
 .x64{
     background-color: #f65d3b;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 .x128{
-    background-color: #5050fd;
-    color: rgb(0, 0, 0);
+    background-color: #edce71;
+    color: white;
 }
 
 .x256{

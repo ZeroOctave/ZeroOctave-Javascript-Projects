@@ -2,68 +2,38 @@
 <html>
 <head>
     <title>RGB Mixer</title>
-    <style>
-        input[type=text]{
-            width: 25px;
-            outline: none;
-        }
-
-        label{
-            font-family: Garamond;
-            font-weight: bolder;
-            margin-right: 20px;
-        }
-
-        .box{
-            margin: auto; 
-            background-color: white;
-            padding: 10px 30px; 
-            border: 2px solid black; 
-            width:fit-content;
-            display: block;
-            text-align: right;
-            border-radius: 5px;
-            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 275px;
-        }
-
-        input[type=button]{
-            cursor: pointer;
-            padding: 6px 12px;
-        }
-
-        h1{
-            font-family: Garamond;
-            font-weight: bolder;
-        }
-
-        p{
-            font-family: Garamond;
-            font-weight: bold;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="../assets/css/rgbmixer.css">
 </head>
-    
+
 <body>
-    <div class="box">
-    <h1>RGB Mixer</h1>
-     <form name="rgb" action="" method="get">
-        <p>Enter rgb values: </p> 
-        <label>Red</label>
-        <input type="text" id="red"><br><br>
-        <label>Green</label>
-        <input type="text" id="green"><br><br>
-        <label>Blue</label>
-        <input type="text" id="blue"><br><br>
-        <input type="button" id="mix" value = "Mix">
-        </form>
+    <div class="card">
+        <div class="card-header">
+            <h1>RGB Mixer</h1>
+        </div>
+        <div class="card-body">
+            <form name="rgb" action="" method="get">
+                <p>Enter RGB values: </p>
+                <div class="red-slider"> 
+                    <label for="red">Red: <span id="red-val">0</span></label>
+                    <input type="range" min="0" max="255" value="0" color="red" id="red" class="slider">
+                    <br><br>
+                </div>
+                <div class="green-slider">
+                    <label for="green">Green: <span id="green-val">0</span></label>
+                    <input type="range" min="0" max="255" value="0" id="green" class="slider">
+                    <br><br>
+                </div>
+                <div class="blue-slider">
+                    <label for="blue">Blue: <span id="blue-val">0</span></label>
+                    <input type="range" min="0" max="255" value="0" id="blue" class="slider">
+                    <br><br>
+                </div>
+                <input type="button" id="mix" value = "Mix"><br><br>
+                <label for="color-output">Output:  </label>
+                <div id="color-output"></div>
+            </form>
+        </div>
     </div>
-        <script src="../assets/Js/rgbmixer.js"></script>
+    <script src="../assets/Js/rgbmixer.js"></script>
 </body>
 </html>

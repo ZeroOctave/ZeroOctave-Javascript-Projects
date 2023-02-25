@@ -148,7 +148,7 @@
     },
     {
 	      "name":"Color Game",
-	      "image": "assets/Images/color-game.PNG" ,
+	      "image": "assets/Images/color-game.png" ,
 	      "link":"Public/color-game.html"
     },
     {
@@ -254,6 +254,11 @@
         "link": "Public/EmailValidator.html"
     },
     {
+	"name": "Employee database management",
+	"image": "assets/Images/employeeDatabase.png",
+	"link": "Public/employeeDatabase.html"
+    },
+    {
         "name": "Expanding Cards UI design",
         "image": "./assets/Images/ExpandingCardsUIdesign.png",
         "link": "./Public/ExpandingCardsUIdesign.html"
@@ -284,9 +289,19 @@
         "link": "Public/flappybird.html"
     },
     {
+        "name": "Font Styles",
+        "image": "assets/Images/font_logo.jpg",
+        "link": "Public/font_styles.html"
+    },
+    {
         "name": "Food Filter",
         "image": "assets/Images/food-filter/sweets-1.jpeg",
         "link": "Public/food-filter.html"
+    },
+     {
+        "name": "Food Master",
+        "image": "assets/Images/Food Master.png",
+        "link": "Public/Foodmaster.html"
     },
     {
         "name": "Food Website",
@@ -634,6 +649,11 @@
         "link": "Public/Simon_game.html"
     },
     {
+        "name": "SimplyRecipes",
+        "image": "assets/Images/SimplyRecipes/assets/main.jpeg",
+        "link" : "Public/SimplyRecipes"
+    },
+    {
         "name": "Snake",
         "image": "assets/Images/snake.JPG",
         "link": "Public/snake.html"
@@ -642,6 +662,11 @@
         "name": "Sneakers",
         "image": "assets/Images/sneaker-images/air2.png",
         "link": "Public/sneaker.html"
+    },
+    {
+        "name": "Social Tray",
+        "image": "assets/Images/socialTray.png",
+        "link": "Public/socialTray.html"
     },
     {
         "name": "Socials",
@@ -675,7 +700,7 @@
     },
     {
         "name": "Spotify Clone",
-        "image": "assets/Images/spotifyclone.png",
+        "image": "assets/Images/spotifyclonecards.png",
         "link": "Public/spotify-clone.html"
     },
     {
@@ -847,7 +872,7 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
-    }
-  
+    },
+    
 ]
 

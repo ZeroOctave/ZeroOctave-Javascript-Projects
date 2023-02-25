@@ -31,7 +31,8 @@ p{
     width: 80%;
 }
 h1{
-    font-family: 'Lobster Two', cursive;
+    font-family: "Lucida Console", "Courier New", monospace;
+
     font-size: 4rem;
     color: white;
 }

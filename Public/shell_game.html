@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,15 @@
     <title>Shell Game</title>
     <link rel="stylesheet" href="../assets/css/shell_game.css">
 </head>
+
 <body>
-    <div class="game center">
+    <div>
+        <h2 id="score"></h2>
+        <h2 id="highest"></h2>
+    </div>
+    <div class="game_center">
         <div class="canvas-wrapper" id="canvas">
             <h1 id="heading">Hello, Welcome to the Shell Game!!</h1>
-            <canvas id="canvas-top"></canvas>
-            <button id="button" onclick="start()">Start</button>
-            <button id="button_q" onclick="stop()">Quit</button>
-            <button id="button_r" onclick="reset()">Reset</button>
-            <h2 id="score"></h2>
-            <h2 id="highest"></h2>
-            <img src="../assets/GIF/shell_game.gif" id="gif">
             <form id="level">
                 <label for="hardness">Select the difficulty level: </label>
                 <select name="difficulty" id="hardness">
@@ -26,8 +25,20 @@
                     <option value="hard">Hard</option>
                 </select>
             </form>
+            
+            <canvas id="canvas-top"></canvas>
+            <img src="../assets/GIF/shell_game.gif" id="gif">
+            <div class="buttons">
+                <button id="button" onclick="start()">Start</button>
+                <button id="button_q" onclick="stop()">Quit</button>
+                <button id="button_r" onclick="reset()">Reset</button>
+            </div>
+
+
+
         </div>
     </div>
     <script type="text/javascript" src="../assets/Js/shell_game.js"></script>
 </body>
+
 </html>

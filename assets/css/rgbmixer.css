@@ -1,0 +1,100 @@
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+label {
+    font-family: Garamond;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+#red {
+    -webkit-appearance: none;
+    height: 7px;
+    background: #FF0000;
+    border-radius: 5px;
+}
+
+#green {
+    -webkit-appearance: none;
+    height: 7px;
+    background: #00FF00;
+    border-radius: 5px;
+}
+
+#blue {
+    -webkit-appearance: none;
+    height: 7px;
+    background: #0000FF;
+    border-radius: 5px;
+}
+
+.card {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding-bottom: 5px;
+    backdrop-filter: blur(5px);
+    border: 2px solid black;
+    width: fit-content;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+}
+
+#mix {
+    cursor: pointer;
+    padding: 6px 12px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.card-header {
+    margin: 0;
+    padding: 0;
+}
+
+.card-body {
+    margin: 0;
+    padding: 0;
+
+}
+#color-output{
+    width: 100px;
+    height: 100px;
+    margin: 3px 1% 0px 1%;
+    padding: 0;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    left: 25%;
+}
+h1 {
+    font-family: Garamond;
+    font-weight: bolder;
+    margin-top: 0%;
+    border-bottom: 2px solid black;
+
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-top: 0;
+    padding-top: 0;
+    font-family: Garamond;
+    font-weight: bold;
+    text-align: center;
+}
