@@ -191,6 +191,8 @@ git push -u origin <your_branch_name>
 
 **Kudos to you🎈**
 
+> :information_source: Before contributing, read some important guidelines [here](CONTRIBUTING.md#important-guidelines)
+
 <div id="Help"></div>
 
 # This Will Help🌩️
@@ -272,11 +274,14 @@ git push -u origin <your_branch_name>
 
 <table>
 <tbody><tr>
-<td align="center"><a href="https://github.com/Astrodevil"><img alt="" src="https://avatars.githubusercontent.com/u/73425223?v=4" width="130px;"><br><sub><b> Mr. Ånand </b></sub></a><br><a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/commits?author=Astrodevil" title="Code">🌝💻 </a></td> </a></td>
+<td align="center"><a href="https://github.com/Astrodevil"><img alt="GitHub Profile of Mr. Ånand" src="https://avatars.githubusercontent.com/u/73425223?v=4" width="130px;"><br><sub><b> Mr. Ånand </b></sub></a><br><a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/commits?author=Astrodevil" title="Code">🌝💻 </a></td> </a></td>
 
-<td align="center"><a href="https://github.com/NOiR-07"><img alt="" src="https://avatars.githubusercontent.com/u/73756334?v=4" width="130px;"><br><sub><b> Abhishek Kumar  </b></sub></a><br><a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projecs/commits?author=NOiR-07" title="Code">🌝💻 </a></td> </a></td>
+<td align="center"><a href="https://github.com/NOiR-07"><img alt="GitHub Profile of Abhishek Kumar" src="https://avatars.githubusercontent.com/u/73756334?v=4" width="130px;"><br><sub><b> Abhishek Kumar  </b></sub></a><br><a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/commits?author=NOiR-07" title="Code">🌝💻 </a></td> </a></td>
 
-<td align="center"><a href="https://github.com/sreelakshmig009"><img alt="" src="https://avatars.githubusercontent.com/u/81172589?v=4" width="130px;"><br><sub><b> Sreelakshmi G  </b></sub></a><br><a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projecs/commits?author=sreelakshmig009" title="Code">🌝💻 </a></td> </a></td>
+<td align="center"><a href="https://github.com/sreelakshmig009"><img alt="GitHub Profile of Sreelakshmi G" src="https://avatars.githubusercontent.com/u/81172589?v=4" width="130px;"><br><sub><b> Sreelakshmi G  </b></sub></a><br><a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/commits?author=sreelakshmig009" title="Code">🌝💻 </a></td> </a></td>
+
+<td align="center"><a href="https://github.com/Anmol-Baranwal"><img alt="GitHub Profile of Anmol Baranwal" src="https://avatars.githubusercontent.com/u/74038190?v=4" width="130px;"><br><sub><b> Anmol Baranwal  </b></sub></a><br><a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/commits?author=Anmol-Baranwal" title="Code">🌝💻 </a></td> </a></td>
+
 </tr>
 </tbody></table>
 
