@@ -1,10 +1,19 @@
 let selectRow = null;
+const emp_codes = new Set();
 
 function onFormSubmit() {
   let formData = readFormData();
-  if (selectRow == null) insertNewRecord(formData);
-  else updateRecord(formData);
-  resetForm();
+  if (emp_codes.has(formData.code)) {
+    alert("Emp-Code " + formData.code + " already exists!");
+  } else {
+    if (selectRow == null) {
+      insertNewRecord(formData);
+      resetForm();
+    } else {
+      updateRecord(formData);
+      resetForm();
+    }
+  }
 }
 // Getting value from User-----------------------------------------------------
 function readFormData() {
@@ -29,6 +38,7 @@ function insertNewRecord(data) {
   cell1 = newRow.insertCell(0);
   cell1.innerHTML = data.name;
   cell2 = newRow.insertCell(1);
+  emp_codes.add(data.code);
   cell2.innerHTML = data.code;
   cell3 = newRow.insertCell(2);
   cell3.innerHTML = data.city;
@@ -79,14 +89,13 @@ function updateRecord(formData) {
   selectRow.cells[4].innerHTML = formData.dep;
   selectRow.cells[5].innerHTML = formData.des;
   selectRow.cells[6].innerHTML = formData.salary;
-  
-
 }
 
 // Deleteing Record--------------------------------------------------------------------------
 function onDelete(td) {
   if (confirm("Are you want to delete this record ?")) {
     row = td.parentElement.parentElement;
+    emp_codes.delete(row.cells[1].innerHTML);
     document.getElementById("myTable").deleteRow(row.rowIndex);
     resetForm();
   }
