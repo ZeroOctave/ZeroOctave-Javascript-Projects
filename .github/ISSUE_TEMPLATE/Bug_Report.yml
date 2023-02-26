@@ -1,0 +1,116 @@
+name: "🐛 Bug Report"
+description: Create a new ticket for a bug.
+title: "🐛 [BUG] - <title>"
+labels: [
+  "bug"
+]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: Please enter clear and concise description of the bug
+      placeholder: Short and explicit description of your incident...
+    validations:
+      required: true
+  - type: input
+    id: reprod-url
+    attributes:
+      label: "Reproduction URL"
+      description: Please enter your GitHub URL to provide a reproduction of the issue
+      placeholder: ex. https://github.com/USERNAME/REPO-NAME
+    validations:
+      required: false
+  - type: textarea
+    id: reprod
+    attributes:
+      label: "Reproduction steps"
+      description: Please enter an explicit description of the issue/bug
+      value: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshots"
+      description: If applicable, add screenshots to help explain your problem.
+      value: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs"
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: bash
+    validations:
+      required: false
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: "Browsers"
+      description: What browsers are you seeing the problem on ?
+      multiple: true
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Microsoft Edge
+        - Opera
+        - Brave
+    validations:
+      required: false
+  - type: dropdown
+    id: os
+    attributes:
+      label: "OS"
+      description: What is the impacted environment (operating system) ?
+      multiple: true
+      options:
+        - Windows
+        - Linux
+        - Mac
+        - iOS
+        - Android
+    validations:
+      required: false
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "Additional Context"
+      description: Write any other contexts about the problem in this section.
+      render: bash
+    validations:
+      required: false
+  - type: checkboxes
+    id: sections_completed
+    attributes:
+      label: Sections Completed
+      description: Check the box of the sections you have completed.
+      options:
+        - label: Description
+        - label: Reproduction URL
+        - label: Reproduction steps
+        - label: Screenshots
+        - label: Logs
+        - label: Browsers
+        - label: OS
+        - label: Additional Context
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I follow [Contributing Guidelines](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/blob/main/CONTRIBUTING.md) of this project.
+          required: true  
+        - label: I have checked the [current issues](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/issues) for duplicate problems.
+        - label: I have read the [readme](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/blob/main/README.md) of this repository.
+        
