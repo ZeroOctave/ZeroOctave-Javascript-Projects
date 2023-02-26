@@ -1,13 +1,18 @@
 # Contributing Guidelines📝
-Thank you for your interest in contributing to our Repo! Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+> :information_source: Before contributing, please make sure you have read the guidelines below. <br>
+If you're new to _git_ and/or _GitHub_, we suggest you go through [the GitHub Guides](https://guides.github.com/introduction/flow/).
+<br>
+
+Thank you for your interest in contributing to our Repo! Pull requests are welcome. For major changes, please open an [issue](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/issues/new/choose) first to discuss what you would like to change.
 
 
 To start contributing, follow the below guidelines: 
 
 **1.**  **Star** and **Fork** [this](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects) repository.
 
-**2.**  Clone your forked copy of the project.
-
+**2.**  Clone your forked copy of the project via `git`
+   
 ```
 git clone https://github.com/<your_user_name>/ZeroOctave-Javascript-Projects.git
 ```
@@ -74,3 +79,18 @@ git push -u origin <your_branch_name>
 **Thank you for your interest in contributing to our Repo!🏼**
 
 **Kudos to you🎈**
+<br><br>
+
+## Important Guidelines
+
+Please ensure that your project adheres to the following guidelines:
+- This repository accepts projects on Tech Stack: `HTML`, `CSS`, `JavaScript`.
+- Search the list of [projects](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects#available-projects) to make sure you don't add a duplicate.
+
+- Follow the correct directory structure of the repository. All files like `css`, `js`, `video`, `images`.. are in [assets](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/tree/main/assets) directory and `html` files are in [Public](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/tree/main/Public) directory
+- Make sure someone else has not already pulled the request for the changes you wish to do. You can see [here](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/pulls?q=is%3Apr+)
+- Make sure to avoid creating a duplicate issue. You can check for existing issues [here](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/issues?q=is%3Aissue+)
+- Any changes or suggestions to the existing content or repository are welcomed.
+- You don't need to worry, maintainers will ask you to do the changes if required.
+
+<!-- >See the [Pull Request Template](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/blob/main/.github/PULL_REQUEST_TEMPLATE.md) for your ease. -->
