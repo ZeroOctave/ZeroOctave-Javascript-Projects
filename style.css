@@ -11,13 +11,15 @@ html {
 
 }
 
-body.day {
-/*     background-color: whitesmoke; */
+body{
+  overflow-x: hidden;
+}
+body.day{
   background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 }
 
 body.night {
-    background-color: #1E314F;
+    background-color: #1E314F
 }
 
 .logo {
@@ -93,12 +95,6 @@ body.night {
 }
 
 
-body {
-  overflow-x: hidden;
-/*   background-color: whitesmoke; */
-  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
-}
-/* day-night toggle button*/
 
 .top-heading {
     text-align: center;
@@ -744,6 +740,7 @@ li:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   color: #ffff;
   border: none;
+  z-index: 10;
   /* outline: none; */
   cursor: pointer;
 }
