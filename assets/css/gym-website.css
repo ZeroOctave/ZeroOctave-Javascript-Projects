@@ -7,6 +7,14 @@
   font-weight: bolder;
   font-size: 30px;
 }
+.cnt{
+  padding-top: 50px;
+}
+.nav{
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
 .navbar-brand{
   font-size: 40px;
   font-family:'Dancing Script', cursive; 

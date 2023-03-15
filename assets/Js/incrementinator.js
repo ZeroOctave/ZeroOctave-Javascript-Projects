@@ -9,3 +9,4 @@ function reset(){
   count = 0;
   countEr.textContent = count;
 }
+

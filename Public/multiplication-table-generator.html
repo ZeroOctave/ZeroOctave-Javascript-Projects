@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/mtg.css">
+    <title>Multiplication Table Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <section>
+            <h3 id="title" class="text-center">Multiplication Table Calculator</h3>
+            <p style="text-align:center;font-size:12px;margin-bottom: 50px;margin-top: -30px;">(get the table of any number simply by typing the number itself and the range)</p>
+            <form onsubmit="return false">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <input type="number" id="txtNumber" class="form-control" min="0"
+                            placeholder="Enter the number whose table you want... ">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <input type="number" id="txtInterval" class="form-control" min="0" max="100"
+                            placeholder="Range or the maximum number you wanted your table should be..">
+                        <span class="small" style="color:black">The maximum value in the range is 100, as larger values ​​can crash your browser.</span>
+        
+                    </div>
+                </div>
+                <div id="generate" class="form-group">
+                    <div class="col-md-12">
+                        <input type="submit" id="btnGenerate" value="Get Table">
+                    </div>
+                </div>
+                <div id="ans"></div>
+           
+            </form>
+            </section>
+    </div>
+    <script src="../assets/Js/mtg.js"></script>
+</body>
+
+</html>

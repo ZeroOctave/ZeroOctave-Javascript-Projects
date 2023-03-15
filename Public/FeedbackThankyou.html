@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Feedback</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel='stylesheet'  href='../assets/css/FeedbackThankyou.css'>
+    
+</head>
+<body>
+    
+    <div id="panel" class="panel-container">
+        <strong>HOW MUCH YOU LIKE OUR WEBSITE !!</strong>
+        <h5>click on the text to select rating</h5>
+        <div id="rating-container" onclick="myFunction(event)">
+            <div>
+            <img src="../assets/Images/FeedbackThankyou/bad.jpg" alt="bad" >   
+                <small id="rating" class="rating" >BAD</small>
+            </div>
+            <div>
+                <img src="../assets/Images/FeedbackThankyou/moderate.png" alt="moderate"  >
+                <small id="rating" class="rating">MODERATE</small>
+            </div>
+            <div>
+                <img src="../assets/Images/FeedbackThankyou/good.jpg" alt="good">  
+                <small id="rating" class="rating">GOOD</small>
+            </div>
+        </div>
+        <button class="btn" onclick="reply()">SEND FEEDBACK</button>
+    </div>
+
+    <script src='../assets/Js/FeedbackThankyou.js'></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width ,initial-scale=1.0, shrink-to-fit=no">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/69fecb4176.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script&family=Pacifico&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+
+    <!--CSS Animation-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Own CSS File -->
+    <link rel="stylesheet" type="text/css" href="../../assets/css/Candy Store/firstProject.css">
+
+    <style>
+        .h1 {
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            color: #EA1C2C;
+            font-weight: 550;
+        }
+
+        #h01 {
+            font-weight: 600;
+            font-size: 55px;
+            font-family: 'Times New Roman', Times, serif;
+            color: #EA1C2C;
+        }
+
+        .h2 {
+            font-weight: 100;
+            font-size: 34px;
+            font-family: 'Times New Roman', Times, serif;
+            color: #ff0157;
+        }
+
+        i {
+            font-size: 50px;
+            font-weight: 600;
+            color: rgb(151, 10, 34);
+        }
+
+        p {
+            margin: -5px;
+        }
+        footer{
+            margin-top: 176px;
+        }
+        @media(max-width:800px){
+            .h1{
+                font-size: 30px;
+            }
+            #h01 {
+                font-size: 35px;
+            }
+            footer{
+                margin-top: 75px;
+            }
+        }
+    </style>
+
+    <title>Thankyou</title>
+</head>
+
+<body onload="loading()">
+
+    <!--Pre Loader Page-->
+    <div id="loading">
+
+    </div>
+
+
+
+    <!-- NAvBAR -->
+    <!--py-0 means padding top and bottom zero-->
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-1 fixed-top">
+
+
+        <!--To add company or institute name on Navbar -->
+        <a href="index.htm" class="navbar-brand">Candy</a>
+
+        <!--For Toggle Button -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navlinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Things need to be collapse on different screen size-->
+        <div class="collapse navbar-collapse" id="navlinks">
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.htm" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.htm" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Menu.htm" class="nav-link">ORDER ONLINE</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!--Content Start-->
+    <div class="container my-5 py-5 text-center">
+        <h2 id="h01">YOUR ORDER HAS BEEN CONFIRMED <i class="fas fa-check-circle"></i> </h2>
+
+        <h2 class="h2">Your order will deliever in 40 to 45 minutes <br> If you have any querry kindly call at <br>
+            111-123-111 </h2>
+        <h2 class="h2"></h2>
+        <h1 class="h1">THANK YOU FOR CHOOSING <span id="candy">CANDY</span></h1>
+    </div>
+
+
+
+    <!--Footer Here-->
+    <footer class="container-fluid" id="footer">
+        <h5>© 2020 Candy, Pakistan Inc. All rights reserved.</h5>
+    </footer>
+
+
+
+    <!--Bootstrap JS and J Querry linking-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+
+    <script>
+        var preloader = document.getElementById('loading');
+
+        function loading() {
+            setTimeout(myfunction, 800);
+        }
+
+
+        function myfunction() {
+            preloader.style.display = 'none';
+        }
+
+
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+
+
+    </script>
+
+</body>
+
+</html>

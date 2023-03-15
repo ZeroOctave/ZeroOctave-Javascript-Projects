@@ -245,9 +245,9 @@ UPDATE: dont use display:  none!*/
 }
 
 .bottom-navbar a{
-	font-size: 2.5rem;
+	font-size: 2.75rem;
 	padding: 2rem;
-	color: var(--black);
+	color: white;
 }
 
 .bottom-navbar a:hover{

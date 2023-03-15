@@ -1,0 +1,215 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Tracker-Expense</title>
+      <link rel="icon" href="/assets/Images/trackerExpense/logo51-removebg-preview.png">
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+      <!-- style css -->
+      <link rel="stylesheet" href="/assets/css/trackerExpense/style.css">
+      
+      <!-- Responsive-->
+      <link rel="stylesheet" href="/assets/css/trackerExpense/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="/assets/css/trackerExpense/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader-wrapper">
+         <div class="loader"></div>
+         <div class="loader-section section-left"></div>
+         <div class="loader-section section-right"></div>
+       </div>
+      <script>
+         window.addEventListener('load',function(){
+         document.querySelector('body').classList.add("loaded")  
+         });
+      </script>
+
+      
+      <!-- header -->
+      <header>
+         <div class="header">
+            <div class="container" style="width: auto;">
+               <div class="row">
+                  <div class="col-md-9">
+                     <a class="navbar-brand ml-2 mt-3" href="/Public/trackerExpense/index.html"><img height="40px" width="320px" src="/assets/Images/trackerExpense/logo51-removebg-preview.png" ></a>
+                  </div>
+                  <div class="col-md-3 rightnavlinks">
+         
+                     <div class="navlinks">
+                        <ul id="navmenu">
+                           <li><a class="navbar-brand ml-2 mt-3 loginbtn" href="#">Login</a></li>
+
+                           <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="background-color: rgba(0, 0, 0, 0.538);">
+                              <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <input type="text" placeholder="Name" id="loginName">
+                                    <input type="text" placeholder="Email" id="loginEmail">
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" id="loginFormbtn"></button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                           <li><a class="navbar-brand ml-2 mt-3 signupbtn" href="#">Sign up</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+ 
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      <section class="banner_main">
+         
+            <div class="container-fluid">
+               <div class="row d_flex">
+                  <div class="col-xl-6 col-lg-6 col-md-6 mt-5">
+                      <div class="text-bg">
+                        <h1>Expense Calculator</h1>
+                        <span>Free 
+                        Online Calculator<br></span>
+                        <strong>Maintain Your Budgets</strong>
+                        <a href="/Public/trackerExpense/calculator3.html" target="_blank">Get Started</a>
+                     </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-6 padding_lert2">
+                    
+                     <div class="text-img">
+                        <figure style=" opacity: 95%"><img src="/assets/Images/trackerExpense/wallet-removebg-preview (13).png" alt="#"/></figure>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         
+      </section>
+      <!-- end banner -->
+        <!-- about -->
+      <div class="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1" style="height: 160px;">
+                  
+               </div>
+               
+            </div>               
+                       
+         </div>
+      </div>
+      <section id="introblocks" class="mb-5 pb-5 center container-fluid">
+         <ul class="nospace ">
+           <li class="one_third">
+            <div class="titlepage">
+               <span>About our</span>
+               <h2>Calculation Accuracy</h2>
+               <div class="accText">
+                  <p>Our easy-to-use budgeting calculator will help you understand your expenses and manage your money. The budget process depends on an accurate calculation of expenses and revenues (Total Expenses = Net Revenue - Net Income) so that you can calculate the total monthly and annual expenses. Utilizing our free expense calculator will take control of your spending!</p>
+               </div>
+            </div>
+           </li>
+         </ul>
+       </section>
+       <!-- end about -->
+
+
+
+ <!-- contact -->
+      <div id="contact" class="contact">
+         <div class="container">
+             <div class="row d_flex">
+               <div class="col-md-6">
+                  <div class="contact_box">
+                     <div class="titlepage">
+                        <span>History record</span>
+                        <h2>Let’s maintain a record.</h2>
+                     </div>   
+                     <p>You can maintain a history of your expenses to your board. You can add Tacker-Expense notes along with the date mentioned on your boards. This layout will help you to track the previous record of your expenses. You can add and delete the Tracker-Expense notes using buttons. Maintaining a record will keep you financially active and involved and help you cut your unnecessary expenses. Try it now!</p>
+                  </div>
+               </div>
+              <div class="col-md-6">
+               <figure style="justify-content: center; text-align: center;"><img src="/assets/Images/trackerExpense/expense5.png" alt="#"/></figure>
+               </div>
+            </div> 
+            <br><br><br><br><br><br><br>
+
+         </div>
+      </div>
+      <!-- end contact -->
+
+     
+      <!--  footer -->
+      <footer >
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8 offset-md-2">
+                     <div class="cont">
+                        <h3>Track-Expense Calculation <br>
+                           Online Expense Calculator 2022
+                        </h3>
+                        <p>Managing extra expenses & utilizing savings.</p>
+                        <a class="read_more" id="secondLoginbtn">Login</a>
+                        <a class="signup" id="Secondsignupbtn" href="#">Sign up</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p  >© 2022 Track-Expense free services.</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="/assets/Js/trackerExpense/jquery.min.js"></script>
+      <script src="/assets/Js/trackerExpense/popper.min.js"></script>
+      <script src="/assets/Js/trackerExpense/bootstrap.bundle.min.js"></script>
+      <script src="/assets/Js/trackerExpense/jquery-3.0.0.min.js"></script>
+      <script src="/assets/Js/trackerExpense/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="/assets/Js/trackerExpense/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="/assets/Js/trackerExpense/custom.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   </body>
+</html>
+

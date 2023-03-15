@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image:url(https://media.istockphoto.com/photos/two-people-scuba-diving-with-sunlight-from-above-picture-id133729032?k=20&m=133729032&s=612x612&w=0&h=GtIy75yHPQa05-xEA2zh72nfgCKmBCvrEQ2lnw_uFhQ=) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 50px 0 30px;
+    text-align: center;
+}
+
+.faq-container {
+    max-width: 600px;
+    margin:0 auto;
+}
+
+.faq{
+    background-color: skyblue;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.faq.active{
+    background-color: aliceblue;
+    box-shadow: 0 3px 6px rgb(255, 255, 255), 0 3px 6px rgb(255, 255, 255);
+
+}
+
+.faq.title{
+    margin: 0 35px 0 0;
+}
+
+.faq-text{
+    display: none;
+    margin: 30px 0 0;
+}
+
+.faq img{
+    display: none;
+    }
+
+.faq.active .faq-text {
+    display: block;
+}
+
+.faq.active  img{
+    display: block;
+    max-height: 300px;
+}
+
+.faq-collapse{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+    height: 25px;
+    width: 25px;
+}
+
+faq-collapse:focus{
+        outline: 0;
+}
+
+.faq-collapse .fa-times{
+    display: none;
+}
+
+.faq.active .faq-collapse .fa-times{
+    display: block;
+}
+
+.faq.active .faq-collapse .fa-chevron-down{
+    display: none;
+}
+
+.faq.active .faq-collapse{
+    background-color: blue;
+    color: aliceblue;
+}

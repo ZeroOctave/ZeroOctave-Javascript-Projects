@@ -120,12 +120,15 @@ button
 }
 #education
 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-column-gap: 20px; */
+    /* grid-row-gap: 20px; */
 }
 
+.edublock{
+    margin-bottom: 10px;
+}
 .edublock .head
 {
     font-weight: 700;
