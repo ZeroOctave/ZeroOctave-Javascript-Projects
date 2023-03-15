@@ -1,6 +1,4 @@
-let nameinform = document.getElementById('name');
-let number = document.getElementById('number');
-let password = document.getElementById('password');
+let nameinform = document.getElementById('email');
 let button = document.getElementById('submit');
 
 function submit()
@@ -9,7 +7,7 @@ function submit()
     {
         if(nameinform.value.indexOf("@")>0 && nameinform.value.indexOf(".")>nameinform.value.indexOf("@") && nameinform.value.indexOf(".")!=nameinform.value.length)
         {
-            alert("Successful Registration");
+            alert("Your Email Id is Valid");
         }
         else
         {
