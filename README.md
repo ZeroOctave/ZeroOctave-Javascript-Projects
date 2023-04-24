@@ -17,7 +17,7 @@
  ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-orange.svg)
  ![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red)
  ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
- ![Begginers Friendly](https://img.shields.io/badge/Begginer%20Friendly%20-Yes-orange)
+ ![Beginners Friendly](https://img.shields.io/badge/Beginner%20Friendly%20-Yes-orange)
  ![GitHub contributors](https://img.shields.io/github/contributors/ZeroOctave/ZeroOctave-Javascript-Projects?color=blue)
  [![GitHub forks](https://img.shields.io/github/forks/ZeroOctave/ZeroOctave-JavaScript-Projects)](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/network)
  [![GitHub stars](https://img.shields.io/github/stars/ZeroOctave/ZeroOctave-JavaScript-Projects)](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/stargazers)
@@ -54,7 +54,7 @@
 # About❓
 Getting started with web development? What else would be better than practising it.
 
-So welcome developer. You are at right place.😊
+So welcome developer. You are at the right place.😊
 
 ZeroOctave Javascript Projects provide some awesome web development projects to work upon and enhance your skills.
 
@@ -306,7 +306,7 @@ git push -u origin <your_branch_name>
 
 If you have any feedback or suggestions please reach out to Project - Maintainer.
 
-Or you can create a  <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/issues">issue</a> and mention there , which new features or extension can make this Project more good.
+Or you can create a  <a href="https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/issues">issue</a> and mention there, which new features or extension can make this Project better.
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
