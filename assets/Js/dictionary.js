@@ -17,7 +17,14 @@ function data(result, word) {
         document.querySelector(".word span").innerText = phontetics;
         document.querySelector(".meaning span").innerText = definitions.definition;
         document.querySelector(".example span").innerText = definitions.example;
-        audio = new Audio("https:" + result[0].phonetics[0].audio);
+        
+        const phoneticAudios = result[0].phonetics;
+        phoneticAudios.forEach(phoneticAudio => {
+            if(phoneticAudio.audio != undefined || phoneticAudio.audio != ""){ 
+                audio = new Audio(phoneticAudio.audio);
+                return;
+            }
+        });
 
         if (definitions.synonyms[0] == undefined) {
             synonyms.parentElement.style.display = "none";

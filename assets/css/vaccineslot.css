@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: #ececec;
+}
+.banner img{
+  width: 100%;
+  height: auto;
+}
+.Heading{
+  text-align: center;
+  font-weight: 500;
+  font-family: Georgia, serif;
+}
+.input{
+  margin: 80px;
+  text-align: center;
+  margin-top: 30px;
+}

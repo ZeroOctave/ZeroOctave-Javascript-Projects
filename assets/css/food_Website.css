@@ -9,22 +9,131 @@
 
 }
 body{
-    width: 600px;
-    /* background: linear-gradient(rgba(253, 117, 76, 0.245),rgba(253, 161, 76, 0.287)),url(../images/banner.jpg); */
-    /* background-position: center; */
-    /* background: url("../images/banner.jpg"); */
-    /* background: linear-gradient(rgb(8, 198, 241),rgba(74, 7, 243, 0.646)); */
-    background-size: cover;
+    overflow-x: hidden;
+    /* width: 100% */
+    /* background: linear-gradient(rgba(253, 117, 76, 0.245),rgba(253, 161, 76, 0.287)),url(../images/banner.jpg);
+    background-position: center;
+    background: url("../images/banner.jpg");
+    background: linear-gradient(rgb(8, 198, 241),rgba(74, 7, 243, 0.646)); */
+    /* background-size: cover; */
 }
+
+.navbar{
+    padding: 0px;
+}
+.image-container{
+    background:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgba(61, 59, 59, 0.285)),
+    url(../Images/food\ website\ image.jpg);
+    background-size: cover;
+    padding-bottom: 200px;
+}
+.navbar-brand{
+    margin-top: 3px;
+    margin-left: 80px;
+    margin-bottom: 3px;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Shadows Into Light';
+}
+.signup {
+    text-decoration: none;
+    margin-right: 80px;
+    margin-left: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: 'Shadows Into Light';
+}
+.signup-container{
+    color: rgb(81, 81, 81);
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 25px;
+}
+.nav-link{
+    margin-left: 30px;
+    font-weight: 400;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: 'Shadows Into Light';
+    font-size: 25px;
+}
+/* .navlink-content :hover{
+    color: red;
+} */
+
 .header{
     /* font-family: 'Qahiri', sans-serif; */
     font-family: 'Shadows Into Light', cursive;
     position: relative;
+    /* display: flex;
+    justify-content: center; */
     
 }
+.maincontent{
+    margin-top: 40px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+ @media (min-width: 575.98px) and (max-width: 767.98px) {
+    #ingridient{
+        max-width: 400px;
+
+    }
+  }
+  @media (min-width: 475.98px) and (max-width: 575.98px){
+    #ingridient{
+        max-width: 300px;
+    }
+    #submit_btn{
+        max-width: 80px;
+    }
+  }
+
+  @media (max-width: 475.98px){
+    #ingridient{
+        max-width: 250px;
+    }
+    #submit_btn{
+        max-width: 75px;
+    }
+    #title{
+        font-size: 1.8rem;
+    }
+  }
+
+  @media (max-width: 385.98px){
+     #ingridient{
+        max-width: 220px;
+    } /*
+    #submit_btn{
+        max-width: 75px;
+    } */
+    #title{
+        font-size: 1.4rem;
+    }
+  }
+  @media (max-width: 325.98px){
+    #ingridient{
+       max-width: 200px;
+   } 
+   #submit_btn{
+       max-width: 65px;
+   } 
+   #title{
+       font-size: 1.3rem;
+   }
+ }
+
 .header h1{
     position: relative;
-    left: 650px;
+    /* left: 650px; */
     top: 10px;
     font-size: 3.4rem;
     font-weight: 800;
@@ -35,17 +144,18 @@ body{
 }
 .header h4{
     position: relative;
-    left: 550px;
+    margin-top: 10px;
+    /* left: 550px; */
     top: -10px;
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: rgb(0, 0, 0);
     font-weight: bolder;
 }
 #ingridient{
-    position: relative;
+    /* position: relative; */
     height: 50px;
     top: 10px;
-    left: 500px;
+    /* left: 500px; */
     width: 500px;
     border-radius: 21px;
     outline: none;
@@ -57,7 +167,10 @@ body{
     color: black;
     opacity: 1; 
     position: relative;
-    left: 0px;
+    /* left: 0px; */
+}
+.inner-content {
+    color: red;
 }
 #inner{
     color:red;
@@ -65,8 +178,8 @@ body{
 #submit_btn{
     position: relative;
     height: 50px;
-    top: -40px;
-    left: 900px;
+    /* top: -40px; */
+    /* left: 100px; */
     width: 100px;
     border-radius: 25px;
     outline: none;
@@ -82,6 +195,7 @@ body{
     border-top-left-radius:20px;
     border-top-right-radius:20px;
     image-rendering: crisp-edges;
+    right: 12px;
 
     /* top: 20px; */
 }
@@ -92,6 +206,7 @@ body{
     border-top-left-radius:20px;
     border-top-right-radius:20px;
     image-rendering: crisp-edges;
+    right: 12px;
 
     /* top: 20px; */
 }
@@ -102,6 +217,7 @@ body{
     border-top-left-radius:20px;
     border-top-right-radius:20px;
     image-rendering: crisp-edges;
+    right: 12px;
 
     /* top: 20px; */
 }
@@ -112,6 +228,7 @@ body{
     border-top-left-radius:20px;
     border-top-right-radius:20px;
     image-rendering: crisp-edges;
+    right: 12px;
 
     /* top: 20px; */
 }
@@ -122,7 +239,7 @@ body{
     position: relative;
     display: flex;
     justify-content: space-evenly;
-    left: 480px;
+    /* left: 480px; */
 }
 .cards{
     position: relative;
@@ -141,7 +258,7 @@ body{
     font-size:1.6rem;
     font-weight: 600;
     top: 10px;
-    left: 0px;
+    /* left: 0px; */
     color: aliceblue;
     text-align: center;
     
@@ -152,7 +269,7 @@ body{
     font-size:1.2rem;
     /* font-weight: 200; */
     top: 15px;
-    left: 0px;
+    /* left: 0px; */
     color: aliceblue;
     text-align: center;
     
@@ -165,7 +282,7 @@ body{
     font-weight: 400;
     width: 180px;
     top: 40px;
-    left: 45px;
+    left: 30px;
     background-color: aliceblue;
     color: rgb(174, 4, 4);
     text-align: center;
@@ -179,7 +296,7 @@ body{
     font-size:1.6rem;
     font-weight: 600;
     top: 10px;
-    left: 0px;
+    /* left: 0px; */
     color: aliceblue;
     text-align: center;
     
@@ -190,7 +307,7 @@ body{
     font-size:1.2rem;
     /* font-weight: 200; */
     top: 15px;
-    left: 0px;
+    /* left: 0px; */
     color: aliceblue;
     text-align: center;
     
@@ -203,7 +320,7 @@ body{
     font-weight: 400;
     width: 180px;
     top: 40px;
-    left: 45px;
+    left: 30px;
     background-color: aliceblue;
     color: rgb(174, 4, 4);
     text-align: center;
@@ -217,7 +334,7 @@ body{
     font-size:1.6rem;
     font-weight: 600;
     top: 10px;
-    left: 0px;
+    /* left: 0px; */
     color: aliceblue;
     text-align: center;
     
@@ -228,7 +345,7 @@ body{
     font-size:1.2rem;
     /* font-weight: 200; */
     top: 15px;
-    left: 0px;
+    /* left: 0px; */
     color: aliceblue;
     text-align: center;
     
@@ -241,7 +358,7 @@ body{
     font-weight: 400;
     width: 180px;
     top: 40px;
-    left: 45px;
+    left: 30px;
     background-color: aliceblue;
     color: rgb(174, 4, 4);
     text-align: center;
@@ -255,7 +372,7 @@ body{
     font-size:1.6rem;
     font-weight: 600;
     top: 10px;
-    left: 0px;
+    /* left: 0px; */
     color: aliceblue;
     text-align: center;
     
@@ -266,7 +383,7 @@ body{
     font-size:1.2rem;
     /* font-weight: 200; */
     top: 15px;
-    left: 0px;
+    /* left: 0px; */
     color: aliceblue;
     text-align: center;
     
@@ -279,7 +396,7 @@ body{
     font-weight: 400;
     width: 180px;
     top: 40px;
-    left: 45px;
+    left: 30px;
     background-color: aliceblue;
     color: rgb(174, 4, 4);
     text-align: center;
@@ -291,8 +408,9 @@ body{
     font-family: 'Shadows Into Light', cursive;
     color: rgba(0, 0, 0, 0.605);
     position: relative;
-    left: 160px;
+    /* left: 160px; */
     font-size: 2.8rem;
+    margin-left: 80px;
 }
 .hide{
     display: none;
@@ -304,7 +422,7 @@ body{
     display: flex;
     position: relative;
     top: 200px;
-    left: 530px;
+    /* left: 530px; */
 }
 .img_noval img {
     width: 100px;
@@ -313,7 +431,7 @@ body{
 .mainmsg h1{
     position: relative;
     top: 10px;
-    left: 10px;
+    /* left: 10px; */
     color: rgba(0, 0, 0, 0.605);
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Shadows Into Light', cursive;
@@ -335,7 +453,7 @@ body{
     position: relative;
     top: 80px;
     color: white;
-    left: 100px;
+    /* left: 100px; */
     font-size: 1.2rem;
 }
 .steps img{
@@ -344,14 +462,14 @@ body{
     border-radius:50%;
     position: relative;
     top: 30px;
-    left: 350px;
+    /* left: 350px; */
 
 }
 .steps h1{
     position: relative;
     color: white;
     font-family: 'Shadows Into Light', cursive;
-    left: 320px;
+    /* left: 320px; */
     top: 50px;
 }
 .steps_close .fas{
@@ -369,7 +487,7 @@ body{
     color: rgb(174, 4, 4);
     text-align: center;
     width: 300px;
-    left: 250px;
+    /* left: 250px; */
     height: 30px;
     border-radius:20px;
     font-weight: 400;
@@ -378,3 +496,59 @@ body{
 .suggestion a{
     text-decoration:none;
 }
+.footer{
+    background-color: black;
+    margin-top: 40px;
+    color: white;
+}
+#about-us{
+    margin-top: 60px;
+    color: #dad8d8;
+    line-height: 1.8rem;
+}
+
+#customer-service{
+    margin-top: 60px;
+    color: #dad8d8;
+    line-height: 1.8rem;
+}
+
+#social-links{
+    margin-top: 60px;
+    color: #dad8d8;
+    line-height: 1.8rem;
+}
+  .bi-twitter {
+    color: white;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.bi-instagram{
+    color: white;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.bi-facebook{
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.bi-youtube{
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.other-info{
+    font-size: larger;
+    color: white;
+}
+
+.copyright{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

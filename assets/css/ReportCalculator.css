@@ -3,7 +3,7 @@
   padding: 0;
 }
 .container {
-  background-color: black;
+  background-color: rgb(15, 153, 50);
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -13,18 +13,18 @@
 .second {
   background-color: rgb(15, 153, 50);
   height: 55%;
-  width: 60%;
+  width: 100vw;
   margin-top: 10%;
   display: flex;
   flex-direction: row;
-  box-shadow: 1px 1px 10px white;
+  box-shadow: 1px 1px 10px rgb(5, 5, 5);
   overflow: hidden;
 }
 .left {
   background-color: rgb(15, 153, 50);
   height: 90%;
-  width: 30%;
-  font-size: 1.5rem;
+  width: 300vw;
+  font-size: 2rem;
   font-family: "Merriweather", serif;
 }
 p {
@@ -35,7 +35,8 @@ p {
 .right {
   background-color: rgb(15, 153, 50);
   height: 90%;
-  width: 70%;
+  width: 300px;
+  margin-top: 5vh;
 }
 div.right form {
   margin: 5%;
@@ -44,7 +45,7 @@ div.right form {
 }
 div.right form input {
   margin: 1%;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border-radius: 5px;
   padding: 4px;
 }
@@ -53,4 +54,35 @@ div.right p {
   top: 2%;
 
   letter-spacing: 1px;
+}
+
+.align {
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 3vh;
+}
+
+table,td,th{
+  border: 1px solid black;
+  font-size: 24px;
+
+}
+
+table{
+  width: 800px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-collapse: collapse;
+
+
+}
+
+td,th{
+  padding: 8px;
+  text-align: left;
 }

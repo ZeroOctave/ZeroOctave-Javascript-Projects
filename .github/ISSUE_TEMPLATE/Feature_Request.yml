@@ -1,0 +1,58 @@
+name: "💡 Feature Request"
+description: Create a new ticket for a new feature request
+title: "💡 [REQUEST] - <title>"
+labels: [
+  "new feature"
+]
+body:
+  - type: input
+    id: Concise-Title
+    attributes:
+      label: "Concise Description"
+      placeholder: write a concise and appropraiate one line description of the feature request
+    validations:
+      required: true
+  - type: textarea
+    id: About-Solution
+    attributes:
+      label: "Solution Proposed"
+      description: Describe the solution you would want
+      placeholder: "bullet points of the expected solution"
+    validations:
+      required: true
+  - type: textarea
+    id: About-Alternatives
+    attributes:
+      label: "Alternative Solutions"
+      description: Describe the alternative solution you can think of
+      placeholder: "bullet points of the alternative solutions"
+    validations:
+      required: false
+  - type: textarea
+    id: Additional-Context
+    attributes:
+      label: "Additional Context / Screenshots"
+      description: Write any other contexts or screenshots about the feature request.
+      render: bash
+    validations:
+      required: false
+  - type: checkboxes
+    id: Sections-Completed
+    attributes:
+      label: Sections Completed
+      description: Check the box of the sections you have completed.
+      options:
+        - label: Concise Description
+        - label: Solution Proposed
+        - label: Alternative Solutions
+        - label: Additional-Context
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I follow [Contributing Guidelines](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/blob/main/CONTRIBUTING.md) of this project.
+          required: true  
+        - label: I have checked the [current issues](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/issues) for duplicate problems.
+        - label: I have read the [readme](https://github.com/ZeroOctave/ZeroOctave-Javascript-Projects/blob/main/README.md) of this repository.

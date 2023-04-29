@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../assets/Images/font_logo.jpg">
+    <title>Font Styles</title>
+    <link rel="stylesheet" href="../assets/css/font_styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- As a link -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./font_styles.html">Font Styles</a>
+        </div>
+    </nav>
+    </br>
+    <div class="heading">
+        <h3>Type in some text below :</h3>
+    </div>
+    <div class="form-floating" style="padding: 3px; margin:15px">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+            style="height: 200px" onclick="remove()"></textarea>
+        <label for="floatingTextarea2" id="labelling">Type in your text here..</label>
+        </br>
+
+        <h4>Choose your font style from below :</h4>
+        <button type="button" id="btn" class="btn btn-info" onclick="document.getElementById('floatingTextarea2').style.fontFamily='sans-serif'">sans-serif</button>
+        <button type="button" id="btn" class="btn btn-info" onclick="document.getElementById('floatingTextarea2').style.fontFamily='serif'">serif</button>
+        <button type="button" class="btn btn-info" onclick="document.getElementById('floatingTextarea2').style.fontFamily='Helvetica'">Helvetica</button>
+        <button type="button" class="btn btn-info" onclick="document.getElementById('floatingTextarea2').style.fontFamily='Arial'">Arial</button>
+        <button type="button" class="btn btn-info" onclick="document.getElementById('floatingTextarea2').style.fontFamily='Roboto'">Roboto</button>
+        <button type="button" class="btn btn-info" onclick="document.getElementById('floatingTextarea2').style.fontFamily='Times New Roman'">Times new roman</button>
+        <button type="button" class="btn btn-info" onclick="document.getElementById('floatingTextarea2').style.fontFamily='Times'">Times</button>
+        <button type="button" class="btn btn-info" onclick="document.getElementById('floatingTextarea2').style.fontFamily='Monospace'">Monospace</button>
+        <button type="button" class="btn btn-info" onclick="document.getElementById('floatingTextarea2').style.fontFamily='Courier'">Courier</button>
+        <button type="button" class="btn btn-info" onclick="document.getElementById('floatingTextarea2').style.fontFamily='Gill Sans'">Gill Sans</button>
+        <button type="button" class="btn btn-info" onclick="document.getElementById('floatingTextarea2').style.fontFamily='Franklin Gothic Medium'">Franklin Gothic Medium</button>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="../assets/Js/font_styles.js"></script>
+</body>
+
+</html>

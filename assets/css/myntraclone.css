@@ -1,0 +1,434 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    position: sticky;
+    background-color: #ffffff;
+    top: 0px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.left ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.left ul li {
+    padding: 0px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #090909;
+    line-height: 80px;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+.left img {
+    width: 53px;
+    height: 36px;
+    padding: 0px 50px;
+}
+
+.container img {
+    cursor: pointer;
+    width: 98.5vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+}
+
+.section {
+    display: flex;
+    margin: 3px 2px;
+    justify-content: center;
+}
+
+.section img {
+    cursor: pointer;
+    width: 48vw;
+    background-size: cover;
+}
+
+.section1 img {
+    cursor: pointer;
+    width: 100vw;
+    background-size: cover;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+}
+
+.section2 img {
+    cursor: pointer;
+    width: 285px;
+    height: 380px;
+}
+
+.section3 img {
+    cursor: pointer;
+    width: 100vw;
+    background-size: cover;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+}
+
+.section4 img {
+    cursor: pointer;
+    width: 290px;
+    height: 345px;
+}
+
+.section5 img {
+    cursor: pointer;
+    width: 100vw;
+    background-size: cover;
+}
+
+.section6 {
+    display: flex;
+    justify-content: center;
+}
+
+.section6 img {
+    cursor: pointer;
+    width: 291px;
+    height: 375px;
+}
+
+.section7 img {
+    cursor: pointer;
+    width: 100vw;
+    background-size: cover;
+}
+
+.section8 {
+    display: flex;
+    justify-content: center;
+}
+
+.section8 img {
+    cursor: pointer;
+    width: 261px;
+    height: 351px;
+}
+
+footer {
+    /* margin-top: 25px; */
+    height: 55px;
+    /* text-align: center; */
+    background-color: #f7f7f7;
+    padding-top: 28px;
+    font-size: 14px;
+    color: #696b79;
+    text-decoration: none;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    letter-spacing: .3px;
+}
+
+footer a {
+    cursor: pointer;
+    color: #696b79;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.right input {
+    font-size: 14px;
+    height: 20px;
+    line-height: 24px;
+    width: 60%;
+    color: #696e79;
+    padding: 8px 10px 10px;
+    outline: 0;
+    border: 1px solid #f5f5f6;
+    border-radius: 4px 4px 4px 4px;
+    background: #f5f5f6;
+}
+
+.icons {
+    display: flex;
+    margin: 0px 42px;
+}
+
+.profile,
+.wish,
+.bag {
+    color: #000;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 0px 13px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.online-shopping{
+    text-align: left;
+    margin-right: 50px;
+}
+.customer-policies{
+    text-align: left;
+    margin-right: 50px;
+}
+.app{
+    text-align: left;
+    margin-right: 90px;
+}
+.row-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    
+}
+.content-heading{
+    color: black;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+.content-box{
+    line-height: 1.6;
+}
+.para-content{
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.copyright-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.horizontal-line{
+    margin-bottom: 30px;
+    opacity: 0.2;
+    height: 0.3px;
+}
+.office-address-content{
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+.other-info-heading{
+    font-weight: 600;
+    letter-spacing: normal;
+    color: black;
+    font-size: 15px;
+    opacity: 0.8;
+
+}
+.other-info-para-content{
+    margin-top: 8px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+.Google-play{
+    background-repeat: none;
+    margin-right: 10px;
+    
+}
+.App-Store{
+    background-repeat: none;
+
+}
+.download-button{
+    display: flex;
+    margin-top: 30px;
+}
+.download-button img{
+    width: 130px;
+    height:40px;
+}
+
+.original{
+    margin-bottom: 30px;
+    color: black;
+    opacity: 0.8;
+
+}
+.customer-satisfaction{
+    margin-bottom: 30px;
+}
+.social-links{
+    margin-top: 12px;
+}
+
+.fb-icon{
+    margin-right:6px;
+}
+.tw-icon{
+    margin-right:6px;
+}
+.yt-icon{
+    margin-right:6px;
+}
+
+.men-section-items{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute; /* to be removed */
+    width: 1050px;
+    height: 510px;
+    /*top: 232px;  to be removed */
+    right: 1px;
+    left: 130px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 15px;
+    z-index: 10;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.women-section-items{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute; /* to be removed */
+    width: 1050px;
+    height: 510px;
+    /*top: 232px;  to be removed */
+    right: 1px;
+    left: 130px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 15px;
+    z-index: 10;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.kids-section-items{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute; /* to be removed */
+    width: 1050px;
+    height: 510px;
+    /*top: 232px;  to be removed */
+    right: 1px;
+    left: 130px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 15px;
+    z-index: 10;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.home-section-items{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute; /* to be removed */
+    width: 1050px;
+    /*top: 232px;  to be removed */
+    right: 1px;
+    left: 130px;
+    height: 510px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom:15px;
+    z-index: 10;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.beauty-section-items{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute; /* to be removed */
+    width: 1050px;
+    height:510px;
+    /*top: 232px;  to be removed */
+    right: 1px;
+    left: 130px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 15px;
+    z-index: 10;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.col-1{
+    margin-right: 70px;
+    margin-top: 15px;
+}
+.col-2{
+    margin-right: 70px;
+    margin-top: 15px;
+}
+.col-3{
+    margin-right: 70px;
+    margin-top: 15px;
+}
+.col-4{
+    margin-right: 70px;
+    margin-top: 15px;
+}
+.col-5{
+    margin-right: 70px;
+    margin-top: 15px;
+}
+.category{
+    margin-bottom: 11px;
+}
+.category-items{
+    margin-top: 8px;
+    line-height: 1.6;
+    font-size: 14px;
+    opacity: 0.95;
+}
+.horizontal-line2{
+    margin-bottom: 18px;
+    margin-top: 15px;
+    background-color: white;
+}
+.visibility{
+    display: none;
+}
+.category-heading{
+    color: #ee6780;
+    font-weight: bold;
+    font-size: 14px;
+}
+

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #1d2133;
+  }
+  
+  #canvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+  }
+  
+  span,
+  div {
+    position: absolute;
+    color: #aaa;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    font-family: Helvetica;
+    text-align: center;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+
+  div {
+    bottom: 60px;
+  
+ 
+  }

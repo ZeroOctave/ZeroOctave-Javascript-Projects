@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Tacker-Expense Calculator</title>
+        <link rel="icon" href="/assets/Images/trackerExpense/logo51-removebg-preview.png">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="/assets/css/trackerExpense/calculator3.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+        <!-- font -->
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+       
+    </head>
+    <body>
+
+        <!-- loader  -->
+      <div class="loader-wrapper">
+        <div class="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+      </div>
+     <script>
+        window.addEventListener('load',function(){
+        document.querySelector('body').classList.add("loaded")  
+        });
+     </script>
+    
+     <!-- header -->
+     <div class="header">
+        <div class="" style="width: auto;">
+           <div class="row">
+              <div class="col-md-9">
+                 <a class="navbar-brand ml-2 " href="/Public/trackerExpense/index.html"><img src="/assets/Images/trackerExpense/logo51-removebg-preview.png" ></a>
+              </div>
+              <div class="col-md-3 username">
+                
+              </div>
+            </div>
+        </div>
+     </div>        
+
+
+        <div class="bgimg">
+        
+            <div class="row d-flex justify-content-center text-center container cal" id="parent">
+                <div class="col-md-6"></div>
+                <div class=" col-md-3 navlinks">
+                    <a  id="oldrecord">Old records</a>
+                    <a id="clearrecord">Clear Records</a>
+                </div>
+                <div class=" col-md-3 mostrightnavbar">
+                    <a id="calc_again">Calculate again?</a>
+                </div>
+                    <div class="col-md-9 col-sm-6 questions slideshow-container">
+
+
+                        <div id="progress">
+                            <div id="progress-bar"></div>
+                            <ul id="progress-num">
+                              <li class="step active">1</li>
+                              <li class="step">2</li>
+                              <li class="step">3</li>
+                              <li class="step">4</li>
+                              <!-- <li class="step">5</li> -->
+                            </ul>
+                          </div>
+
+                        <div id="text1" class="txt active">
+                            <ul id="">
+                                <li class="progressOne">
+                                    <form id="expense_form">
+                                        <h5 style="color: white;">Monthly Income:</h5>
+                                        <div class="form-row ">
+                                            <div class="form-group col-md-5">
+                                                <h6>Salary/Wages:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="range" min="0" max="70000">
+                                                    <label for="range">$50</label>
+                                                  </div>
+                                            </div>  
+                                            <div class="form-group col-md-5">
+                                                <h6>Other Income:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="otherRange" min="0" max="70000">
+                                                    <label for="otherRange">0</label>
+                                                  </div>
+                                            </div>                                                    
+                                        </div>
+
+
+                                        <h5 style="color: white;">Housing Expenses:</h5>
+                                        
+                                        <div class="form-row">
+                                            <div class="form-group col-md-5">
+                                                <h6>Mortage:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="mortage" min="0" max="50000">
+                                                    <label for="mortage">0</label>
+                                                  </div>
+                                            </div>  
+                                            <div class="form-group col-md-5">
+                                                <h6>Rent:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="rent" min="0" max="30000">
+                                                    <label for="rent">0</label>
+                                                  </div>
+                                            </div>                                                  
+                                        </div>
+                                        
+                                        <div class="form-row">
+                                            <div class="form-group col-md-5">
+                                                <h6>Cable / TV / Internet:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="cable" min="0" max="2100">
+                                                    <label for="cable">0</label>
+                                                  </div>
+                                            </div> 
+                                            <div class="form-group col-md-5">
+                                                <h6>Water / Gas / Electricity:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="gas" min="0" max="18000">
+                                                    <label for="gas">0</label>
+                                                  </div>
+                                            </div>                                                  
+                                        </div>
+                                        
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div id="text2" class="txt">
+                            <ul id="">
+                                <li class="progressTwo">
+                                    <form id="expense_form">
+                                        <h5 style="color: white;">Transportation Expenses:</h5>
+                                        
+                                        <div class="form-row">
+                                            <div class="form-group col-md-5">
+                                                <h6>Car Payment:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="car" min="0" max="70000">
+                                                    <label for="car">0</label>
+                                                  </div>
+                                            </div> 
+                                            <div class="form-group col-md-5">
+                                                <h6>Car Insurance:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="insuranceRange" min="0" max="40000">
+                                                    <label for="insuranceRange">0</label>
+                                                  </div>
+                                            </div>                                                  
+                                        </div>
+
+                                        <div class="form-row">
+                                            <div class="form-group col-md-5">
+                                                <h6>Gas / Fuel:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="fuel" min="0" max="16000">
+                                                    <label for="fuel">0</label>
+                                                  </div>
+                                            </div> 
+                                            <div class="form-group col-md-5">
+                                                <h6>Car Repairs:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="repairs" min="0" max="16000">
+                                                    <label for="repairs">0</label>
+                                                  </div>
+                                            </div>                                                  
+                                        </div>
+
+                                        <h5 style="color: white;">Educational Expenses:</h5>
+                                        
+                                            <div class="form-row">
+                                                <div class="form-group col-md-5">
+                                                    <h6>School Supplies:</h6>
+                                                    <div class="range-container">
+                                                        <input type="range" id="supplies" min="0" max="50000">
+                                                        <label for="supplies">0</label>
+                                                      </div>
+                                                </div> 
+                                                <div class="form-group col-md-5">
+                                                    <h6>Student Loans:</h6>
+                                                    <div class="range-container">
+                                                        <input type="range" id="loans" min="0" max="50000">
+                                                        <label for="loans">0</label>
+                                                      </div>
+                                                </div>                                                  
+                                            </div>
+
+                                            <div class="form-row">
+                                                <div class="form-group col-md-5">
+                                                    <h6>College:</h6>
+                                                    <div class="range-container">
+                                                        <input type="range" id="college" min="0" max="50000">
+                                                        <label for="college">0</label>
+                                                      </div>
+                                                </div> 
+                                                <div class="form-group col-md-5">
+                                                    <h6>Tution:</h6>
+                                                    <div class="range-container">
+                                                        <input type="range" id="tution" min="0" max="8000">
+                                                        <label for="tution">0</label>
+                                                      </div>
+                                                </div>                                                  
+                                            </div>
+                                        
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div id="text3" class="txt">
+                            <ul id="">
+                                <li class="progressThree">
+                                    <form id="expense_form">
+                                        
+                                        <h5 style="color: white;">Food and Personal:</h5>
+                                        
+                                        <div class="form-row">
+                                            <div class="form-group col-md-5">
+                                                <h6>Groceriess / Household:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="gro" min="0" max="22000">
+                                                    <label for="gro">0</label>
+                                                  </div>
+                                            </div>  
+                                            <div class="form-group col-md-5">
+                                                <h6>Clothing:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="clo" min="0" max="30000">
+                                                    <label for="clo">0</label>
+                                                  </div>
+                                            </div>                                                  
+                                        </div>
+                                        
+                                        <div class="form-row">
+                                            <div class="form-group col-md-5">
+                                                <h6>Entertainment:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="ent" min="0" max="8000">
+                                                    <label for="ent">0</label>
+                                                  </div>
+                                            </div> 
+                                            <div class="form-group col-md-5">
+                                                <h6>Medical:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="med" min="0" max="70000">
+                                                    <label for="med">0</label>
+                                                  </div>
+                                            </div>                                                  
+                                        </div>
+
+                                        <div class="form-row">
+                                            <div class="form-group col-md-5">
+                                                <h6>Fast Foods / Snacks:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="snack" min="0" max="12000">
+                                                    <label for="snack">0</label>
+                                                  </div>
+                                            </div> 
+                                            <div class="form-group col-md-5">
+                                                <h6>Other Expenses:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="oExp" min="0" max="70000">
+                                                    <label for="oExp">0</label>
+                                                  </div>
+                                            </div>                                                  
+                                        </div>
+                                       
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div id="text4" class="txt">
+                            <ul id="">
+                                <li class="progressFour">
+                                    <form id="expense_form">
+                                        <h5 style="color: white;">Fund / Tax:</h5>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-5">
+                                                <h6>Emergency Fund:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="fund" min="0" max="20000">
+                                                    <label for="fund">0</label>
+                                                  </div>
+                                            </div>  
+                                            <div class="form-group col-md-5">
+                                                <h6>Income Tax:</h6>
+                                                <div class="range-container">
+                                                    <input type="range" id="saveFund" min="0" max="18000">
+                                                    <label for="saveFund">0</label>
+                                                  </div>
+                                            </div>                                                  
+                                        </div>
+                            
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+
+                       
+                          <div class="btndiv">
+                            <button id="progress-prev" class="btn center" disabled>Prev</button>
+                            <button id="progress-next" class="btn center">Next</button>
+                          </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 resultchart center">
+                        <a href="" id="beforesave"><img src="https://img.icons8.com/windows/32/26e07f/bookmark-ribbon--v1.png"/></a>
+                        <a href="" class="saved" id="aftersave"><img src="/assets/Images/trackerExpense/cal3/savedicon.png"/></a>
+                        <h1 class="result_heading">Your Results:</h1>
+                        
+                        <div class="resultIncome"> 
+                            <p><b>Monthly income: </b></p>
+                            <b><p id="MIresult">0</p></b>
+                        </div>
+
+                        
+                        <div class="bars ">
+                            <p class="subheading ">Housing</p>
+                            <p class="subanswer" id="rentsum">$0</p>                        
+                        </div>
+    
+                        
+                        <div class="bars">
+                            <p class="subheading">Transportation</p>
+                            <p class="subanswer" id="Tsum">$0</p>                        
+                        </div>
+    
+                        
+                        <div class="bars">
+                            <p class="subheading">Educational</p>
+                            <p class="subanswer" id="Esum">$0</p>                        
+                        </div>
+    
+                        
+                        <div class="bars">
+                            <p class="subheading">Personal</p>
+                            <p class="subanswer" id="Psum">$0</p>                        
+                        </div>
+    
+                        
+                        <div class="bars">
+                            <p class="subheading">Fund/Tax</p>
+                            <p class="subanswer" id="Ssum">$0</p>                        
+                        </div>
+
+                        <div class="resultExpenses RE"> 
+                            <p><b>Monthly Expenses: </b></p>
+                            <b><p id="MEresult">0</p></b>
+                        </div>
+
+                        <div id="finalResult">
+                            <div><button class="showResult" >Get Your Results</button></div>
+                            <div class="finalDigit" id="finalAnswer">0</div>
+                            <div class="minusSaving" id="minusAnswer">0</div>
+                        </div>
+                    
+                                            
+                    </div>
+
+            </div>
+            
+
+        </div>
+        <div id="notesBackground">
+            <div class="row" id="noteSection">
+                
+            </div>
+        </div>
+
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="background-color: rgba(0, 0, 0, 0.538);">
+            <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Attention:</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Complete the tracker please.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Got it.</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          
+        
+        <script type="module" src="/assets/Js/trackerExpense/calculator3.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

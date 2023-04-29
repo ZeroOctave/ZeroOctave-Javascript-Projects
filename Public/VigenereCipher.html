@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+
+  
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vigenère cipher </title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/css/VigenereCipher.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="../assets/Js/VigenereCipher.js"></script>
+</head>
+<body>
+	<h1>Vigenere Cipher Encryptor and Decryptor</h1>
+<div class="cage">
+    <form id="encdecForm">
+        <h2>Input Form</h2>
+        <fieldset id="inputField">
+            <div class="row">
+                <div class="label"><label for="ip">Input : </label></div>
+                <div class="box"><input type="text" id="ip" /></div>
+            </div><br clear="both" />
+            <div class="row">
+                <div class="label"><label for="key"> Key : </label></div>
+                <div class="box"><input type="text" id="key" /></div>
+            </div><br clear="both" />
+            <div class="row">
+<label for="enc" style ="font-size:30px;color:black">Encrypt</label><input type="radio"  name="slct" id="enc" value="encrypt" style="height:20px; width:20px;" checked="checked" />
+<label for="dec" style ="font-size:30px;color:black">Decrypt</label><input type="radio" name="slct" id="dec" value="decrypt" style="height:20px; width:20px;" />
+            </div><br clear="both" />
+            <div class="row">
+                <div class="label"><label for="result">Result : </label></div>
+                <div class="box"><input type="text" id="result" /></div>
+            </div><br clear="both" />
+            <div class="row">
+                <input type="submit" value="Convert" name="convert" />
+        
+                <input type="reset" value="Reset" name="resetButton" />
+            </div><br clear="both" />
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../Images/RainEffects.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rain {
+    position: fixed;
+    top: -1.5vh;
+    font-size: 22px;
+    transform: translateY(0);
+    animation: fall 4s linear forwards;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(103vh);
+    }
+}
