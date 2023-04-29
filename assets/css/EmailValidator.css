@@ -1,5 +1,4 @@
 body {
-    /* background-color: rgb(65, 65, 232); */
     display: flex;
     justify-content: center;
     background-color: teal;
@@ -15,7 +14,6 @@ body {
     border-radius: 5px;
 
 }
-
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
@@ -28,23 +26,20 @@ h2 {
 }
 
 #email {
-    height: 24px;
-    width: 200px;
+    height: 30px;
+    width: 250px;
     font-family: cursive;
-
 }
-
 .btn {
     margin-top: 34px;
     height: 38px;
-    width: 110px;
+    width: 100px;
     border-radius: 5px;
     border: 1px solid black;
     background-color: teal;
     color: white;
     font-size: 15px;
 }
-
 .btn:hover {
     background-color: coral;
     cursor: pointer;
