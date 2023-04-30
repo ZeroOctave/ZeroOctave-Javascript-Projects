@@ -1,19 +1,46 @@
-body
-{
-    background-color: pink;
+body {
+    display: flex;
+    justify-content: center;
+    background-color: teal;
 }
 
-form
-{
-    margin: 10%;
+.container {
+    background-color: white;
+    margin-top: 160px;
+    width: 560px;
+    height: 300px;
+    text-align: center;
+    border-left: 15px solid coral;
+    border-radius: 5px;
+
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
 }
 
-form input
-{
-    margin: 4%;
+.EmailId {
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 34px;
 }
 
-button
-{
-    padding: 2%;
+#email {
+    height: 30px;
+    width: 245px;
+    font-family: cursive;
+}
+.btn {
+    margin-top: 34px;
+    height: 38px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: teal;
+    color: white;
+    font-size: 15px;
+}
+.btn:hover {
+    background-color: coral;
+    cursor: pointer;
 }

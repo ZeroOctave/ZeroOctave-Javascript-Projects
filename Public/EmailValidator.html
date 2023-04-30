@@ -5,13 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/EmailValidator.css">
+
     <title>Email Validator</title>
+
 </head>
 <body>
-    <form action="#">
-        Email <input type="text" name="name" id="name"><br>
-        <button id="submit"> Submit </button>
+    <div class="container">
+        <h2> Email Validator
+            <hr>
+        </h2>
+    <form name="myForm" onsubmit="ValidateEmail(document.myForm.Email)">
+    <p class="EmailId">
+        <label for="email">Email Id:</label>
+    </p>
+       <input type="text" id="email" name="Email" placeholder="example@gmail.com">
+       <button id="submit" class="btn">Submit</button>
     </form>
+    </div>
 </body>
 <script src="../assets/Js/EmailValidator.js"></script>
+
 </html>
+
