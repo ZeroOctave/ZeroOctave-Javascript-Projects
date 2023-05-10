@@ -16,11 +16,25 @@ function count_alphabets(val){
   return 0;
 }
 
+function longest(val){
+       
+  let sentence=val.split(" ");
+    let longestWord=sentence.reduce(function(a,b){
+      if(a.length>b.length) return a;
+      return b;
+    },"");
+    return longestWord;
+}
+// var temp=document.getElementById("textcontent");
+temp=document.getElementById("textcontent");
 var textContent = document.getElementById("textcontent");
 var showWordCount   = document.getElementById("countWord");
 var showcharactercount = document.getElementById("countcharacter");
 var showalphabetcount = document.getElementById("countalphabets");
+var longestWord=document.getElementById("longestWord");
+var longestWordlength=document.getElementById("longestWordlength");
 textContent.addEventListener("input", function(){
+  
 var v = count_word( this.value );
 showWordCount.innerHTML = (
     "<br>Words: "+ v.words
@@ -33,4 +47,7 @@ var d = count_alphabets(this.value);
 showalphabetcount.innerHTML = (
   "<br>Alphabets: "+d
 );
+var l=longest(this.value);
+longestWord.innerHTML=("<br>Longest Word: "+l);
+longestWordlength.innerHTML=("<br>Length of "+l+" is: "+l.length);
 }, false);
