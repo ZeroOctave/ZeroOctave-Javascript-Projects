@@ -133,10 +133,10 @@ z-index: 10000;
 .ball {
   width: 20px;
   height: 20px;
-  background-color: white;
+  background-color: black;
   box-shadow: 0 0 2px black;
   position: absolute;
-  top: 2px;
+  top: 3px;
   left: 2px;
   border-radius: 50%;
   transition: transform 0.2s linear;
