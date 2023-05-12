@@ -17,28 +17,28 @@
                     <div class="sc" id="sc"></div>
                </div>
         </div>
-        <script type="text/javascript">
-                const deg = 6;
-                const hr = document.querySelector('#hr');
-                const mn = document.querySelector('#mn');
-                const sc = document.querySelector('#sc');
+         
+    <div class="mode">
 
-                setInterval(() => {
-                    let day = new Date();
-                    let hh = day.getHours() * 30;
-                    let mm = day.getMinutes() * deg;
-                    let ss = day.getSeconds() *deg;
+    <input type="checkbox" class="checkbox" id="checkbox">
+    <label for="checkbox" class="label">
+      <div class='ball'></div>
+    </label>
+    
 
-                    hr.style.transform = `rotateZ(${(hh)+(mm/12)}deg)`;
-                    mn.style.transform = `rotateZ(${mm}deg)`;
-                    sc.style.transform = `rotateZ(${ss}deg)`;
-                });
-            </script>
-         <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" 
-                data-id="Astrodevil" data-description="Support me on Buy me a coffee!!" 
-                data-message="" data-color="#40DCA5"
-                data-position="Right"
-                data-x_margin="50" data-y_margin="50">
-            </script>
+</div>
+<script
+      data-name="BMC-Widget"
+      data-cfasync="false"
+      src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+      data-id="Astrodevil"
+      data-description="Support me on Buy me a coffee!!"
+      data-message=""
+      data-color="#40DCA5"
+      data-position="Right"
+      data-x_margin="50"
+      data-y_margin="50"
+></script>
+<script src="../assets/Js/analog_clock1.js"></script>
 </body>
 </html>

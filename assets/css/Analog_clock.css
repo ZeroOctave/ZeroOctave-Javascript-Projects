@@ -4,6 +4,11 @@
   padding: 0;
   box-sizing: border-box;
  }
+
+ :root {
+             --sec-color: red;
+         }
+
 body
 {
    display: flex;
@@ -16,6 +21,7 @@ body
    {
      width: 350px;
      height: 350px;
+     margin-top: -10vh;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -74,10 +80,11 @@ z-index: 10000;
   width: 8px;
   height: 80px;
   background: lightgrey;
-
   z-index: 10;
   border-radius: 6px 6px 0 0;
 }
+
+
 .mn:before
 {
   content: ' ' ;
@@ -94,7 +101,48 @@ z-index: 10000;
   position: absolute;
   width: 2px;
   height: 150px;
-  background: red;
+  background: var(--sec-color);
   z-index: 12;
   border-radius: 6px 6px 0 0;
+}
+
+.mode{
+  position: absolute;
+  margin-top: 60vh;
+  align-content: center;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  width: 50px;
+  height: 26px;
+  background-color: #fff;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transform: scale(1.5);
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  box-shadow: 0 0 2px black;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
 }
