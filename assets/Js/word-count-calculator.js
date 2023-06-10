@@ -43,7 +43,6 @@ function search(val,search){
   return val;
 }
  
-// temp=document.getElementById("textcontent");
 var textContent = document.getElementById("textcontent");
 var showWordCount   = document.getElementById("countWord");
 var showcharactercount = document.getElementById("countcharacter");
