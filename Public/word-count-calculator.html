@@ -30,13 +30,25 @@
           </div>
           <div class="container text-secondary">
             <h2>Your text summary</h2>
+            <hr style="color: brown; height: 2px;">
               <div id="countWord"></div>
               <div id="countcharacter"></div>
               <div id="countalphabets"></div>
               <div id="longestWord"></div>
               <div id="longestWordlength"></div>
+              <!-- <button id="copyButton" class="btn btn-success my-2 mx-2" type="submit" >Copy</button>
+              <button id="pasteButton" class="btn btn-danger my-2 mx-2" type="submit" >Paste</button> -->
           </div>
 
+          <div class="search my-2">
+            <input class="form-control me-2" type="search" placeholder="Enter a word to know its frequency..." id="searchText" aria-label="Search"/>
+            <button id="searchButton" class="btn btn-primary my-2 mx-2" type="submit" >Search</button>
+            <div id="frequency"></div>
+          </div>
+
+          <div class="unique">
+            
+          </div>
 	    <script src="../assets/Js/word-count-calculator.js"></script>
 
     </body>
