@@ -39,9 +39,6 @@ function search(val,search){
   return count;
  }
 
- function copy(val){
-  return val;
-}
  
 var textContent = document.getElementById("textcontent");
 var showWordCount   = document.getElementById("countWord");
@@ -54,6 +51,7 @@ var frequency=document.getElementById("frequency");
 var copy=document.getElementById("copyButton");
 var paste=document.getElementById("pasteButton");
 let f=0;
+
 longestWord.innerHTML=("<br>There is no text.");
 textContent.addEventListener("input", function(){
   
@@ -76,15 +74,12 @@ if(l.length===0){
 else{
   longestWord.innerHTML=("<br>Longest Word: "+l.bold());
 }
-
-longestWordlength.innerHTML=("<br>Length of "+l+" is: "+l.length);
 let text=this.value;
-  searchText.addEventListener("input",function(){
-    let word=this.value;
-    f=search(text,word);
+longestWordlength.innerHTML=("<br>Length of "+l+" is: "+l.length);
     searchButton.addEventListener("click",function(){
+      let word=searchText.value;
+      f=search(text,word);
       frequency.innerHTML=("<br>"+word.bold()+" occurs "+f+" times(s) in the text.");
     },false);
-  },false);
 }, false);
 
