@@ -2,10 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Word length calculator</title>
+        <title>Text Analyzer</title>
         <meta name="description" content="word length calculator">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
     </head>
 
@@ -19,20 +21,30 @@
               </div>
             </div>
           </nav>
+         
           <div class="input-group">
             <div class="input-group-prepend">
             
             </div>
-            <textarea class="form-control mx-5 my-5 text-success"  id="textcontent"  aria-label="Large"></textarea>
+            <textarea class="form-control mx-5 my-5 text-success"  id="textcontent"  aria-label="Large" placeholder="Enter text here..."></textarea>
           </div>
           <div class="container text-secondary">
-              Count of following parameters is displayed here-
+            <h2>Your text summary</h2>
+            <hr style="color: brown; height: 2px;">
               <div id="countWord"></div>
               <div id="countcharacter"></div>
               <div id="countalphabets"></div>
-
+              <div id="longestWord"></div>
+              <div id="longestWordlength"></div>
+              <!-- <button id="copyButton" class="btn btn-success my-2 mx-2" type="submit" >Copy</button>
+              <button id="pasteButton" class="btn btn-danger my-2 mx-2" type="submit" >Paste</button> -->
           </div>
 
+          <div class="search my-2">
+            <input class="form-control me-2" type="search" placeholder="Enter a word to know its frequency..." id="searchText" aria-label="Search"/>
+            <button id="searchButton" class="btn btn-primary my-2 mx-2" type="submit" >Search</button>
+            <div id="frequency"></div>
+          </div>
 	    <script src="../assets/Js/word-count-calculator.js"></script>
 
     </body>
