@@ -5,12 +5,13 @@
     font-family:  "Montserrat", Sans-serif;
 }
 
+
 .background_image{
  /* passwordvalidator */
-    background-image: url("../Images/pexels-nataliya-vaitkevich-6942085.jpg");
-
-    background-image: url("../Images/background-fitness-bmi.jpg");
+   /* background-image: url("../Images/background-fitness-bmi.jpg"); */
  /* main */
+ background: rgb(141, 141, 231);
+ /* background-image: linear-gradient(120deg,#9f83de, #5dd3ed); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height:100vh;
@@ -38,7 +39,10 @@
     justify-items: center;
     width: 35%;
     height: 78%;
-    background: rgba(255,255,255,0.05);
+    /* background: rgba(255,255,255,0.05); */
+    background: #fff;
+    /* color: black; */
+    
     margin: 20px;
     box-shadow: 0 15px 35px rgb(0 0 0 / 20%);
     border-radius: 15px;
@@ -49,7 +53,9 @@
 .Container h2{
     height:fit-content;
     font-size: 30px;
-    color: white;
+    /* color: white; */
+    color: black;
+    font-family: "sans";
 }
 .box{
     margin-top: 15px;
@@ -72,23 +78,35 @@
 }
 label{
     font-size:20px;
-    color: white;
+    /* color: white; */
+    color: rgb(40, 34, 34);
+    font-weight: bold;
 }
 input{
     width:100%;
-    margin-top:5px;
-    border: 1px solid #1e293b;
-    border-radius: 4px;
+    margin-top:7px;
+    /* border: 1px solid grey; */
+    /* border-radius: 5px; */
+    /* text-decoration: none; */
+    border: none;
     padding: 6px 6px;
 }
+.weight_class {
+    font-size: large;
+}
+.height_class{
+    font-size: large;
+}
+
 .button_container{
     display:grid;
     grid-template-columns: 1fr 1fr;
+    
 }
 button {
   background-color: #fff;
-  border: 1 solid #e2e8f0;
-  border-radius: 1.5rem;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
   color: #0d172a;
   cursor: pointer;
   display: inline-block;
@@ -96,39 +114,48 @@ button {
   font-weight: 600;
   line-height: 1;
   margin: 0 20px;
-  margin-top: 5px;
-  padding: 1rem 2rem;
+  margin-top: 0px;
+  padding: 1rem 1rem;
   text-align: center;
   text-decoration: none #0d172a solid;
   text-decoration-thickness: auto;
   transition: 0.3s ease-in-out;
-  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  /* box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25); */
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  background: rgb(98, 109, 191);
+  color: #fff;
 }
 
 button:hover {
-  background-color: #1e293b;
+  /* background-color: #1e293b; */
+  background: rgb(76, 76, 140);
   color: #fff;
 }
 
 .results{
-    color: white;
+    /* color: white; */
+    color: #0d172a;
 }
 
 .new-addition {
-    background-color: cornsilk;
-    width: 20%;
+    /* background-color: cornsilk; */
+    /* background: rgba(214, 115, 115, 0.05); */
+    /* background: rgba(141, 169, 199, 0.25); */
+    background: #fff;
+    width: 35%;
     height: auto;
-    border: black 3px;
-    margin: 5px;
-    padding: 25px;
+    /* border: black 3px; */
+    margin: 5px 5px;
+    padding: 10px 20px;
     position: relative;
     top: -20px;
-    border-radius: 4px;
+    border-radius: 15px;
     word-spacing: 12px;
-
+    backdrop-filter: blur(30px);
+    /* color: white; */
+    color: #0d172a;
 }
 
 .new-addition h3 {
@@ -139,9 +166,17 @@ button:hover {
 table,
 th,
 td {
-    border: 1px solid black;
-}
+    border: 1px solid #0d172a;
+    margin: 2px 13px;
+    padding: 4px 3px;
+    border-radius: 3px;
+    
 
+}
+.heading {
+    margin: 5px 5px;
+    padding: 3px 3px;
+}
 
 @media (min-width: 768px) {
   .button {

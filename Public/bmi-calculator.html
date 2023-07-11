@@ -6,26 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calculator</title>
     <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../assets/css/bmi-calculator.css">
    
 </head>
 <body>
     <div class="background_image">
      <div class="overlay_effect">
+      <!-- <h1 style="color: white;">health</h1> -->
        <div class="Container">
         <h2>BMI Calculator <hr></h2>
         <div class="box">
            <!--Weight Input Field-->
          <div id="weight_field">
-            <label>Weight(In Kg):</label><input id="weight" class="weight_class" type="text" placeholder="Enter Your weight"/>
+            <label>Weight(In Kg):</label>
+            <input id="weight" class="weight_class" type="text" placeholder="Enter Your weight"/>
+            <hr>
          </div>
          <!--Height Input field-->
          <div class="height-section">
             <div id="height_field">
                <label>Height(In Feet):</label><input id="height_feet" class="height_class" type="text" placeholder="Feet"/>
+               <hr>
             </div>
             <div id="height_field">
                <label>Enter Inch:</label><input id="height_inch" class="height_class" type="text" placeholder="Inch"/>
+               <hr>
             </div>
          </div>
          <div class="button_container">
@@ -45,7 +53,7 @@
       <!--footer section-->
       <div class="new-addition">
          <table>
-            <thead>
+            <thead >
                <tr>
                   <th> Body Mass Classification</th>
                   <th>Body Mass Index(BMI)</th>
