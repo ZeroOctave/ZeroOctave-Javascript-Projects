@@ -1,69 +1,92 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <title>Login Form</title>
-    <link rel="stylesheet" href="../assets/css/loginform.css">
+   <meta charset="utf-8">
+   <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+   <title>Login and Registration Form in HTML</title>
+   <link rel="stylesheet" href="../assets/css/loginform.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <div class="container">
-        <form class="form" id="login">
-            <h1 class="form__title">Login</h1>
-            <div class="form__message form__message--error"></div>
-            <div class="form__input-group">
-                <input type="text" class="form__input" autofocus placeholder="Username or email">
-                <div class="form__input-error-message"></div>
-            </div>
-            <div class="form__input-group">
-                <input type="password" class="form__input" autofocus placeholder="Password">
-                <div class="form__input-error-message"></div>
-            </div>
-            <button class="form__button" type="submit">Continue</button>
-            <p class="form__text">
-                <a href="#" class="form__link" id="linkResetPassword">Forgot your password?</a>
-            </p>
-            <p class="form__text">
-                <a class="form__link" href="./" id="linkCreateAccount">Don't have an account? Create account</a>
-            </p>
-        </form>
-        <form class="form form--hidden" id="createAccount">
-            <h1 class="form__title">Create Account</h1>
-            <div class="form__message form__message--error"></div>
-            <div class="form__input-group">
-                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Username">
-                <div class="form__input-error-message"></div>
-            </div>
-            <div class="form__input-group">
-                <input type="text" class="form__input" autofocus placeholder="Email Address">
-                <div class="form__input-error-message"></div>
-            </div>
-            <div class="form__input-group">
-                <input type="password" class="form__input" autofocus placeholder="Password">
-                <div class="form__input-error-message"></div>
-            </div>
-            <div class="form__input-group">
-                <input type="password" class="form__input" autofocus placeholder="Confirm password">
-                <div class="form__input-error-message"></div>
-            </div>
-            <button class="form__button" type="reset">Continue</button>
-            <p class="form__text">
-                <a class="form__link" href="./" id="linkLogin">Already have an account? Sign in</a>
-            </p>
-        </form>
-        <form class="form form--hidden" id="resetPassword">
-            <h1 class="form__title">Reset Password</h1>
-            <div class="form__message form__message--error"></div>
-            <div class="form__input-group">
-                <input type="text" class="form__input" autofocus placeholder="Email Address">
-                <div class="form__input-error-message"></div>
-            </div>
-            <button class="form__button" type="reset">Send reset password instruction</button>
-            <p class="form__text">
-                <a class="form__link" href="./" id="linkHome">Go back to previous page</a>
-            </p>
-        </form>
-    </div>
-    <script src="../assets/Js/loginform.js"></script>
+   <div class="wrapper">
+      <div class="title-text">
+         <div class="title login">
+            Login Form
+         </div>
+         <div class="title signup">
+            Signup Form
+         </div>
+      </div>
+
+
+
+
+
+      <div class="form-container">
+         <div class="slide-controls">
+            <input type="radio" name="slide" id="login" checked>
+            <input type="radio" name="slide" id="signup">
+            <label for="login" class="slide login">Login</label>
+            <label for="signup" class="slide signup">Signup</label>
+            <div class="slider-tab"></div>
+         </div>
+
+
+
+
+         <div class="social-container">
+            <a href="#" class="social"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="social"><i class="fa fa-google"></i></a>
+            <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+            <!-- <a href="#" class="social"> <i class="fa fa-twitter"></i> </a> -->
+        </div>
+   
+
+
+
+
+
+
+         <div class="form-inner">
+            <form action="#" class="login">
+               <div class="field">
+                  <input type="text" placeholder="Email Address" required>
+               </div>
+               <div class="field">
+                  <input type="password" placeholder="Password" required>
+               </div>
+               <div class="pass-link">
+                  <a href="#">Forgot password?</a>
+               </div>
+               <div class="field btn">
+                  <div class="btn-layer"></div>
+                  <input type="submit" value="Login">
+               </div>
+               <div class="signup-link">
+                  Not a member? <a href="">Signup now</a>
+               </div>
+            </form>
+            <form action="#" class="signup">
+               <div class="field">
+                  <input type="text" placeholder="Email Address" required>
+               </div>
+               <div class="field">
+                  <input type="password" placeholder="Password" required>
+               </div>
+               <div class="field">
+                  <input type="password" placeholder="Confirm password" required>
+               </div>
+               <div class="field btn">
+                  <div class="btn-layer"></div>
+                  <input type="submit" value="Signup">
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+   <script src="../assets/Js/loginform.js"></script>
 </body>
+
+</html>
