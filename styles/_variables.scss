@@ -1,0 +1,16 @@
+/* ---------------------------MIXINS--------------------------- */
+
+@mixin flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------------------CONTAINER VARIABLE---------------------- */
+.container_main {
+  padding: 1rem;
+
+  @media screen and (min-width: 400px) {
+    padding: 2rem;
+  }
+}
