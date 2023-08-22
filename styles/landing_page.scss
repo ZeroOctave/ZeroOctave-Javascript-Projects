@@ -1,0 +1,214 @@
+@import "./colors";
+@import "./variables";
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  background: $main_bg;
+}
+
+.nav_hero {
+  &_inner {
+    background: $white;
+    width: 100%;
+    height: 100%;
+    max-width: 80%;
+    min-height: 50vh;
+    margin: 0 auto;
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
+/* --------------------------------------HEADER-------------------------------------- */
+header {
+  position: relative;
+
+  .navbar {
+    width: 100%;
+    padding: 1rem;
+    z-index: 200;
+    transition: all 1s ease-in-out;
+
+    @media screen and (min-width: 992px) {
+      padding: 0.8rem;
+    }
+
+    @media screen and (min-width: 1200px) {
+      padding: 2% 3.5%;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+
+      @media screen and (min-width: 1200px) {
+        gap: 2rem;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-weight: 500;
+
+        &:hover {
+          color: $black;
+          font-weight: 700;
+
+          /* add animation on hover  */
+        }
+
+        & > span {
+          display: none;
+          @media screen and (min-width: 1200px) {
+            display: block;
+          }
+        }
+      }
+    }
+    &_inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-weight: 700;
+      text-transform: capitalize;
+      font-size: 1rem;
+      @media screen and (min-width: 1200px) {
+        font-size: 1.5rem;
+      }
+
+      .menu_items,
+      .contact_items,
+      .navbar_right {
+        display: none;
+      }
+
+      .toogle_btn {
+        display: block;
+        color: $black;
+        font-size: 2rem;
+        cursor: pointer;
+        z-index: 100;
+        transition: all 1s ease-in-out;
+      }
+
+      @media screen and (min-width: 992px) {
+        .menu_items,
+        .contact_items,
+        .navbar_right {
+          display: block;
+        }
+
+        .toogle_btn {
+          display: none;
+        }
+      }
+    }
+
+    &_logo_sec {
+      @include flex_center();
+      font-size: 1rem;
+      @media screen and (min-width: 576px) {
+        font-size: 1.5rem;
+      }
+      img {
+        width: 1.5rem;
+        aspect-ratio: 1/1;
+        @media screen and (min-width: 576px) {
+          width: 2.5rem;
+        }
+      }
+    }
+
+    &_left {
+      @include flex_center();
+      gap: 5rem;
+      @media screen and (min-width: 1400px) {
+        gap: 7rem;
+      }
+    }
+  }
+
+  /* DROPDOWN MENU */
+
+  .dropdown_menu {
+    position: absolute;
+    top: 4.5rem;
+    font-size: 1rem;
+    z-index: 20;
+    border-radius: 1rem;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    height: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1rem;
+    overflow: hidden;
+    background: $white;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    @media screen and (min-width: 576px) {
+      right: 1rem;
+      width: 300px;
+      border-radius: 1rem;
+    }
+    @media screen and (max-width: 992px) {
+      position: fixed;
+    }
+
+    &.open {
+      height: 25rem;
+    }
+
+    &_inner {
+      padding: 1rem 0;
+      text-transform: capitalize;
+    }
+
+    ul {
+      text-align: center;
+      display: grid;
+      place-items: center;
+      padding: 0;
+      gap: 1.5rem;
+      margin-bottom: 1rem;
+
+      li {
+        cursor: pointer;
+        &:hover {
+          color: $white;
+        }
+
+        & > img {
+          position: relative;
+          inset: 0.6rem 0;
+        }
+      }
+    }
+
+    @media screen and (min-width: 992px) {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,223 @@
+/* ---------------------------MIXINS--------------------------- */
+/* ----------------------CONTAINER VARIABLE---------------------- */
+.container_main {
+  padding: 1rem;
+}
+@media screen and (min-width: 400px) {
+  .container_main {
+    padding: 2rem;
+  }
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  background: #f3f5f8;
+}
+
+.nav_hero_inner {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  max-width: 80%;
+  min-height: 50vh;
+  margin: 0 auto;
+}
+.nav_hero_inner a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* --------------------------------------HEADER-------------------------------------- */
+header {
+  position: relative;
+  /* DROPDOWN MENU */
+}
+header .navbar {
+  width: 100%;
+  padding: 1rem;
+  z-index: 200;
+  transition: all 1s ease-in-out;
+}
+@media screen and (min-width: 992px) {
+  header .navbar {
+    padding: 0.8rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  header .navbar {
+    padding: 2% 3.5%;
+  }
+}
+header .navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+@media screen and (min-width: 1200px) {
+  header .navbar ul {
+    gap: 2rem;
+  }
+}
+header .navbar ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 500;
+}
+header .navbar ul li:hover {
+  color: #000;
+  font-weight: 700;
+  /* add animation on hover  */
+}
+header .navbar ul li > span {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  header .navbar ul li > span {
+    display: block;
+  }
+}
+header .navbar_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+@media screen and (min-width: 1200px) {
+  header .navbar_inner {
+    font-size: 1.5rem;
+  }
+}
+header .navbar_inner .menu_items,
+header .navbar_inner .contact_items,
+header .navbar_inner .navbar_right {
+  display: none;
+}
+header .navbar_inner .toogle_btn {
+  display: block;
+  color: #000;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 100;
+  transition: all 1s ease-in-out;
+}
+@media screen and (min-width: 992px) {
+  header .navbar_inner .menu_items,
+  header .navbar_inner .contact_items,
+  header .navbar_inner .navbar_right {
+    display: block;
+  }
+  header .navbar_inner .toogle_btn {
+    display: none;
+  }
+}
+header .navbar_logo_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+@media screen and (min-width: 576px) {
+  header .navbar_logo_sec {
+    font-size: 1.5rem;
+  }
+}
+header .navbar_logo_sec img {
+  width: 1.5rem;
+  aspect-ratio: 1/1;
+}
+@media screen and (min-width: 576px) {
+  header .navbar_logo_sec img {
+    width: 2.5rem;
+  }
+}
+header .navbar_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+@media screen and (min-width: 1400px) {
+  header .navbar_left {
+    gap: 7rem;
+  }
+}
+header .dropdown_menu {
+  position: absolute;
+  top: 4.5rem;
+  font-size: 1rem;
+  z-index: 20;
+  border-radius: 1rem;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  height: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  overflow: hidden;
+  background: #fff;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@media screen and (min-width: 576px) {
+  header .dropdown_menu {
+    right: 1rem;
+    width: 300px;
+    border-radius: 1rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  header .dropdown_menu {
+    position: fixed;
+  }
+}
+header .dropdown_menu.open {
+  height: 25rem;
+}
+header .dropdown_menu_inner {
+  padding: 1rem 0;
+  text-transform: capitalize;
+}
+header .dropdown_menu ul {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+header .dropdown_menu ul li {
+  cursor: pointer;
+}
+header .dropdown_menu ul li:hover {
+  color: #fff;
+}
+header .dropdown_menu ul li > img {
+  position: relative;
+  inset: 0.6rem 0;
+}
+@media screen and (min-width: 992px) {
+  header .dropdown_menu {
+    display: none;
+  }
+}/*# sourceMappingURL=landing_page.css.map */
