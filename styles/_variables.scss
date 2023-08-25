@@ -14,3 +14,55 @@
     padding: 2rem;
   }
 }
+
+/* --------------------------------------TEXT VARIABLES-------------------------------------- */
+
+.fw_100 {
+  font-weight: 100;
+}
+.fw_200 {
+  font-weight: 200;
+}
+.fw_300 {
+  font-weight: 300;
+}
+.fw_400 {
+  font-weight: 400;
+}
+.fw_500 {
+  font-weight: 500;
+}
+.fw_600 {
+  font-weight: 600;
+}
+.fw_600 {
+  font-weight: 600;
+}
+.fw_600 {
+  font-weight: 600;
+}
+.fw_600 {
+  font-weight: 600;
+}
+
+.light_text {
+  color: $light_text;
+}
+
+.large_text {
+  font-size: 3rem;
+  color: $dark_text;
+  line-height: normal;
+}
+
+.small_text {
+  font-size: 1rem;
+  line-height: normal;
+  width: 100%;
+
+  &.max_w {
+    max-width: 60%;
+    line-height: 1.7rem;
+    margin: 0 auto;
+  }
+}
