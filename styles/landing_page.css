@@ -74,20 +74,51 @@
 }
 
 .large_text {
-  font-size: 3rem;
+  font-size: 1.2rem;
   color: #131313;
   line-height: normal;
 }
+@media screen and (min-width: 400px) {
+  .large_text {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  .large_text {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .large_text {
+    font-size: 3rem;
+  }
+}
 
 .small_text {
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: normal;
   width: 100%;
 }
+@media screen and (min-width: 576px) {
+  .small_text {
+    font-size: 1rem;
+  }
+}
 .small_text.max_w {
-  max-width: 60%;
-  line-height: 1.7rem;
+  max-width: 100%;
+  line-height: normal;
   margin: 0 auto;
+}
+@media screen and (min-width: 576px) {
+  .small_text.max_w {
+    line-height: 1.7rem;
+    max-width: 90%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .small_text.max_w {
+    max-width: 60%;
+  }
 }
 
 *,
@@ -114,8 +145,19 @@ body {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  padding: 1rem;
-  min-height: 40vh;
+  padding: 1rem 0.5rem;
+  min-height: 30vh;
+}
+@media screen and (min-width: 576px) {
+  .nav_hero_inner {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .nav_hero_inner {
+    font-size: 3rem;
+  }
 }
 @media screen and (min-width: 992px) {
   .nav_hero_inner {
@@ -217,8 +259,13 @@ header .navbar_logo_sec {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   letter-spacing: 0.1px;
+}
+@media screen and (min-width: 576px) {
+  header .navbar_logo_sec {
+    font-size: 1.5rem;
+  }
 }
 header .navbar_logo_sec img {
   width: 1.5rem;
@@ -307,10 +354,22 @@ header .dropdown_menu ul li > img {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 100%;
   text-align: center;
+}
+@media screen and (min-width: 992px) {
+  .hero_sec {
+    height: 30vh;
+  }
 }
 .hero_top {
   display: grid;
-  gap: 1.5rem;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+@media screen and (min-width: 992px) {
+  .hero_top {
+    margin: 0;
+    gap: 1.5rem;
+  }
 }/*# sourceMappingURL=landing_page.css.map */

@@ -27,8 +27,17 @@ body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    padding: 1rem;
-    min-height: 40vh;
+    padding: 1rem 0.5rem;
+    min-height: 30vh;
+
+    @media screen and (min-width: 576px) {
+      padding: 1rem;
+      font-size: 2rem;
+    }
+
+    @media screen and (min-width: 992px) {
+      font-size: 3rem;
+    }
 
     @media screen and (min-width: 992px) {
       padding: 1rem 2rem;
@@ -128,8 +137,13 @@ header {
 
     &_logo_sec {
       @include flex_center();
-      font-size: 1.5rem;
+      font-size: 1.1rem;
       letter-spacing: 0.1px;
+
+      @media screen and (min-width: 576px) {
+        font-size: 1.5rem;
+      }
+
       img {
         width: 1.5rem;
         aspect-ratio: 1/1;
@@ -219,12 +233,22 @@ header {
 .hero {
   &_sec {
     @include flex_center();
-    height: 30vh;
+    height: 100%;
     text-align: center;
+
+    @media screen and (min-width: 992px) {
+      height: 30vh;
+    }
   }
 
   &_top {
     display: grid;
-    gap: 1.5rem;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+
+    @media screen and (min-width: 992px) {
+      margin: 0;
+      gap: 1.5rem;
+    }
   }
 }
