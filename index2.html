@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="./styles/landing_page.css" />
     <script src="./index2.js" defer></script>
+    <script src="./script.js" defer></script>
     <title>NEW LANDING PAGE</title>
   </head>
   <body>
@@ -34,7 +35,7 @@
                 <div class="menu_items">
                   <ul class="menu_lists">
                     <a href="#!">
-                      <li class="active">
+                      <li class="active_menu">
                         <span> <i class="fa-brands fa-js"></i> </span>
 
                         projects
@@ -90,5 +91,129 @@
         </section>
       </div>
     </div>
+
+    <!-- ----------------------------CARD SECTION---------------------------- -->
+
+    <section class="card_sec">
+      <div class="card_inner">
+        <h2 class="card_header">
+          &#123; <span style="color: #ff914d">JavaScript</span> Projects &#125;
+        </h2>
+        <div class="searchbar_container">
+          <div class="searchbar_left">
+            <span><i class="fa-solid fa-code"></i></span>
+            <p>projects</p>
+          </div>
+          <!--searchbar-->
+          <div class="searchbar_right">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            <input
+              type="text"
+              id="searchbar"
+              role="searchbox"
+              placeholder="Search Project..."
+            />
+          </div>
+        </div>
+
+        <!-- CARDS/PROJECTS SECTION STARTS HERE -->
+
+        <div id="scrollto" class="project_sec">
+          <div class="project_inner" id="cardd"></div>
+        </div>
+
+        <!-- CARDS SECTION END HERE -->
+
+        <div class="loading show">
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+        </div>
+
+        <script>
+          let noOfCardsToLoad = 10;
+          let cardLoadedYet = 0;
+          let loadingBalls = false;
+          const loading = document.querySelector(".loading");
+          // console.log(cardItems[0]);
+          showLoading();
+          window.addEventListener("scroll", () => {
+            const { scrollTop, scrollHeight, clientHeight } =
+              document.documentElement;
+
+            // console.log({ scrollTop, scrollHeight, clientHeight });
+
+            const footerHeight =
+              document.getElementsByClassName("footer")[0].offsetHeight;
+            // console.log(footerHeight);
+
+            if (
+              clientHeight + scrollTop >= scrollHeight - footerHeight &&
+              cardLoadedYet < cardItems.length
+            ) {
+              // show the loading animation
+              // setTimeout(showLoading,1000);
+              showLoading();
+            }
+          });
+
+          function showLoading() {
+            loading.classList.add("show");
+            // load more data
+            // showNextItems();
+            if (loadingBalls == false) {
+              loadingBalls = true;
+              setTimeout(showNextItems, 1000);
+            }
+          }
+
+          function showNextItems() {
+            // REMOVING ALL CONSOLE.LOG function
+            // console.log("show next items");
+            const container = document.getElementsByClassName("container")[0];
+            // REMOVING CONSOLE.LOG FUNCTION
+            // console.log(cardItems.length, cardLoadedYet);
+            let temp = cardLoadedYet;
+
+            for (
+              ;
+              cardLoadedYet <=
+              (noOfCardsToLoad + temp < cardItems.length
+                ? noOfCardsToLoad + temp
+                : cardItems.length - 1);
+              cardLoadedYet++
+            ) {
+              // REMOVED THE CONSOLE YOU CAN UNCOMMENT IT OUT FOR DEBUGGING
+              // console.log(cardItems[cardLoadedYet]);
+              container.innerHTML += cardItems[cardLoadedYet];
+            }
+
+            if (cardLoadedYet >= cardItems.length)
+              loading.classList.remove("show");
+
+            loadingBalls = false;
+          }
+        </script>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      </div>
+    </section>
+
+    <!-- ----------------------------SCRIPTS LINKS SECTION---------------------------- -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
