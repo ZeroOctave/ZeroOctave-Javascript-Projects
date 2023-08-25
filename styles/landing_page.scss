@@ -28,7 +28,7 @@ body {
     height: 100%;
     margin: 0 auto;
     padding: 1rem;
-    min-height: 50vh;
+    min-height: 40vh;
 
     @media screen and (min-width: 992px) {
       padding: 1rem 2rem;
@@ -43,7 +43,7 @@ body {
     }
   }
 }
-/* --------------------------------------HEADER-------------------------------------- */
+/* --------------------------------------HEADER SECTION-------------------------------------- */
 header {
   position: relative;
 
@@ -129,7 +129,6 @@ header {
     &_logo_sec {
       @include flex_center();
       font-size: 1.5rem;
-      font-weight: 700;
       letter-spacing: 0.1px;
       img {
         width: 1.5rem;
@@ -212,5 +211,20 @@ header {
     @media screen and (min-width: 992px) {
       display: none;
     }
+  }
+}
+
+/* --------------------------------------HERO SECTION-------------------------------------- */
+
+.hero {
+  &_sec {
+    @include flex_center();
+    height: 30vh;
+    text-align: center;
+  }
+
+  &_top {
+    display: grid;
+    gap: 1.5rem;
   }
 }

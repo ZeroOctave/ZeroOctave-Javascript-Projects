@@ -32,6 +32,64 @@
   }
 }
 
+/* --------------------------------------TEXT VARIABLES-------------------------------------- */
+.fw_100 {
+  font-weight: 100;
+}
+
+.fw_200 {
+  font-weight: 200;
+}
+
+.fw_300 {
+  font-weight: 300;
+}
+
+.fw_400 {
+  font-weight: 400;
+}
+
+.fw_500 {
+  font-weight: 500;
+}
+
+.fw_600 {
+  font-weight: 600;
+}
+
+.fw_600 {
+  font-weight: 600;
+}
+
+.fw_600 {
+  font-weight: 600;
+}
+
+.fw_600 {
+  font-weight: 600;
+}
+
+.light_text {
+  color: #757575;
+}
+
+.large_text {
+  font-size: 3rem;
+  color: #131313;
+  line-height: normal;
+}
+
+.small_text {
+  font-size: 1rem;
+  line-height: normal;
+  width: 100%;
+}
+.small_text.max_w {
+  max-width: 60%;
+  line-height: 1.7rem;
+  margin: 0 auto;
+}
+
 *,
 *::after,
 *::before {
@@ -57,7 +115,7 @@ body {
   height: 100%;
   margin: 0 auto;
   padding: 1rem;
-  min-height: 50vh;
+  min-height: 40vh;
 }
 @media screen and (min-width: 992px) {
   .nav_hero_inner {
@@ -74,7 +132,7 @@ body {
   color: inherit;
 }
 
-/* --------------------------------------HEADER-------------------------------------- */
+/* --------------------------------------HEADER SECTION-------------------------------------- */
 header {
   position: relative;
   /* DROPDOWN MENU */
@@ -160,7 +218,6 @@ header .navbar_logo_sec {
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
-  font-weight: 700;
   letter-spacing: 0.1px;
 }
 header .navbar_logo_sec img {
@@ -243,4 +300,17 @@ header .dropdown_menu ul li > img {
   header .dropdown_menu {
     display: none;
   }
+}
+
+/* --------------------------------------HERO SECTION-------------------------------------- */
+.hero_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  text-align: center;
+}
+.hero_top {
+  display: grid;
+  gap: 1.5rem;
 }/*# sourceMappingURL=landing_page.css.map */
