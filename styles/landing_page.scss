@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import "./colors";
 @import "./variables";
 
@@ -15,7 +16,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   background: $main_bg;
 }
@@ -25,9 +26,17 @@ body {
     background: $white;
     width: 100%;
     height: 100%;
-    max-width: 80%;
-    min-height: 50vh;
     margin: 0 auto;
+    padding: 1rem;
+    min-height: 50vh;
+
+    @media screen and (min-width: 992px) {
+      padding: 1rem 2rem;
+    }
+
+    @media screen and (min-width: 1500px) {
+      max-width: 80%;
+    }
     a {
       text-decoration: none;
       color: inherit;
@@ -40,17 +49,9 @@ header {
 
   .navbar {
     width: 100%;
-    padding: 1rem;
     z-index: 200;
+    padding: 1rem 0;
     transition: all 1s ease-in-out;
-
-    @media screen and (min-width: 992px) {
-      padding: 0.8rem;
-    }
-
-    @media screen and (min-width: 1200px) {
-      padding: 2% 3.5%;
-    }
 
     ul {
       display: flex;
@@ -64,16 +65,18 @@ header {
 
       li {
         display: flex;
-        align-items: center;
+        align-items: baseline;
         justify-content: center;
+        gap: 0.1rem;
         cursor: pointer;
-        font-weight: 500;
+        color: $dark_text;
+        font-weight: 600;
+        font-size: 1.2rem;
+        transition: all 0.5s ease-in-out;
 
         &:hover {
-          color: $black;
-          font-weight: 700;
-
-          /* add animation on hover  */
+          color: $nav_link_hover;
+          border-bottom: 2px solid $dark_text;
         }
 
         & > span {
@@ -103,8 +106,8 @@ header {
 
       .toogle_btn {
         display: block;
-        color: $black;
-        font-size: 2rem;
+        color: $dark_text;
+        font-size: 1.5rem;
         cursor: pointer;
         z-index: 100;
         transition: all 1s ease-in-out;
@@ -125,10 +128,9 @@ header {
 
     &_logo_sec {
       @include flex_center();
-      font-size: 1rem;
-      @media screen and (min-width: 576px) {
-        font-size: 1.5rem;
-      }
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 0.1px;
       img {
         width: 1.5rem;
         aspect-ratio: 1/1;

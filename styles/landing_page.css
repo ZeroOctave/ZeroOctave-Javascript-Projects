@@ -1,3 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* MEDIA SCREENS 
+@media screen and (min-width: 1500px) {
+
+ }
+@media screen and (min-width: 1200px) {
+
+ }
+    @media screen and (min-width: 992px) {
+
+    }
+
+    @media screen and (min-width: 768px) {
+
+    }
+    @media screen and (min-width: 576px) {
+
+    }
+
+      @media screen and (min-width: 400px) {
+
+      }
+*/
 /* ---------------------------MIXINS--------------------------- */
 /* ----------------------CONTAINER VARIABLE---------------------- */
 .container_main {
@@ -23,7 +46,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   background: #f3f5f8;
 }
@@ -32,9 +55,19 @@ body {
   background: #fff;
   width: 100%;
   height: 100%;
-  max-width: 80%;
-  min-height: 50vh;
   margin: 0 auto;
+  padding: 1rem;
+  min-height: 50vh;
+}
+@media screen and (min-width: 992px) {
+  .nav_hero_inner {
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .nav_hero_inner {
+    max-width: 80%;
+  }
 }
 .nav_hero_inner a {
   text-decoration: none;
@@ -48,19 +81,9 @@ header {
 }
 header .navbar {
   width: 100%;
-  padding: 1rem;
   z-index: 200;
+  padding: 1rem 0;
   transition: all 1s ease-in-out;
-}
-@media screen and (min-width: 992px) {
-  header .navbar {
-    padding: 0.8rem;
-  }
-}
-@media screen and (min-width: 1200px) {
-  header .navbar {
-    padding: 2% 3.5%;
-  }
 }
 header .navbar ul {
   display: flex;
@@ -75,15 +98,18 @@ header .navbar ul {
 }
 header .navbar ul li {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
+  gap: 0.1rem;
   cursor: pointer;
-  font-weight: 500;
+  color: #131313;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: all 0.5s ease-in-out;
 }
 header .navbar ul li:hover {
-  color: #000;
-  font-weight: 700;
-  /* add animation on hover  */
+  color: #ff914d;
+  border-bottom: 2px solid #131313;
 }
 header .navbar ul li > span {
   display: none;
@@ -113,8 +139,8 @@ header .navbar_inner .navbar_right {
 }
 header .navbar_inner .toogle_btn {
   display: block;
-  color: #000;
-  font-size: 2rem;
+  color: #131313;
+  font-size: 1.5rem;
   cursor: pointer;
   z-index: 100;
   transition: all 1s ease-in-out;
@@ -133,12 +159,9 @@ header .navbar_logo_sec {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
-}
-@media screen and (min-width: 576px) {
-  header .navbar_logo_sec {
-    font-size: 1.5rem;
-  }
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1px;
 }
 header .navbar_logo_sec img {
   width: 1.5rem;
