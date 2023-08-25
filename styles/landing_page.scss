@@ -43,7 +43,7 @@ body {
       padding: 1rem 2rem;
     }
 
-    @media screen and (min-width: 1500px) {
+    @media screen and (min-width: 1200px) {
       max-width: 80%;
     }
     a {
@@ -249,6 +249,158 @@ header {
     @media screen and (min-width: 992px) {
       margin: 0;
       gap: 1.5rem;
+    }
+  }
+}
+
+/* --------------------------------------CARD SECTION-------------------------------------- */
+.card {
+  &_sec {
+    width: 100%;
+    height: 100%;
+    margin: 3rem auto;
+    text-align: center;
+    @media screen and (min-width: 1100px) {
+      max-width: 90%;
+    }
+    @media screen and (min-width: 1200px) {
+      max-width: 80%;
+    }
+  }
+
+  &_header {
+    font-size: 1.5rem;
+
+    @media screen and (min-width: 576px) {
+      font-size: 2rem;
+      letter-spacing: 0.1em;
+      word-spacing: 0.5em;
+    }
+  }
+  &_inner {
+    padding: 0 1rem;
+    @media screen and (min-width: 1200px) {
+      padding: 0;
+    }
+
+    .searchbar {
+      &_container {
+        @include flex_center();
+        margin: 3rem 0;
+
+        @media screen and (min-width: 400px) {
+          justify-content: space-between;
+        }
+      }
+
+      &_left {
+        display: none;
+        gap: 0.5rem;
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 1.1rem;
+
+        @media screen and (min-width: 400px) {
+          @include flex_center();
+        }
+
+        span {
+          @include flex_center();
+        }
+      }
+
+      &_right {
+        @include flex_center();
+        border: 2px solid $light_border;
+        background: $white;
+        width: 100%;
+        @media screen and (min-width: 400px) {
+          width: fit-content;
+        }
+
+        span {
+          @include flex_center();
+          background: $light_border;
+          width: 2.8rem;
+          aspect-ratio: 1/1;
+        }
+
+        input {
+          width: 100%;
+          padding: 0.7rem;
+          border-radius: 8px;
+          outline: none;
+          border: none;
+
+          &::placeholder {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+
+    .project {
+      &_sec {
+        @include flex_center();
+        width: 100%;
+      }
+
+      &_inner {
+        @include flex_center();
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      &_box {
+        width: 20rem;
+        height: 25rem;
+        border-radius: 10px;
+        display: grid;
+        gap: 0.5rem;
+        position: relative;
+        font-weight: 500;
+        border: 3px solid $light_border;
+        background: $white;
+        box-shadow: $shadow_box;
+
+        &:hover {
+          font-weight: 700;
+          box-shadow: $shadow_hover;
+        }
+
+        &_image {
+          width: 100%;
+          height: 15rem;
+          overflow: hidden;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        &_name {
+          font-size: 1.3rem;
+        }
+
+        &_link {
+          position: absolute;
+          width: 100%;
+          height: 3rem;
+          bottom: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 0.5rem;
+          border-top: 2px solid $light_border;
+          font-size: 1rem;
+          color: $light_text;
+
+          &:hover {
+            font-size: 1.2rem;
+          }
+        }
+      }
     }
   }
 }

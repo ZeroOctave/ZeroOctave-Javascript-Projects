@@ -121,6 +121,45 @@
   }
 }
 
+.active_menu {
+  color: #ff914d !important;
+}
+
+.loading {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  transition: opacity 0.3s ease-in;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.loading.show {
+  opacity: 1;
+}
+.loading .ball {
+  background-color: #777;
+  border-radius: 50%;
+  margin: 5px;
+  height: 10px;
+  width: 10px;
+  animation: jump 0.5s ease-in infinite;
+}
+.loading .ball:nth-of-type(2) {
+  animation-delay: 0.1s;
+}
+.loading .ball:nth-of-type(3) {
+  animation-delay: 0.2s;
+}
+
+@keyframes jump {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
 *,
 *::after,
 *::before {
@@ -164,7 +203,7 @@ body {
     padding: 1rem 2rem;
   }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1200px) {
   .nav_hero_inner {
     max-width: 80%;
   }
@@ -372,4 +411,162 @@ header .dropdown_menu ul li > img {
     margin: 0;
     gap: 1.5rem;
   }
+}
+
+/* --------------------------------------CARD SECTION-------------------------------------- */
+.card_sec {
+  width: 100%;
+  height: 100%;
+  margin: 3rem auto;
+  text-align: center;
+}
+@media screen and (min-width: 1100px) {
+  .card_sec {
+    max-width: 90%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .card_sec {
+    max-width: 80%;
+  }
+}
+.card_header {
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 576px) {
+  .card_header {
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+  }
+}
+.card_inner {
+  padding: 0 1rem;
+}
+@media screen and (min-width: 1200px) {
+  .card_inner {
+    padding: 0;
+  }
+}
+.card_inner .searchbar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+@media screen and (min-width: 400px) {
+  .card_inner .searchbar_container {
+    justify-content: space-between;
+  }
+}
+.card_inner .searchbar_left {
+  display: none;
+  gap: 0.5rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+@media screen and (min-width: 400px) {
+  .card_inner .searchbar_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.card_inner .searchbar_left span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_inner .searchbar_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #e5e9ef;
+  background: #fff;
+  width: 100%;
+}
+@media screen and (min-width: 400px) {
+  .card_inner .searchbar_right {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+.card_inner .searchbar_right span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e5e9ef;
+  width: 2.8rem;
+  aspect-ratio: 1/1;
+}
+.card_inner .searchbar_right input {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+.card_inner .searchbar_right input::-moz-placeholder {
+  font-size: 0.9rem;
+}
+.card_inner .searchbar_right input::placeholder {
+  font-size: 0.9rem;
+}
+.card_inner .project_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.card_inner .project_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.card_inner .project_box {
+  width: 20rem;
+  height: 25rem;
+  border-radius: 10px;
+  display: grid;
+  gap: 0.5rem;
+  position: relative;
+  font-weight: 500;
+  border: 3px solid #e5e9ef;
+  background: #fff;
+  box-shadow: 0px 0px 30px 0px rgba(14, 41, 50, 0.08);
+}
+.card_inner .project_box:hover {
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+.card_inner .project_box_image {
+  width: 100%;
+  height: 15rem;
+  overflow: hidden;
+}
+.card_inner .project_box_image img {
+  width: 100%;
+  height: 100%;
+}
+.card_inner .project_box_name {
+  font-size: 1.3rem;
+}
+.card_inner .project_box_link {
+  position: absolute;
+  width: 100%;
+  height: 3rem;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-top: 2px solid #e5e9ef;
+  font-size: 1rem;
+  color: #757575;
+}
+.card_inner .project_box_link:hover {
+  font-size: 1.2rem;
 }/*# sourceMappingURL=landing_page.css.map */
