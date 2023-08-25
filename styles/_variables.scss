@@ -50,19 +50,44 @@
 }
 
 .large_text {
-  font-size: 3rem;
+  font-size: 1.2rem;
   color: $dark_text;
   line-height: normal;
+
+  @media screen and (min-width: 400px) {
+    font-size: 1.5rem;
+  }
+
+  @media screen and (min-width: 576px) {
+    font-size: 2rem;
+  }
+
+  @media screen and (min-width: 992px) {
+    font-size: 3rem;
+  }
 }
 
 .small_text {
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: normal;
   width: 100%;
 
+  @media screen and (min-width: 576px) {
+    font-size: 1rem;
+  }
+
   &.max_w {
-    max-width: 60%;
-    line-height: 1.7rem;
+    max-width: 100%;
+    line-height: normal;
     margin: 0 auto;
+
+    @media screen and (min-width: 576px) {
+      line-height: 1.7rem;
+      max-width: 90%;
+    }
+
+    @media screen and (min-width: 1200px) {
+      max-width: 60%;
+    }
   }
 }
