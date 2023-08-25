@@ -105,7 +105,7 @@ header .navbar ul li {
   color: #131313;
   font-weight: 600;
   font-size: 1.2rem;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 header .navbar ul li:hover {
   color: #ff914d;
