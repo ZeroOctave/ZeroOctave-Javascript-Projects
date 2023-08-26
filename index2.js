@@ -3,14 +3,16 @@ const mainBody = document.querySelector("body");
 const p = document.querySelector("#preLoading");
 
 const preLoading = () => {
-  setTimeout(myFunction(), 1000);
+  setTimeout(() => {
+    preLoadingHide();
+  }, 2000);
 };
 
-const myFunction = () => {
+const preLoadingHide = () => {
   p.style.display = "none";
 };
 
-mainBody.onload(() => preLoading());
+mainBody.onload(preLoading());
 
 const toogleBtn = document.querySelector(".toogle_btn");
 const toogleBtnIcon = document.querySelector(".toogle_btn i");
