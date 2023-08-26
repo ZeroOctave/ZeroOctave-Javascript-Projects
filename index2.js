@@ -1,17 +1,17 @@
 /* PRELOADER FUNCTION */
-const mainBody = document.querySelector("body");
-const p = document.querySelector("#preLoading");
+document.addEventListener("DOMContentLoaded", () => {
+  const preloader = document.querySelector("#preLoading");
+  preloader.classList.remove("hidden");
+  preloader.classList.add("preloader");
 
-const preLoading = () => {
   setTimeout(() => {
-    preLoadingHide();
+    preloader.classList.add("hidden");
   }, 2000);
-};
+});
 
 const preLoadingHide = () => {
   p.style.display = "none";
 };
-mainBody.onload(preLoading());
 
 /* BACT TO TOP */
 const btnScrollToTop = document.querySelector("#back-to-top");
@@ -45,6 +45,7 @@ menuLists.forEach((link) => {
 });
 
 toogleBtn.onclick = () => {
+  console.log("click", "click");
   menu.classList.toggle("open");
 
   const isOpen = menu.classList.contains("open");
