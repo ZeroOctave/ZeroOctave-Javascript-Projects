@@ -29,6 +29,7 @@ body {
     margin: 0 auto;
     padding: 1rem 0.5rem;
     min-height: 30vh;
+    position: relative;
 
     @media screen and (min-width: 576px) {
       padding: 1rem;
@@ -82,10 +83,18 @@ header {
         font-weight: 600;
         font-size: 1.2rem;
         transition: all 0.3s ease-in-out;
+        &:nth-child(1) {
+          &:hover {
+            color: $dark_text;
+            border-bottom: 2px solid $dark_text;
+          }
+        }
 
-        &:hover {
-          color: $nav_link_hover;
-          border-bottom: 2px solid $dark_text;
+        &:nth-child(2) {
+          &:hover {
+            color: $nav_link_hover;
+            border-bottom: 2px solid $nav_link_hover;
+          }
         }
 
         & > span {
@@ -178,9 +187,12 @@ header {
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.1rem;
     overflow: hidden;
-    background: $white;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: $shadow_hover;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
     @media screen and (min-width: 576px) {
@@ -193,7 +205,7 @@ header {
     }
 
     &.open {
-      height: 25rem;
+      height: 10rem;
     }
 
     &_inner {
@@ -206,13 +218,14 @@ header {
       display: grid;
       place-items: center;
       padding: 0;
-      gap: 1.5rem;
+      gap: 3rem;
       margin-bottom: 1rem;
 
       li {
         cursor: pointer;
         &:hover {
-          color: $white;
+          color: $dark_text;
+          text-decoration: underline;
         }
 
         & > img {
