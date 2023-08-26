@@ -11,8 +11,17 @@ const preLoading = () => {
 const preLoadingHide = () => {
   p.style.display = "none";
 };
-
 mainBody.onload(preLoading());
+
+/* BACT TO TOP */
+const btnScrollToTop = document.querySelector("#back-to-top");
+btnScrollToTop.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
 
 const toogleBtn = document.querySelector(".toogle_btn");
 const toogleBtnIcon = document.querySelector(".toogle_btn i");
