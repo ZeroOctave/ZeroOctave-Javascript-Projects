@@ -231,10 +231,10 @@
   position: fixed;
   justify-content: space-evenly;
   align-items: center;
-  left: 2rem;
+  left: 0.5rem;
   bottom: 2rem;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   font-size: 1.2rem;
   border-radius: 50%;
   box-shadow: $shadow_hover;
@@ -243,4 +243,10 @@
   border: none;
   z-index: 100;
   cursor: pointer;
+
+  @media screen and (min-width: 576px) {
+    width: 50px;
+    height: 50px;
+    left: 1rem;
+  }
 }
