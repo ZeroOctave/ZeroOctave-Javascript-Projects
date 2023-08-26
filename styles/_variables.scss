@@ -136,3 +136,22 @@
     transform: translateY(-10px);
   }
 }
+
+#back-to-top {
+  display: flex;
+  position: fixed;
+  justify-content: space-evenly;
+  align-items: center;
+  left: 2rem;
+  bottom: 2rem;
+  width: 50px;
+  height: 50px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  box-shadow: $shadow_hover;
+  background: $dark_text;
+  color: $white;
+  border: none;
+  z-index: 10;
+  cursor: pointer;
+}
