@@ -15,6 +15,90 @@
   }
 }
 
+/* --------------------------------------PRELOADER VARIABLES-------------------------------------- */
+
+/* preloader */
+.preloadeR {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  z-index: 9999999;
+
+  &::after {
+    content: "ZeroOctave";
+    color: $dark_text;
+    display: block;
+    width: 100%;
+    height: 50%;
+    background: $main_bg;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.8rem;
+    font-weight: 800;
+    animation: pageUp 1s 2s forwards cubic-bezier(1, 0.75, 0.34, 0.03);
+    z-index: 1;
+  }
+  span {
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    text-transform: uppercase;
+    animation: spanAnimation 2s forwards;
+    z-index: 7;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 50%;
+    background: $white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: pageDown 1s 2s forwards cubic-bezier(1, 0.75, 0.34, 0.03);
+    z-index: 10;
+  }
+}
+
+@keyframes pageUp {
+  0% {
+    transform: translate(0, 0%);
+  }
+
+  100% {
+    transform: translate(0, -110%);
+  }
+}
+@keyframes pageDown {
+  0% {
+    transform: translate(0, 0%);
+  }
+
+  100% {
+    transform: translate(0, 110%);
+  }
+}
+
+@keyframes spanAnimation {
+  50% {
+    width: 100%;
+  }
+}
+
 /* --------------------------------------TEXT VARIABLES-------------------------------------- */
 
 .fw_100 {
