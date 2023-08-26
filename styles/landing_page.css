@@ -32,6 +32,83 @@
   }
 }
 
+/* --------------------------------------PRELOADER VARIABLES-------------------------------------- */
+/* preloader */
+.preloadeR {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  z-index: 9999999;
+}
+.preloadeR::after {
+  content: "ZeroOctave";
+  color: #131313;
+  display: block;
+  width: 100%;
+  height: 50%;
+  background: #f3f5f8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.8rem;
+  font-weight: 800;
+  animation: pageUp 1s 2s forwards cubic-bezier(1, 0.75, 0.34, 0.03);
+  z-index: 1;
+}
+.preloadeR span {
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  text-transform: uppercase;
+  animation: spanAnimation 2s forwards;
+  z-index: 7;
+}
+.preloadeR::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 50%;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: pageDown 1s 2s forwards cubic-bezier(1, 0.75, 0.34, 0.03);
+  z-index: 10;
+}
+
+@keyframes pageUp {
+  0% {
+    transform: translate(0, 0%);
+  }
+  100% {
+    transform: translate(0, -110%);
+  }
+}
+@keyframes pageDown {
+  0% {
+    transform: translate(0, 0%);
+  }
+  100% {
+    transform: translate(0, 110%);
+  }
+}
+@keyframes spanAnimation {
+  50% {
+    width: 100%;
+  }
+}
 /* --------------------------------------TEXT VARIABLES-------------------------------------- */
 .fw_100 {
   font-weight: 100;
@@ -621,6 +698,12 @@ footer .footer_inner ul {
     text-align: center;
   }
 }
+footer .footer_inner ul a {
+  color: #131313;
+}
+footer .footer_inner ul a:hover {
+  color: #ff914d;
+}
 footer .footer_inner ul li {
   gap: 0.8rem;
   font-size: 0.8rem;
@@ -636,6 +719,9 @@ footer .footer_inner ul li {
   footer .footer_inner ul li {
     font-size: 1rem;
   }
+}
+footer .footer_inner ul li:hover {
+  color: #ff914d;
 }
 footer .footer_left > div {
   display: flex;
@@ -697,6 +783,21 @@ footer .footer_right h3 {
 }
 footer .footer_right .follow_us a {
   text-decoration: none;
+}
+footer .footer_right .follow_us ul {
+  text-align: left;
+  text-transform: capitalize;
+}
+footer .footer_right .follow_us ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+footer .footer_right .follow_us ul li span {
+  padding-top: 0.3rem;
+  font-size: 1.3rem;
 }
 footer .footer_bottom {
   margin-top: 3rem;

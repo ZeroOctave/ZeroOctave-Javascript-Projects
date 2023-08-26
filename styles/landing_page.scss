@@ -433,6 +433,13 @@ footer {
           text-align: center;
         }
 
+        a {
+          color: $dark_text;
+
+          &:hover {
+            color: $nav_link_hover;
+          }
+        }
         li {
           gap: 0.8rem;
           font-size: 0.8rem;
@@ -446,6 +453,10 @@ footer {
 
           @media screen and (min-width: 400px) {
             font-size: 1rem;
+          }
+
+          &:hover {
+            color: $nav_link_hover;
           }
         }
       }
@@ -510,6 +521,19 @@ footer {
       .follow_us {
         a {
           text-decoration: none;
+        }
+        ul {
+          text-align: left;
+          text-transform: capitalize;
+          li {
+            @include flex_center();
+            justify-content: flex-start;
+            cursor: pointer;
+            span {
+              padding-top: 0.3rem;
+              font-size: 1.3rem;
+            }
+          }
         }
       }
     }
