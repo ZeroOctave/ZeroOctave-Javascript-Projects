@@ -1,3 +1,17 @@
+/* PRELOADER FUNCTION */
+const mainBody = document.querySelector("body");
+const p = document.querySelector("#preLoading");
+
+const preLoading = () => {
+  setTimeout(myFunction(), 1000);
+};
+
+const myFunction = () => {
+  p.style.display = "none";
+};
+
+mainBody.onload(() => preLoading());
+
 const toogleBtn = document.querySelector(".toogle_btn");
 const toogleBtnIcon = document.querySelector(".toogle_btn i");
 const menu = document.querySelector(".dropdown_menu");
