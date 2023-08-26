@@ -87,9 +87,10 @@
   animation: pageDown 1s 2s forwards cubic-bezier(1, 0.75, 0.34, 0.03);
   z-index: 10;
 }
-.preloadeR.p_hide {
+.preloadeR.hidden {
+  opacity: 0;
   display: none !important;
-  z-index: -10000;
+  z-index: -1000;
 }
 
 @keyframes pageUp {

@@ -73,9 +73,10 @@
     z-index: 10;
   }
 
-  &.p_hide {
+  &.hidden {
+    opacity: 0;
     display: none !important;
-    z-index: -10000;
+    z-index: -1000;
   }
 }
 
