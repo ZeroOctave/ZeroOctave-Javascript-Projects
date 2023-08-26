@@ -27,7 +27,6 @@ const toogleBtn = document.querySelector(".toogle_btn");
 const toogleBtnIcon = document.querySelector(".toogle_btn i");
 const menu = document.querySelector(".dropdown_menu");
 const menuLists = document.querySelectorAll(".menu_lists li");
-const navScroll = document.querySelector(".navbar");
 
 /* NAV-FUNCTIONS */
 
