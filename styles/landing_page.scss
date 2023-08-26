@@ -404,3 +404,129 @@ header {
     }
   }
 }
+
+/* --------------------------------------FOOTER SECTION-------------------------------------- */
+footer {
+  background-color: $white;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  .footer {
+    &_inner {
+      display: grid;
+      justify-content: space-around;
+      gap: 2rem;
+      align-items: flex-start;
+      padding: 1rem;
+      @media screen and (min-width: 992px) {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+      }
+
+      ul {
+        padding: 0;
+        text-align: left;
+        display: grid;
+        gap: 0.5rem;
+
+        @media screen and (min-width: 768px) {
+          text-align: center;
+        }
+
+        li {
+          gap: 0.8rem;
+          font-size: 0.8rem;
+          font-weight: 500;
+          letter-spacing: 0.1px;
+          line-height: normal;
+          color: $black;
+          width: 100%;
+          max-width: 20rem;
+          cursor: pointer;
+
+          @media screen and (min-width: 400px) {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    &_left {
+      & > div {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        text-transform: capitalize;
+
+        h3 {
+          font-size: 2rem;
+          margin-bottom: 0;
+          @media screen and (min-width: 768px) {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+      p {
+        width: 100%;
+        max-width: 27rem;
+        line-height: 1.3rem;
+
+        @media screen and (min-width: 1200px) {
+          max-width: 30rem;
+          line-height: 1.5rem;
+        }
+      }
+    }
+
+    &_right {
+      display: grid;
+      place-items: left;
+      align-items: flex-start;
+      gap: 3rem;
+
+      @media screen and (min-width: 768px) {
+        @include flex_center();
+        align-items: flex-start;
+        gap: 6.5rem;
+      }
+
+      h3 {
+        text-transform: capitalize;
+        color: $dark_text;
+        font-weight: 600;
+        font-size: 1.3rem;
+        word-spacing: 0.4em;
+        letter-spacing: 0.1em;
+        margin-bottom: 0.5rem;
+        text-decoration: underline;
+
+        @media screen and (min-width: 768px) {
+          font-size: 1.5rem;
+          margin-bottom: 1.5rem;
+        }
+      }
+
+      .follow_us {
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+    &_bottom {
+      margin-top: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: capitalize;
+      text-align: center;
+      font-weight: 600;
+      font-size: 0.8rem;
+      line-height: normal;
+
+      @media screen and (min-width: 992px) {
+        font-size: 1rem;
+      }
+    }
+  }
+}
