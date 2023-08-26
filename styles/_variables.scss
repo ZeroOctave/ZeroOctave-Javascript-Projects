@@ -30,7 +30,7 @@
   transform: translate(-50%, -50%);
   font-weight: 900;
   letter-spacing: 0.2em;
-  z-index: 9999999;
+  z-index: 9999;
 
   &::after {
     content: "ZeroOctave";
@@ -54,7 +54,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: $nav_link_hover;
     text-transform: uppercase;
     animation: spanAnimation 2s forwards;
     z-index: 7;
@@ -71,6 +71,11 @@
     left: 0;
     animation: pageDown 1s 2s forwards cubic-bezier(1, 0.75, 0.34, 0.03);
     z-index: 10;
+  }
+
+  &.p_hide {
+    display: none !important;
+    z-index: -10000;
   }
 }
 
@@ -236,6 +241,6 @@
   background: $dark_text;
   color: $white;
   border: none;
-  z-index: 10;
+  z-index: 100;
   cursor: pointer;
 }
