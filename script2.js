@@ -69,3 +69,45 @@ document.onscroll = (e) => {
     isClose();
   }
 };
+
+const animationUp = document.querySelectorAll(".animations_up");
+const animationDown = document.querySelectorAll(".animations_down");
+const animationLeft = document.querySelectorAll(".animations_left");
+const animationRight = document.querySelectorAll(".animations_right");
+
+const scrollObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("scroll-animation");
+      } else {
+        entry.target.classList.remove("scroll-animation");
+      }
+    });
+  },
+  { threshold: 0.1 }
+);
+
+for (let i = 0; i < animationUp.length; i++) {
+  const elements = animationUp[i];
+
+  scrollObserver.observe(elements);
+}
+/*  */
+for (let i = 0; i < animationDown.length; i++) {
+  const elements = animationDown[i];
+
+  scrollObserver.observe(elements);
+}
+/*  */
+for (let i = 0; i < animationLeft.length; i++) {
+  const elements = animationLeft[i];
+
+  scrollObserver.observe(elements);
+}
+/*  */
+for (let i = 0; i < animationRight.length; i++) {
+  const elements = animationRight[i];
+
+  scrollObserver.observe(elements);
+}
