@@ -73,36 +73,28 @@ header {
         gap: 2rem;
       }
 
+      a {
+        font-weight: 500;
+        font-size: 1rem;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          text-decoration: underline;
+        }
+        &:nth-child(1) {
+          color: $nav_link_hover;
+        }
+
+        &:nth-child(2) {
+          color: $dark_text;
+        }
+      }
+
       li {
         display: flex;
         align-items: baseline;
         justify-content: center;
         gap: 0.1rem;
         cursor: pointer;
-        color: $dark_text;
-        font-weight: 600;
-        font-size: 1.2rem;
-        transition: all 0.3s ease-in-out;
-        &:nth-child(1) {
-          &:hover {
-            color: $dark_text;
-            border-bottom: 2px solid $dark_text;
-          }
-        }
-
-        &:nth-child(2) {
-          &:hover {
-            color: $nav_link_hover;
-            border-bottom: 2px solid $nav_link_hover;
-          }
-        }
-
-        & > span {
-          display: none;
-          @media screen and (min-width: 1200px) {
-            display: block;
-          }
-        }
       }
     }
     &_inner {
@@ -113,11 +105,10 @@ header {
       text-transform: capitalize;
       font-size: 1rem;
       @media screen and (min-width: 1200px) {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
       }
 
       .menu_items,
-      .contact_items,
       .navbar_right {
         display: none;
       }
@@ -133,7 +124,6 @@ header {
 
       @media screen and (min-width: 992px) {
         .menu_items,
-        .contact_items,
         .navbar_right {
           display: block;
         }
@@ -150,7 +140,7 @@ header {
       letter-spacing: 0.1px;
 
       @media screen and (min-width: 576px) {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
       }
 
       img {
@@ -226,11 +216,6 @@ header {
         &:hover {
           color: $dark_text;
           text-decoration: underline;
-        }
-
-        & > img {
-          position: relative;
-          inset: 0.6rem 0;
         }
       }
     }
@@ -316,10 +301,6 @@ header {
         @media screen and (min-width: 400px) {
           @include flex_center();
         }
-
-        span {
-          @include flex_center();
-        }
       }
 
       &_right {
@@ -336,6 +317,7 @@ header {
           background: $light_border;
           width: 2.8rem;
           aspect-ratio: 1/1;
+          padding-bottom: 0.3rem;
         }
 
         input {
@@ -365,8 +347,8 @@ header {
       }
 
       &_box {
-        width: 20rem;
-        height: 25rem;
+        width: 17.5rem;
+        height: 23rem;
         border-radius: 10px;
         display: grid;
         gap: 0.5rem;
@@ -377,7 +359,7 @@ header {
         box-shadow: $shadow_box;
 
         &:hover {
-          font-weight: 700;
+          font-weight: 600;
           box-shadow: $shadow_hover;
         }
 
@@ -393,7 +375,7 @@ header {
         }
 
         &_name {
-          font-size: 1.3rem;
+          font-size: 1.1rem;
         }
 
         &_link {
@@ -543,7 +525,6 @@ footer {
             justify-content: flex-start;
             cursor: pointer;
             span {
-              padding-top: 0.3rem;
               font-size: 1.3rem;
             }
           }

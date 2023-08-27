@@ -153,7 +153,7 @@
   }
 
   @media screen and (min-width: 992px) {
-    font-size: 3rem;
+    font-size: 3.2rem;
   }
 }
 
@@ -246,4 +246,50 @@
     height: 50px;
     left: 1rem;
   }
+}
+
+span {
+  i {
+    position: relative;
+    inset: 0.2rem 0;
+  }
+}
+
+/* ADDING SCROLL ANIMATIONS */
+.animations_up {
+  opacity: 0.3;
+  transform: translateY(100px);
+  transition: all 0.4s ease-out;
+  transition-delay: 0.4s;
+}
+
+/*  */
+.animations_down {
+  opacity: 0.3;
+  transform: translateY(-100px);
+  transition: all 0.4s ease-out;
+  transition-delay: 0.4s;
+}
+
+/*  */
+.animations_left {
+  opacity: 0.3;
+  transform: translateX(-110px);
+  transition: all 0.4s ease-out;
+  transition-delay: 0.4s;
+  overflow: hidden;
+  &_special {
+    @media screen and (min-width: 1400px) {
+      opacity: 0;
+      transform: translateY(100px);
+      transition: all 0.4s ease-out;
+      transition-delay: 0.4s;
+    }
+  }
+}
+
+/*  */
+.scroll-animation {
+  opacity: 1;
+  transform: translate(0);
 }

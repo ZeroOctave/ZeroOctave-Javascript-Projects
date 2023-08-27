@@ -172,7 +172,7 @@
 }
 @media screen and (min-width: 992px) {
   .large_text {
-    font-size: 3rem;
+    font-size: 3.2rem;
   }
 }
 
@@ -264,6 +264,50 @@
   }
 }
 
+span i {
+  position: relative;
+  inset: 0.2rem 0;
+}
+
+/* ADDING SCROLL ANIMATIONS */
+.animations_up {
+  opacity: 0.3;
+  transform: translateY(100px);
+  transition: all 0.4s ease-out;
+  transition-delay: 0.4s;
+}
+
+/*  */
+.animations_down {
+  opacity: 0.3;
+  transform: translateY(-100px);
+  transition: all 0.4s ease-out;
+  transition-delay: 0.4s;
+}
+
+/*  */
+.animations_left {
+  opacity: 0.3;
+  transform: translateX(-110px);
+  transition: all 0.4s ease-out;
+  transition-delay: 0.4s;
+  overflow: hidden;
+}
+@media screen and (min-width: 1400px) {
+  .animations_left_special {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.4s ease-out;
+    transition-delay: 0.4s;
+  }
+}
+
+/*  */
+.scroll-animation {
+  opacity: 1;
+  transform: translate(0);
+}
+
 *,
 *::after,
 *::before {
@@ -340,32 +384,26 @@ header .navbar ul {
     gap: 2rem;
   }
 }
+header .navbar ul a {
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+header .navbar ul a:hover {
+  text-decoration: underline;
+}
+header .navbar ul a:nth-child(1) {
+  color: #ff914d;
+}
+header .navbar ul a:nth-child(2) {
+  color: #131313;
+}
 header .navbar ul li {
   display: flex;
   align-items: baseline;
   justify-content: center;
   gap: 0.1rem;
   cursor: pointer;
-  color: #131313;
-  font-weight: 600;
-  font-size: 1.2rem;
-  transition: all 0.3s ease-in-out;
-}
-header .navbar ul li:nth-child(1):hover {
-  color: #131313;
-  border-bottom: 2px solid #131313;
-}
-header .navbar ul li:nth-child(2):hover {
-  color: #ff914d;
-  border-bottom: 2px solid #ff914d;
-}
-header .navbar ul li > span {
-  display: none;
-}
-@media screen and (min-width: 1200px) {
-  header .navbar ul li > span {
-    display: block;
-  }
 }
 header .navbar_inner {
   display: flex;
@@ -377,11 +415,10 @@ header .navbar_inner {
 }
 @media screen and (min-width: 1200px) {
   header .navbar_inner {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 }
 header .navbar_inner .menu_items,
-header .navbar_inner .contact_items,
 header .navbar_inner .navbar_right {
   display: none;
 }
@@ -395,7 +432,6 @@ header .navbar_inner .toogle_btn {
 }
 @media screen and (min-width: 992px) {
   header .navbar_inner .menu_items,
-  header .navbar_inner .contact_items,
   header .navbar_inner .navbar_right {
     display: block;
   }
@@ -412,7 +448,7 @@ header .navbar_logo_sec {
 }
 @media screen and (min-width: 576px) {
   header .navbar_logo_sec {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 header .navbar_logo_sec img {
@@ -490,10 +526,6 @@ header .dropdown_menu ul li {
 header .dropdown_menu ul li:hover {
   color: #131313;
   text-decoration: underline;
-}
-header .dropdown_menu ul li > img {
-  position: relative;
-  inset: 0.6rem 0;
 }
 @media screen and (min-width: 992px) {
   header .dropdown_menu {
@@ -586,11 +618,6 @@ header .dropdown_menu ul li > img {
     align-items: center;
   }
 }
-.card_inner .searchbar_left span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .card_inner .searchbar_right {
   display: flex;
   justify-content: center;
@@ -612,6 +639,7 @@ header .dropdown_menu ul li > img {
   background: #e5e9ef;
   width: 2.8rem;
   aspect-ratio: 1/1;
+  padding-bottom: 0.3rem;
 }
 .card_inner .searchbar_right input {
   width: 100%;
@@ -640,8 +668,8 @@ header .dropdown_menu ul li > img {
   gap: 0.5rem;
 }
 .card_inner .project_box {
-  width: 20rem;
-  height: 25rem;
+  width: 17.5rem;
+  height: 23rem;
   border-radius: 10px;
   display: grid;
   gap: 0.5rem;
@@ -652,7 +680,7 @@ header .dropdown_menu ul li > img {
   box-shadow: 0px 0px 30px 0px rgba(14, 41, 50, 0.08);
 }
 .card_inner .project_box:hover {
-  font-weight: 700;
+  font-weight: 600;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 .card_inner .project_box_image {
@@ -665,7 +693,7 @@ header .dropdown_menu ul li > img {
   height: 100%;
 }
 .card_inner .project_box_name {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 .card_inner .project_box_link {
   position: absolute;
@@ -813,7 +841,6 @@ footer .footer_right .follow_us ul li {
   cursor: pointer;
 }
 footer .footer_right .follow_us ul li span {
-  padding-top: 0.3rem;
   font-size: 1.3rem;
 }
 footer .footer_bottom {
