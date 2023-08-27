@@ -321,6 +321,22 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f5f8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #131313;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff914d;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;

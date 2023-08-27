@@ -14,6 +14,21 @@
 html {
   scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: $main_bg;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $dark_text;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $nav_link_hover;
+}
 
 body {
   font-family: "Inter", sans-serif;
