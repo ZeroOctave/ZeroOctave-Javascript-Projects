@@ -1,0 +1,49 @@
+
+body {
+    background-image:url("../Images/background_url-short.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ 
+ 
+ .head{
+     padding:50px;
+     width:200px;
+     text-align: center;
+     color: white;
+     /* background-color: black; */
+ 
+ }
+ 
+ .head2, .head3{
+     background-color: black;
+     font-family: cursive;
+ }
+ 
+ .pasteurlbox{
+     width: 200px;
+     text-align: center;
+     margin-left:20px;
+     font-family:sans-serif
+ }
+ 
+ 
+ #pastebox{
+     background-color:purple;
+     color: white;
+     border-radius: 5px;
+ 
+ }
+ 
+ .copyurlbox{
+     background-color: white;
+     width: 200px;
+     margin-left: 20px;
+     display: inline-block;
+ }
+ 
+ 
+ .copybtn{
+     background-color:purple;
+     color:white;
+ }
