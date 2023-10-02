@@ -392,6 +392,11 @@
         "link": "Public/key_Detector.html"
     },
     {
+        "name": "Light Bulb",
+        "image": "assets/Images/Bulb.png",
+        "link": "Public/bulb.html"
+    },
+    {
         "name": "Loan Calculator",
         "image": "assets/Images/loancalculator.png",
         "link": "Public/loan-calculator.html"

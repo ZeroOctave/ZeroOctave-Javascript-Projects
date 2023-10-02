@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+.bg{
+    background-color: white;
+}
+div{
+    text-align: center;
+}
+h1{
+    color: Gold;
+}
+#bulb{
+    width: 11%;
+    height: 140px;
+    border: 2px solid black;
+    margin: 0 auto;
+    border-top-left-radius: 74%;
+    border-top-right-radius: 95px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+}
+
+.glow{
+    background-color: yellow;
+}
+
+.holder{
+    width: 10%;
+    background-color: gray;
+    height: 21px;
+    border-radius: 10px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.holder1{
+    width: 9%;
+}
+.holder2{
+    width: 8%;
+}
+.holder3{
+    width: 7%;
+}
+
+button{
+    margin-top: 20px;
+    width: 148px;
+    font-size: 19px;
+}
