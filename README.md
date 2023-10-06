@@ -51,16 +51,17 @@
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 <div id="About"></div>
 
-# About❓
-Getting started with web development? What else would be better than practising it.
 
-So welcome developer. You are at the right place.😊
+# What's this all about? ❓
+Just diving into the world of web development? There's no better way to learn than by diving into hands-on practice.
 
-ZeroOctave Javascript Projects provide some awesome web development projects to work upon and enhance your skills.
+Welcome, developer! You've landed in the perfect spot. 😊
 
-The motive🎯 of this project is to help new learners like you to get familiar with web development skills.
+ZeroOctave's JavaScript Projects offer a fantastic array of web development projects for you to tackle and level up your skills.
 
-Happy coding.👍
+The goal 🎯 of this initiative is to assist new learners, just like you, in becoming well-acquainted with the ins and outs of web development.
+
+Get coding and enjoy the process. 👍
 
 **So, What are you waiting for?**
 <br>
