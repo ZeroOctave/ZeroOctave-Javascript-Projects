@@ -9,10 +9,11 @@
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to right, #00d0ff, #55ff00);
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
 }
+ 
 
-.calculator-grid {
+.calculator-grid { 
   display: grid;
   justify-content: center;
   align-content: center;
@@ -24,13 +25,26 @@ body {
 .calculator-grid>button {
   cursor: pointer;
   font-size: 2rem;
-  border: 1px solid white;
+  color: #fff;
+  
+  background-color: transparent;
+  /* border: 1px solid white; */
   outline: none;
-  background-color: rgba(255, 255, 255, .75);
+  /* background-color: rgba(255, 255, 255, .75); */
 }
 
 .calculator-grid>button:hover {
+  color: #0a0a0a;
   background-color: rgba(255, 255, 255, .9);
+}
+
+.operationbtn{ 
+  color: #fbff00 !important;
+  background: #1e1919 !important;
+}
+.operationbtn:hover{ 
+  background-color: #000 !important;
+  
 }
 
 .pie-button {
@@ -47,12 +61,19 @@ body {
 }
 
 .span-two {
+  color: white !important;
+  font-size: 32px !important;
+  font-weight: 800;
+  background:  orangered !important;
   grid-column: span 2;
+}
+.span-two:hover{
+  background: rgba(255, 68, 0, 0.888) !important;
 }
 
 .output {
   grid-column: 1 / -1;
-  background-color: rgba(0, 0, 0, 0.74);
+  background-color: #0000006a;
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
