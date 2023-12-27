@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Crime Reporting Interface</title>
+</head>
+<body>
+
+    <form id="crimeReportForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="crimeDescription">Description of the Crime:</label>
+        <textarea id="crimeDescription" name="crimeDescription" rows="4" required></textarea>
+
+        <label for="region">Region:</label>
+        <select id="region" name="region" required>
+            <option value="" disabled selected>Select Region</option>
+            <option value="north">North</option>
+            <option value="south">South</option>
+            <option value="east">East</option>
+            <option value="west">West</option>
+        </select>
+
+        <label for="county">County:</label>
+        <select id="county" name="county" required>
+            <option value="" disabled selected>Select County</option>
+            <!-- Add options for counties based on the selected region -->
+        </select>
+
+        <button type="button" onclick="submitCrimeReport()">Submit Report</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
