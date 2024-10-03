@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette Generator</title>
+    <link rel="stylesheet" href="../assets/css/color-palette-generator.css">
+</head>
+<body>
+    <div class="palette-container">
+        <div class="color-box" id="color1">
+            <span class="hex-code" id="hex1">#FFFFFF</span>
+            <button class="lock-btn" onclick="toggleLock(1)">🔓</button>
+            <button class="copy-btn" onclick="copyToClipboard(1)">📋</button>
+        </div>
+        <div class="color-box" id="color2">
+            <span class="hex-code" id="hex2">#FFFFFF</span>
+            <button class="lock-btn" onclick="toggleLock(2)">🔓</button>
+            <button class="copy-btn" onclick="copyToClipboard(2)">📋</button>
+        </div>
+        <div class="color-box" id="color3">
+            <span class="hex-code" id="hex3">#FFFFFF</span>
+            <button class="lock-btn" onclick="toggleLock(3)">🔓</button>
+            <button class="copy-btn" onclick="copyToClipboard(3)">📋</button>
+        </div>
+        <div class="color-box" id="color4">
+            <span class="hex-code" id="hex4">#FFFFFF</span>
+            <button class="lock-btn" onclick="toggleLock(4)">🔓</button>
+            <button class="copy-btn" onclick="copyToClipboard(4)">📋</button>
+        </div>
+        <div class="color-box" id="color5">
+            <span class="hex-code" id="hex5">#FFFFFF</span>
+            <button class="lock-btn" onclick="toggleLock(5)">🔓</button>
+            <button class="copy-btn" onclick="copyToClipboard(5)">📋</button>
+        </div>
+    </div>
+    <div class="controls">
+        <button id="generateBtn" onclick="generateColors()">Generate Palette</button>
+    </div>
+    <script src="../assets/Js/color-palette-generator.js"></script>
+</body>
+</html>
