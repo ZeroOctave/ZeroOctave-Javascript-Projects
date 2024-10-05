@@ -1,0 +1,182 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #2c2c2c;
+    overflow: hidden;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.terminal-container {
+    width: 100%;
+    max-width: 1080px;
+    z-index: 10;
+}
+
+.terminal {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+}
+
+.terminal-header {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4ade80;
+    margin-bottom: 1.2rem;
+}
+
+.terminal-output {
+    height: 480px;
+    overflow-y: auto;
+    background-color: #000;
+    color: #4ade80;
+    padding: 1.2rem;
+    white-space: pre-wrap;
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    border-radius: 6px;
+}
+
+.terminal-input {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    padding: 0.75rem;
+    border-radius: 7px;
+}
+
+.prompt {
+    color: #4ade80;
+    margin-right: 0.75rem;
+    font-size: 1.125rem;
+}
+
+#command-input {
+    flex-grow: 1;
+    background-color: transparent;
+    color: #4ade80;
+    border: none;
+    font-family: inherit;
+    font-size: 1.125rem;
+}
+
+#command-input:focus {
+    outline: none;
+}
+
+/* Scrollbar Styling */
+.terminal-output::-webkit-scrollbar {
+    width: 12px;
+}
+
+.terminal-output::-webkit-scrollbar-track {
+    background: #1a202c;
+}
+
+.terminal-output::-webkit-scrollbar-thumb {
+    background-color: #4ade80;
+    border-radius: 6px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .terminal-container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 992px) {
+    .terminal-container {
+        width: 90%;
+    }
+
+    .terminal-header {
+        font-size: 1.3rem;
+    }
+
+    .terminal-output {
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .terminal-container {
+        width: 95%;
+    }
+
+    .terminal {
+        padding: 16px;
+    }
+
+    .terminal-header {
+        font-size: 1.2rem;
+    }
+
+    .terminal-output {
+        height: 350px;
+        font-size: 0.9rem;
+    }
+
+    .prompt,
+    #command-input {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .terminal-container {
+        width: 100%;
+    }
+
+    .terminal {
+        padding: 12px;
+        border-radius: 8px;
+    }
+
+    .terminal-header {
+        font-size: 1.1rem;
+    }
+
+    .terminal-output {
+        height: 300px;
+        font-size: 0.8rem;
+    }
+
+    .prompt,
+    #command-input {
+        font-size: 0.9rem;
+    }
+}
+
+.credit {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.8rem;
+    color: #4ade80;
+    text-align: right;
+    z-index: 100;
+}
+
+.credit a {
+    color: #4ade80;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.credit a:hover {
+    text-decoration: underline;
+}
