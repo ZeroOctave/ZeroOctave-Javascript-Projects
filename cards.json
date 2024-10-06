@@ -48,7 +48,6 @@
         "name": "Birthday_card",
         "image": "assets/Images/birthday_card.png",
         "link": "Public/Birthday_card.html"
-
     },
     {
         "name": "BMI Calculator",
@@ -100,7 +99,6 @@
         "image": "assets/Images/Candy Store/cover1.jpg",
         "link": "Public/Candy Store/index.html"
     },
-
     {
         "name": "Car Race",
         "image": "assets/Images/car.jpg",
@@ -147,9 +145,9 @@
         "link": "Public/connectfour.html"
     },
     {
-	      "name":"Color Game",
-	      "image": "assets/Images/color-game.png" ,
-	      "link":"Public/color-game.html"
+        "name": "Color Game",
+        "image": "assets/Images/color-game.png",
+        "link": "Public/color-game.html"
     },
     {
         "name": "Confirm Password Validator",
@@ -247,9 +245,9 @@
         "link": "Public/EmailValidator.html"
     },
     {
-	"name": "Employee database management",
-	"image": "assets/Images/employeeDatabase.png",
-	"link": "Public/employeeDatabase.html"
+        "name": "Employee database management",
+        "image": "assets/Images/employeeDatabase.png",
+        "link": "Public/employeeDatabase.html"
     },
     {
         "name": "Expanding Cards UI design",
@@ -291,7 +289,7 @@
         "image": "assets/Images/food-filter/sweets-1.jpeg",
         "link": "Public/food-filter.html"
     },
-     {
+    {
         "name": "Food Master",
         "image": "assets/Images/Food Master.png",
         "link": "Public/Foodmaster.html"
@@ -339,7 +337,7 @@
     {
         "name": "Grocery Manager",
         "image": "assets/Images/grocerymanager.png",
-	      "link": "Public/grocerymanager.html"
+        "link": "Public/grocerymanager.html"
     },
     {
         "name": "Guess Color",
@@ -517,9 +515,9 @@
         "link": "Public/placeholder.html"
     },
     {
-	"name":"Picture Frame",
-        "image":"assets/Images/picture-frame.jpg",
-        "link":"Public/picture-frame.html"
+        "name": "Picture Frame",
+        "image": "assets/Images/picture-frame.jpg",
+        "link": "Public/picture-frame.html"
     },
     {
         "name": "Pong",
@@ -644,7 +642,7 @@
     {
         "name": "SimplyRecipes",
         "image": "assets/Images/SimplyRecipes/assets/main.jpeg",
-        "link" : "Public/SimplyRecipes"
+        "link": "Public/SimplyRecipes"
     },
     {
         "name": "Snake",
@@ -791,7 +789,7 @@
         "image": "assets/Images/trackerExpense/logo51-removebg-preview.png",
         "link": "Public/trackerExpense/index.html"
     },
-     {
+    {
         "name": "Tourist Website",
         "image": "assets/Images/Skardu.jpg",
         "link": "Public/Tourist_Website/index.html"
@@ -865,7 +863,10 @@
         "name": "YouTube Clone",
         "image": "assets/Images/YouTubeClone/YouTubeClone.png",
         "link": "Public/YouTube_Clone/index.html"
+    },
+    {
+        "name": "Terminal Portfolio",
+        "image": "assets/Images/Terminal-Portfolio/terminal-portfolio.png",
+        "link": "Public/Terminal-Portfolio/index.html"
     }
-     
 ]
-
