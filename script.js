@@ -22,14 +22,26 @@ searchBar.addEventListener('keyup', (e) => {
   displayProjects(filteredProjects);
 });
 
-const getProject = fetch('cards.json')
+/*const getProject = fetch('cards.json')
                 .then(response => response.json())
                 .then(data => {
                     projects = data;
                     displayProjects(projects)
                     console.log(projects)
 
+});*/
+function getProject() {
+  fetch('cards.json')
+    .then(response => response.json())
+    .then(data => {
+      projects = data;
+      displayProjects(projects);
+       projects.forEach(project => {
+  console.log(project.name);
 });
+    
+    });
+}
 
 const displayProjects = (projects) => {
   const htmlString = projects
