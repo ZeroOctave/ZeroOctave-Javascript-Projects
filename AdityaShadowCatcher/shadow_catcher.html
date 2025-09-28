@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shadow Catcher</title>
+  <style>
+    body { margin:0; overflow:hidden; background:#222; }
+    canvas { display:block; background:#333; }
+  </style>
+</head>
+<body>
+<canvas id="game"></canvas>
+<script>
+const canvas = document.getElementById('game');
+const ctx = canvas.getContext('2d');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+let mouse = {x: canvas.width/2, y: canvas.height/2};
+let score = 0;
+
+// listen to mouse movement
+window.addEventListener('mousemove', e => {
+  mouse.x = e.clientX;
+  mouse.y = e.clientY;
+});
+
+// generate shadows
+let shadows = [];
+for(let i=0; i<5; i++){
+  shadows.push({
+    x: Math.random()*canvas.width,
+    y: Math.random()*canvas.height,
+    size: 30 + Math.random()*30,
+    dx: (Math.random()-0.5)*2,
+    dy: (Math.random()-0.5)*2,
+    color: `hsl(${Math.random()*360}, 80%, 50%)`
+  });
+}
+
+// game loop
+function animate(){
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+
+  // draw light (player)
+  ctx.beginPath();
+  ctx.arc(mouse.x, mouse.y, 50, 0, Math.PI*2);
+  ctx.fillStyle = 'rgba(255,255,150,0.3)';
+  ctx.fill();
+
+  // draw and move shadows
+  shadows.forEach(sh => {
+    // increase speed with score
+    let speedMultiplier = 1 + Math.floor(score/20) * 0.5; // tiered increase
+    sh.x += sh.dx * speedMultiplier;
+    sh.y += sh.dy * speedMultiplier;
+
+    // bounce off edges
+    if(sh.x < 0 || sh.x > canvas.width) sh.dx *= -1;
+    if(sh.y < 0 || sh.y > canvas.height) sh.dy *= -1;
+
+    // draw shadow
+    ctx.beginPath();
+    ctx.arc(sh.x, sh.y, sh.size, 0, Math.PI*2);
+    ctx.fillStyle = sh.color;
+    ctx.fill();
+
+    // check if shadow is in light
+    let dist = Math.hypot(mouse.x - sh.x, mouse.y - sh.y);
+    if(dist < 50){
+      score++;
+      sh.x = Math.random()*canvas.width;
+      sh.y = Math.random()*canvas.height;
+      sh.color = `hsl(${Math.random()*360}, 80%, 50%)`; // new color
+    }
+  });
+
+  // display score
+  ctx.fillStyle = 'white';
+  ctx.font = '24px Arial';
+  ctx.fillText('Score: '+score, 20, 30);
+
+  requestAnimationFrame(animate);
+}
+
+animate();
+</script>
+</body>
+</html>
