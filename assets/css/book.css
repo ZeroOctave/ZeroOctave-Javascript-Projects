@@ -972,3 +972,111 @@ UPDATE: dont use display:  none!*/
 }
 
 
+/* ===============================
+   TESTIMONIALS SECTION
+================================= */
+.testimonials {
+  background: #fdfdfd;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.dark-mode .testimonials {
+  background: #181818;
+  color: #eee;
+}
+
+.testimonials .heading span {
+  font-size: 2.2rem;
+  color: #333;
+  background: #ffd700;
+  padding: 0.4rem 1.2rem;
+  border-radius: 6px;
+}
+
+.dark-mode .testimonials .heading span {
+  background: #f1c40f;
+  color: #111;
+}
+
+.testimonials-slider {
+  width: 90%;
+  max-width: 1000px;
+  margin: 3rem auto;
+}
+
+.testimonial-box {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-content {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2.5rem 2rem;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-content:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.15);
+}
+
+.dark-mode .testimonial-content {
+  background: #242424;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ffd700;
+  margin-bottom: 1rem;
+}
+
+.testimonial-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.dark-mode .testimonial-content h3 {
+  color: #f1f1f1;
+}
+
+.testimonial-content p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.dark-mode .testimonial-content p {
+  color: #ddd;
+}
+
+.stars i {
+  color: #fbc02d;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffd700;
+  transition: 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #222;
+}
+
+.dark-mode .swiper-button-next:hover,
+.dark-mode .swiper-button-prev:hover {
+  color: #f1f1f1;
+}
