@@ -22,7 +22,6 @@
 }
 
 /* Full-width input fields */
-input[type="text"],
 input[type="text"] {
   width: 100%;
   padding: 15px;
@@ -32,7 +31,6 @@ input[type="text"] {
   background: #f1f1f1;
 }
 
-input[type="number"]:focus,
 input[type="number"]:focus {
   background-color: #ddd;
   outline: none;
@@ -99,17 +97,6 @@ a {
 }
 
 /* --------------------------------------------------------------------------------- */
-#myTable,
-th,
-td {
-  border: 2px solid rgb(214, 130, 130);
-  /* border-radius: 30px; */
-  border-collapse: collapse;
-}
-th,
-td {
-  padding: 10px;
-}
 th {
   background-color: rgb(175, 173, 173);
 }
@@ -129,9 +116,6 @@ th {
 }
 
 
-* {
-  box-sizing: border-box;
-}
 
 #myInput {
 
