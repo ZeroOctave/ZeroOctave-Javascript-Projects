@@ -314,7 +314,7 @@ Or you can create a  <a href="https://github.com/ZeroOctave/ZeroOctave-Javascrip
 
 <br>
 
-<p align="right"><a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" /></a></p>
+<p align="left"><a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" /></a></p>
 
 <div align="center">
 
@@ -323,7 +323,7 @@ Or you can create a  <a href="https://github.com/ZeroOctave/ZeroOctave-Javascrip
 </div>
 
 
-<div id="Bottom"></div>
+<div id="Top"></div>
 
 
 
